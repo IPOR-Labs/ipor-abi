@@ -1,3 +1,3 @@
 # ipor-abi
 
-In this repository you can find ABIs and all addresses used in IPOR Protocol and other modules built in IPOR Labs Organization.
+In this repository you can find all ABIs and all addresses created and used in IPOR Protocol and other modules built in IPOR Labs Organization.
