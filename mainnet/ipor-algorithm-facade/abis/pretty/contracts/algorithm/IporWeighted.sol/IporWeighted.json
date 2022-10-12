@@ -1,0 +1,17 @@
+[
+  "event AdminChanged(address,address)",
+  "event AppointedToTransferOwnership(address indexed)",
+  "event BeaconUpgraded(address indexed)",
+  "event OwnershipTransferred(address indexed,address indexed)",
+  "event Upgraded(address indexed)",
+  "function calculateIpor(address) view returns (uint256)",
+  "function confirmTransferOwnership()",
+  "function getVersion() pure returns (uint256)",
+  "function initialize()",
+  "function owner() view returns (address)",
+  "function proxiableUUID() view returns (bytes32)",
+  "function renounceOwnership()",
+  "function transferOwnership(address)",
+  "function upgradeTo(address)",
+  "function upgradeToAndCall(address,bytes) payable"
+]
