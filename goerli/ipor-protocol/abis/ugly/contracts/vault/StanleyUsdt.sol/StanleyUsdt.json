@@ -320,7 +320,12 @@
     "outputs": [
       {
         "internalType": "uint256",
-        "name": "",
+        "name": "vaultBalance",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "depositedAmount",
         "type": "uint256"
       }
     ],
@@ -330,6 +335,45 @@
   {
     "inputs": [],
     "name": "getAsset",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "getMilton",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "getStrategyAave",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "getStrategyCompound",
     "outputs": [
       {
         "internalType": "address",
@@ -458,7 +502,7 @@
     "inputs": [
       {
         "internalType": "address",
-        "name": "strategyAddress",
+        "name": "newStrategyAddr",
         "type": "address"
       }
     ],
@@ -471,7 +515,7 @@
     "inputs": [
       {
         "internalType": "address",
-        "name": "strategy",
+        "name": "newStrategyAddr",
         "type": "address"
       }
     ],
@@ -567,7 +611,7 @@
       },
       {
         "internalType": "uint256",
-        "name": "balance",
+        "name": "vaultBalance",
         "type": "uint256"
       }
     ],

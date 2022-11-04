@@ -16,7 +16,7 @@
   "function balanceOf() view returns (uint256)",
   "function beforeClaim()",
   "function confirmTransferOwnership()",
-  "function deposit(uint256)",
+  "function deposit(uint256) returns (uint256)",
   "function doClaim()",
   "function getApr() view returns (uint256)",
   "function getAsset() view returns (address)",
@@ -39,5 +39,5 @@
   "function unpause()",
   "function upgradeTo(address)",
   "function upgradeToAndCall(address,bytes) payable",
-  "function withdraw(uint256)"
+  "function withdraw(uint256) returns (uint256)"
 ]
