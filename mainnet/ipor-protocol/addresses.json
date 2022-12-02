@@ -68,5 +68,6 @@
   "MiltonFacadeDataProviderImpl": "0xd5ef0D094F176fbF0925959c1ba0fB9f1B5B236c",
   "CockpitDataProviderProxy": "0x720e64A1C8912BA48dDf7cA7076ef016fAb144EE",
   "CockpitDataProviderImpl": "0x124bC6Be021d3f9E5fbd6194B2839F6DF30e97dC",
-  "Multicall": "0x5ba1e12693dc8f9c48aad8770482f4739beed696"
+  "Multicall": "0x5ba1e12693dc8f9c48aad8770482f4739beed696",
+  "IPOR": "0x1e4746dC744503b53b4A082cB3607B169a289090"
 }
