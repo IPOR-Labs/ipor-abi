@@ -1,11 +1,8 @@
 [
-  "event AppointedToTransferOwnership(address indexed)",
-  "event OwnershipTransferred(address indexed,address indexed)",
   "function calculateQuotePayFixed(tuple(uint256,uint256,uint256,uint256),tuple(uint256,uint256,uint256,uint256)) view returns (uint256)",
   "function calculateQuoteReceiveFixed(tuple(uint256,uint256,uint256,uint256),tuple(uint256,uint256,uint256,uint256)) view returns (uint256)",
   "function calculateSpreadPayFixed(tuple(uint256,uint256,uint256,uint256),tuple(uint256,uint256,uint256,uint256)) view returns (int256)",
   "function calculateSpreadReceiveFixed(tuple(uint256,uint256,uint256,uint256),tuple(uint256,uint256,uint256,uint256)) view returns (int256)",
-  "function confirmTransferOwnership()",
   "function getPayFixedRegionOneBase() view returns (int256)",
   "function getPayFixedRegionOneSlopeForMeanReversion() view returns (int256)",
   "function getPayFixedRegionOneSlopeForVolatility() view returns (int256)",
@@ -17,8 +14,5 @@
   "function getReceiveFixedRegionOneSlopeForVolatility() view returns (int256)",
   "function getReceiveFixedRegionTwoBase() view returns (int256)",
   "function getReceiveFixedRegionTwoSlopeForMeanReversion() view returns (int256)",
-  "function getReceiveFixedRegionTwoSlopeForVolatility() view returns (int256)",
-  "function owner() view returns (address)",
-  "function renounceOwnership()",
-  "function transferOwnership(address)"
+  "function getReceiveFixedRegionTwoSlopeForVolatility() view returns (int256)"
 ]

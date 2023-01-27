@@ -24,11 +24,61 @@
       {
         "indexed": true,
         "internalType": "address",
+        "name": "changedBy",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "appointed",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "bool",
+        "name": "status",
+        "type": "bool"
+      }
+    ],
+    "name": "AppointedToRebalanceChanged",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
         "name": "appointedOwner",
         "type": "address"
       }
     ],
     "name": "AppointedToTransferOwnership",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "changedBy",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "uint256",
+        "name": "oldAutoRebalanceThresholdInThousands",
+        "type": "uint256"
+      },
+      {
+        "indexed": true,
+        "internalType": "uint256",
+        "name": "newAutoRebalanceThresholdInThousands",
+        "type": "uint256"
+      }
+    ],
+    "name": "AutoRebalanceThresholdChanged",
     "type": "event"
   },
   {
@@ -364,21 +414,21 @@
     "type": "event"
   },
   {
-    "inputs": [],
-    "name": "calculateExchangeRate",
-    "outputs": [
+    "inputs": [
       {
-        "internalType": "uint256",
-        "name": "",
-        "type": "uint256"
+        "internalType": "address",
+        "name": "appointed",
+        "type": "address"
       }
     ],
-    "stateMutability": "view",
+    "name": "addAppointedToRebalance",
+    "outputs": [],
+    "stateMutability": "nonpayable",
     "type": "function"
   },
   {
     "inputs": [],
-    "name": "checkVaultReservesRatio",
+    "name": "calculateExchangeRate",
     "outputs": [
       {
         "internalType": "uint256",
@@ -424,6 +474,19 @@
   },
   {
     "inputs": [],
+    "name": "getAutoRebalanceThreshold",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
     "name": "getCharlieTreasury",
     "outputs": [
       {
@@ -438,6 +501,19 @@
   {
     "inputs": [],
     "name": "getCharlieTreasuryManager",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "getIpToken",
     "outputs": [
       {
         "internalType": "address",
@@ -476,12 +552,38 @@
   },
   {
     "inputs": [],
+    "name": "getMilton",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
     "name": "getMiltonStanleyBalanceRatio",
     "outputs": [
       {
         "internalType": "uint256",
         "name": "",
         "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "getMiltonStorage",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
       }
     ],
     "stateMutability": "view",
@@ -511,6 +613,19 @@
       }
     ],
     "stateMutability": "pure",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "getStanley",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
     "type": "function"
   },
   {
@@ -588,6 +703,25 @@
     "name": "initialize",
     "outputs": [],
     "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "appointed",
+        "type": "address"
+      }
+    ],
+    "name": "isAppointedToRebalance",
+    "outputs": [
+      {
+        "internalType": "bool",
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "stateMutability": "view",
     "type": "function"
   },
   {
@@ -670,8 +804,34 @@
     "type": "function"
   },
   {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "appointed",
+        "type": "address"
+      }
+    ],
+    "name": "removeAppointedToRebalance",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
     "inputs": [],
     "name": "renounceOwnership",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "newAutoRebalanceThreshold",
+        "type": "uint256"
+      }
+    ],
+    "name": "setAutoRebalanceThreshold",
     "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"
