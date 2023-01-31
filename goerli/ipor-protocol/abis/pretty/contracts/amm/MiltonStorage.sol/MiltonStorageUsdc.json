@@ -15,7 +15,7 @@
   "function calculateSoapReceiveFixed(uint256,uint256) view returns (int256)",
   "function confirmTransferOwnership()",
   "function getBalance() view returns (tuple(uint256,uint256,uint256,uint256))",
-  "function getExtendedBalance() view returns (tuple(uint256,uint256,uint256,uint256,uint256,uint256))",
+  "function getExtendedBalance() view returns (tuple(uint256,uint256,uint256,uint256,uint256,uint256))",  
   "function getLastSwapId() view returns (uint256)",
   "function getLiquidityPoolAccountContribution(address) view returns (uint256)",
   "function getSwapIds(address,uint256,uint256) view returns (uint256, tuple(uint256,uint8)[])",
