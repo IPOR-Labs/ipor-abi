@@ -16,6 +16,7 @@
   "function confirmTransferOwnership()",
   "function deposit(uint256) returns (uint256, uint256)",
   "function getAsset() view returns (address)",
+  "function getIvToken() view returns (address)",
   "function getMilton() view returns (address)",
   "function getStrategyAave() view returns (address)",
   "function getStrategyCompound() view returns (address)",

@@ -19,6 +19,7 @@
   "event Upgraded(address indexed)",
   "function addAppointedToRebalance(address)",
   "function calculateExchangeRate() view returns (uint256)",
+  "function calculateRebalanceAmountBeforeWithdraw(uint256,uint256,uint256) view returns (int256)",
   "function confirmTransferOwnership()",
   "function depositToStanley(uint256)",
   "function getAsset() view returns (address)",
