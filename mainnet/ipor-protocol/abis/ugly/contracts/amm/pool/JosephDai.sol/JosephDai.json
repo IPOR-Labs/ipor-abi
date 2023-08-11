@@ -440,6 +440,35 @@
     "type": "function"
   },
   {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "wadMiltonErc20BalanceBeforeWithdraw",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "vaultBalance",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "wadOperationAmount",
+        "type": "uint256"
+      }
+    ],
+    "name": "calculateRebalanceAmountBeforeWithdraw",
+    "outputs": [
+      {
+        "internalType": "int256",
+        "name": "",
+        "type": "int256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
     "inputs": [],
     "name": "confirmTransferOwnership",
     "outputs": [],

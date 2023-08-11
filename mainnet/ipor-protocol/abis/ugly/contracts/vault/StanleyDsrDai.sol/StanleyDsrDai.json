@@ -1,5 +1,41 @@
 [
   {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "asset",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "milton",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "strategyAave",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "strategyCompound",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "strategyDsr",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "ivToken",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "constructor"
+  },
+  {
     "anonymous": false,
     "inputs": [
       {
@@ -29,37 +65,6 @@
       }
     ],
     "name": "AppointedToTransferOwnership",
-    "type": "event"
-  },
-  {
-    "anonymous": false,
-    "inputs": [
-      {
-        "indexed": false,
-        "internalType": "address",
-        "name": "changedBy",
-        "type": "address"
-      },
-      {
-        "indexed": false,
-        "internalType": "address",
-        "name": "oldStrategy",
-        "type": "address"
-      },
-      {
-        "indexed": false,
-        "internalType": "address",
-        "name": "newStrategy",
-        "type": "address"
-      },
-      {
-        "indexed": false,
-        "internalType": "uint256",
-        "name": "amount",
-        "type": "uint256"
-      }
-    ],
-    "name": "AssetMigrated",
     "type": "event"
   },
   {
@@ -135,31 +140,6 @@
     "anonymous": false,
     "inputs": [
       {
-        "indexed": false,
-        "internalType": "address",
-        "name": "changedBy",
-        "type": "address"
-      },
-      {
-        "indexed": false,
-        "internalType": "address",
-        "name": "oldMilton",
-        "type": "address"
-      },
-      {
-        "indexed": false,
-        "internalType": "address",
-        "name": "newMilton",
-        "type": "address"
-      }
-    ],
-    "name": "MiltonChanged",
-    "type": "event"
-  },
-  {
-    "anonymous": false,
-    "inputs": [
-      {
         "indexed": true,
         "internalType": "address",
         "name": "previousOwner",
@@ -186,37 +166,6 @@
       }
     ],
     "name": "Paused",
-    "type": "event"
-  },
-  {
-    "anonymous": false,
-    "inputs": [
-      {
-        "indexed": false,
-        "internalType": "address",
-        "name": "changedBy",
-        "type": "address"
-      },
-      {
-        "indexed": false,
-        "internalType": "address",
-        "name": "oldStrategy",
-        "type": "address"
-      },
-      {
-        "indexed": false,
-        "internalType": "address",
-        "name": "newStrategy",
-        "type": "address"
-      },
-      {
-        "indexed": false,
-        "internalType": "address",
-        "name": "newShareToken",
-        "type": "address"
-      }
-    ],
-    "name": "StrategyChanged",
     "type": "event"
   },
   {
@@ -399,6 +348,19 @@
   },
   {
     "inputs": [],
+    "name": "getStrategyDsr",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
     "name": "getVersion",
     "outputs": [
       {
@@ -419,28 +381,18 @@
       },
       {
         "internalType": "address",
-        "name": "ivToken",
-        "type": "address"
-      },
-      {
-        "internalType": "address",
-        "name": "strategyAave",
-        "type": "address"
-      },
-      {
-        "internalType": "address",
-        "name": "strategyCompound",
+        "name": "spender",
         "type": "address"
       }
     ],
-    "name": "initialize",
+    "name": "grandMaxAllowanceForSpender",
     "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"
   },
   {
     "inputs": [],
-    "name": "migrateAssetToStrategyWithMaxApr",
+    "name": "initialize",
     "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"
@@ -502,37 +454,16 @@
     "inputs": [
       {
         "internalType": "address",
-        "name": "newMilton",
+        "name": "asset",
         "type": "address"
-      }
-    ],
-    "name": "setMilton",
-    "outputs": [],
-    "stateMutability": "nonpayable",
-    "type": "function"
-  },
-  {
-    "inputs": [
+      },
       {
         "internalType": "address",
-        "name": "newStrategyAddr",
+        "name": "spender",
         "type": "address"
       }
     ],
-    "name": "setStrategyAave",
-    "outputs": [],
-    "stateMutability": "nonpayable",
-    "type": "function"
-  },
-  {
-    "inputs": [
-      {
-        "internalType": "address",
-        "name": "newStrategyAddr",
-        "type": "address"
-      }
-    ],
-    "name": "setStrategyCompound",
+    "name": "revokeAllowanceForSpender",
     "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"
