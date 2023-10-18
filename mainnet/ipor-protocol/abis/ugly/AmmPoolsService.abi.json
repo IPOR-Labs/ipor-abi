@@ -1,0 +1,447 @@
+[
+  {
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "asset",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "decimals",
+            "type": "uint256"
+          },
+          {
+            "internalType": "address",
+            "name": "ipToken",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "ammStorage",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "ammTreasury",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "assetManagement",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "redeemFeeRate",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "redeemLpMaxCollateralRatio",
+            "type": "uint256"
+          }
+        ],
+        "internalType": "struct IAmmPoolsService.AmmPoolsServicePoolConfiguration",
+        "name": "usdtPoolCfg",
+        "type": "tuple"
+      },
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "asset",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "decimals",
+            "type": "uint256"
+          },
+          {
+            "internalType": "address",
+            "name": "ipToken",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "ammStorage",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "ammTreasury",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "assetManagement",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "redeemFeeRate",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "redeemLpMaxCollateralRatio",
+            "type": "uint256"
+          }
+        ],
+        "internalType": "struct IAmmPoolsService.AmmPoolsServicePoolConfiguration",
+        "name": "usdcPoolCfg",
+        "type": "tuple"
+      },
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "asset",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "decimals",
+            "type": "uint256"
+          },
+          {
+            "internalType": "address",
+            "name": "ipToken",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "ammStorage",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "ammTreasury",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "assetManagement",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "redeemFeeRate",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "redeemLpMaxCollateralRatio",
+            "type": "uint256"
+          }
+        ],
+        "internalType": "struct IAmmPoolsService.AmmPoolsServicePoolConfiguration",
+        "name": "daiPoolCfg",
+        "type": "tuple"
+      },
+      {
+        "internalType": "address",
+        "name": "iporOracleInput",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "constructor"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "from",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "beneficiary",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "to",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "exchangeRate",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "assetAmount",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "ipTokenAmount",
+        "type": "uint256"
+      }
+    ],
+    "name": "ProvideLiquidity",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "ammTreasury",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "from",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "beneficiary",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "exchangeRate",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "assetAmount",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "ipTokenAmount",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "redeemFee",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "redeemAmount",
+        "type": "uint256"
+      }
+    ],
+    "name": "Redeem",
+    "type": "event"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "asset",
+        "type": "address"
+      }
+    ],
+    "name": "getAmmPoolServiceConfiguration",
+    "outputs": [
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "asset",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "decimals",
+            "type": "uint256"
+          },
+          {
+            "internalType": "address",
+            "name": "ipToken",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "ammStorage",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "ammTreasury",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "assetManagement",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "redeemFeeRate",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "redeemLpMaxCollateralRatio",
+            "type": "uint256"
+          }
+        ],
+        "internalType": "struct IAmmPoolsService.AmmPoolsServicePoolConfiguration",
+        "name": "",
+        "type": "tuple"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "iporOracle",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "beneficiary",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "assetAmount",
+        "type": "uint256"
+      }
+    ],
+    "name": "provideLiquidityDai",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "beneficiary",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "assetAmount",
+        "type": "uint256"
+      }
+    ],
+    "name": "provideLiquidityUsdc",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "beneficiary",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "assetAmount",
+        "type": "uint256"
+      }
+    ],
+    "name": "provideLiquidityUsdt",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "asset",
+        "type": "address"
+      }
+    ],
+    "name": "rebalanceBetweenAmmTreasuryAndAssetManagement",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "beneficiary",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "ipTokenAmount",
+        "type": "uint256"
+      }
+    ],
+    "name": "redeemFromAmmPoolDai",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "beneficiary",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "ipTokenAmount",
+        "type": "uint256"
+      }
+    ],
+    "name": "redeemFromAmmPoolUsdc",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "beneficiary",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "ipTokenAmount",
+        "type": "uint256"
+      }
+    ],
+    "name": "redeemFromAmmPoolUsdt",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

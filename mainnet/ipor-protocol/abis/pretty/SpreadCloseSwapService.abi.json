@@ -1,0 +1,19 @@
+interface Interface {
+    struct OpenSwapItem {
+        uint32 swapId;
+        uint32 nextSwapId;
+        uint32 previousSwapId;
+        uint32 openSwapTimestamp;
+    }
+
+    function getSupportedAssets() external view returns (address[] memory);
+    function updateTimeWeightedNotionalOnClose(
+        address asset,
+        uint256 direction,
+        uint8 tenor,
+        uint256 swapNotional,
+        OpenSwapItem memory closedSwap,
+        address ammStorageAddress
+    ) external;
+}
+

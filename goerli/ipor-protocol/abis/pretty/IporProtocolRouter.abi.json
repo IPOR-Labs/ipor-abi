@@ -1,0 +1,58 @@
+interface Interface {
+    event AdminChanged(address previousAdmin, address newAdmin);
+    event AppointedToTransferOwnership(address indexed appointedOwner);
+    event BeaconUpgraded(address indexed beacon);
+    event Initialized(uint8 version);
+    event OwnershipTransferred(address indexed previousOwner, address indexed newOwner);
+    event PauseGuardiansAdded(address[] indexed guardians);
+    event PauseGuardiansRemoved(address[] indexed guardians);
+    event Upgraded(address indexed implementation);
+
+    struct DeployedContracts {
+        address ammSwapsLens;
+        address ammPoolsLens;
+        address assetManagementLens;
+        address ammOpenSwapService;
+        address ammCloseSwapService;
+        address ammPoolsService;
+        address ammGovernanceService;
+        address liquidityMiningLens;
+        address powerTokenLens;
+        address flowService;
+        address stakeService;
+        address ammPoolsServiceEth;
+        address ammPoolsLensEth;
+    }
+
+    function _ammCloseSwapService() external view returns (address);
+    function _ammGovernanceService() external view returns (address);
+    function _ammOpenSwapService() external view returns (address);
+    function _ammPoolsLens() external view returns (address);
+    function _ammPoolsLensEth() external view returns (address);
+    function _ammPoolsService() external view returns (address);
+    function _ammPoolsServiceEth() external view returns (address);
+    function _ammSwapsLens() external view returns (address);
+    function _assetManagementLens() external view returns (address);
+    function _flowService() external view returns (address);
+    function _liquidityMiningLens() external view returns (address);
+    function _powerTokenLens() external view returns (address);
+    function _stakeService() external view returns (address);
+    function addPauseGuardians(address[] memory guardians) external;
+    function appointToOwnership(address appointedOwner) external;
+    function batchExecutor(bytes[] memory calls) external payable;
+    function confirmAppointmentToOwnership() external;
+    function getConfiguration() external view returns (DeployedContracts memory);
+    function getImplementation() external view returns (address);
+    function initialize(bool paused) external;
+    function isPauseGuardian(address account) external view returns (bool);
+    function owner() external view returns (address);
+    function pause(bytes4[] memory functionSigs) external;
+    function paused(bytes4 functionSig) external view returns (uint256);
+    function proxiableUUID() external view returns (bytes32);
+    function removePauseGuardians(address[] memory guardians) external;
+    function renounceOwnership() external;
+    function unpause(bytes4[] memory functionSigs) external;
+    function upgradeTo(address newImplementation) external;
+    function upgradeToAndCall(address newImplementation, bytes memory data) external payable;
+}
+

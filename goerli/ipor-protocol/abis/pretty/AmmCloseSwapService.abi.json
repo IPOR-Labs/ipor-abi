@@ -1,0 +1,101 @@
+interface Interface {
+    event CloseSwap(
+        uint256 indexed swapId,
+        address asset,
+        uint256 closeTimestamp,
+        address liquidator,
+        uint256 transferredToBuyer,
+        uint256 transferredToLiquidator
+    );
+    event SwapUnwind(
+        address asset,
+        uint256 indexed swapId,
+        int256 swapPnlValueToDate,
+        int256 swapUnwindAmount,
+        uint256 unwindFeeLPAmount,
+        uint256 unwindFeeTreasuryAmount
+    );
+
+    struct ClosingSwapDetails {
+        uint8 closableStatus;
+        bool swapUnwindRequired;
+        int256 swapUnwindPnlValue;
+        uint256 swapUnwindOpeningFeeAmount;
+        uint256 swapUnwindFeeLPAmount;
+        uint256 swapUnwindFeeTreasuryAmount;
+        int256 pnlValue;
+    }
+
+    struct IporSwapClosingResult {
+        uint256 swapId;
+        bool closed;
+    }
+
+    struct AmmCloseSwapServicePoolConfiguration {
+        address asset;
+        uint256 decimals;
+        address ammStorage;
+        address ammTreasury;
+        address assetManagement;
+        uint256 unwindingFeeRate;
+        uint256 unwindingFeeTreasuryPortionRate;
+        uint256 maxLengthOfLiquidatedSwapsPerLeg;
+        uint256 timeBeforeMaturityAllowedToCloseSwapByCommunity;
+        uint256 timeBeforeMaturityAllowedToCloseSwapByBuyer;
+        uint256 minLiquidationThresholdToCloseBeforeMaturityByCommunity;
+        uint256 minLiquidationThresholdToCloseBeforeMaturityByBuyer;
+        uint256 minLeverage;
+    }
+
+    function closeSwapsDai(address beneficiary, uint256[] memory payFixedSwapIds, uint256[] memory receiveFixedSwapIds)
+        external
+        returns (
+            IporSwapClosingResult[] memory closedPayFixedSwaps,
+            IporSwapClosingResult[] memory closedReceiveFixedSwaps
+        );
+    function closeSwapsUsdc(address beneficiary, uint256[] memory payFixedSwapIds, uint256[] memory receiveFixedSwapIds)
+        external
+        returns (
+            IporSwapClosingResult[] memory closedPayFixedSwaps,
+            IporSwapClosingResult[] memory closedReceiveFixedSwaps
+        );
+    function closeSwapsUsdt(address beneficiary, uint256[] memory payFixedSwapIds, uint256[] memory receiveFixedSwapIds)
+        external
+        returns (
+            IporSwapClosingResult[] memory closedPayFixedSwaps,
+            IporSwapClosingResult[] memory closedReceiveFixedSwaps
+        );
+    function emergencyCloseSwapsDai(uint256[] memory payFixedSwapIds, uint256[] memory receiveFixedSwapIds)
+        external
+        returns (
+            IporSwapClosingResult[] memory closedPayFixedSwaps,
+            IporSwapClosingResult[] memory closedReceiveFixedSwaps
+        );
+    function emergencyCloseSwapsUsdc(uint256[] memory payFixedSwapIds, uint256[] memory receiveFixedSwapIds)
+        external
+        returns (
+            IporSwapClosingResult[] memory closedPayFixedSwaps,
+            IporSwapClosingResult[] memory closedReceiveFixedSwaps
+        );
+    function emergencyCloseSwapsUsdt(uint256[] memory payFixedSwapIds, uint256[] memory receiveFixedSwapIds)
+        external
+        returns (
+            IporSwapClosingResult[] memory closedPayFixedSwaps,
+            IporSwapClosingResult[] memory closedReceiveFixedSwaps
+        );
+    function getAmmCloseSwapServicePoolConfiguration(address asset)
+        external
+        view
+        returns (AmmCloseSwapServicePoolConfiguration memory);
+    function getClosingSwapDetails(
+        address asset,
+        address account,
+        uint8 direction,
+        uint256 swapId,
+        uint256 closeTimestamp
+    ) external view returns (ClosingSwapDetails memory closingSwapDetails);
+    function iporOracle() external view returns (address);
+    function iporRiskManagementOracle() external view returns (address);
+    function spreadRouter() external view returns (address);
+}
+

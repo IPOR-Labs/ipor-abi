@@ -1,0 +1,560 @@
+[
+  {
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "asset",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "decimals",
+            "type": "uint256"
+          },
+          {
+            "internalType": "address",
+            "name": "ammStorage",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "ammTreasury",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "ammPoolsTreasury",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "ammPoolsTreasuryManager",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "ammCharlieTreasury",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "ammCharlieTreasuryManager",
+            "type": "address"
+          }
+        ],
+        "internalType": "struct IAmmGovernanceLens.AmmGovernancePoolConfiguration",
+        "name": "usdtPoolCfg",
+        "type": "tuple"
+      },
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "asset",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "decimals",
+            "type": "uint256"
+          },
+          {
+            "internalType": "address",
+            "name": "ammStorage",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "ammTreasury",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "ammPoolsTreasury",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "ammPoolsTreasuryManager",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "ammCharlieTreasury",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "ammCharlieTreasuryManager",
+            "type": "address"
+          }
+        ],
+        "internalType": "struct IAmmGovernanceLens.AmmGovernancePoolConfiguration",
+        "name": "usdcPoolCfg",
+        "type": "tuple"
+      },
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "asset",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "decimals",
+            "type": "uint256"
+          },
+          {
+            "internalType": "address",
+            "name": "ammStorage",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "ammTreasury",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "ammPoolsTreasury",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "ammPoolsTreasuryManager",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "ammCharlieTreasury",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "ammCharlieTreasuryManager",
+            "type": "address"
+          }
+        ],
+        "internalType": "struct IAmmGovernanceLens.AmmGovernancePoolConfiguration",
+        "name": "daiPoolCfg",
+        "type": "tuple"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "constructor"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "asset",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "account",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "bool",
+        "name": "status",
+        "type": "bool"
+      }
+    ],
+    "name": "AmmAppointedToRebalanceChanged",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "asset",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint32",
+        "name": "maxLiquidityPoolBalance",
+        "type": "uint32"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint32",
+        "name": "autoRebalanceThresholdInThousands",
+        "type": "uint32"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint16",
+        "name": "ammTreasuryAndAssetManagementRatio",
+        "type": "uint16"
+      }
+    ],
+    "name": "AmmPoolsParamsChanged",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "asset",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "liquidator",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "bool",
+        "name": "status",
+        "type": "bool"
+      }
+    ],
+    "name": "AmmSwapsLiquidatorChanged",
+    "type": "event"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "asset",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "account",
+        "type": "address"
+      }
+    ],
+    "name": "addAppointedToRebalanceInAmm",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "asset",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "account",
+        "type": "address"
+      }
+    ],
+    "name": "addSwapLiquidator",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "asset",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "wadAssetAmount",
+        "type": "uint256"
+      }
+    ],
+    "name": "depositToAssetManagement",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "asset",
+        "type": "address"
+      }
+    ],
+    "name": "getAmmGovernancePoolConfiguration",
+    "outputs": [
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "asset",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "decimals",
+            "type": "uint256"
+          },
+          {
+            "internalType": "address",
+            "name": "ammStorage",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "ammTreasury",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "ammPoolsTreasury",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "ammPoolsTreasuryManager",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "ammCharlieTreasury",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "ammCharlieTreasuryManager",
+            "type": "address"
+          }
+        ],
+        "internalType": "struct IAmmGovernanceLens.AmmGovernancePoolConfiguration",
+        "name": "",
+        "type": "tuple"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "asset",
+        "type": "address"
+      }
+    ],
+    "name": "getAmmPoolsParams",
+    "outputs": [
+      {
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "maxLiquidityPoolBalance",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "autoRebalanceThresholdInThousands",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "ammTreasuryAndAssetManagementRatio",
+            "type": "uint256"
+          }
+        ],
+        "internalType": "struct IAmmGovernanceLens.AmmPoolsParamsConfiguration",
+        "name": "cfg",
+        "type": "tuple"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "asset",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "account",
+        "type": "address"
+      }
+    ],
+    "name": "isAppointedToRebalanceInAmm",
+    "outputs": [
+      {
+        "internalType": "bool",
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "asset",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "account",
+        "type": "address"
+      }
+    ],
+    "name": "isSwapLiquidator",
+    "outputs": [
+      {
+        "internalType": "bool",
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "asset",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "account",
+        "type": "address"
+      }
+    ],
+    "name": "removeAppointedToRebalanceInAmm",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "asset",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "account",
+        "type": "address"
+      }
+    ],
+    "name": "removeSwapLiquidator",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "asset",
+        "type": "address"
+      },
+      {
+        "internalType": "uint32",
+        "name": "newMaxLiquidityPoolBalance",
+        "type": "uint32"
+      },
+      {
+        "internalType": "uint32",
+        "name": "newAutoRebalanceThresholdInThousands",
+        "type": "uint32"
+      },
+      {
+        "internalType": "uint16",
+        "name": "newAmmTreasuryAndAssetManagementRatio",
+        "type": "uint16"
+      }
+    ],
+    "name": "setAmmPoolsParams",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "asset",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "wadAssetAmountInput",
+        "type": "uint256"
+      }
+    ],
+    "name": "transferToCharlieTreasury",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "asset",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "wadAssetAmountInput",
+        "type": "uint256"
+      }
+    ],
+    "name": "transferToTreasury",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "asset",
+        "type": "address"
+      }
+    ],
+    "name": "withdrawAllFromAssetManagement",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "asset",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "wadAssetAmount",
+        "type": "uint256"
+      }
+    ],
+    "name": "withdrawFromAssetManagement",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]
