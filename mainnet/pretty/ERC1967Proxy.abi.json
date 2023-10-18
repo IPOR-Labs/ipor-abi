@@ -1,0 +1,6 @@
+interface Interface {
+    event AdminChanged(address previousAdmin, address newAdmin);
+    event BeaconUpgraded(address indexed beacon);
+    event Upgraded(address indexed implementation);
+}
+

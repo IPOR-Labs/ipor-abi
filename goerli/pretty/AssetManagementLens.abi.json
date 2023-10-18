@@ -1,0 +1,15 @@
+interface Interface {
+    struct AssetManagementConfiguration {
+        address asset;
+        uint256 decimals;
+        address assetManagement;
+        address ammTreasury;
+    }
+
+    function balanceOfAmmTreasuryInAssetManagement(address asset) external view returns (uint256);
+    function getAssetManagementConfiguration(address asset)
+        external
+        view
+        returns (AssetManagementConfiguration memory);
+}
+

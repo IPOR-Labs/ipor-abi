@@ -1,0 +1,248 @@
+[
+  {
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "asset",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "decimals",
+            "type": "uint256"
+          },
+          {
+            "internalType": "address",
+            "name": "ipToken",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "ammStorage",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "ammTreasury",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "assetManagement",
+            "type": "address"
+          }
+        ],
+        "internalType": "struct IAmmPoolsLens.AmmPoolsLensPoolConfiguration",
+        "name": "usdtPoolCfg",
+        "type": "tuple"
+      },
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "asset",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "decimals",
+            "type": "uint256"
+          },
+          {
+            "internalType": "address",
+            "name": "ipToken",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "ammStorage",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "ammTreasury",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "assetManagement",
+            "type": "address"
+          }
+        ],
+        "internalType": "struct IAmmPoolsLens.AmmPoolsLensPoolConfiguration",
+        "name": "usdcPoolCfg",
+        "type": "tuple"
+      },
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "asset",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "decimals",
+            "type": "uint256"
+          },
+          {
+            "internalType": "address",
+            "name": "ipToken",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "ammStorage",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "ammTreasury",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "assetManagement",
+            "type": "address"
+          }
+        ],
+        "internalType": "struct IAmmPoolsLens.AmmPoolsLensPoolConfiguration",
+        "name": "daiPoolCfg",
+        "type": "tuple"
+      },
+      {
+        "internalType": "address",
+        "name": "iporOracleInput",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "constructor"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "asset",
+        "type": "address"
+      }
+    ],
+    "name": "getAmmBalance",
+    "outputs": [
+      {
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "totalCollateralPayFixed",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "totalCollateralReceiveFixed",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "liquidityPool",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "vault",
+            "type": "uint256"
+          }
+        ],
+        "internalType": "struct IporTypes.AmmBalancesMemory",
+        "name": "balance",
+        "type": "tuple"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "asset",
+        "type": "address"
+      }
+    ],
+    "name": "getAmmPoolsLensConfiguration",
+    "outputs": [
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "asset",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "decimals",
+            "type": "uint256"
+          },
+          {
+            "internalType": "address",
+            "name": "ipToken",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "ammStorage",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "ammTreasury",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "assetManagement",
+            "type": "address"
+          }
+        ],
+        "internalType": "struct IAmmPoolsLens.AmmPoolsLensPoolConfiguration",
+        "name": "",
+        "type": "tuple"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "asset",
+        "type": "address"
+      }
+    ],
+    "name": "getIpTokenExchangeRate",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "iporOracle",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

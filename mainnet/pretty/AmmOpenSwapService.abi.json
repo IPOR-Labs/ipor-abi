@@ -1,0 +1,159 @@
+interface Interface {
+    event OpenSwap(
+        uint256 indexed swapId,
+        address indexed buyer,
+        address asset,
+        uint8 direction,
+        OpenSwapAmount amounts,
+        uint256 openTimestamp,
+        uint256 endTimestamp,
+        IporSwapIndicator indicator
+    );
+
+    struct IporSwapIndicator {
+        uint256 iporIndexValue;
+        uint256 ibtPrice;
+        uint256 ibtQuantity;
+        uint256 fixedInterestRate;
+    }
+
+    struct OpenSwapAmount {
+        uint256 totalAmount;
+        uint256 collateral;
+        uint256 notional;
+        uint256 openingFeeLPAmount;
+        uint256 openingFeeTreasuryAmount;
+        uint256 iporPublicationFee;
+        uint256 liquidationDepositAmount;
+    }
+
+    struct AmmOpenSwapServicePoolConfiguration {
+        address asset;
+        uint256 decimals;
+        address ammStorage;
+        address ammTreasury;
+        uint256 iporPublicationFee;
+        uint256 maxSwapCollateralAmount;
+        uint256 liquidationDepositAmount;
+        uint256 minLeverage;
+        uint256 openingFeeRate;
+        uint256 openingFeeTreasuryPortionRate;
+    }
+
+    function getAmmOpenSwapServicePoolConfiguration(address asset)
+        external
+        view
+        returns (AmmOpenSwapServicePoolConfiguration memory);
+    function iporOracle() external view returns (address);
+    function iporRiskManagementOracle() external view returns (address);
+    function openSwapPayFixed28daysDai(
+        address beneficiary,
+        uint256 totalAmount,
+        uint256 acceptableFixedInterestRate,
+        uint256 leverage
+    ) external returns (uint256);
+    function openSwapPayFixed28daysUsdc(
+        address beneficiary,
+        uint256 totalAmount,
+        uint256 acceptableFixedInterestRate,
+        uint256 leverage
+    ) external returns (uint256);
+    function openSwapPayFixed28daysUsdt(
+        address beneficiary,
+        uint256 totalAmount,
+        uint256 acceptableFixedInterestRate,
+        uint256 leverage
+    ) external returns (uint256);
+    function openSwapPayFixed60daysDai(
+        address beneficiary,
+        uint256 totalAmount,
+        uint256 acceptableFixedInterestRate,
+        uint256 leverage
+    ) external returns (uint256);
+    function openSwapPayFixed60daysUsdc(
+        address beneficiary,
+        uint256 totalAmount,
+        uint256 acceptableFixedInterestRate,
+        uint256 leverage
+    ) external returns (uint256);
+    function openSwapPayFixed60daysUsdt(
+        address beneficiary,
+        uint256 totalAmount,
+        uint256 acceptableFixedInterestRate,
+        uint256 leverage
+    ) external returns (uint256);
+    function openSwapPayFixed90daysDai(
+        address beneficiary,
+        uint256 totalAmount,
+        uint256 acceptableFixedInterestRate,
+        uint256 leverage
+    ) external returns (uint256);
+    function openSwapPayFixed90daysUsdc(
+        address beneficiary,
+        uint256 totalAmount,
+        uint256 acceptableFixedInterestRate,
+        uint256 leverage
+    ) external returns (uint256);
+    function openSwapPayFixed90daysUsdt(
+        address beneficiary,
+        uint256 totalAmount,
+        uint256 acceptableFixedInterestRate,
+        uint256 leverage
+    ) external returns (uint256);
+    function openSwapReceiveFixed28daysDai(
+        address beneficiary,
+        uint256 totalAmount,
+        uint256 acceptableFixedInterestRate,
+        uint256 leverage
+    ) external returns (uint256);
+    function openSwapReceiveFixed28daysUsdc(
+        address beneficiary,
+        uint256 totalAmount,
+        uint256 acceptableFixedInterestRate,
+        uint256 leverage
+    ) external returns (uint256);
+    function openSwapReceiveFixed28daysUsdt(
+        address beneficiary,
+        uint256 totalAmount,
+        uint256 acceptableFixedInterestRate,
+        uint256 leverage
+    ) external returns (uint256);
+    function openSwapReceiveFixed60daysDai(
+        address beneficiary,
+        uint256 totalAmount,
+        uint256 acceptableFixedInterestRate,
+        uint256 leverage
+    ) external returns (uint256);
+    function openSwapReceiveFixed60daysUsdc(
+        address beneficiary,
+        uint256 totalAmount,
+        uint256 acceptableFixedInterestRate,
+        uint256 leverage
+    ) external returns (uint256);
+    function openSwapReceiveFixed60daysUsdt(
+        address beneficiary,
+        uint256 totalAmount,
+        uint256 acceptableFixedInterestRate,
+        uint256 leverage
+    ) external returns (uint256);
+    function openSwapReceiveFixed90daysDai(
+        address beneficiary,
+        uint256 totalAmount,
+        uint256 acceptableFixedInterestRate,
+        uint256 leverage
+    ) external returns (uint256);
+    function openSwapReceiveFixed90daysUsdc(
+        address beneficiary,
+        uint256 totalAmount,
+        uint256 acceptableFixedInterestRate,
+        uint256 leverage
+    ) external returns (uint256);
+    function openSwapReceiveFixed90daysUsdt(
+        address beneficiary,
+        uint256 totalAmount,
+        uint256 acceptableFixedInterestRate,
+        uint256 leverage
+    ) external returns (uint256);
+    function spreadRouter() external view returns (address);
+}
+
