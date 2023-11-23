@@ -1,11 +1,13 @@
 interface Interface {
-    struct OpenSwapRiskIndicators {
+    struct RiskIndicatorsInputs {
         uint256 maxCollateralRatio;
         uint256 maxCollateralRatioPerLeg;
         uint256 maxLeveragePerLeg;
         int256 baseSpreadPerLeg;
         uint256 fixedRateCapPerLeg;
         uint256 demandSpreadFactor;
+        uint256 expiration;
+        bytes signature;
     }
 
     struct IporSwap {
@@ -41,14 +43,13 @@ interface Interface {
     }
 
     function getBalancesForOpenSwap(address asset) external view returns (AmmBalancesForOpenSwapMemory memory);
-    function getOfferedRate(address asset, uint8 tenor, uint256 notional)
-        external
-        view
-        returns (uint256 offeredRatePayFixed, uint256 offeredRateReceiveFixed);
-    function getOpenSwapRiskIndicators(address asset, uint256 direction, uint8 tenor)
-        external
-        view
-        returns (OpenSwapRiskIndicators memory riskIndicators);
+    function getOfferedRate(
+        address asset,
+        uint8 tenor,
+        uint256 notional,
+        RiskIndicatorsInputs memory payFixedRiskIndicatorsInputs,
+        RiskIndicatorsInputs memory receiveFixedRiskIndicatorsInputs
+    ) external view returns (uint256 offeredRatePayFixed, uint256 offeredRateReceiveFixed);
     function getPnlPayFixed(address asset, uint256 swapId) external view returns (int256);
     function getPnlReceiveFixed(address asset, uint256 swapId) external view returns (int256);
     function getSoap(address asset) external view returns (int256 soapPayFixed, int256 soapReceiveFixed, int256 soap);
@@ -58,7 +59,7 @@ interface Interface {
         view
         returns (uint256 totalCount, IporSwap[] memory swaps);
     function iporOracle() external view returns (address);
-    function iporRiskManagementOracle() external view returns (address);
+    function messageSigner() external view returns (address);
     function spreadRouter() external view returns (address);
 }
 

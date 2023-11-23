@@ -1,4 +1,0 @@
-interface Interface {
-    function setJoseph(address router) external;
-}
-

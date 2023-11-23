@@ -27,6 +27,17 @@ interface Interface {
         uint256 liquidationDepositAmount;
     }
 
+    struct RiskIndicatorsInputs {
+        uint256 maxCollateralRatio;
+        uint256 maxCollateralRatioPerLeg;
+        uint256 maxLeveragePerLeg;
+        int256 baseSpreadPerLeg;
+        uint256 fixedRateCapPerLeg;
+        uint256 demandSpreadFactor;
+        uint256 expiration;
+        bytes signature;
+    }
+
     struct AmmOpenSwapServicePoolConfiguration {
         address asset;
         uint256 decimals;
@@ -45,114 +56,132 @@ interface Interface {
         view
         returns (AmmOpenSwapServicePoolConfiguration memory);
     function iporOracle() external view returns (address);
-    function iporRiskManagementOracle() external view returns (address);
+    function messageSigner() external view returns (address);
     function openSwapPayFixed28daysDai(
         address beneficiary,
         uint256 totalAmount,
         uint256 acceptableFixedInterestRate,
-        uint256 leverage
+        uint256 leverage,
+        RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
     function openSwapPayFixed28daysUsdc(
         address beneficiary,
         uint256 totalAmount,
         uint256 acceptableFixedInterestRate,
-        uint256 leverage
+        uint256 leverage,
+        RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
     function openSwapPayFixed28daysUsdt(
         address beneficiary,
         uint256 totalAmount,
         uint256 acceptableFixedInterestRate,
-        uint256 leverage
+        uint256 leverage,
+        RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
     function openSwapPayFixed60daysDai(
         address beneficiary,
         uint256 totalAmount,
         uint256 acceptableFixedInterestRate,
-        uint256 leverage
+        uint256 leverage,
+        RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
     function openSwapPayFixed60daysUsdc(
         address beneficiary,
         uint256 totalAmount,
         uint256 acceptableFixedInterestRate,
-        uint256 leverage
+        uint256 leverage,
+        RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
     function openSwapPayFixed60daysUsdt(
         address beneficiary,
         uint256 totalAmount,
         uint256 acceptableFixedInterestRate,
-        uint256 leverage
+        uint256 leverage,
+        RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
     function openSwapPayFixed90daysDai(
         address beneficiary,
         uint256 totalAmount,
         uint256 acceptableFixedInterestRate,
-        uint256 leverage
+        uint256 leverage,
+        RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
     function openSwapPayFixed90daysUsdc(
         address beneficiary,
         uint256 totalAmount,
         uint256 acceptableFixedInterestRate,
-        uint256 leverage
+        uint256 leverage,
+        RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
     function openSwapPayFixed90daysUsdt(
         address beneficiary,
         uint256 totalAmount,
         uint256 acceptableFixedInterestRate,
-        uint256 leverage
+        uint256 leverage,
+        RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
     function openSwapReceiveFixed28daysDai(
         address beneficiary,
         uint256 totalAmount,
         uint256 acceptableFixedInterestRate,
-        uint256 leverage
+        uint256 leverage,
+        RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
     function openSwapReceiveFixed28daysUsdc(
         address beneficiary,
         uint256 totalAmount,
         uint256 acceptableFixedInterestRate,
-        uint256 leverage
+        uint256 leverage,
+        RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
     function openSwapReceiveFixed28daysUsdt(
         address beneficiary,
         uint256 totalAmount,
         uint256 acceptableFixedInterestRate,
-        uint256 leverage
+        uint256 leverage,
+        RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
     function openSwapReceiveFixed60daysDai(
         address beneficiary,
         uint256 totalAmount,
         uint256 acceptableFixedInterestRate,
-        uint256 leverage
+        uint256 leverage,
+        RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
     function openSwapReceiveFixed60daysUsdc(
         address beneficiary,
         uint256 totalAmount,
         uint256 acceptableFixedInterestRate,
-        uint256 leverage
+        uint256 leverage,
+        RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
     function openSwapReceiveFixed60daysUsdt(
         address beneficiary,
         uint256 totalAmount,
         uint256 acceptableFixedInterestRate,
-        uint256 leverage
+        uint256 leverage,
+        RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
     function openSwapReceiveFixed90daysDai(
         address beneficiary,
         uint256 totalAmount,
         uint256 acceptableFixedInterestRate,
-        uint256 leverage
+        uint256 leverage,
+        RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
     function openSwapReceiveFixed90daysUsdc(
         address beneficiary,
         uint256 totalAmount,
         uint256 acceptableFixedInterestRate,
-        uint256 leverage
+        uint256 leverage,
+        RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
     function openSwapReceiveFixed90daysUsdt(
         address beneficiary,
         uint256 totalAmount,
         uint256 acceptableFixedInterestRate,
-        uint256 leverage
+        uint256 leverage,
+        RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
     function spreadRouter() external view returns (address);
 }

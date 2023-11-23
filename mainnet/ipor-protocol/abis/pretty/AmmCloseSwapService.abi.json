@@ -16,6 +16,11 @@ interface Interface {
         uint256 unwindFeeTreasuryAmount
     );
 
+    struct CloseSwapRiskIndicatorsInput {
+        RiskIndicatorsInputs payFixed;
+        RiskIndicatorsInputs receiveFixed;
+    }
+
     struct ClosingSwapDetails {
         uint8 closableStatus;
         bool swapUnwindRequired;
@@ -29,6 +34,17 @@ interface Interface {
     struct IporSwapClosingResult {
         uint256 swapId;
         bool closed;
+    }
+
+    struct RiskIndicatorsInputs {
+        uint256 maxCollateralRatio;
+        uint256 maxCollateralRatioPerLeg;
+        uint256 maxLeveragePerLeg;
+        int256 baseSpreadPerLeg;
+        uint256 fixedRateCapPerLeg;
+        uint256 demandSpreadFactor;
+        uint256 expiration;
+        bytes signature;
     }
 
     struct AmmCloseSwapServicePoolConfiguration {
@@ -47,37 +63,64 @@ interface Interface {
         uint256 minLeverage;
     }
 
-    function closeSwapsDai(address beneficiary, uint256[] memory payFixedSwapIds, uint256[] memory receiveFixedSwapIds)
+    function closeSwapsDai(
+        address beneficiary,
+        uint256[] memory payFixedSwapIds,
+        uint256[] memory receiveFixedSwapIds,
+        CloseSwapRiskIndicatorsInput memory riskIndicatorsInput
+    )
         external
         returns (
             IporSwapClosingResult[] memory closedPayFixedSwaps,
             IporSwapClosingResult[] memory closedReceiveFixedSwaps
         );
-    function closeSwapsUsdc(address beneficiary, uint256[] memory payFixedSwapIds, uint256[] memory receiveFixedSwapIds)
+    function closeSwapsUsdc(
+        address beneficiary,
+        uint256[] memory payFixedSwapIds,
+        uint256[] memory receiveFixedSwapIds,
+        CloseSwapRiskIndicatorsInput memory riskIndicatorsInput
+    )
         external
         returns (
             IporSwapClosingResult[] memory closedPayFixedSwaps,
             IporSwapClosingResult[] memory closedReceiveFixedSwaps
         );
-    function closeSwapsUsdt(address beneficiary, uint256[] memory payFixedSwapIds, uint256[] memory receiveFixedSwapIds)
+    function closeSwapsUsdt(
+        address beneficiary,
+        uint256[] memory payFixedSwapIds,
+        uint256[] memory receiveFixedSwapIds,
+        CloseSwapRiskIndicatorsInput memory riskIndicatorsInput
+    )
         external
         returns (
             IporSwapClosingResult[] memory closedPayFixedSwaps,
             IporSwapClosingResult[] memory closedReceiveFixedSwaps
         );
-    function emergencyCloseSwapsDai(uint256[] memory payFixedSwapIds, uint256[] memory receiveFixedSwapIds)
+    function emergencyCloseSwapsDai(
+        uint256[] memory payFixedSwapIds,
+        uint256[] memory receiveFixedSwapIds,
+        CloseSwapRiskIndicatorsInput memory riskIndicatorsInput
+    )
         external
         returns (
             IporSwapClosingResult[] memory closedPayFixedSwaps,
             IporSwapClosingResult[] memory closedReceiveFixedSwaps
         );
-    function emergencyCloseSwapsUsdc(uint256[] memory payFixedSwapIds, uint256[] memory receiveFixedSwapIds)
+    function emergencyCloseSwapsUsdc(
+        uint256[] memory payFixedSwapIds,
+        uint256[] memory receiveFixedSwapIds,
+        CloseSwapRiskIndicatorsInput memory riskIndicatorsInput
+    )
         external
         returns (
             IporSwapClosingResult[] memory closedPayFixedSwaps,
             IporSwapClosingResult[] memory closedReceiveFixedSwaps
         );
-    function emergencyCloseSwapsUsdt(uint256[] memory payFixedSwapIds, uint256[] memory receiveFixedSwapIds)
+    function emergencyCloseSwapsUsdt(
+        uint256[] memory payFixedSwapIds,
+        uint256[] memory receiveFixedSwapIds,
+        CloseSwapRiskIndicatorsInput memory riskIndicatorsInput
+    )
         external
         returns (
             IporSwapClosingResult[] memory closedPayFixedSwaps,
@@ -92,10 +135,11 @@ interface Interface {
         address account,
         uint8 direction,
         uint256 swapId,
-        uint256 closeTimestamp
+        uint256 closeTimestamp,
+        CloseSwapRiskIndicatorsInput memory riskIndicatorsInput
     ) external view returns (ClosingSwapDetails memory closingSwapDetails);
     function iporOracle() external view returns (address);
-    function iporRiskManagementOracle() external view returns (address);
+    function messageSigner() external view returns (address);
     function spreadRouter() external view returns (address);
 }
 

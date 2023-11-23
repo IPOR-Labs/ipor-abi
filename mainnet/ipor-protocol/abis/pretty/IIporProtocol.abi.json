@@ -73,6 +73,11 @@ interface Interface {
     );
     event Upgraded(address indexed implementation);
 
+    struct CloseSwapRiskIndicatorsInput {
+        RiskIndicatorsInputs payFixed;
+        RiskIndicatorsInputs receiveFixed;
+    }
+
     struct IporSwapClosingResult {
         uint256 swapId;
         bool closed;
@@ -95,13 +100,15 @@ interface Interface {
         uint256 liquidationDepositAmount;
     }
 
-    struct OpenSwapRiskIndicators {
+    struct RiskIndicatorsInputs {
         uint256 maxCollateralRatio;
         uint256 maxCollateralRatioPerLeg;
         uint256 maxLeveragePerLeg;
         int256 baseSpreadPerLeg;
         uint256 fixedRateCapPerLeg;
         uint256 demandSpreadFactor;
+        uint256 expiration;
+        bytes signature;
     }
 
     struct AmmPoolsLensPoolConfiguration {
@@ -232,19 +239,34 @@ interface Interface {
     function balanceOfPwToken(address account) external view returns (uint256);
     function balanceOfPwTokenDelegatedToLiquidityMining(address account) external view returns (uint256);
     function claimRewardsFromLiquidityMining(address[] memory lpTokens) external;
-    function closeSwapsDai(address beneficiary, uint256[] memory payFixedSwapIds, uint256[] memory receiveFixedSwapIds)
+    function closeSwapsDai(
+        address beneficiary,
+        uint256[] memory payFixedSwapIds,
+        uint256[] memory receiveFixedSwapIds,
+        CloseSwapRiskIndicatorsInput memory riskIndicatorsInput
+    )
         external
         returns (
             IporSwapClosingResult[] memory closedPayFixedSwaps,
             IporSwapClosingResult[] memory closedReceiveFixedSwaps
         );
-    function closeSwapsUsdc(address beneficiary, uint256[] memory payFixedSwapIds, uint256[] memory receiveFixedSwapIds)
+    function closeSwapsUsdc(
+        address beneficiary,
+        uint256[] memory payFixedSwapIds,
+        uint256[] memory receiveFixedSwapIds,
+        CloseSwapRiskIndicatorsInput memory riskIndicatorsInput
+    )
         external
         returns (
             IporSwapClosingResult[] memory closedPayFixedSwaps,
             IporSwapClosingResult[] memory closedReceiveFixedSwaps
         );
-    function closeSwapsUsdt(address beneficiary, uint256[] memory payFixedSwapIds, uint256[] memory receiveFixedSwapIds)
+    function closeSwapsUsdt(
+        address beneficiary,
+        uint256[] memory payFixedSwapIds,
+        uint256[] memory receiveFixedSwapIds,
+        CloseSwapRiskIndicatorsInput memory riskIndicatorsInput
+    )
         external
         returns (
             IporSwapClosingResult[] memory closedPayFixedSwaps,
@@ -252,19 +274,31 @@ interface Interface {
         );
     function delegatePwTokensToLiquidityMining(address[] memory lpTokens, uint256[] memory lpTokenAmounts) external;
     function depositToAssetManagement(address asset, uint256 assetAmount) external;
-    function emergencyCloseSwapsDai(uint256[] memory payFixedSwapIds, uint256[] memory receiveFixedSwapIds)
+    function emergencyCloseSwapsDai(
+        uint256[] memory payFixedSwapIds,
+        uint256[] memory receiveFixedSwapIds,
+        CloseSwapRiskIndicatorsInput memory riskIndicatorsInput
+    )
         external
         returns (
             IporSwapClosingResult[] memory closedPayFixedSwaps,
             IporSwapClosingResult[] memory closedReceiveFixedSwaps
         );
-    function emergencyCloseSwapsUsdc(uint256[] memory payFixedSwapIds, uint256[] memory receiveFixedSwapIds)
+    function emergencyCloseSwapsUsdc(
+        uint256[] memory payFixedSwapIds,
+        uint256[] memory receiveFixedSwapIds,
+        CloseSwapRiskIndicatorsInput memory riskIndicatorsInput
+    )
         external
         returns (
             IporSwapClosingResult[] memory closedPayFixedSwaps,
             IporSwapClosingResult[] memory closedReceiveFixedSwaps
         );
-    function emergencyCloseSwapsUsdt(uint256[] memory payFixedSwapIds, uint256[] memory receiveFixedSwapIds)
+    function emergencyCloseSwapsUsdt(
+        uint256[] memory payFixedSwapIds,
+        uint256[] memory receiveFixedSwapIds,
+        CloseSwapRiskIndicatorsInput memory riskIndicatorsInput
+    )
         external
         returns (
             IporSwapClosingResult[] memory closedPayFixedSwaps,
@@ -300,14 +334,13 @@ interface Interface {
     function getImplementation() external view returns (address);
     function getIpTokenExchangeRate(address asset) external view returns (uint256);
     function getIpstEthExchangeRate() external view returns (uint256);
-    function getOfferedRate(address asset, uint8 tenor, uint256 notional)
-        external
-        view
-        returns (uint256 offeredRatePayFixed, uint256 offeredRateReceiveFixed);
-    function getOpenSwapRiskIndicators(address asset, uint256 direction, uint8 tenor)
-        external
-        view
-        returns (OpenSwapRiskIndicators memory riskIndicators);
+    function getOfferedRate(
+        address asset,
+        uint8 tenor,
+        uint256 notional,
+        RiskIndicatorsInputs memory payFixedRiskIndicatorsInputs,
+        RiskIndicatorsInputs memory receiveFixedRiskIndicatorsInputs
+    ) external view returns (uint256 offeredRatePayFixed, uint256 offeredRateReceiveFixed);
     function getPnlPayFixed(address asset, uint256 swapId) external view returns (int256 pnlValue);
     function getPnlReceiveFixed(address asset, uint256 swapId) external view returns (int256 pnlValue);
     function getPwTokenCooldownTime() external view returns (uint256);
@@ -327,109 +360,127 @@ interface Interface {
         address beneficiary,
         uint256 totalAmount,
         uint256 acceptableFixedInterestRate,
-        uint256 leverage
+        uint256 leverage,
+        RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
     function openSwapPayFixed28daysUsdc(
         address beneficiary,
         uint256 totalAmount,
         uint256 acceptableFixedInterestRate,
-        uint256 leverage
+        uint256 leverage,
+        RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
     function openSwapPayFixed28daysUsdt(
         address beneficiary,
         uint256 totalAmount,
         uint256 acceptableFixedInterestRate,
-        uint256 leverage
+        uint256 leverage,
+        RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
     function openSwapPayFixed60daysDai(
         address beneficiary,
         uint256 totalAmount,
         uint256 acceptableFixedInterestRate,
-        uint256 leverage
+        uint256 leverage,
+        RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
     function openSwapPayFixed60daysUsdc(
         address beneficiary,
         uint256 totalAmount,
         uint256 acceptableFixedInterestRate,
-        uint256 leverage
+        uint256 leverage,
+        RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
     function openSwapPayFixed60daysUsdt(
         address beneficiary,
         uint256 totalAmount,
         uint256 acceptableFixedInterestRate,
-        uint256 leverage
+        uint256 leverage,
+        RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
     function openSwapPayFixed90daysDai(
         address beneficiary,
         uint256 totalAmount,
         uint256 acceptableFixedInterestRate,
-        uint256 leverage
+        uint256 leverage,
+        RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
     function openSwapPayFixed90daysUsdc(
         address beneficiary,
         uint256 totalAmount,
         uint256 acceptableFixedInterestRate,
-        uint256 leverage
+        uint256 leverage,
+        RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
     function openSwapPayFixed90daysUsdt(
         address beneficiary,
         uint256 totalAmount,
         uint256 acceptableFixedInterestRate,
-        uint256 leverage
+        uint256 leverage,
+        RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
     function openSwapReceiveFixed28daysDai(
         address beneficiary,
         uint256 totalAmount,
         uint256 acceptableFixedInterestRate,
-        uint256 leverage
+        uint256 leverage,
+        RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
     function openSwapReceiveFixed28daysUsdc(
         address beneficiary,
         uint256 totalAmount,
         uint256 acceptableFixedInterestRate,
-        uint256 leverage
+        uint256 leverage,
+        RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
     function openSwapReceiveFixed28daysUsdt(
         address beneficiary,
         uint256 totalAmount,
         uint256 acceptableFixedInterestRate,
-        uint256 leverage
+        uint256 leverage,
+        RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
     function openSwapReceiveFixed60daysDai(
         address beneficiary,
         uint256 totalAmount,
         uint256 acceptableFixedInterestRate,
-        uint256 leverage
+        uint256 leverage,
+        RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
     function openSwapReceiveFixed60daysUsdc(
         address beneficiary,
         uint256 totalAmount,
         uint256 acceptableFixedInterestRate,
-        uint256 leverage
+        uint256 leverage,
+        RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
     function openSwapReceiveFixed60daysUsdt(
         address beneficiary,
         uint256 totalAmount,
         uint256 acceptableFixedInterestRate,
-        uint256 leverage
+        uint256 leverage,
+        RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
     function openSwapReceiveFixed90daysDai(
         address beneficiary,
         uint256 totalAmount,
         uint256 acceptableFixedInterestRate,
-        uint256 leverage
+        uint256 leverage,
+        RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
     function openSwapReceiveFixed90daysUsdc(
         address beneficiary,
         uint256 totalAmount,
         uint256 acceptableFixedInterestRate,
-        uint256 leverage
+        uint256 leverage,
+        RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
     function openSwapReceiveFixed90daysUsdt(
         address beneficiary,
         uint256 totalAmount,
         uint256 acceptableFixedInterestRate,
-        uint256 leverage
+        uint256 leverage,
+        RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
     function pause() external;
     function provideLiquidityDai(address beneficiary, uint256 assetAmount) external;

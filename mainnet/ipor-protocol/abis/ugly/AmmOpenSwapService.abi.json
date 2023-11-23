@@ -179,7 +179,7 @@
       },
       {
         "internalType": "address",
-        "name": "iporRiskManagementOracleInput",
+        "name": "messageSignerInput",
         "type": "address"
       },
       {
@@ -391,7 +391,7 @@
   },
   {
     "inputs": [],
-    "name": "iporRiskManagementOracle",
+    "name": "messageSigner",
     "outputs": [
       {
         "internalType": "address",
@@ -423,6 +423,53 @@
         "internalType": "uint256",
         "name": "leverage",
         "type": "uint256"
+      },
+      {
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "maxCollateralRatio",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxCollateralRatioPerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxLeveragePerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "int256",
+            "name": "baseSpreadPerLeg",
+            "type": "int256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "fixedRateCapPerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "demandSpreadFactor",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "expiration",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bytes",
+            "name": "signature",
+            "type": "bytes"
+          }
+        ],
+        "internalType": "struct AmmTypes.RiskIndicatorsInputs",
+        "name": "riskIndicatorsInputs",
+        "type": "tuple"
       }
     ],
     "name": "openSwapPayFixed28daysDai",
@@ -457,6 +504,53 @@
         "internalType": "uint256",
         "name": "leverage",
         "type": "uint256"
+      },
+      {
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "maxCollateralRatio",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxCollateralRatioPerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxLeveragePerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "int256",
+            "name": "baseSpreadPerLeg",
+            "type": "int256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "fixedRateCapPerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "demandSpreadFactor",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "expiration",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bytes",
+            "name": "signature",
+            "type": "bytes"
+          }
+        ],
+        "internalType": "struct AmmTypes.RiskIndicatorsInputs",
+        "name": "riskIndicatorsInputs",
+        "type": "tuple"
       }
     ],
     "name": "openSwapPayFixed28daysUsdc",
@@ -491,6 +585,53 @@
         "internalType": "uint256",
         "name": "leverage",
         "type": "uint256"
+      },
+      {
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "maxCollateralRatio",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxCollateralRatioPerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxLeveragePerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "int256",
+            "name": "baseSpreadPerLeg",
+            "type": "int256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "fixedRateCapPerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "demandSpreadFactor",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "expiration",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bytes",
+            "name": "signature",
+            "type": "bytes"
+          }
+        ],
+        "internalType": "struct AmmTypes.RiskIndicatorsInputs",
+        "name": "riskIndicatorsInputs",
+        "type": "tuple"
       }
     ],
     "name": "openSwapPayFixed28daysUsdt",
@@ -525,6 +666,53 @@
         "internalType": "uint256",
         "name": "leverage",
         "type": "uint256"
+      },
+      {
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "maxCollateralRatio",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxCollateralRatioPerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxLeveragePerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "int256",
+            "name": "baseSpreadPerLeg",
+            "type": "int256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "fixedRateCapPerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "demandSpreadFactor",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "expiration",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bytes",
+            "name": "signature",
+            "type": "bytes"
+          }
+        ],
+        "internalType": "struct AmmTypes.RiskIndicatorsInputs",
+        "name": "riskIndicatorsInputs",
+        "type": "tuple"
       }
     ],
     "name": "openSwapPayFixed60daysDai",
@@ -559,6 +747,53 @@
         "internalType": "uint256",
         "name": "leverage",
         "type": "uint256"
+      },
+      {
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "maxCollateralRatio",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxCollateralRatioPerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxLeveragePerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "int256",
+            "name": "baseSpreadPerLeg",
+            "type": "int256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "fixedRateCapPerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "demandSpreadFactor",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "expiration",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bytes",
+            "name": "signature",
+            "type": "bytes"
+          }
+        ],
+        "internalType": "struct AmmTypes.RiskIndicatorsInputs",
+        "name": "riskIndicatorsInputs",
+        "type": "tuple"
       }
     ],
     "name": "openSwapPayFixed60daysUsdc",
@@ -593,6 +828,53 @@
         "internalType": "uint256",
         "name": "leverage",
         "type": "uint256"
+      },
+      {
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "maxCollateralRatio",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxCollateralRatioPerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxLeveragePerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "int256",
+            "name": "baseSpreadPerLeg",
+            "type": "int256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "fixedRateCapPerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "demandSpreadFactor",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "expiration",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bytes",
+            "name": "signature",
+            "type": "bytes"
+          }
+        ],
+        "internalType": "struct AmmTypes.RiskIndicatorsInputs",
+        "name": "riskIndicatorsInputs",
+        "type": "tuple"
       }
     ],
     "name": "openSwapPayFixed60daysUsdt",
@@ -627,6 +909,53 @@
         "internalType": "uint256",
         "name": "leverage",
         "type": "uint256"
+      },
+      {
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "maxCollateralRatio",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxCollateralRatioPerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxLeveragePerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "int256",
+            "name": "baseSpreadPerLeg",
+            "type": "int256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "fixedRateCapPerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "demandSpreadFactor",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "expiration",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bytes",
+            "name": "signature",
+            "type": "bytes"
+          }
+        ],
+        "internalType": "struct AmmTypes.RiskIndicatorsInputs",
+        "name": "riskIndicatorsInputs",
+        "type": "tuple"
       }
     ],
     "name": "openSwapPayFixed90daysDai",
@@ -661,6 +990,53 @@
         "internalType": "uint256",
         "name": "leverage",
         "type": "uint256"
+      },
+      {
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "maxCollateralRatio",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxCollateralRatioPerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxLeveragePerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "int256",
+            "name": "baseSpreadPerLeg",
+            "type": "int256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "fixedRateCapPerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "demandSpreadFactor",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "expiration",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bytes",
+            "name": "signature",
+            "type": "bytes"
+          }
+        ],
+        "internalType": "struct AmmTypes.RiskIndicatorsInputs",
+        "name": "riskIndicatorsInputs",
+        "type": "tuple"
       }
     ],
     "name": "openSwapPayFixed90daysUsdc",
@@ -695,6 +1071,53 @@
         "internalType": "uint256",
         "name": "leverage",
         "type": "uint256"
+      },
+      {
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "maxCollateralRatio",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxCollateralRatioPerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxLeveragePerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "int256",
+            "name": "baseSpreadPerLeg",
+            "type": "int256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "fixedRateCapPerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "demandSpreadFactor",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "expiration",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bytes",
+            "name": "signature",
+            "type": "bytes"
+          }
+        ],
+        "internalType": "struct AmmTypes.RiskIndicatorsInputs",
+        "name": "riskIndicatorsInputs",
+        "type": "tuple"
       }
     ],
     "name": "openSwapPayFixed90daysUsdt",
@@ -729,6 +1152,53 @@
         "internalType": "uint256",
         "name": "leverage",
         "type": "uint256"
+      },
+      {
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "maxCollateralRatio",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxCollateralRatioPerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxLeveragePerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "int256",
+            "name": "baseSpreadPerLeg",
+            "type": "int256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "fixedRateCapPerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "demandSpreadFactor",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "expiration",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bytes",
+            "name": "signature",
+            "type": "bytes"
+          }
+        ],
+        "internalType": "struct AmmTypes.RiskIndicatorsInputs",
+        "name": "riskIndicatorsInputs",
+        "type": "tuple"
       }
     ],
     "name": "openSwapReceiveFixed28daysDai",
@@ -763,6 +1233,53 @@
         "internalType": "uint256",
         "name": "leverage",
         "type": "uint256"
+      },
+      {
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "maxCollateralRatio",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxCollateralRatioPerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxLeveragePerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "int256",
+            "name": "baseSpreadPerLeg",
+            "type": "int256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "fixedRateCapPerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "demandSpreadFactor",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "expiration",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bytes",
+            "name": "signature",
+            "type": "bytes"
+          }
+        ],
+        "internalType": "struct AmmTypes.RiskIndicatorsInputs",
+        "name": "riskIndicatorsInputs",
+        "type": "tuple"
       }
     ],
     "name": "openSwapReceiveFixed28daysUsdc",
@@ -797,6 +1314,53 @@
         "internalType": "uint256",
         "name": "leverage",
         "type": "uint256"
+      },
+      {
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "maxCollateralRatio",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxCollateralRatioPerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxLeveragePerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "int256",
+            "name": "baseSpreadPerLeg",
+            "type": "int256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "fixedRateCapPerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "demandSpreadFactor",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "expiration",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bytes",
+            "name": "signature",
+            "type": "bytes"
+          }
+        ],
+        "internalType": "struct AmmTypes.RiskIndicatorsInputs",
+        "name": "riskIndicatorsInputs",
+        "type": "tuple"
       }
     ],
     "name": "openSwapReceiveFixed28daysUsdt",
@@ -831,6 +1395,53 @@
         "internalType": "uint256",
         "name": "leverage",
         "type": "uint256"
+      },
+      {
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "maxCollateralRatio",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxCollateralRatioPerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxLeveragePerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "int256",
+            "name": "baseSpreadPerLeg",
+            "type": "int256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "fixedRateCapPerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "demandSpreadFactor",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "expiration",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bytes",
+            "name": "signature",
+            "type": "bytes"
+          }
+        ],
+        "internalType": "struct AmmTypes.RiskIndicatorsInputs",
+        "name": "riskIndicatorsInputs",
+        "type": "tuple"
       }
     ],
     "name": "openSwapReceiveFixed60daysDai",
@@ -865,6 +1476,53 @@
         "internalType": "uint256",
         "name": "leverage",
         "type": "uint256"
+      },
+      {
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "maxCollateralRatio",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxCollateralRatioPerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxLeveragePerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "int256",
+            "name": "baseSpreadPerLeg",
+            "type": "int256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "fixedRateCapPerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "demandSpreadFactor",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "expiration",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bytes",
+            "name": "signature",
+            "type": "bytes"
+          }
+        ],
+        "internalType": "struct AmmTypes.RiskIndicatorsInputs",
+        "name": "riskIndicatorsInputs",
+        "type": "tuple"
       }
     ],
     "name": "openSwapReceiveFixed60daysUsdc",
@@ -899,6 +1557,53 @@
         "internalType": "uint256",
         "name": "leverage",
         "type": "uint256"
+      },
+      {
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "maxCollateralRatio",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxCollateralRatioPerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxLeveragePerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "int256",
+            "name": "baseSpreadPerLeg",
+            "type": "int256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "fixedRateCapPerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "demandSpreadFactor",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "expiration",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bytes",
+            "name": "signature",
+            "type": "bytes"
+          }
+        ],
+        "internalType": "struct AmmTypes.RiskIndicatorsInputs",
+        "name": "riskIndicatorsInputs",
+        "type": "tuple"
       }
     ],
     "name": "openSwapReceiveFixed60daysUsdt",
@@ -933,6 +1638,53 @@
         "internalType": "uint256",
         "name": "leverage",
         "type": "uint256"
+      },
+      {
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "maxCollateralRatio",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxCollateralRatioPerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxLeveragePerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "int256",
+            "name": "baseSpreadPerLeg",
+            "type": "int256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "fixedRateCapPerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "demandSpreadFactor",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "expiration",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bytes",
+            "name": "signature",
+            "type": "bytes"
+          }
+        ],
+        "internalType": "struct AmmTypes.RiskIndicatorsInputs",
+        "name": "riskIndicatorsInputs",
+        "type": "tuple"
       }
     ],
     "name": "openSwapReceiveFixed90daysDai",
@@ -967,6 +1719,53 @@
         "internalType": "uint256",
         "name": "leverage",
         "type": "uint256"
+      },
+      {
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "maxCollateralRatio",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxCollateralRatioPerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxLeveragePerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "int256",
+            "name": "baseSpreadPerLeg",
+            "type": "int256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "fixedRateCapPerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "demandSpreadFactor",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "expiration",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bytes",
+            "name": "signature",
+            "type": "bytes"
+          }
+        ],
+        "internalType": "struct AmmTypes.RiskIndicatorsInputs",
+        "name": "riskIndicatorsInputs",
+        "type": "tuple"
       }
     ],
     "name": "openSwapReceiveFixed90daysUsdc",
@@ -1001,6 +1800,53 @@
         "internalType": "uint256",
         "name": "leverage",
         "type": "uint256"
+      },
+      {
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "maxCollateralRatio",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxCollateralRatioPerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxLeveragePerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "int256",
+            "name": "baseSpreadPerLeg",
+            "type": "int256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "fixedRateCapPerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "demandSpreadFactor",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "expiration",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bytes",
+            "name": "signature",
+            "type": "bytes"
+          }
+        ],
+        "internalType": "struct AmmTypes.RiskIndicatorsInputs",
+        "name": "riskIndicatorsInputs",
+        "type": "tuple"
       }
     ],
     "name": "openSwapReceiveFixed90daysUsdt",
