@@ -26,7 +26,9 @@ interface Interface {
         uint256 ipTokenAmount
     );
 
-    function ammTreasuryEth() external view returns (address);
+    function ammStorageStEth() external view returns (address);
+    function ammTreasuryStEth() external view returns (address);
+    function iporOracle() external view returns (address);
     function iporProtocolRouter() external view returns (address);
     function ipstEth() external view returns (address);
     function provideLiquidityEth(address beneficiary, uint256 ethAmount) external payable;

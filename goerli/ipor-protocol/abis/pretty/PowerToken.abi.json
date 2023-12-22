@@ -13,14 +13,11 @@ interface Interface {
         address indexed account, uint256 pwTokenAmount, uint256 internalExchangeRate, uint256 fee
     );
     event Initialized(uint8 version);
-    event LiquidityMiningChanged(address indexed newLiquidityMining);
     event OwnershipTransferred(address indexed previousOwner, address indexed newOwner);
     event PauseGuardiansAdded(address[] indexed guardians);
     event PauseGuardiansRemoved(address[] indexed guardians);
-    event PauseManagerChanged(address indexed newPauseManager);
     event Paused(address account);
     event Redeem(address indexed account, uint256 pwTokenAmount);
-    event RewardsReceived(address account, uint256 rewardsAmount);
     event Undelegated(address indexed account, uint256 pwTokenAmounts);
     event Unpaused(address account);
     event UnstakeWithoutCooldownFeeChanged(uint256 newFee);

@@ -15,6 +15,7 @@ interface Interface {
         address spread90Days;
         address storageLens;
         address closeSwapService;
+        address storageService;
     }
 
     function addPauseGuardians(address[] memory guardians) external;
@@ -22,7 +23,7 @@ interface Interface {
     function getConfiguration() external view returns (DeployedContracts memory deployedContracts);
     function getImplementation() external view returns (address);
     function getRouterImplementation(bytes4 sig) external view returns (address);
-    function initialize(bool paused) external;
+    function initialize(bool pausedInput) external;
     function isPauseGuardian(address account) external view returns (bool);
     function owner() external view returns (address);
     function pause() external;

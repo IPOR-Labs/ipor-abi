@@ -11,9 +11,11 @@ interface Interface {
     event Upgraded(address indexed implementation);
 
     function addPauseGuardians(address[] memory guardians) external;
+    function ammStorage() external view returns (address);
+    function asset() external view returns (address);
     function confirmTransferOwnership() external;
-    function getConfiguration() external view returns (address, address);
     function getImplementation() external view returns (address);
+    function getLiquidityPoolBalance() external view returns (uint256);
     function getVersion() external pure returns (uint256);
     function initialize(bool paused) external;
     function isPauseGuardian(address account) external view returns (bool);
@@ -24,7 +26,6 @@ interface Interface {
     function removePauseGuardians(address[] memory guardians) external;
     function renounceOwnership() external;
     function router() external view returns (address);
-    function stEth() external view returns (address);
     function transferOwnership(address appointedOwner) external;
     function unpause() external;
     function upgradeTo(address newImplementation) external;

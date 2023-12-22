@@ -36,6 +36,48 @@
     "type": "constructor"
   },
   {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "asset",
+        "type": "address"
+      },
+      {
+        "internalType": "string",
+        "name": "errorCode",
+        "type": "string"
+      },
+      {
+        "internalType": "string",
+        "name": "methodName",
+        "type": "string"
+      }
+    ],
+    "name": "UpdateIndex",
+    "type": "error"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "string",
+        "name": "errorCode",
+        "type": "string"
+      },
+      {
+        "internalType": "address",
+        "name": "wrongAddress",
+        "type": "address"
+      },
+      {
+        "internalType": "string",
+        "name": "message",
+        "type": "string"
+      }
+    ],
+    "name": "WrongAddress",
+    "type": "error"
+  },
+  {
     "anonymous": false,
     "inputs": [
       {
@@ -579,19 +621,6 @@
     "type": "function"
   },
   {
-    "inputs": [
-      {
-        "internalType": "address[]",
-        "name": "assets",
-        "type": "address[]"
-      }
-    ],
-    "name": "postUpgrade",
-    "outputs": [],
-    "stateMutability": "nonpayable",
-    "type": "function"
-  },
-  {
     "inputs": [],
     "name": "proxiableUUID",
     "outputs": [
@@ -673,17 +702,34 @@
   {
     "inputs": [
       {
-        "internalType": "address",
-        "name": "asset",
-        "type": "address"
-      },
-      {
-        "internalType": "uint256",
-        "name": "indexValue",
-        "type": "uint256"
+        "components": [
+          {
+            "internalType": "address",
+            "name": "asset",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "indexValue",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "updateTimestamp",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "quasiIbtPrice",
+            "type": "uint256"
+          }
+        ],
+        "internalType": "struct IIporOracle.UpdateIndexParams[]",
+        "name": "indexesToUpdate",
+        "type": "tuple[]"
       }
     ],
-    "name": "updateIndex",
+    "name": "updateIndexes",
     "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"
@@ -691,17 +737,34 @@
   {
     "inputs": [
       {
-        "internalType": "address[]",
-        "name": "assets",
-        "type": "address[]"
-      },
-      {
-        "internalType": "uint256[]",
-        "name": "indexValues",
-        "type": "uint256[]"
+        "components": [
+          {
+            "internalType": "address",
+            "name": "asset",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "indexValue",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "updateTimestamp",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "quasiIbtPrice",
+            "type": "uint256"
+          }
+        ],
+        "internalType": "struct IIporOracle.UpdateIndexParams[]",
+        "name": "indexesToUpdate",
+        "type": "tuple[]"
       }
     ],
-    "name": "updateIndexes",
+    "name": "updateIndexesAndQuasiIbtPrice",
     "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"

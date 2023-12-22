@@ -18,7 +18,17 @@
       },
       {
         "internalType": "address",
-        "name": "ammTreasuryEthInput",
+        "name": "ammTreasuryStEthInput",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "ammStorageStEthInput",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "iporOracleInput",
         "type": "address"
       },
       {
@@ -194,7 +204,33 @@
   },
   {
     "inputs": [],
-    "name": "ammTreasuryEth",
+    "name": "ammStorageStEth",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "ammTreasuryStEth",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "iporOracle",
     "outputs": [
       {
         "internalType": "address",

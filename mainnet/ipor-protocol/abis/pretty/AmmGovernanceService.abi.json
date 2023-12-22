@@ -40,7 +40,7 @@ interface Interface {
     function setAmmPoolsParams(
         address asset,
         uint32 newMaxLiquidityPoolBalance,
-        uint32 newAutoRebalanceThresholdInThousands,
+        uint32 newAutoRebalanceThreshold,
         uint16 newAmmTreasuryAndAssetManagementRatio
     ) external;
     function transferToCharlieTreasury(address asset, uint256 wadAssetAmountInput) external;

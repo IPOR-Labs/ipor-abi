@@ -19,9 +19,9 @@
             "type": "address"
           },
           {
-            "internalType": "uint256",
-            "name": "minLeverage",
-            "type": "uint256"
+            "internalType": "address",
+            "name": "spread",
+            "type": "address"
           }
         ],
         "internalType": "struct IAmmSwapsLens.SwapLensPoolConfiguration",
@@ -46,9 +46,9 @@
             "type": "address"
           },
           {
-            "internalType": "uint256",
-            "name": "minLeverage",
-            "type": "uint256"
+            "internalType": "address",
+            "name": "spread",
+            "type": "address"
           }
         ],
         "internalType": "struct IAmmSwapsLens.SwapLensPoolConfiguration",
@@ -73,13 +73,40 @@
             "type": "address"
           },
           {
-            "internalType": "uint256",
-            "name": "minLeverage",
-            "type": "uint256"
+            "internalType": "address",
+            "name": "spread",
+            "type": "address"
           }
         ],
         "internalType": "struct IAmmSwapsLens.SwapLensPoolConfiguration",
         "name": "daiCfg",
+        "type": "tuple"
+      },
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "asset",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "ammStorage",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "ammTreasury",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "spread",
+            "type": "address"
+          }
+        ],
+        "internalType": "struct IAmmSwapsLens.SwapLensPoolConfiguration",
+        "name": "stEthCfg",
         "type": "tuple"
       },
       {
@@ -90,11 +117,6 @@
       {
         "internalType": "address",
         "name": "messageSignerInput",
-        "type": "address"
-      },
-      {
-        "internalType": "address",
-        "name": "spreadRouterInput",
         "type": "address"
       }
     ],
@@ -380,9 +402,9 @@
             "type": "address"
           },
           {
-            "internalType": "uint256",
-            "name": "minLeverage",
-            "type": "uint256"
+            "internalType": "address",
+            "name": "spread",
+            "type": "address"
           }
         ],
         "internalType": "struct IAmmSwapsLens.SwapLensPoolConfiguration",
@@ -520,19 +542,6 @@
   {
     "inputs": [],
     "name": "messageSigner",
-    "outputs": [
-      {
-        "internalType": "address",
-        "name": "",
-        "type": "address"
-      }
-    ],
-    "stateMutability": "view",
-    "type": "function"
-  },
-  {
-    "inputs": [],
-    "name": "spreadRouter",
     "outputs": [
       {
         "internalType": "address",

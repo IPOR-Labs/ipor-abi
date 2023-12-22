@@ -43,25 +43,6 @@
     "anonymous": false,
     "inputs": [
       {
-        "indexed": false,
-        "internalType": "address",
-        "name": "account",
-        "type": "address"
-      },
-      {
-        "indexed": false,
-        "internalType": "uint256",
-        "name": "allocatedRewards",
-        "type": "uint256"
-      }
-    ],
-    "name": "AllocatedTokensClaimed",
-    "type": "event"
-  },
-  {
-    "anonymous": false,
-    "inputs": [
-      {
         "indexed": true,
         "internalType": "address",
         "name": "erc20Token",
@@ -246,31 +227,6 @@
       }
     ],
     "name": "LpTokensRemoved",
-    "type": "event"
-  },
-  {
-    "anonymous": false,
-    "inputs": [
-      {
-        "indexed": false,
-        "internalType": "address",
-        "name": "account",
-        "type": "address"
-      },
-      {
-        "indexed": false,
-        "internalType": "address",
-        "name": "lpToken",
-        "type": "address"
-      },
-      {
-        "indexed": false,
-        "internalType": "uint256",
-        "name": "lpTokenAmount",
-        "type": "uint256"
-      }
-    ],
-    "name": "LpTokensStaked",
     "type": "event"
   },
   {

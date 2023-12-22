@@ -141,10 +141,73 @@
         "internalType": "struct IAmmGovernanceLens.AmmGovernancePoolConfiguration",
         "name": "daiPoolCfg",
         "type": "tuple"
+      },
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "asset",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "decimals",
+            "type": "uint256"
+          },
+          {
+            "internalType": "address",
+            "name": "ammStorage",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "ammTreasury",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "ammPoolsTreasury",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "ammPoolsTreasuryManager",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "ammCharlieTreasury",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "ammCharlieTreasuryManager",
+            "type": "address"
+          }
+        ],
+        "internalType": "struct IAmmGovernanceLens.AmmGovernancePoolConfiguration",
+        "name": "stEthPoolCfg",
+        "type": "tuple"
       }
     ],
     "stateMutability": "nonpayable",
     "type": "constructor"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "string",
+        "name": "errorCode",
+        "type": "string"
+      },
+      {
+        "internalType": "address",
+        "name": "asset",
+        "type": "address"
+      }
+    ],
+    "name": "UnsupportedModule",
+    "type": "error"
   },
   {
     "anonymous": false,
@@ -476,7 +539,7 @@
       },
       {
         "internalType": "uint32",
-        "name": "newAutoRebalanceThresholdInThousands",
+        "name": "newAutoRebalanceThreshold",
         "type": "uint32"
       },
       {
