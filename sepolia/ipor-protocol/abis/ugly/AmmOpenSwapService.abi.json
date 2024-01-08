@@ -1,0 +1,1876 @@
+[
+  {
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "asset",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "decimals",
+            "type": "uint256"
+          },
+          {
+            "internalType": "address",
+            "name": "ammStorage",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "ammTreasury",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "iporPublicationFee",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxSwapCollateralAmount",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "liquidationDepositAmount",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "minLeverage",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "openingFeeRate",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "openingFeeTreasuryPortionRate",
+            "type": "uint256"
+          }
+        ],
+        "internalType": "struct IAmmOpenSwapLens.AmmOpenSwapServicePoolConfiguration",
+        "name": "usdtPoolCfg",
+        "type": "tuple"
+      },
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "asset",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "decimals",
+            "type": "uint256"
+          },
+          {
+            "internalType": "address",
+            "name": "ammStorage",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "ammTreasury",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "iporPublicationFee",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxSwapCollateralAmount",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "liquidationDepositAmount",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "minLeverage",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "openingFeeRate",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "openingFeeTreasuryPortionRate",
+            "type": "uint256"
+          }
+        ],
+        "internalType": "struct IAmmOpenSwapLens.AmmOpenSwapServicePoolConfiguration",
+        "name": "usdcPoolCfg",
+        "type": "tuple"
+      },
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "asset",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "decimals",
+            "type": "uint256"
+          },
+          {
+            "internalType": "address",
+            "name": "ammStorage",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "ammTreasury",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "iporPublicationFee",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxSwapCollateralAmount",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "liquidationDepositAmount",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "minLeverage",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "openingFeeRate",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "openingFeeTreasuryPortionRate",
+            "type": "uint256"
+          }
+        ],
+        "internalType": "struct IAmmOpenSwapLens.AmmOpenSwapServicePoolConfiguration",
+        "name": "daiPoolCfg",
+        "type": "tuple"
+      },
+      {
+        "internalType": "address",
+        "name": "iporOracleInput",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "messageSignerInput",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "spreadRouterInput",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "constructor"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "uint256",
+        "name": "swapId",
+        "type": "uint256"
+      },
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "buyer",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "asset",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "enum AmmTypes.SwapDirection",
+        "name": "direction",
+        "type": "uint8"
+      },
+      {
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "totalAmount",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "collateral",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "notional",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "openingFeeLPAmount",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "openingFeeTreasuryAmount",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "iporPublicationFee",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "liquidationDepositAmount",
+            "type": "uint256"
+          }
+        ],
+        "indexed": false,
+        "internalType": "struct AmmTypes.OpenSwapAmount",
+        "name": "amounts",
+        "type": "tuple"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "openTimestamp",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "endTimestamp",
+        "type": "uint256"
+      },
+      {
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "iporIndexValue",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "ibtPrice",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "ibtQuantity",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "fixedInterestRate",
+            "type": "uint256"
+          }
+        ],
+        "indexed": false,
+        "internalType": "struct AmmTypes.IporSwapIndicator",
+        "name": "indicator",
+        "type": "tuple"
+      }
+    ],
+    "name": "OpenSwap",
+    "type": "event"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "asset",
+        "type": "address"
+      }
+    ],
+    "name": "getAmmOpenSwapServicePoolConfiguration",
+    "outputs": [
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "asset",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "decimals",
+            "type": "uint256"
+          },
+          {
+            "internalType": "address",
+            "name": "ammStorage",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "ammTreasury",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "iporPublicationFee",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxSwapCollateralAmount",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "liquidationDepositAmount",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "minLeverage",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "openingFeeRate",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "openingFeeTreasuryPortionRate",
+            "type": "uint256"
+          }
+        ],
+        "internalType": "struct IAmmOpenSwapLens.AmmOpenSwapServicePoolConfiguration",
+        "name": "",
+        "type": "tuple"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "iporOracle",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "messageSigner",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "beneficiary",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "totalAmount",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "acceptableFixedInterestRate",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "leverage",
+        "type": "uint256"
+      },
+      {
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "maxCollateralRatio",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxCollateralRatioPerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxLeveragePerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "int256",
+            "name": "baseSpreadPerLeg",
+            "type": "int256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "fixedRateCapPerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "demandSpreadFactor",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "expiration",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bytes",
+            "name": "signature",
+            "type": "bytes"
+          }
+        ],
+        "internalType": "struct AmmTypes.RiskIndicatorsInputs",
+        "name": "riskIndicatorsInputs",
+        "type": "tuple"
+      }
+    ],
+    "name": "openSwapPayFixed28daysDai",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "beneficiary",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "totalAmount",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "acceptableFixedInterestRate",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "leverage",
+        "type": "uint256"
+      },
+      {
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "maxCollateralRatio",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxCollateralRatioPerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxLeveragePerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "int256",
+            "name": "baseSpreadPerLeg",
+            "type": "int256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "fixedRateCapPerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "demandSpreadFactor",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "expiration",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bytes",
+            "name": "signature",
+            "type": "bytes"
+          }
+        ],
+        "internalType": "struct AmmTypes.RiskIndicatorsInputs",
+        "name": "riskIndicatorsInputs",
+        "type": "tuple"
+      }
+    ],
+    "name": "openSwapPayFixed28daysUsdc",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "beneficiary",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "totalAmount",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "acceptableFixedInterestRate",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "leverage",
+        "type": "uint256"
+      },
+      {
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "maxCollateralRatio",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxCollateralRatioPerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxLeveragePerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "int256",
+            "name": "baseSpreadPerLeg",
+            "type": "int256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "fixedRateCapPerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "demandSpreadFactor",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "expiration",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bytes",
+            "name": "signature",
+            "type": "bytes"
+          }
+        ],
+        "internalType": "struct AmmTypes.RiskIndicatorsInputs",
+        "name": "riskIndicatorsInputs",
+        "type": "tuple"
+      }
+    ],
+    "name": "openSwapPayFixed28daysUsdt",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "beneficiary",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "totalAmount",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "acceptableFixedInterestRate",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "leverage",
+        "type": "uint256"
+      },
+      {
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "maxCollateralRatio",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxCollateralRatioPerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxLeveragePerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "int256",
+            "name": "baseSpreadPerLeg",
+            "type": "int256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "fixedRateCapPerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "demandSpreadFactor",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "expiration",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bytes",
+            "name": "signature",
+            "type": "bytes"
+          }
+        ],
+        "internalType": "struct AmmTypes.RiskIndicatorsInputs",
+        "name": "riskIndicatorsInputs",
+        "type": "tuple"
+      }
+    ],
+    "name": "openSwapPayFixed60daysDai",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "beneficiary",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "totalAmount",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "acceptableFixedInterestRate",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "leverage",
+        "type": "uint256"
+      },
+      {
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "maxCollateralRatio",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxCollateralRatioPerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxLeveragePerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "int256",
+            "name": "baseSpreadPerLeg",
+            "type": "int256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "fixedRateCapPerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "demandSpreadFactor",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "expiration",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bytes",
+            "name": "signature",
+            "type": "bytes"
+          }
+        ],
+        "internalType": "struct AmmTypes.RiskIndicatorsInputs",
+        "name": "riskIndicatorsInputs",
+        "type": "tuple"
+      }
+    ],
+    "name": "openSwapPayFixed60daysUsdc",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "beneficiary",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "totalAmount",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "acceptableFixedInterestRate",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "leverage",
+        "type": "uint256"
+      },
+      {
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "maxCollateralRatio",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxCollateralRatioPerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxLeveragePerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "int256",
+            "name": "baseSpreadPerLeg",
+            "type": "int256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "fixedRateCapPerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "demandSpreadFactor",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "expiration",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bytes",
+            "name": "signature",
+            "type": "bytes"
+          }
+        ],
+        "internalType": "struct AmmTypes.RiskIndicatorsInputs",
+        "name": "riskIndicatorsInputs",
+        "type": "tuple"
+      }
+    ],
+    "name": "openSwapPayFixed60daysUsdt",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "beneficiary",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "totalAmount",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "acceptableFixedInterestRate",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "leverage",
+        "type": "uint256"
+      },
+      {
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "maxCollateralRatio",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxCollateralRatioPerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxLeveragePerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "int256",
+            "name": "baseSpreadPerLeg",
+            "type": "int256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "fixedRateCapPerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "demandSpreadFactor",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "expiration",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bytes",
+            "name": "signature",
+            "type": "bytes"
+          }
+        ],
+        "internalType": "struct AmmTypes.RiskIndicatorsInputs",
+        "name": "riskIndicatorsInputs",
+        "type": "tuple"
+      }
+    ],
+    "name": "openSwapPayFixed90daysDai",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "beneficiary",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "totalAmount",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "acceptableFixedInterestRate",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "leverage",
+        "type": "uint256"
+      },
+      {
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "maxCollateralRatio",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxCollateralRatioPerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxLeveragePerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "int256",
+            "name": "baseSpreadPerLeg",
+            "type": "int256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "fixedRateCapPerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "demandSpreadFactor",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "expiration",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bytes",
+            "name": "signature",
+            "type": "bytes"
+          }
+        ],
+        "internalType": "struct AmmTypes.RiskIndicatorsInputs",
+        "name": "riskIndicatorsInputs",
+        "type": "tuple"
+      }
+    ],
+    "name": "openSwapPayFixed90daysUsdc",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "beneficiary",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "totalAmount",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "acceptableFixedInterestRate",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "leverage",
+        "type": "uint256"
+      },
+      {
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "maxCollateralRatio",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxCollateralRatioPerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxLeveragePerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "int256",
+            "name": "baseSpreadPerLeg",
+            "type": "int256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "fixedRateCapPerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "demandSpreadFactor",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "expiration",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bytes",
+            "name": "signature",
+            "type": "bytes"
+          }
+        ],
+        "internalType": "struct AmmTypes.RiskIndicatorsInputs",
+        "name": "riskIndicatorsInputs",
+        "type": "tuple"
+      }
+    ],
+    "name": "openSwapPayFixed90daysUsdt",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "beneficiary",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "totalAmount",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "acceptableFixedInterestRate",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "leverage",
+        "type": "uint256"
+      },
+      {
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "maxCollateralRatio",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxCollateralRatioPerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxLeveragePerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "int256",
+            "name": "baseSpreadPerLeg",
+            "type": "int256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "fixedRateCapPerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "demandSpreadFactor",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "expiration",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bytes",
+            "name": "signature",
+            "type": "bytes"
+          }
+        ],
+        "internalType": "struct AmmTypes.RiskIndicatorsInputs",
+        "name": "riskIndicatorsInputs",
+        "type": "tuple"
+      }
+    ],
+    "name": "openSwapReceiveFixed28daysDai",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "beneficiary",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "totalAmount",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "acceptableFixedInterestRate",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "leverage",
+        "type": "uint256"
+      },
+      {
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "maxCollateralRatio",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxCollateralRatioPerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxLeveragePerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "int256",
+            "name": "baseSpreadPerLeg",
+            "type": "int256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "fixedRateCapPerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "demandSpreadFactor",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "expiration",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bytes",
+            "name": "signature",
+            "type": "bytes"
+          }
+        ],
+        "internalType": "struct AmmTypes.RiskIndicatorsInputs",
+        "name": "riskIndicatorsInputs",
+        "type": "tuple"
+      }
+    ],
+    "name": "openSwapReceiveFixed28daysUsdc",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "beneficiary",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "totalAmount",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "acceptableFixedInterestRate",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "leverage",
+        "type": "uint256"
+      },
+      {
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "maxCollateralRatio",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxCollateralRatioPerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxLeveragePerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "int256",
+            "name": "baseSpreadPerLeg",
+            "type": "int256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "fixedRateCapPerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "demandSpreadFactor",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "expiration",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bytes",
+            "name": "signature",
+            "type": "bytes"
+          }
+        ],
+        "internalType": "struct AmmTypes.RiskIndicatorsInputs",
+        "name": "riskIndicatorsInputs",
+        "type": "tuple"
+      }
+    ],
+    "name": "openSwapReceiveFixed28daysUsdt",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "beneficiary",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "totalAmount",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "acceptableFixedInterestRate",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "leverage",
+        "type": "uint256"
+      },
+      {
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "maxCollateralRatio",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxCollateralRatioPerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxLeveragePerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "int256",
+            "name": "baseSpreadPerLeg",
+            "type": "int256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "fixedRateCapPerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "demandSpreadFactor",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "expiration",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bytes",
+            "name": "signature",
+            "type": "bytes"
+          }
+        ],
+        "internalType": "struct AmmTypes.RiskIndicatorsInputs",
+        "name": "riskIndicatorsInputs",
+        "type": "tuple"
+      }
+    ],
+    "name": "openSwapReceiveFixed60daysDai",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "beneficiary",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "totalAmount",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "acceptableFixedInterestRate",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "leverage",
+        "type": "uint256"
+      },
+      {
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "maxCollateralRatio",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxCollateralRatioPerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxLeveragePerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "int256",
+            "name": "baseSpreadPerLeg",
+            "type": "int256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "fixedRateCapPerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "demandSpreadFactor",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "expiration",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bytes",
+            "name": "signature",
+            "type": "bytes"
+          }
+        ],
+        "internalType": "struct AmmTypes.RiskIndicatorsInputs",
+        "name": "riskIndicatorsInputs",
+        "type": "tuple"
+      }
+    ],
+    "name": "openSwapReceiveFixed60daysUsdc",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "beneficiary",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "totalAmount",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "acceptableFixedInterestRate",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "leverage",
+        "type": "uint256"
+      },
+      {
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "maxCollateralRatio",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxCollateralRatioPerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxLeveragePerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "int256",
+            "name": "baseSpreadPerLeg",
+            "type": "int256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "fixedRateCapPerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "demandSpreadFactor",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "expiration",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bytes",
+            "name": "signature",
+            "type": "bytes"
+          }
+        ],
+        "internalType": "struct AmmTypes.RiskIndicatorsInputs",
+        "name": "riskIndicatorsInputs",
+        "type": "tuple"
+      }
+    ],
+    "name": "openSwapReceiveFixed60daysUsdt",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "beneficiary",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "totalAmount",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "acceptableFixedInterestRate",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "leverage",
+        "type": "uint256"
+      },
+      {
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "maxCollateralRatio",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxCollateralRatioPerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxLeveragePerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "int256",
+            "name": "baseSpreadPerLeg",
+            "type": "int256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "fixedRateCapPerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "demandSpreadFactor",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "expiration",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bytes",
+            "name": "signature",
+            "type": "bytes"
+          }
+        ],
+        "internalType": "struct AmmTypes.RiskIndicatorsInputs",
+        "name": "riskIndicatorsInputs",
+        "type": "tuple"
+      }
+    ],
+    "name": "openSwapReceiveFixed90daysDai",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "beneficiary",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "totalAmount",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "acceptableFixedInterestRate",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "leverage",
+        "type": "uint256"
+      },
+      {
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "maxCollateralRatio",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxCollateralRatioPerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxLeveragePerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "int256",
+            "name": "baseSpreadPerLeg",
+            "type": "int256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "fixedRateCapPerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "demandSpreadFactor",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "expiration",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bytes",
+            "name": "signature",
+            "type": "bytes"
+          }
+        ],
+        "internalType": "struct AmmTypes.RiskIndicatorsInputs",
+        "name": "riskIndicatorsInputs",
+        "type": "tuple"
+      }
+    ],
+    "name": "openSwapReceiveFixed90daysUsdc",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "beneficiary",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "totalAmount",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "acceptableFixedInterestRate",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "leverage",
+        "type": "uint256"
+      },
+      {
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "maxCollateralRatio",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxCollateralRatioPerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxLeveragePerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "int256",
+            "name": "baseSpreadPerLeg",
+            "type": "int256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "fixedRateCapPerLeg",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "demandSpreadFactor",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "expiration",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bytes",
+            "name": "signature",
+            "type": "bytes"
+          }
+        ],
+        "internalType": "struct AmmTypes.RiskIndicatorsInputs",
+        "name": "riskIndicatorsInputs",
+        "type": "tuple"
+      }
+    ],
+    "name": "openSwapReceiveFixed90daysUsdt",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "spreadRouter",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]
