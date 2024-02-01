@@ -31,7 +31,7 @@ interface Interface {
         address asset;
         address ammStorage;
         address ammTreasury;
-        uint256 minLeverage;
+        address spread;
     }
 
     struct AmmBalancesForOpenSwapMemory {
@@ -60,6 +60,5 @@ interface Interface {
         returns (uint256 totalCount, IporSwap[] memory swaps);
     function iporOracle() external view returns (address);
     function messageSigner() external view returns (address);
-    function spreadRouter() external view returns (address);
 }
 

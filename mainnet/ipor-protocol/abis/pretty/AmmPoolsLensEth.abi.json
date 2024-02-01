@@ -1,7 +1,0 @@
-interface Interface {
-    function ammTreasuryEth() external view returns (address);
-    function getIpstEthExchangeRate() external view returns (uint256);
-    function ipstEth() external view returns (address);
-    function stEth() external view returns (address);
-}
-

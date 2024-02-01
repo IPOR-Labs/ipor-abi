@@ -19,6 +19,17 @@ interface Interface {
         uint256 endTimestamp,
         IporSwapIndicator indicator
     );
+    event OpenSwap(
+        uint256 indexed swapId,
+        address indexed buyer,
+        address inputAsset,
+        address asset,
+        uint8 direction,
+        OpenSwapAmount amounts,
+        uint256 openTimestamp,
+        uint256 endTimestamp,
+        IporSwapIndicator indicator
+    );
     event ProvideLiquidity(
         address indexed from,
         address indexed beneficiary,
@@ -78,6 +89,16 @@ interface Interface {
         RiskIndicatorsInputs receiveFixed;
     }
 
+    struct ClosingSwapDetails {
+        uint8 closableStatus;
+        bool swapUnwindRequired;
+        int256 swapUnwindPnlValue;
+        uint256 swapUnwindOpeningFeeAmount;
+        uint256 swapUnwindFeeLPAmount;
+        uint256 swapUnwindFeeTreasuryAmount;
+        int256 pnlValue;
+    }
+
     struct IporSwapClosingResult {
         uint256 swapId;
         bool closed;
@@ -109,6 +130,35 @@ interface Interface {
         uint256 demandSpreadFactor;
         uint256 expiration;
         bytes signature;
+    }
+
+    struct OpenSwapAmount {
+        uint256 inputAssetTotalAmount;
+        uint256 assetTotalAmount;
+        uint256 collateral;
+        uint256 notional;
+        uint256 openingFeeLPAmount;
+        uint256 openingFeeTreasuryAmount;
+        uint256 iporPublicationFee;
+        uint256 liquidationDepositAmount;
+    }
+
+    struct AmmCloseSwapServicePoolConfiguration {
+        address asset;
+        uint256 decimals;
+        address ammStorage;
+        address ammTreasury;
+        address assetManagement;
+        address spread;
+        uint256 unwindingFeeRate;
+        uint256 unwindingFeeTreasuryPortionRate;
+        uint256 maxLengthOfLiquidatedSwapsPerLeg;
+        uint256 timeBeforeMaturityAllowedToCloseSwapByCommunity;
+        uint256 timeBeforeMaturityAllowedToCloseSwapByBuyer;
+        uint256 minLiquidationThresholdToCloseBeforeMaturityByCommunity;
+        uint256 minLiquidationThresholdToCloseBeforeMaturityByBuyer;
+        uint256 minLeverage;
+        uint256 timeAfterOpenAllowedToCloseSwapWithUnwinding;
     }
 
     struct AmmPoolsLensPoolConfiguration {
@@ -152,7 +202,7 @@ interface Interface {
         address asset;
         address ammStorage;
         address ammTreasury;
-        uint256 minLeverage;
+        address spread;
     }
 
     struct AssetManagementConfiguration {
@@ -250,6 +300,17 @@ interface Interface {
             IporSwapClosingResult[] memory closedPayFixedSwaps,
             IporSwapClosingResult[] memory closedReceiveFixedSwaps
         );
+    function closeSwapsStEth(
+        address beneficiary,
+        uint256[] memory payFixedSwapIds,
+        uint256[] memory receiveFixedSwapIds,
+        CloseSwapRiskIndicatorsInput memory riskIndicatorsInput
+    )
+        external
+        returns (
+            IporSwapClosingResult[] memory closedPayFixedSwaps,
+            IporSwapClosingResult[] memory closedReceiveFixedSwaps
+        );
     function closeSwapsUsdc(
         address beneficiary,
         uint256[] memory payFixedSwapIds,
@@ -275,6 +336,16 @@ interface Interface {
     function delegatePwTokensToLiquidityMining(address[] memory lpTokens, uint256[] memory lpTokenAmounts) external;
     function depositToAssetManagement(address asset, uint256 assetAmount) external;
     function emergencyCloseSwapsDai(
+        uint256[] memory payFixedSwapIds,
+        uint256[] memory receiveFixedSwapIds,
+        CloseSwapRiskIndicatorsInput memory riskIndicatorsInput
+    )
+        external
+        returns (
+            IporSwapClosingResult[] memory closedPayFixedSwaps,
+            IporSwapClosingResult[] memory closedReceiveFixedSwaps
+        );
+    function emergencyCloseSwapsStEth(
         uint256[] memory payFixedSwapIds,
         uint256[] memory receiveFixedSwapIds,
         CloseSwapRiskIndicatorsInput memory riskIndicatorsInput
@@ -317,6 +388,10 @@ interface Interface {
         view
         returns (AccruedRewardsResult[] memory result);
     function getAmmBalance(address asset) external view returns (AmmBalancesMemory memory);
+    function getAmmCloseSwapServicePoolConfiguration(address asset)
+        external
+        view
+        returns (AmmCloseSwapServicePoolConfiguration memory);
     function getAmmPoolServiceConfiguration(address asset)
         external
         view
@@ -327,6 +402,14 @@ interface Interface {
         view
         returns (AssetManagementConfiguration memory);
     function getBalancesForOpenSwap(address asset) external view returns (AmmBalancesForOpenSwapMemory memory);
+    function getClosingSwapDetails(
+        address asset,
+        address account,
+        uint8 direction,
+        uint256 swapId,
+        uint256 closeTimestamp,
+        CloseSwapRiskIndicatorsInput memory riskIndicatorsInput
+    ) external view returns (ClosingSwapDetails memory closingSwapDetails);
     function getGlobalIndicatorsFromLiquidityMining(address[] memory lpTokens)
         external
         view
@@ -363,6 +446,14 @@ interface Interface {
         uint256 leverage,
         RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
+    function openSwapPayFixed28daysStEth(
+        address beneficiary,
+        address inputAsset,
+        uint256 inputAssetTotalAmount,
+        uint256 acceptableFixedInterestRate,
+        uint256 leverage,
+        RiskIndicatorsInputs memory riskIndicatorsInputs
+    ) external payable returns (uint256);
     function openSwapPayFixed28daysUsdc(
         address beneficiary,
         uint256 totalAmount,
@@ -384,6 +475,14 @@ interface Interface {
         uint256 leverage,
         RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
+    function openSwapPayFixed60daysStEth(
+        address beneficiary,
+        address inputAsset,
+        uint256 inputAssetTotalAmount,
+        uint256 acceptableFixedInterestRate,
+        uint256 leverage,
+        RiskIndicatorsInputs memory riskIndicatorsInputs
+    ) external payable returns (uint256);
     function openSwapPayFixed60daysUsdc(
         address beneficiary,
         uint256 totalAmount,
@@ -405,6 +504,14 @@ interface Interface {
         uint256 leverage,
         RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
+    function openSwapPayFixed90daysStEth(
+        address beneficiary,
+        address inputAsset,
+        uint256 inputAssetTotalAmount,
+        uint256 acceptableFixedInterestRate,
+        uint256 leverage,
+        RiskIndicatorsInputs memory riskIndicatorsInputs
+    ) external payable returns (uint256);
     function openSwapPayFixed90daysUsdc(
         address beneficiary,
         uint256 totalAmount,
@@ -426,6 +533,14 @@ interface Interface {
         uint256 leverage,
         RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
+    function openSwapReceiveFixed28daysStEth(
+        address beneficiary,
+        address inputAsset,
+        uint256 inputAssetTotalAmount,
+        uint256 acceptableFixedInterestRate,
+        uint256 leverage,
+        RiskIndicatorsInputs memory riskIndicatorsInputs
+    ) external payable returns (uint256);
     function openSwapReceiveFixed28daysUsdc(
         address beneficiary,
         uint256 totalAmount,
@@ -447,6 +562,14 @@ interface Interface {
         uint256 leverage,
         RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
+    function openSwapReceiveFixed60daysStEth(
+        address beneficiary,
+        address inputAsset,
+        uint256 inputAssetTotalAmount,
+        uint256 acceptableFixedInterestRate,
+        uint256 leverage,
+        RiskIndicatorsInputs memory riskIndicatorsInputs
+    ) external payable returns (uint256);
     function openSwapReceiveFixed60daysUsdc(
         address beneficiary,
         uint256 totalAmount,
@@ -468,6 +591,14 @@ interface Interface {
         uint256 leverage,
         RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
+    function openSwapReceiveFixed90daysStEth(
+        address beneficiary,
+        address inputAsset,
+        uint256 inputAssetTotalAmount,
+        uint256 acceptableFixedInterestRate,
+        uint256 leverage,
+        RiskIndicatorsInputs memory riskIndicatorsInputs
+    ) external payable returns (uint256);
     function openSwapReceiveFixed90daysUsdc(
         address beneficiary,
         uint256 totalAmount,

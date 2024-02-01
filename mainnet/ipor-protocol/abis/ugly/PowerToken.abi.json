@@ -217,19 +217,6 @@
       {
         "indexed": true,
         "internalType": "address",
-        "name": "newLiquidityMining",
-        "type": "address"
-      }
-    ],
-    "name": "LiquidityMiningChanged",
-    "type": "event"
-  },
-  {
-    "anonymous": false,
-    "inputs": [
-      {
-        "indexed": true,
-        "internalType": "address",
         "name": "previousOwner",
         "type": "address"
       },
@@ -273,19 +260,6 @@
     "anonymous": false,
     "inputs": [
       {
-        "indexed": true,
-        "internalType": "address",
-        "name": "newPauseManager",
-        "type": "address"
-      }
-    ],
-    "name": "PauseManagerChanged",
-    "type": "event"
-  },
-  {
-    "anonymous": false,
-    "inputs": [
-      {
         "indexed": false,
         "internalType": "address",
         "name": "account",
@@ -312,25 +286,6 @@
       }
     ],
     "name": "Redeem",
-    "type": "event"
-  },
-  {
-    "anonymous": false,
-    "inputs": [
-      {
-        "indexed": false,
-        "internalType": "address",
-        "name": "account",
-        "type": "address"
-      },
-      {
-        "indexed": false,
-        "internalType": "uint256",
-        "name": "rewardsAmount",
-        "type": "uint256"
-      }
-    ],
-    "name": "RewardsReceived",
     "type": "event"
   },
   {

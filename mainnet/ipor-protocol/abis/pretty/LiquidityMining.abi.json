@@ -1,6 +1,5 @@
 interface Interface {
     event AdminChanged(address previousAdmin, address newAdmin);
-    event AllocatedTokensClaimed(address account, uint256 allocatedRewards);
     event AllowanceGranted(address indexed erc20Token, address indexed router);
     event AllowanceRevoked(address indexed erc20Token, address indexed router);
     event AppointedToTransferOwnership(address indexed appointedOwner);
@@ -11,7 +10,6 @@ interface Interface {
     event LpTokenAdded(address beneficiary, address lpToken, uint256 lpTokenAmount);
     event LpTokenSupportRemoved(address account, address lpToken);
     event LpTokensRemoved(address account, address lpToken, uint256 lpTokenAmount);
-    event LpTokensStaked(address account, address lpToken, uint256 lpTokenAmount);
     event LpTokensUnstaked(address account, address lpToken, uint256 lpTokenAmount);
     event NewLpTokenSupported(address account, address lpToken);
     event OwnershipTransferred(address indexed previousOwner, address indexed newOwner);

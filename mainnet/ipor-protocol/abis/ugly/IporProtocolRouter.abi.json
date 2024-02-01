@@ -25,7 +25,32 @@
           },
           {
             "internalType": "address",
-            "name": "ammCloseSwapService",
+            "name": "ammOpenSwapServiceStEth",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "ammCloseSwapServiceUsdt",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "ammCloseSwapServiceUsdc",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "ammCloseSwapServiceDai",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "ammCloseSwapServiceStEth",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "ammCloseSwapLens",
             "type": "address"
           },
           {
@@ -60,12 +85,12 @@
           },
           {
             "internalType": "address",
-            "name": "ammPoolsServiceEth",
+            "name": "ammPoolsServiceStEth",
             "type": "address"
           },
           {
             "internalType": "address",
-            "name": "ammPoolsLensEth",
+            "name": "ammPoolsLensStEth",
             "type": "address"
           }
         ],
@@ -199,7 +224,59 @@
   },
   {
     "inputs": [],
-    "name": "_ammCloseSwapService",
+    "name": "_ammCloseSwapLens",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "_ammCloseSwapServiceDai",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "_ammCloseSwapServiceStEth",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "_ammCloseSwapServiceUsdc",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "_ammCloseSwapServiceUsdt",
     "outputs": [
       {
         "internalType": "address",
@@ -238,6 +315,19 @@
   },
   {
     "inputs": [],
+    "name": "_ammOpenSwapServiceStEth",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
     "name": "_ammPoolsLens",
     "outputs": [
       {
@@ -251,7 +341,7 @@
   },
   {
     "inputs": [],
-    "name": "_ammPoolsLensEth",
+    "name": "_ammPoolsLensStEth",
     "outputs": [
       {
         "internalType": "address",
@@ -277,7 +367,7 @@
   },
   {
     "inputs": [],
-    "name": "_ammPoolsServiceEth",
+    "name": "_ammPoolsServiceStEth",
     "outputs": [
       {
         "internalType": "address",
@@ -401,7 +491,13 @@
       }
     ],
     "name": "batchExecutor",
-    "outputs": [],
+    "outputs": [
+      {
+        "internalType": "bytes[]",
+        "name": "",
+        "type": "bytes[]"
+      }
+    ],
     "stateMutability": "payable",
     "type": "function"
   },
@@ -440,7 +536,32 @@
           },
           {
             "internalType": "address",
-            "name": "ammCloseSwapService",
+            "name": "ammOpenSwapServiceStEth",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "ammCloseSwapServiceUsdt",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "ammCloseSwapServiceUsdc",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "ammCloseSwapServiceDai",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "ammCloseSwapServiceStEth",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "ammCloseSwapLens",
             "type": "address"
           },
           {
@@ -475,12 +596,12 @@
           },
           {
             "internalType": "address",
-            "name": "ammPoolsServiceEth",
+            "name": "ammPoolsServiceStEth",
             "type": "address"
           },
           {
             "internalType": "address",
-            "name": "ammPoolsLensEth",
+            "name": "ammPoolsLensStEth",
             "type": "address"
           }
         ],
@@ -509,7 +630,7 @@
     "inputs": [
       {
         "internalType": "bool",
-        "name": "paused",
+        "name": "pausedInput",
         "type": "bool"
       }
     ],

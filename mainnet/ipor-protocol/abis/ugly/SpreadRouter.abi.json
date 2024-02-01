@@ -32,6 +32,11 @@
             "internalType": "address",
             "name": "closeSwapService",
             "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "storageService",
+            "type": "address"
           }
         ],
         "internalType": "struct SpreadRouter.DeployedContracts",
@@ -217,6 +222,11 @@
             "internalType": "address",
             "name": "closeSwapService",
             "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "storageService",
+            "type": "address"
           }
         ],
         "internalType": "struct SpreadRouter.DeployedContracts",
@@ -263,7 +273,7 @@
     "inputs": [
       {
         "internalType": "bool",
-        "name": "paused",
+        "name": "pausedInput",
         "type": "bool"
       }
     ],
