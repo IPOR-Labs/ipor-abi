@@ -1,0 +1,99 @@
+interface Interface {
+    event AdminChanged(address previousAdmin, address newAdmin);
+    event BeaconUpgraded(address indexed beacon);
+    event Upgraded(address indexed implementation);
+
+    struct OpenSwapItem {
+        uint32 swapId;
+        uint32 nextSwapId;
+        uint32 previousSwapId;
+        uint32 openSwapTimestamp;
+    }
+
+    struct SpreadInputs {
+        address asset;
+        uint256 swapNotional;
+        uint256 demandSpreadFactor;
+        int256 baseSpreadPerLeg;
+        uint256 totalCollateralPayFixed;
+        uint256 totalCollateralReceiveFixed;
+        uint256 liquidityPoolBalance;
+        uint256 iporIndexValue;
+        uint256 fixedRateCapPerLeg;
+    }
+
+    struct TimeWeightedNotionalMemory {
+        uint256 timeWeightedNotionalPayFixed;
+        uint256 lastUpdateTimePayFixed;
+        uint256 timeWeightedNotionalReceiveFixed;
+        uint256 lastUpdateTimeReceiveFixed;
+        uint8 storageId;
+    }
+
+    struct TimeWeightedNotionalResponse {
+        TimeWeightedNotionalMemory timeWeightedNotional;
+        string key;
+    }
+
+    function addPauseGuardians(address[] memory guardians) external;
+    function calculateAndUpdateOfferedRatePayFixed28Days(SpreadInputs memory spreadInputs)
+        external
+        returns (uint256 quoteValue);
+    function calculateAndUpdateOfferedRatePayFixed60Days(SpreadInputs memory spreadInputs)
+        external
+        returns (uint256 quoteValue);
+    function calculateAndUpdateOfferedRatePayFixed90Days(SpreadInputs memory spreadInputs)
+        external
+        returns (uint256 quoteValue);
+    function calculateAndUpdateOfferedRateReceiveFixed28Days(SpreadInputs memory spreadInputs)
+        external
+        returns (uint256 quoteValue);
+    function calculateAndUpdateOfferedRateReceiveFixed60Days(SpreadInputs memory spreadInputs)
+        external
+        returns (uint256 quoteValue);
+    function calculateAndUpdateOfferedRateReceiveFixed90Days(SpreadInputs memory spreadInputs)
+        external
+        returns (uint256 quoteValue);
+    function calculateOfferedRatePayFixed28Days(SpreadInputs memory spreadInputs)
+        external
+        view
+        returns (uint256 quoteValue);
+    function calculateOfferedRatePayFixed60Days(SpreadInputs memory spreadInputs)
+        external
+        returns (uint256 quoteValue);
+    function calculateOfferedRatePayFixed90Days(SpreadInputs memory spreadInputs)
+        external
+        returns (uint256 quoteValue);
+    function calculateOfferedRateReceiveFixed28Days(SpreadInputs memory spreadInputs)
+        external
+        view
+        returns (uint256 quoteValue);
+    function calculateOfferedRateReceiveFixed60Days(SpreadInputs memory spreadInputs)
+        external
+        returns (uint256 quoteValue);
+    function calculateOfferedRateReceiveFixed90Days(SpreadInputs memory spreadInputs)
+        external
+        returns (uint256 quoteValue);
+    function getImplementation() external view returns (address);
+    function getTimeWeightedNotional()
+        external
+        returns (TimeWeightedNotionalResponse[] memory timeWeightedNotionalResponse);
+    function isPauseGuardian(address account) external view returns (bool);
+    function pause() external;
+    function proxiableUUID() external view returns (bytes32);
+    function removePauseGuardians(address[] memory guardians) external;
+    function spreadFunction28DaysConfig() external pure returns (uint256[] memory);
+    function spreadFunction60DaysConfig() external pure returns (uint256[] memory);
+    function spreadFunction90DaysConfig() external pure returns (uint256[] memory);
+    function unpause() external;
+    function updateTimeWeightedNotional(TimeWeightedNotionalMemory[] memory timeWeightedNotionalMemories) external;
+    function updateTimeWeightedNotionalOnClose(
+        address asset,
+        uint256 direction,
+        uint8 tenor,
+        uint256 swapNotional,
+        OpenSwapItem memory closedSwap,
+        address ammStorageAddress
+    ) external;
+}
+

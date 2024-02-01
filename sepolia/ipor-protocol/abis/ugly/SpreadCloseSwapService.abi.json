@@ -1,0 +1,96 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "dai",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "usdc",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "usdt",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "constructor"
+  },
+  {
+    "inputs": [],
+    "name": "getSupportedAssets",
+    "outputs": [
+      {
+        "internalType": "address[]",
+        "name": "",
+        "type": "address[]"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "asset",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "direction",
+        "type": "uint256"
+      },
+      {
+        "internalType": "enum IporTypes.SwapTenor",
+        "name": "tenor",
+        "type": "uint8"
+      },
+      {
+        "internalType": "uint256",
+        "name": "swapNotional",
+        "type": "uint256"
+      },
+      {
+        "components": [
+          {
+            "internalType": "uint32",
+            "name": "swapId",
+            "type": "uint32"
+          },
+          {
+            "internalType": "uint32",
+            "name": "nextSwapId",
+            "type": "uint32"
+          },
+          {
+            "internalType": "uint32",
+            "name": "previousSwapId",
+            "type": "uint32"
+          },
+          {
+            "internalType": "uint32",
+            "name": "openSwapTimestamp",
+            "type": "uint32"
+          }
+        ],
+        "internalType": "struct AmmInternalTypes.OpenSwapItem",
+        "name": "closedSwap",
+        "type": "tuple"
+      },
+      {
+        "internalType": "address",
+        "name": "ammStorageAddress",
+        "type": "address"
+      }
+    ],
+    "name": "updateTimeWeightedNotionalOnClose",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]
