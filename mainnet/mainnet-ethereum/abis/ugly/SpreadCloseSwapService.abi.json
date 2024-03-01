@@ -1,96 +1,96 @@
 [
   {
+    "type": "constructor",
     "inputs": [
       {
-        "internalType": "address",
         "name": "dai",
-        "type": "address"
+        "type": "address",
+        "internalType": "address"
       },
       {
-        "internalType": "address",
         "name": "usdc",
-        "type": "address"
+        "type": "address",
+        "internalType": "address"
       },
       {
-        "internalType": "address",
         "name": "usdt",
-        "type": "address"
+        "type": "address",
+        "internalType": "address"
       }
     ],
-    "stateMutability": "nonpayable",
-    "type": "constructor"
+    "stateMutability": "nonpayable"
   },
   {
-    "inputs": [],
+    "type": "function",
     "name": "getSupportedAssets",
+    "inputs": [],
     "outputs": [
       {
-        "internalType": "address[]",
         "name": "",
-        "type": "address[]"
+        "type": "address[]",
+        "internalType": "address[]"
       }
     ],
-    "stateMutability": "view",
-    "type": "function"
+    "stateMutability": "view"
   },
   {
+    "type": "function",
+    "name": "updateTimeWeightedNotionalOnClose",
     "inputs": [
       {
-        "internalType": "address",
         "name": "asset",
-        "type": "address"
+        "type": "address",
+        "internalType": "address"
       },
       {
-        "internalType": "uint256",
         "name": "direction",
-        "type": "uint256"
+        "type": "uint256",
+        "internalType": "uint256"
       },
       {
-        "internalType": "enum IporTypes.SwapTenor",
         "name": "tenor",
-        "type": "uint8"
+        "type": "uint8",
+        "internalType": "enum IporTypes.SwapTenor"
       },
       {
-        "internalType": "uint256",
         "name": "swapNotional",
-        "type": "uint256"
+        "type": "uint256",
+        "internalType": "uint256"
       },
       {
+        "name": "closedSwap",
+        "type": "tuple",
+        "internalType": "struct AmmInternalTypes.OpenSwapItem",
         "components": [
           {
-            "internalType": "uint32",
             "name": "swapId",
-            "type": "uint32"
+            "type": "uint32",
+            "internalType": "uint32"
           },
           {
-            "internalType": "uint32",
             "name": "nextSwapId",
-            "type": "uint32"
+            "type": "uint32",
+            "internalType": "uint32"
           },
           {
-            "internalType": "uint32",
             "name": "previousSwapId",
-            "type": "uint32"
+            "type": "uint32",
+            "internalType": "uint32"
           },
           {
-            "internalType": "uint32",
             "name": "openSwapTimestamp",
-            "type": "uint32"
+            "type": "uint32",
+            "internalType": "uint32"
           }
-        ],
-        "internalType": "struct AmmInternalTypes.OpenSwapItem",
-        "name": "closedSwap",
-        "type": "tuple"
+        ]
       },
       {
-        "internalType": "address",
         "name": "ammStorageAddress",
-        "type": "address"
+        "type": "address",
+        "internalType": "address"
       }
     ],
-    "name": "updateTimeWeightedNotionalOnClose",
     "outputs": [],
-    "stateMutability": "nonpayable",
-    "type": "function"
+    "stateMutability": "nonpayable"
   }
 ]

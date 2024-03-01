@@ -1,149 +1,149 @@
 [
   {
+    "type": "constructor",
     "inputs": [
       {
-        "components": [
-          {
-            "internalType": "address",
-            "name": "asset",
-            "type": "address"
-          },
-          {
-            "internalType": "uint256",
-            "name": "decimals",
-            "type": "uint256"
-          },
-          {
-            "internalType": "address",
-            "name": "assetManagement",
-            "type": "address"
-          },
-          {
-            "internalType": "address",
-            "name": "ammTreasury",
-            "type": "address"
-          }
-        ],
-        "internalType": "struct IAssetManagementLens.AssetManagementConfiguration",
         "name": "usdtAssetManagementCfg",
-        "type": "tuple"
-      },
-      {
+        "type": "tuple",
+        "internalType": "struct IAssetManagementLens.AssetManagementConfiguration",
         "components": [
           {
-            "internalType": "address",
             "name": "asset",
-            "type": "address"
+            "type": "address",
+            "internalType": "address"
           },
           {
-            "internalType": "uint256",
             "name": "decimals",
-            "type": "uint256"
+            "type": "uint256",
+            "internalType": "uint256"
           },
           {
-            "internalType": "address",
             "name": "assetManagement",
-            "type": "address"
+            "type": "address",
+            "internalType": "address"
           },
           {
-            "internalType": "address",
             "name": "ammTreasury",
-            "type": "address"
+            "type": "address",
+            "internalType": "address"
           }
-        ],
-        "internalType": "struct IAssetManagementLens.AssetManagementConfiguration",
+        ]
+      },
+      {
         "name": "usdcAssetManagementCfg",
-        "type": "tuple"
+        "type": "tuple",
+        "internalType": "struct IAssetManagementLens.AssetManagementConfiguration",
+        "components": [
+          {
+            "name": "asset",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "decimals",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "assetManagement",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "ammTreasury",
+            "type": "address",
+            "internalType": "address"
+          }
+        ]
       },
       {
-        "components": [
-          {
-            "internalType": "address",
-            "name": "asset",
-            "type": "address"
-          },
-          {
-            "internalType": "uint256",
-            "name": "decimals",
-            "type": "uint256"
-          },
-          {
-            "internalType": "address",
-            "name": "assetManagement",
-            "type": "address"
-          },
-          {
-            "internalType": "address",
-            "name": "ammTreasury",
-            "type": "address"
-          }
-        ],
-        "internalType": "struct IAssetManagementLens.AssetManagementConfiguration",
         "name": "daiAssetManagementCfg",
-        "type": "tuple"
-      }
-    ],
-    "stateMutability": "nonpayable",
-    "type": "constructor"
-  },
-  {
-    "inputs": [
-      {
-        "internalType": "address",
-        "name": "asset",
-        "type": "address"
-      }
-    ],
-    "name": "balanceOfAmmTreasuryInAssetManagement",
-    "outputs": [
-      {
-        "internalType": "uint256",
-        "name": "",
-        "type": "uint256"
-      }
-    ],
-    "stateMutability": "view",
-    "type": "function"
-  },
-  {
-    "inputs": [
-      {
-        "internalType": "address",
-        "name": "asset",
-        "type": "address"
-      }
-    ],
-    "name": "getAssetManagementConfiguration",
-    "outputs": [
-      {
+        "type": "tuple",
+        "internalType": "struct IAssetManagementLens.AssetManagementConfiguration",
         "components": [
           {
-            "internalType": "address",
             "name": "asset",
-            "type": "address"
+            "type": "address",
+            "internalType": "address"
           },
           {
-            "internalType": "uint256",
             "name": "decimals",
-            "type": "uint256"
+            "type": "uint256",
+            "internalType": "uint256"
           },
           {
-            "internalType": "address",
             "name": "assetManagement",
-            "type": "address"
+            "type": "address",
+            "internalType": "address"
           },
           {
-            "internalType": "address",
             "name": "ammTreasury",
-            "type": "address"
+            "type": "address",
+            "internalType": "address"
           }
-        ],
-        "internalType": "struct IAssetManagementLens.AssetManagementConfiguration",
-        "name": "",
-        "type": "tuple"
+        ]
       }
     ],
-    "stateMutability": "view",
-    "type": "function"
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "balanceOfAmmTreasuryInAssetManagement",
+    "inputs": [
+      {
+        "name": "asset",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "getAssetManagementConfiguration",
+    "inputs": [
+      {
+        "name": "asset",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "tuple",
+        "internalType": "struct IAssetManagementLens.AssetManagementConfiguration",
+        "components": [
+          {
+            "name": "asset",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "decimals",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "assetManagement",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "ammTreasury",
+            "type": "address",
+            "internalType": "address"
+          }
+        ]
+      }
+    ],
+    "stateMutability": "view"
   }
 ]

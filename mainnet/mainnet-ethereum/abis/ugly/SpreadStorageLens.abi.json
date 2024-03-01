@@ -1,0 +1,54 @@
+[
+  {
+    "type": "function",
+    "name": "getTimeWeightedNotional",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "timeWeightedNotionalResponse",
+        "type": "tuple[]",
+        "internalType": "struct SpreadTypes.TimeWeightedNotionalResponse[]",
+        "components": [
+          {
+            "name": "timeWeightedNotional",
+            "type": "tuple",
+            "internalType": "struct SpreadTypes.TimeWeightedNotionalMemory",
+            "components": [
+              {
+                "name": "timeWeightedNotionalPayFixed",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "lastUpdateTimePayFixed",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "timeWeightedNotionalReceiveFixed",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "lastUpdateTimeReceiveFixed",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "storageId",
+                "type": "uint8",
+                "internalType": "enum SpreadStorageLibs.StorageId"
+              }
+            ]
+          },
+          {
+            "name": "key",
+            "type": "string",
+            "internalType": "string"
+          }
+        ]
+      }
+    ],
+    "stateMutability": "view"
+  }
+]
