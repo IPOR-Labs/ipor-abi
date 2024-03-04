@@ -203,6 +203,7 @@ interface IIporProtocol {
         address spread;
     }
 
+    error ProvideLiquidityFailed(address poolAsset, string errorCode, string errorMessage);
     error StEthSubmitFailed(uint256 amount, string errorCode);
 
     event AdminChanged(address previousAdmin, address newAdmin);
@@ -437,6 +438,7 @@ interface IIporProtocol {
         returns (GlobalIndicatorsResult[] memory);
     function getImplementation() external view returns (address);
     function getIpTokenExchangeRate(address asset) external view returns (uint256);
+    function getIpWeEthExchangeRate() external view returns (uint256);
     function getIpstEthExchangeRate() external view returns (uint256);
     function getOfferedRate(
         address asset,
@@ -637,12 +639,17 @@ interface IIporProtocol {
         RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
     function pause() external;
+    function provideLiquidity(address poolAsset, address inputAsset, address beneficiary, uint256 inputAssetAmount)
+        external
+        payable
+        returns (uint256 ipTokenAmount);
     function provideLiquidityDai(address beneficiary, uint256 assetAmount) external;
     function provideLiquidityEth(address beneficiary, uint256 assetAmount) external payable;
     function provideLiquidityStEth(address beneficiary, uint256 stEthAmount) external payable;
     function provideLiquidityUsdc(address beneficiary, uint256 assetAmount) external;
     function provideLiquidityUsdt(address beneficiary, uint256 assetAmount) external;
     function provideLiquidityWEth(address beneficiary, uint256 assetAmount) external payable;
+    function provideLiquidityWeEthToAmmPoolWeEth(address beneficiary, uint256 usdmAmount) external;
     function proxiableUUID() external view returns (bytes32);
     function pwTokenCancelCooldown() external;
     function pwTokenCooldown(uint256 pwTokenAmount) external;
@@ -651,6 +658,7 @@ interface IIporProtocol {
     function redeemFromAmmPoolStEth(address beneficiary, uint256 ipTokenAmount) external;
     function redeemFromAmmPoolUsdc(address beneficiary, uint256 ipTokenAmount) external;
     function redeemFromAmmPoolUsdt(address beneficiary, uint256 ipTokenAmount) external;
+    function redeemFromAmmPoolWeEth(address beneficiary, uint256 ipTokenAmount) external;
     function redeemPwToken(address transferTo) external;
     function removeAppointedToRebalanceInAmm(address asset, address account) external;
     function removePauseGuardians(address[] memory guardians) external;

@@ -2323,6 +2323,19 @@
   },
   {
     "type": "function",
+    "name": "getIpWeEthExchangeRate",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
     "name": "getIpstEthExchangeRate",
     "inputs": [],
     "outputs": [
@@ -4837,6 +4850,40 @@
   },
   {
     "type": "function",
+    "name": "provideLiquidity",
+    "inputs": [
+      {
+        "name": "poolAsset",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "inputAsset",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "beneficiary",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "inputAssetAmount",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "ipTokenAmount",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "stateMutability": "payable"
+  },
+  {
+    "type": "function",
     "name": "provideLiquidityDai",
     "inputs": [
       {
@@ -4945,6 +4992,24 @@
   },
   {
     "type": "function",
+    "name": "provideLiquidityWeEthToAmmPoolWeEth",
+    "inputs": [
+      {
+        "name": "beneficiary",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "usdmAmount",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
     "name": "proxiableUUID",
     "inputs": [],
     "outputs": [
@@ -5046,6 +5111,24 @@
   {
     "type": "function",
     "name": "redeemFromAmmPoolUsdt",
+    "inputs": [
+      {
+        "name": "beneficiary",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "ipTokenAmount",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "redeemFromAmmPoolWeEth",
     "inputs": [
       {
         "name": "beneficiary",
@@ -5992,6 +6075,27 @@
       }
     ],
     "anonymous": false
+  },
+  {
+    "type": "error",
+    "name": "ProvideLiquidityFailed",
+    "inputs": [
+      {
+        "name": "poolAsset",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "errorCode",
+        "type": "string",
+        "internalType": "string"
+      },
+      {
+        "name": "errorMessage",
+        "type": "string",
+        "internalType": "string"
+      }
+    ]
   },
   {
     "type": "error",
