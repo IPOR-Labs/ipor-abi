@@ -1,0 +1,35 @@
+{
+  "arbitrum": {
+    "pools": [
+      {
+        "token": "wstETH",
+        "asset": "0x5979D7b546E38E414F7E9822514be443A4800529",
+        "AmmTreasury": "0xBd013Ea2E01C2Ab3462dd67e9C83aa3834882A5D"
+      }
+    ]
+  },
+  "ethereum": {
+    "pools": [
+      {
+        "name": "stETH",
+        "asset": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
+        "AmmTreasury": "0x63395EDAF74a80aa1155dB7Cd9BBA976a88DeE4E"
+      },
+      {
+        "asset": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "name": "DAI",
+        "AmmTreasury": "0xEd7d74AA7eB1f12F83dA36DFaC1de2257b4e7523"
+      },
+      {
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "name": "USDC",
+        "AmmTreasury": "0x137000352B4ed784e8fa8815d225c713AB2e7Dc9"
+      },
+      {
+        "asset": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "name": "USDT",
+        "AmmTreasury": "0x28BC58e600eF718B9E97d294098abecb8c96b687"
+      }
+    ]
+  }
+}
