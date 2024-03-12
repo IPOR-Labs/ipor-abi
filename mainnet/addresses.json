@@ -1,5 +1,6 @@
 {
   "arbitrum": {
+    "IporProtocolRouter": "0x760Fa0aB719c4067D3A8d4727Cf07E8f3Bf118db",
     "pools": [
       {
         "token": "wstETH",
@@ -9,6 +10,7 @@
     ]
   },
   "ethereum": {
+    "IporProtocolRouter": "0x16d104009964e694761C0bf09d7Be49B7E3C26fd",
     "pools": [
       {
         "name": "stETH",
