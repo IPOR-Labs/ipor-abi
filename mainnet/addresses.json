@@ -31,6 +31,11 @@
         "asset": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "name": "USDT",
         "AmmTreasury": "0x28BC58e600eF718B9E97d294098abecb8c96b687"
+      },
+      {
+        "asset": "0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee",
+        "name": "weETH",
+        "AmmTreasury": "0xcC2fF2D38666723ea56c122097F6215B90d74196"
       }
     ]
   }
