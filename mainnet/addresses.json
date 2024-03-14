@@ -18,21 +18,6 @@
         "AmmTreasury": "0x63395EDAF74a80aa1155dB7Cd9BBA976a88DeE4E"
       },
       {
-        "asset": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
-        "name": "DAI",
-        "AmmTreasury": "0xEd7d74AA7eB1f12F83dA36DFaC1de2257b4e7523"
-      },
-      {
-        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-        "name": "USDC",
-        "AmmTreasury": "0x137000352B4ed784e8fa8815d225c713AB2e7Dc9"
-      },
-      {
-        "asset": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
-        "name": "USDT",
-        "AmmTreasury": "0x28BC58e600eF718B9E97d294098abecb8c96b687"
-      },
-      {
         "asset": "0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee",
         "name": "weETH",
         "AmmTreasury": "0xcC2fF2D38666723ea56c122097F6215B90d74196"
