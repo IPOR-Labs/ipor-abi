@@ -1,0 +1,27 @@
+{
+  "arbitrum": {
+    "IporProtocolRouter": "0x760Fa0aB719c4067D3A8d4727Cf07E8f3Bf118db",
+    "pools": [
+      {
+        "token": "wstETH",
+        "asset": "0x5979D7b546E38E414F7E9822514be443A4800529",
+        "AmmTreasury": "0xBd013Ea2E01C2Ab3462dd67e9C83aa3834882A5D"
+      }
+    ]
+  },
+  "ethereum": {
+    "IporProtocolRouter": "0x16d104009964e694761C0bf09d7Be49B7E3C26fd",
+    "pools": [
+      {
+        "name": "stETH",
+        "asset": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
+        "AmmTreasury": "0x63395EDAF74a80aa1155dB7Cd9BBA976a88DeE4E"
+      },
+      {
+        "asset": "0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee",
+        "name": "weETH",
+        "AmmTreasury": "0xcC2fF2D38666723ea56c122097F6215B90d74196"
+      }
+    ]
+  }
+}
