@@ -245,6 +245,15 @@ interface IIporProtocol {
         uint256 assetAmount,
         uint256 ipTokenAmount
     );
+    event ProvideLiquidity(
+        address poolAsset,
+        address indexed from,
+        address indexed beneficiary,
+        address indexed to,
+        uint256 exchangeRate,
+        uint256 assetAmount,
+        uint256 ipTokenAmount
+    );
     event ProvideLiquidityEth(
         address indexed from,
         address indexed beneficiary,
@@ -271,6 +280,16 @@ interface IIporProtocol {
         uint256 ipTokenAmount,
         uint256 redeemFee,
         uint256 redeemAmount
+    );
+    event Redeem(
+        address poolAsset,
+        address indexed ammTreasury,
+        address indexed from,
+        address indexed beneficiary,
+        uint256 exchangeRate,
+        uint256 amount,
+        uint256 redeemedAmount,
+        uint256 ipTokenAmount
     );
     event RedeemStEth(
         address indexed ammTreasuryEth,
@@ -649,7 +668,7 @@ interface IIporProtocol {
     function provideLiquidityUsdc(address beneficiary, uint256 assetAmount) external;
     function provideLiquidityUsdt(address beneficiary, uint256 assetAmount) external;
     function provideLiquidityWEth(address beneficiary, uint256 assetAmount) external payable;
-    function provideLiquidityWeEthToAmmPoolWeEth(address beneficiary, uint256 usdmAmount) external;
+    function provideLiquidityWeEthToAmmPoolWeEth(address beneficiary, uint256 weEthAmount) external;
     function proxiableUUID() external view returns (bytes32);
     function pwTokenCancelCooldown() external;
     function pwTokenCooldown(uint256 pwTokenAmount) external;
