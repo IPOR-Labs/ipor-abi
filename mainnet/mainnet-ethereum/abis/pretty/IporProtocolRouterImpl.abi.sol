@@ -20,6 +20,8 @@ interface IporProtocolRouter {
         address ammPoolsLensStEth;
         address ammPoolsServiceWeEth;
         address ammPoolsLensWeEth;
+        address ammPoolsServiceUsdm;
+        address ammPoolsLensUsdm;
     }
 
     event AdminChanged(address previousAdmin, address newAdmin);
@@ -48,9 +50,11 @@ interface IporProtocolRouter {
     function ammOpenSwapServiceStEth() external view returns (address);
     function ammPoolsLens() external view returns (address);
     function ammPoolsLensStEth() external view returns (address);
+    function ammPoolsLensUsdm() external view returns (address);
     function ammPoolsLensWeEth() external view returns (address);
     function ammPoolsService() external view returns (address);
     function ammPoolsServiceStEth() external view returns (address);
+    function ammPoolsServiceUsdm() external view returns (address);
     function ammPoolsServiceWeEth() external view returns (address);
     function ammSwapsLens() external view returns (address);
     function appointToOwnership(address appointedOwner) external;

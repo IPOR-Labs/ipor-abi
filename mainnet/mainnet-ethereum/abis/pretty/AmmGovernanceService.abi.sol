@@ -32,7 +32,8 @@ interface AmmGovernanceService {
         AmmGovernancePoolConfiguration usdcPoolCfg,
         AmmGovernancePoolConfiguration daiPoolCfg,
         AmmGovernancePoolConfiguration stEthPoolCfg,
-        AmmGovernancePoolConfiguration weEthPoolCfg
+        AmmGovernancePoolConfiguration weEthPoolCfg,
+        AmmGovernancePoolConfiguration usdmPoolCfg
     );
 
     function addAppointedToRebalanceInAmm(address asset, address account) external;
