@@ -106,6 +106,16 @@
             "name": "ammPoolsLensWeEth",
             "type": "address",
             "internalType": "address"
+          },
+          {
+            "name": "ammPoolsServiceUsdm",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "ammPoolsLensUsdm",
+            "type": "address",
+            "internalType": "address"
           }
         ]
       }
@@ -265,6 +275,19 @@
   },
   {
     "type": "function",
+    "name": "ammPoolsLensUsdm",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
     "name": "ammPoolsLensWeEth",
     "inputs": [],
     "outputs": [
@@ -292,6 +315,19 @@
   {
     "type": "function",
     "name": "ammPoolsServiceStEth",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "ammPoolsServiceUsdm",
     "inputs": [],
     "outputs": [
       {
@@ -500,6 +536,16 @@
           },
           {
             "name": "ammPoolsLensWeEth",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "ammPoolsServiceUsdm",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "ammPoolsLensUsdm",
             "type": "address",
             "internalType": "address"
           }

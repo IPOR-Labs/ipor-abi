@@ -2323,6 +2323,19 @@
   },
   {
     "type": "function",
+    "name": "getIpUsdmExchangeRate",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
     "name": "getIpWeEthExchangeRate",
     "inputs": [],
     "outputs": [
@@ -4956,6 +4969,24 @@
   },
   {
     "type": "function",
+    "name": "provideLiquidityUsdmToAmmPoolUsdm",
+    "inputs": [
+      {
+        "name": "beneficiary",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "usdmAmount",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "payable"
+  },
+  {
+    "type": "function",
     "name": "provideLiquidityUsdt",
     "inputs": [
       {
@@ -5093,6 +5124,24 @@
   {
     "type": "function",
     "name": "redeemFromAmmPoolUsdc",
+    "inputs": [
+      {
+        "name": "beneficiary",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "ipTokenAmount",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "redeemFromAmmPoolUsdm",
     "inputs": [
       {
         "name": "beneficiary",

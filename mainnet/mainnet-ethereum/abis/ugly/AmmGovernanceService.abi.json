@@ -236,6 +236,53 @@
             "internalType": "address"
           }
         ]
+      },
+      {
+        "name": "usdmPoolCfg",
+        "type": "tuple",
+        "internalType": "struct IAmmGovernanceLens.AmmGovernancePoolConfiguration",
+        "components": [
+          {
+            "name": "asset",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "decimals",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "ammStorage",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "ammTreasury",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "ammPoolsTreasury",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "ammPoolsTreasuryManager",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "ammCharlieTreasury",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "ammCharlieTreasuryManager",
+            "type": "address",
+            "internalType": "address"
+          }
+        ]
       }
     ],
     "stateMutability": "nonpayable"

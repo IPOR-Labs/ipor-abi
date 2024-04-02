@@ -457,6 +457,7 @@ interface IIporProtocol {
         returns (GlobalIndicatorsResult[] memory);
     function getImplementation() external view returns (address);
     function getIpTokenExchangeRate(address asset) external view returns (uint256);
+    function getIpUsdmExchangeRate() external view returns (uint256);
     function getIpWeEthExchangeRate() external view returns (uint256);
     function getIpstEthExchangeRate() external view returns (uint256);
     function getOfferedRate(
@@ -666,6 +667,7 @@ interface IIporProtocol {
     function provideLiquidityEth(address beneficiary, uint256 assetAmount) external payable;
     function provideLiquidityStEth(address beneficiary, uint256 stEthAmount) external payable;
     function provideLiquidityUsdc(address beneficiary, uint256 assetAmount) external;
+    function provideLiquidityUsdmToAmmPoolUsdm(address beneficiary, uint256 usdmAmount) external payable;
     function provideLiquidityUsdt(address beneficiary, uint256 assetAmount) external;
     function provideLiquidityWEth(address beneficiary, uint256 assetAmount) external payable;
     function provideLiquidityWeEthToAmmPoolWeEth(address beneficiary, uint256 weEthAmount) external;
@@ -676,6 +678,7 @@ interface IIporProtocol {
     function redeemFromAmmPoolDai(address beneficiary, uint256 ipTokenAmount) external;
     function redeemFromAmmPoolStEth(address beneficiary, uint256 ipTokenAmount) external;
     function redeemFromAmmPoolUsdc(address beneficiary, uint256 ipTokenAmount) external;
+    function redeemFromAmmPoolUsdm(address beneficiary, uint256 ipTokenAmount) external;
     function redeemFromAmmPoolUsdt(address beneficiary, uint256 ipTokenAmount) external;
     function redeemFromAmmPoolWeEth(address beneficiary, uint256 ipTokenAmount) external;
     function redeemPwToken(address transferTo) external;
