@@ -17,16 +17,6 @@ interface AmmPoolsServiceWstEth {
         uint256 ipTokenAmount
     );
 
-    constructor(
-        address wstEthInput,
-        address ipwstEthInput,
-        address ammTreasuryWstEthInput,
-        address ammStorageWstEthInput,
-        address iporOracleInput,
-        address iporProtocolRouterInput,
-        uint256 redeemFeeRateWstEthInput
-    );
-
     function ammStorageWstEth() external view returns (address);
     function ammTreasuryWstEth() external view returns (address);
     function iporOracle() external view returns (address);

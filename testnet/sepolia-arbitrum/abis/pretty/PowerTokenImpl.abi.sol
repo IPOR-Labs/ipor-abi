@@ -33,8 +33,6 @@ interface PowerToken {
     event UnstakeWithoutCooldownFeeChanged(uint256 newFee);
     event Upgraded(address indexed implementation);
 
-    constructor(address routerAddress, address governanceTokenAddress, uint256 coolDownInSeconds);
-
     function COOL_DOWN_IN_SECONDS() external view returns (uint256);
     function addGovernanceTokenInternal(UpdateGovernanceToken memory updateGovernanceToken) external;
     function addPauseGuardians(address[] memory guardians) external;

@@ -41,8 +41,6 @@ interface LiquidityMiningLens {
         uint88 accruedRewards;
     }
 
-    constructor(address liquidityMiningInput);
-
     function balanceOfLpTokensStakedInLiquidityMining(address account, address lpToken)
         external
         view

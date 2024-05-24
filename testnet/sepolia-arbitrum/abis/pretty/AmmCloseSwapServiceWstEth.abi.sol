@@ -59,8 +59,6 @@ interface AmmCloseSwapServiceWstEth {
         uint256 unwindFeeTreasuryAmount
     );
 
-    constructor(AmmCloseSwapServicePoolConfiguration poolCfg, address iporOracleInput, address messageSignerInput);
-
     function ammStorage() external view returns (address);
     function ammTreasury() external view returns (address);
     function asset() external view returns (address);
@@ -89,7 +87,6 @@ interface AmmCloseSwapServiceWstEth {
     function getPoolConfiguration() external view returns (AmmCloseSwapServicePoolConfiguration memory);
     function iporOracle() external view returns (address);
     function liquidationLegLimit() external view returns (uint256);
-    function messageSigner() external view returns (address);
     function minLeverage() external view returns (uint256);
     function minLiquidationThresholdToCloseBeforeMaturityByBuyer() external view returns (uint256);
     function minLiquidationThresholdToCloseBeforeMaturityByCommunity() external view returns (uint256);

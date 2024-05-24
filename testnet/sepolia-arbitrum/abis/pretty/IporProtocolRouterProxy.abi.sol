@@ -61,6 +61,7 @@ interface IIporProtocolArbitrum {
         uint256 decimals;
         address ammStorage;
         address ammTreasury;
+        address ammVault;
         address ammPoolsTreasury;
         address ammPoolsTreasuryManager;
         address ammCharlieTreasury;
@@ -71,6 +72,32 @@ interface IIporProtocolArbitrum {
         uint256 maxLiquidityPoolBalance;
         uint256 autoRebalanceThresholdInThousands;
         uint256 ammTreasuryAndAssetManagementRatio;
+    }
+
+    struct AssetGovernancePoolConfigValue {
+        uint8 decimals;
+        address ammStorage;
+        address ammTreasury;
+        address ammVault;
+        address ammPoolsTreasury;
+        address ammPoolsTreasuryManager;
+        address ammCharlieTreasury;
+        address ammCharlieTreasuryManager;
+    }
+
+    struct AssetLensDataValue {
+        uint8 decimals;
+        address ipToken;
+        address ammStorage;
+        address ammTreasury;
+        address ammVault;
+        address spread;
+    }
+
+    struct AssetServicesValue {
+        address ammPoolsService;
+        address ammOpenSwapService;
+        address ammCloseSwapService;
     }
 
     struct CloseSwapRiskIndicatorsInput {
@@ -191,12 +218,31 @@ interface IIporProtocolArbitrum {
         uint256 endTimestamp,
         IporSwapIndicator indicator
     );
+    event ProvideLiquidity(
+        address poolAsset,
+        address indexed from,
+        address indexed beneficiary,
+        address indexed to,
+        uint256 exchangeRate,
+        uint256 assetAmount,
+        uint256 ipTokenAmount
+    );
     event ProvideLiquidityWstEth(
         address indexed from,
         address indexed beneficiary,
         address indexed to,
         uint256 exchangeRate,
         uint256 assetAmount,
+        uint256 ipTokenAmount
+    );
+    event Redeem(
+        address poolAsset,
+        address indexed ammTreasury,
+        address indexed from,
+        address indexed beneficiary,
+        uint256 exchangeRate,
+        uint256 amount,
+        uint256 redeemedAmount,
         uint256 ipTokenAmount
     );
     event RedeemWstEth(
@@ -232,6 +278,17 @@ interface IIporProtocolArbitrum {
     function balanceOfPwToken(address account) external view returns (uint256);
     function balanceOfPwTokenDelegatedToLiquidityMining(address account) external view returns (uint256);
     function claimRewardsFromLiquidityMining(address[] memory lpTokens) external;
+    function closeSwapsUsdc(
+        address beneficiary,
+        uint256[] memory payFixedSwapIds,
+        uint256[] memory receiveFixedSwapIds,
+        CloseSwapRiskIndicatorsInput memory riskIndicatorsInput
+    )
+        external
+        returns (
+            IporSwapClosingResult[] memory closedPayFixedSwaps,
+            IporSwapClosingResult[] memory closedReceiveFixedSwaps
+        );
     function closeSwapsWstEth(
         address beneficiary,
         uint256[] memory payFixedSwapIds,
@@ -245,6 +302,16 @@ interface IIporProtocolArbitrum {
         );
     function delegatePwTokensToLiquidityMining(address[] memory lpTokens, uint256[] memory lpTokenAmounts) external;
     function depositToAssetManagement(address asset, uint256 assetAmount) external;
+    function emergencyCloseSwapsUsdc(
+        uint256[] memory payFixedSwapIds,
+        uint256[] memory receiveFixedSwapIds,
+        CloseSwapRiskIndicatorsInput memory riskIndicatorsInput
+    )
+        external
+        returns (
+            IporSwapClosingResult[] memory closedPayFixedSwaps,
+            IporSwapClosingResult[] memory closedReceiveFixedSwaps
+        );
     function emergencyCloseSwapsWstEth(
         uint256[] memory payFixedSwapIds,
         uint256[] memory receiveFixedSwapIds,
@@ -276,6 +343,8 @@ interface IIporProtocolArbitrum {
         view
         returns (AmmGovernancePoolConfiguration memory);
     function getAmmPoolsParams(address asset) external view returns (AmmPoolsParamsConfiguration memory);
+    function getAssetLensData(address asset) external view returns (AssetLensDataValue memory);
+    function getAssetServices(address asset) external view returns (AssetServicesValue memory);
     function getBalancesForOpenSwap(address asset) external view returns (AmmBalancesForOpenSwapMemory memory);
     function getClosingSwapDetails(
         address asset,
@@ -290,7 +359,8 @@ interface IIporProtocolArbitrum {
         view
         returns (GlobalIndicatorsResult[] memory);
     function getImplementation() external view returns (address);
-    function getIpwstEthExchangeRate() external view returns (uint256);
+    function getIpTokenExchangeRate(address asset) external view returns (uint256);
+    function getMessageSigner() external view returns (address);
     function getOfferedRate(
         address asset,
         SwapTenor tenor,
@@ -314,7 +384,23 @@ interface IIporProtocolArbitrum {
     function isAppointedToRebalanceInAmm(address asset, address account) external view returns (bool);
     function isPauseGuardian(address account) external view returns (bool);
     function isSwapLiquidator(address asset, address account) external view returns (bool);
+    function openSwapPayFixed28daysUsdc(
+        address beneficiary,
+        address inputAsset,
+        uint256 inputAssetTotalAmount,
+        uint256 acceptableFixedInterestRate,
+        uint256 leverage,
+        RiskIndicatorsInputs memory riskIndicatorsInputs
+    ) external returns (uint256);
     function openSwapPayFixed28daysWstEth(
+        address beneficiary,
+        address inputAsset,
+        uint256 inputAssetTotalAmount,
+        uint256 acceptableFixedInterestRate,
+        uint256 leverage,
+        RiskIndicatorsInputs memory riskIndicatorsInputs
+    ) external returns (uint256);
+    function openSwapPayFixed60daysUsdc(
         address beneficiary,
         address inputAsset,
         uint256 inputAssetTotalAmount,
@@ -330,7 +416,23 @@ interface IIporProtocolArbitrum {
         uint256 leverage,
         RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
+    function openSwapPayFixed90daysUsdc(
+        address beneficiary,
+        address inputAsset,
+        uint256 inputAssetTotalAmount,
+        uint256 acceptableFixedInterestRate,
+        uint256 leverage,
+        RiskIndicatorsInputs memory riskIndicatorsInputs
+    ) external returns (uint256);
     function openSwapPayFixed90daysWstEth(
+        address beneficiary,
+        address inputAsset,
+        uint256 inputAssetTotalAmount,
+        uint256 acceptableFixedInterestRate,
+        uint256 leverage,
+        RiskIndicatorsInputs memory riskIndicatorsInputs
+    ) external returns (uint256);
+    function openSwapReceiveFixed28daysUsdc(
         address beneficiary,
         address inputAsset,
         uint256 inputAssetTotalAmount,
@@ -346,7 +448,23 @@ interface IIporProtocolArbitrum {
         uint256 leverage,
         RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
+    function openSwapReceiveFixed60daysUsdc(
+        address beneficiary,
+        address inputAsset,
+        uint256 inputAssetTotalAmount,
+        uint256 acceptableFixedInterestRate,
+        uint256 leverage,
+        RiskIndicatorsInputs memory riskIndicatorsInputs
+    ) external returns (uint256);
     function openSwapReceiveFixed60daysWstEth(
+        address beneficiary,
+        address inputAsset,
+        uint256 inputAssetTotalAmount,
+        uint256 acceptableFixedInterestRate,
+        uint256 leverage,
+        RiskIndicatorsInputs memory riskIndicatorsInputs
+    ) external returns (uint256);
+    function openSwapReceiveFixed90daysUsdc(
         address beneficiary,
         address inputAsset,
         uint256 inputAssetTotalAmount,
@@ -363,21 +481,32 @@ interface IIporProtocolArbitrum {
         RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
     function pause() external;
+    function provideLiquidityUsdcToAmmPoolUsdc(address beneficiary, uint256 assetAmount) external payable;
+    function provideLiquidityUsdmToAmmPoolUsdm(address beneficiary, uint256 usdmAmount) external payable;
     function provideLiquidityWstEth(address beneficiary, uint256 stEthAmount) external payable;
     function proxiableUUID() external view returns (bytes32);
     function pwTokenCancelCooldown() external;
     function pwTokenCooldown(uint256 pwTokenAmount) external;
+    function redeemFromAmmPoolUsdc(address beneficiary, uint256 ipTokenAmount) external;
+    function redeemFromAmmPoolUsdm(address beneficiary, uint256 ipTokenAmount) external;
     function redeemFromAmmPoolWstEth(address beneficiary, uint256 ipTokenAmount) external;
     function redeemPwToken(address transferTo) external;
     function removeAppointedToRebalanceInAmm(address asset, address account) external;
     function removePauseGuardians(address[] memory guardians) external;
     function removeSwapLiquidator(address asset, address account) external;
+    function setAmmGovernancePoolConfiguration(
+        address asset,
+        AssetGovernancePoolConfigValue memory assetGovernancePoolConfig
+    ) external;
     function setAmmPoolsParams(
         address asset,
         uint32 newMaxLiquidityPoolBalance,
         uint32 newAutoRebalanceThresholdInThousands,
         uint16 newAmmTreasuryAndAssetManagementRatio
     ) external;
+    function setAssetLensData(address asset, AssetLensDataValue memory assetLensData) external;
+    function setAssetServices(address asset, AssetServicesValue memory assetServices) external;
+    function setMessageSigner(address messageSigner) external;
     function stakeGovernanceTokenToPowerToken(address beneficiary, uint256 iporTokenAmount) external;
     function stakeGovernanceTokenToPowerTokenAndDelegate(
         address beneficiary,

@@ -13,12 +13,7 @@
             "internalType": "address"
           },
           {
-            "name": "ammOpenSwapServiceWstEth",
-            "type": "address",
-            "internalType": "address"
-          },
-          {
-            "name": "ammCloseSwapServiceWstEth",
+            "name": "ammPoolsLens",
             "type": "address",
             "internalType": "address"
           },
@@ -33,16 +28,6 @@
             "internalType": "address"
           },
           {
-            "name": "liquidityMiningLens",
-            "type": "address",
-            "internalType": "address"
-          },
-          {
-            "name": "powerTokenLens",
-            "type": "address",
-            "internalType": "address"
-          },
-          {
             "name": "flowService",
             "type": "address",
             "internalType": "address"
@@ -53,12 +38,27 @@
             "internalType": "address"
           },
           {
-            "name": "ammPoolsServiceWstEth",
+            "name": "powerTokenLens",
             "type": "address",
             "internalType": "address"
           },
           {
-            "name": "ammPoolsLensWstEth",
+            "name": "liquidityMiningLens",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "wstEth",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "usdc",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "usdm",
             "type": "address",
             "internalType": "address"
           }
@@ -103,19 +103,6 @@
   },
   {
     "type": "function",
-    "name": "ammCloseSwapServiceWstEth",
-    "inputs": [],
-    "outputs": [
-      {
-        "name": "",
-        "type": "address",
-        "internalType": "address"
-      }
-    ],
-    "stateMutability": "view"
-  },
-  {
-    "type": "function",
     "name": "ammGovernanceService",
     "inputs": [],
     "outputs": [
@@ -129,33 +116,7 @@
   },
   {
     "type": "function",
-    "name": "ammOpenSwapServiceWstEth",
-    "inputs": [],
-    "outputs": [
-      {
-        "name": "",
-        "type": "address",
-        "internalType": "address"
-      }
-    ],
-    "stateMutability": "view"
-  },
-  {
-    "type": "function",
-    "name": "ammPoolsLensWstEth",
-    "inputs": [],
-    "outputs": [
-      {
-        "name": "",
-        "type": "address",
-        "internalType": "address"
-      }
-    ],
-    "stateMutability": "view"
-  },
-  {
-    "type": "function",
-    "name": "ammPoolsServiceWstEth",
+    "name": "ammPoolsLens",
     "inputs": [],
     "outputs": [
       {
@@ -247,12 +208,7 @@
             "internalType": "address"
           },
           {
-            "name": "ammOpenSwapServiceWstEth",
-            "type": "address",
-            "internalType": "address"
-          },
-          {
-            "name": "ammCloseSwapServiceWstEth",
+            "name": "ammPoolsLens",
             "type": "address",
             "internalType": "address"
           },
@@ -267,16 +223,6 @@
             "internalType": "address"
           },
           {
-            "name": "liquidityMiningLens",
-            "type": "address",
-            "internalType": "address"
-          },
-          {
-            "name": "powerTokenLens",
-            "type": "address",
-            "internalType": "address"
-          },
-          {
             "name": "flowService",
             "type": "address",
             "internalType": "address"
@@ -287,12 +233,27 @@
             "internalType": "address"
           },
           {
-            "name": "ammPoolsServiceWstEth",
+            "name": "powerTokenLens",
             "type": "address",
             "internalType": "address"
           },
           {
-            "name": "ammPoolsLensWstEth",
+            "name": "liquidityMiningLens",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "wstEth",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "usdc",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "usdm",
             "type": "address",
             "internalType": "address"
           }
@@ -506,6 +467,45 @@
     ],
     "outputs": [],
     "stateMutability": "payable"
+  },
+  {
+    "type": "function",
+    "name": "usdc",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "usdm",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "wstEth",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "stateMutability": "view"
   },
   {
     "type": "event",

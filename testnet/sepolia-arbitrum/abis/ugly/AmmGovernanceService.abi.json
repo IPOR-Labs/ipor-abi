@@ -1,58 +1,5 @@
 [
   {
-    "type": "constructor",
-    "inputs": [
-      {
-        "name": "wstEthPoolCfg",
-        "type": "tuple",
-        "internalType": "struct IAmmGovernanceLens.AmmGovernancePoolConfiguration",
-        "components": [
-          {
-            "name": "asset",
-            "type": "address",
-            "internalType": "address"
-          },
-          {
-            "name": "decimals",
-            "type": "uint256",
-            "internalType": "uint256"
-          },
-          {
-            "name": "ammStorage",
-            "type": "address",
-            "internalType": "address"
-          },
-          {
-            "name": "ammTreasury",
-            "type": "address",
-            "internalType": "address"
-          },
-          {
-            "name": "ammPoolsTreasury",
-            "type": "address",
-            "internalType": "address"
-          },
-          {
-            "name": "ammPoolsTreasuryManager",
-            "type": "address",
-            "internalType": "address"
-          },
-          {
-            "name": "ammCharlieTreasury",
-            "type": "address",
-            "internalType": "address"
-          },
-          {
-            "name": "ammCharlieTreasuryManager",
-            "type": "address",
-            "internalType": "address"
-          }
-        ]
-      }
-    ],
-    "stateMutability": "nonpayable"
-  },
-  {
     "type": "function",
     "name": "addAppointedToRebalanceInAmm",
     "inputs": [
@@ -143,6 +90,11 @@
             "internalType": "address"
           },
           {
+            "name": "ammVault",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
             "name": "ammPoolsTreasury",
             "type": "address",
             "internalType": "address"
@@ -199,6 +151,106 @@
             "internalType": "uint256"
           }
         ]
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "getAssetLensData",
+    "inputs": [
+      {
+        "name": "asset",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "tuple",
+        "internalType": "struct StorageLibArbitrum.AssetLensDataValue",
+        "components": [
+          {
+            "name": "decimals",
+            "type": "uint8",
+            "internalType": "uint8"
+          },
+          {
+            "name": "ipToken",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "ammStorage",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "ammTreasury",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "ammVault",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "spread",
+            "type": "address",
+            "internalType": "address"
+          }
+        ]
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "getAssetServices",
+    "inputs": [
+      {
+        "name": "asset",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "tuple",
+        "internalType": "struct StorageLibArbitrum.AssetServicesValue",
+        "components": [
+          {
+            "name": "ammPoolsService",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "ammOpenSwapService",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "ammCloseSwapService",
+            "type": "address",
+            "internalType": "address"
+          }
+        ]
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "getMessageSigner",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "address"
       }
     ],
     "stateMutability": "view"
@@ -289,6 +341,66 @@
   },
   {
     "type": "function",
+    "name": "setAmmGovernancePoolConfiguration",
+    "inputs": [
+      {
+        "name": "asset",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "assetGovernancePoolConfig",
+        "type": "tuple",
+        "internalType": "struct StorageLibArbitrum.AssetGovernancePoolConfigValue",
+        "components": [
+          {
+            "name": "decimals",
+            "type": "uint8",
+            "internalType": "uint8"
+          },
+          {
+            "name": "ammStorage",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "ammTreasury",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "ammVault",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "ammPoolsTreasury",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "ammPoolsTreasuryManager",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "ammCharlieTreasury",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "ammCharlieTreasuryManager",
+            "type": "address",
+            "internalType": "address"
+          }
+        ]
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
     "name": "setAmmPoolsParams",
     "inputs": [
       {
@@ -310,6 +422,104 @@
         "name": "newAmmTreasuryAndAssetManagementRatio",
         "type": "uint16",
         "internalType": "uint16"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "setAssetLensData",
+    "inputs": [
+      {
+        "name": "asset",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "assetLensData",
+        "type": "tuple",
+        "internalType": "struct StorageLibArbitrum.AssetLensDataValue",
+        "components": [
+          {
+            "name": "decimals",
+            "type": "uint8",
+            "internalType": "uint8"
+          },
+          {
+            "name": "ipToken",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "ammStorage",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "ammTreasury",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "ammVault",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "spread",
+            "type": "address",
+            "internalType": "address"
+          }
+        ]
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "setAssetServices",
+    "inputs": [
+      {
+        "name": "asset",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "assetServices",
+        "type": "tuple",
+        "internalType": "struct StorageLibArbitrum.AssetServicesValue",
+        "components": [
+          {
+            "name": "ammPoolsService",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "ammOpenSwapService",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "ammCloseSwapService",
+            "type": "address",
+            "internalType": "address"
+          }
+        ]
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "setMessageSigner",
+    "inputs": [
+      {
+        "name": "messageSigner",
+        "type": "address",
+        "internalType": "address"
       }
     ],
     "outputs": [],
@@ -476,6 +686,27 @@
         "name": "asset",
         "type": "address",
         "internalType": "address"
+      }
+    ]
+  },
+  {
+    "type": "error",
+    "name": "WrongAddress",
+    "inputs": [
+      {
+        "name": "errorCode",
+        "type": "string",
+        "internalType": "string"
+      },
+      {
+        "name": "wrongAddress",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "message",
+        "type": "string",
+        "internalType": "string"
       }
     ]
   }

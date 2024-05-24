@@ -75,8 +75,6 @@ interface AmmStorageBaseV1 {
     event OwnershipTransferred(address indexed previousOwner, address indexed newOwner);
     event Upgraded(address indexed implementation);
 
-    constructor(address iporProtocolRouterInput);
-
     function confirmTransferOwnership() external;
     function getBalance() external view returns (Balance memory);
     function getBalancesForOpenSwap() external view returns (AmmBalanceForOpenSwap memory);
