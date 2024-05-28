@@ -1,4 +1,4 @@
-interface AmmCloseSwapServiceWstEth {
+interface AmmCloseSwapServiceUsdc {
     struct AmmCloseSwapServicePoolConfiguration {
         address asset;
         uint256 decimals;
@@ -62,7 +62,7 @@ interface AmmCloseSwapServiceWstEth {
     function ammStorage() external view returns (address);
     function ammTreasury() external view returns (address);
     function asset() external view returns (address);
-    function closeSwapsWstEth(
+    function closeSwapsUsdc(
         address beneficiary,
         uint256[] memory payFixedSwapIds,
         uint256[] memory receiveFixedSwapIds,
@@ -74,7 +74,7 @@ interface AmmCloseSwapServiceWstEth {
             IporSwapClosingResult[] memory closedReceiveFixedSwaps
         );
     function decimals() external view returns (uint256);
-    function emergencyCloseSwapsWstEth(
+    function emergencyCloseSwapsUsdc(
         uint256[] memory payFixedSwapIds,
         uint256[] memory receiveFixedSwapIds,
         CloseSwapRiskIndicatorsInput memory riskIndicatorsInput

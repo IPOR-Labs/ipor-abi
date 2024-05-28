@@ -1,16 +1,16 @@
 interface IporProtocolRouterArbitrum {
     struct DeployedContractsArbitrum {
         address ammSwapsLens;
-        address ammOpenSwapServiceWstEth;
-        address ammCloseSwapServiceWstEth;
+        address ammPoolsLens;
         address ammCloseSwapLens;
         address ammGovernanceService;
-        address liquidityMiningLens;
-        address powerTokenLens;
         address flowService;
         address stakeService;
-        address ammPoolsServiceWstEth;
-        address ammPoolsLensWstEth;
+        address powerTokenLens;
+        address liquidityMiningLens;
+        address wstEth;
+        address usdc;
+        address usdm;
     }
 
     event AdminChanged(address previousAdmin, address newAdmin);
@@ -22,19 +22,14 @@ interface IporProtocolRouterArbitrum {
     event PauseGuardiansRemoved(address[] indexed guardians);
     event Upgraded(address indexed implementation);
 
-    constructor(DeployedContractsArbitrum deployedContracts);
-
     fallback() external payable;
 
     receive() external payable;
 
     function addPauseGuardians(address[] memory guardians) external;
     function ammCloseSwapLens() external view returns (address);
-    function ammCloseSwapServiceWstEth() external view returns (address);
     function ammGovernanceService() external view returns (address);
-    function ammOpenSwapServiceWstEth() external view returns (address);
-    function ammPoolsLensWstEth() external view returns (address);
-    function ammPoolsServiceWstEth() external view returns (address);
+    function ammPoolsLens() external view returns (address);
     function ammSwapsLens() external view returns (address);
     function appointToOwnership(address appointedOwner) external;
     function batchExecutor(bytes[] memory calls) external payable returns (bytes[] memory);
@@ -56,5 +51,8 @@ interface IporProtocolRouterArbitrum {
     function unpause(bytes4[] memory functionSigs) external;
     function upgradeTo(address newImplementation) external;
     function upgradeToAndCall(address newImplementation, bytes memory data) external payable;
+    function usdc() external view returns (address);
+    function usdm() external view returns (address);
+    function wstEth() external view returns (address);
 }
 

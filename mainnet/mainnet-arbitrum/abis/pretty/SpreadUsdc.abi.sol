@@ -1,4 +1,4 @@
-interface SpreadBaseV1 {
+interface SpreadUsdc {
     type StorageId is uint8;
     type SwapDirection is uint8;
     type SwapTenor is uint8;

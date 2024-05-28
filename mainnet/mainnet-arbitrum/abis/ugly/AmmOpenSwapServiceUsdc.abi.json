@@ -204,7 +204,7 @@
   },
   {
     "type": "function",
-    "name": "openSwapPayFixed28daysWstEth",
+    "name": "openSwapPayFixed28daysUsdc",
     "inputs": [
       {
         "name": "beneficiary",
@@ -290,7 +290,7 @@
   },
   {
     "type": "function",
-    "name": "openSwapPayFixed60daysWstEth",
+    "name": "openSwapPayFixed60daysUsdc",
     "inputs": [
       {
         "name": "beneficiary",
@@ -376,7 +376,7 @@
   },
   {
     "type": "function",
-    "name": "openSwapPayFixed90daysWstEth",
+    "name": "openSwapPayFixed90daysUsdc",
     "inputs": [
       {
         "name": "beneficiary",
@@ -462,7 +462,7 @@
   },
   {
     "type": "function",
-    "name": "openSwapReceiveFixed28daysWstEth",
+    "name": "openSwapReceiveFixed28daysUsdc",
     "inputs": [
       {
         "name": "beneficiary",
@@ -548,7 +548,7 @@
   },
   {
     "type": "function",
-    "name": "openSwapReceiveFixed60daysWstEth",
+    "name": "openSwapReceiveFixed60daysUsdc",
     "inputs": [
       {
         "name": "beneficiary",
@@ -634,7 +634,7 @@
   },
   {
     "type": "function",
-    "name": "openSwapReceiveFixed90daysWstEth",
+    "name": "openSwapReceiveFixed90daysUsdc",
     "inputs": [
       {
         "name": "beneficiary",
