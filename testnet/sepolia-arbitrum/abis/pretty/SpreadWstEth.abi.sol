@@ -49,8 +49,6 @@ interface SpreadBaseV1 {
         uint256 storageId
     );
 
-    constructor(address iporProtocolRouterInput, address assetInput, TimeWeightedNotionalMemory[] timeWeightedNotional);
-
     function asset() external view returns (address);
     function calculateAndUpdateOfferedRatePayFixed(SpreadInputs memory spreadInputs)
         external

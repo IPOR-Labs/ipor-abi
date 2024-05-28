@@ -65,17 +65,7 @@
         ]
       },
       {
-        "name": "iporOracleInput",
-        "type": "address",
-        "internalType": "address"
-      },
-      {
-        "name": "messageSignerInput",
-        "type": "address",
-        "internalType": "address"
-      },
-      {
-        "name": "wstETHInput",
+        "name": "iporOracle_",
         "type": "address",
         "internalType": "address"
       }
@@ -195,19 +185,6 @@
         "name": "",
         "type": "uint256",
         "internalType": "uint256"
-      }
-    ],
-    "stateMutability": "view"
-  },
-  {
-    "type": "function",
-    "name": "messageSigner",
-    "inputs": [],
-    "outputs": [
-      {
-        "name": "",
-        "type": "address",
-        "internalType": "address"
       }
     ],
     "stateMutability": "view"
@@ -789,19 +766,6 @@
         "name": "",
         "type": "uint256",
         "internalType": "uint256"
-      }
-    ],
-    "stateMutability": "view"
-  },
-  {
-    "type": "function",
-    "name": "wstETH",
-    "inputs": [],
-    "outputs": [
-      {
-        "name": "",
-        "type": "address",
-        "internalType": "address"
       }
     ],
     "stateMutability": "view"

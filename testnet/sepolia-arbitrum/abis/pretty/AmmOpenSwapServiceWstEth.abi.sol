@@ -60,13 +60,6 @@ interface AmmOpenSwapServiceWstEth {
         IporSwapIndicator indicator
     );
 
-    constructor(
-        AmmOpenSwapServicePoolConfiguration poolCfg,
-        address iporOracleInput,
-        address messageSignerInput,
-        address wstETHInput
-    );
-
     function ETH_ADDRESS() external view returns (address);
     function ammStorage() external view returns (address);
     function ammTreasury() external view returns (address);
@@ -76,7 +69,6 @@ interface AmmOpenSwapServiceWstEth {
     function iporPublicationFee() external view returns (uint256);
     function liquidationDepositAmount() external view returns (uint256);
     function maxSwapCollateralAmount() external view returns (uint256);
-    function messageSigner() external view returns (address);
     function minLeverage() external view returns (uint256);
     function openSwapPayFixed28daysWstEth(
         address beneficiary,
@@ -130,6 +122,5 @@ interface AmmOpenSwapServiceWstEth {
     function openingFeeTreasuryPortionRate() external view returns (uint256);
     function spread() external view returns (address);
     function version() external view returns (uint256);
-    function wstETH() external view returns (address);
 }
 

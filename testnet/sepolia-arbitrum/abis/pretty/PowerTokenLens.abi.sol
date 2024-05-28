@@ -4,8 +4,6 @@ interface PowerTokenLens {
         uint256 pwTokenAmount;
     }
 
-    constructor(address powerTokenInput);
-
     function balanceOfPwToken(address account) external view returns (uint256);
     function balanceOfPwTokenDelegatedToLiquidityMining(address account) external view returns (uint256);
     function getPwTokenCooldownTime() external view returns (uint256);

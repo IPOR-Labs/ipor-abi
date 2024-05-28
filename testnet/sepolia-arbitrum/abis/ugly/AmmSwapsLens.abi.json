@@ -3,39 +3,7 @@
     "type": "constructor",
     "inputs": [
       {
-        "name": "wstEthCfg",
-        "type": "tuple",
-        "internalType": "struct IAmmSwapsLens.SwapLensPoolConfiguration",
-        "components": [
-          {
-            "name": "asset",
-            "type": "address",
-            "internalType": "address"
-          },
-          {
-            "name": "ammStorage",
-            "type": "address",
-            "internalType": "address"
-          },
-          {
-            "name": "ammTreasury",
-            "type": "address",
-            "internalType": "address"
-          },
-          {
-            "name": "spread",
-            "type": "address",
-            "internalType": "address"
-          }
-        ]
-      },
-      {
-        "name": "iporOracleInput",
-        "type": "address",
-        "internalType": "address"
-      },
-      {
-        "name": "messageSignerInput",
+        "name": "iporOracle_",
         "type": "address",
         "internalType": "address"
       }
@@ -47,7 +15,7 @@
     "name": "getBalancesForOpenSwap",
     "inputs": [
       {
-        "name": "",
+        "name": "asset",
         "type": "address",
         "internalType": "address"
       }
@@ -448,19 +416,6 @@
   {
     "type": "function",
     "name": "iporOracle",
-    "inputs": [],
-    "outputs": [
-      {
-        "name": "",
-        "type": "address",
-        "internalType": "address"
-      }
-    ],
-    "stateMutability": "view"
-  },
-  {
-    "type": "function",
-    "name": "messageSigner",
     "inputs": [],
     "outputs": [
       {

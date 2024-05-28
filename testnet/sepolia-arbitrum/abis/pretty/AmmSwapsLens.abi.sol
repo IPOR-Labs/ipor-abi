@@ -44,9 +44,7 @@ interface AmmSwapsLensArbitrum {
         address spread;
     }
 
-    constructor(SwapLensPoolConfiguration wstEthCfg, address iporOracleInput, address messageSignerInput);
-
-    function getBalancesForOpenSwap(address) external view returns (AmmBalancesForOpenSwapMemory memory);
+    function getBalancesForOpenSwap(address asset) external view returns (AmmBalancesForOpenSwapMemory memory);
     function getOfferedRate(
         address asset,
         SwapTenor tenor,
@@ -63,6 +61,5 @@ interface AmmSwapsLensArbitrum {
         view
         returns (uint256 totalCount, IporSwap[] memory swaps);
     function iporOracle() external view returns (address);
-    function messageSigner() external view returns (address);
 }
 

@@ -30,15 +30,6 @@ interface IporOracle {
     event Unpaused(address account);
     event Upgraded(address indexed implementation);
 
-    constructor(
-        address usdt,
-        uint256 usdtInitialIbtPrice,
-        address usdc,
-        uint256 usdcInitialIbtPrice,
-        address dai,
-        uint256 daiInitialIbtPrice
-    );
-
     function addAsset(address asset, uint256 updateTimestamp) external;
     function addPauseGuardians(address[] memory guardians) external;
     function addUpdater(address updater) external;
