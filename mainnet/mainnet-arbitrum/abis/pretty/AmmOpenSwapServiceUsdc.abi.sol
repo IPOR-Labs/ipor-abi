@@ -1,4 +1,4 @@
-interface AmmOpenSwapServiceWstEth {
+interface AmmOpenSwapServiceUsdc {
     type SwapDirection is uint8;
 
     struct AmmOpenSwapServicePoolConfiguration {
@@ -70,7 +70,7 @@ interface AmmOpenSwapServiceWstEth {
     function liquidationDepositAmount() external view returns (uint256);
     function maxSwapCollateralAmount() external view returns (uint256);
     function minLeverage() external view returns (uint256);
-    function openSwapPayFixed28daysWstEth(
+    function openSwapPayFixed28daysUsdc(
         address beneficiary,
         address inputAsset,
         uint256 inputAssetTotalAmount,
@@ -78,7 +78,7 @@ interface AmmOpenSwapServiceWstEth {
         uint256 leverage,
         RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
-    function openSwapPayFixed60daysWstEth(
+    function openSwapPayFixed60daysUsdc(
         address beneficiary,
         address inputAsset,
         uint256 inputAssetTotalAmount,
@@ -86,7 +86,7 @@ interface AmmOpenSwapServiceWstEth {
         uint256 leverage,
         RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
-    function openSwapPayFixed90daysWstEth(
+    function openSwapPayFixed90daysUsdc(
         address beneficiary,
         address inputAsset,
         uint256 inputAssetTotalAmount,
@@ -94,7 +94,7 @@ interface AmmOpenSwapServiceWstEth {
         uint256 leverage,
         RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
-    function openSwapReceiveFixed28daysWstEth(
+    function openSwapReceiveFixed28daysUsdc(
         address beneficiary,
         address inputAsset,
         uint256 inputAssetTotalAmount,
@@ -102,7 +102,7 @@ interface AmmOpenSwapServiceWstEth {
         uint256 leverage,
         RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
-    function openSwapReceiveFixed60daysWstEth(
+    function openSwapReceiveFixed60daysUsdc(
         address beneficiary,
         address inputAsset,
         uint256 inputAssetTotalAmount,
@@ -110,7 +110,7 @@ interface AmmOpenSwapServiceWstEth {
         uint256 leverage,
         RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
-    function openSwapReceiveFixed90daysWstEth(
+    function openSwapReceiveFixed90daysUsdc(
         address beneficiary,
         address inputAsset,
         uint256 inputAssetTotalAmount,

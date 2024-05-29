@@ -4,6 +4,7 @@ interface AmmGovernanceServiceArbitrum {
         uint256 decimals;
         address ammStorage;
         address ammTreasury;
+        address ammVault;
         address ammPoolsTreasury;
         address ammPoolsTreasuryManager;
         address ammCharlieTreasury;
@@ -16,7 +17,34 @@ interface AmmGovernanceServiceArbitrum {
         uint256 ammTreasuryAndAssetManagementRatio;
     }
 
+    struct AssetGovernancePoolConfigValue {
+        uint8 decimals;
+        address ammStorage;
+        address ammTreasury;
+        address ammVault;
+        address ammPoolsTreasury;
+        address ammPoolsTreasuryManager;
+        address ammCharlieTreasury;
+        address ammCharlieTreasuryManager;
+    }
+
+    struct AssetLensDataValue {
+        uint8 decimals;
+        address ipToken;
+        address ammStorage;
+        address ammTreasury;
+        address ammVault;
+        address spread;
+    }
+
+    struct AssetServicesValue {
+        address ammPoolsService;
+        address ammOpenSwapService;
+        address ammCloseSwapService;
+    }
+
     error UnsupportedModule(string errorCode, address asset);
+    error WrongAddress(string errorCode, address wrongAddress, string message);
 
     event AmmAppointedToRebalanceChanged(address indexed asset, address indexed account, bool status);
     event AmmPoolsParamsChanged(
@@ -27,8 +55,6 @@ interface AmmGovernanceServiceArbitrum {
     );
     event AmmSwapsLiquidatorChanged(address indexed asset, address indexed liquidator, bool status);
 
-    constructor(AmmGovernancePoolConfiguration wstEthPoolCfg);
-
     function addAppointedToRebalanceInAmm(address asset, address account) external;
     function addSwapLiquidator(address asset, address account) external;
     function depositToAssetManagement(address asset, uint256 wadAssetAmount) external;
@@ -37,16 +63,26 @@ interface AmmGovernanceServiceArbitrum {
         view
         returns (AmmGovernancePoolConfiguration memory);
     function getAmmPoolsParams(address asset) external view returns (AmmPoolsParamsConfiguration memory cfg);
+    function getAssetLensData(address asset) external view returns (AssetLensDataValue memory);
+    function getAssetServices(address asset) external view returns (AssetServicesValue memory);
+    function getMessageSigner() external view returns (address);
     function isAppointedToRebalanceInAmm(address asset, address account) external view returns (bool);
     function isSwapLiquidator(address asset, address account) external view returns (bool);
     function removeAppointedToRebalanceInAmm(address asset, address account) external;
     function removeSwapLiquidator(address asset, address account) external;
+    function setAmmGovernancePoolConfiguration(
+        address asset,
+        AssetGovernancePoolConfigValue memory assetGovernancePoolConfig
+    ) external;
     function setAmmPoolsParams(
         address asset,
         uint32 newMaxLiquidityPoolBalance,
         uint32 newAutoRebalanceThreshold,
         uint16 newAmmTreasuryAndAssetManagementRatio
     ) external;
+    function setAssetLensData(address asset, AssetLensDataValue memory assetLensData) external;
+    function setAssetServices(address asset, AssetServicesValue memory assetServices) external;
+    function setMessageSigner(address messageSigner) external;
     function transferToCharlieTreasury(address asset, uint256 wadAssetAmountInput) external;
     function transferToTreasury(address asset, uint256 wadAssetAmountInput) external;
     function withdrawAllFromAssetManagement(address asset) external;

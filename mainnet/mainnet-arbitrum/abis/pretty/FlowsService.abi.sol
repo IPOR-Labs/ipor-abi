@@ -1,6 +1,4 @@
 interface FlowsService {
-    constructor(address liquidityMiningInput, address governanceTokenInput, address powerTokenInput);
-
     function claimRewardsFromLiquidityMining(address[] memory lpTokens) external;
     function delegatePwTokensToLiquidityMining(address[] memory lpTokens, uint256[] memory pwTokenAmounts) external;
     function getConfiguration() external view returns (address, address, address);
