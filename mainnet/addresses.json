@@ -6,6 +6,16 @@
         "token": "wstETH",
         "asset": "0x5979D7b546E38E414F7E9822514be443A4800529",
         "AmmTreasury": "0xBd013Ea2E01C2Ab3462dd67e9C83aa3834882A5D"
+      },
+      {
+        "token": "USDC",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "AmmTreasury": "0x9324d39B29c85440cadd2202E4703E6f5d1e98F9"
+      },
+      {
+        "token": "USDM",
+        "asset": "0x59D9356E565Ab3A36dD77763Fc0d87fEaf85508C",
+        "AmmTreasury": "0x88a4052FABa59AD82908D7064C8EF1778C6ea867"
       }
     ]
   },
