@@ -1,0 +1,103 @@
+[
+  {
+    "type": "constructor",
+    "inputs": [
+      {
+        "name": "marketIdInput",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "aavePriceOracle",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "aavePoolDataProviderV3",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "AAVE_POOL_DATA_PROVIDER_V3",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "AAVE_PRICE_ORACLE",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "MARKET_ID",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "balanceOf",
+    "inputs": [
+      {
+        "name": "plasmaVault",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "error",
+    "name": "SafeCastOverflowedIntToUint",
+    "inputs": [
+      {
+        "name": "value",
+        "type": "int256",
+        "internalType": "int256"
+      }
+    ]
+  },
+  {
+    "type": "error",
+    "name": "UnsupportedBaseCurrencyFromOracle",
+    "inputs": [
+      {
+        "name": "errorCode",
+        "type": "string",
+        "internalType": "string"
+      }
+    ]
+  }
+]
