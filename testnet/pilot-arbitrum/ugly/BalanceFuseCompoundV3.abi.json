@@ -3,12 +3,12 @@
     "type": "constructor",
     "inputs": [
       {
-        "name": "marketIdInput",
+        "name": "marketId_",
         "type": "uint256",
         "internalType": "uint256"
       },
       {
-        "name": "cometAddressInput",
+        "name": "cometAddress_",
         "type": "address",
         "internalType": "address"
       }
@@ -85,7 +85,7 @@
     "name": "balanceOf",
     "inputs": [
       {
-        "name": "plasmaVault",
+        "name": "plasmaVault_",
         "type": "address",
         "internalType": "address"
       }

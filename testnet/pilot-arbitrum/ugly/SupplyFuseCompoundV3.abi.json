@@ -3,12 +3,12 @@
     "type": "constructor",
     "inputs": [
       {
-        "name": "marketIdInput",
+        "name": "marketId_",
         "type": "uint256",
         "internalType": "uint256"
       },
       {
-        "name": "cometAddressInput",
+        "name": "cometAddress_",
         "type": "address",
         "internalType": "address"
       }
@@ -72,7 +72,7 @@
     "name": "enter",
     "inputs": [
       {
-        "name": "data",
+        "name": "data_",
         "type": "bytes",
         "internalType": "bytes"
       }
@@ -85,7 +85,7 @@
     "name": "enter",
     "inputs": [
       {
-        "name": "data",
+        "name": "data_",
         "type": "tuple",
         "internalType": "struct CompoundV3SupplyFuseEnterData",
         "components": [
@@ -110,7 +110,7 @@
     "name": "exit",
     "inputs": [
       {
-        "name": "data",
+        "name": "data_",
         "type": "bytes",
         "internalType": "bytes"
       }
@@ -123,7 +123,7 @@
     "name": "exit",
     "inputs": [
       {
-        "name": "data",
+        "name": "data_",
         "type": "tuple",
         "internalType": "struct CompoundV3SupplyFuseExitData",
         "components": [
@@ -148,7 +148,7 @@
     "name": "instantWithdraw",
     "inputs": [
       {
-        "name": "params",
+        "name": "params_",
         "type": "bytes32[]",
         "internalType": "bytes32[]"
       }
@@ -253,11 +253,6 @@
         "name": "asset",
         "type": "address",
         "internalType": "address"
-      },
-      {
-        "name": "errorCode",
-        "type": "string",
-        "internalType": "string"
       }
     ]
   },

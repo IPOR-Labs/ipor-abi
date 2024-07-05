@@ -27,8 +27,8 @@ interface RewardsClaimManager {
 
     event AmountWithdrawn(uint256 amount);
     event AuthorityUpdated(address authority);
-    event FuseAdded(address indexed fuse);
-    event FuseRemoved(address indexed fuse);
+    event FuseAdded(address fuse);
+    event FuseRemoved(address fuse);
     event TransferredTokensUpdated(uint128 transferredTokens);
     event VestingDataUpdated(
         uint128 transferredTokens, uint128 balanceOnLastUpdate, uint32 vestingTime, uint32 lastUpdateBalance

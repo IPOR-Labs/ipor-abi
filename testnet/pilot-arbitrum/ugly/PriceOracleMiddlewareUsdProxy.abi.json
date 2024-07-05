@@ -3,17 +3,17 @@
     "type": "constructor",
     "inputs": [
       {
-        "name": "baseCurrency",
+        "name": "baseCurrency_",
         "type": "address",
         "internalType": "address"
       },
       {
-        "name": "baseCurrencyDecimals",
+        "name": "baseCurrencyDecimals_",
         "type": "uint256",
         "internalType": "uint256"
       },
       {
-        "name": "chainlinkFeedRegistry",
+        "name": "chainlinkFeedRegistry_",
         "type": "address",
         "internalType": "address"
       }
@@ -84,7 +84,7 @@
     "name": "getAssetPrice",
     "inputs": [
       {
-        "name": "asset",
+        "name": "asset_",
         "type": "address",
         "internalType": "address"
       }
@@ -103,7 +103,7 @@
     "name": "getAssetsPrices",
     "inputs": [
       {
-        "name": "assets",
+        "name": "assets_",
         "type": "address[]",
         "internalType": "address[]"
       }
@@ -119,10 +119,10 @@
   },
   {
     "type": "function",
-    "name": "getSourceOfAsset",
+    "name": "getSourceOfAssetPrice",
     "inputs": [
       {
-        "name": "asset",
+        "name": "asset_",
         "type": "address",
         "internalType": "address"
       }
@@ -141,7 +141,7 @@
     "name": "initialize",
     "inputs": [
       {
-        "name": "initialOwner",
+        "name": "initialOwner_",
         "type": "address",
         "internalType": "address"
       }
@@ -197,15 +197,15 @@
   },
   {
     "type": "function",
-    "name": "setAssetSources",
+    "name": "setAssetsPricesSources",
     "inputs": [
       {
-        "name": "assets",
+        "name": "assets_",
         "type": "address[]",
         "internalType": "address[]"
       },
       {
-        "name": "sources",
+        "name": "sources_",
         "type": "address[]",
         "internalType": "address[]"
       }
@@ -246,18 +246,18 @@
   },
   {
     "type": "event",
-    "name": "AssetSourceUpdated",
+    "name": "AssetPriceSourceUpdated",
     "inputs": [
       {
         "name": "asset",
         "type": "address",
-        "indexed": true,
+        "indexed": false,
         "internalType": "address"
       },
       {
         "name": "source",
         "type": "address",
-        "indexed": true,
+        "indexed": false,
         "internalType": "address"
       }
     ],
@@ -341,24 +341,12 @@
   {
     "type": "error",
     "name": "ArrayLengthMismatch",
-    "inputs": [
-      {
-        "name": "errorCode",
-        "type": "string",
-        "internalType": "string"
-      }
-    ]
+    "inputs": []
   },
   {
     "type": "error",
     "name": "AssetsAddressCanNotBeZero",
-    "inputs": [
-      {
-        "name": "errorCode",
-        "type": "string",
-        "internalType": "string"
-      }
-    ]
+    "inputs": []
   },
   {
     "type": "error",
@@ -379,13 +367,7 @@
   {
     "type": "error",
     "name": "EmptyArrayNotSupported",
-    "inputs": [
-      {
-        "name": "errorCode",
-        "type": "string",
-        "internalType": "string"
-      }
-    ]
+    "inputs": []
   },
   {
     "type": "error",
@@ -438,13 +420,7 @@
   {
     "type": "error",
     "name": "SourceAddressCanNotBeZero",
-    "inputs": [
-      {
-        "name": "errorCode",
-        "type": "string",
-        "internalType": "string"
-      }
-    ]
+    "inputs": []
   },
   {
     "type": "error",
@@ -465,34 +441,22 @@
   {
     "type": "error",
     "name": "UnexpectedPriceResult",
-    "inputs": [
-      {
-        "name": "errorCode",
-        "type": "string",
-        "internalType": "string"
-      }
-    ]
+    "inputs": []
   },
   {
     "type": "error",
     "name": "UnsupportedAsset",
-    "inputs": [
-      {
-        "name": "errorCode",
-        "type": "string",
-        "internalType": "string"
-      }
-    ]
+    "inputs": []
+  },
+  {
+    "type": "error",
+    "name": "WrongDecimals",
+    "inputs": []
   },
   {
     "type": "error",
     "name": "ZeroAddress",
     "inputs": [
-      {
-        "name": "errorCode",
-        "type": "string",
-        "internalType": "string"
-      },
       {
         "name": "variableName",
         "type": "string",
