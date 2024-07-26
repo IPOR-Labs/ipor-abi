@@ -114,6 +114,19 @@
   },
   {
     "type": "function",
+    "name": "ammAssetManagement",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
     "name": "ammStorage",
     "inputs": [],
     "outputs": [
@@ -793,7 +806,7 @@
         "internalType": "uint256"
       }
     ],
-    "stateMutability": "view"
+    "stateMutability": "pure"
   },
   {
     "type": "event",
@@ -880,5 +893,21 @@
       }
     ],
     "anonymous": false
+  },
+  {
+    "type": "error",
+    "name": "AssetMismatch",
+    "inputs": [
+      {
+        "name": "assetOne",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "assetTwo",
+        "type": "address",
+        "internalType": "address"
+      }
+    ]
   }
 ]

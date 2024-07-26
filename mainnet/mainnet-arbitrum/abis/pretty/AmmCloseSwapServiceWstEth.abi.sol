@@ -59,6 +59,7 @@ interface AmmCloseSwapServiceWstEth {
         uint256 unwindFeeTreasuryAmount
     );
 
+    function ammAssetManagement() external view returns (address);
     function ammStorage() external view returns (address);
     function ammTreasury() external view returns (address);
     function asset() external view returns (address);
@@ -100,6 +101,6 @@ interface AmmCloseSwapServiceWstEth {
     function timeBeforeMaturityAllowedToCloseSwapByCommunity() external view returns (uint256);
     function unwindingFeeRate() external view returns (uint256);
     function unwindingFeeTreasuryPortionRate() external view returns (uint256);
-    function version() external view returns (uint256);
+    function version() external pure returns (uint256);
 }
 

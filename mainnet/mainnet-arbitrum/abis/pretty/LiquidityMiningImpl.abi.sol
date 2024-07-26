@@ -1,4 +1,4 @@
-interface LiquidityMining {
+interface LiquidityMiningArbitrum {
     struct AccountIndicatorsResult {
         address lpToken;
         AccountRewardsIndicators indicators;
@@ -41,6 +41,12 @@ interface LiquidityMining {
         uint88 accruedRewards;
     }
 
+    struct PoolPowerUpModifier {
+        uint64 logBase;
+        uint64 pwTokenModifier;
+        uint64 vectorOfCurve;
+    }
+
     struct UpdateLpToken {
         address beneficiary;
         address lpToken;
@@ -71,6 +77,7 @@ interface LiquidityMining {
     event PauseGuardiansRemoved(address[] indexed guardians);
     event PauseManagerChanged(address indexed newPauseManager);
     event Paused(address account);
+    event PoolPowerUpModifiersUpdated(address lpToken, uint64 logBase, uint64 pwTokenModifier, uint64 vectorOfCurve);
     event PwTokenDelegated(address account, address lpToken, uint256 pwTokenAmount);
     event PwTokenUndelegated(address account, address lpToken, uint256 pwTokenAmount);
     event PwTokensAdded(address beneficiary, address lpToken, uint256 pwTokenAmount);
@@ -103,8 +110,13 @@ interface LiquidityMining {
         external
         view
         returns (AccountIndicatorsResult[] memory);
+    function getConfiguration() external view returns (address, address);
     function getGlobalIndicators(address[] memory lpTokens) external view returns (GlobalIndicatorsResult[] memory);
     function getImplementation() external view returns (address);
+    function getPoolPowerUpModifiers(address lpToken)
+        external
+        view
+        returns (uint256 pwTokenModifier, uint256 logBase, uint256 vectorOfCurve);
     function getVersion() external pure returns (uint256);
     function grantAllowanceForRouter(address erc20Token) external;
     function initialize(address[] memory lpTokens) external;
@@ -122,6 +134,7 @@ interface LiquidityMining {
     function renounceOwnership() external;
     function revokeAllowanceForRouter(address erc20Token) external;
     function routerAddress() external view returns (address);
+    function setPoolPowerUpModifiers(address[] memory lpTokens, PoolPowerUpModifier[] memory modifiers) external;
     function setRewardsPerBlock(address[] memory lpTokens, uint32[] memory pwTokenAmounts) external;
     function transferOwnership(address appointedOwner) external;
     function unpause() external;

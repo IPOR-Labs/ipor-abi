@@ -141,7 +141,7 @@
             "internalType": "uint256"
           },
           {
-            "name": "autoRebalanceThresholdInThousands",
+            "name": "autoRebalanceThreshold",
             "type": "uint256",
             "internalType": "uint256"
           },
@@ -634,7 +634,7 @@
         "internalType": "uint32"
       },
       {
-        "name": "autoRebalanceThresholdInThousands",
+        "name": "autoRebalanceThreshold",
         "type": "uint32",
         "indexed": false,
         "internalType": "uint32"

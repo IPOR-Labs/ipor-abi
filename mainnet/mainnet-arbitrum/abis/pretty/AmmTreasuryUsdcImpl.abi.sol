@@ -1,4 +1,5 @@
-interface AmmTreasuryBaseV1 {
+interface AmmTreasuryBaseV2 {
+    error AssetMismatch(address assetOne, address assetTwo);
     error CallerNotPauseGuardian(string errorCode, address caller);
 
     event AdminChanged(address previousAdmin, address newAdmin);
@@ -13,10 +14,12 @@ interface AmmTreasuryBaseV1 {
     event Upgraded(address indexed implementation);
 
     function addPauseGuardians(address[] memory guardians) external;
+    function ammAssetManagement() external view returns (address);
     function ammStorage() external view returns (address);
     function asset() external view returns (address);
     function assetDecimals() external view returns (uint256);
     function confirmTransferOwnership() external;
+    function depositToAssetManagementInternal(uint256 wadAssetAmount) external;
     function getImplementation() external view returns (address);
     function getLiquidityPoolBalance() external view returns (uint256);
     function getVersion() external pure returns (uint256);
@@ -33,5 +36,7 @@ interface AmmTreasuryBaseV1 {
     function unpause() external;
     function upgradeTo(address newImplementation) external;
     function upgradeToAndCall(address newImplementation, bytes memory data) external payable;
+    function withdrawAllFromAssetManagementInternal() external;
+    function withdrawFromAssetManagementInternal(uint256 wadAssetAmount) external;
 }
 

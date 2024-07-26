@@ -42,6 +42,8 @@ interface AmmCloseSwapServiceUsdc {
         bytes signature;
     }
 
+    error AssetMismatch(address assetOne, address assetTwo);
+
     event CloseSwap(
         uint256 indexed swapId,
         address asset,
@@ -59,6 +61,7 @@ interface AmmCloseSwapServiceUsdc {
         uint256 unwindFeeTreasuryAmount
     );
 
+    function ammAssetManagement() external view returns (address);
     function ammStorage() external view returns (address);
     function ammTreasury() external view returns (address);
     function asset() external view returns (address);
@@ -100,6 +103,6 @@ interface AmmCloseSwapServiceUsdc {
     function timeBeforeMaturityAllowedToCloseSwapByCommunity() external view returns (uint256);
     function unwindingFeeRate() external view returns (uint256);
     function unwindingFeeTreasuryPortionRate() external view returns (uint256);
-    function version() external view returns (uint256);
+    function version() external pure returns (uint256);
 }
 

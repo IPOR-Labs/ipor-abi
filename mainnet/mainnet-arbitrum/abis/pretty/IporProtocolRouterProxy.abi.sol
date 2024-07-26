@@ -70,7 +70,7 @@ interface IIporProtocolArbitrum {
 
     struct AmmPoolsParamsConfiguration {
         uint256 maxLiquidityPoolBalance;
-        uint256 autoRebalanceThresholdInThousands;
+        uint256 autoRebalanceThreshold;
         uint256 ammTreasuryAndAssetManagementRatio;
     }
 
@@ -267,6 +267,7 @@ interface IIporProtocolArbitrum {
     function addAppointedToRebalanceInAmm(address asset, address account) external;
     function addPauseGuardians(address[] memory guardians) external;
     function addSwapLiquidator(address asset, address account) external;
+    function appointToOwnership(address appointedOwner) external;
     function balanceOfLpTokensStakedInLiquidityMining(address account, address lpToken)
         external
         view
@@ -300,6 +301,7 @@ interface IIporProtocolArbitrum {
             IporSwapClosingResult[] memory closedPayFixedSwaps,
             IporSwapClosingResult[] memory closedReceiveFixedSwaps
         );
+    function confirmAppointmentToOwnership() external;
     function delegatePwTokensToLiquidityMining(address[] memory lpTokens, uint256[] memory lpTokenAmounts) external;
     function depositToAssetManagement(address asset, uint256 assetAmount) external;
     function emergencyCloseSwapsUsdc(
@@ -480,7 +482,9 @@ interface IIporProtocolArbitrum {
         uint256 leverage,
         RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
-    function pause() external;
+    function owner() external view returns (address);
+    function pause(bytes4[] memory functionSigs) external;
+    function paused(bytes4 functionSig) external view returns (uint256);
     function provideLiquidityUsdcToAmmPoolUsdc(address beneficiary, uint256 assetAmount) external payable;
     function provideLiquidityUsdmToAmmPoolUsdm(address beneficiary, uint256 usdmAmount) external payable;
     function provideLiquidityWstEth(address beneficiary, uint256 stEthAmount) external payable;
@@ -494,6 +498,7 @@ interface IIporProtocolArbitrum {
     function removeAppointedToRebalanceInAmm(address asset, address account) external;
     function removePauseGuardians(address[] memory guardians) external;
     function removeSwapLiquidator(address asset, address account) external;
+    function renounceOwnership() external;
     function setAmmGovernancePoolConfiguration(
         address asset,
         AssetGovernancePoolConfigValue memory assetGovernancePoolConfig
@@ -501,7 +506,7 @@ interface IIporProtocolArbitrum {
     function setAmmPoolsParams(
         address asset,
         uint32 newMaxLiquidityPoolBalance,
-        uint32 newAutoRebalanceThresholdInThousands,
+        uint32 newAutoRebalanceThreshold,
         uint16 newAmmTreasuryAndAssetManagementRatio
     ) external;
     function setAssetLensData(address asset, AssetLensDataValue memory assetLensData) external;
@@ -524,7 +529,7 @@ interface IIporProtocolArbitrum {
     function transferToTreasury(address asset, uint256 assetAmount) external;
     function undelegatePwTokensFromLiquidityMining(address[] memory lpTokens, uint256[] memory lpTokenAmounts)
         external;
-    function unpause() external;
+    function unpause(bytes4[] memory functionSigs) external;
     function unstakeGovernanceTokenFromPowerToken(address transferTo, uint256 iporTokenAmount) external;
     function unstakeLpTokensFromLiquidityMining(
         address transferTo,

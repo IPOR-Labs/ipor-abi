@@ -3,17 +3,17 @@
     "type": "constructor",
     "inputs": [
       {
-        "name": "assetInput",
+        "name": "asset_",
         "type": "address",
         "internalType": "address"
       },
       {
-        "name": "routerInput",
+        "name": "router_",
         "type": "address",
         "internalType": "address"
       },
       {
-        "name": "ammStorageInput",
+        "name": "ammStorage_",
         "type": "address",
         "internalType": "address"
       }
