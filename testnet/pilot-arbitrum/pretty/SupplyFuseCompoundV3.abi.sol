@@ -11,7 +11,7 @@ interface CompoundV3SupplyFuse {
 
     error AddressEmptyCode(address target);
     error AddressInsufficientBalance(address account);
-    error CompoundV3SupplyFuseUnsupportedAsset(string action, address asset, string errorCode);
+    error CompoundV3SupplyFuseUnsupportedAsset(string action, address asset);
     error FailedInnerCall();
     error SafeERC20FailedOperation(address token);
 
@@ -22,10 +22,10 @@ interface CompoundV3SupplyFuse {
     function COMPOUND_BASE_TOKEN() external view returns (address);
     function MARKET_ID() external view returns (uint256);
     function VERSION() external view returns (address);
-    function enter(bytes memory data) external;
-    function enter(CompoundV3SupplyFuseEnterData memory data) external;
-    function exit(bytes memory data) external;
-    function exit(CompoundV3SupplyFuseExitData memory data) external;
-    function instantWithdraw(bytes32[] memory params) external;
+    function enter(bytes memory data_) external;
+    function enter(CompoundV3SupplyFuseEnterData memory data_) external;
+    function exit(bytes memory data_) external;
+    function exit(CompoundV3SupplyFuseExitData memory data_) external;
+    function instantWithdraw(bytes32[] memory params_) external;
 }
 

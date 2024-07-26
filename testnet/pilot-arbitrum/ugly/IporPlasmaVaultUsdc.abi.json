@@ -3,7 +3,7 @@
     "type": "constructor",
     "inputs": [
       {
-        "name": "initData",
+        "name": "initData_",
         "type": "tuple",
         "internalType": "struct PlasmaVaultInitData",
         "components": [
@@ -140,19 +140,6 @@
   },
   {
     "type": "function",
-    "name": "DOMAIN_SEPARATOR",
-    "inputs": [],
-    "outputs": [
-      {
-        "name": "",
-        "type": "bytes32",
-        "internalType": "bytes32"
-      }
-    ],
-    "stateMutability": "view"
-  },
-  {
-    "type": "function",
     "name": "activateMarketsLimits",
     "inputs": [],
     "outputs": [],
@@ -163,12 +150,12 @@
     "name": "addBalanceFuse",
     "inputs": [
       {
-        "name": "marketId",
+        "name": "marketId_",
         "type": "uint256",
         "internalType": "uint256"
       },
       {
-        "name": "fuse",
+        "name": "fuse_",
         "type": "address",
         "internalType": "address"
       }
@@ -181,7 +168,7 @@
     "name": "addFuses",
     "inputs": [
       {
-        "name": "fuses",
+        "name": "fuses_",
         "type": "address[]",
         "internalType": "address[]"
       }
@@ -287,7 +274,7 @@
     "name": "claimRewards",
     "inputs": [
       {
-        "name": "calls",
+        "name": "calls_",
         "type": "tuple[]",
         "internalType": "struct FuseAction[]",
         "components": [
@@ -312,9 +299,9 @@
     "name": "configureInstantWithdrawalFuses",
     "inputs": [
       {
-        "name": "fuses",
+        "name": "fuses_",
         "type": "tuple[]",
-        "internalType": "struct PlasmaVaultLib.InstantWithdrawalFusesParamsStruct[]",
+        "internalType": "struct InstantWithdrawalFusesParamsStruct[]",
         "components": [
           {
             "name": "fuse",
@@ -337,12 +324,12 @@
     "name": "configureManagementFee",
     "inputs": [
       {
-        "name": "feeManager",
+        "name": "feeManager_",
         "type": "address",
         "internalType": "address"
       },
       {
-        "name": "feeInPercentage",
+        "name": "feeInPercentage_",
         "type": "uint256",
         "internalType": "uint256"
       }
@@ -355,12 +342,12 @@
     "name": "configurePerformanceFee",
     "inputs": [
       {
-        "name": "feeManager",
+        "name": "feeManager_",
         "type": "address",
         "internalType": "address"
       },
       {
-        "name": "feeInPercentage",
+        "name": "feeInPercentage_",
         "type": "uint256",
         "internalType": "uint256"
       }
@@ -431,12 +418,12 @@
     "name": "deposit",
     "inputs": [
       {
-        "name": "assets",
+        "name": "assets_",
         "type": "uint256",
         "internalType": "uint256"
       },
       {
-        "name": "receiver",
+        "name": "receiver_",
         "type": "address",
         "internalType": "address"
       }
@@ -452,53 +439,10 @@
   },
   {
     "type": "function",
-    "name": "eip712Domain",
-    "inputs": [],
-    "outputs": [
-      {
-        "name": "fields",
-        "type": "bytes1",
-        "internalType": "bytes1"
-      },
-      {
-        "name": "name",
-        "type": "string",
-        "internalType": "string"
-      },
-      {
-        "name": "version",
-        "type": "string",
-        "internalType": "string"
-      },
-      {
-        "name": "chainId",
-        "type": "uint256",
-        "internalType": "uint256"
-      },
-      {
-        "name": "verifyingContract",
-        "type": "address",
-        "internalType": "address"
-      },
-      {
-        "name": "salt",
-        "type": "bytes32",
-        "internalType": "bytes32"
-      },
-      {
-        "name": "extensions",
-        "type": "uint256[]",
-        "internalType": "uint256[]"
-      }
-    ],
-    "stateMutability": "view"
-  },
-  {
-    "type": "function",
     "name": "execute",
     "inputs": [
       {
-        "name": "calls",
+        "name": "calls_",
         "type": "tuple[]",
         "internalType": "struct FuseAction[]",
         "components": [
@@ -562,12 +506,12 @@
     "name": "getInstantWithdrawalFusesParams",
     "inputs": [
       {
-        "name": "fuse",
+        "name": "fuse_",
         "type": "address",
         "internalType": "address"
       },
       {
-        "name": "index",
+        "name": "index_",
         "type": "uint256",
         "internalType": "uint256"
       }
@@ -616,7 +560,7 @@
     "name": "getMarketLimit",
     "inputs": [
       {
-        "name": "marketId",
+        "name": "marketId_",
         "type": "uint256",
         "internalType": "uint256"
       }
@@ -699,12 +643,12 @@
     "name": "grandMarketSubstrates",
     "inputs": [
       {
-        "name": "marketId",
+        "name": "marketId_",
         "type": "uint256",
         "internalType": "uint256"
       },
       {
-        "name": "substrates",
+        "name": "substrates_",
         "type": "bytes32[]",
         "internalType": "bytes32[]"
       }
@@ -717,12 +661,12 @@
     "name": "isBalanceFuseSupported",
     "inputs": [
       {
-        "name": "marketId",
+        "name": "marketId_",
         "type": "uint256",
         "internalType": "uint256"
       },
       {
-        "name": "fuse",
+        "name": "fuse_",
         "type": "address",
         "internalType": "address"
       }
@@ -754,7 +698,7 @@
     "name": "isFuseSupported",
     "inputs": [
       {
-        "name": "fuse",
+        "name": "fuse_",
         "type": "address",
         "internalType": "address"
       }
@@ -773,12 +717,12 @@
     "name": "isMarketSubstrateGranted",
     "inputs": [
       {
-        "name": "marketId",
+        "name": "marketId_",
         "type": "uint256",
         "internalType": "uint256"
       },
       {
-        "name": "substrate",
+        "name": "substrate_",
         "type": "bytes32",
         "internalType": "bytes32"
       }
@@ -886,12 +830,12 @@
     "name": "mint",
     "inputs": [
       {
-        "name": "shares",
+        "name": "shares_",
         "type": "uint256",
         "internalType": "uint256"
       },
       {
-        "name": "receiver",
+        "name": "receiver_",
         "type": "address",
         "internalType": "address"
       }
@@ -917,68 +861,6 @@
       }
     ],
     "stateMutability": "view"
-  },
-  {
-    "type": "function",
-    "name": "nonces",
-    "inputs": [
-      {
-        "name": "owner",
-        "type": "address",
-        "internalType": "address"
-      }
-    ],
-    "outputs": [
-      {
-        "name": "",
-        "type": "uint256",
-        "internalType": "uint256"
-      }
-    ],
-    "stateMutability": "view"
-  },
-  {
-    "type": "function",
-    "name": "permit",
-    "inputs": [
-      {
-        "name": "owner",
-        "type": "address",
-        "internalType": "address"
-      },
-      {
-        "name": "spender",
-        "type": "address",
-        "internalType": "address"
-      },
-      {
-        "name": "value",
-        "type": "uint256",
-        "internalType": "uint256"
-      },
-      {
-        "name": "deadline",
-        "type": "uint256",
-        "internalType": "uint256"
-      },
-      {
-        "name": "v",
-        "type": "uint8",
-        "internalType": "uint8"
-      },
-      {
-        "name": "r",
-        "type": "bytes32",
-        "internalType": "bytes32"
-      },
-      {
-        "name": "s",
-        "type": "bytes32",
-        "internalType": "bytes32"
-      }
-    ],
-    "outputs": [],
-    "stateMutability": "nonpayable"
   },
   {
     "type": "function",
@@ -1061,17 +943,17 @@
     "name": "redeem",
     "inputs": [
       {
-        "name": "shares",
+        "name": "shares_",
         "type": "uint256",
         "internalType": "uint256"
       },
       {
-        "name": "receiver",
+        "name": "receiver_",
         "type": "address",
         "internalType": "address"
       },
       {
-        "name": "owner",
+        "name": "owner_",
         "type": "address",
         "internalType": "address"
       }
@@ -1090,12 +972,12 @@
     "name": "removeBalanceFuse",
     "inputs": [
       {
-        "name": "marketId",
+        "name": "marketId_",
         "type": "uint256",
         "internalType": "uint256"
       },
       {
-        "name": "fuse",
+        "name": "fuse_",
         "type": "address",
         "internalType": "address"
       }
@@ -1108,7 +990,7 @@
     "name": "removeFuses",
     "inputs": [
       {
-        "name": "fuses",
+        "name": "fuses_",
         "type": "address[]",
         "internalType": "address[]"
       }
@@ -1134,7 +1016,7 @@
     "name": "setPriceOracle",
     "inputs": [
       {
-        "name": "priceOracle",
+        "name": "priceOracle_",
         "type": "address",
         "internalType": "address"
       }
@@ -1160,7 +1042,7 @@
     "name": "setupMarketsLimits",
     "inputs": [
       {
-        "name": "marketsLimits",
+        "name": "marketsLimits_",
         "type": "tuple[]",
         "internalType": "struct MarketLimit[]",
         "components": [
@@ -1211,7 +1093,7 @@
     "name": "totalAssetsInMarket",
     "inputs": [
       {
-        "name": "marketId",
+        "name": "marketId_",
         "type": "uint256",
         "internalType": "uint256"
       }
@@ -1243,12 +1125,12 @@
     "name": "transfer",
     "inputs": [
       {
-        "name": "to",
+        "name": "to_",
         "type": "address",
         "internalType": "address"
       },
       {
-        "name": "value",
+        "name": "value_",
         "type": "uint256",
         "internalType": "uint256"
       }
@@ -1267,17 +1149,17 @@
     "name": "transferFrom",
     "inputs": [
       {
-        "name": "from",
+        "name": "from_",
         "type": "address",
         "internalType": "address"
       },
       {
-        "name": "to",
+        "name": "to_",
         "type": "address",
         "internalType": "address"
       },
       {
-        "name": "value",
+        "name": "value_",
         "type": "uint256",
         "internalType": "uint256"
       }
@@ -1296,17 +1178,17 @@
     "name": "withdraw",
     "inputs": [
       {
-        "name": "assets",
+        "name": "assets_",
         "type": "uint256",
         "internalType": "uint256"
       },
       {
-        "name": "receiver",
+        "name": "receiver_",
         "type": "address",
         "internalType": "address"
       },
       {
-        "name": "owner",
+        "name": "owner_",
         "type": "address",
         "internalType": "address"
       }
@@ -1365,13 +1247,13 @@
       {
         "name": "marketId",
         "type": "uint256",
-        "indexed": true,
+        "indexed": false,
         "internalType": "uint256"
       },
       {
         "name": "fuse",
         "type": "address",
-        "indexed": true,
+        "indexed": false,
         "internalType": "address"
       }
     ],
@@ -1384,13 +1266,13 @@
       {
         "name": "marketId",
         "type": "uint256",
-        "indexed": true,
+        "indexed": false,
         "internalType": "uint256"
       },
       {
         "name": "fuse",
         "type": "address",
-        "indexed": true,
+        "indexed": false,
         "internalType": "address"
       }
     ],
@@ -1429,18 +1311,12 @@
   },
   {
     "type": "event",
-    "name": "EIP712DomainChanged",
-    "inputs": [],
-    "anonymous": false
-  },
-  {
-    "type": "event",
     "name": "FuseAdded",
     "inputs": [
       {
         "name": "fuse",
         "type": "address",
-        "indexed": true,
+        "indexed": false,
         "internalType": "address"
       }
     ],
@@ -1453,7 +1329,7 @@
       {
         "name": "fuse",
         "type": "address",
-        "indexed": true,
+        "indexed": false,
         "internalType": "address"
       }
     ],
@@ -1467,7 +1343,7 @@
         "name": "fuses",
         "type": "tuple[]",
         "indexed": false,
-        "internalType": "struct PlasmaVaultLib.InstantWithdrawalFusesParamsStruct[]",
+        "internalType": "struct InstantWithdrawalFusesParamsStruct[]",
         "components": [
           {
             "name": "fuse",
@@ -1518,6 +1394,25 @@
         "type": "uint256",
         "indexed": false,
         "internalType": "uint256"
+      }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "MarketBalancesUpdated",
+    "inputs": [
+      {
+        "name": "marketIds",
+        "type": "uint256[]",
+        "indexed": false,
+        "internalType": "uint256[]"
+      },
+      {
+        "name": "deltaInUnderlying",
+        "type": "int256",
+        "indexed": false,
+        "internalType": "int256"
       }
     ],
     "anonymous": false
@@ -1606,32 +1501,13 @@
   },
   {
     "type": "event",
-    "name": "TotalAssetsInAllMarketsAdded",
+    "name": "RewardsClaimManagerAddressChanged",
     "inputs": [
       {
-        "name": "amount",
-        "type": "int256",
+        "name": "newRewardsClaimManagerAddress",
+        "type": "address",
         "indexed": false,
-        "internalType": "int256"
-      }
-    ],
-    "anonymous": false
-  },
-  {
-    "type": "event",
-    "name": "TotalAssetsInMarketAdded",
-    "inputs": [
-      {
-        "name": "marketId",
-        "type": "uint256",
-        "indexed": false,
-        "internalType": "uint256"
-      },
-      {
-        "name": "amount",
-        "type": "int256",
-        "indexed": false,
-        "internalType": "int256"
+        "internalType": "address"
       }
     ],
     "anonymous": false
@@ -1792,33 +1668,6 @@
   },
   {
     "type": "error",
-    "name": "ECDSAInvalidSignature",
-    "inputs": []
-  },
-  {
-    "type": "error",
-    "name": "ECDSAInvalidSignatureLength",
-    "inputs": [
-      {
-        "name": "length",
-        "type": "uint256",
-        "internalType": "uint256"
-      }
-    ]
-  },
-  {
-    "type": "error",
-    "name": "ECDSAInvalidSignatureS",
-    "inputs": [
-      {
-        "name": "s",
-        "type": "bytes32",
-        "internalType": "bytes32"
-      }
-    ]
-  },
-  {
-    "type": "error",
     "name": "ERC20InsufficientAllowance",
     "inputs": [
       {
@@ -1898,33 +1747,6 @@
     "inputs": [
       {
         "name": "spender",
-        "type": "address",
-        "internalType": "address"
-      }
-    ]
-  },
-  {
-    "type": "error",
-    "name": "ERC2612ExpiredSignature",
-    "inputs": [
-      {
-        "name": "deadline",
-        "type": "uint256",
-        "internalType": "uint256"
-      }
-    ]
-  },
-  {
-    "type": "error",
-    "name": "ERC2612InvalidSigner",
-    "inputs": [
-      {
-        "name": "signer",
-        "type": "address",
-        "internalType": "address"
-      },
-      {
-        "name": "owner",
         "type": "address",
         "internalType": "address"
       }
@@ -2031,22 +1853,6 @@
   },
   {
     "type": "error",
-    "name": "InvalidAccountNonce",
-    "inputs": [
-      {
-        "name": "account",
-        "type": "address",
-        "internalType": "address"
-      },
-      {
-        "name": "currentNonce",
-        "type": "uint256",
-        "internalType": "uint256"
-      }
-    ]
-  },
-  {
-    "type": "error",
     "name": "InvalidPerformanceFee",
     "inputs": [
       {
@@ -2055,11 +1861,6 @@
         "internalType": "uint256"
       }
     ]
-  },
-  {
-    "type": "error",
-    "name": "InvalidShortString",
-    "inputs": []
   },
   {
     "type": "error",
@@ -2163,25 +1964,8 @@
   },
   {
     "type": "error",
-    "name": "StringTooLong",
-    "inputs": [
-      {
-        "name": "str",
-        "type": "string",
-        "internalType": "string"
-      }
-    ]
-  },
-  {
-    "type": "error",
     "name": "UnsupportedBaseCurrencyFromOracle",
-    "inputs": [
-      {
-        "name": "errorCode",
-        "type": "string",
-        "internalType": "string"
-      }
-    ]
+    "inputs": []
   },
   {
     "type": "error",
@@ -2191,13 +1975,7 @@
   {
     "type": "error",
     "name": "UnsupportedPriceOracle",
-    "inputs": [
-      {
-        "name": "errorCode",
-        "type": "string",
-        "internalType": "string"
-      }
-    ]
+    "inputs": []
   },
   {
     "type": "error",

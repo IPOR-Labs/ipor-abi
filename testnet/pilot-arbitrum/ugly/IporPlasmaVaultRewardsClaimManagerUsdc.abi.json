@@ -281,7 +281,7 @@
       {
         "name": "fuse",
         "type": "address",
-        "indexed": true,
+        "indexed": false,
         "internalType": "address"
       }
     ],
@@ -294,7 +294,7 @@
       {
         "name": "fuse",
         "type": "address",
-        "indexed": true,
+        "indexed": false,
         "internalType": "address"
       }
     ],

@@ -64,7 +64,7 @@
     "name": "balanceOf",
     "inputs": [
       {
-        "name": "plasmaVault",
+        "name": "plasmaVault_",
         "type": "address",
         "internalType": "address"
       }
@@ -92,12 +92,6 @@
   {
     "type": "error",
     "name": "UnsupportedBaseCurrencyFromOracle",
-    "inputs": [
-      {
-        "name": "errorCode",
-        "type": "string",
-        "internalType": "string"
-      }
-    ]
+    "inputs": []
   }
 ]
