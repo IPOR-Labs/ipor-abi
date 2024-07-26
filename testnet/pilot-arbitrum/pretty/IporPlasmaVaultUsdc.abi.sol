@@ -91,6 +91,7 @@ interface IporPlasmaVault {
     error UnsupportedFuse();
     error UnsupportedPriceOracle();
     error WrongAddress();
+    error WrongArrayLength();
     error WrongMarketId(uint256 marketId);
 
     event Approval(address indexed owner, address indexed spender, uint256 value);
@@ -137,8 +138,18 @@ interface IporPlasmaVault {
     function deactivateMarketsLimits() external;
     function decimals() external view returns (uint8);
     function deposit(uint256 assets_, address receiver_) external returns (uint256);
+    function depositWithPermit(
+        uint256 assets_,
+        address owner_,
+        address receiver_,
+        uint256 deadline_,
+        uint8 v_,
+        bytes32 r_,
+        bytes32 s_
+    ) external returns (uint256);
     function execute(FuseAction[] memory calls_) external;
     function getAccessManagerAddress() external view returns (address);
+    function getDependencyBalanceGraph(uint256 marketId_) external view returns (uint256[] memory);
     function getFuses() external view returns (address[] memory);
     function getInstantWithdrawalFuses() external view returns (address[] memory);
     function getInstantWithdrawalFusesParams(address fuse_, uint256 index_) external view returns (bytes32[] memory);
@@ -147,6 +158,7 @@ interface IporPlasmaVault {
     function getPerformanceFeeData() external view returns (PerformanceFeeData memory feeData);
     function getPriceOracle() external view returns (address);
     function getRewardsClaimManagerAddress() external view returns (address);
+    function getUniqueElements(uint256[] memory inputArray) external pure returns (uint256[] memory);
     function getUnrealizedManagementFee() external view returns (uint256);
     function grandMarketSubstrates(uint256 marketId_, bytes32[] memory substrates_) external;
     function isBalanceFuseSupported(uint256 marketId_, address fuse_) external view returns (bool);
@@ -177,6 +189,7 @@ interface IporPlasmaVault {
     function totalSupply() external view returns (uint256);
     function transfer(address to_, uint256 value_) external returns (bool);
     function transferFrom(address from_, address to_, uint256 value_) external returns (bool);
+    function updateDependencyBalanceGraphs(uint256[] memory marketIds_, uint256[][] memory dependencies_) external;
     function withdraw(uint256 assets_, address receiver_, address owner_) external returns (uint256);
 }
 
