@@ -1,4 +1,6 @@
 interface AmmPoolsServiceUsdc {
+    error AssetMismatch(address assetOne, address assetTwo);
+
     event ProvideLiquidity(
         address poolAsset,
         address indexed from,
@@ -19,14 +21,17 @@ interface AmmPoolsServiceUsdc {
         uint256 ipTokenAmount
     );
 
+    function ammAssetManagement() external view returns (address);
     function ammStorage() external view returns (address);
     function ammTreasury() external view returns (address);
     function asset() external view returns (address);
     function assetDecimals() external view returns (uint256);
+    function autoRebalanceThresholdMultiplier() external view returns (uint256);
     function ipToken() external view returns (address);
     function iporOracle() external view returns (address);
     function iporProtocolRouter() external view returns (address);
     function provideLiquidityUsdcToAmmPoolUsdc(address beneficiary, uint256 assetAmount) external payable;
+    function rebalanceBetweenAmmTreasuryAndAssetManagement() external;
     function redeemFeeRate() external view returns (uint256);
     function redeemFromAmmPoolUsdc(address beneficiary, uint256 ipTokenAmount) external;
 }

@@ -50,6 +50,19 @@
   },
   {
     "type": "function",
+    "name": "appointToOwnership",
+    "inputs": [
+      {
+        "name": "appointedOwner",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
     "name": "balanceOfLpTokensStakedInLiquidityMining",
     "inputs": [
       {
@@ -475,6 +488,13 @@
         ]
       }
     ],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "confirmAppointmentToOwnership",
+    "inputs": [],
+    "outputs": [],
     "stateMutability": "nonpayable"
   },
   {
@@ -1155,7 +1175,7 @@
             "internalType": "uint256"
           },
           {
-            "name": "autoRebalanceThresholdInThousands",
+            "name": "autoRebalanceThreshold",
             "type": "uint256",
             "internalType": "uint256"
           },
@@ -3128,10 +3148,48 @@
   },
   {
     "type": "function",
-    "name": "pause",
+    "name": "owner",
     "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "pause",
+    "inputs": [
+      {
+        "name": "functionSigs",
+        "type": "bytes4[]",
+        "internalType": "bytes4[]"
+      }
+    ],
     "outputs": [],
     "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "paused",
+    "inputs": [
+      {
+        "name": "functionSig",
+        "type": "bytes4",
+        "internalType": "bytes4"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "stateMutability": "view"
   },
   {
     "type": "function",
@@ -3338,6 +3396,13 @@
   },
   {
     "type": "function",
+    "name": "renounceOwnership",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
     "name": "setAmmGovernancePoolConfiguration",
     "inputs": [
       {
@@ -3411,7 +3476,7 @@
         "internalType": "uint32"
       },
       {
-        "name": "newAutoRebalanceThresholdInThousands",
+        "name": "newAutoRebalanceThreshold",
         "type": "uint32",
         "internalType": "uint32"
       },
@@ -3661,7 +3726,13 @@
   {
     "type": "function",
     "name": "unpause",
-    "inputs": [],
+    "inputs": [
+      {
+        "name": "functionSigs",
+        "type": "bytes4[]",
+        "internalType": "bytes4[]"
+      }
+    ],
     "outputs": [],
     "stateMutability": "nonpayable"
   },

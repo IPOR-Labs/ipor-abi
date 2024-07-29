@@ -13,7 +13,7 @@ interface AmmGovernanceServiceArbitrum {
 
     struct AmmPoolsParamsConfiguration {
         uint256 maxLiquidityPoolBalance;
-        uint256 autoRebalanceThresholdInThousands;
+        uint256 autoRebalanceThreshold;
         uint256 ammTreasuryAndAssetManagementRatio;
     }
 
@@ -50,7 +50,7 @@ interface AmmGovernanceServiceArbitrum {
     event AmmPoolsParamsChanged(
         address indexed asset,
         uint32 maxLiquidityPoolBalance,
-        uint32 autoRebalanceThresholdInThousands,
+        uint32 autoRebalanceThreshold,
         uint16 ammTreasuryAndAssetManagementRatio
     );
     event AmmSwapsLiquidatorChanged(address indexed asset, address indexed liquidator, bool status);
