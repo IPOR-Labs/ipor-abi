@@ -513,6 +513,31 @@
   },
   {
     "type": "function",
+    "name": "executeInternal",
+    "inputs": [
+      {
+        "name": "calls_",
+        "type": "tuple[]",
+        "internalType": "struct FuseAction[]",
+        "components": [
+          {
+            "name": "fuse",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "data",
+            "type": "bytes",
+            "internalType": "bytes"
+          }
+        ]
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
     "name": "getAccessManagerAddress",
     "inputs": [],
     "outputs": [
@@ -1262,6 +1287,29 @@
   },
   {
     "type": "function",
+    "name": "updateCallbackHandler",
+    "inputs": [
+      {
+        "name": "handler_",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "sender_",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "sig_",
+        "type": "bytes4",
+        "internalType": "bytes4"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
     "name": "updateDependencyBalanceGraphs",
     "inputs": [
       {
@@ -1379,6 +1427,31 @@
         "type": "address",
         "indexed": false,
         "internalType": "address"
+      }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "CallbackHandlerUpdated",
+    "inputs": [
+      {
+        "name": "handler",
+        "type": "address",
+        "indexed": true,
+        "internalType": "address"
+      },
+      {
+        "name": "sender",
+        "type": "address",
+        "indexed": true,
+        "internalType": "address"
+      },
+      {
+        "name": "sig",
+        "type": "bytes4",
+        "indexed": true,
+        "internalType": "bytes4"
       }
     ],
     "anonymous": false
@@ -1958,6 +2031,11 @@
   },
   {
     "type": "error",
+    "name": "HandlerNotFound",
+    "inputs": []
+  },
+  {
+    "type": "error",
     "name": "InvalidPerformanceFee",
     "inputs": [
       {
@@ -2091,6 +2169,17 @@
     "type": "error",
     "name": "WrongArrayLength",
     "inputs": []
+  },
+  {
+    "type": "error",
+    "name": "WrongCaller",
+    "inputs": [
+      {
+        "name": "caller",
+        "type": "address",
+        "internalType": "address"
+      }
+    ]
   },
   {
     "type": "error",
