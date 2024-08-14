@@ -1,12 +1,12 @@
 interface Erc4626SupplyFuse {
     struct Erc4626SupplyFuseEnterData {
         address vault;
-        uint256 amount;
+        uint256 vaultAssetAmount;
     }
 
     struct Erc4626SupplyFuseExitData {
         address vault;
-        uint256 amount;
+        uint256 vaultAssetAmount;
     }
 
     error AddressEmptyCode(address target);
@@ -15,8 +15,10 @@ interface Erc4626SupplyFuse {
     error FailedInnerCall();
     error SafeERC20FailedOperation(address token);
 
-    event Erc4626SupplyEnterFuse(address version, address asset, address market, uint256 amount);
-    event Erc4626SupplyExitFuse(address version, address asset, address market, uint256 amount);
+    event Erc4626SupplyEnterFuse(address version, address asset, address vault, uint256 vaultAssetAmount);
+    event Erc4626SupplyExitFuse(
+        address version, address asset, address vault, uint256 vaultAssetAmount, uint256 shares
+    );
 
     function MARKET_ID() external view returns (uint256);
     function VERSION() external view returns (address);
