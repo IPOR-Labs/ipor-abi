@@ -64,7 +64,7 @@
             "internalType": "address"
           },
           {
-            "name": "amount",
+            "name": "vaultAssetAmount",
             "type": "uint256",
             "internalType": "uint256"
           }
@@ -102,7 +102,7 @@
             "internalType": "address"
           },
           {
-            "name": "amount",
+            "name": "vaultAssetAmount",
             "type": "uint256",
             "internalType": "uint256"
           }
@@ -142,13 +142,13 @@
         "internalType": "address"
       },
       {
-        "name": "market",
+        "name": "vault",
         "type": "address",
         "indexed": false,
         "internalType": "address"
       },
       {
-        "name": "amount",
+        "name": "vaultAssetAmount",
         "type": "uint256",
         "indexed": false,
         "internalType": "uint256"
@@ -173,13 +173,19 @@
         "internalType": "address"
       },
       {
-        "name": "market",
+        "name": "vault",
         "type": "address",
         "indexed": false,
         "internalType": "address"
       },
       {
-        "name": "amount",
+        "name": "vaultAssetAmount",
+        "type": "uint256",
+        "indexed": false,
+        "internalType": "uint256"
+      },
+      {
+        "name": "shares",
         "type": "uint256",
         "indexed": false,
         "internalType": "uint256"
