@@ -16,6 +16,8 @@ interface AaveV3SupplyFuse {
     error FailedInnerCall();
     error SafeCastOverflowedUintDowncast(uint8 bits, uint256 value);
     error SafeERC20FailedOperation(address token);
+    error WrongAddress();
+    error WrongValue();
 
     event AaveV3SupplyEnterFuse(address version, address asset, uint256 amount, uint256 userEModeCategoryId);
     event AaveV3SupplyExitFailed(address version, address asset, uint256 amount);

@@ -316,5 +316,15 @@
         "internalType": "address"
       }
     ]
+  },
+  {
+    "type": "error",
+    "name": "WrongAddress",
+    "inputs": []
+  },
+  {
+    "type": "error",
+    "name": "WrongValue",
+    "inputs": []
   }
 ]

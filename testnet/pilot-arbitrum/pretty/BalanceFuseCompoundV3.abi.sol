@@ -7,6 +7,6 @@ interface CompoundV3BalanceFuse {
     function COMPOUND_BASE_TOKEN() external view returns (address);
     function COMPOUND_BASE_TOKEN_DECIMALS() external view returns (uint256);
     function MARKET_ID() external view returns (uint256);
-    function balanceOf(address plasmaVault_) external view returns (uint256);
+    function balanceOf() external view returns (uint256);
 }
 
