@@ -17,6 +17,7 @@ interface PriceOracleMiddleware {
     error UnexpectedPriceResult();
     error UnsupportedAsset();
     error WrongDecimals();
+    error WrongDecimalsInPriceFeed();
     error ZeroAddress(string variableName);
 
     event AssetPriceSourceUpdated(address asset, address source);
@@ -25,14 +26,17 @@ interface PriceOracleMiddleware {
     event OwnershipTransferred(address indexed previousOwner, address indexed newOwner);
     event Upgraded(address indexed implementation);
 
-    function BASE_CURRENCY() external view returns (address);
-    function BASE_CURRENCY_DECIMALS() external view returns (uint256);
     function CHAINLINK_FEED_REGISTRY() external view returns (address);
+    function QUOTE_CURRENCY() external view returns (address);
+    function QUOTE_CURRENCY_DECIMALS() external view returns (uint256);
     function UPGRADE_INTERFACE_VERSION() external view returns (string memory);
     function acceptOwnership() external;
-    function getAssetPrice(address asset_) external view returns (uint256);
-    function getAssetsPrices(address[] memory assets_) external view returns (uint256[] memory);
-    function getSourceOfAssetPrice(address asset_) external view returns (address);
+    function getAssetPrice(address asset_) external view returns (uint256 assetPrice, uint256 decimals);
+    function getAssetsPrices(address[] memory assets_)
+        external
+        view
+        returns (uint256[] memory assetPrices, uint256[] memory decimalsList);
+    function getSourceOfAssetPrice(address asset_) external view returns (address sourceOfAssetPrice);
     function initialize(address initialOwner_) external;
     function owner() external view returns (address);
     function pendingOwner() external view returns (address);

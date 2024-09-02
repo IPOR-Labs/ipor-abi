@@ -6,11 +6,6 @@
         "name": "marketId_",
         "type": "uint256",
         "internalType": "uint256"
-      },
-      {
-        "name": "priceOracle_",
-        "type": "address",
-        "internalType": "address"
       }
     ],
     "stateMutability": "nonpayable"
@@ -30,27 +25,8 @@
   },
   {
     "type": "function",
-    "name": "PRICE_ORACLE",
-    "inputs": [],
-    "outputs": [
-      {
-        "name": "",
-        "type": "address",
-        "internalType": "contract IPriceOracleMiddleware"
-      }
-    ],
-    "stateMutability": "view"
-  },
-  {
-    "type": "function",
     "name": "balanceOf",
-    "inputs": [
-      {
-        "name": "plasmaVault_",
-        "type": "address",
-        "internalType": "address"
-      }
-    ],
+    "inputs": [],
     "outputs": [
       {
         "name": "",

@@ -3,48 +3,12 @@
     "type": "constructor",
     "inputs": [
       {
-        "name": "baseCurrency_",
-        "type": "address",
-        "internalType": "address"
-      },
-      {
-        "name": "baseCurrencyDecimals_",
-        "type": "uint256",
-        "internalType": "uint256"
-      },
-      {
         "name": "chainlinkFeedRegistry_",
         "type": "address",
         "internalType": "address"
       }
     ],
     "stateMutability": "nonpayable"
-  },
-  {
-    "type": "function",
-    "name": "BASE_CURRENCY",
-    "inputs": [],
-    "outputs": [
-      {
-        "name": "",
-        "type": "address",
-        "internalType": "address"
-      }
-    ],
-    "stateMutability": "view"
-  },
-  {
-    "type": "function",
-    "name": "BASE_CURRENCY_DECIMALS",
-    "inputs": [],
-    "outputs": [
-      {
-        "name": "",
-        "type": "uint256",
-        "internalType": "uint256"
-      }
-    ],
-    "stateMutability": "view"
   },
   {
     "type": "function",
@@ -55,6 +19,32 @@
         "name": "",
         "type": "address",
         "internalType": "address"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "QUOTE_CURRENCY",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "QUOTE_CURRENCY_DECIMALS",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256",
+        "internalType": "uint256"
       }
     ],
     "stateMutability": "view"
@@ -91,7 +81,12 @@
     ],
     "outputs": [
       {
-        "name": "",
+        "name": "assetPrice",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "decimals",
         "type": "uint256",
         "internalType": "uint256"
       }
@@ -110,7 +105,12 @@
     ],
     "outputs": [
       {
-        "name": "",
+        "name": "assetPrices",
+        "type": "uint256[]",
+        "internalType": "uint256[]"
+      },
+      {
+        "name": "decimalsList",
         "type": "uint256[]",
         "internalType": "uint256[]"
       }
@@ -129,7 +129,7 @@
     ],
     "outputs": [
       {
-        "name": "",
+        "name": "sourceOfAssetPrice",
         "type": "address",
         "internalType": "address"
       }
@@ -451,6 +451,11 @@
   {
     "type": "error",
     "name": "WrongDecimals",
+    "inputs": []
+  },
+  {
+    "type": "error",
+    "name": "WrongDecimalsInPriceFeed",
     "inputs": []
   },
   {

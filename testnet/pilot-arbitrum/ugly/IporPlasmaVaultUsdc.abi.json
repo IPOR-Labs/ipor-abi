@@ -23,7 +23,7 @@
             "internalType": "address"
           },
           {
-            "name": "priceOracle",
+            "name": "priceOracleMiddleware",
             "type": "address",
             "internalType": "address"
           },
@@ -102,6 +102,16 @@
             "name": "accessManager",
             "type": "address",
             "internalType": "address"
+          },
+          {
+            "name": "plasmaVaultBase",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "totalSupplyCap",
+            "type": "uint256",
+            "internalType": "uint256"
           }
         ]
       }
@@ -111,19 +121,6 @@
   {
     "type": "fallback",
     "stateMutability": "nonpayable"
-  },
-  {
-    "type": "function",
-    "name": "BASE_CURRENCY_DECIMALS",
-    "inputs": [],
-    "outputs": [
-      {
-        "name": "",
-        "type": "uint256",
-        "internalType": "uint256"
-      }
-    ],
-    "stateMutability": "view"
   },
   {
     "type": "function",
@@ -140,41 +137,16 @@
   },
   {
     "type": "function",
-    "name": "activateMarketsLimits",
+    "name": "PLASMA_VAULT_BASE",
     "inputs": [],
-    "outputs": [],
-    "stateMutability": "nonpayable"
-  },
-  {
-    "type": "function",
-    "name": "addBalanceFuse",
-    "inputs": [
+    "outputs": [
       {
-        "name": "marketId_",
-        "type": "uint256",
-        "internalType": "uint256"
-      },
-      {
-        "name": "fuse_",
+        "name": "",
         "type": "address",
         "internalType": "address"
       }
     ],
-    "outputs": [],
-    "stateMutability": "nonpayable"
-  },
-  {
-    "type": "function",
-    "name": "addFuses",
-    "inputs": [
-      {
-        "name": "fuses_",
-        "type": "address[]",
-        "internalType": "address[]"
-      }
-    ],
-    "outputs": [],
-    "stateMutability": "nonpayable"
+    "stateMutability": "view"
   },
   {
     "type": "function",
@@ -296,67 +268,6 @@
   },
   {
     "type": "function",
-    "name": "configureInstantWithdrawalFuses",
-    "inputs": [
-      {
-        "name": "fuses_",
-        "type": "tuple[]",
-        "internalType": "struct InstantWithdrawalFusesParamsStruct[]",
-        "components": [
-          {
-            "name": "fuse",
-            "type": "address",
-            "internalType": "address"
-          },
-          {
-            "name": "params",
-            "type": "bytes32[]",
-            "internalType": "bytes32[]"
-          }
-        ]
-      }
-    ],
-    "outputs": [],
-    "stateMutability": "nonpayable"
-  },
-  {
-    "type": "function",
-    "name": "configureManagementFee",
-    "inputs": [
-      {
-        "name": "feeManager_",
-        "type": "address",
-        "internalType": "address"
-      },
-      {
-        "name": "feeInPercentage_",
-        "type": "uint256",
-        "internalType": "uint256"
-      }
-    ],
-    "outputs": [],
-    "stateMutability": "nonpayable"
-  },
-  {
-    "type": "function",
-    "name": "configurePerformanceFee",
-    "inputs": [
-      {
-        "name": "feeManager_",
-        "type": "address",
-        "internalType": "address"
-      },
-      {
-        "name": "feeInPercentage_",
-        "type": "uint256",
-        "internalType": "uint256"
-      }
-    ],
-    "outputs": [],
-    "stateMutability": "nonpayable"
-  },
-  {
-    "type": "function",
     "name": "convertToAssets",
     "inputs": [
       {
@@ -392,13 +303,6 @@
       }
     ],
     "stateMutability": "view"
-  },
-  {
-    "type": "function",
-    "name": "deactivateMarketsLimits",
-    "inputs": [],
-    "outputs": [],
-    "stateMutability": "nonpayable"
   },
   {
     "type": "function",
@@ -538,207 +442,6 @@
   },
   {
     "type": "function",
-    "name": "getAccessManagerAddress",
-    "inputs": [],
-    "outputs": [
-      {
-        "name": "",
-        "type": "address",
-        "internalType": "address"
-      }
-    ],
-    "stateMutability": "view"
-  },
-  {
-    "type": "function",
-    "name": "getDependencyBalanceGraph",
-    "inputs": [
-      {
-        "name": "marketId_",
-        "type": "uint256",
-        "internalType": "uint256"
-      }
-    ],
-    "outputs": [
-      {
-        "name": "",
-        "type": "uint256[]",
-        "internalType": "uint256[]"
-      }
-    ],
-    "stateMutability": "view"
-  },
-  {
-    "type": "function",
-    "name": "getFuses",
-    "inputs": [],
-    "outputs": [
-      {
-        "name": "",
-        "type": "address[]",
-        "internalType": "address[]"
-      }
-    ],
-    "stateMutability": "view"
-  },
-  {
-    "type": "function",
-    "name": "getInstantWithdrawalFuses",
-    "inputs": [],
-    "outputs": [
-      {
-        "name": "",
-        "type": "address[]",
-        "internalType": "address[]"
-      }
-    ],
-    "stateMutability": "view"
-  },
-  {
-    "type": "function",
-    "name": "getInstantWithdrawalFusesParams",
-    "inputs": [
-      {
-        "name": "fuse_",
-        "type": "address",
-        "internalType": "address"
-      },
-      {
-        "name": "index_",
-        "type": "uint256",
-        "internalType": "uint256"
-      }
-    ],
-    "outputs": [
-      {
-        "name": "",
-        "type": "bytes32[]",
-        "internalType": "bytes32[]"
-      }
-    ],
-    "stateMutability": "view"
-  },
-  {
-    "type": "function",
-    "name": "getManagementFeeData",
-    "inputs": [],
-    "outputs": [
-      {
-        "name": "feeData",
-        "type": "tuple",
-        "internalType": "struct PlasmaVaultStorageLib.ManagementFeeData",
-        "components": [
-          {
-            "name": "feeManager",
-            "type": "address",
-            "internalType": "address"
-          },
-          {
-            "name": "feeInPercentage",
-            "type": "uint16",
-            "internalType": "uint16"
-          },
-          {
-            "name": "lastUpdateTimestamp",
-            "type": "uint32",
-            "internalType": "uint32"
-          }
-        ]
-      }
-    ],
-    "stateMutability": "view"
-  },
-  {
-    "type": "function",
-    "name": "getMarketLimit",
-    "inputs": [
-      {
-        "name": "marketId_",
-        "type": "uint256",
-        "internalType": "uint256"
-      }
-    ],
-    "outputs": [
-      {
-        "name": "",
-        "type": "uint256",
-        "internalType": "uint256"
-      }
-    ],
-    "stateMutability": "view"
-  },
-  {
-    "type": "function",
-    "name": "getPerformanceFeeData",
-    "inputs": [],
-    "outputs": [
-      {
-        "name": "feeData",
-        "type": "tuple",
-        "internalType": "struct PlasmaVaultStorageLib.PerformanceFeeData",
-        "components": [
-          {
-            "name": "feeManager",
-            "type": "address",
-            "internalType": "address"
-          },
-          {
-            "name": "feeInPercentage",
-            "type": "uint16",
-            "internalType": "uint16"
-          }
-        ]
-      }
-    ],
-    "stateMutability": "view"
-  },
-  {
-    "type": "function",
-    "name": "getPriceOracle",
-    "inputs": [],
-    "outputs": [
-      {
-        "name": "",
-        "type": "address",
-        "internalType": "address"
-      }
-    ],
-    "stateMutability": "view"
-  },
-  {
-    "type": "function",
-    "name": "getRewardsClaimManagerAddress",
-    "inputs": [],
-    "outputs": [
-      {
-        "name": "",
-        "type": "address",
-        "internalType": "address"
-      }
-    ],
-    "stateMutability": "view"
-  },
-  {
-    "type": "function",
-    "name": "getUniqueElements",
-    "inputs": [
-      {
-        "name": "inputArray",
-        "type": "uint256[]",
-        "internalType": "uint256[]"
-      }
-    ],
-    "outputs": [
-      {
-        "name": "",
-        "type": "uint256[]",
-        "internalType": "uint256[]"
-      }
-    ],
-    "stateMutability": "pure"
-  },
-  {
-    "type": "function",
     "name": "getUnrealizedManagementFee",
     "inputs": [],
     "outputs": [
@@ -752,48 +455,6 @@
   },
   {
     "type": "function",
-    "name": "grandMarketSubstrates",
-    "inputs": [
-      {
-        "name": "marketId_",
-        "type": "uint256",
-        "internalType": "uint256"
-      },
-      {
-        "name": "substrates_",
-        "type": "bytes32[]",
-        "internalType": "bytes32[]"
-      }
-    ],
-    "outputs": [],
-    "stateMutability": "nonpayable"
-  },
-  {
-    "type": "function",
-    "name": "isBalanceFuseSupported",
-    "inputs": [
-      {
-        "name": "marketId_",
-        "type": "uint256",
-        "internalType": "uint256"
-      },
-      {
-        "name": "fuse_",
-        "type": "address",
-        "internalType": "address"
-      }
-    ],
-    "outputs": [
-      {
-        "name": "",
-        "type": "bool",
-        "internalType": "bool"
-      }
-    ],
-    "stateMutability": "view"
-  },
-  {
-    "type": "function",
     "name": "isConsumingScheduledOp",
     "inputs": [],
     "outputs": [
@@ -801,62 +462,6 @@
         "name": "",
         "type": "bytes4",
         "internalType": "bytes4"
-      }
-    ],
-    "stateMutability": "view"
-  },
-  {
-    "type": "function",
-    "name": "isFuseSupported",
-    "inputs": [
-      {
-        "name": "fuse_",
-        "type": "address",
-        "internalType": "address"
-      }
-    ],
-    "outputs": [
-      {
-        "name": "",
-        "type": "bool",
-        "internalType": "bool"
-      }
-    ],
-    "stateMutability": "view"
-  },
-  {
-    "type": "function",
-    "name": "isMarketSubstrateGranted",
-    "inputs": [
-      {
-        "name": "marketId_",
-        "type": "uint256",
-        "internalType": "uint256"
-      },
-      {
-        "name": "substrate_",
-        "type": "bytes32",
-        "internalType": "bytes32"
-      }
-    ],
-    "outputs": [
-      {
-        "name": "",
-        "type": "bool",
-        "internalType": "bool"
-      }
-    ],
-    "stateMutability": "view"
-  },
-  {
-    "type": "function",
-    "name": "isMarketsLimitsActivated",
-    "inputs": [],
-    "outputs": [
-      {
-        "name": "",
-        "type": "bool",
-        "internalType": "bool"
       }
     ],
     "stateMutability": "view"
@@ -1081,94 +686,12 @@
   },
   {
     "type": "function",
-    "name": "removeBalanceFuse",
-    "inputs": [
-      {
-        "name": "marketId_",
-        "type": "uint256",
-        "internalType": "uint256"
-      },
-      {
-        "name": "fuse_",
-        "type": "address",
-        "internalType": "address"
-      }
-    ],
-    "outputs": [],
-    "stateMutability": "nonpayable"
-  },
-  {
-    "type": "function",
-    "name": "removeFuses",
-    "inputs": [
-      {
-        "name": "fuses_",
-        "type": "address[]",
-        "internalType": "address[]"
-      }
-    ],
-    "outputs": [],
-    "stateMutability": "nonpayable"
-  },
-  {
-    "type": "function",
     "name": "setAuthority",
     "inputs": [
       {
         "name": "newAuthority",
         "type": "address",
         "internalType": "address"
-      }
-    ],
-    "outputs": [],
-    "stateMutability": "nonpayable"
-  },
-  {
-    "type": "function",
-    "name": "setPriceOracle",
-    "inputs": [
-      {
-        "name": "priceOracle_",
-        "type": "address",
-        "internalType": "address"
-      }
-    ],
-    "outputs": [],
-    "stateMutability": "nonpayable"
-  },
-  {
-    "type": "function",
-    "name": "setRewardsClaimManagerAddress",
-    "inputs": [
-      {
-        "name": "rewardsClaimManagerAddress_",
-        "type": "address",
-        "internalType": "address"
-      }
-    ],
-    "outputs": [],
-    "stateMutability": "nonpayable"
-  },
-  {
-    "type": "function",
-    "name": "setupMarketsLimits",
-    "inputs": [
-      {
-        "name": "marketsLimits_",
-        "type": "tuple[]",
-        "internalType": "struct MarketLimit[]",
-        "components": [
-          {
-            "name": "marketId",
-            "type": "uint256",
-            "internalType": "uint256"
-          },
-          {
-            "name": "limitInPercentage",
-            "type": "uint256",
-            "internalType": "uint256"
-          }
-        ]
       }
     ],
     "outputs": [],
@@ -1287,40 +810,22 @@
   },
   {
     "type": "function",
-    "name": "updateCallbackHandler",
+    "name": "updateInternal",
     "inputs": [
       {
-        "name": "handler_",
+        "name": "",
         "type": "address",
         "internalType": "address"
       },
       {
-        "name": "sender_",
+        "name": "",
         "type": "address",
         "internalType": "address"
       },
       {
-        "name": "sig_",
-        "type": "bytes4",
-        "internalType": "bytes4"
-      }
-    ],
-    "outputs": [],
-    "stateMutability": "nonpayable"
-  },
-  {
-    "type": "function",
-    "name": "updateDependencyBalanceGraphs",
-    "inputs": [
-      {
-        "name": "marketIds_",
-        "type": "uint256[]",
-        "internalType": "uint256[]"
-      },
-      {
-        "name": "dependencies_",
-        "type": "uint256[][]",
-        "internalType": "uint256[][]"
+        "name": "",
+        "type": "uint256",
+        "internalType": "uint256"
       }
     ],
     "outputs": [],
@@ -1395,69 +900,6 @@
   },
   {
     "type": "event",
-    "name": "BalanceFuseAdded",
-    "inputs": [
-      {
-        "name": "marketId",
-        "type": "uint256",
-        "indexed": false,
-        "internalType": "uint256"
-      },
-      {
-        "name": "fuse",
-        "type": "address",
-        "indexed": false,
-        "internalType": "address"
-      }
-    ],
-    "anonymous": false
-  },
-  {
-    "type": "event",
-    "name": "BalanceFuseRemoved",
-    "inputs": [
-      {
-        "name": "marketId",
-        "type": "uint256",
-        "indexed": false,
-        "internalType": "uint256"
-      },
-      {
-        "name": "fuse",
-        "type": "address",
-        "indexed": false,
-        "internalType": "address"
-      }
-    ],
-    "anonymous": false
-  },
-  {
-    "type": "event",
-    "name": "CallbackHandlerUpdated",
-    "inputs": [
-      {
-        "name": "handler",
-        "type": "address",
-        "indexed": true,
-        "internalType": "address"
-      },
-      {
-        "name": "sender",
-        "type": "address",
-        "indexed": true,
-        "internalType": "address"
-      },
-      {
-        "name": "sig",
-        "type": "bytes4",
-        "indexed": true,
-        "internalType": "bytes4"
-      }
-    ],
-    "anonymous": false
-  },
-  {
-    "type": "event",
     "name": "Deposit",
     "inputs": [
       {
@@ -1489,51 +931,13 @@
   },
   {
     "type": "event",
-    "name": "FuseAdded",
+    "name": "Initialized",
     "inputs": [
       {
-        "name": "fuse",
-        "type": "address",
+        "name": "version",
+        "type": "uint64",
         "indexed": false,
-        "internalType": "address"
-      }
-    ],
-    "anonymous": false
-  },
-  {
-    "type": "event",
-    "name": "FuseRemoved",
-    "inputs": [
-      {
-        "name": "fuse",
-        "type": "address",
-        "indexed": false,
-        "internalType": "address"
-      }
-    ],
-    "anonymous": false
-  },
-  {
-    "type": "event",
-    "name": "InstantWithdrawalFusesConfigured",
-    "inputs": [
-      {
-        "name": "fuses",
-        "type": "tuple[]",
-        "indexed": false,
-        "internalType": "struct InstantWithdrawalFusesParamsStruct[]",
-        "components": [
-          {
-            "name": "fuse",
-            "type": "address",
-            "internalType": "address"
-          },
-          {
-            "name": "params",
-            "type": "bytes32[]",
-            "internalType": "bytes32[]"
-          }
-        ]
+        "internalType": "uint64"
       }
     ],
     "anonymous": false
@@ -1597,25 +1001,6 @@
   },
   {
     "type": "event",
-    "name": "MarketLimitUpdated",
-    "inputs": [
-      {
-        "name": "marketId",
-        "type": "uint256",
-        "indexed": false,
-        "internalType": "uint256"
-      },
-      {
-        "name": "newLimit",
-        "type": "uint256",
-        "indexed": false,
-        "internalType": "uint256"
-      }
-    ],
-    "anonymous": false
-  },
-  {
-    "type": "event",
     "name": "MarketSubstratesGranted",
     "inputs": [
       {
@@ -1631,18 +1016,6 @@
         "internalType": "bytes32[]"
       }
     ],
-    "anonymous": false
-  },
-  {
-    "type": "event",
-    "name": "MarketsLimitsActivated",
-    "inputs": [],
-    "anonymous": false
-  },
-  {
-    "type": "event",
-    "name": "MarketsLimitsDeactivated",
-    "inputs": [],
     "anonymous": false
   },
   {
@@ -1666,23 +1039,10 @@
   },
   {
     "type": "event",
-    "name": "PriceOracleChanged",
+    "name": "PriceOracleMiddlewareChanged",
     "inputs": [
       {
-        "name": "newPriceOracle",
-        "type": "address",
-        "indexed": false,
-        "internalType": "address"
-      }
-    ],
-    "anonymous": false
-  },
-  {
-    "type": "event",
-    "name": "RewardsClaimManagerAddressChanged",
-    "inputs": [
-      {
-        "name": "newRewardsClaimManagerAddress",
+        "name": "newPriceOracleMiddleware",
         "type": "address",
         "indexed": false,
         "internalType": "address"
@@ -1807,38 +1167,6 @@
     "inputs": [
       {
         "name": "account",
-        "type": "address",
-        "internalType": "address"
-      }
-    ]
-  },
-  {
-    "type": "error",
-    "name": "BalanceFuseAlreadyExists",
-    "inputs": [
-      {
-        "name": "marketId",
-        "type": "uint256",
-        "internalType": "uint256"
-      },
-      {
-        "name": "fuse",
-        "type": "address",
-        "internalType": "address"
-      }
-    ]
-  },
-  {
-    "type": "error",
-    "name": "BalanceFuseDoesNotExist",
-    "inputs": [
-      {
-        "name": "marketId",
-        "type": "uint256",
-        "internalType": "uint256"
-      },
-      {
-        "name": "fuse",
         "type": "address",
         "internalType": "address"
       }
@@ -2021,17 +1349,12 @@
   },
   {
     "type": "error",
-    "name": "FuseAlreadyExists",
-    "inputs": []
-  },
-  {
-    "type": "error",
-    "name": "FuseDoesNotExist",
-    "inputs": []
-  },
-  {
-    "type": "error",
     "name": "HandlerNotFound",
+    "inputs": []
+  },
+  {
+    "type": "error",
+    "name": "InvalidInitialization",
     "inputs": []
   },
   {
@@ -2093,6 +1416,11 @@
   },
   {
     "type": "error",
+    "name": "NotInitializing",
+    "inputs": []
+  },
+  {
+    "type": "error",
     "name": "ReentrancyGuardReentrantCall",
     "inputs": []
   },
@@ -2147,27 +1475,22 @@
   },
   {
     "type": "error",
-    "name": "UnsupportedBaseCurrencyFromOracle",
-    "inputs": []
-  },
-  {
-    "type": "error",
     "name": "UnsupportedFuse",
     "inputs": []
   },
   {
     "type": "error",
-    "name": "UnsupportedPriceOracle",
+    "name": "UnsupportedMethod",
+    "inputs": []
+  },
+  {
+    "type": "error",
+    "name": "UnsupportedQuoteCurrencyFromOracle",
     "inputs": []
   },
   {
     "type": "error",
     "name": "WrongAddress",
-    "inputs": []
-  },
-  {
-    "type": "error",
-    "name": "WrongArrayLength",
     "inputs": []
   },
   {
@@ -2178,17 +1501,6 @@
         "name": "caller",
         "type": "address",
         "internalType": "address"
-      }
-    ]
-  },
-  {
-    "type": "error",
-    "name": "WrongMarketId",
-    "inputs": [
-      {
-        "name": "marketId",
-        "type": "uint256",
-        "internalType": "uint256"
       }
     ]
   }

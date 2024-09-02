@@ -3,17 +3,17 @@
     "type": "constructor",
     "inputs": [
       {
-        "name": "marketIdInput",
+        "name": "marketId_",
         "type": "uint256",
         "internalType": "uint256"
       },
       {
-        "name": "aavePriceOracle",
+        "name": "aavePriceOracle_",
         "type": "address",
         "internalType": "address"
       },
       {
-        "name": "aavePoolDataProviderV3",
+        "name": "aavePoolDataProviderV3_",
         "type": "address",
         "internalType": "address"
       }
@@ -62,13 +62,7 @@
   {
     "type": "function",
     "name": "balanceOf",
-    "inputs": [
-      {
-        "name": "plasmaVault_",
-        "type": "address",
-        "internalType": "address"
-      }
-    ],
+    "inputs": [],
     "outputs": [
       {
         "name": "",
@@ -91,7 +85,17 @@
   },
   {
     "type": "error",
-    "name": "UnsupportedBaseCurrencyFromOracle",
+    "name": "UnsupportedQuoteCurrencyFromOracle",
+    "inputs": []
+  },
+  {
+    "type": "error",
+    "name": "WrongAddress",
+    "inputs": []
+  },
+  {
+    "type": "error",
+    "name": "WrongValue",
     "inputs": []
   }
 ]

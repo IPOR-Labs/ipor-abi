@@ -83,13 +83,7 @@
   {
     "type": "function",
     "name": "balanceOf",
-    "inputs": [
-      {
-        "name": "plasmaVault_",
-        "type": "address",
-        "internalType": "address"
-      }
-    ],
+    "inputs": [],
     "outputs": [
       {
         "name": "",
