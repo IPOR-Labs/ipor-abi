@@ -17,6 +17,13 @@
         "asset": "0x59D9356E565Ab3A36dD77763Fc0d87fEaf85508C",
         "AmmTreasury": "0x88a4052FABa59AD82908D7064C8EF1778C6ea867"
       }
+    ],
+    "vaults": [
+      {
+        "token": "USDC",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xa91267A25939b2B0f046013fbF9597008F7F014b"
+      }
     ]
   },
   "ethereum": {
@@ -32,6 +39,7 @@
         "name": "weETH",
         "AmmTreasury": "0xcC2fF2D38666723ea56c122097F6215B90d74196"
       }
-    ]
+    ],
+    "vaults": []
   }
 }
