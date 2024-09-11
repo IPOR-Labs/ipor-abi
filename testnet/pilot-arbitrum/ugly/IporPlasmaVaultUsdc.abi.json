@@ -28,11 +28,6 @@
             "internalType": "address"
           },
           {
-            "name": "alphas",
-            "type": "address[]",
-            "internalType": "address[]"
-          },
-          {
             "name": "marketSubstratesConfigs",
             "type": "tuple[]",
             "internalType": "struct MarketSubstratesConfig[]",
@@ -1356,6 +1351,17 @@
     "type": "error",
     "name": "InvalidInitialization",
     "inputs": []
+  },
+  {
+    "type": "error",
+    "name": "InvalidManagementFee",
+    "inputs": [
+      {
+        "name": "feeInPercentage",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ]
   },
   {
     "type": "error",

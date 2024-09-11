@@ -14,7 +14,6 @@ interface IporFusionAccessManager {
         RoleToFunction[] roleToFunctions;
         AccountToRole[] accountToRoles;
         AdminRole[] adminRoles;
-        uint256 redemptionDelay;
     }
 
     struct RoleToFunction {
@@ -43,6 +42,7 @@ interface IporFusionAccessManager {
     error AlreadyInitialized();
     error FailedInnerCall();
     error SafeCastOverflowedUintDowncast(uint8 bits, uint256 value);
+    error TooLongRedemptionDelay(uint256 redemptionDelayInSeconds);
     error TooShortExecutionDelayForRole(uint64 roleId, uint32 executionDelay);
 
     event IporFusionAccessManagerInitialized();
@@ -53,7 +53,6 @@ interface IporFusionAccessManager {
         bytes32 indexed operationId, uint32 indexed nonce, uint48 schedule, address caller, address target, bytes data
     );
     event RedemptionDelayForAccountUpdated(address account, uint256 redemptionDelay);
-    event RedemptionDelayUpdated(uint256 redemptionDelay);
     event RoleAdminChanged(uint64 indexed roleId, uint64 indexed admin);
     event RoleGrantDelayChanged(uint64 indexed roleId, uint32 delay, uint48 since);
     event RoleGranted(uint64 indexed roleId, address indexed account, uint32 delay, uint48 since, bool newMember);
@@ -65,7 +64,9 @@ interface IporFusionAccessManager {
     event TargetFunctionRoleUpdated(address indexed target, bytes4 selector, uint64 indexed roleId);
 
     function ADMIN_ROLE() external view returns (uint64);
+    function MAX_REDEMPTION_DELAY_IN_SECONDS() external view returns (uint256);
     function PUBLIC_ROLE() external view returns (uint64);
+    function REDEMPTION_DELAY_IN_SECONDS() external view returns (uint256);
     function canCall(address caller, address target, bytes4 selector)
         external
         view
@@ -86,7 +87,6 @@ interface IporFusionAccessManager {
     function getAccountLockTime(address account_) external view returns (uint256);
     function getMinimalExecutionDelayForRole(uint64 roleId_) external view returns (uint256);
     function getNonce(bytes32 id) external view returns (uint32);
-    function getRedemptionDelay() external view returns (uint256);
     function getRoleAdmin(uint64 roleId) external view returns (uint64);
     function getRoleGrantDelay(uint64 roleId) external view returns (uint32);
     function getRoleGuardian(uint64 roleId) external view returns (uint64);
@@ -109,7 +109,6 @@ interface IporFusionAccessManager {
         returns (bytes32 operationId, uint32 nonce);
     function setGrantDelay(uint64 roleId, uint32 newDelay) external;
     function setMinimalExecutionDelaysForRoles(uint64[] memory rolesIds_, uint256[] memory delays_) external;
-    function setRedemptionDelay(uint256 delay_) external;
     function setRoleAdmin(uint64 roleId, uint64 admin) external;
     function setRoleGuardian(uint64 roleId, uint64 guardian) external;
     function setTargetAdminDelay(address target, uint32 newDelay) external;

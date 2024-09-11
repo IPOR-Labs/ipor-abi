@@ -26,7 +26,6 @@ interface PlasmaVault {
         string assetSymbol;
         address underlyingToken;
         address priceOracleMiddleware;
-        address[] alphas;
         MarketSubstratesConfig[] marketSubstratesConfigs;
         address[] fuses;
         MarketBalanceFuseConfig[] balanceFuses;
@@ -54,6 +53,7 @@ interface PlasmaVault {
     error FailedInnerCall();
     error HandlerNotFound();
     error InvalidInitialization();
+    error InvalidManagementFee(uint256 feeInPercentage);
     error InvalidPerformanceFee(uint256 feeInPercentage);
     error MarketLimitExceeded(uint256 marketId, uint256 balanceInMarket, uint256 limit);
     error MathOverflowedMulDiv();
