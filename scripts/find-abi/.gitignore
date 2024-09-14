@@ -9,3 +9,6 @@
 
 ### Environment files ###
 .env
+
+### Downloaded files ###
+abi/
