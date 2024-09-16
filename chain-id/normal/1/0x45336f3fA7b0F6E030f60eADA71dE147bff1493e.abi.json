@@ -1,0 +1,79 @@
+[
+  {
+    "type": "function",
+    "name": "updateTimeWeightedNotional",
+    "inputs": [
+      {
+        "name": "timeWeightedNotionalMemories",
+        "type": "tuple[]",
+        "internalType": "struct SpreadTypes.TimeWeightedNotionalMemory[]",
+        "components": [
+          {
+            "name": "timeWeightedNotionalPayFixed",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "lastUpdateTimePayFixed",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "timeWeightedNotionalReceiveFixed",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "lastUpdateTimeReceiveFixed",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "storageId",
+            "type": "uint8",
+            "internalType": "enum SpreadStorageLibs.StorageId"
+          }
+        ]
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "event",
+    "name": "SpreadTimeWeightedNotionalChanged",
+    "inputs": [
+      {
+        "name": "timeWeightedNotionalPayFixed",
+        "type": "uint256",
+        "indexed": false,
+        "internalType": "uint256"
+      },
+      {
+        "name": "lastUpdateTimePayFixed",
+        "type": "uint256",
+        "indexed": false,
+        "internalType": "uint256"
+      },
+      {
+        "name": "timeWeightedNotionalReceiveFixed",
+        "type": "uint256",
+        "indexed": false,
+        "internalType": "uint256"
+      },
+      {
+        "name": "lastUpdateTimeReceiveFixed",
+        "type": "uint256",
+        "indexed": false,
+        "internalType": "uint256"
+      },
+      {
+        "name": "storageId",
+        "type": "uint256",
+        "indexed": false,
+        "internalType": "uint256"
+      }
+    ],
+    "anonymous": false
+  }
+]

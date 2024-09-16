@@ -1,0 +1,313 @@
+[
+  {
+    "type": "constructor",
+    "inputs": [
+      {
+        "name": "dai",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "usdc",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "usdt",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "calculateAndUpdateOfferedRatePayFixed60Days",
+    "inputs": [
+      {
+        "name": "spreadInputs",
+        "type": "tuple",
+        "internalType": "struct IporTypes.SpreadInputs",
+        "components": [
+          {
+            "name": "asset",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "swapNotional",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "demandSpreadFactor",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "baseSpreadPerLeg",
+            "type": "int256",
+            "internalType": "int256"
+          },
+          {
+            "name": "totalCollateralPayFixed",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "totalCollateralReceiveFixed",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "liquidityPoolBalance",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "iporIndexValue",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "fixedRateCapPerLeg",
+            "type": "uint256",
+            "internalType": "uint256"
+          }
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "offeredRate",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "calculateAndUpdateOfferedRateReceiveFixed60Days",
+    "inputs": [
+      {
+        "name": "spreadInputs",
+        "type": "tuple",
+        "internalType": "struct IporTypes.SpreadInputs",
+        "components": [
+          {
+            "name": "asset",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "swapNotional",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "demandSpreadFactor",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "baseSpreadPerLeg",
+            "type": "int256",
+            "internalType": "int256"
+          },
+          {
+            "name": "totalCollateralPayFixed",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "totalCollateralReceiveFixed",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "liquidityPoolBalance",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "iporIndexValue",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "fixedRateCapPerLeg",
+            "type": "uint256",
+            "internalType": "uint256"
+          }
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "offeredRate",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "calculateOfferedRatePayFixed60Days",
+    "inputs": [
+      {
+        "name": "spreadInputs",
+        "type": "tuple",
+        "internalType": "struct IporTypes.SpreadInputs",
+        "components": [
+          {
+            "name": "asset",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "swapNotional",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "demandSpreadFactor",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "baseSpreadPerLeg",
+            "type": "int256",
+            "internalType": "int256"
+          },
+          {
+            "name": "totalCollateralPayFixed",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "totalCollateralReceiveFixed",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "liquidityPoolBalance",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "iporIndexValue",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "fixedRateCapPerLeg",
+            "type": "uint256",
+            "internalType": "uint256"
+          }
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "offeredRate",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "calculateOfferedRateReceiveFixed60Days",
+    "inputs": [
+      {
+        "name": "spreadInputs",
+        "type": "tuple",
+        "internalType": "struct IporTypes.SpreadInputs",
+        "components": [
+          {
+            "name": "asset",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "swapNotional",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "demandSpreadFactor",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "baseSpreadPerLeg",
+            "type": "int256",
+            "internalType": "int256"
+          },
+          {
+            "name": "totalCollateralPayFixed",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "totalCollateralReceiveFixed",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "liquidityPoolBalance",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "iporIndexValue",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "fixedRateCapPerLeg",
+            "type": "uint256",
+            "internalType": "uint256"
+          }
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "offeredRate",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "getSupportedAssets",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address[]",
+        "internalType": "address[]"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "spreadFunction60DaysConfig",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256[]",
+        "internalType": "uint256[]"
+      }
+    ],
+    "stateMutability": "pure"
+  }
+]
