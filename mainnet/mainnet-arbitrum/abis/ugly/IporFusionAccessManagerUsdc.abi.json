@@ -30,6 +30,19 @@
   },
   {
     "type": "function",
+    "name": "MAX_REDEMPTION_DELAY_IN_SECONDS",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
     "name": "PUBLIC_ROLE",
     "inputs": [],
     "outputs": [
@@ -1481,6 +1494,17 @@
       },
       {
         "name": "value",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ]
+  },
+  {
+    "type": "error",
+    "name": "TooLongRedemptionDelay",
+    "inputs": [
+      {
+        "name": "redemptionDelayInSeconds",
         "type": "uint256",
         "internalType": "uint256"
       }

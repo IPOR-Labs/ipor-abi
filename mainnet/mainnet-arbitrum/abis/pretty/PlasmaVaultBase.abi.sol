@@ -102,6 +102,7 @@ interface PlasmaVaultBase {
     function configureInstantWithdrawalFuses(InstantWithdrawalFusesParamsStruct[] memory fuses_) external;
     function configureManagementFee(address feeManager_, uint256 feeInPercentage_) external;
     function configurePerformanceFee(address feeManager_, uint256 feeInPercentage_) external;
+    function convertToPublicVault() external;
     function deactivateMarketsLimits() external;
     function decimals() external view returns (uint8);
     function delegate(address delegatee) external;
@@ -119,6 +120,7 @@ interface PlasmaVaultBase {
             bytes32 salt,
             uint256[] memory extensions
         );
+    function enableTransferShares() external;
     function getAccessManagerAddress() external view returns (address);
     function getDependencyBalanceGraph(uint256 marketId_) external view returns (uint256[] memory);
     function getFuses() external view returns (address[] memory);
@@ -149,6 +151,7 @@ interface PlasmaVaultBase {
     function removeBalanceFuse(uint256 marketId_, address fuse_) external;
     function removeFuses(address[] memory fuses_) external;
     function setAuthority(address newAuthority) external;
+    function setMinimalExecutionDelaysForRoles(uint64[] memory rolesIds_, uint256[] memory delays_) external;
     function setPriceOracleMiddleware(address priceOracleMiddleware_) external;
     function setRewardsClaimManagerAddress(address rewardsClaimManagerAddress_) external;
     function setTotalSupplyCap(uint256 cap_) external;

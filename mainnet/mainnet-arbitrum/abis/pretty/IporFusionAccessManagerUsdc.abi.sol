@@ -42,6 +42,7 @@ interface IporFusionAccessManager {
     error AlreadyInitialized();
     error FailedInnerCall();
     error SafeCastOverflowedUintDowncast(uint8 bits, uint256 value);
+    error TooLongRedemptionDelay(uint256 redemptionDelayInSeconds);
     error TooShortExecutionDelayForRole(uint64 roleId, uint32 executionDelay);
 
     event IporFusionAccessManagerInitialized();
@@ -63,6 +64,7 @@ interface IporFusionAccessManager {
     event TargetFunctionRoleUpdated(address indexed target, bytes4 selector, uint64 indexed roleId);
 
     function ADMIN_ROLE() external view returns (uint64);
+    function MAX_REDEMPTION_DELAY_IN_SECONDS() external view returns (uint256);
     function PUBLIC_ROLE() external view returns (uint64);
     function REDEMPTION_DELAY_IN_SECONDS() external view returns (uint256);
     function canCall(address caller, address target, bytes4 selector)
