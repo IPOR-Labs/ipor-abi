@@ -36,7 +36,7 @@ CHAIN_ID=$1
 ADDRESS=$2
 
 REPO="IPOR-Labs/ipor-abi"
-BRANCH="IL-4798-add-abis-per-address"
+BRANCH="main"
 
 SUBDIRECTORIES=("normal" "pretty")
 
