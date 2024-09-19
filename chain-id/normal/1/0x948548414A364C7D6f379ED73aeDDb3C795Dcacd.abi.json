@@ -1,0 +1,96 @@
+[
+  {
+    "type": "constructor",
+    "inputs": [
+      {
+        "name": "dai",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "usdc",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "usdt",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "getSupportedAssets",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address[]",
+        "internalType": "address[]"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "updateTimeWeightedNotionalOnClose",
+    "inputs": [
+      {
+        "name": "asset",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "direction",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "tenor",
+        "type": "uint8",
+        "internalType": "enum IporTypes.SwapTenor"
+      },
+      {
+        "name": "swapNotional",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "closedSwap",
+        "type": "tuple",
+        "internalType": "struct AmmInternalTypes.OpenSwapItem",
+        "components": [
+          {
+            "name": "swapId",
+            "type": "uint32",
+            "internalType": "uint32"
+          },
+          {
+            "name": "nextSwapId",
+            "type": "uint32",
+            "internalType": "uint32"
+          },
+          {
+            "name": "previousSwapId",
+            "type": "uint32",
+            "internalType": "uint32"
+          },
+          {
+            "name": "openSwapTimestamp",
+            "type": "uint32",
+            "internalType": "uint32"
+          }
+        ]
+      },
+      {
+        "name": "ammStorageAddress",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

@@ -6,3 +6,6 @@
 
 ### macOS system files ###
 .DS_Store
+
+### Environment files ###
+.env
