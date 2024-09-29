@@ -1,15 +1,17 @@
-interface SpreadBaseV1 {
-    type StorageId is uint8;
-    type SwapDirection is uint8;
-    type SwapTenor is uint8;
-
+library AmmInternalTypes {
     struct OpenSwapItem {
         uint32 swapId;
         uint32 nextSwapId;
         uint32 previousSwapId;
         uint32 openSwapTimestamp;
     }
+}
 
+library AmmTypes {
+    type SwapDirection is uint8;
+}
+
+library ISpreadBaseV1 {
     struct SpreadInputs {
         address asset;
         uint256 swapNotional;
@@ -20,23 +22,35 @@ interface SpreadBaseV1 {
         uint256 liquidityPoolBalance;
         uint256 iporIndexValue;
         uint256 fixedRateCapPerLeg;
-        SwapTenor tenor;
+        IporTypes.SwapTenor tenor;
     }
+}
 
+library IporTypes {
+    type SwapTenor is uint8;
+}
+
+library SpreadStorageLibsBaseV1 {
+    type StorageId is uint8;
+}
+
+library SpreadTypesBaseV1 {
     struct TimeWeightedNotionalMemory {
         uint256 timeWeightedNotionalPayFixed;
         uint256 lastUpdateTimePayFixed;
         uint256 timeWeightedNotionalReceiveFixed;
         uint256 lastUpdateTimeReceiveFixed;
-        StorageId storageId;
+        SpreadStorageLibsBaseV1.StorageId storageId;
     }
 
     struct TimeWeightedNotionalResponse {
         TimeWeightedNotionalMemory timeWeightedNotional;
         string key;
     }
+}
 
-    error UnknownTenor(SwapTenor tenor, string errorCode, string methodName);
+interface SpreadBaseV1 {
+    error UnknownTenor(IporTypes.SwapTenor tenor, string errorCode, string methodName);
     error UnsupportedDirection(string errorCode, uint256 direction);
 
     event AppointedToTransferOwnership(address indexed appointedOwner);
@@ -49,24 +63,22 @@ interface SpreadBaseV1 {
         uint256 storageId
     );
 
-    constructor(address iporProtocolRouterInput, address assetInput, TimeWeightedNotionalMemory[] timeWeightedNotional);
-
     function asset() external view returns (address);
-    function calculateAndUpdateOfferedRatePayFixed(SpreadInputs memory spreadInputs)
+    function calculateAndUpdateOfferedRatePayFixed(ISpreadBaseV1.SpreadInputs memory spreadInputs)
         external
         returns (uint256 offeredRate);
-    function calculateAndUpdateOfferedRateReceiveFixed(SpreadInputs memory spreadInputs)
+    function calculateAndUpdateOfferedRateReceiveFixed(ISpreadBaseV1.SpreadInputs memory spreadInputs)
         external
         returns (uint256 offeredRate);
-    function calculateOfferedRate(SwapDirection direction, SpreadInputs memory spreadInputs)
+    function calculateOfferedRate(AmmTypes.SwapDirection direction, ISpreadBaseV1.SpreadInputs memory spreadInputs)
         external
         view
         returns (uint256);
-    function calculateOfferedRatePayFixed(SpreadInputs memory spreadInputs)
+    function calculateOfferedRatePayFixed(ISpreadBaseV1.SpreadInputs memory spreadInputs)
         external
         view
         returns (uint256 offeredRate);
-    function calculateOfferedRateReceiveFixed(SpreadInputs memory spreadInputs)
+    function calculateOfferedRateReceiveFixed(ISpreadBaseV1.SpreadInputs memory spreadInputs)
         external
         view
         returns (uint256 offeredRate);
@@ -74,19 +86,21 @@ interface SpreadBaseV1 {
     function getTimeWeightedNotional()
         external
         view
-        returns (TimeWeightedNotionalResponse[] memory timeWeightedNotionalResponse);
+        returns (SpreadTypesBaseV1.TimeWeightedNotionalResponse[] memory timeWeightedNotionalResponse);
     function getVersion() external pure returns (uint256);
     function iporProtocolRouter() external view returns (address);
     function owner() external view returns (address);
     function renounceOwnership() external;
     function spreadFunctionConfig() external pure returns (uint256[] memory);
     function transferOwnership(address appointedOwner) external;
-    function updateTimeWeightedNotional(TimeWeightedNotionalMemory[] memory timeWeightedNotionalMemories) external;
+    function updateTimeWeightedNotional(
+        SpreadTypesBaseV1.TimeWeightedNotionalMemory[] memory timeWeightedNotionalMemories
+    ) external;
     function updateTimeWeightedNotionalOnClose(
         uint256 direction,
-        SwapTenor tenor,
+        IporTypes.SwapTenor tenor,
         uint256 swapNotional,
-        OpenSwapItem memory closedSwap,
+        AmmInternalTypes.OpenSwapItem memory closedSwap,
         address ammStorageAddress
     ) external;
 }

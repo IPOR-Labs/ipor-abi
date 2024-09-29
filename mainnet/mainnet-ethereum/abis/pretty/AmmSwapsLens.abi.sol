@@ -1,14 +1,17 @@
-interface AmmSwapsLens {
-    type SwapTenor is uint8;
-
-    struct AmmBalancesForOpenSwapMemory {
-        uint256 totalCollateralPayFixed;
-        uint256 totalNotionalPayFixed;
-        uint256 totalCollateralReceiveFixed;
-        uint256 totalNotionalReceiveFixed;
-        uint256 liquidityPool;
+library AmmTypes {
+    struct RiskIndicatorsInputs {
+        uint256 maxCollateralRatio;
+        uint256 maxCollateralRatioPerLeg;
+        uint256 maxLeveragePerLeg;
+        int256 baseSpreadPerLeg;
+        uint256 fixedRateCapPerLeg;
+        uint256 demandSpreadFactor;
+        uint256 expiration;
+        bytes signature;
     }
+}
 
+library IAmmSwapsLens {
     struct IporSwap {
         uint256 id;
         address asset;
@@ -26,49 +29,49 @@ interface AmmSwapsLens {
         uint256 state;
     }
 
-    struct RiskIndicatorsInputs {
-        uint256 maxCollateralRatio;
-        uint256 maxCollateralRatioPerLeg;
-        uint256 maxLeveragePerLeg;
-        int256 baseSpreadPerLeg;
-        uint256 fixedRateCapPerLeg;
-        uint256 demandSpreadFactor;
-        uint256 expiration;
-        bytes signature;
-    }
-
     struct SwapLensPoolConfiguration {
         address asset;
         address ammStorage;
         address ammTreasury;
         address spread;
     }
+}
 
-    constructor(
-        SwapLensPoolConfiguration usdtCfg,
-        SwapLensPoolConfiguration usdcCfg,
-        SwapLensPoolConfiguration daiCfg,
-        SwapLensPoolConfiguration stEthCfg,
-        address iporOracleInput,
-        address messageSignerInput
-    );
+library IporTypes {
+    type SwapTenor is uint8;
 
-    function getBalancesForOpenSwap(address asset) external view returns (AmmBalancesForOpenSwapMemory memory);
+    struct AmmBalancesForOpenSwapMemory {
+        uint256 totalCollateralPayFixed;
+        uint256 totalNotionalPayFixed;
+        uint256 totalCollateralReceiveFixed;
+        uint256 totalNotionalReceiveFixed;
+        uint256 liquidityPool;
+    }
+}
+
+interface AmmSwapsLens {
+    function getBalancesForOpenSwap(address asset)
+        external
+        view
+        returns (IporTypes.AmmBalancesForOpenSwapMemory memory);
     function getOfferedRate(
         address asset,
-        SwapTenor tenor,
+        IporTypes.SwapTenor tenor,
         uint256 notional,
-        RiskIndicatorsInputs memory payFixedRiskIndicatorsInputs,
-        RiskIndicatorsInputs memory receiveFixedRiskIndicatorsInputs
+        AmmTypes.RiskIndicatorsInputs memory payFixedRiskIndicatorsInputs,
+        AmmTypes.RiskIndicatorsInputs memory receiveFixedRiskIndicatorsInputs
     ) external view returns (uint256 offeredRatePayFixed, uint256 offeredRateReceiveFixed);
     function getPnlPayFixed(address asset, uint256 swapId) external view returns (int256);
     function getPnlReceiveFixed(address asset, uint256 swapId) external view returns (int256);
     function getSoap(address asset) external view returns (int256 soapPayFixed, int256 soapReceiveFixed, int256 soap);
-    function getSwapLensPoolConfiguration(address asset) external view returns (SwapLensPoolConfiguration memory);
+    function getSwapLensPoolConfiguration(address asset)
+        external
+        view
+        returns (IAmmSwapsLens.SwapLensPoolConfiguration memory);
     function getSwaps(address asset, address account, uint256 offset, uint256 chunkSize)
         external
         view
-        returns (uint256 totalCount, IporSwap[] memory swaps);
+        returns (uint256 totalCount, IAmmSwapsLens.IporSwap[] memory swaps);
     function iporOracle() external view returns (address);
     function messageSigner() external view returns (address);
 }

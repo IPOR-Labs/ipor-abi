@@ -1,14 +1,18 @@
-interface SpreadStorageService {
+library SpreadStorageLibs {
     type StorageId is uint8;
+}
 
+library SpreadTypes {
     struct TimeWeightedNotionalMemory {
         uint256 timeWeightedNotionalPayFixed;
         uint256 lastUpdateTimePayFixed;
         uint256 timeWeightedNotionalReceiveFixed;
         uint256 lastUpdateTimeReceiveFixed;
-        StorageId storageId;
+        SpreadStorageLibs.StorageId storageId;
     }
+}
 
+interface SpreadStorageService {
     event SpreadTimeWeightedNotionalChanged(
         uint256 timeWeightedNotionalPayFixed,
         uint256 lastUpdateTimePayFixed,
@@ -17,6 +21,7 @@ interface SpreadStorageService {
         uint256 storageId
     );
 
-    function updateTimeWeightedNotional(TimeWeightedNotionalMemory[] memory timeWeightedNotionalMemories) external;
+    function updateTimeWeightedNotional(SpreadTypes.TimeWeightedNotionalMemory[] memory timeWeightedNotionalMemories)
+        external;
 }
 

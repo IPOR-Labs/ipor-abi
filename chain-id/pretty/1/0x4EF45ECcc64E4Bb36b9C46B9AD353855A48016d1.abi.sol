@@ -1,18 +1,5 @@
-interface AmmOpenSwapService {
+library AmmTypes {
     type SwapDirection is uint8;
-
-    struct AmmOpenSwapServicePoolConfiguration {
-        address asset;
-        uint256 decimals;
-        address ammStorage;
-        address ammTreasury;
-        uint256 iporPublicationFee;
-        uint256 maxSwapCollateralAmount;
-        uint256 liquidationDepositAmount;
-        uint256 minLeverage;
-        uint256 openingFeeRate;
-        uint256 openingFeeTreasuryPortionRate;
-    }
 
     struct IporSwapIndicator {
         uint256 iporIndexValue;
@@ -41,31 +28,39 @@ interface AmmOpenSwapService {
         uint256 expiration;
         bytes signature;
     }
+}
 
+library IAmmOpenSwapLens {
+    struct AmmOpenSwapServicePoolConfiguration {
+        address asset;
+        uint256 decimals;
+        address ammStorage;
+        address ammTreasury;
+        uint256 iporPublicationFee;
+        uint256 maxSwapCollateralAmount;
+        uint256 liquidationDepositAmount;
+        uint256 minLeverage;
+        uint256 openingFeeRate;
+        uint256 openingFeeTreasuryPortionRate;
+    }
+}
+
+interface AmmOpenSwapService {
     event OpenSwap(
         uint256 indexed swapId,
         address indexed buyer,
         address asset,
-        SwapDirection direction,
-        OpenSwapAmount amounts,
+        AmmTypes.SwapDirection direction,
+        AmmTypes.OpenSwapAmount amounts,
         uint256 openTimestamp,
         uint256 endTimestamp,
-        IporSwapIndicator indicator
-    );
-
-    constructor(
-        AmmOpenSwapServicePoolConfiguration usdtPoolCfg,
-        AmmOpenSwapServicePoolConfiguration usdcPoolCfg,
-        AmmOpenSwapServicePoolConfiguration daiPoolCfg,
-        address iporOracleInput,
-        address messageSignerInput,
-        address spreadRouterInput
+        AmmTypes.IporSwapIndicator indicator
     );
 
     function getAmmOpenSwapServicePoolConfiguration(address asset)
         external
         view
-        returns (AmmOpenSwapServicePoolConfiguration memory);
+        returns (IAmmOpenSwapLens.AmmOpenSwapServicePoolConfiguration memory);
     function iporOracle() external view returns (address);
     function messageSigner() external view returns (address);
     function openSwapPayFixed28daysDai(
@@ -73,126 +68,126 @@ interface AmmOpenSwapService {
         uint256 totalAmount,
         uint256 acceptableFixedInterestRate,
         uint256 leverage,
-        RiskIndicatorsInputs memory riskIndicatorsInputs
+        AmmTypes.RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
     function openSwapPayFixed28daysUsdc(
         address beneficiary,
         uint256 totalAmount,
         uint256 acceptableFixedInterestRate,
         uint256 leverage,
-        RiskIndicatorsInputs memory riskIndicatorsInputs
+        AmmTypes.RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
     function openSwapPayFixed28daysUsdt(
         address beneficiary,
         uint256 totalAmount,
         uint256 acceptableFixedInterestRate,
         uint256 leverage,
-        RiskIndicatorsInputs memory riskIndicatorsInputs
+        AmmTypes.RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
     function openSwapPayFixed60daysDai(
         address beneficiary,
         uint256 totalAmount,
         uint256 acceptableFixedInterestRate,
         uint256 leverage,
-        RiskIndicatorsInputs memory riskIndicatorsInputs
+        AmmTypes.RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
     function openSwapPayFixed60daysUsdc(
         address beneficiary,
         uint256 totalAmount,
         uint256 acceptableFixedInterestRate,
         uint256 leverage,
-        RiskIndicatorsInputs memory riskIndicatorsInputs
+        AmmTypes.RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
     function openSwapPayFixed60daysUsdt(
         address beneficiary,
         uint256 totalAmount,
         uint256 acceptableFixedInterestRate,
         uint256 leverage,
-        RiskIndicatorsInputs memory riskIndicatorsInputs
+        AmmTypes.RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
     function openSwapPayFixed90daysDai(
         address beneficiary,
         uint256 totalAmount,
         uint256 acceptableFixedInterestRate,
         uint256 leverage,
-        RiskIndicatorsInputs memory riskIndicatorsInputs
+        AmmTypes.RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
     function openSwapPayFixed90daysUsdc(
         address beneficiary,
         uint256 totalAmount,
         uint256 acceptableFixedInterestRate,
         uint256 leverage,
-        RiskIndicatorsInputs memory riskIndicatorsInputs
+        AmmTypes.RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
     function openSwapPayFixed90daysUsdt(
         address beneficiary,
         uint256 totalAmount,
         uint256 acceptableFixedInterestRate,
         uint256 leverage,
-        RiskIndicatorsInputs memory riskIndicatorsInputs
+        AmmTypes.RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
     function openSwapReceiveFixed28daysDai(
         address beneficiary,
         uint256 totalAmount,
         uint256 acceptableFixedInterestRate,
         uint256 leverage,
-        RiskIndicatorsInputs memory riskIndicatorsInputs
+        AmmTypes.RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
     function openSwapReceiveFixed28daysUsdc(
         address beneficiary,
         uint256 totalAmount,
         uint256 acceptableFixedInterestRate,
         uint256 leverage,
-        RiskIndicatorsInputs memory riskIndicatorsInputs
+        AmmTypes.RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
     function openSwapReceiveFixed28daysUsdt(
         address beneficiary,
         uint256 totalAmount,
         uint256 acceptableFixedInterestRate,
         uint256 leverage,
-        RiskIndicatorsInputs memory riskIndicatorsInputs
+        AmmTypes.RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
     function openSwapReceiveFixed60daysDai(
         address beneficiary,
         uint256 totalAmount,
         uint256 acceptableFixedInterestRate,
         uint256 leverage,
-        RiskIndicatorsInputs memory riskIndicatorsInputs
+        AmmTypes.RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
     function openSwapReceiveFixed60daysUsdc(
         address beneficiary,
         uint256 totalAmount,
         uint256 acceptableFixedInterestRate,
         uint256 leverage,
-        RiskIndicatorsInputs memory riskIndicatorsInputs
+        AmmTypes.RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
     function openSwapReceiveFixed60daysUsdt(
         address beneficiary,
         uint256 totalAmount,
         uint256 acceptableFixedInterestRate,
         uint256 leverage,
-        RiskIndicatorsInputs memory riskIndicatorsInputs
+        AmmTypes.RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
     function openSwapReceiveFixed90daysDai(
         address beneficiary,
         uint256 totalAmount,
         uint256 acceptableFixedInterestRate,
         uint256 leverage,
-        RiskIndicatorsInputs memory riskIndicatorsInputs
+        AmmTypes.RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
     function openSwapReceiveFixed90daysUsdc(
         address beneficiary,
         uint256 totalAmount,
         uint256 acceptableFixedInterestRate,
         uint256 leverage,
-        RiskIndicatorsInputs memory riskIndicatorsInputs
+        AmmTypes.RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
     function openSwapReceiveFixed90daysUsdt(
         address beneficiary,
         uint256 totalAmount,
         uint256 acceptableFixedInterestRate,
         uint256 leverage,
-        RiskIndicatorsInputs memory riskIndicatorsInputs
+        AmmTypes.RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
     function spreadRouter() external view returns (address);
 }

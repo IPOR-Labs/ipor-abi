@@ -1,4 +1,4 @@
-interface Spread60Days {
+library IporTypes {
     struct SpreadInputs {
         address asset;
         uint256 swapNotional;
@@ -10,20 +10,20 @@ interface Spread60Days {
         uint256 iporIndexValue;
         uint256 fixedRateCapPerLeg;
     }
+}
 
-    constructor(address dai, address usdc, address usdt);
-
-    function calculateAndUpdateOfferedRatePayFixed60Days(SpreadInputs memory spreadInputs)
+interface Spread60Days {
+    function calculateAndUpdateOfferedRatePayFixed60Days(IporTypes.SpreadInputs memory spreadInputs)
         external
         returns (uint256 offeredRate);
-    function calculateAndUpdateOfferedRateReceiveFixed60Days(SpreadInputs memory spreadInputs)
+    function calculateAndUpdateOfferedRateReceiveFixed60Days(IporTypes.SpreadInputs memory spreadInputs)
         external
         returns (uint256 offeredRate);
-    function calculateOfferedRatePayFixed60Days(SpreadInputs memory spreadInputs)
+    function calculateOfferedRatePayFixed60Days(IporTypes.SpreadInputs memory spreadInputs)
         external
         view
         returns (uint256 offeredRate);
-    function calculateOfferedRateReceiveFixed60Days(SpreadInputs memory spreadInputs)
+    function calculateOfferedRateReceiveFixed60Days(IporTypes.SpreadInputs memory spreadInputs)
         external
         view
         returns (uint256 offeredRate);

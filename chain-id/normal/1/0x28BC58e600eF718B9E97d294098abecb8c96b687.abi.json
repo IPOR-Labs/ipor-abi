@@ -458,5 +458,21 @@
       }
     ],
     "anonymous": false
+  },
+  {
+    "type": "error",
+    "name": "AssetMismatch",
+    "inputs": [
+      {
+        "name": "assetOne",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "assetTwo",
+        "type": "address",
+        "internalType": "address"
+      }
+    ]
   }
 ]

@@ -12,11 +12,10 @@ interface AmmTreasuryBaseV1 {
     event Unpaused(address account);
     event Upgraded(address indexed implementation);
 
-    constructor(address assetInput, address routerInput, address ammStorageInput);
-
     function addPauseGuardians(address[] memory guardians) external;
     function ammStorage() external view returns (address);
     function asset() external view returns (address);
+    function assetDecimals() external view returns (uint256);
     function confirmTransferOwnership() external;
     function getImplementation() external view returns (address);
     function getLiquidityPoolBalance() external view returns (uint256);

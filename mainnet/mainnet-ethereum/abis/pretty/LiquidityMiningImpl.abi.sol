@@ -1,4 +1,4 @@
-interface LiquidityMiningEthereum {
+library LiquidityMiningTypes {
     struct AccountIndicatorsResult {
         address lpToken;
         AccountRewardsIndicators indicators;
@@ -41,6 +41,12 @@ interface LiquidityMiningEthereum {
         uint88 accruedRewards;
     }
 
+    struct PoolPowerUpModifier {
+        uint64 logBase;
+        uint64 pwTokenModifier;
+        uint64 vectorOfCurve;
+    }
+
     struct UpdateLpToken {
         address beneficiary;
         address lpToken;
@@ -52,7 +58,9 @@ interface LiquidityMiningEthereum {
         address lpToken;
         uint256 pwTokenAmount;
     }
+}
 
+interface LiquidityMiningEthereum {
     event AdminChanged(address previousAdmin, address newAdmin);
     event AllowanceGranted(address indexed erc20Token, address indexed router);
     event AllowanceRevoked(address indexed erc20Token, address indexed router);
@@ -71,6 +79,7 @@ interface LiquidityMiningEthereum {
     event PauseGuardiansRemoved(address[] indexed guardians);
     event PauseManagerChanged(address indexed newPauseManager);
     event Paused(address account);
+    event PoolPowerUpModifiersUpdated(address lpToken, uint64 logBase, uint64 pwTokenModifier, uint64 vectorOfCurve);
     event PwTokenDelegated(address account, address lpToken, uint256 pwTokenAmount);
     event PwTokenUndelegated(address account, address lpToken, uint256 pwTokenAmount);
     event PwTokensAdded(address beneficiary, address lpToken, uint256 pwTokenAmount);
@@ -79,30 +88,22 @@ interface LiquidityMiningEthereum {
     event Unpaused(address account);
     event Upgraded(address indexed implementation);
 
-    constructor(
-        address routerAddress,
-        address lpStEthInput,
-        address ethUsdOracleInput,
-        address lpWeEthInput,
-        address weEthInput
-    );
-
-    function addLpTokensInternal(UpdateLpToken[] memory updateLpToken) external;
+    function addLpTokensInternal(LiquidityMiningTypes.UpdateLpToken[] memory updateLpToken) external;
     function addPauseGuardians(address[] memory guardians) external;
-    function addPwTokensInternal(UpdatePwToken[] memory updatePwTokens) external;
+    function addPwTokensInternal(LiquidityMiningTypes.UpdatePwToken[] memory updatePwTokens) external;
     function balanceOf(address account, address lpToken) external view returns (uint256);
     function balanceOfDelegatedPwToken(address account, address[] memory lpTokens)
         external
         view
-        returns (DelegatedPwTokenBalance[] memory balances);
+        returns (LiquidityMiningTypes.DelegatedPwTokenBalance[] memory balances);
     function calculateAccountRewards(address account, address[] memory lpTokens)
         external
         view
-        returns (AccountRewardResult[] memory);
+        returns (LiquidityMiningTypes.AccountRewardResult[] memory);
     function calculateAccruedRewards(address[] memory lpTokens)
         external
         view
-        returns (AccruedRewardsResult[] memory result);
+        returns (LiquidityMiningTypes.AccruedRewardsResult[] memory result);
     function claimInternal(address account, address[] memory lpTokens)
         external
         returns (uint256 rewardsAmountToTransfer);
@@ -110,10 +111,17 @@ interface LiquidityMiningEthereum {
     function getAccountIndicators(address account, address[] memory lpTokens)
         external
         view
-        returns (AccountIndicatorsResult[] memory);
+        returns (LiquidityMiningTypes.AccountIndicatorsResult[] memory);
     function getConfiguration() external view returns (address, address, address, address);
-    function getGlobalIndicators(address[] memory lpTokens) external view returns (GlobalIndicatorsResult[] memory);
+    function getGlobalIndicators(address[] memory lpTokens)
+        external
+        view
+        returns (LiquidityMiningTypes.GlobalIndicatorsResult[] memory);
     function getImplementation() external view returns (address);
+    function getPoolPowerUpModifiers(address lpToken)
+        external
+        view
+        returns (uint256 pwTokenModifier, uint256 logBase, uint256 vectorOfCurve);
     function getVersion() external pure returns (uint256);
     function grantAllowanceForRouter(address erc20Token) external;
     function initialize(address[] memory lpTokens) external;
@@ -125,12 +133,16 @@ interface LiquidityMiningEthereum {
     function paused() external view returns (bool);
     function phasingOutLpToken(address lpToken) external;
     function proxiableUUID() external view returns (bytes32);
-    function removeLpTokensInternal(UpdateLpToken[] memory updateLpToken) external;
+    function removeLpTokensInternal(LiquidityMiningTypes.UpdateLpToken[] memory updateLpToken) external;
     function removePauseGuardians(address[] memory guardians) external;
-    function removePwTokensInternal(UpdatePwToken[] memory updatePwTokens) external;
+    function removePwTokensInternal(LiquidityMiningTypes.UpdatePwToken[] memory updatePwTokens) external;
     function renounceOwnership() external;
     function revokeAllowanceForRouter(address erc20Token) external;
     function routerAddress() external view returns (address);
+    function setPoolPowerUpModifiers(
+        address[] memory lpTokens,
+        LiquidityMiningTypes.PoolPowerUpModifier[] memory modifiers
+    ) external;
     function setRewardsPerBlock(address[] memory lpTokens, uint32[] memory pwTokenAmounts) external;
     function transferOwnership(address appointedOwner) external;
     function unpause() external;

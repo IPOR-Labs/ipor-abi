@@ -1,4 +1,4 @@
-interface LiquidityMiningLens {
+library LiquidityMiningTypes {
     struct AccountIndicatorsResult {
         address lpToken;
         AccountRewardsIndicators indicators;
@@ -40,9 +40,9 @@ interface LiquidityMiningLens {
         uint32 rewardsPerBlock;
         uint88 accruedRewards;
     }
+}
 
-    constructor(address liquidityMiningInput);
-
+interface LiquidityMiningLens {
     function balanceOfLpTokensStakedInLiquidityMining(address account, address lpToken)
         external
         view
@@ -50,23 +50,23 @@ interface LiquidityMiningLens {
     function balanceOfPowerTokensDelegatedToLiquidityMining(address account, address[] memory lpTokens)
         external
         view
-        returns (DelegatedPwTokenBalance[] memory balances);
+        returns (LiquidityMiningTypes.DelegatedPwTokenBalance[] memory balances);
     function getAccountIndicatorsFromLiquidityMining(address account, address[] memory lpTokens)
         external
         view
-        returns (AccountIndicatorsResult[] memory);
+        returns (LiquidityMiningTypes.AccountIndicatorsResult[] memory);
     function getAccountRewardsInLiquidityMining(address account, address[] memory lpTokens)
         external
         view
-        returns (AccountRewardResult[] memory);
+        returns (LiquidityMiningTypes.AccountRewardResult[] memory);
     function getAccruedRewardsInLiquidityMining(address[] memory lpTokens)
         external
         view
-        returns (AccruedRewardsResult[] memory result);
+        returns (LiquidityMiningTypes.AccruedRewardsResult[] memory result);
     function getGlobalIndicatorsFromLiquidityMining(address[] memory lpTokens)
         external
         view
-        returns (GlobalIndicatorsResult[] memory);
+        returns (LiquidityMiningTypes.GlobalIndicatorsResult[] memory);
     function liquidityMining() external view returns (address);
 }
 

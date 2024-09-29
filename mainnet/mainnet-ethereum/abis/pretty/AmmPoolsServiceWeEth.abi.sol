@@ -38,8 +38,6 @@ interface AmmPoolsServiceWeEth {
         uint256 ipTokenAmount
     );
 
-    constructor(DeployedContracts deployedContracts);
-
     function ammStorageWeEth() external view returns (address);
     function ammTreasuryWeEth() external view returns (address);
     function eEth() external view returns (address);
