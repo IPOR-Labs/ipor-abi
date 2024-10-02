@@ -40,6 +40,22 @@
         "AmmTreasury": "0xcC2fF2D38666723ea56c122097F6215B90d74196"
       }
     ],
-    "vaults": []
+    "vaults": [
+      {
+        "token": "USDT",
+        "asset": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "PlasmaVault": "0xAbAb980f0eCB232D52f422C6B68D25C3d0c18E3e"
+      },
+      {
+        "token": "USDC",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0x43Ee0243eA8CF02f7087d8B16C8D2007CC9c7cA2"
+      },
+      {
+        "token": "DAI",
+        "asset": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "PlasmaVault": "0x20e934c725b6703f0aC696F1689008057dB9Ac44"
+      }
+    ]
   }
 }
