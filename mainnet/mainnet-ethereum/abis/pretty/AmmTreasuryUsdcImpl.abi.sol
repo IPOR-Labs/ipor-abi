@@ -1,4 +1,6 @@
 interface AmmTreasury {
+    error AssetMismatch(address assetOne, address assetTwo);
+
     event AdminChanged(address previousAdmin, address newAdmin);
     event AppointedToTransferOwnership(address indexed appointedOwner);
     event BeaconUpgraded(address indexed beacon);
@@ -9,8 +11,6 @@ interface AmmTreasury {
     event Paused(address account);
     event Unpaused(address account);
     event Upgraded(address indexed implementation);
-
-    constructor(address asset, uint256 decimals, address ammStorage, address assetManagement, address router);
 
     function addPauseGuardians(address[] memory guardians) external;
     function confirmTransferOwnership() external;

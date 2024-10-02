@@ -1,4 +1,4 @@
-interface PowerToken {
+library PowerTokenTypes {
     struct PwTokenCooldown {
         uint256 endTimestamp;
         uint256 pwTokenAmount;
@@ -8,7 +8,9 @@ interface PowerToken {
         address beneficiary;
         uint256 governanceTokenAmount;
     }
+}
 
+interface PowerToken {
     event AdminChanged(address previousAdmin, address newAdmin);
     event AllowanceGranted(address indexed erc20Token, address indexed router);
     event AllowanceRevoked(address indexed erc20Token, address indexed router);
@@ -33,10 +35,8 @@ interface PowerToken {
     event UnstakeWithoutCooldownFeeChanged(uint256 newFee);
     event Upgraded(address indexed implementation);
 
-    constructor(address routerAddress, address governanceTokenAddress, uint256 coolDownInSeconds);
-
     function COOL_DOWN_IN_SECONDS() external view returns (uint256);
-    function addGovernanceTokenInternal(UpdateGovernanceToken memory updateGovernanceToken) external;
+    function addGovernanceTokenInternal(PowerTokenTypes.UpdateGovernanceToken memory updateGovernanceToken) external;
     function addPauseGuardians(address[] memory guardians) external;
     function balanceOf(address account) external view returns (uint256);
     function calculateExchangeRate() external view returns (uint256);
@@ -46,7 +46,7 @@ interface PowerToken {
     function decimals() external pure returns (uint8);
     function delegateInternal(address account, uint256 pwTokenAmount) external;
     function delegatedToLiquidityMiningBalanceOf(address account) external view returns (uint256);
-    function getActiveCooldown(address account) external view returns (PwTokenCooldown memory);
+    function getActiveCooldown(address account) external view returns (PowerTokenTypes.PwTokenCooldown memory);
     function getContractId() external pure returns (bytes32);
     function getGovernanceToken() external view returns (address);
     function getImplementation() external view returns (address);
@@ -61,7 +61,7 @@ interface PowerToken {
     function paused() external view returns (bool);
     function proxiableUUID() external view returns (bytes32);
     function redeemInternal(address account) external returns (uint256 transferAmount);
-    function removeGovernanceTokenWithFeeInternal(UpdateGovernanceToken memory updateGovernanceToken)
+    function removeGovernanceTokenWithFeeInternal(PowerTokenTypes.UpdateGovernanceToken memory updateGovernanceToken)
         external
         returns (uint256 governanceTokenAmountToTransfer);
     function removePauseGuardians(address[] memory guardians) external;

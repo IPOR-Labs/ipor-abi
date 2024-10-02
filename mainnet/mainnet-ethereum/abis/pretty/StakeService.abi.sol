@@ -1,6 +1,4 @@
 interface StakeService {
-    constructor(address liquidityMiningInput, address powerTokenInput, address governanceTokenInput);
-
     function getConfiguration()
         external
         view

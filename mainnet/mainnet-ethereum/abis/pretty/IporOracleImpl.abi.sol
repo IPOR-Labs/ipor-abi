@@ -1,16 +1,20 @@
-interface IporOracle {
-    struct AccruedIpor {
-        uint256 indexValue;
-        uint256 ibtPrice;
-    }
-
+library IIporOracle {
     struct UpdateIndexParams {
         address asset;
         uint256 indexValue;
         uint256 updateTimestamp;
         uint256 quasiIbtPrice;
     }
+}
 
+library IporTypes {
+    struct AccruedIpor {
+        uint256 indexValue;
+        uint256 ibtPrice;
+    }
+}
+
+interface IporOracle {
     error UpdateIndex(address asset, string errorCode, string methodName);
     error WrongAddress(string errorCode, address wrongAddress, string message);
 
@@ -30,15 +34,6 @@ interface IporOracle {
     event Unpaused(address account);
     event Upgraded(address indexed implementation);
 
-    constructor(
-        address usdt,
-        uint256 usdtInitialIbtPrice,
-        address usdc,
-        uint256 usdcInitialIbtPrice,
-        address dai,
-        uint256 daiInitialIbtPrice
-    );
-
     function addAsset(address asset, uint256 updateTimestamp) external;
     function addPauseGuardians(address[] memory guardians) external;
     function addUpdater(address updater) external;
@@ -47,7 +42,7 @@ interface IporOracle {
     function getAccruedIndex(uint256 calculateTimestamp, address asset)
         external
         view
-        returns (AccruedIpor memory accruedIpor);
+        returns (IporTypes.AccruedIpor memory accruedIpor);
     function getConfiguration()
         external
         view
@@ -79,8 +74,8 @@ interface IporOracle {
     function renounceOwnership() external;
     function transferOwnership(address appointedOwner) external;
     function unpause() external;
-    function updateIndexes(UpdateIndexParams[] memory indexesToUpdate) external;
-    function updateIndexesAndQuasiIbtPrice(UpdateIndexParams[] memory indexesToUpdate) external;
+    function updateIndexes(IIporOracle.UpdateIndexParams[] memory indexesToUpdate) external;
+    function updateIndexesAndQuasiIbtPrice(IIporOracle.UpdateIndexParams[] memory indexesToUpdate) external;
     function upgradeTo(address newImplementation) external;
     function upgradeToAndCall(address newImplementation, bytes memory data) external payable;
 }

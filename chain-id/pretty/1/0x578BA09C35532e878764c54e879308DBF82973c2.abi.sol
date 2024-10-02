@@ -1,4 +1,27 @@
-interface AmmCloseSwapServiceStEth {
+library AmmTypes {
+    struct CloseSwapRiskIndicatorsInput {
+        RiskIndicatorsInputs payFixed;
+        RiskIndicatorsInputs receiveFixed;
+    }
+
+    struct IporSwapClosingResult {
+        uint256 swapId;
+        bool closed;
+    }
+
+    struct RiskIndicatorsInputs {
+        uint256 maxCollateralRatio;
+        uint256 maxCollateralRatioPerLeg;
+        uint256 maxLeveragePerLeg;
+        int256 baseSpreadPerLeg;
+        uint256 fixedRateCapPerLeg;
+        uint256 demandSpreadFactor;
+        uint256 expiration;
+        bytes signature;
+    }
+}
+
+library IAmmCloseSwapLens {
     struct AmmCloseSwapServicePoolConfiguration {
         address asset;
         uint256 decimals;
@@ -20,28 +43,9 @@ interface AmmCloseSwapServiceStEth {
         uint256 timeAfterOpenAllowedToCloseSwapWithUnwindingTenor60days;
         uint256 timeAfterOpenAllowedToCloseSwapWithUnwindingTenor90days;
     }
+}
 
-    struct CloseSwapRiskIndicatorsInput {
-        RiskIndicatorsInputs payFixed;
-        RiskIndicatorsInputs receiveFixed;
-    }
-
-    struct IporSwapClosingResult {
-        uint256 swapId;
-        bool closed;
-    }
-
-    struct RiskIndicatorsInputs {
-        uint256 maxCollateralRatio;
-        uint256 maxCollateralRatioPerLeg;
-        uint256 maxLeveragePerLeg;
-        int256 baseSpreadPerLeg;
-        uint256 fixedRateCapPerLeg;
-        uint256 demandSpreadFactor;
-        uint256 expiration;
-        bytes signature;
-    }
-
+interface AmmCloseSwapServiceStEth {
     event CloseSwap(
         uint256 indexed swapId,
         address asset,
@@ -59,8 +63,7 @@ interface AmmCloseSwapServiceStEth {
         uint256 unwindFeeTreasuryAmount
     );
 
-    constructor(AmmCloseSwapServicePoolConfiguration poolCfg, address iporOracleInput, address messageSignerInput);
-
+    function ammAssetManagement() external view returns (address);
     function ammStorage() external view returns (address);
     function ammTreasury() external view returns (address);
     function asset() external view returns (address);
@@ -68,25 +71,28 @@ interface AmmCloseSwapServiceStEth {
         address beneficiary,
         uint256[] memory payFixedSwapIds,
         uint256[] memory receiveFixedSwapIds,
-        CloseSwapRiskIndicatorsInput memory riskIndicatorsInput
+        AmmTypes.CloseSwapRiskIndicatorsInput memory riskIndicatorsInput
     )
         external
         returns (
-            IporSwapClosingResult[] memory closedPayFixedSwaps,
-            IporSwapClosingResult[] memory closedReceiveFixedSwaps
+            AmmTypes.IporSwapClosingResult[] memory closedPayFixedSwaps,
+            AmmTypes.IporSwapClosingResult[] memory closedReceiveFixedSwaps
         );
     function decimals() external view returns (uint256);
     function emergencyCloseSwapsStEth(
         uint256[] memory payFixedSwapIds,
         uint256[] memory receiveFixedSwapIds,
-        CloseSwapRiskIndicatorsInput memory riskIndicatorsInput
+        AmmTypes.CloseSwapRiskIndicatorsInput memory riskIndicatorsInput
     )
         external
         returns (
-            IporSwapClosingResult[] memory closedPayFixedSwaps,
-            IporSwapClosingResult[] memory closedReceiveFixedSwaps
+            AmmTypes.IporSwapClosingResult[] memory closedPayFixedSwaps,
+            AmmTypes.IporSwapClosingResult[] memory closedReceiveFixedSwaps
         );
-    function getPoolConfiguration() external view returns (AmmCloseSwapServicePoolConfiguration memory);
+    function getPoolConfiguration()
+        external
+        view
+        returns (IAmmCloseSwapLens.AmmCloseSwapServicePoolConfiguration memory);
     function iporOracle() external view returns (address);
     function liquidationLegLimit() external view returns (uint256);
     function messageSigner() external view returns (address);
@@ -103,6 +109,6 @@ interface AmmCloseSwapServiceStEth {
     function timeBeforeMaturityAllowedToCloseSwapByCommunity() external view returns (uint256);
     function unwindingFeeRate() external view returns (uint256);
     function unwindingFeeTreasuryPortionRate() external view returns (uint256);
-    function version() external view returns (uint256);
+    function version() external pure returns (uint256);
 }
 

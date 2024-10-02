@@ -1,111 +1,6 @@
-interface IIporProtocol {
+library AmmTypes {
     type SwapClosableStatus is uint8;
     type SwapDirection is uint8;
-    type SwapTenor is uint8;
-
-    struct AccountIndicatorsResult {
-        address lpToken;
-        AccountRewardsIndicators indicators;
-    }
-
-    struct AccountRewardResult {
-        address lpToken;
-        uint256 rewardsAmount;
-        uint256 allocatedPwTokens;
-    }
-
-    struct AccountRewardsIndicators {
-        uint128 compositeMultiplierCumulativePrevBlock;
-        uint128 lpTokenBalance;
-        uint72 powerUp;
-        uint96 delegatedPwTokenBalance;
-    }
-
-    struct AccruedRewardsResult {
-        address lpToken;
-        uint256 rewardsAmount;
-    }
-
-    struct AmmBalancesForOpenSwapMemory {
-        uint256 totalCollateralPayFixed;
-        uint256 totalNotionalPayFixed;
-        uint256 totalCollateralReceiveFixed;
-        uint256 totalNotionalReceiveFixed;
-        uint256 liquidityPool;
-    }
-
-    struct AmmBalancesMemory {
-        uint256 totalCollateralPayFixed;
-        uint256 totalCollateralReceiveFixed;
-        uint256 liquidityPool;
-        uint256 vault;
-    }
-
-    struct AmmCloseSwapServicePoolConfiguration {
-        address asset;
-        uint256 decimals;
-        address ammStorage;
-        address ammTreasury;
-        address assetManagement;
-        address spread;
-        uint256 unwindingFeeRate;
-        uint256 unwindingFeeTreasuryPortionRate;
-        uint256 maxLengthOfLiquidatedSwapsPerLeg;
-        uint256 timeBeforeMaturityAllowedToCloseSwapByCommunity;
-        uint256 timeBeforeMaturityAllowedToCloseSwapByBuyerTenor28days;
-        uint256 timeBeforeMaturityAllowedToCloseSwapByBuyerTenor60days;
-        uint256 timeBeforeMaturityAllowedToCloseSwapByBuyerTenor90days;
-        uint256 minLiquidationThresholdToCloseBeforeMaturityByCommunity;
-        uint256 minLiquidationThresholdToCloseBeforeMaturityByBuyer;
-        uint256 minLeverage;
-        uint256 timeAfterOpenAllowedToCloseSwapWithUnwindingTenor28days;
-        uint256 timeAfterOpenAllowedToCloseSwapWithUnwindingTenor60days;
-        uint256 timeAfterOpenAllowedToCloseSwapWithUnwindingTenor90days;
-    }
-
-    struct AmmGovernancePoolConfiguration {
-        address asset;
-        uint256 decimals;
-        address ammStorage;
-        address ammTreasury;
-        address ammPoolsTreasury;
-        address ammPoolsTreasuryManager;
-        address ammCharlieTreasury;
-        address ammCharlieTreasuryManager;
-    }
-
-    struct AmmPoolsLensPoolConfiguration {
-        address asset;
-        uint256 decimals;
-        address ipToken;
-        address ammStorage;
-        address ammTreasury;
-        address assetManagement;
-    }
-
-    struct AmmPoolsParamsConfiguration {
-        uint256 maxLiquidityPoolBalance;
-        uint256 autoRebalanceThresholdInThousands;
-        uint256 ammTreasuryAndAssetManagementRatio;
-    }
-
-    struct AmmPoolsServicePoolConfiguration {
-        address asset;
-        uint256 decimals;
-        address ipToken;
-        address ammStorage;
-        address ammTreasury;
-        address assetManagement;
-        uint256 redeemFeeRate;
-        uint256 redeemLpMaxCollateralRatio;
-    }
-
-    struct AssetManagementConfiguration {
-        address asset;
-        uint256 decimals;
-        address assetManagement;
-        address ammTreasury;
-    }
 
     struct CloseSwapRiskIndicatorsInput {
         RiskIndicatorsInputs payFixed;
@@ -120,42 +15,6 @@ interface IIporProtocol {
         uint256 swapUnwindFeeLPAmount;
         uint256 swapUnwindFeeTreasuryAmount;
         int256 pnlValue;
-    }
-
-    struct DelegatedPwTokenBalance {
-        address lpToken;
-        uint256 pwTokenAmount;
-    }
-
-    struct GlobalIndicatorsResult {
-        address lpToken;
-        GlobalRewardsIndicators indicators;
-    }
-
-    struct GlobalRewardsIndicators {
-        uint256 aggregatedPowerUp;
-        uint128 compositeMultiplierInTheBlock;
-        uint128 compositeMultiplierCumulativePrevBlock;
-        uint32 blockNumber;
-        uint32 rewardsPerBlock;
-        uint88 accruedRewards;
-    }
-
-    struct IporSwap {
-        uint256 id;
-        address asset;
-        address buyer;
-        uint256 collateral;
-        uint256 notional;
-        uint256 leverage;
-        uint256 direction;
-        uint256 ibtQuantity;
-        uint256 fixedInterestRate;
-        int256 pnlValue;
-        uint256 openTimestamp;
-        uint256 endTimestamp;
-        uint256 liquidationDepositAmount;
-        uint256 state;
     }
 
     struct IporSwapClosingResult {
@@ -180,11 +39,6 @@ interface IIporProtocol {
         uint256 liquidationDepositAmount;
     }
 
-    struct PwTokenCooldown {
-        uint256 endTimestamp;
-        uint256 pwTokenAmount;
-    }
-
     struct RiskIndicatorsInputs {
         uint256 maxCollateralRatio;
         uint256 maxCollateralRatioPerLeg;
@@ -195,6 +49,106 @@ interface IIporProtocol {
         uint256 expiration;
         bytes signature;
     }
+}
+
+library AmmTypesBaseV1 {
+    struct OpenSwapAmount {
+        uint256 inputAssetTotalAmount;
+        uint256 assetTotalAmount;
+        uint256 collateral;
+        uint256 notional;
+        uint256 openingFeeLPAmount;
+        uint256 openingFeeTreasuryAmount;
+        uint256 iporPublicationFee;
+        uint256 liquidationDepositAmount;
+    }
+}
+
+library IAmmCloseSwapLens {
+    struct AmmCloseSwapServicePoolConfiguration {
+        address asset;
+        uint256 decimals;
+        address ammStorage;
+        address ammTreasury;
+        address assetManagement;
+        address spread;
+        uint256 unwindingFeeRate;
+        uint256 unwindingFeeTreasuryPortionRate;
+        uint256 maxLengthOfLiquidatedSwapsPerLeg;
+        uint256 timeBeforeMaturityAllowedToCloseSwapByCommunity;
+        uint256 timeBeforeMaturityAllowedToCloseSwapByBuyerTenor28days;
+        uint256 timeBeforeMaturityAllowedToCloseSwapByBuyerTenor60days;
+        uint256 timeBeforeMaturityAllowedToCloseSwapByBuyerTenor90days;
+        uint256 minLiquidationThresholdToCloseBeforeMaturityByCommunity;
+        uint256 minLiquidationThresholdToCloseBeforeMaturityByBuyer;
+        uint256 minLeverage;
+        uint256 timeAfterOpenAllowedToCloseSwapWithUnwindingTenor28days;
+        uint256 timeAfterOpenAllowedToCloseSwapWithUnwindingTenor60days;
+        uint256 timeAfterOpenAllowedToCloseSwapWithUnwindingTenor90days;
+    }
+}
+
+library IAmmGovernanceLens {
+    struct AmmGovernancePoolConfiguration {
+        address asset;
+        uint256 decimals;
+        address ammStorage;
+        address ammTreasury;
+        address ammVault;
+        address ammPoolsTreasury;
+        address ammPoolsTreasuryManager;
+        address ammCharlieTreasury;
+        address ammCharlieTreasuryManager;
+    }
+
+    struct AmmPoolsParamsConfiguration {
+        uint256 maxLiquidityPoolBalance;
+        uint256 autoRebalanceThreshold;
+        uint256 ammTreasuryAndAssetManagementRatio;
+    }
+}
+
+library IAmmPoolsLens {
+    struct AmmPoolsLensPoolConfiguration {
+        address asset;
+        uint256 decimals;
+        address ipToken;
+        address ammStorage;
+        address ammTreasury;
+        address assetManagement;
+    }
+}
+
+library IAmmPoolsService {
+    struct AmmPoolsServicePoolConfiguration {
+        address asset;
+        uint256 decimals;
+        address ipToken;
+        address ammStorage;
+        address ammTreasury;
+        address assetManagement;
+        uint256 redeemFeeRate;
+        uint256 redeemLpMaxCollateralRatio;
+    }
+}
+
+library IAmmSwapsLens {
+    struct IporSwap {
+        uint256 id;
+        address asset;
+        address buyer;
+        uint256 collateral;
+        uint256 notional;
+        uint256 leverage;
+        uint256 direction;
+        uint256 ibtQuantity;
+        uint256 fixedInterestRate;
+        int256 pnlValue;
+        uint256 openTimestamp;
+        uint256 endTimestamp;
+        uint256 liquidationDepositAmount;
+        uint256 state;
+    }
 
     struct SwapLensPoolConfiguration {
         address asset;
@@ -202,7 +156,88 @@ interface IIporProtocol {
         address ammTreasury;
         address spread;
     }
+}
 
+library IAssetManagementLens {
+    struct AssetManagementConfiguration {
+        address asset;
+        uint256 decimals;
+        address assetManagement;
+        address ammTreasury;
+    }
+}
+
+library ILiquidityMiningLens {
+    struct AccountIndicatorsResult {
+        address lpToken;
+        AccountRewardsIndicators indicators;
+    }
+
+    struct AccountRewardResult {
+        address lpToken;
+        uint256 rewardsAmount;
+        uint256 allocatedPwTokens;
+    }
+
+    struct AccountRewardsIndicators {
+        uint128 compositeMultiplierCumulativePrevBlock;
+        uint128 lpTokenBalance;
+        uint72 powerUp;
+        uint96 delegatedPwTokenBalance;
+    }
+
+    struct AccruedRewardsResult {
+        address lpToken;
+        uint256 rewardsAmount;
+    }
+
+    struct DelegatedPwTokenBalance {
+        address lpToken;
+        uint256 pwTokenAmount;
+    }
+
+    struct GlobalIndicatorsResult {
+        address lpToken;
+        GlobalRewardsIndicators indicators;
+    }
+
+    struct GlobalRewardsIndicators {
+        uint256 aggregatedPowerUp;
+        uint128 compositeMultiplierInTheBlock;
+        uint128 compositeMultiplierCumulativePrevBlock;
+        uint32 blockNumber;
+        uint32 rewardsPerBlock;
+        uint88 accruedRewards;
+    }
+}
+
+library IPowerTokenLens {
+    struct PwTokenCooldown {
+        uint256 endTimestamp;
+        uint256 pwTokenAmount;
+    }
+}
+
+library IporTypes {
+    type SwapTenor is uint8;
+
+    struct AmmBalancesForOpenSwapMemory {
+        uint256 totalCollateralPayFixed;
+        uint256 totalNotionalPayFixed;
+        uint256 totalCollateralReceiveFixed;
+        uint256 totalNotionalReceiveFixed;
+        uint256 liquidityPool;
+    }
+
+    struct AmmBalancesMemory {
+        uint256 totalCollateralPayFixed;
+        uint256 totalCollateralReceiveFixed;
+        uint256 liquidityPool;
+        uint256 vault;
+    }
+}
+
+interface IIporProtocol {
     error ProvideLiquidityFailed(address poolAsset, string errorCode, string errorMessage);
     error StEthSubmitFailed(uint256 amount, string errorCode);
 
@@ -220,22 +255,22 @@ interface IIporProtocol {
         uint256 indexed swapId,
         address indexed buyer,
         address asset,
-        SwapDirection direction,
-        OpenSwapAmount amounts,
+        AmmTypes.SwapDirection direction,
+        AmmTypes.OpenSwapAmount amounts,
         uint256 openTimestamp,
         uint256 endTimestamp,
-        IporSwapIndicator indicator
+        AmmTypes.IporSwapIndicator indicator
     );
     event OpenSwap(
         uint256 indexed swapId,
         address indexed buyer,
         address inputAsset,
         address asset,
-        SwapDirection direction,
-        OpenSwapAmount amounts,
+        AmmTypes.SwapDirection direction,
+        AmmTypesBaseV1.OpenSwapAmount amounts,
         uint256 openTimestamp,
         uint256 endTimestamp,
-        IporSwapIndicator indicator
+        AmmTypes.IporSwapIndicator indicator
     );
     event ProvideLiquidity(
         address indexed from,
@@ -313,6 +348,7 @@ interface IIporProtocol {
     function addAppointedToRebalanceInAmm(address asset, address account) external;
     function addPauseGuardians(address[] memory guardians) external;
     function addSwapLiquidator(address asset, address account) external;
+    function appointToOwnership(address appointedOwner) external;
     function balanceOfAmmTreasuryInAssetManagement(address asset) external view returns (uint256);
     function balanceOfLpTokensStakedInLiquidityMining(address account, address lpToken)
         external
@@ -321,7 +357,7 @@ interface IIporProtocol {
     function balanceOfPowerTokensDelegatedToLiquidityMining(address account, address[] memory lpTokens)
         external
         view
-        returns (DelegatedPwTokenBalance[] memory balances);
+        returns (ILiquidityMiningLens.DelegatedPwTokenBalance[] memory balances);
     function balanceOfPwToken(address account) external view returns (uint256);
     function balanceOfPwTokenDelegatedToLiquidityMining(address account) external view returns (uint256);
     function claimRewardsFromLiquidityMining(address[] memory lpTokens) external;
@@ -329,132 +365,142 @@ interface IIporProtocol {
         address beneficiary,
         uint256[] memory payFixedSwapIds,
         uint256[] memory receiveFixedSwapIds,
-        CloseSwapRiskIndicatorsInput memory riskIndicatorsInput
+        AmmTypes.CloseSwapRiskIndicatorsInput memory riskIndicatorsInput
     )
         external
         returns (
-            IporSwapClosingResult[] memory closedPayFixedSwaps,
-            IporSwapClosingResult[] memory closedReceiveFixedSwaps
+            AmmTypes.IporSwapClosingResult[] memory closedPayFixedSwaps,
+            AmmTypes.IporSwapClosingResult[] memory closedReceiveFixedSwaps
         );
     function closeSwapsStEth(
         address beneficiary,
         uint256[] memory payFixedSwapIds,
         uint256[] memory receiveFixedSwapIds,
-        CloseSwapRiskIndicatorsInput memory riskIndicatorsInput
+        AmmTypes.CloseSwapRiskIndicatorsInput memory riskIndicatorsInput
     )
         external
         returns (
-            IporSwapClosingResult[] memory closedPayFixedSwaps,
-            IporSwapClosingResult[] memory closedReceiveFixedSwaps
+            AmmTypes.IporSwapClosingResult[] memory closedPayFixedSwaps,
+            AmmTypes.IporSwapClosingResult[] memory closedReceiveFixedSwaps
         );
     function closeSwapsUsdc(
         address beneficiary,
         uint256[] memory payFixedSwapIds,
         uint256[] memory receiveFixedSwapIds,
-        CloseSwapRiskIndicatorsInput memory riskIndicatorsInput
+        AmmTypes.CloseSwapRiskIndicatorsInput memory riskIndicatorsInput
     )
         external
         returns (
-            IporSwapClosingResult[] memory closedPayFixedSwaps,
-            IporSwapClosingResult[] memory closedReceiveFixedSwaps
+            AmmTypes.IporSwapClosingResult[] memory closedPayFixedSwaps,
+            AmmTypes.IporSwapClosingResult[] memory closedReceiveFixedSwaps
         );
     function closeSwapsUsdt(
         address beneficiary,
         uint256[] memory payFixedSwapIds,
         uint256[] memory receiveFixedSwapIds,
-        CloseSwapRiskIndicatorsInput memory riskIndicatorsInput
+        AmmTypes.CloseSwapRiskIndicatorsInput memory riskIndicatorsInput
     )
         external
         returns (
-            IporSwapClosingResult[] memory closedPayFixedSwaps,
-            IporSwapClosingResult[] memory closedReceiveFixedSwaps
+            AmmTypes.IporSwapClosingResult[] memory closedPayFixedSwaps,
+            AmmTypes.IporSwapClosingResult[] memory closedReceiveFixedSwaps
         );
+    function confirmAppointmentToOwnership() external;
     function delegatePwTokensToLiquidityMining(address[] memory lpTokens, uint256[] memory lpTokenAmounts) external;
     function depositToAssetManagement(address asset, uint256 assetAmount) external;
     function emergencyCloseSwapsDai(
         uint256[] memory payFixedSwapIds,
         uint256[] memory receiveFixedSwapIds,
-        CloseSwapRiskIndicatorsInput memory riskIndicatorsInput
+        AmmTypes.CloseSwapRiskIndicatorsInput memory riskIndicatorsInput
     )
         external
         returns (
-            IporSwapClosingResult[] memory closedPayFixedSwaps,
-            IporSwapClosingResult[] memory closedReceiveFixedSwaps
+            AmmTypes.IporSwapClosingResult[] memory closedPayFixedSwaps,
+            AmmTypes.IporSwapClosingResult[] memory closedReceiveFixedSwaps
         );
     function emergencyCloseSwapsStEth(
         uint256[] memory payFixedSwapIds,
         uint256[] memory receiveFixedSwapIds,
-        CloseSwapRiskIndicatorsInput memory riskIndicatorsInput
+        AmmTypes.CloseSwapRiskIndicatorsInput memory riskIndicatorsInput
     )
         external
         returns (
-            IporSwapClosingResult[] memory closedPayFixedSwaps,
-            IporSwapClosingResult[] memory closedReceiveFixedSwaps
+            AmmTypes.IporSwapClosingResult[] memory closedPayFixedSwaps,
+            AmmTypes.IporSwapClosingResult[] memory closedReceiveFixedSwaps
         );
     function emergencyCloseSwapsUsdc(
         uint256[] memory payFixedSwapIds,
         uint256[] memory receiveFixedSwapIds,
-        CloseSwapRiskIndicatorsInput memory riskIndicatorsInput
+        AmmTypes.CloseSwapRiskIndicatorsInput memory riskIndicatorsInput
     )
         external
         returns (
-            IporSwapClosingResult[] memory closedPayFixedSwaps,
-            IporSwapClosingResult[] memory closedReceiveFixedSwaps
+            AmmTypes.IporSwapClosingResult[] memory closedPayFixedSwaps,
+            AmmTypes.IporSwapClosingResult[] memory closedReceiveFixedSwaps
         );
     function emergencyCloseSwapsUsdt(
         uint256[] memory payFixedSwapIds,
         uint256[] memory receiveFixedSwapIds,
-        CloseSwapRiskIndicatorsInput memory riskIndicatorsInput
+        AmmTypes.CloseSwapRiskIndicatorsInput memory riskIndicatorsInput
     )
         external
         returns (
-            IporSwapClosingResult[] memory closedPayFixedSwaps,
-            IporSwapClosingResult[] memory closedReceiveFixedSwaps
+            AmmTypes.IporSwapClosingResult[] memory closedPayFixedSwaps,
+            AmmTypes.IporSwapClosingResult[] memory closedReceiveFixedSwaps
         );
     function getAccountIndicatorsFromLiquidityMining(address account, address[] memory lpTokens)
         external
         view
-        returns (AccountIndicatorsResult[] memory);
+        returns (ILiquidityMiningLens.AccountIndicatorsResult[] memory);
     function getAccountRewardsInLiquidityMining(address account, address[] memory lpTokens)
         external
         view
-        returns (AccountRewardResult[] memory);
+        returns (ILiquidityMiningLens.AccountRewardResult[] memory);
     function getAccruedRewardsInLiquidityMining(address[] memory lpTokens)
         external
         view
-        returns (AccruedRewardsResult[] memory result);
-    function getAmmBalance(address asset) external view returns (AmmBalancesMemory memory);
+        returns (ILiquidityMiningLens.AccruedRewardsResult[] memory result);
+    function getAmmBalance(address asset) external view returns (IporTypes.AmmBalancesMemory memory);
     function getAmmCloseSwapServicePoolConfiguration(address asset)
         external
         view
-        returns (AmmCloseSwapServicePoolConfiguration memory);
+        returns (IAmmCloseSwapLens.AmmCloseSwapServicePoolConfiguration memory);
     function getAmmGovernancePoolConfiguration(address asset)
         external
         view
-        returns (AmmGovernancePoolConfiguration memory);
+        returns (IAmmGovernanceLens.AmmGovernancePoolConfiguration memory);
     function getAmmPoolServiceConfiguration(address asset)
         external
         view
-        returns (AmmPoolsServicePoolConfiguration memory);
-    function getAmmPoolsLensConfiguration(address asset) external view returns (AmmPoolsLensPoolConfiguration memory);
-    function getAmmPoolsParams(address asset) external view returns (AmmPoolsParamsConfiguration memory);
+        returns (IAmmPoolsService.AmmPoolsServicePoolConfiguration memory);
+    function getAmmPoolsLensConfiguration(address asset)
+        external
+        view
+        returns (IAmmPoolsLens.AmmPoolsLensPoolConfiguration memory);
+    function getAmmPoolsParams(address asset)
+        external
+        view
+        returns (IAmmGovernanceLens.AmmPoolsParamsConfiguration memory);
     function getAssetManagementConfiguration(address asset)
         external
         view
-        returns (AssetManagementConfiguration memory);
-    function getBalancesForOpenSwap(address asset) external view returns (AmmBalancesForOpenSwapMemory memory);
+        returns (IAssetManagementLens.AssetManagementConfiguration memory);
+    function getBalancesForOpenSwap(address asset)
+        external
+        view
+        returns (IporTypes.AmmBalancesForOpenSwapMemory memory);
     function getClosingSwapDetails(
         address asset,
         address account,
-        SwapDirection direction,
+        AmmTypes.SwapDirection direction,
         uint256 swapId,
         uint256 closeTimestamp,
-        CloseSwapRiskIndicatorsInput memory riskIndicatorsInput
-    ) external view returns (ClosingSwapDetails memory closingSwapDetails);
+        AmmTypes.CloseSwapRiskIndicatorsInput memory riskIndicatorsInput
+    ) external view returns (AmmTypes.ClosingSwapDetails memory closingSwapDetails);
     function getGlobalIndicatorsFromLiquidityMining(address[] memory lpTokens)
         external
         view
-        returns (GlobalIndicatorsResult[] memory);
+        returns (ILiquidityMiningLens.GlobalIndicatorsResult[] memory);
     function getImplementation() external view returns (address);
     function getIpTokenExchangeRate(address asset) external view returns (uint256);
     function getIpUsdmExchangeRate() external view returns (uint256);
@@ -462,10 +508,10 @@ interface IIporProtocol {
     function getIpstEthExchangeRate() external view returns (uint256);
     function getOfferedRate(
         address asset,
-        SwapTenor tenor,
+        IporTypes.SwapTenor tenor,
         uint256 notional,
-        RiskIndicatorsInputs memory payFixedRiskIndicatorsInputs,
-        RiskIndicatorsInputs memory receiveFixedRiskIndicatorsInputs
+        AmmTypes.RiskIndicatorsInputs memory payFixedRiskIndicatorsInputs,
+        AmmTypes.RiskIndicatorsInputs memory receiveFixedRiskIndicatorsInputs
     ) external view returns (uint256 offeredRatePayFixed, uint256 offeredRateReceiveFixed);
     function getPnlPayFixed(address asset, uint256 swapId) external view returns (int256 pnlValue);
     function getPnlReceiveFixed(address asset, uint256 swapId) external view returns (int256 pnlValue);
@@ -473,13 +519,16 @@ interface IIporProtocol {
     function getPwTokenExchangeRate() external view returns (uint256);
     function getPwTokenTotalSupplyBase() external view returns (uint256);
     function getPwTokenUnstakeFee() external view returns (uint256);
-    function getPwTokensInCooldown(address account) external view returns (PwTokenCooldown memory);
+    function getPwTokensInCooldown(address account) external view returns (IPowerTokenLens.PwTokenCooldown memory);
     function getSoap(address asset) external view returns (int256 soapPayFixed, int256 soapReceiveFixed, int256 soap);
-    function getSwapLensPoolConfiguration(address asset) external view returns (SwapLensPoolConfiguration memory);
+    function getSwapLensPoolConfiguration(address asset)
+        external
+        view
+        returns (IAmmSwapsLens.SwapLensPoolConfiguration memory);
     function getSwaps(address asset, address account, uint256 offset, uint256 chunkSize)
         external
         view
-        returns (uint256 totalCount, IporSwap[] memory swaps);
+        returns (uint256 totalCount, IAmmSwapsLens.IporSwap[] memory swaps);
     function iporOracle() external view returns (address);
     function isAppointedToRebalanceInAmm(address asset, address account) external view returns (bool);
     function isPauseGuardian(address account) external view returns (bool);
@@ -489,7 +538,7 @@ interface IIporProtocol {
         uint256 totalAmount,
         uint256 acceptableFixedInterestRate,
         uint256 leverage,
-        RiskIndicatorsInputs memory riskIndicatorsInputs
+        AmmTypes.RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
     function openSwapPayFixed28daysStEth(
         address beneficiary,
@@ -497,28 +546,28 @@ interface IIporProtocol {
         uint256 inputAssetTotalAmount,
         uint256 acceptableFixedInterestRate,
         uint256 leverage,
-        RiskIndicatorsInputs memory riskIndicatorsInputs
+        AmmTypes.RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external payable returns (uint256);
     function openSwapPayFixed28daysUsdc(
         address beneficiary,
         uint256 totalAmount,
         uint256 acceptableFixedInterestRate,
         uint256 leverage,
-        RiskIndicatorsInputs memory riskIndicatorsInputs
+        AmmTypes.RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
     function openSwapPayFixed28daysUsdt(
         address beneficiary,
         uint256 totalAmount,
         uint256 acceptableFixedInterestRate,
         uint256 leverage,
-        RiskIndicatorsInputs memory riskIndicatorsInputs
+        AmmTypes.RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
     function openSwapPayFixed60daysDai(
         address beneficiary,
         uint256 totalAmount,
         uint256 acceptableFixedInterestRate,
         uint256 leverage,
-        RiskIndicatorsInputs memory riskIndicatorsInputs
+        AmmTypes.RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
     function openSwapPayFixed60daysStEth(
         address beneficiary,
@@ -526,28 +575,28 @@ interface IIporProtocol {
         uint256 inputAssetTotalAmount,
         uint256 acceptableFixedInterestRate,
         uint256 leverage,
-        RiskIndicatorsInputs memory riskIndicatorsInputs
+        AmmTypes.RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external payable returns (uint256);
     function openSwapPayFixed60daysUsdc(
         address beneficiary,
         uint256 totalAmount,
         uint256 acceptableFixedInterestRate,
         uint256 leverage,
-        RiskIndicatorsInputs memory riskIndicatorsInputs
+        AmmTypes.RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
     function openSwapPayFixed60daysUsdt(
         address beneficiary,
         uint256 totalAmount,
         uint256 acceptableFixedInterestRate,
         uint256 leverage,
-        RiskIndicatorsInputs memory riskIndicatorsInputs
+        AmmTypes.RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
     function openSwapPayFixed90daysDai(
         address beneficiary,
         uint256 totalAmount,
         uint256 acceptableFixedInterestRate,
         uint256 leverage,
-        RiskIndicatorsInputs memory riskIndicatorsInputs
+        AmmTypes.RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
     function openSwapPayFixed90daysStEth(
         address beneficiary,
@@ -555,28 +604,28 @@ interface IIporProtocol {
         uint256 inputAssetTotalAmount,
         uint256 acceptableFixedInterestRate,
         uint256 leverage,
-        RiskIndicatorsInputs memory riskIndicatorsInputs
+        AmmTypes.RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external payable returns (uint256);
     function openSwapPayFixed90daysUsdc(
         address beneficiary,
         uint256 totalAmount,
         uint256 acceptableFixedInterestRate,
         uint256 leverage,
-        RiskIndicatorsInputs memory riskIndicatorsInputs
+        AmmTypes.RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
     function openSwapPayFixed90daysUsdt(
         address beneficiary,
         uint256 totalAmount,
         uint256 acceptableFixedInterestRate,
         uint256 leverage,
-        RiskIndicatorsInputs memory riskIndicatorsInputs
+        AmmTypes.RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
     function openSwapReceiveFixed28daysDai(
         address beneficiary,
         uint256 totalAmount,
         uint256 acceptableFixedInterestRate,
         uint256 leverage,
-        RiskIndicatorsInputs memory riskIndicatorsInputs
+        AmmTypes.RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
     function openSwapReceiveFixed28daysStEth(
         address beneficiary,
@@ -584,28 +633,28 @@ interface IIporProtocol {
         uint256 inputAssetTotalAmount,
         uint256 acceptableFixedInterestRate,
         uint256 leverage,
-        RiskIndicatorsInputs memory riskIndicatorsInputs
+        AmmTypes.RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external payable returns (uint256);
     function openSwapReceiveFixed28daysUsdc(
         address beneficiary,
         uint256 totalAmount,
         uint256 acceptableFixedInterestRate,
         uint256 leverage,
-        RiskIndicatorsInputs memory riskIndicatorsInputs
+        AmmTypes.RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
     function openSwapReceiveFixed28daysUsdt(
         address beneficiary,
         uint256 totalAmount,
         uint256 acceptableFixedInterestRate,
         uint256 leverage,
-        RiskIndicatorsInputs memory riskIndicatorsInputs
+        AmmTypes.RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
     function openSwapReceiveFixed60daysDai(
         address beneficiary,
         uint256 totalAmount,
         uint256 acceptableFixedInterestRate,
         uint256 leverage,
-        RiskIndicatorsInputs memory riskIndicatorsInputs
+        AmmTypes.RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
     function openSwapReceiveFixed60daysStEth(
         address beneficiary,
@@ -613,28 +662,28 @@ interface IIporProtocol {
         uint256 inputAssetTotalAmount,
         uint256 acceptableFixedInterestRate,
         uint256 leverage,
-        RiskIndicatorsInputs memory riskIndicatorsInputs
+        AmmTypes.RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external payable returns (uint256);
     function openSwapReceiveFixed60daysUsdc(
         address beneficiary,
         uint256 totalAmount,
         uint256 acceptableFixedInterestRate,
         uint256 leverage,
-        RiskIndicatorsInputs memory riskIndicatorsInputs
+        AmmTypes.RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
     function openSwapReceiveFixed60daysUsdt(
         address beneficiary,
         uint256 totalAmount,
         uint256 acceptableFixedInterestRate,
         uint256 leverage,
-        RiskIndicatorsInputs memory riskIndicatorsInputs
+        AmmTypes.RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
     function openSwapReceiveFixed90daysDai(
         address beneficiary,
         uint256 totalAmount,
         uint256 acceptableFixedInterestRate,
         uint256 leverage,
-        RiskIndicatorsInputs memory riskIndicatorsInputs
+        AmmTypes.RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
     function openSwapReceiveFixed90daysStEth(
         address beneficiary,
@@ -642,23 +691,25 @@ interface IIporProtocol {
         uint256 inputAssetTotalAmount,
         uint256 acceptableFixedInterestRate,
         uint256 leverage,
-        RiskIndicatorsInputs memory riskIndicatorsInputs
+        AmmTypes.RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external payable returns (uint256);
     function openSwapReceiveFixed90daysUsdc(
         address beneficiary,
         uint256 totalAmount,
         uint256 acceptableFixedInterestRate,
         uint256 leverage,
-        RiskIndicatorsInputs memory riskIndicatorsInputs
+        AmmTypes.RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
     function openSwapReceiveFixed90daysUsdt(
         address beneficiary,
         uint256 totalAmount,
         uint256 acceptableFixedInterestRate,
         uint256 leverage,
-        RiskIndicatorsInputs memory riskIndicatorsInputs
+        AmmTypes.RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external returns (uint256);
-    function pause() external;
+    function owner() external view returns (address);
+    function pause(bytes4[] memory functionSigs) external;
+    function paused(bytes4 functionSig) external view returns (uint256);
     function provideLiquidity(address poolAsset, address inputAsset, address beneficiary, uint256 inputAssetAmount)
         external
         payable
@@ -685,10 +736,11 @@ interface IIporProtocol {
     function removeAppointedToRebalanceInAmm(address asset, address account) external;
     function removePauseGuardians(address[] memory guardians) external;
     function removeSwapLiquidator(address asset, address account) external;
+    function renounceOwnership() external;
     function setAmmPoolsParams(
         address asset,
         uint32 newMaxLiquidityPoolBalance,
-        uint32 newAutoRebalanceThresholdInThousands,
+        uint32 newAutoRebalanceThreshold,
         uint16 newAmmTreasuryAndAssetManagementRatio
     ) external;
     function stakeGovernanceTokenToPowerToken(address beneficiary, uint256 iporTokenAmount) external;
@@ -708,7 +760,7 @@ interface IIporProtocol {
     function transferToTreasury(address asset, uint256 assetAmount) external;
     function undelegatePwTokensFromLiquidityMining(address[] memory lpTokens, uint256[] memory lpTokenAmounts)
         external;
-    function unpause() external;
+    function unpause(bytes4[] memory functionSigs) external;
     function unstakeGovernanceTokenFromPowerToken(address transferTo, uint256 iporTokenAmount) external;
     function unstakeLpTokensFromLiquidityMining(
         address transferTo,

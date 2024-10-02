@@ -1,22 +1,26 @@
-interface SpreadStorageLens {
+library SpreadStorageLibs {
     type StorageId is uint8;
+}
 
+library SpreadTypes {
     struct TimeWeightedNotionalMemory {
         uint256 timeWeightedNotionalPayFixed;
         uint256 lastUpdateTimePayFixed;
         uint256 timeWeightedNotionalReceiveFixed;
         uint256 lastUpdateTimeReceiveFixed;
-        StorageId storageId;
+        SpreadStorageLibs.StorageId storageId;
     }
 
     struct TimeWeightedNotionalResponse {
         TimeWeightedNotionalMemory timeWeightedNotional;
         string key;
     }
+}
 
+interface SpreadStorageLens {
     function getTimeWeightedNotional()
         external
         view
-        returns (TimeWeightedNotionalResponse[] memory timeWeightedNotionalResponse);
+        returns (SpreadTypes.TimeWeightedNotionalResponse[] memory timeWeightedNotionalResponse);
 }
 

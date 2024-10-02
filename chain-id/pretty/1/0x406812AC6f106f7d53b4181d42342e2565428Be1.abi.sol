@@ -28,17 +28,6 @@ interface AmmPoolsServiceStEth {
         uint256 ipTokenAmount
     );
 
-    constructor(
-        address stEthInput,
-        address wEthInput,
-        address ipstEthInput,
-        address ammTreasuryStEthInput,
-        address ammStorageStEthInput,
-        address iporOracleInput,
-        address iporProtocolRouterInput,
-        uint256 redeemFeeRateStEthInput
-    );
-
     function ammStorageStEth() external view returns (address);
     function ammTreasuryStEth() external view returns (address);
     function iporOracle() external view returns (address);

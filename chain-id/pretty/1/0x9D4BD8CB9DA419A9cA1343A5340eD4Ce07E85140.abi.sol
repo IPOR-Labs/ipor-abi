@@ -1,4 +1,4 @@
-interface IporWeighted {
+library IIporAlgorithm {
     struct InitConnectorData {
         uint256 startDate;
         uint256 endDate;
@@ -21,7 +21,9 @@ interface IporWeighted {
         InitConnectorData usdcCompoundV3Input;
         InitConnectorData wethCompoundV3Input;
     }
+}
 
+interface IporWeighted {
     error GeneralError(string message);
 
     event AdminChanged(address previousAdmin, address newAdmin);
@@ -30,8 +32,6 @@ interface IporWeighted {
     event Initialized(uint8 version);
     event OwnershipTransferred(address indexed previousOwner, address indexed newOwner);
     event Upgraded(address indexed implementation);
-
-    constructor(InitData initData);
 
     function calculateIpor(address asset) external view returns (uint256 iporIndex);
     function confirmTransferOwnership() external;

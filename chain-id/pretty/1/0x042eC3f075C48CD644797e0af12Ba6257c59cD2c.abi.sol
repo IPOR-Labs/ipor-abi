@@ -1,6 +1,26 @@
-interface AmmOpenSwapServiceStEth {
+library AmmTypes {
     type SwapDirection is uint8;
 
+    struct IporSwapIndicator {
+        uint256 iporIndexValue;
+        uint256 ibtPrice;
+        uint256 ibtQuantity;
+        uint256 fixedInterestRate;
+    }
+
+    struct RiskIndicatorsInputs {
+        uint256 maxCollateralRatio;
+        uint256 maxCollateralRatioPerLeg;
+        uint256 maxLeveragePerLeg;
+        int256 baseSpreadPerLeg;
+        uint256 fixedRateCapPerLeg;
+        uint256 demandSpreadFactor;
+        uint256 expiration;
+        bytes signature;
+    }
+}
+
+library AmmTypesBaseV1 {
     struct AmmOpenSwapServicePoolConfiguration {
         address asset;
         uint256 decimals;
@@ -15,13 +35,6 @@ interface AmmOpenSwapServiceStEth {
         uint256 openingFeeTreasuryPortionRate;
     }
 
-    struct IporSwapIndicator {
-        uint256 iporIndexValue;
-        uint256 ibtPrice;
-        uint256 ibtQuantity;
-        uint256 fixedInterestRate;
-    }
-
     struct OpenSwapAmount {
         uint256 inputAssetTotalAmount;
         uint256 assetTotalAmount;
@@ -32,18 +45,9 @@ interface AmmOpenSwapServiceStEth {
         uint256 iporPublicationFee;
         uint256 liquidationDepositAmount;
     }
+}
 
-    struct RiskIndicatorsInputs {
-        uint256 maxCollateralRatio;
-        uint256 maxCollateralRatioPerLeg;
-        uint256 maxLeveragePerLeg;
-        int256 baseSpreadPerLeg;
-        uint256 fixedRateCapPerLeg;
-        uint256 demandSpreadFactor;
-        uint256 expiration;
-        bytes signature;
-    }
-
+interface AmmOpenSwapServiceStEth {
     error InputAssetBalanceTooLow(string errorCode, address inputAsset, uint256 inputAssetBalance, uint256 totalAmount);
     error InputAssetTotalAmountTooLow(string errorCode, uint256 value);
     error StEthSubmitFailed(uint256 amount, string errorCode);
@@ -54,19 +58,11 @@ interface AmmOpenSwapServiceStEth {
         address indexed buyer,
         address inputAsset,
         address asset,
-        SwapDirection direction,
-        OpenSwapAmount amounts,
+        AmmTypes.SwapDirection direction,
+        AmmTypesBaseV1.OpenSwapAmount amounts,
         uint256 openTimestamp,
         uint256 endTimestamp,
-        IporSwapIndicator indicator
-    );
-
-    constructor(
-        AmmOpenSwapServicePoolConfiguration poolCfg,
-        address iporOracleInput,
-        address messageSignerInput,
-        address wETHInput,
-        address wstETHInput
+        AmmTypes.IporSwapIndicator indicator
     );
 
     function ETH_ADDRESS() external view returns (address);
@@ -86,7 +82,7 @@ interface AmmOpenSwapServiceStEth {
         uint256 inputAssetTotalAmount,
         uint256 acceptableFixedInterestRate,
         uint256 leverage,
-        RiskIndicatorsInputs memory riskIndicatorsInputs
+        AmmTypes.RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external payable returns (uint256);
     function openSwapPayFixed60daysStEth(
         address beneficiary,
@@ -94,7 +90,7 @@ interface AmmOpenSwapServiceStEth {
         uint256 inputAssetTotalAmount,
         uint256 acceptableFixedInterestRate,
         uint256 leverage,
-        RiskIndicatorsInputs memory riskIndicatorsInputs
+        AmmTypes.RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external payable returns (uint256);
     function openSwapPayFixed90daysStEth(
         address beneficiary,
@@ -102,7 +98,7 @@ interface AmmOpenSwapServiceStEth {
         uint256 inputAssetTotalAmount,
         uint256 acceptableFixedInterestRate,
         uint256 leverage,
-        RiskIndicatorsInputs memory riskIndicatorsInputs
+        AmmTypes.RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external payable returns (uint256);
     function openSwapReceiveFixed28daysStEth(
         address beneficiary,
@@ -110,7 +106,7 @@ interface AmmOpenSwapServiceStEth {
         uint256 inputAssetTotalAmount,
         uint256 acceptableFixedInterestRate,
         uint256 leverage,
-        RiskIndicatorsInputs memory riskIndicatorsInputs
+        AmmTypes.RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external payable returns (uint256);
     function openSwapReceiveFixed60daysStEth(
         address beneficiary,
@@ -118,7 +114,7 @@ interface AmmOpenSwapServiceStEth {
         uint256 inputAssetTotalAmount,
         uint256 acceptableFixedInterestRate,
         uint256 leverage,
-        RiskIndicatorsInputs memory riskIndicatorsInputs
+        AmmTypes.RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external payable returns (uint256);
     function openSwapReceiveFixed90daysStEth(
         address beneficiary,
@@ -126,7 +122,7 @@ interface AmmOpenSwapServiceStEth {
         uint256 inputAssetTotalAmount,
         uint256 acceptableFixedInterestRate,
         uint256 leverage,
-        RiskIndicatorsInputs memory riskIndicatorsInputs
+        AmmTypes.RiskIndicatorsInputs memory riskIndicatorsInputs
     ) external payable returns (uint256);
     function openingFeeRate() external view returns (uint256);
     function openingFeeTreasuryPortionRate() external view returns (uint256);

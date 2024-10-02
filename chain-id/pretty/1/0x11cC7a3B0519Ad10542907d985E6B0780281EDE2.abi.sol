@@ -18,8 +18,6 @@ interface SpreadRouter {
     event PauseGuardiansRemoved(address[] indexed guardians);
     event Upgraded(address indexed implementation);
 
-    constructor(DeployedContracts deployedContracts);
-
     fallback() external;
 
     function addPauseGuardians(address[] memory guardians) external;

@@ -430,6 +430,35 @@
   },
   {
     "type": "function",
+    "name": "getPoolPowerUpModifiers",
+    "inputs": [
+      {
+        "name": "lpToken",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "pwTokenModifier",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "logBase",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "vectorOfCurve",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
     "name": "getVersion",
     "inputs": [],
     "outputs": [
@@ -682,6 +711,41 @@
       }
     ],
     "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "setPoolPowerUpModifiers",
+    "inputs": [
+      {
+        "name": "lpTokens",
+        "type": "address[]",
+        "internalType": "address[]"
+      },
+      {
+        "name": "modifiers",
+        "type": "tuple[]",
+        "internalType": "struct LiquidityMiningTypes.PoolPowerUpModifier[]",
+        "components": [
+          {
+            "name": "logBase",
+            "type": "uint64",
+            "internalType": "uint64"
+          },
+          {
+            "name": "pwTokenModifier",
+            "type": "uint64",
+            "internalType": "uint64"
+          },
+          {
+            "name": "vectorOfCurve",
+            "type": "uint64",
+            "internalType": "uint64"
+          }
+        ]
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
   },
   {
     "type": "function",
@@ -1090,6 +1154,37 @@
         "type": "address",
         "indexed": false,
         "internalType": "address"
+      }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "PoolPowerUpModifiersUpdated",
+    "inputs": [
+      {
+        "name": "lpToken",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      },
+      {
+        "name": "logBase",
+        "type": "uint64",
+        "indexed": false,
+        "internalType": "uint64"
+      },
+      {
+        "name": "pwTokenModifier",
+        "type": "uint64",
+        "indexed": false,
+        "internalType": "uint64"
+      },
+      {
+        "name": "vectorOfCurve",
+        "type": "uint64",
+        "indexed": false,
+        "internalType": "uint64"
       }
     ],
     "anonymous": false

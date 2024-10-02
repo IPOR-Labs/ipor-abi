@@ -19,16 +19,6 @@ interface AmmPoolsServiceUsdm {
         uint256 ipTokenAmount
     );
 
-    constructor(
-        address usdmInput,
-        address ipUsdmInput,
-        address ammTreasuryUsdmInput,
-        address ammStorageUsdmInput,
-        address iporOracleInput,
-        address iporProtocolRouterInput,
-        uint256 redeemFeeRateUsdmInput
-    );
-
     function ammStorageUsdm() external view returns (address);
     function ammTreasuryUsdm() external view returns (address);
     function ipUsdm() external view returns (address);

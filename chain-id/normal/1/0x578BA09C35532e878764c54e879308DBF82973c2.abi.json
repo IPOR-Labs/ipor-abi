@@ -119,6 +119,19 @@
   },
   {
     "type": "function",
+    "name": "ammAssetManagement",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
     "name": "ammStorage",
     "inputs": [],
     "outputs": [
@@ -811,7 +824,7 @@
         "internalType": "uint256"
       }
     ],
-    "stateMutability": "view"
+    "stateMutability": "pure"
   },
   {
     "type": "event",
