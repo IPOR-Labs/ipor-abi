@@ -15,14 +15,13 @@ interface GearboxV3FarmSupplyFuse {
     error GearboxV3FarmdSupplyFuseUnsupportedFarmdToken(string action, address farmdToken);
     error SafeERC20FailedOperation(address token);
 
-    event GearboxV3FarmdEnterFuse(address version, address farmdToken, address dToken, uint256 amount);
-    event GearboxV3FarmdExitFuse(address version, address farmdToken, uint256 amount);
+    event GearboxV3FarmdFuseEnter(address version, address farmdToken, address dToken, uint256 amount);
+    event GearboxV3FarmdFuseExit(address version, address farmdToken, uint256 amount);
+    event GearboxV3FarmdFuseExitFailed(address version, address farmdToken, uint256 amount);
 
     function MARKET_ID() external view returns (uint256);
     function VERSION() external view returns (address);
     function enter(GearboxV3FarmdSupplyFuseEnterData memory data_) external;
-    function enter(bytes memory data_) external;
-    function exit(bytes memory data_) external;
     function exit(GearboxV3FarmdSupplyFuseExitData memory data_) external;
     function instantWithdraw(bytes32[] memory params_) external;
 }

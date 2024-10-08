@@ -8,43 +8,12 @@
         "internalType": "uint256"
       },
       {
-        "name": "aavePool_",
-        "type": "address",
-        "internalType": "address"
-      },
-      {
-        "name": "aavePoolDataProviderV3_",
+        "name": "nonfungiblePositionManager_",
         "type": "address",
         "internalType": "address"
       }
     ],
     "stateMutability": "nonpayable"
-  },
-  {
-    "type": "function",
-    "name": "AAVE_POOL",
-    "inputs": [],
-    "outputs": [
-      {
-        "name": "",
-        "type": "address",
-        "internalType": "contract IPool"
-      }
-    ],
-    "stateMutability": "view"
-  },
-  {
-    "type": "function",
-    "name": "AAVE_POOL_DATA_PROVIDER_V3",
-    "inputs": [],
-    "outputs": [
-      {
-        "name": "",
-        "type": "address",
-        "internalType": "address"
-      }
-    ],
-    "stateMutability": "view"
   },
   {
     "type": "function",
@@ -55,6 +24,19 @@
         "name": "",
         "type": "uint256",
         "internalType": "uint256"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "NONFUNGIBLE_POSITION_MANAGER",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "address"
       }
     ],
     "stateMutability": "view"
@@ -79,20 +61,45 @@
       {
         "name": "data_",
         "type": "tuple",
-        "internalType": "struct AaveV3SupplyFuseEnterData",
+        "internalType": "struct RamsesV2ModifyPositionFuseEnterData",
         "components": [
           {
-            "name": "asset",
+            "name": "token0",
             "type": "address",
             "internalType": "address"
           },
           {
-            "name": "amount",
+            "name": "token1",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "tokenId",
             "type": "uint256",
             "internalType": "uint256"
           },
           {
-            "name": "userEModeCategoryId",
+            "name": "amount0Desired",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "amount1Desired",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "amount0Min",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "amount1Min",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "deadline",
             "type": "uint256",
             "internalType": "uint256"
           }
@@ -109,15 +116,30 @@
       {
         "name": "data_",
         "type": "tuple",
-        "internalType": "struct AaveV3SupplyFuseExitData",
+        "internalType": "struct RamsesV2ModifyPositionFuseExitData",
         "components": [
           {
-            "name": "asset",
-            "type": "address",
-            "internalType": "address"
+            "name": "tokenId",
+            "type": "uint256",
+            "internalType": "uint256"
           },
           {
-            "name": "amount",
+            "name": "liquidity",
+            "type": "uint128",
+            "internalType": "uint128"
+          },
+          {
+            "name": "amount0Min",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "amount1Min",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "deadline",
             "type": "uint256",
             "internalType": "uint256"
           }
@@ -128,21 +150,8 @@
     "stateMutability": "nonpayable"
   },
   {
-    "type": "function",
-    "name": "instantWithdraw",
-    "inputs": [
-      {
-        "name": "params_",
-        "type": "bytes32[]",
-        "internalType": "bytes32[]"
-      }
-    ],
-    "outputs": [],
-    "stateMutability": "nonpayable"
-  },
-  {
     "type": "event",
-    "name": "AaveV3SupplyFuseEnter",
+    "name": "RamsesV2ModifyPositionFuseEnter",
     "inputs": [
       {
         "name": "version",
@@ -151,19 +160,25 @@
         "internalType": "address"
       },
       {
-        "name": "asset",
-        "type": "address",
-        "indexed": false,
-        "internalType": "address"
-      },
-      {
-        "name": "amount",
+        "name": "tokenId",
         "type": "uint256",
         "indexed": false,
         "internalType": "uint256"
       },
       {
-        "name": "userEModeCategoryId",
+        "name": "liquidity",
+        "type": "uint128",
+        "indexed": false,
+        "internalType": "uint128"
+      },
+      {
+        "name": "amount0",
+        "type": "uint256",
+        "indexed": false,
+        "internalType": "uint256"
+      },
+      {
+        "name": "amount1",
         "type": "uint256",
         "indexed": false,
         "internalType": "uint256"
@@ -173,7 +188,7 @@
   },
   {
     "type": "event",
-    "name": "AaveV3SupplyFuseExit",
+    "name": "RamsesV2ModifyPositionFuseExit",
     "inputs": [
       {
         "name": "version",
@@ -182,60 +197,25 @@
         "internalType": "address"
       },
       {
-        "name": "asset",
-        "type": "address",
+        "name": "tokenId",
+        "type": "uint256",
         "indexed": false,
-        "internalType": "address"
+        "internalType": "uint256"
       },
       {
-        "name": "amount",
+        "name": "amount0",
+        "type": "uint256",
+        "indexed": false,
+        "internalType": "uint256"
+      },
+      {
+        "name": "amount1",
         "type": "uint256",
         "indexed": false,
         "internalType": "uint256"
       }
     ],
     "anonymous": false
-  },
-  {
-    "type": "event",
-    "name": "AaveV3SupplyFuseExitFailed",
-    "inputs": [
-      {
-        "name": "version",
-        "type": "address",
-        "indexed": false,
-        "internalType": "address"
-      },
-      {
-        "name": "asset",
-        "type": "address",
-        "indexed": false,
-        "internalType": "address"
-      },
-      {
-        "name": "amount",
-        "type": "uint256",
-        "indexed": false,
-        "internalType": "uint256"
-      }
-    ],
-    "anonymous": false
-  },
-  {
-    "type": "error",
-    "name": "AaveV3SupplyFuseUnsupportedAsset",
-    "inputs": [
-      {
-        "name": "action",
-        "type": "string",
-        "internalType": "string"
-      },
-      {
-        "name": "asset",
-        "type": "address",
-        "internalType": "address"
-      }
-    ]
   },
   {
     "type": "error",
@@ -266,17 +246,17 @@
   },
   {
     "type": "error",
-    "name": "SafeCastOverflowedUintDowncast",
+    "name": "RamsesV2ModifyPositionFuseUnsupportedToken",
     "inputs": [
       {
-        "name": "bits",
-        "type": "uint8",
-        "internalType": "uint8"
+        "name": "token0",
+        "type": "address",
+        "internalType": "address"
       },
       {
-        "name": "value",
-        "type": "uint256",
-        "internalType": "uint256"
+        "name": "token1",
+        "type": "address",
+        "internalType": "address"
       }
     ]
   },
@@ -290,15 +270,5 @@
         "internalType": "address"
       }
     ]
-  },
-  {
-    "type": "error",
-    "name": "WrongAddress",
-    "inputs": []
-  },
-  {
-    "type": "error",
-    "name": "WrongValue",
-    "inputs": []
   }
 ]

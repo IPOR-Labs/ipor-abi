@@ -63,32 +63,6 @@
   },
   {
     "type": "function",
-    "name": "enter",
-    "inputs": [
-      {
-        "name": "data_",
-        "type": "bytes",
-        "internalType": "bytes"
-      }
-    ],
-    "outputs": [],
-    "stateMutability": "nonpayable"
-  },
-  {
-    "type": "function",
-    "name": "exit",
-    "inputs": [
-      {
-        "name": "data_",
-        "type": "bytes",
-        "internalType": "bytes"
-      }
-    ],
-    "outputs": [],
-    "stateMutability": "nonpayable"
-  },
-  {
-    "type": "function",
     "name": "exit",
     "inputs": [
       {
@@ -127,7 +101,7 @@
   },
   {
     "type": "event",
-    "name": "FluidInstadappStakingEnterFuse",
+    "name": "FluidInstadappStakingFuseEnter",
     "inputs": [
       {
         "name": "version",
@@ -158,7 +132,32 @@
   },
   {
     "type": "event",
-    "name": "FluidInstadappStakingExitFuse",
+    "name": "FluidInstadappStakingFuseExit",
+    "inputs": [
+      {
+        "name": "version",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      },
+      {
+        "name": "stakingPool",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      },
+      {
+        "name": "amount",
+        "type": "uint256",
+        "indexed": false,
+        "internalType": "uint256"
+      }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "FluidInstadappStakingFuseExitFailed",
     "inputs": [
       {
         "name": "version",
