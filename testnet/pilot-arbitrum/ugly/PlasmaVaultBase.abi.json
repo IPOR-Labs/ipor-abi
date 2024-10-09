@@ -235,7 +235,7 @@
     "name": "configureManagementFee",
     "inputs": [
       {
-        "name": "feeManager_",
+        "name": "feeAccount_",
         "type": "address",
         "internalType": "address"
       },
@@ -253,7 +253,7 @@
     "name": "configurePerformanceFee",
     "inputs": [
       {
-        "name": "feeManager_",
+        "name": "feeAccount_",
         "type": "address",
         "internalType": "address"
       },
@@ -506,7 +506,7 @@
         "internalType": "struct PlasmaVaultStorageLib.ManagementFeeData",
         "components": [
           {
-            "name": "feeManager",
+            "name": "feeAccount",
             "type": "address",
             "internalType": "address"
           },
@@ -617,7 +617,7 @@
         "internalType": "struct PlasmaVaultStorageLib.PerformanceFeeData",
         "components": [
           {
-            "name": "feeManager",
+            "name": "feeAccount",
             "type": "address",
             "internalType": "address"
           },
@@ -1412,7 +1412,7 @@
     "name": "ManagementFeeDataConfigured",
     "inputs": [
       {
-        "name": "feeManager",
+        "name": "feeAccount",
         "type": "address",
         "indexed": false,
         "internalType": "address"
@@ -1481,7 +1481,7 @@
     "name": "PerformanceFeeDataConfigured",
     "inputs": [
       {
-        "name": "feeManager",
+        "name": "feeAccount",
         "type": "address",
         "indexed": false,
         "internalType": "address"
@@ -1855,6 +1855,17 @@
     "type": "error",
     "name": "FuseDoesNotExist",
     "inputs": []
+  },
+  {
+    "type": "error",
+    "name": "FuseUnsupported",
+    "inputs": [
+      {
+        "name": "fuse",
+        "type": "address",
+        "internalType": "address"
+      }
+    ]
   },
   {
     "type": "error",

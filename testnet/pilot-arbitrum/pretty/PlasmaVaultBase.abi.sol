@@ -1,28 +1,32 @@
-interface PlasmaVaultBase {
+library Checkpoints {
     struct Checkpoint208 {
         uint48 _key;
         uint208 _value;
     }
+}
 
+library PlasmaVaultStorageLib {
+    struct ManagementFeeData {
+        address feeAccount;
+        uint16 feeInPercentage;
+        uint32 lastUpdateTimestamp;
+    }
+
+    struct PerformanceFeeData {
+        address feeAccount;
+        uint16 feeInPercentage;
+    }
+}
+
+interface PlasmaVaultBase {
     struct InstantWithdrawalFusesParamsStruct {
         address fuse;
         bytes32[] params;
     }
 
-    struct ManagementFeeData {
-        address feeManager;
-        uint16 feeInPercentage;
-        uint32 lastUpdateTimestamp;
-    }
-
     struct MarketLimit {
         uint256 marketId;
         uint256 limitInPercentage;
-    }
-
-    struct PerformanceFeeData {
-        address feeManager;
-        uint16 feeInPercentage;
     }
 
     error AccessManagedInvalidAuthority(address authority);
@@ -51,6 +55,7 @@ interface PlasmaVaultBase {
     error FailedInnerCall();
     error FuseAlreadyExists();
     error FuseDoesNotExist();
+    error FuseUnsupported(address fuse);
     error InvalidAccountNonce(address account, uint256 currentNonce);
     error InvalidInitialization();
     error InvalidManagementFee(uint256 feeInPercentage);
@@ -77,12 +82,12 @@ interface PlasmaVaultBase {
     event FuseRemoved(address fuse);
     event Initialized(uint64 version);
     event InstantWithdrawalFusesConfigured(InstantWithdrawalFusesParamsStruct[] fuses);
-    event ManagementFeeDataConfigured(address feeManager, uint256 feeInPercentage);
+    event ManagementFeeDataConfigured(address feeAccount, uint256 feeInPercentage);
     event MarketLimitUpdated(uint256 marketId, uint256 newLimit);
     event MarketSubstratesGranted(uint256 marketId, bytes32[] substrates);
     event MarketsLimitsActivated();
     event MarketsLimitsDeactivated();
-    event PerformanceFeeDataConfigured(address feeManager, uint256 feeInPercentage);
+    event PerformanceFeeDataConfigured(address feeAccount, uint256 feeInPercentage);
     event PriceOracleMiddlewareChanged(address newPriceOracleMiddleware);
     event RewardsClaimManagerAddressChanged(address newRewardsClaimManagerAddress);
     event Transfer(address indexed from, address indexed to, uint256 value);
@@ -97,11 +102,11 @@ interface PlasmaVaultBase {
     function authority() external view returns (address);
     function balanceOf(address account) external view returns (uint256);
     function cap() external view returns (uint256);
-    function checkpoints(address account, uint32 pos) external view returns (Checkpoint208 memory);
+    function checkpoints(address account, uint32 pos) external view returns (Checkpoints.Checkpoint208 memory);
     function clock() external view returns (uint48);
     function configureInstantWithdrawalFuses(InstantWithdrawalFusesParamsStruct[] memory fuses_) external;
-    function configureManagementFee(address feeManager_, uint256 feeInPercentage_) external;
-    function configurePerformanceFee(address feeManager_, uint256 feeInPercentage_) external;
+    function configureManagementFee(address feeAccount_, uint256 feeInPercentage_) external;
+    function configurePerformanceFee(address feeAccount_, uint256 feeInPercentage_) external;
     function convertToPublicVault() external;
     function deactivateMarketsLimits() external;
     function decimals() external view returns (uint8);
@@ -126,12 +131,12 @@ interface PlasmaVaultBase {
     function getFuses() external view returns (address[] memory);
     function getInstantWithdrawalFuses() external view returns (address[] memory);
     function getInstantWithdrawalFusesParams(address fuse_, uint256 index_) external view returns (bytes32[] memory);
-    function getManagementFeeData() external view returns (ManagementFeeData memory feeData);
+    function getManagementFeeData() external view returns (PlasmaVaultStorageLib.ManagementFeeData memory feeData);
     function getMarketLimit(uint256 marketId_) external view returns (uint256);
     function getMarketSubstrates(uint256 marketId_) external view returns (bytes32[] memory);
     function getPastTotalSupply(uint256 timepoint) external view returns (uint256);
     function getPastVotes(address account, uint256 timepoint) external view returns (uint256);
-    function getPerformanceFeeData() external view returns (PerformanceFeeData memory feeData);
+    function getPerformanceFeeData() external view returns (PlasmaVaultStorageLib.PerformanceFeeData memory feeData);
     function getPriceOracleMiddleware() external view returns (address);
     function getRewardsClaimManagerAddress() external view returns (address);
     function getTotalSupplyCap() external view returns (uint256);
