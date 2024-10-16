@@ -23,6 +23,11 @@
         "token": "USDC",
         "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
         "PlasmaVault": "0xa91267A25939b2B0f046013fbF9597008F7F014b"
+      },
+      {
+        "token": "USDC",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x0184a8F494210084C768357aD73366372db0e3B1"
       }
     ]
   },
