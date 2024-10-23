@@ -41,6 +41,7 @@ interface RewardsClaimManager {
     function authority() external view returns (address);
     function balanceOf() external view returns (uint256);
     function claimRewards(FuseAction[] memory calls_) external;
+    function getRewardsFuses() external view returns (address[] memory);
     function getVestingData() external view returns (VestingData memory);
     function isConsumingScheduledOp() external view returns (bytes4);
     function isRewardFuseSupported(address fuse_) external view returns (bool);
