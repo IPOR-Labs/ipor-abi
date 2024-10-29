@@ -1,0 +1,95 @@
+[
+  {
+    "type": "function",
+    "name": "deployFeeManager",
+    "inputs": [
+      {
+        "name": "initData",
+        "type": "tuple",
+        "internalType": "struct FeeManagerInitData",
+        "components": [
+          {
+            "name": "iporDaoManagementFee",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "iporDaoPerformanceFee",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "atomistManagementFee",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "atomistPerformanceFee",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "initialAuthority",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "plasmaVault",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "feeRecipientAddress",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "iporDaoFeeRecipientAddress",
+            "type": "address",
+            "internalType": "address"
+          }
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "tuple",
+        "internalType": "struct FeeManagerData",
+        "components": [
+          {
+            "name": "feeManager",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "plasmaVault",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "performanceFeeAccount",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "managementFeeAccount",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "managementFee",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "performanceFee",
+            "type": "uint256",
+            "internalType": "uint256"
+          }
+        ]
+      }
+    ],
+    "stateMutability": "nonpayable"
+  }
+]
