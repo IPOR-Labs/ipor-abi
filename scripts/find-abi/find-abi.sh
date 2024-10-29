@@ -116,8 +116,8 @@ download_files_from_directory() {
                 mkdir -p "$local_folder"
             fi
 
-            raw_url="https://raw.githubusercontent.com/$REPO/feature/$BRANCH/chain-id/$file_type/$CHAIN_ID/$item_name"
-            view_url="https://github.com/$REPO/blob/feature/$BRANCH/chain-id/$file_type/$CHAIN_ID/$item_name"
+            raw_url="https://raw.githubusercontent.com/$REPO/$BRANCH/chain-id/$file_type/$CHAIN_ID/$item_name"
+            view_url="https://github.com/$REPO/blob/$BRANCH/chain-id/$file_type/$CHAIN_ID/$item_name"
             download_file "$raw_url" "$view_url" "$local_folder/$item_name"
             file_found=true
         fi
