@@ -129,12 +129,12 @@ download_files_from_directory() {
 }
 
 for subdir in "${SUBDIRECTORIES[@]}"; do
-    chain_id_url="https://api.github.com/repos/$REPO/contents/chain-id/$subdir/$CHAIN_ID?ref=feature/$BRANCH"
+    chain_id_url="https://api.github.com/repos/$REPO/contents/chain-id/$subdir/$CHAIN_ID?ref=$BRANCH"
     check_chain_id_exists "$chain_id_url"
 done
 
 for subdir in "${SUBDIRECTORIES[@]}"; do
-    folder_url="https://api.github.com/repos/$REPO/contents/chain-id/$subdir/$CHAIN_ID?ref=feature/$BRANCH"
+    folder_url="https://api.github.com/repos/$REPO/contents/chain-id/$subdir/$CHAIN_ID?ref=$BRANCH"
     local_folder="abi/$CHAIN_ID/$subdir"
 
     if [ "$subdir" == "normal" ]; then
