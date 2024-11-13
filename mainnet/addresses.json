@@ -36,6 +36,28 @@
       }
     ]
   },
+  "base": {
+    "IporProtocolRouter": "0x21d337eBF86E584e614ecC18A2B1144D3C375918",
+    "pools": [
+      {
+        "token": "wstETH",
+        "asset": "0xc1CBa3fCea344f92D9239c08C0568f6F2F0ee452",
+        "AmmTreasury": "0x09388e18d5C331449C6eF636726dD1fd007b8DDf"
+      },
+      {
+        "token": "USDC",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "AmmTreasury": "0x1AbA7a3C3bec8139B10a4807087084064A454a24"
+      }
+    ],
+    "vaults": [
+      {
+        "token": "USDC",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x45aa96f0b3188D47a1DaFdbefCE1db6B37f58216"
+      }
+    ]
+  },
   "ethereum": {
     "IporProtocolRouter": "0x16d104009964e694761C0bf09d7Be49B7E3C26fd",
     "pools": [

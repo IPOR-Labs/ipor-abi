@@ -1,0 +1,1322 @@
+[
+  {
+    "type": "constructor",
+    "inputs": [
+      {
+        "name": "routerAddress",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "ethUsdOracleInput",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "wstEthEthOracleInput",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "lpwstEthInput",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "addLpTokensInternal",
+    "inputs": [
+      {
+        "name": "updateLpToken",
+        "type": "tuple[]",
+        "internalType": "struct LiquidityMiningTypes.UpdateLpToken[]",
+        "components": [
+          {
+            "name": "beneficiary",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "lpToken",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "lpTokenAmount",
+            "type": "uint256",
+            "internalType": "uint256"
+          }
+        ]
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "addPauseGuardians",
+    "inputs": [
+      {
+        "name": "guardians",
+        "type": "address[]",
+        "internalType": "address[]"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "addPwTokensInternal",
+    "inputs": [
+      {
+        "name": "updatePwTokens",
+        "type": "tuple[]",
+        "internalType": "struct LiquidityMiningTypes.UpdatePwToken[]",
+        "components": [
+          {
+            "name": "beneficiary",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "lpToken",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "pwTokenAmount",
+            "type": "uint256",
+            "internalType": "uint256"
+          }
+        ]
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "balanceOf",
+    "inputs": [
+      {
+        "name": "account",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "lpToken",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "balanceOfDelegatedPwToken",
+    "inputs": [
+      {
+        "name": "account",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "lpTokens",
+        "type": "address[]",
+        "internalType": "address[]"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "balances",
+        "type": "tuple[]",
+        "internalType": "struct LiquidityMiningTypes.DelegatedPwTokenBalance[]",
+        "components": [
+          {
+            "name": "lpToken",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "pwTokenAmount",
+            "type": "uint256",
+            "internalType": "uint256"
+          }
+        ]
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "calculateAccountRewards",
+    "inputs": [
+      {
+        "name": "account",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "lpTokens",
+        "type": "address[]",
+        "internalType": "address[]"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "tuple[]",
+        "internalType": "struct LiquidityMiningTypes.AccountRewardResult[]",
+        "components": [
+          {
+            "name": "lpToken",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "rewardsAmount",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "allocatedPwTokens",
+            "type": "uint256",
+            "internalType": "uint256"
+          }
+        ]
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "calculateAccruedRewards",
+    "inputs": [
+      {
+        "name": "lpTokens",
+        "type": "address[]",
+        "internalType": "address[]"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "result",
+        "type": "tuple[]",
+        "internalType": "struct LiquidityMiningTypes.AccruedRewardsResult[]",
+        "components": [
+          {
+            "name": "lpToken",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "rewardsAmount",
+            "type": "uint256",
+            "internalType": "uint256"
+          }
+        ]
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "claimInternal",
+    "inputs": [
+      {
+        "name": "account",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "lpTokens",
+        "type": "address[]",
+        "internalType": "address[]"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "rewardsAmountToTransfer",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "confirmTransferOwnership",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "getAccountIndicators",
+    "inputs": [
+      {
+        "name": "account",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "lpTokens",
+        "type": "address[]",
+        "internalType": "address[]"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "tuple[]",
+        "internalType": "struct LiquidityMiningTypes.AccountIndicatorsResult[]",
+        "components": [
+          {
+            "name": "lpToken",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "indicators",
+            "type": "tuple",
+            "internalType": "struct LiquidityMiningTypes.AccountRewardsIndicators",
+            "components": [
+              {
+                "name": "compositeMultiplierCumulativePrevBlock",
+                "type": "uint128",
+                "internalType": "uint128"
+              },
+              {
+                "name": "lpTokenBalance",
+                "type": "uint128",
+                "internalType": "uint128"
+              },
+              {
+                "name": "powerUp",
+                "type": "uint72",
+                "internalType": "uint72"
+              },
+              {
+                "name": "delegatedPwTokenBalance",
+                "type": "uint96",
+                "internalType": "uint96"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "getConfiguration",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "getGlobalIndicators",
+    "inputs": [
+      {
+        "name": "lpTokens",
+        "type": "address[]",
+        "internalType": "address[]"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "tuple[]",
+        "internalType": "struct LiquidityMiningTypes.GlobalIndicatorsResult[]",
+        "components": [
+          {
+            "name": "lpToken",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "indicators",
+            "type": "tuple",
+            "internalType": "struct LiquidityMiningTypes.GlobalRewardsIndicators",
+            "components": [
+              {
+                "name": "aggregatedPowerUp",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "compositeMultiplierInTheBlock",
+                "type": "uint128",
+                "internalType": "uint128"
+              },
+              {
+                "name": "compositeMultiplierCumulativePrevBlock",
+                "type": "uint128",
+                "internalType": "uint128"
+              },
+              {
+                "name": "blockNumber",
+                "type": "uint32",
+                "internalType": "uint32"
+              },
+              {
+                "name": "rewardsPerBlock",
+                "type": "uint32",
+                "internalType": "uint32"
+              },
+              {
+                "name": "accruedRewards",
+                "type": "uint88",
+                "internalType": "uint88"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "getImplementation",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "getPoolPowerUpModifiers",
+    "inputs": [
+      {
+        "name": "lpToken",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "pwTokenModifier",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "logBase",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "vectorOfCurve",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "getVersion",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "stateMutability": "pure"
+  },
+  {
+    "type": "function",
+    "name": "grantAllowanceForRouter",
+    "inputs": [
+      {
+        "name": "erc20Token",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "initialize",
+    "inputs": [
+      {
+        "name": "lpTokens",
+        "type": "address[]",
+        "internalType": "address[]"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "isLpTokenSupported",
+    "inputs": [
+      {
+        "name": "lpToken",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool",
+        "internalType": "bool"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "isPauseGuardian",
+    "inputs": [
+      {
+        "name": "guardian",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool",
+        "internalType": "bool"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "newSupportedLpToken",
+    "inputs": [
+      {
+        "name": "lpToken",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "owner",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "pause",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "paused",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool",
+        "internalType": "bool"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "phasingOutLpToken",
+    "inputs": [
+      {
+        "name": "lpToken",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "proxiableUUID",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "removeLpTokensInternal",
+    "inputs": [
+      {
+        "name": "updateLpToken",
+        "type": "tuple[]",
+        "internalType": "struct LiquidityMiningTypes.UpdateLpToken[]",
+        "components": [
+          {
+            "name": "beneficiary",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "lpToken",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "lpTokenAmount",
+            "type": "uint256",
+            "internalType": "uint256"
+          }
+        ]
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "removePauseGuardians",
+    "inputs": [
+      {
+        "name": "guardians",
+        "type": "address[]",
+        "internalType": "address[]"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "removePwTokensInternal",
+    "inputs": [
+      {
+        "name": "updatePwTokens",
+        "type": "tuple[]",
+        "internalType": "struct LiquidityMiningTypes.UpdatePwToken[]",
+        "components": [
+          {
+            "name": "beneficiary",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "lpToken",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "pwTokenAmount",
+            "type": "uint256",
+            "internalType": "uint256"
+          }
+        ]
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "renounceOwnership",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "revokeAllowanceForRouter",
+    "inputs": [
+      {
+        "name": "erc20Token",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "routerAddress",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "setPoolPowerUpModifiers",
+    "inputs": [
+      {
+        "name": "lpTokens",
+        "type": "address[]",
+        "internalType": "address[]"
+      },
+      {
+        "name": "modifiers",
+        "type": "tuple[]",
+        "internalType": "struct LiquidityMiningTypes.PoolPowerUpModifier[]",
+        "components": [
+          {
+            "name": "logBase",
+            "type": "uint64",
+            "internalType": "uint64"
+          },
+          {
+            "name": "pwTokenModifier",
+            "type": "uint64",
+            "internalType": "uint64"
+          },
+          {
+            "name": "vectorOfCurve",
+            "type": "uint64",
+            "internalType": "uint64"
+          }
+        ]
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "setRewardsPerBlock",
+    "inputs": [
+      {
+        "name": "lpTokens",
+        "type": "address[]",
+        "internalType": "address[]"
+      },
+      {
+        "name": "pwTokenAmounts",
+        "type": "uint32[]",
+        "internalType": "uint32[]"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "transferOwnership",
+    "inputs": [
+      {
+        "name": "appointedOwner",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "unpause",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "updateIndicators",
+    "inputs": [
+      {
+        "name": "account",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "lpTokens",
+        "type": "address[]",
+        "internalType": "address[]"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "upgradeTo",
+    "inputs": [
+      {
+        "name": "newImplementation",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "upgradeToAndCall",
+    "inputs": [
+      {
+        "name": "newImplementation",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "data",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "payable"
+  },
+  {
+    "type": "event",
+    "name": "AdminChanged",
+    "inputs": [
+      {
+        "name": "previousAdmin",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      },
+      {
+        "name": "newAdmin",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "AllowanceGranted",
+    "inputs": [
+      {
+        "name": "erc20Token",
+        "type": "address",
+        "indexed": true,
+        "internalType": "address"
+      },
+      {
+        "name": "router",
+        "type": "address",
+        "indexed": true,
+        "internalType": "address"
+      }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "AllowanceRevoked",
+    "inputs": [
+      {
+        "name": "erc20Token",
+        "type": "address",
+        "indexed": true,
+        "internalType": "address"
+      },
+      {
+        "name": "router",
+        "type": "address",
+        "indexed": true,
+        "internalType": "address"
+      }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "AppointedToTransferOwnership",
+    "inputs": [
+      {
+        "name": "appointedOwner",
+        "type": "address",
+        "indexed": true,
+        "internalType": "address"
+      }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "BeaconUpgraded",
+    "inputs": [
+      {
+        "name": "beacon",
+        "type": "address",
+        "indexed": true,
+        "internalType": "address"
+      }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "Claimed",
+    "inputs": [
+      {
+        "name": "account",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      },
+      {
+        "name": "lpTokens",
+        "type": "address[]",
+        "indexed": false,
+        "internalType": "address[]"
+      },
+      {
+        "name": "rewardsAmount",
+        "type": "uint256",
+        "indexed": false,
+        "internalType": "uint256"
+      }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "IndicatorsUpdated",
+    "inputs": [
+      {
+        "name": "account",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      },
+      {
+        "name": "lpToken",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "Initialized",
+    "inputs": [
+      {
+        "name": "version",
+        "type": "uint8",
+        "indexed": false,
+        "internalType": "uint8"
+      }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "LpTokenAdded",
+    "inputs": [
+      {
+        "name": "beneficiary",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      },
+      {
+        "name": "lpToken",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      },
+      {
+        "name": "lpTokenAmount",
+        "type": "uint256",
+        "indexed": false,
+        "internalType": "uint256"
+      }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "LpTokenSupportRemoved",
+    "inputs": [
+      {
+        "name": "account",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      },
+      {
+        "name": "lpToken",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "LpTokensRemoved",
+    "inputs": [
+      {
+        "name": "account",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      },
+      {
+        "name": "lpToken",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      },
+      {
+        "name": "lpTokenAmount",
+        "type": "uint256",
+        "indexed": false,
+        "internalType": "uint256"
+      }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "LpTokensUnstaked",
+    "inputs": [
+      {
+        "name": "account",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      },
+      {
+        "name": "lpToken",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      },
+      {
+        "name": "lpTokenAmount",
+        "type": "uint256",
+        "indexed": false,
+        "internalType": "uint256"
+      }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "NewLpTokenSupported",
+    "inputs": [
+      {
+        "name": "account",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      },
+      {
+        "name": "lpToken",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "OwnershipTransferred",
+    "inputs": [
+      {
+        "name": "previousOwner",
+        "type": "address",
+        "indexed": true,
+        "internalType": "address"
+      },
+      {
+        "name": "newOwner",
+        "type": "address",
+        "indexed": true,
+        "internalType": "address"
+      }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "PauseGuardiansAdded",
+    "inputs": [
+      {
+        "name": "guardians",
+        "type": "address[]",
+        "indexed": true,
+        "internalType": "address[]"
+      }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "PauseGuardiansRemoved",
+    "inputs": [
+      {
+        "name": "guardians",
+        "type": "address[]",
+        "indexed": true,
+        "internalType": "address[]"
+      }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "PauseManagerChanged",
+    "inputs": [
+      {
+        "name": "newPauseManager",
+        "type": "address",
+        "indexed": true,
+        "internalType": "address"
+      }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "Paused",
+    "inputs": [
+      {
+        "name": "account",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "PoolPowerUpModifiersUpdated",
+    "inputs": [
+      {
+        "name": "lpToken",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      },
+      {
+        "name": "logBase",
+        "type": "uint64",
+        "indexed": false,
+        "internalType": "uint64"
+      },
+      {
+        "name": "pwTokenModifier",
+        "type": "uint64",
+        "indexed": false,
+        "internalType": "uint64"
+      },
+      {
+        "name": "vectorOfCurve",
+        "type": "uint64",
+        "indexed": false,
+        "internalType": "uint64"
+      }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "PwTokenDelegated",
+    "inputs": [
+      {
+        "name": "account",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      },
+      {
+        "name": "lpToken",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      },
+      {
+        "name": "pwTokenAmount",
+        "type": "uint256",
+        "indexed": false,
+        "internalType": "uint256"
+      }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "PwTokenUndelegated",
+    "inputs": [
+      {
+        "name": "account",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      },
+      {
+        "name": "lpToken",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      },
+      {
+        "name": "pwTokenAmount",
+        "type": "uint256",
+        "indexed": false,
+        "internalType": "uint256"
+      }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "PwTokensAdded",
+    "inputs": [
+      {
+        "name": "beneficiary",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      },
+      {
+        "name": "lpToken",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      },
+      {
+        "name": "pwTokenAmount",
+        "type": "uint256",
+        "indexed": false,
+        "internalType": "uint256"
+      }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "PwTokensRemoved",
+    "inputs": [
+      {
+        "name": "account",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      },
+      {
+        "name": "lpToken",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      },
+      {
+        "name": "pwTokenAmount",
+        "type": "uint256",
+        "indexed": false,
+        "internalType": "uint256"
+      }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "RewardsPerBlockChanged",
+    "inputs": [
+      {
+        "name": "lpToken",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      },
+      {
+        "name": "newPwTokenAmount",
+        "type": "uint256",
+        "indexed": false,
+        "internalType": "uint256"
+      }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "Unpaused",
+    "inputs": [
+      {
+        "name": "account",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "Upgraded",
+    "inputs": [
+      {
+        "name": "implementation",
+        "type": "address",
+        "indexed": true,
+        "internalType": "address"
+      }
+    ],
+    "anonymous": false
+  }
+]
