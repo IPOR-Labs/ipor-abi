@@ -260,11 +260,11 @@ interface PlasmaVault {
     function totalAssets() external view returns (uint256);
     function totalAssetsInMarket(uint256 marketId_) external view returns (uint256);
     function totalSupply() external view returns (uint256);
-    function transfer(address to_, uint256 value_) external returns (bool);
-    function transferFrom(address from, address to, uint256 value) external returns (bool);
+    function transfer(address to, uint256 value) external returns (bool);
+    function transferFrom(address from_, address to_, uint256 value_) external returns (bool);
     function updateCallbackHandler(address handler_, address sender_, bytes4 sig_) external;
     function updateDependencyBalanceGraphs(uint256[] memory marketIds_, uint256[][] memory dependencies_) external;
-    function updateInternal(address, address, uint256) external;
+    function updateInternal(address from_, address to_, uint256 value_) external;
     function updateMarketsBalances(uint256[] memory marketIds_) external returns (uint256);
     function withdraw(uint256 assets_, address receiver_, address owner_) external returns (uint256);
 }
