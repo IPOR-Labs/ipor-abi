@@ -55,6 +55,11 @@
         "token": "USDC",
         "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
         "PlasmaVault": "0x45aa96f0b3188D47a1DaFdbefCE1db6B37f58216"
+      },
+      {
+        "token": "cbBTC",
+        "asset": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+        "PlasmaVault": "0x55d8d6e5F17F153f3250b229D5AAc9437e908a77"
       }
     ]
   },
