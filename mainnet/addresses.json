@@ -1,35 +1,100 @@
 {
-  "arbitrum": {
-    "IporProtocolRouter": "0x760Fa0aB719c4067D3A8d4727Cf07E8f3Bf118db",
+  "ethereum": {
+    "IporProtocolRouter": "0x16d104009964e694761C0bf09d7Be49B7E3C26fd",
+    "IporToken": "0x1e4746dC744503b53b4A082cB3607B169a289090",
+    "LiquidityMining": "0xCC3Fc4C9Ba7f8b8aA433Bc586D390A70560FF366",
     "pools": [
       {
-        "token": "wstETH",
-        "asset": "0x5979D7b546E38E414F7E9822514be443A4800529",
-        "AmmTreasury": "0xBd013Ea2E01C2Ab3462dd67e9C83aa3834882A5D"
-      },
-      {
         "token": "USDC",
-        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
-        "AmmTreasury": "0x9324d39B29c85440cadd2202E4703E6f5d1e98F9"
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "AmmTreasury": "0x137000352B4ed784e8fa8815d225c713AB2e7Dc9",
+        "swapsAvailable": true
       },
       {
-        "token": "USDM",
-        "asset": "0x59D9356E565Ab3A36dD77763Fc0d87fEaf85508C",
-        "AmmTreasury": "0x88a4052FABa59AD82908D7064C8EF1778C6ea867"
+        "token": "USDT",
+        "asset": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "AmmTreasury": "0x28BC58e600eF718B9E97d294098abecb8c96b687",
+        "swapsAvailable": true
+      },
+      {
+        "token": "DAI",
+        "asset": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "AmmTreasury": "0xEd7d74AA7eB1f12F83dA36DFaC1de2257b4e7523",
+        "swapsAvailable": true
+      },
+      {
+        "token": "stETH",
+        "asset": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
+        "AmmTreasury": "0x63395EDAF74a80aa1155dB7Cd9BBA976a88DeE4E",
+        "swapsAvailable": true
+      },
+      {
+        "token": "weETH",
+        "asset": "0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee",
+        "AmmTreasury": "0xcC2fF2D38666723ea56c122097F6215B90d74196",
+        "swapsAvailable": false
       }
     ],
     "vaults": [
       {
+        "name": "IPOR USDC Ethereum Optimizer",
+        "token": "USDC",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0x43Ee0243eA8CF02f7087d8B16C8D2007CC9c7cA2"
+      },
+      {
+        "name": "IPOR USDT Ethereum Optimizer",
+        "token": "USDT",
+        "asset": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "PlasmaVault": "0xAbAb980f0eCB232D52f422C6B68D25C3d0c18E3e"
+      },
+      {
+        "name": "IPOR DAI Ethereum Optimizer",
+        "token": "DAI",
+        "asset": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "PlasmaVault": "0x20e934c725b6703f0aC696F1689008057dB9Ac44"
+      }
+    ]
+  },
+  "arbitrum": {
+    "IporProtocolRouter": "0x760Fa0aB719c4067D3A8d4727Cf07E8f3Bf118db",
+    "IporToken": "0x34229B3f16fBCDfA8d8d9d17C0852F9496f4C7BB",
+    "LiquidityMining": "0xdE645aB0560E5A413820234d9DDED5f4a55Ff6dd",
+    "pools": [
+      {
+        "token": "wstETH",
+        "asset": "0x5979D7b546E38E414F7E9822514be443A4800529",
+        "AmmTreasury": "0xBd013Ea2E01C2Ab3462dd67e9C83aa3834882A5D",
+        "swapsAvailable": true
+      },
+      {
+        "token": "USDC",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "AmmTreasury": "0x9324d39B29c85440cadd2202E4703E6f5d1e98F9",
+        "swapsAvailable": true
+      },
+      {
+        "token": "USDM",
+        "asset": "0x59D9356E565Ab3A36dD77763Fc0d87fEaf85508C",
+        "AmmTreasury": "0x88a4052FABa59AD82908D7064C8EF1778C6ea867",
+        "swapsAvailable": false
+      }
+    ],
+    "vaults": [
+      {
+        "name": "IPOR USDC Arbitrum Optimizer",
         "token": "USDC",
         "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
         "PlasmaVault": "0xa91267A25939b2B0f046013fbF9597008F7F014b"
       },
       {
+        "name": "Harvest Fusion USDC",
         "token": "USDC",
         "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
         "PlasmaVault": "0x7fBFD8cdA97C0221B39C581c34AFD24C523a3990"
       },
       {
+        "name": "Singularity Vault",
         "token": "USDC",
         "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
         "PlasmaVault": "0xea7aB80e2be196152f59ab7Efb3Eb4bff49ad3D4"
@@ -38,60 +103,34 @@
   },
   "base": {
     "IporProtocolRouter": "0x21d337eBF86E584e614ecC18A2B1144D3C375918",
+    "IporToken": "0xbd4e5C2f8dE5065993d29A9794E2B7cEfc41437A",
+    "LiquidityMining": "0xE9331948766593EE9CeBBB426faE317b44DaF0f2",
     "pools": [
       {
         "token": "wstETH",
         "asset": "0xc1CBa3fCea344f92D9239c08C0568f6F2F0ee452",
-        "AmmTreasury": "0x09388e18d5C331449C6eF636726dD1fd007b8DDf"
+        "AmmTreasury": "0x09388e18d5C331449C6eF636726dD1fd007b8DDf",
+        "swapsAvailable": true
       },
       {
         "token": "USDC",
         "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
-        "AmmTreasury": "0x1AbA7a3C3bec8139B10a4807087084064A454a24"
+        "AmmTreasury": "0x1AbA7a3C3bec8139B10a4807087084064A454a24",
+        "swapsAvailable": true
       }
     ],
     "vaults": [
       {
+        "name": "IPOR USDC Lending Optimizer Base",
         "token": "USDC",
         "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
         "PlasmaVault": "0x45aa96f0b3188D47a1DaFdbefCE1db6B37f58216"
       },
       {
+        "name": "Tesseract Managed BTC",
         "token": "cbBTC",
         "asset": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
         "PlasmaVault": "0x55d8d6e5F17F153f3250b229D5AAc9437e908a77"
-      }
-    ]
-  },
-  "ethereum": {
-    "IporProtocolRouter": "0x16d104009964e694761C0bf09d7Be49B7E3C26fd",
-    "pools": [
-      {
-        "name": "stETH",
-        "asset": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
-        "AmmTreasury": "0x63395EDAF74a80aa1155dB7Cd9BBA976a88DeE4E"
-      },
-      {
-        "asset": "0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee",
-        "name": "weETH",
-        "AmmTreasury": "0xcC2fF2D38666723ea56c122097F6215B90d74196"
-      }
-    ],
-    "vaults": [
-      {
-        "token": "USDT",
-        "asset": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
-        "PlasmaVault": "0xAbAb980f0eCB232D52f422C6B68D25C3d0c18E3e"
-      },
-      {
-        "token": "USDC",
-        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-        "PlasmaVault": "0x43Ee0243eA8CF02f7087d8B16C8D2007CC9c7cA2"
-      },
-      {
-        "token": "DAI",
-        "asset": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
-        "PlasmaVault": "0x20e934c725b6703f0aC696F1689008057dB9Ac44"
       }
     ]
   }
