@@ -97,7 +97,7 @@
         "name": "Singularity Vault",
         "token": "USDC",
         "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
-        "PlasmaVault": "0xea7aB80e2be196152f59ab7Efb3Eb4bff49ad3D4"
+        "PlasmaVault": "0x05231e2fB2F580F043D7760a5CFb4Ec6F01656E9"
       }
     ]
   },
@@ -130,7 +130,7 @@
         "name": "Tesseract Managed BTC",
         "token": "cbBTC",
         "asset": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
-        "PlasmaVault": "0x94D2de617Cf5805233Cc4367a96DEaC53073e695"
+        "PlasmaVault": "0xDAB31950DdCC814c49E6bBD5153DD2062E44F368"
       }
     ]
   }
