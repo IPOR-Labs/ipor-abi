@@ -131,6 +131,24 @@
         "token": "cbBTC",
         "asset": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
         "PlasmaVault": "0xDAB31950DdCC814c49E6bBD5153DD2062E44F368"
+      },
+      {
+        "name": "Autopilot cbBTC",
+        "token": "cbBTC",
+        "asset": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+        "PlasmaVault": "0x370A3D2800b1ea990634835a5709fB31082de6d9"
+      },
+      {
+        "name": "Autopilot USDC",
+        "token": "USDC",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0xD00E821C550Ce92EbD4A70bEcb02657dA7A5c562"
+      },
+      {
+        "name": "Autopilot wETH",
+        "token": "WETH",
+        "asset": "0x4200000000000000000000000000000000000006",
+        "PlasmaVault": "0x31A36d3eAB4A8e0d365eB72EE9079603aF6C421c"
       }
     ]
   }
