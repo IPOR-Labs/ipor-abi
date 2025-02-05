@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "fill-vaults"
+version = "0.1.0"
+description = "Script to extract plasma vault addresses from JSON files"
+authors = ["IPOR Labs AG"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+web3 = "^7.7.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+fill-vaults = "fill-vaults.py"
