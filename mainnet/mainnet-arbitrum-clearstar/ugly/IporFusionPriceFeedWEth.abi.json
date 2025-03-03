@@ -34,7 +34,7 @@
         "internalType": "uint8"
       }
     ],
-    "stateMutability": "view"
+    "stateMutability": "pure"
   },
   {
     "type": "function",
@@ -70,13 +70,36 @@
     "stateMutability": "view"
   },
   {
+    "type": "event",
+    "name": "PriceFeedInitialized",
+    "inputs": [
+      {
+        "name": "chainlinkFeed",
+        "type": "address",
+        "indexed": true,
+        "internalType": "address"
+      }
+    ],
+    "anonymous": false
+  },
+  {
     "type": "error",
-    "name": "WrongAddress",
+    "name": "InvalidDecimals",
     "inputs": []
   },
   {
     "type": "error",
-    "name": "WrongDecimals",
+    "name": "InvalidPrice",
+    "inputs": []
+  },
+  {
+    "type": "error",
+    "name": "StalePrice",
+    "inputs": []
+  },
+  {
+    "type": "error",
+    "name": "ZeroAddress",
     "inputs": []
   }
 ]
