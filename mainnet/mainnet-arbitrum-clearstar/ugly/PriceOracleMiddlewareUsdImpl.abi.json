@@ -455,11 +455,6 @@
   },
   {
     "type": "error",
-    "name": "WrongDecimalsInPriceFeed",
-    "inputs": []
-  },
-  {
-    "type": "error",
     "name": "ZeroAddress",
     "inputs": [
       {

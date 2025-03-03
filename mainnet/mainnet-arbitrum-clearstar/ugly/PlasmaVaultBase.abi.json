@@ -194,6 +194,13 @@
   },
   {
     "type": "function",
+    "name": "clearContext",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
     "name": "clock",
     "inputs": [],
     "outputs": [
@@ -428,6 +435,19 @@
   },
   {
     "type": "function",
+    "name": "getActiveMarketsInBalanceFuses",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256[]",
+        "internalType": "uint256[]"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
     "name": "getDependencyBalanceGraph",
     "inputs": [
       {
@@ -627,6 +647,38 @@
             "internalType": "uint16"
           }
         ]
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "getPreHookImplementation",
+    "inputs": [
+      {
+        "name": "selector_",
+        "type": "bytes4",
+        "internalType": "bytes4"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "getPreHookSelectors",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bytes4[]",
+        "internalType": "bytes4[]"
       }
     ],
     "stateMutability": "view"
@@ -981,6 +1033,29 @@
   },
   {
     "type": "function",
+    "name": "setPreHookImplementations",
+    "inputs": [
+      {
+        "name": "selectors_",
+        "type": "bytes4[]",
+        "internalType": "bytes4[]"
+      },
+      {
+        "name": "implementations_",
+        "type": "address[]",
+        "internalType": "address[]"
+      },
+      {
+        "name": "substrates_",
+        "type": "bytes32[][]",
+        "internalType": "bytes32[][]"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
     "name": "setPriceOracleMiddleware",
     "inputs": [
       {
@@ -1013,6 +1088,19 @@
         "name": "cap_",
         "type": "uint256",
         "internalType": "uint256"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "setupContext",
+    "inputs": [
+      {
+        "name": "sender_",
+        "type": "address",
+        "internalType": "address"
       }
     ],
     "outputs": [],
@@ -1120,6 +1208,29 @@
         "internalType": "bool"
       }
     ],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "transferRequestSharesFee",
+    "inputs": [
+      {
+        "name": "from_",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "to_",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "amount_",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "outputs": [],
     "stateMutability": "nonpayable"
   },
   {
@@ -1283,6 +1394,32 @@
         "type": "bytes4",
         "indexed": true,
         "internalType": "bytes4"
+      }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "ContextCleared",
+    "inputs": [
+      {
+        "name": "sender_",
+        "type": "address",
+        "indexed": true,
+        "internalType": "address"
+      }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "ContextSet",
+    "inputs": [
+      {
+        "name": "sender_",
+        "type": "address",
+        "indexed": true,
+        "internalType": "address"
       }
     ],
     "anonymous": false
@@ -1497,6 +1634,31 @@
   },
   {
     "type": "event",
+    "name": "PreHookImplementationChanged",
+    "inputs": [
+      {
+        "name": "selector",
+        "type": "bytes4",
+        "indexed": true,
+        "internalType": "bytes4"
+      },
+      {
+        "name": "newImplementation",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      },
+      {
+        "name": "substrates",
+        "type": "bytes32[]",
+        "indexed": false,
+        "internalType": "bytes32[]"
+      }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
     "name": "PriceOracleMiddlewareChanged",
     "inputs": [
       {
@@ -1629,6 +1791,22 @@
   },
   {
     "type": "error",
+    "name": "BalanceFuseMarketIdMismatch",
+    "inputs": [
+      {
+        "name": "marketId",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "fuse",
+        "type": "address",
+        "internalType": "address"
+      }
+    ]
+  },
+  {
+    "type": "error",
     "name": "BalanceFuseNotReadyToRemove",
     "inputs": [
       {
@@ -1651,6 +1829,16 @@
   {
     "type": "error",
     "name": "CheckpointUnorderedInsertion",
+    "inputs": []
+  },
+  {
+    "type": "error",
+    "name": "ContextAlreadySet",
+    "inputs": []
+  },
+  {
+    "type": "error",
+    "name": "ContextNotSet",
     "inputs": []
   },
   {
@@ -1928,6 +2116,16 @@
   },
   {
     "type": "error",
+    "name": "PreHooksLibInvalidArrayLength",
+    "inputs": []
+  },
+  {
+    "type": "error",
+    "name": "PreHooksLibInvalidSelector",
+    "inputs": []
+  },
+  {
+    "type": "error",
     "name": "SafeCastOverflowedUintDowncast",
     "inputs": [
       {
@@ -1941,6 +2139,11 @@
         "internalType": "uint256"
       }
     ]
+  },
+  {
+    "type": "error",
+    "name": "UnauthorizedSender",
+    "inputs": []
   },
   {
     "type": "error",
