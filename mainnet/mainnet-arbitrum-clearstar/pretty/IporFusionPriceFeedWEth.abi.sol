@@ -1,9 +1,13 @@
 interface WETHPriceFeed {
-    error WrongAddress();
-    error WrongDecimals();
+    error InvalidDecimals();
+    error InvalidPrice();
+    error StalePrice();
+    error ZeroAddress();
+
+    event PriceFeedInitialized(address indexed chainlinkFeed);
 
     function ETH_USD_CHAINLINK_FEED() external view returns (address);
-    function decimals() external view returns (uint8);
+    function decimals() external pure returns (uint8);
     function latestRoundData()
         external
         view

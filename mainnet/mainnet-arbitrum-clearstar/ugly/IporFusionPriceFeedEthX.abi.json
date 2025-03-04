@@ -107,7 +107,17 @@
   },
   {
     "type": "error",
+    "name": "InvalidDecimals",
+    "inputs": []
+  },
+  {
+    "type": "error",
     "name": "MathOverflowedMulDiv",
+    "inputs": []
+  },
+  {
+    "type": "error",
+    "name": "NegativeOrZeroPrice",
     "inputs": []
   },
   {
@@ -134,7 +144,7 @@
   },
   {
     "type": "error",
-    "name": "WrongAddress",
+    "name": "ZeroAddress",
     "inputs": []
   }
 ]

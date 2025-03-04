@@ -9,16 +9,20 @@ interface FeeManagerFactory {
     }
 
     struct FeeManagerInitData {
-        uint256 iporDaoManagementFee;
-        uint256 iporDaoPerformanceFee;
-        uint256 atomistManagementFee;
-        uint256 atomistPerformanceFee;
         address initialAuthority;
         address plasmaVault;
-        address feeRecipientAddress;
+        uint256 iporDaoManagementFee;
+        uint256 iporDaoPerformanceFee;
         address iporDaoFeeRecipientAddress;
+        RecipientFee[] recipientManagementFees;
+        RecipientFee[] recipientPerformanceFees;
     }
 
-    function deployFeeManager(FeeManagerInitData memory initData) external returns (FeeManagerData memory);
+    struct RecipientFee {
+        address recipient;
+        uint256 feeValue;
+    }
+
+    function deployFeeManager(FeeManagerInitData memory initData_) external returns (FeeManagerData memory);
 }
 

@@ -1,8 +1,10 @@
 interface AssetChainlinkPriceFeed {
+    error InvalidDecimals();
     error MathOverflowedMulDiv();
+    error NegativeOrZeroPrice();
     error SafeCastOverflowedIntToUint(int256 value);
     error SafeCastOverflowedUintToInt(uint256 value);
-    error WrongAddress();
+    error ZeroAddress();
 
     function ASSET_X() external view returns (address);
     function ASSET_X_ASSET_Y_CHAINLINK_FEED() external view returns (address);

@@ -4,30 +4,10 @@
     "name": "deployFeeManager",
     "inputs": [
       {
-        "name": "initData",
+        "name": "initData_",
         "type": "tuple",
         "internalType": "struct FeeManagerInitData",
         "components": [
-          {
-            "name": "iporDaoManagementFee",
-            "type": "uint256",
-            "internalType": "uint256"
-          },
-          {
-            "name": "iporDaoPerformanceFee",
-            "type": "uint256",
-            "internalType": "uint256"
-          },
-          {
-            "name": "atomistManagementFee",
-            "type": "uint256",
-            "internalType": "uint256"
-          },
-          {
-            "name": "atomistPerformanceFee",
-            "type": "uint256",
-            "internalType": "uint256"
-          },
           {
             "name": "initialAuthority",
             "type": "address",
@@ -39,14 +19,53 @@
             "internalType": "address"
           },
           {
-            "name": "feeRecipientAddress",
-            "type": "address",
-            "internalType": "address"
+            "name": "iporDaoManagementFee",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "iporDaoPerformanceFee",
+            "type": "uint256",
+            "internalType": "uint256"
           },
           {
             "name": "iporDaoFeeRecipientAddress",
             "type": "address",
             "internalType": "address"
+          },
+          {
+            "name": "recipientManagementFees",
+            "type": "tuple[]",
+            "internalType": "struct RecipientFee[]",
+            "components": [
+              {
+                "name": "recipient",
+                "type": "address",
+                "internalType": "address"
+              },
+              {
+                "name": "feeValue",
+                "type": "uint256",
+                "internalType": "uint256"
+              }
+            ]
+          },
+          {
+            "name": "recipientPerformanceFees",
+            "type": "tuple[]",
+            "internalType": "struct RecipientFee[]",
+            "components": [
+              {
+                "name": "recipient",
+                "type": "address",
+                "internalType": "address"
+              },
+              {
+                "name": "feeValue",
+                "type": "uint256",
+                "internalType": "uint256"
+              }
+            ]
           }
         ]
       }
