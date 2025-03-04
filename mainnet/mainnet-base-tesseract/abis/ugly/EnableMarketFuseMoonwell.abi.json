@@ -1,0 +1,189 @@
+[
+  {
+    "type": "constructor",
+    "inputs": [
+      {
+        "name": "marketId_",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "comptroller_",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "COMPTROLLER",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "contract MComptroller"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "MARKET_ID",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "VERSION",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "enter",
+    "inputs": [
+      {
+        "name": "data_",
+        "type": "tuple",
+        "internalType": "struct MoonwellEnableMarketFuseEnterData",
+        "components": [
+          {
+            "name": "mTokens",
+            "type": "address[]",
+            "internalType": "address[]"
+          }
+        ]
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "exit",
+    "inputs": [
+      {
+        "name": "data_",
+        "type": "tuple",
+        "internalType": "struct MoonwellEnableMarketFuseExitData",
+        "components": [
+          {
+            "name": "mTokens",
+            "type": "address[]",
+            "internalType": "address[]"
+          }
+        ]
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "event",
+    "name": "MoonwellMarketDisableFailed",
+    "inputs": [
+      {
+        "name": "version",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      },
+      {
+        "name": "mToken",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "MoonwellMarketDisabled",
+    "inputs": [
+      {
+        "name": "version",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      },
+      {
+        "name": "mToken",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "MoonwellMarketEnableFailed",
+    "inputs": [
+      {
+        "name": "version",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      },
+      {
+        "name": "mTokens",
+        "type": "address[]",
+        "indexed": false,
+        "internalType": "address[]"
+      }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "MoonwellMarketEnabled",
+    "inputs": [
+      {
+        "name": "version",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      },
+      {
+        "name": "mTokens",
+        "type": "address[]",
+        "indexed": false,
+        "internalType": "address[]"
+      }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "error",
+    "name": "MoonwellEnableMarketFuseEmptyArray",
+    "inputs": []
+  },
+  {
+    "type": "error",
+    "name": "MoonwellEnableMarketFuseUnsupportedMToken",
+    "inputs": [
+      {
+        "name": "mToken",
+        "type": "address",
+        "internalType": "address"
+      }
+    ]
+  }
+]

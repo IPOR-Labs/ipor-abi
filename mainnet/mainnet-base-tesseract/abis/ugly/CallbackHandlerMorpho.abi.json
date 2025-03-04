@@ -1,0 +1,94 @@
+[
+  {
+    "type": "function",
+    "name": "onMorphoFlashLoan",
+    "inputs": [
+      {
+        "name": "assets",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "data",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "tuple",
+        "internalType": "struct CallbackData",
+        "components": [
+          {
+            "name": "asset",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "addressToApprove",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "amountToApprove",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "actionData",
+            "type": "bytes",
+            "internalType": "bytes"
+          }
+        ]
+      }
+    ],
+    "stateMutability": "pure"
+  },
+  {
+    "type": "function",
+    "name": "onMorphoSupply",
+    "inputs": [
+      {
+        "name": "assets",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "data",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "tuple",
+        "internalType": "struct CallbackData",
+        "components": [
+          {
+            "name": "asset",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "addressToApprove",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "amountToApprove",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "actionData",
+            "type": "bytes",
+            "internalType": "bytes"
+          }
+        ]
+      }
+    ],
+    "stateMutability": "pure"
+  }
+]
