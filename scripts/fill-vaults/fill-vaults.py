@@ -17,6 +17,7 @@ PLASMA_FIELDS = [
     'IporPlasmaVaultRUsd',
     'IporPlasmaVaultUsdc',
     'IporPlasmaVaultUsdt',
+    'IporPlasmaVaultWBTC',
     'IporPlasmaVaultWEth'
 ]
 

@@ -53,6 +53,12 @@
         "token": "DAI",
         "asset": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
         "PlasmaVault": "0x20e934c725b6703f0aC696F1689008057dB9Ac44"
+      },
+      {
+        "name": "Reservoir srUSD Looping Ethereum",
+        "token": "rUSD",
+        "asset": "0x09D4214C03D01F49544C0448DBE3A27f768F2b34",
+        "PlasmaVault": "0xe9385eFf3F937FcB0f0085Da9A3F53D6C2B4fB5F"
       }
     ]
   },
@@ -94,10 +100,34 @@
         "PlasmaVault": "0x7fBFD8cdA97C0221B39C581c34AFD24C523a3990"
       },
       {
-        "name": "Singularity Vault",
+        "name": "OLD Singularity Vault",
         "token": "USDC",
         "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
         "PlasmaVault": "0x05231e2fB2F580F043D7760a5CFb4Ec6F01656E9"
+      },
+      {
+        "name": "Singularity Vault",
+        "token": "USDC",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x272Cb09e2d6237304E4D2BcB9DEf40032aA0ebB1"
+      },
+      {
+        "name": "Autopilot USDC Arbitrum",
+        "token": "USDC",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xC015d83e24FDDe23100AD1E9baD837878fbfaB94"
+      },
+      {
+        "name": "Autopilot wBTC Arbitrum",
+        "token": "WBTC",
+        "asset": "0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f",
+        "PlasmaVault": "0xD66964BD4049f7Fd2e279FE048eAA2c12E802658"
+      },
+      {
+        "name": "Autopilot wETH Arbitrum",
+        "token": "WETH",
+        "asset": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+        "PlasmaVault": "0x18B9Dc9762Ec6095f34f2d77042Ab8283fA764B4"
       }
     ]
   },
@@ -130,7 +160,7 @@
         "name": "Tesseract Managed BTC",
         "token": "cbBTC",
         "asset": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
-        "PlasmaVault": "0xDAB31950DdCC814c49E6bBD5153DD2062E44F368"
+        "PlasmaVault": "0x60664Eb6B193204DF730D269F064C1548453beED"
       },
       {
         "name": "Autopilot cbBTC",
@@ -149,6 +179,30 @@
         "token": "WETH",
         "asset": "0x4200000000000000000000000000000000000006",
         "PlasmaVault": "0x31A36d3eAB4A8e0d365eB72EE9079603aF6C421c"
+      },
+      {
+        "name": "Ethereum Xerberus Prime Index",
+        "token": "WETH",
+        "asset": "0x4200000000000000000000000000000000000006",
+        "PlasmaVault": "0x6539fD9916bc76c4324b747398aB066a256B8dD1"
+      },
+      {
+        "name": "Autopilot cbBTC Base",
+        "token": "cbBTC",
+        "asset": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+        "PlasmaVault": "0x31A421271414641cb5063B71594b642D2666dB6B"
+      },
+      {
+        "name": "Autopilot USDC Base",
+        "token": "USDC",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x0d877Dc7C8Fa3aD980DfDb18B48eC9F8768359C4"
+      },
+      {
+        "name": "Autopilot wETH Base",
+        "token": "WETH",
+        "asset": "0x4200000000000000000000000000000000000006",
+        "PlasmaVault": "0x7872893e528Fe2c0829e405960db5B742112aa97"
       }
     ]
   }
