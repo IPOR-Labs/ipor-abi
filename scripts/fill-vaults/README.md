@@ -60,6 +60,7 @@ Processes the following vault types:
 - IporPlasmaVaultRUsd
 - IporPlasmaVaultUsdc
 - IporPlasmaVaultUsdt
+- IporPlasmaVaultWBTC
 - IporPlasmaVaultWEth
 
 New vaults field names need to be added to the script to `PLASMA_FIELDS` constant.
