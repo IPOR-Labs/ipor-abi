@@ -15,26 +15,22 @@ MAIN_ADDRESSES_FILE = f'{START_PATH}/{ADDRESSES_FILENAME}'
 
 ZERO_ADDRESS = "0x0000000000000000000000000000000000000000"
 
-# Load environment variables from .env file
 load_dotenv()
 
-# Get RPC URLs from environment variables
 RPC_URLS = {
     "ethereum": os.getenv("ETHEREUM_RPC_URL"),
     "arbitrum": os.getenv("ARBITRUM_RPC_URL"),
     "base": os.getenv("BASE_RPC_URL")
 }
 
-# Validate that all required RPC URLs are available
 for chain, url in RPC_URLS.items():
     if not url:
         raise ValueError(f"Missing RPC URL for {chain}. Please add {chain.upper()}_RPC_URL to your .env file.")
 
-# Dodaj początkowe bloki dla każdego łańcucha
 CHAIN_START_BLOCKS = {
-    "ethereum": 20733870,  # Przykładowy blok - dostosuj do rzeczywistej daty wdrożenia pierwszych kontraktów
-    "arbitrum": 218743859,  # Przykładowy blok dla Arbitrum
-    "base": 	21704649       # Przykładowy blok dla Base
+    "ethereum": 20733870,
+    "arbitrum": 218743859,
+    "base": 	21704649
 }
 
 TOKEN_ABI = [
@@ -47,7 +43,6 @@ TOKEN_ABI = [
     }
 ]
 
-# Setup logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
@@ -57,7 +52,6 @@ def get_contract_deployment_date(web3, address, chain):
         checksum_address = Web3.to_checksum_address(address)
         logger.info(f"Calling web3: get_contract_deployment_date for address {address}")
         
-        # Użyj skonfigurowanego bloku początkowego zamiast 0
         left = CHAIN_START_BLOCKS.get(chain, 0)
         logger.info(f"Calling web3: get_block_number")
         right = web3.eth.block_number
@@ -148,6 +142,13 @@ def update_addresses_json(fuses_file, addresses_file):
         for chain, url in RPC_URLS.items():
             web3_connections[chain] = Web3(Web3.HTTPProvider(url))
 
+        existing_fuses = {}
+        for chain in addresses:
+            existing_fuses[chain] = {}
+            if "fuses" in addresses[chain]:
+                for fuse in addresses[chain]["fuses"]:
+                    existing_fuses[chain][fuse["name"]] = fuse["versions"]
+
         for file_path, fuses in fuses_data.items():
             chain = None
             if "ethereum" in file_path:
@@ -163,12 +164,24 @@ def update_addresses_json(fuses_file, addresses_file):
             web3 = web3_connections[chain]
             
             for field_name, address in fuses.items():
-                deployment_date = get_contract_deployment_date(web3, address, chain)
+                address_already_known = False
+                if field_name in existing_fuses.get(chain, {}):
+                    for date, existing_address in existing_fuses[chain][field_name].items():
+                        if existing_address.lower() == address.lower():
+                            address_already_known = True
+                            if field_name not in blockchain_fuses[chain]:
+                                blockchain_fuses[chain][field_name] = {}
+                            blockchain_fuses[chain][field_name][date] = address
+                            logger.info(f"Using existing date for {field_name} at {address} on {chain}")
+                            break
                 
-                if field_name not in blockchain_fuses[chain]:
-                    blockchain_fuses[chain][field_name] = {}
-                
-                blockchain_fuses[chain][field_name][deployment_date] = address
+                if not address_already_known:
+                    deployment_date = get_contract_deployment_date(web3, address, chain)
+                    
+                    if field_name not in blockchain_fuses[chain]:
+                        blockchain_fuses[chain][field_name] = {}
+                    
+                    blockchain_fuses[chain][field_name][deployment_date] = address
 
         for chain, fuse_dict in blockchain_fuses.items():
             if chain not in addresses:
