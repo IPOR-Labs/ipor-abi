@@ -307,21 +307,6 @@ files = [
 ]
 
 [[package]]
-name = "cchecksum"
-version = "0.0.4"
-description = "A ~2x faster drop-in replacement for eth_utils.to_checksum_address. Raises the exact same Exceptions. Implemented in C."
-optional = false
-python-versions = "<4,>=3.8"
-groups = ["main"]
-files = [
-    {file = "cchecksum-0.0.4.tar.gz", hash = "sha256:612b7db7dc317c3303aa2db54e7ee71fb7ca2ccae46e420ae5afbefe6c8b01ed"},
-]
-
-[package.dependencies]
-eth-typing = "*"
-eth-utils = "*"
-
-[[package]]
 name = "certifi"
 version = "2025.1.31"
 description = "Python package for providing Mozilla's CA Bundle."
@@ -775,21 +760,6 @@ docs = ["towncrier (>=24,<25)"]
 test = ["asn1tools (>=0.146.2)", "eth-hash[pysha3]", "factory-boy (>=3.0.1)", "hypothesis (>=5.10.3)", "pyasn1 (>=0.4.5)", "pytest (>=7.0.0)"]
 
 [[package]]
-name = "eth-retry"
-version = "0.2.1"
-description = "Provides a decorator that automatically catches known transient exceptions that are common in the Ethereum/EVM ecosystem and reattempts to evaluate your decorated function"
-optional = false
-python-versions = "*"
-groups = ["main"]
-files = [
-    {file = "eth_retry-0.2.1-py3-none-any.whl", hash = "sha256:df90cc4fe2d742bfa0f03e0ae4eaf28730ba01d88b997cacaa2aa1955988f57e"},
-    {file = "eth_retry-0.2.1.tar.gz", hash = "sha256:12ffd9ca8e8a3e87cbd76019fdcf59b019ad9769f792a51135868b66c6f5a0ed"},
-]
-
-[package.dependencies]
-typing_extensions = ">=4.0.1"
-
-[[package]]
 name = "eth-rlp"
 version = "2.2.0"
 description = "eth-rlp: RLP definitions for common Ethereum objects in Python"
@@ -987,23 +957,6 @@ files = [
 
 [package.extras]
 all = ["flake8 (>=7.1.1)", "mypy (>=1.11.2)", "pytest (>=8.3.2)", "ruff (>=0.6.2)"]
-
-[[package]]
-name = "multicall"
-version = "0.10.0"
-description = "aggregate results from multiple ethereum contract calls"
-optional = false
-python-versions = "<4,>=3.8"
-groups = ["main"]
-files = [
-    {file = "multicall-0.10.0-py3-none-any.whl", hash = "sha256:e29fa7b072d503d5958cf49b5f16495ba3b6e1087242584e5a4a100520de7afc"},
-    {file = "multicall-0.10.0.tar.gz", hash = "sha256:fe395c0810b9db220bdd79792b951781ad566b67c8744c2255670b9ecda14857"},
-]
-
-[package.dependencies]
-cchecksum = ">=0.0.3,<1"
-eth_retry = ">=0.1.8"
-web3 = ">=5.27,<5.29.dev0 || >5.31.0,<5.31.1 || >5.31.1,<5.31.2 || >5.31.2"
 
 [[package]]
 name = "multidict"
@@ -1897,4 +1850,4 @@ propcache = ">=0.2.0"
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.12"
-content-hash = "0746e8ea81a51b5cf8ee6e987eb03b545d24248d477fe76f57b24ee23627c9e6"
+content-hash = "79d09c8bc760183c5ce5ffbb17c6e7fd2471ab9ce4a6b450361d0348ee951d72"

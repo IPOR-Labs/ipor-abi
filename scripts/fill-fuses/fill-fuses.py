@@ -18,9 +18,9 @@ ZERO_ADDRESS = "0x0000000000000000000000000000000000000000"
 load_dotenv()
 
 RPC_URLS = {
-    "ethereum": os.getenv("ETHEREUM_RPC_URL"),
-    "arbitrum": os.getenv("ARBITRUM_RPC_URL"),
-    "base": os.getenv("BASE_RPC_URL")
+    "ethereum": os.getenv("ETHEREUM_RPC_URL", "https://eth.llamarpc.com"),
+    "arbitrum": os.getenv("ARBITRUM_RPC_URL", "https://arb1.arbitrum.io/rpc"),
+    "base": os.getenv("BASE_RPC_URL", "https://mainnet.base.org")
 }
 
 for chain, url in RPC_URLS.items():
