@@ -1,6 +1,7 @@
 import json
 import os
 import datetime
+import logging
 from dotenv import load_dotenv
 
 from web3 import Web3
@@ -29,22 +30,6 @@ for chain, url in RPC_URLS.items():
     if not url:
         raise ValueError(f"Missing RPC URL for {chain}. Please add {chain.upper()}_RPC_URL to your .env file.")
 
-VAULT_ABI = [
-    {
-        "inputs": [],
-        "name": "name",
-        "outputs": [{"internalType": "string", "name": "", "type": "string"}],
-        "stateMutability": "view",
-        "type": "function"
-    },
-    {
-        "inputs": [],
-        "name": "asset",
-        "outputs": [{"internalType": "address", "name": "", "type": "address"}],
-        "stateMutability": "view",
-        "type": "function"
-    }
-]
 
 TOKEN_ABI = [
     {
@@ -56,50 +41,31 @@ TOKEN_ABI = [
     }
 ]
 
-
-def get_vault_name(web3, address):
-    try:
-        contract = web3.eth.contract(address=Web3.to_checksum_address(address), abi=VAULT_ABI)
-        return contract.functions.name().call()
-    except (ContractLogicError, Exception) as e:
-        print(f"Error getting name for {address}: {str(e)}")
-        return None
-
-
-def get_vault_asset(web3, address):
-    try:
-        contract = web3.eth.contract(address=Web3.to_checksum_address(address), abi=VAULT_ABI)
-        return contract.functions.asset().call()
-    except (ContractLogicError, Exception) as e:
-        print(f"Error getting asset for {address}: {str(e)}")
-        return "TODO"
-
-
-def get_token_symbol(web3, address):
-    try:
-        contract = web3.eth.contract(address=Web3.to_checksum_address(address), abi=TOKEN_ABI)
-        return contract.functions.symbol().call()
-    except (ContractLogicError, Exception) as e:
-        print(f"Error getting symbol for {address}: {str(e)}")
-        return None
+# Setup logging
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+logger = logging.getLogger(__name__)
 
 
 def get_contract_deployment_date(web3, address):
     try:
         checksum_address = Web3.to_checksum_address(address)
+        logger.info(f"Calling web3: get_contract_deployment_date for address {address}")
         
         left = 0
+        logger.info(f"Calling web3: get_block_number")
         right = web3.eth.block_number
         
+        logger.info(f"Calling web3: get_code for address {address}")
         code = web3.eth.get_code(checksum_address)
         if code == b'' or code == '0x':
-            print(f"No code found at {address}, using current date")
+            logger.info(f"No code found at {address}, using current date")
             return datetime.datetime.now().strftime('%Y-%m-%d')
         
         while left <= right:
             mid = (left + right) // 2
             
             try:
+                logger.info(f"Calling web3: get_code for address {address} at block {mid}")
                 code = web3.eth.get_code(checksum_address, block_identifier=mid)
                 
                 if code == b'' or code == '0x':
@@ -111,16 +77,17 @@ def get_contract_deployment_date(web3, address):
         
         deployment_block = left
         
+        logger.info(f"Calling web3: get_block for block {deployment_block}")
         block = web3.eth.get_block(deployment_block)
         timestamp = block['timestamp']
         
         date = datetime.datetime.fromtimestamp(timestamp).strftime('%Y-%m-%d')
         
-        print(f"Found deployment date for {address}: {date} (block {deployment_block}) on {web3.provider.endpoint_uri}")
+        logger.info(f"Found deployment date for {address}: {date} (block {deployment_block}) on {web3.provider.endpoint_uri}")
         
         return date
     except Exception as e:
-        print(f"Error getting deployment date for {address}: {str(e)}")
+        logger.error(f"Error getting deployment date for {address}: {str(e)}")
         return datetime.datetime.now().strftime('%Y-%m-%d')
 
 
@@ -145,7 +112,7 @@ def extract_fuse_fields(file_path):
         return extracted_data if extracted_data else None
 
     except Exception as e:
-        print(f"Error processing {file_path}: {str(e)}")
+        logger.error(f"Error processing {file_path}: {str(e)}")
         return None
 
 
@@ -224,10 +191,10 @@ def update_addresses_json(fuses_file, addresses_file):
         with open(addresses_file, 'w') as f:
             json.dump(addresses, f, indent=2)
 
-        print(f"Successfully updated {addresses_file}")
+        logger.info(f"Successfully updated {addresses_file}")
 
     except Exception as e:
-        print(f"Error updating addresses.json: {str(e)}")
+        logger.error(f"Error updating addresses.json: {str(e)}")
 
 
 def main():
@@ -247,7 +214,7 @@ def main():
     with open(OUTPUT_FILE, 'w') as f:
         json.dump(result, f, indent=2)
 
-    print(f"Processing complete. Results written to {OUTPUT_FILE}")
+    logger.info(f"Processing complete. Results written to {OUTPUT_FILE}")
 
     update_addresses_json(OUTPUT_FILE, MAIN_ADDRESSES_FILE)
 
