@@ -1,0 +1,14 @@
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### macOS system files ###
+.DS_Store
+
+### Environment files ###
+.env
+
+### Output files ###
+output/
