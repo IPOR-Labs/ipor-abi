@@ -30,6 +30,12 @@ for chain, url in RPC_URLS.items():
     if not url:
         raise ValueError(f"Missing RPC URL for {chain}. Please add {chain.upper()}_RPC_URL to your .env file.")
 
+# Dodaj początkowe bloki dla każdego łańcucha
+CHAIN_START_BLOCKS = {
+    "ethereum": 20733870,  # Przykładowy blok - dostosuj do rzeczywistej daty wdrożenia pierwszych kontraktów
+    "arbitrum": 218743859,  # Przykładowy blok dla Arbitrum
+    "base": 	21704649       # Przykładowy blok dla Base
+}
 
 TOKEN_ABI = [
     {
@@ -46,12 +52,13 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(level
 logger = logging.getLogger(__name__)
 
 
-def get_contract_deployment_date(web3, address):
+def get_contract_deployment_date(web3, address, chain):
     try:
         checksum_address = Web3.to_checksum_address(address)
         logger.info(f"Calling web3: get_contract_deployment_date for address {address}")
         
-        left = 0
+        # Użyj skonfigurowanego bloku początkowego zamiast 0
+        left = CHAIN_START_BLOCKS.get(chain, 0)
         logger.info(f"Calling web3: get_block_number")
         right = web3.eth.block_number
         
@@ -156,7 +163,7 @@ def update_addresses_json(fuses_file, addresses_file):
             web3 = web3_connections[chain]
             
             for field_name, address in fuses.items():
-                deployment_date = get_contract_deployment_date(web3, address)
+                deployment_date = get_contract_deployment_date(web3, address, chain)
                 
                 if field_name not in blockchain_fuses[chain]:
                     blockchain_fuses[chain][field_name] = {}
