@@ -60,6 +60,236 @@
         "asset": "0x09D4214C03D01F49544C0448DBE3A27f768F2b34",
         "PlasmaVault": "0xe9385eFf3F937FcB0f0085Da9A3F53D6C2B4fB5F"
       }
+    ],
+    "fuses": [
+      {
+        "name": "BalanceFuseAaveV3",
+        "versions": {
+          "2024-09-29": "0x05bCb16a50DaFE0526FB7b3941B81B1B74a7877e"
+        }
+      },
+      {
+        "name": "BalanceFuseCompoundV3Usdc",
+        "versions": {
+          "2024-09-29": "0x7070d0A706Bf79A1e6d12706b9a429b9D8099C8b"
+        }
+      },
+      {
+        "name": "BalanceFuseCompoundV3Usdt",
+        "versions": {
+          "2024-09-29": "0x9eF773720BbF05353b1D5e800E529315325A4481"
+        }
+      },
+      {
+        "name": "BalanceFuseErc20",
+        "versions": {
+          "2025-01-16": "0x6cEBf3e3392D0860Ed174402884b941DCBB30654"
+        }
+      },
+      {
+        "name": "BalanceFuseEulerV2",
+        "versions": {
+          "2024-11-26": "0xA607855Ec4881B5F25711d1404E0CddeAdEEacdC"
+        }
+      },
+      {
+        "name": "BalanceFuseFlashLoanMorpho",
+        "versions": {
+          "2025-01-16": "0xB1B74e885349cd9D1F0efFb2E1ce0fB79959D7cf"
+        }
+      },
+      {
+        "name": "BalanceFuseFluidInstadappPoolFToken",
+        "versions": {
+          "2024-09-29": "0xA0777a5b44D36eE425DC0Ca828549f06E40E0cEE"
+        }
+      },
+      {
+        "name": "BalanceFuseFluidInstadappStakingRewardsFToken",
+        "versions": {
+          "2024-09-29": "0xE9d0e294A0524962c43eEDFA935F1E8112A16AbA"
+        }
+      },
+      {
+        "name": "BalanceFuseGearboxV3DToken",
+        "versions": {
+          "2024-09-29": "0xE1FD88a76e95dd735c6dda45b2ABA9E5fFA9a7F3"
+        }
+      },
+      {
+        "name": "BalanceFuseGearboxV3FarmDToken",
+        "versions": {
+          "2024-09-29": "0xE88982097ECdF1dcFC4D500e3392Ee0eb70B45f2"
+        }
+      },
+      {
+        "name": "BalanceFuseMetaMorphoMarket0001",
+        "versions": {
+          "2024-12-12": "0xCb6BB5ab51cDc6EFB3B81C84f252Cfe6bFbA6566"
+        }
+      },
+      {
+        "name": "BalanceFuseMorpho",
+        "versions": {
+          "2024-09-29": "0x0aD1776B9319a03216A44AbA0242cC0Bc7e3CaC3"
+        }
+      },
+      {
+        "name": "BalanceFuseSpark",
+        "versions": {
+          "2024-09-29": "0xb3ca07c9c10374D51046F94e5547a2C501DA0ab4"
+        }
+      },
+      {
+        "name": "BalanceFuseUniversalTokenSwapper",
+        "versions": {
+          "2025-01-16": "0xe9562d7bd06b43E6391C5bE4B3c5F5C2BC1E06Bf"
+        }
+      },
+      {
+        "name": "BorrowFuseEulerV2",
+        "versions": {
+          "2024-11-26": "0x20c782C94800d709541660E322035785c89E32C2"
+        }
+      },
+      {
+        "name": "BorrowFuseMorpho",
+        "versions": {
+          "2025-01-16": "0x9981e75b7254fD268C9182631Bf89C86101359d6"
+        }
+      },
+      {
+        "name": "BurnRequestFeeFuse",
+        "versions": {
+          "2025-03-06": "0x79e8B115Bd41baee318c1940F42F1a2d94D29ab4"
+        }
+      },
+      {
+        "name": "ClaimRewardsFuseCompoundV3",
+        "versions": {
+          "2024-11-26": "0x2B98080341D9469d8beAbf2db037dE8897c232cD"
+        }
+      },
+      {
+        "name": "ClaimRewardsFuseFluidInstadapp",
+        "versions": {
+          "2024-09-29": "0x59Da0ce05CfCf0DA3257a96446e5B98EDB788c25"
+        }
+      },
+      {
+        "name": "ClaimRewardsFuseFluidProof",
+        "versions": {
+          "2025-01-28": "0x30AdE01153CB697BB751cacb6392F49C22558fe0"
+        }
+      },
+      {
+        "name": "ClaimRewardsFuseGearboxV3FarmDToken",
+        "versions": {
+          "2024-09-29": "0xF710B1dAAB1623FeEB78D32bf34E288C3ee67072"
+        }
+      },
+      {
+        "name": "ClaimRewardsFuseMorpho",
+        "versions": {
+          "2024-12-12": "0x6820dF665BA09FBbd3240aA303421928EF4C71a1"
+        }
+      },
+      {
+        "name": "CollateralFuseEulerV2",
+        "versions": {
+          "2024-11-26": "0xF58d96142A6AbBeE5cB2f2eDe750Aa7429672618"
+        }
+      },
+      {
+        "name": "CollateralFuseMorpho",
+        "versions": {
+          "2025-01-16": "0xE1aA89eb42C23f292cDa1544566F6EBeE3a67EED"
+        }
+      },
+      {
+        "name": "ControllerFuseEulerV2",
+        "versions": {
+          "2024-11-26": "0x4DcA6Fd6f153EE18602ac77B4396070476ec6c25"
+        }
+      },
+      {
+        "name": "FlashloanFuseMorpho",
+        "versions": {
+          "2025-01-16": "0x9185033e24dB36407b9b1A1886Cb47B9533433DE"
+        }
+      },
+      {
+        "name": "SupplyFuseAaveV3",
+        "versions": {
+          "2024-09-29": "0x465D639EB964158beE11f35E8fc23f704EC936a2"
+        }
+      },
+      {
+        "name": "SupplyFuseCompoundV3Usdc",
+        "versions": {
+          "2024-09-29": "0x00A220F09C1CF5f549C98Fa37C837aed54aBA26c"
+        }
+      },
+      {
+        "name": "SupplyFuseCompoundV3Usdt",
+        "versions": {
+          "2024-09-29": "0x4f35094b049e4aa0eA98CfA00fA55f30B12aaF29"
+        }
+      },
+      {
+        "name": "SupplyFuseEulerV2",
+        "versions": {
+          "2024-11-26": "0x225D3e01d3Ba0DdF904E1Fbb46256f7D3A7e7bF0"
+        }
+      },
+      {
+        "name": "SupplyFuseFluidInstadappPoolFToken",
+        "versions": {
+          "2024-09-29": "0xe49207496BB2Cf8C3D4FDadcad8e5f72E780B4Ae"
+        }
+      },
+      {
+        "name": "SupplyFuseFluidInstadappStakingRewardsFToken",
+        "versions": {
+          "2024-09-29": "0xa613249EF6D0C3dF83d0593abb63e0638d1d590F"
+        }
+      },
+      {
+        "name": "SupplyFuseGearboxV3DToken",
+        "versions": {
+          "2024-09-29": "0x95acDF1C8f4447E655a097aEa3F92FB15035485D"
+        }
+      },
+      {
+        "name": "SupplyFuseGearboxV3FarmDToken",
+        "versions": {
+          "2024-09-29": "0xF6016A183745C86Dd584488c9E75c00BBD61C34E"
+        }
+      },
+      {
+        "name": "SupplyFuseMetaMorphoMarket0001",
+        "versions": {
+          "2024-12-12": "0x5E58D1f3c9155c74fC43dbBd0157ef49BaFA6A88"
+        }
+      },
+      {
+        "name": "SupplyFuseMorpho",
+        "versions": {
+          "2024-09-29": "0xD08Cb606CEe700628E55b0B0159Ad65421E6c8Df"
+        }
+      },
+      {
+        "name": "SupplyFuseSpark",
+        "versions": {
+          "2024-09-29": "0xB48CF802C2D648c46ac7f752C81e29Fa2C955E9B"
+        }
+      },
+      {
+        "name": "SwapFuseUniversalTokenSwapper",
+        "versions": {
+          "2025-01-16": "0x08dFdBB6Ecf19f1fc974E0675783E1150B2B650F"
+        }
+      }
     ]
   },
   "arbitrum": {
@@ -128,6 +358,230 @@
         "token": "WETH",
         "asset": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
         "PlasmaVault": "0x18B9Dc9762Ec6095f34f2d77042Ab8283fA764B4"
+      }
+    ],
+    "fuses": [
+      {
+        "name": "BalanceFuseAaveV3",
+        "versions": {
+          "2024-09-03": "0x4CB1c4774BA1B65802c68Adb33DE99ABf8B21228"
+        }
+      },
+      {
+        "name": "BalanceFuseCompoundV3Usdc",
+        "versions": {
+          "2024-09-03": "0xCF730BAA5542DC7570907696271bA96019FcD10C"
+        }
+      },
+      {
+        "name": "BalanceFuseErc20",
+        "versions": {
+          "2024-09-11": "0x1a047137F2D4daE60853f87Dc13ae92C0dB2c123"
+        }
+      },
+      {
+        "name": "BalanceFuseErc4626Market1",
+        "versions": {
+          "2024-10-15": "0xfc938b178e37788CECb6925C9034f589A91783FB"
+        }
+      },
+      {
+        "name": "BalanceFuseErc4626Market2",
+        "versions": {
+          "2024-10-15": "0xd78C731597247883103682eaF51097FB35d819B4"
+        }
+      },
+      {
+        "name": "BalanceFuseErc4626Market3",
+        "versions": {
+          "2024-10-15": "0x5e31e0c31Be569b0E8375B35b6354dE755525ecC"
+        }
+      },
+      {
+        "name": "BalanceFuseErc4626Market4",
+        "versions": {
+          "2025-02-26": "0xa57AE6DD2551eDE6eAd278E47DF9dF3535935418"
+        }
+      },
+      {
+        "name": "BalanceFuseErc4626Market5",
+        "versions": {
+          "2025-02-26": "0xd3f1F690c9459c1cd7048725f420149668240b7B"
+        }
+      },
+      {
+        "name": "BalanceFuseErc4626Market6",
+        "versions": {
+          "2025-02-26": "0x37189A0f865abACc9445F5E44D2d35426d0F2CF7"
+        }
+      },
+      {
+        "name": "BalanceFuseErc4626Market7",
+        "versions": {
+          "2025-02-26": "0xA1cD5b1112e6700D98a4A4B39A7946fEC3a4663B"
+        }
+      },
+      {
+        "name": "BalanceFuseFluidInstadappPoolFToken",
+        "versions": {
+          "2024-09-03": "0xdb26Af00177bFAE4439eB881b7742EF47EddfAF6"
+        }
+      },
+      {
+        "name": "BalanceFuseFluidInstadappStakingRewardsFToken",
+        "versions": {
+          "2024-09-03": "0xA99ab2d4709c9FC83779Bd4B230e888DcCaEdaf6"
+        }
+      },
+      {
+        "name": "BalanceFuseGearboxV3DToken",
+        "versions": {
+          "2024-09-03": "0xd347F4BB96531b01c8fAB953CF8E920419193a8c"
+        }
+      },
+      {
+        "name": "BalanceFuseGearboxV3FarmDToken",
+        "versions": {
+          "2024-09-03": "0xAa6C8DB1DA40f685e02564dE92Bc2276C12729f6"
+        }
+      },
+      {
+        "name": "BalanceFuseSwapPositionsRamsesV2",
+        "versions": {
+          "2024-10-08": "0xD9fd7D42848A97F946f42c62eC3150D24C0a3835"
+        }
+      },
+      {
+        "name": "BalanceFuseUniversalTokenSwapper",
+        "versions": {
+          "2024-09-11": "0x7ceAe29f467db23210C6fDB95247355C87026eD0"
+        }
+      },
+      {
+        "name": "BurnRequestFeeFuse",
+        "versions": {
+          "2025-02-26": "0x292711bC63184318294593C38Ad914AcfCd1797B"
+        }
+      },
+      {
+        "name": "ClaimRewardsFuseFluidInstadapp",
+        "versions": {
+          "2024-09-03": "0x5c7E10C4D6F65b89C026fC8df69891e6B90A8434"
+        }
+      },
+      {
+        "name": "ClaimRewardsFuseGearboxV3FarmDToken",
+        "versions": {
+          "2024-09-03": "0xFa209140BBA92a64b1038649e7385fa860405099"
+        }
+      },
+      {
+        "name": "ClaimRewardsFuseRamsesV2",
+        "versions": {
+          "2024-10-08": "0x6F292d12a2966c9B796642cAFD67549bbbE3D066"
+        }
+      },
+      {
+        "name": "CollectSwapFuseRamsesV2",
+        "versions": {
+          "2024-10-08": "0x859F5c9D5CB2800A9Ff72C56d79323EA01cB30b9"
+        }
+      },
+      {
+        "name": "ModifyPositionSwapFuseRamsesV2",
+        "versions": {
+          "2024-10-08": "0xD41501B46a68DeA06a460fD79a7bCda9e3b92674"
+        }
+      },
+      {
+        "name": "NewPositionSwapFuseRamsesV2",
+        "versions": {
+          "2024-10-08": "0xb025CC5e73e2966e12e4d859360B51c1D0F45EA3"
+        }
+      },
+      {
+        "name": "SupplyFuseAaveV3",
+        "versions": {
+          "2024-09-03": "0x9339acD4e73C8a11109f77bC87221bDfC7b7A4FC"
+        }
+      },
+      {
+        "name": "SupplyFuseCompoundV3Usdc",
+        "versions": {
+          "2024-09-03": "0xB0b3dc1B27C6c8007c9B01a768d6717f6813fE94"
+        }
+      },
+      {
+        "name": "SupplyFuseErc4626Market1",
+        "versions": {
+          "2024-10-15": "0xe7d3a550F0aD32cCBEF570C670b5ac004C276f24"
+        }
+      },
+      {
+        "name": "SupplyFuseErc4626Market2",
+        "versions": {
+          "2024-10-15": "0xBA4e51A46b562cBaEF372C07bF191c7111a067aA"
+        }
+      },
+      {
+        "name": "SupplyFuseErc4626Market3",
+        "versions": {
+          "2024-10-15": "0xF5c5E375d219e573B10f9c90A1815f93951AD275"
+        }
+      },
+      {
+        "name": "SupplyFuseErc4626Market4",
+        "versions": {
+          "2025-02-26": "0x2f34F8566952b055F3Cc32ACB8b9C8203E91132A"
+        }
+      },
+      {
+        "name": "SupplyFuseErc4626Market5",
+        "versions": {
+          "2025-02-26": "0x28eE4cD5E888f6331B6c6c38959bBBE05eF7D73A"
+        }
+      },
+      {
+        "name": "SupplyFuseErc4626Market6",
+        "versions": {
+          "2025-02-26": "0x0dE665bb75556ea407C23b513A5d521064245b3e"
+        }
+      },
+      {
+        "name": "SupplyFuseErc4626Market7",
+        "versions": {
+          "2025-02-26": "0x624E2AB4E17aA38B078674eec75dbadcc10e295B"
+        }
+      },
+      {
+        "name": "SupplyFuseFluidInstadappPoolFToken",
+        "versions": {
+          "2024-09-03": "0x4Ae8640B3A6b71Fa1a05372A59946e66bEb05F9f"
+        }
+      },
+      {
+        "name": "SupplyFuseFluidInstadappStakingRewardsFToken",
+        "versions": {
+          "2024-09-03": "0x2B83F05E463cbc34861b10CB020b6eB4740Bd890"
+        }
+      },
+      {
+        "name": "SupplyFuseGearboxV3DToken",
+        "versions": {
+          "2024-09-03": "0x07cD27531ee9dF28292B26Eeba3f457609DeAe07"
+        }
+      },
+      {
+        "name": "SupplyFuseGearboxV3FarmDToken",
+        "versions": {
+          "2024-09-03": "0xB0FBF6B7D0586C0a5Bc1C3b8a98773f4eD02c983"
+        }
+      },
+      {
+        "name": "SwapFuseUniversalTokenSwapper",
+        "versions": {
+          "2024-09-11": "0xB052b0D983E493B4D40DeC75A03D21b70b83c2ca"
+        }
       }
     ]
   },
@@ -203,6 +657,351 @@
         "token": "WETH",
         "asset": "0x4200000000000000000000000000000000000006",
         "PlasmaVault": "0x7872893e528Fe2c0829e405960db5B742112aa97"
+      }
+    ],
+    "fuses": [
+      {
+        "name": "BalanceFuseAaveV3",
+        "versions": {
+          "2024-10-29": "0xf53f3EaFfDf67539256365cA7299540A98b60BA9"
+        }
+      },
+      {
+        "name": "BalanceFuseCompoundV3Usdc",
+        "versions": {
+          "2024-10-29": "0x62286efb801ae4eE93733c3bc1bFA0746e5103D8"
+        }
+      },
+      {
+        "name": "BalanceFuseErc20",
+        "versions": {
+          "2024-10-29": "0x9ba147FC382DBf4D73512A45370ba0B70c25F6aa"
+        }
+      },
+      {
+        "name": "BalanceFuseErc4626Market1",
+        "versions": {
+          "2025-01-28": "0x7F4D9EFdE7EfEBBAFbb506ca3f711764cBc96391"
+        }
+      },
+      {
+        "name": "BalanceFuseErc4626Market10",
+        "versions": {
+          "2025-02-26": "0xE1725cC2AF00941Db5847a59B4aA8bF47AD35bDF"
+        }
+      },
+      {
+        "name": "BalanceFuseErc4626Market11",
+        "versions": {
+          "2025-02-26": "0x9332dafA9376b7E049755FD81B01B23fC772B8A6"
+        }
+      },
+      {
+        "name": "BalanceFuseErc4626Market12",
+        "versions": {
+          "2025-02-26": "0x5f565d142815Eb430ab14bC9bdA9D12C9fCa3C6c"
+        }
+      },
+      {
+        "name": "BalanceFuseErc4626Market13",
+        "versions": {
+          "2025-02-26": "0x44B13c4af19D97af4dA32c46b533C3e632000bf8"
+        }
+      },
+      {
+        "name": "BalanceFuseErc4626Market14",
+        "versions": {
+          "2025-02-26": "0x4b69AC30feDDd922eb26adB30713984d5fb0e972"
+        }
+      },
+      {
+        "name": "BalanceFuseErc4626Market2",
+        "versions": {
+          "2025-01-28": "0x3Dfe25F60191AAee4213080398D2Fdf65EC3CF2F"
+        }
+      },
+      {
+        "name": "BalanceFuseErc4626Market3",
+        "versions": {
+          "2025-01-28": "0xfEe84b6AF26a481C1819655dAde5f5588416e19f"
+        }
+      },
+      {
+        "name": "BalanceFuseErc4626Market4",
+        "versions": {
+          "2025-01-28": "0x903c1ABb5A303Cf717196e8d12CE87F46dE56719"
+        }
+      },
+      {
+        "name": "BalanceFuseErc4626Market5",
+        "versions": {
+          "2025-01-28": "0xE017C7326d371828a6877727e46A203e915AF0fD"
+        }
+      },
+      {
+        "name": "BalanceFuseErc4626Market6",
+        "versions": {
+          "2025-01-28": "0xc8C0498e36a4f26744E8222C8749cd0143F6E6EB"
+        }
+      },
+      {
+        "name": "BalanceFuseErc4626Market7",
+        "versions": {
+          "2025-02-26": "0xC5d840B15B8DcE3F38989F4bE9f42a9308Ed8FCe"
+        }
+      },
+      {
+        "name": "BalanceFuseErc4626Market8",
+        "versions": {
+          "2025-02-26": "0x684b5c8866AaDE4E21f8A30697A56A805B108a67"
+        }
+      },
+      {
+        "name": "BalanceFuseErc4626Market9",
+        "versions": {
+          "2025-02-26": "0x32b8389d5Cc5E50221C9a127aE2B47968919FD74"
+        }
+      },
+      {
+        "name": "BalanceFuseFlashLoanMorpho",
+        "versions": {
+          "2024-11-18": "0x2Ce01779CfE56DC253D0Ac1b47E3bb7E597bCaEA"
+        }
+      },
+      {
+        "name": "BalanceFuseFluidInstadappPoolFToken",
+        "versions": {
+          "2024-10-29": "0xC80e5a95540d6ebFE4970A0743E71C639DF8C25e"
+        }
+      },
+      {
+        "name": "BalanceFuseFluidInstadappStakingRewardsFToken",
+        "versions": {
+          "2024-10-29": "0x29d294d3d8Bb422ddDc925Cb95a903d34eEB208A"
+        }
+      },
+      {
+        "name": "BalanceFuseMetaMorphoMarket0001",
+        "versions": {
+          "2025-02-25": "0xf760384518C9157B82CDC4ecb0f53799970728d9"
+        }
+      },
+      {
+        "name": "BalanceFuseMoonwell",
+        "versions": {
+          "2024-11-18": "0x86417B0B3B03e8BC8b68377994363796b4ccD3Bc"
+        }
+      },
+      {
+        "name": "BalanceFuseMorpho",
+        "versions": {
+          "2024-10-29": "0x7916856E11E0CA021967D0D4daC49D737b7d73d5"
+        }
+      },
+      {
+        "name": "BalanceFuseUniversalTokenSwapper",
+        "versions": {
+          "2024-10-29": "0x706ca1cA4EcE9CF23301D6AB35ce6fb7Cf25DA15"
+        }
+      },
+      {
+        "name": "BorrowFuseAaveV3",
+        "versions": {
+          "2024-10-29": "0x1Df60F2A046F3Dce8102427e091C1Ea99aE1d774"
+        }
+      },
+      {
+        "name": "BorrowFuseMoonwell",
+        "versions": {
+          "2024-11-18": "0x8f6951795193C5AE825397ba35e940C5586e7b7D",
+          "2024-12-04": "0x377a5B195E3C074d982BD7bAC66B48D4C3006353"
+        }
+      },
+      {
+        "name": "BorrowFuseMorpho",
+        "versions": {
+          "2024-10-29": "0x35f44aD1D9F2773dA05F4664bf574C760bA47bf6"
+        }
+      },
+      {
+        "name": "BurnRequestFeeFuse",
+        "versions": {
+          "2025-02-26": "0x8Aad082F04d04d1dB2e92160bAa630e31C22C073"
+        }
+      },
+      {
+        "name": "ClaimRewardsFuseCompoundV3",
+        "versions": {
+          "2024-10-29": "0x10de4b8aa7c363999769F8a8295F4F091a77DF4F"
+        }
+      },
+      {
+        "name": "ClaimRewardsFuseFluidInstadapp",
+        "versions": {
+          "2024-10-29": "0x4E3139528EBA9B85addf1b7E5c36002b7bE8c9B2"
+        }
+      },
+      {
+        "name": "ClaimRewardsFuseMoonwell",
+        "versions": {
+          "2024-11-18": "0xd253C5C54248433C7879aC14Fb03201e008C5a1e"
+        }
+      },
+      {
+        "name": "ClaimRewardsFuseMorpho",
+        "versions": {
+          "2025-01-02": "0x26C740247FC4E1462D4C36e90057cf0e168B3B2B"
+        }
+      },
+      {
+        "name": "CollateralFuseMorpho",
+        "versions": {
+          "2024-10-29": "0xDE3FD3A25534471e92C5940d418B0582802b17B6"
+        }
+      },
+      {
+        "name": "EnableMarketFuseMoonwell",
+        "versions": {
+          "2024-11-18": "0xD62542Ef1ABFF0ac71A1b5666CB76801e81104Ef"
+        }
+      },
+      {
+        "name": "FlashloanFuseMorpho",
+        "versions": {
+          "2024-10-29": "0x20f305Ce4fC12F9171Fcd7C2fBcD7D11f6119265"
+        }
+      },
+      {
+        "name": "SupplyFuseAaveV3",
+        "versions": {
+          "2024-10-29": "0x44dcB8A4c40FA9941d99F409b2948FE91B6C15d5"
+        }
+      },
+      {
+        "name": "SupplyFuseCompoundV3Usdc",
+        "versions": {
+          "2024-10-29": "0x42FBD4D8f578b902Ed9030BF9035A606dDECa26f"
+        }
+      },
+      {
+        "name": "SupplyFuseErc4626Market1",
+        "versions": {
+          "2025-01-28": "0xbe8ab5217F4f251E4A667650fc34a63035C231a8"
+        }
+      },
+      {
+        "name": "SupplyFuseErc4626Market10",
+        "versions": {
+          "2025-02-26": "0xF4FB53B8831DD70b628F225Ab8BbAadC0A93E2dC"
+        }
+      },
+      {
+        "name": "SupplyFuseErc4626Market11",
+        "versions": {
+          "2025-02-26": "0x25c275CbFFb6539D81e00AFcdbFDbd962f5d3202"
+        }
+      },
+      {
+        "name": "SupplyFuseErc4626Market12",
+        "versions": {
+          "2025-02-26": "0x32df46Cff7e6Cab610ed6113D7A57F242d061D68"
+        }
+      },
+      {
+        "name": "SupplyFuseErc4626Market13",
+        "versions": {
+          "2025-02-26": "0x8598432cda45fd6dC836728d6B12f325f78b62b6"
+        }
+      },
+      {
+        "name": "SupplyFuseErc4626Market14",
+        "versions": {
+          "2025-02-26": "0xe1Cce1485F5A22D64b89D8E0ba2190Ca4e8f1eA2"
+        }
+      },
+      {
+        "name": "SupplyFuseErc4626Market2",
+        "versions": {
+          "2025-01-28": "0xed5Ec535e6e6a3051105A8Ea2E8Bd178951A9EAc"
+        }
+      },
+      {
+        "name": "SupplyFuseErc4626Market3",
+        "versions": {
+          "2025-01-28": "0xdA0711a0b1B1dD289c4D7C08704Dd1e4cceA80C1"
+        }
+      },
+      {
+        "name": "SupplyFuseErc4626Market4",
+        "versions": {
+          "2025-01-28": "0xb187050408857FC2a57be0a5618e39b331425E77"
+        }
+      },
+      {
+        "name": "SupplyFuseErc4626Market5",
+        "versions": {
+          "2025-01-28": "0x633d78849fb91a336077ff25aFC3c72c8f6a7045"
+        }
+      },
+      {
+        "name": "SupplyFuseErc4626Market6",
+        "versions": {
+          "2025-01-28": "0xF3ce837D8eBA7332Ce16b698d8262247d6CB277D"
+        }
+      },
+      {
+        "name": "SupplyFuseErc4626Market7",
+        "versions": {
+          "2025-02-26": "0x928c217E669d9F0F3fc08fB8AC322133a12E1F43"
+        }
+      },
+      {
+        "name": "SupplyFuseErc4626Market8",
+        "versions": {
+          "2025-02-26": "0x5b36e95AbfF98a476FBAeB3E2434deE3EB463F48"
+        }
+      },
+      {
+        "name": "SupplyFuseErc4626Market9",
+        "versions": {
+          "2025-02-26": "0xc3B44addfAe29fD170196C324bA0C233C870c77a"
+        }
+      },
+      {
+        "name": "SupplyFuseFluidInstadappPoolFToken",
+        "versions": {
+          "2024-10-29": "0x15A1e2950dA9Ec0DA69a704b8940F01BdDdE86Ab"
+        }
+      },
+      {
+        "name": "SupplyFuseFluidInstadappStakingRewardsFToken",
+        "versions": {
+          "2024-10-29": "0x977e318676158A7695cCFeB00eC18a68c29BF0EF"
+        }
+      },
+      {
+        "name": "SupplyFuseMetaMorphoMarket0001",
+        "versions": {
+          "2025-02-25": "0x33Ed640Fc033A9BBE96c8469D1f32b106a4Ae8C9"
+        }
+      },
+      {
+        "name": "SupplyFuseMoonwell",
+        "versions": {
+          "2024-11-18": "0xC4a62Bd86dB7dd61a875611b2220f9ab6e14FFbf"
+        }
+      },
+      {
+        "name": "SupplyFuseMorpho",
+        "versions": {
+          "2024-10-29": "0xae93EF3cf337b9599F0dfC12520c3C281637410F"
+        }
+      },
+      {
+        "name": "SwapFuseUniversalTokenSwapper",
+        "versions": {
+          "2024-11-26": "0xdBc5f9962CE85749F1b3c51BA0473909229E3807"
+        }
       }
     ]
   }

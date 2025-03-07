@@ -9,10 +9,16 @@
 ## Prerequisites
 
 - Python 3.x
-- Required Python packages:
-  - `web3`
-  - `json`
-  - `os`
+- Poetry (for dependency management)
+
+The project uses Poetry to manage dependencies. All required packages are specified in the `pyproject.toml` file.
+
+## Installation
+
+Install dependencies using Poetry
+```bash
+poetry install
+```
 
 ## Usage
 
