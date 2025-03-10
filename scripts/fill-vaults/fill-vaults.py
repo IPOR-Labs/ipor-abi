@@ -1,8 +1,13 @@
 import json
 import os
+import logging
+from dotenv import load_dotenv
 
 from web3 import Web3
 from web3.exceptions import ContractLogicError
+
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logger = logging.getLogger(__name__)
 
 ADDRESSES_FILENAME = 'addresses.json'
 START_PATH = '../../mainnet'
@@ -21,10 +26,12 @@ PLASMA_FIELDS = [
     'IporPlasmaVaultWEth'
 ]
 
+load_dotenv()
+
 RPC_URLS = {
-    "ethereum": "https://eth.llamarpc.com",
-    "arbitrum": "https://arb1.arbitrum.io/rpc",
-    "base": "https://mainnet.base.org"
+    "ethereum": os.getenv("ETHEREUM_RPC_URL", "https://eth.llamarpc.com"),
+    "arbitrum": os.getenv("ARBITRUM_RPC_URL", "https://arb1.arbitrum.io/rpc"),
+    "base": os.getenv("BASE_RPC_URL", "https://mainnet.base.org")
 }
 
 VAULT_ABI = [
@@ -56,29 +63,32 @@ TOKEN_ABI = [
 
 
 def get_vault_name(web3, address):
+    logger.info(f"Executing web3 call: get_vault_name for address {address}")
     try:
         contract = web3.eth.contract(address=Web3.to_checksum_address(address), abi=VAULT_ABI)
         return contract.functions.name().call()
     except (ContractLogicError, Exception) as e:
-        print(f"Error getting name for {address}: {str(e)}")
+        logger.error(f"Error getting name for {address}: {str(e)}")
         return None
 
 
 def get_vault_asset(web3, address):
+    logger.info(f"Executing web3 call: get_vault_asset for address {address}")
     try:
         contract = web3.eth.contract(address=Web3.to_checksum_address(address), abi=VAULT_ABI)
         return contract.functions.asset().call()
     except (ContractLogicError, Exception) as e:
-        print(f"Error getting asset for {address}: {str(e)}")
+        logger.error(f"Error getting asset for {address}: {str(e)}")
         return "TODO"
 
 
 def get_token_symbol(web3, address):
+    logger.info(f"Executing web3 call: get_token_symbol for address {address}")
     try:
         contract = web3.eth.contract(address=Web3.to_checksum_address(address), abi=TOKEN_ABI)
         return contract.functions.symbol().call()
     except (ContractLogicError, Exception) as e:
-        print(f"Error getting symbol for {address}: {str(e)}")
+        logger.error(f"Error getting symbol for {address}: {str(e)}")
         return None
 
 
@@ -104,7 +114,7 @@ def extract_plasma_fields(file_path):
         return extracted_data if extracted_data else None
 
     except Exception as e:
-        print(f"Error processing {file_path}: {str(e)}")
+        logger.error(f"Error processing {file_path}: {str(e)}")
         return None
 
 
@@ -113,7 +123,6 @@ def update_addresses_json(plasma_vaults_file, addresses_file):
         with open(plasma_vaults_file, 'r') as f:
             plasma_data = json.load(f)
 
-        # Initialize default structure if file doesn't exist
         try:
             with open(addresses_file, 'r') as f:
                 addresses = json.load(f)
@@ -141,7 +150,6 @@ def update_addresses_json(plasma_vaults_file, addresses_file):
             if not chain:
                 continue
 
-            # Ensure chain exists in addresses
             if chain not in addresses:
                 addresses[chain] = {}
 
@@ -149,6 +157,7 @@ def update_addresses_json(plasma_vaults_file, addresses_file):
                 addresses[chain]["vaults"] = []
 
             for field_name, address in vaults.items():
+                logger.info(f"Processing new address: {address} ({field_name}) on {chain}")
                 vault_name = get_vault_name(web3_connections[chain], address)
                 if not vault_name:
                     vault_name = field_name
@@ -173,16 +182,15 @@ def update_addresses_json(plasma_vaults_file, addresses_file):
                 else:
                     addresses[chain]["vaults"].append(vault_entry)
 
-        # Create directory if it doesn't exist
         os.makedirs(os.path.dirname(addresses_file), exist_ok=True)
 
         with open(addresses_file, 'w') as f:
             json.dump(addresses, f, indent=2)
 
-        print(f"Successfully updated {addresses_file}")
+        logger.info(f"Successfully updated {addresses_file}")
 
     except Exception as e:
-        print(f"Error updating addresses.json: {str(e)}")
+        logger.error(f"Error updating addresses.json: {str(e)}")
 
 
 def main():
@@ -200,7 +208,7 @@ def main():
     with open(OUTPUT_FILE, 'w') as f:
         json.dump(result, f, indent=2)
 
-    print(f"Processing complete. Results written to {OUTPUT_FILE}")
+    logger.info(f"Processing complete. Results written to {OUTPUT_FILE}")
 
     update_addresses_json(OUTPUT_FILE, MAIN_ADDRESSES_FILE)
 
