@@ -48,7 +48,7 @@
   "PriceOracleMiddlewareUsdImpl": "0x3710fFf6d6A0a2d4C90476b643264a1A920DFc43",
   "PriceOracleMiddlewareUsdProxy": "0x41883F367ab187B1C676A4A4767758916A6a01Fa",
   "RebalancingFacadeOwner": "0xBF07d38747047EE7F557135b3cAbB54B1b899dFc",
-  "RebalancingFacadeStrategyBaseArbitrageAaveMorpho": "0x9A899C84536E0129202660FF15D8Fec2BA0b847F",
+  "RebalancingFacadeStrategyBaseArbitrageAaveMorpho": "0x1CCBfC157b7a560F2b4188e0FB298B2FEb40ed8B",
   "RebalancingFacadeStrategyBaseMoonwellLooping": "0x7e165D7031AF1C6125D17B1Cde90317d7583feF3",
   "RebalancingFacadeStrategyReleaseFunds": "0xAF7455E7D8C39bA1E557aF00de38547d450f9902",
   "SupplyFuseAaveV3": "0x44dcB8A4c40FA9941d99F409b2948FE91B6C15d5",
