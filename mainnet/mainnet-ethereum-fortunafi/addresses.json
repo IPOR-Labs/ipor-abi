@@ -1,4 +1,5 @@
 {
+  "BalanceFuseBurnRequestFee": "0xbc2907d76964510a4232878e7aC6E2B18c474EFb",
   "BalanceFuseErc20": "0x6cEBf3e3392D0860Ed174402884b941DCBB30654",
   "BalanceFuseFlashLoanMorpho": "0xB1B74e885349cd9D1F0efFb2E1ce0fB79959D7cf",
   "BalanceFuseMorpho": "0x0aD1776B9319a03216A44AbA0242cC0Bc7e3CaC3",
@@ -16,10 +17,10 @@
   "IporFusionPriceFeedUSD": "0x02b2F2809ce74563cb4b2ecA1ADaFB188E4Ed8D7",
   "IporFusionPriceOracleMiddlewareOwner": "0xF6a9bd8F6DC537675D499Ac1CA14f2c55d8b5569",
   "IporPlasmaVaultAlpha": "0x6d3BE3f86FB1139d0c9668BD552f05fcB643E6e6",
-  "IporPlasmaVaultAtomist": "0xf2C6a2225BE9829eD77263b032E3D92C52aE6694",
+  "IporPlasmaVaultAtomist": "0xFbA787bB75d6D0F7fad188De9F12650323b35D87",
   "IporPlasmaVaultContextManagerRUsd": "0xfdd67AD159BD07Cd7e701f40f1717318a68E731f",
   "IporPlasmaVaultFeeManagerRUsd": "0x6078f64d32580031331E11Df383c6D0b0e83AF80",
-  "IporPlasmaVaultOwner": "0xf2C6a2225BE9829eD77263b032E3D92C52aE6694",
+  "IporPlasmaVaultOwner": "0xFbA787bB75d6D0F7fad188De9F12650323b35D87",
   "IporPlasmaVaultRUsd": "0xe9385eFf3F937FcB0f0085Da9A3F53D6C2B4fB5F",
   "IporPlasmaVaultRewardsClaimManagerRUsd": "0x5cb733ECAf07681C0E79f76b7B02844b66208a71",
   "IporPlasmaVaultWithdrawManagerRUsd": "0x8138Fd4F5b62237c201B4D6C721B702dc64584E1",
