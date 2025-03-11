@@ -17,7 +17,6 @@ interface PriceOracleMiddleware {
     error UnexpectedPriceResult();
     error UnsupportedAsset();
     error WrongDecimals();
-    error WrongDecimalsInPriceFeed();
     error ZeroAddress(string variableName);
 
     event AssetPriceSourceUpdated(address asset, address source);
