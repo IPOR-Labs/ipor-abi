@@ -85,6 +85,7 @@ interface PlasmaVaultBase {
     event ContextSet(address indexed sender_);
     event DelegateChanged(address indexed delegator, address indexed fromDelegate, address indexed toDelegate);
     event DelegateVotesChanged(address indexed delegate, uint256 previousVotes, uint256 newVotes);
+    event DependencyBalanceGraphChanged(uint256 marketId, uint256[] newDependenceGraph);
     event EIP712DomainChanged();
     event FuseAdded(address fuse);
     event FuseRemoved(address fuse);
@@ -99,6 +100,7 @@ interface PlasmaVaultBase {
     event PreHookImplementationChanged(bytes4 indexed selector, address newImplementation, bytes32[] substrates);
     event PriceOracleMiddlewareChanged(address newPriceOracleMiddleware);
     event RewardsClaimManagerAddressChanged(address newRewardsClaimManagerAddress);
+    event TotalSupplyCapChanged(uint256 newTotalSupplyCap);
     event Transfer(address indexed from, address indexed to, uint256 value);
 
     function CLOCK_MODE() external view returns (string memory);
