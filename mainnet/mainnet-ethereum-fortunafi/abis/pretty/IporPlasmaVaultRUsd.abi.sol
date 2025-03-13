@@ -154,6 +154,7 @@ interface PlasmaVault {
     event ContextSet(address indexed sender_);
     event DelegateChanged(address indexed delegator, address indexed fromDelegate, address indexed toDelegate);
     event DelegateVotesChanged(address indexed delegate, uint256 previousVotes, uint256 newVotes);
+    event DependencyBalanceGraphChanged(uint256 marketId, uint256[] newDependenceGraph);
     event Deposit(address indexed sender, address indexed owner, uint256 assets, uint256 shares);
     event EIP712DomainChanged();
     event FuseAdded(address fuse);
@@ -171,6 +172,7 @@ interface PlasmaVault {
     event PreHookImplementationChanged(bytes4 indexed selector, address newImplementation, bytes32[] substrates);
     event PriceOracleMiddlewareChanged(address newPriceOracleMiddleware);
     event RewardsClaimManagerAddressChanged(address newRewardsClaimManagerAddress);
+    event TotalSupplyCapChanged(uint256 newTotalSupplyCap);
     event Transfer(address indexed from, address indexed to, uint256 value);
     event Withdraw(
         address indexed sender, address indexed receiver, address indexed owner, uint256 assets, uint256 shares
@@ -293,7 +295,7 @@ interface PlasmaVault {
     function transferRequestSharesFee(address from_, address to_, uint256 amount_) external;
     function updateCallbackHandler(address handler_, address sender_, bytes4 sig_) external;
     function updateDependencyBalanceGraphs(uint256[] memory marketIds_, uint256[][] memory dependencies_) external;
-    function updateInternal(address from_, address to_, uint256 value_) external;
+    function updateInternal(address, address, uint256) external;
     function updateMarketsBalances(uint256[] memory marketIds_) external returns (uint256);
     function withdraw(uint256 assets_, address receiver_, address owner_) external returns (uint256);
 }
