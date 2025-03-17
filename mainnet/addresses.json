@@ -59,6 +59,12 @@
         "token": "rUSD",
         "asset": "0x09D4214C03D01F49544C0448DBE3A27f768F2b34",
         "PlasmaVault": "0xe9385eFf3F937FcB0f0085Da9A3F53D6C2B4fB5F"
+      },
+      {
+        "name": "Tesseract Managed ETH",
+        "token": "WETH",
+        "asset": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "PlasmaVault": "0x9824dCdac89F208Bf8b5Cb5C4Dc41F04a0878607"
       }
     ],
     "fuses": [
@@ -66,6 +72,18 @@
         "name": "BalanceFuseAaveV3",
         "versions": {
           "2024-09-29": "0x05bCb16a50DaFE0526FB7b3941B81B1B74a7877e"
+        }
+      },
+      {
+        "name": "BalanceFuseAaveV3Lido",
+        "versions": {
+          "2025-03-10": "0xE5a3958B24767b30f0f5d3F47A25cFB4c08c1053"
+        }
+      },
+      {
+        "name": "BalanceFuseBurnRequestFee",
+        "versions": {
+          "2025-03-10": "0xbc2907d76964510a4232878e7aC6E2B18c474EFb"
         }
       },
       {
@@ -147,6 +165,12 @@
         }
       },
       {
+        "name": "BorrowFuseAaveV3Lido",
+        "versions": {
+          "2025-03-10": "0xF020b954e02D8B8419cF5625D4371F16a678d884"
+        }
+      },
+      {
         "name": "BorrowFuseEulerV2",
         "versions": {
           "2024-11-26": "0x20c782C94800d709541660E322035785c89E32C2"
@@ -219,9 +243,21 @@
         }
       },
       {
+        "name": "MaintenanceFuseUpdateWithdrawManager",
+        "versions": {
+          "2025-03-13": "0x74CA34C2C47d0865856A54060246AB736a0Bb0D0"
+        }
+      },
+      {
         "name": "SupplyFuseAaveV3",
         "versions": {
           "2024-09-29": "0x465D639EB964158beE11f35E8fc23f704EC936a2"
+        }
+      },
+      {
+        "name": "SupplyFuseAaveV3Lido",
+        "versions": {
+          "2025-03-10": "0x09791C53218010eE59464386F6a3B9D656490d60"
         }
       },
       {
@@ -339,7 +375,7 @@
         "name": "Singularity Vault",
         "token": "USDC",
         "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
-        "PlasmaVault": "0x272Cb09e2d6237304E4D2BcB9DEf40032aA0ebB1"
+        "PlasmaVault": "0xcafC0A559a9Bf2fc77a7ECFaF04BD929a7D9c5Cf"
       },
       {
         "name": "Autopilot USDC Arbitrum",
@@ -365,6 +401,12 @@
         "name": "BalanceFuseAaveV3",
         "versions": {
           "2024-09-03": "0x4CB1c4774BA1B65802c68Adb33DE99ABf8B21228"
+        }
+      },
+      {
+        "name": "BalanceFuseBurnRequestFee",
+        "versions": {
+          "2025-03-14": "0xF8a9E4D0899d6268421FC1af952d91782728b8E5"
         }
       },
       {
@@ -460,7 +502,8 @@
       {
         "name": "BurnRequestFeeFuse",
         "versions": {
-          "2025-02-26": "0x292711bC63184318294593C38Ad914AcfCd1797B"
+          "2025-02-26": "0x292711bC63184318294593C38Ad914AcfCd1797B",
+          "2025-03-14": "0xee322e49268760878924d18A645278aB08Ae245c"
         }
       },
       {
@@ -638,7 +681,7 @@
         "name": "Ethereum Xerberus Prime Index",
         "token": "WETH",
         "asset": "0x4200000000000000000000000000000000000006",
-        "PlasmaVault": "0x6539fD9916bc76c4324b747398aB066a256B8dD1"
+        "PlasmaVault": "0xa121d23cECD8050082d13a1FC062598c5449dBE9"
       },
       {
         "name": "Autopilot cbBTC Base",
@@ -664,6 +707,12 @@
         "name": "BalanceFuseAaveV3",
         "versions": {
           "2024-10-29": "0xf53f3EaFfDf67539256365cA7299540A98b60BA9"
+        }
+      },
+      {
+        "name": "BalanceFuseBurnRequestFee",
+        "versions": {
+          "2025-03-14": "0x341D2459606FEB164A986767cB72Ddd8230744Fe"
         }
       },
       {
