@@ -148,6 +148,7 @@ def update_addresses_json(fuses_file, addresses_file):
             if "fuses" in addresses[chain]:
                 for fuse in addresses[chain]["fuses"]:
                     existing_fuses[chain][fuse["name"]] = fuse["versions"]
+                    blockchain_fuses[chain][fuse["name"]] = fuse["versions"]
 
         for file_path, fuses in fuses_data.items():
             chain = None

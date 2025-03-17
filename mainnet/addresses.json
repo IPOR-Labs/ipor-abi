@@ -375,7 +375,7 @@
         "name": "Singularity Vault",
         "token": "USDC",
         "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
-        "PlasmaVault": "0x272Cb09e2d6237304E4D2BcB9DEf40032aA0ebB1"
+        "PlasmaVault": "0xcafC0A559a9Bf2fc77a7ECFaF04BD929a7D9c5Cf"
       },
       {
         "name": "Autopilot USDC Arbitrum",
@@ -681,7 +681,7 @@
         "name": "Ethereum Xerberus Prime Index",
         "token": "WETH",
         "asset": "0x4200000000000000000000000000000000000006",
-        "PlasmaVault": "0x6539fD9916bc76c4324b747398aB066a256B8dD1"
+        "PlasmaVault": "0xa121d23cECD8050082d13a1FC062598c5449dBE9"
       },
       {
         "name": "Autopilot cbBTC Base",
