@@ -65,6 +65,12 @@
         "token": "WETH",
         "asset": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
         "PlasmaVault": "0x9824dCdac89F208Bf8b5Cb5C4Dc41F04a0878607"
+      },
+      {
+        "name": "Vault TAU Core",
+        "token": "USDC",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0x9dC2819B49C3d39b11a5F4C8c0c17BD7e18126D9"
       }
     ],
     "fuses": [
@@ -102,6 +108,18 @@
         "name": "BalanceFuseErc20",
         "versions": {
           "2025-01-16": "0x6cEBf3e3392D0860Ed174402884b941DCBB30654"
+        }
+      },
+      {
+        "name": "BalanceFuseErc4626Market1",
+        "versions": {
+          "2025-03-17": "0x2C10C36028C430f445a4bA9f7Dd096a5DcC75d5e"
+        }
+      },
+      {
+        "name": "BalanceFuseErc4626Market2",
+        "versions": {
+          "2025-03-17": "0x933bfF1078fF1a0ca3b53dad00d7B1850aF8749b"
         }
       },
       {
@@ -270,6 +288,18 @@
         "name": "SupplyFuseCompoundV3Usdt",
         "versions": {
           "2024-09-29": "0x4f35094b049e4aa0eA98CfA00fA55f30B12aaF29"
+        }
+      },
+      {
+        "name": "SupplyFuseErc4626Market1",
+        "versions": {
+          "2025-03-17": "0x12FD0EE183c85940CAedd4877f5d3Fc637515870"
+        }
+      },
+      {
+        "name": "SupplyFuseErc4626Market2",
+        "versions": {
+          "2025-03-17": "0x83Be46881AaeBA80B3d647e08a47301Db2e4E754"
         }
       },
       {
@@ -700,6 +730,18 @@
         "token": "WETH",
         "asset": "0x4200000000000000000000000000000000000006",
         "PlasmaVault": "0x7872893e528Fe2c0829e405960db5B742112aa97"
+      },
+      {
+        "name": "IPOR WstETH Base",
+        "token": "wstETH",
+        "asset": "0xc1CBa3fCea344f92D9239c08C0568f6F2F0ee452",
+        "PlasmaVault": "0xFe8b23B493579e5c3a0A3BC5BBF20662B3072DE6"
+      },
+      {
+        "name": "Xerberus Evergreen",
+        "token": "WETH",
+        "asset": "0x4200000000000000000000000000000000000006",
+        "PlasmaVault": "0xD7412A93Db3D39AA7Ab9C30c471f069A3F059aD5"
       }
     ],
     "fuses": [
