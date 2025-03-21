@@ -736,6 +736,12 @@
         "token": "wstETH",
         "asset": "0xc1CBa3fCea344f92D9239c08C0568f6F2F0ee452",
         "PlasmaVault": "0xFe8b23B493579e5c3a0A3BC5BBF20662B3072DE6"
+      },
+      {
+        "name": "Xerberus Evergreen",
+        "token": "WETH",
+        "asset": "0x4200000000000000000000000000000000000006",
+        "PlasmaVault": "0xD7412A93Db3D39AA7Ab9C30c471f069A3F059aD5"
       }
     ],
     "fuses": [
