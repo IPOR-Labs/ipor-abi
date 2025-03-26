@@ -261,6 +261,24 @@
         }
       },
       {
+        "name": "FusePendleRedeemPtAfterMaturity",
+        "versions": {
+          "2025-03-25": "0x40430a509188b71BdA9a0c06b132e978Ea2015BE"
+        }
+      },
+      {
+        "name": "FuseRedeemFromRequestPlasmaVaultMarket1",
+        "versions": {
+          "2025-03-25": "0x906Af6A42079AdAF1aBD92F924a5d4263653AF0d"
+        }
+      },
+      {
+        "name": "FuseRequestSharesPlasmaVaultMarket1",
+        "versions": {
+          "2025-03-25": "0x7130383298822097531Cf5cc5e3414dda1e09542"
+        }
+      },
+      {
         "name": "MaintenanceFuseUpdateWithdrawManager",
         "versions": {
           "2025-03-13": "0x74CA34C2C47d0865856A54060246AB736a0Bb0D0"
@@ -354,6 +372,12 @@
         "name": "SwapFuseUniversalTokenSwapper",
         "versions": {
           "2025-01-16": "0x08dFdBB6Ecf19f1fc974E0675783E1150B2B650F"
+        }
+      },
+      {
+        "name": "UniversalReaderBalanceFuses",
+        "versions": {
+          "2025-03-25": "0x870E1Fb75BEdbc2eFB92857DC2B2cF171a0AEC1f"
         }
       }
     ]
@@ -561,6 +585,24 @@
         }
       },
       {
+        "name": "FusePendleRedeemPtAfterMaturity",
+        "versions": {
+          "2025-03-25": "0x1c1B7AcdF17b0B10c6F3a00B0a89fDBB6FDd61bF"
+        }
+      },
+      {
+        "name": "FuseRedeemFromRequestPlasmaVaultMarket1",
+        "versions": {
+          "2025-03-25": "0x4d3E8763E86Dee40B34bC21e098b26f5B9ba394d"
+        }
+      },
+      {
+        "name": "FuseRequestSharesPlasmaVaultMarket1",
+        "versions": {
+          "2025-03-25": "0xD6c4bf7Ac3AEA99Fa01532e4457202AE41A2596B"
+        }
+      },
+      {
         "name": "ModifyPositionSwapFuseRamsesV2",
         "versions": {
           "2024-10-08": "0xD41501B46a68DeA06a460fD79a7bCda9e3b92674"
@@ -654,6 +696,12 @@
         "name": "SwapFuseUniversalTokenSwapper",
         "versions": {
           "2024-09-11": "0xB052b0D983E493B4D40DeC75A03D21b70b83c2ca"
+        }
+      },
+      {
+        "name": "UniversalReaderBalanceFuses",
+        "versions": {
+          "2025-03-25": "0xacDB88ea2E2D248369b5b3137Fc3f971543d706c"
         }
       }
     ]
@@ -963,6 +1011,24 @@
         }
       },
       {
+        "name": "FusePendleRedeemPtAfterMaturity",
+        "versions": {
+          "2025-03-25": "0xE59e63565d1fD5186765EBE3302C24b72C6f2EeA"
+        }
+      },
+      {
+        "name": "FuseRedeemFromRequestPlasmaVaultMarket1",
+        "versions": {
+          "2025-03-25": "0x07c547bcc5f7e66333C259B3f8938a4049aa44DF"
+        }
+      },
+      {
+        "name": "FuseRequestSharesPlasmaVaultMarket1",
+        "versions": {
+          "2025-03-25": "0xEf40141EA3263004D398136FF9EB75E5d6743C09"
+        }
+      },
+      {
         "name": "SupplyFuseAaveV3",
         "versions": {
           "2024-10-29": "0x44dcB8A4c40FA9941d99F409b2948FE91B6C15d5"
@@ -1092,6 +1158,12 @@
         "name": "SwapFuseUniversalTokenSwapper",
         "versions": {
           "2024-11-26": "0xdBc5f9962CE85749F1b3c51BA0473909229E3807"
+        }
+      },
+      {
+        "name": "UniversalReaderBalanceFuses",
+        "versions": {
+          "2025-03-25": "0xE33F6a15D382CeabB8f351320BF63EE2860E8203"
         }
       }
     ]
