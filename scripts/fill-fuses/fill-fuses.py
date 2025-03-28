@@ -34,6 +34,12 @@ CHAIN_START_BLOCKS = {
     "base": 	21704649
 }
 
+EXPLORERS = {
+    "ethereum": "https://etherscan.io/address/",
+    "arbitrum": "https://arbiscan.io/address/",
+    "base": "https://basescan.org/address/"
+}
+
 TOKEN_ABI = [
     {
         "inputs": [],
@@ -219,6 +225,86 @@ def update_addresses_json(fuses_file, addresses_file):
         logger.error(f"Error updating addresses.json: {str(e)}")
 
 
+def generate_markdown_list(addresses_file=MAIN_ADDRESSES_FILE, readme_file="../../README.md"):
+    try:
+        with open(addresses_file, 'r') as f:
+            addresses_data = json.load(f)
+
+        # Read existing README content
+        try:
+            with open(readme_file, 'r') as f:
+                readme_content = f.read()
+        except FileNotFoundError:
+            readme_content = "# Fuse Protocol\n\n"
+
+        # Create fuses list markdown
+        fuses_md = "## Fuses List\n\n"
+        fuses_md += f"*Last updated: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}*\n\n"
+        
+        for chain, chain_data in addresses_data.items():
+            if "fuses" in chain_data and chain_data["fuses"]:
+                fuses_md += f"### {chain.capitalize()} Fuses\n\n"
+                fuses_md += "| Fuse Name | Version | Address | Explorer |\n"
+                fuses_md += "|-----------|---------|---------|----------|\n"
+                
+                explorer_base_url = EXPLORERS.get(chain.lower(), "")
+
+                sorted_fuses = sorted(chain_data["fuses"], key=lambda x: x["name"])
+                
+                for fuse in sorted_fuses:
+                    fuse_name = fuse["name"]
+
+                    sorted_versions = sorted(fuse["versions"].items(), key=lambda x: x[0], reverse=True)
+
+                    if len(sorted_versions) == 1:
+                        version_date, version_address = sorted_versions[0]
+                        explorer_link = f"[View Code]({explorer_base_url}{version_address}#code)" if explorer_base_url else ""
+                        fuses_md += f"| {fuse_name} | {version_date} | `{version_address}` | {explorer_link} |\n"
+                    else:
+                        for i, (version_date, version_address) in enumerate(sorted_versions):
+                            explorer_link = f"[View Code]({explorer_base_url}{version_address}#code)" if explorer_base_url else ""
+                            if i == 0:
+                                fuses_md += f"| {fuse_name} | {version_date} | `{version_address}` | {explorer_link} |\n"
+                            else:
+                                fuses_md += f"| ↳ | {version_date} | `{version_address}` | {explorer_link} |\n"
+                
+                fuses_md += "\n"
+
+        # Split README into sections by headings
+        import re
+        sections = re.split(r'(^##\s+[^\n]+\n)', readme_content, flags=re.MULTILINE)
+        
+        # Find and replace the Fuses List section or add it if not found
+        fuses_list_found = False
+        for i in range(1, len(sections), 2):
+            if "## Fuses List" in sections[i]:
+                sections[i+1] = "\n" + fuses_md.replace("## Fuses List\n\n", "")
+                fuses_list_found = True
+                break
+        
+        if not fuses_list_found:
+            sections.append("\n\n## Fuses List\n")
+            sections.append("\n" + fuses_md.replace("## Fuses List\n\n", ""))
+        
+        # Reassemble the README
+        new_readme_content = "".join(sections)
+        
+        # Write updated README
+        with open(readme_file, 'w') as f:
+            f.write(new_readme_content.strip() + "\n")
+            
+        logger.info(f"Fuses list updated in {readme_file}")
+        
+        # Also save to the output directory for reference
+        output_md_file = f"{OUTPUT_DIR}/fuses_list.md"
+        os.makedirs(os.path.dirname(output_md_file), exist_ok=True)
+        with open(output_md_file, 'w') as f:
+            f.write(fuses_md)
+        
+    except Exception as e:
+        logger.error(f"Error generating markdown list: {str(e)}")
+
+
 def main():
     result = {}
 
@@ -240,6 +326,8 @@ def main():
     logger.info(f"Processing complete. Results written to {OUTPUT_FILE}")
 
     update_addresses_json(OUTPUT_FILE, MAIN_ADDRESSES_FILE)
+    
+    generate_markdown_list()
 
 
 if __name__ == "__main__":
