@@ -230,51 +230,41 @@ def generate_markdown_list(addresses_file=MAIN_ADDRESSES_FILE, readme_file="../.
         with open(addresses_file, 'r') as f:
             addresses_data = json.load(f)
 
-        # Read existing README content
         try:
             with open(readme_file, 'r') as f:
                 readme_content = f.read()
         except FileNotFoundError:
             readme_content = "# Fuse Protocol\n\n"
 
-        # Create fuses list markdown
         fuses_md = "## Fuses List\n\n"
         fuses_md += f"*Last updated: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}*\n\n"
         
         for chain, chain_data in addresses_data.items():
             if "fuses" in chain_data and chain_data["fuses"]:
                 fuses_md += f"### {chain.capitalize()} Fuses\n\n"
-                fuses_md += "| Fuse Name | Version | Address | Explorer |\n"
-                fuses_md += "|-----------|---------|---------|----------|\n"
                 
                 explorer_base_url = EXPLORERS.get(chain.lower(), "")
-
                 sorted_fuses = sorted(chain_data["fuses"], key=lambda x: x["name"])
                 
                 for fuse in sorted_fuses:
                     fuse_name = fuse["name"]
+                    fuses_md += f"#### {fuse_name}\n\n"
+                    fuses_md += "| Version | Address | Explorer |\n"
+                    fuses_md += "|---------|---------|----------|\n"
 
                     sorted_versions = sorted(fuse["versions"].items(), key=lambda x: x[0], reverse=True)
-
-                    if len(sorted_versions) == 1:
-                        version_date, version_address = sorted_versions[0]
+                    
+                    for version_date, version_address in sorted_versions:
                         explorer_link = f"[View Code]({explorer_base_url}{version_address}#code)" if explorer_base_url else ""
-                        fuses_md += f"| {fuse_name} | {version_date} | `{version_address}` | {explorer_link} |\n"
-                    else:
-                        for i, (version_date, version_address) in enumerate(sorted_versions):
-                            explorer_link = f"[View Code]({explorer_base_url}{version_address}#code)" if explorer_base_url else ""
-                            if i == 0:
-                                fuses_md += f"| {fuse_name} | {version_date} | `{version_address}` | {explorer_link} |\n"
-                            else:
-                                fuses_md += f"| ↳ | {version_date} | `{version_address}` | {explorer_link} |\n"
+                        fuses_md += f"| {version_date} | `{version_address}` | {explorer_link} |\n"
+                    
+                    fuses_md += "\n"
                 
                 fuses_md += "\n"
 
-        # Split README into sections by headings
         import re
         sections = re.split(r'(^##\s+[^\n]+\n)', readme_content, flags=re.MULTILINE)
         
-        # Find and replace the Fuses List section or add it if not found
         fuses_list_found = False
         for i in range(1, len(sections), 2):
             if "## Fuses List" in sections[i]:
@@ -286,16 +276,13 @@ def generate_markdown_list(addresses_file=MAIN_ADDRESSES_FILE, readme_file="../.
             sections.append("\n\n## Fuses List\n")
             sections.append("\n" + fuses_md.replace("## Fuses List\n\n", ""))
         
-        # Reassemble the README
         new_readme_content = "".join(sections)
         
-        # Write updated README
         with open(readme_file, 'w') as f:
             f.write(new_readme_content.strip() + "\n")
             
         logger.info(f"Fuses list updated in {readme_file}")
         
-        # Also save to the output directory for reference
         output_md_file = f"{OUTPUT_DIR}/fuses_list.md"
         os.makedirs(os.path.dirname(output_md_file), exist_ok=True)
         with open(output_md_file, 'w') as f:
