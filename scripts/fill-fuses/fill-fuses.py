@@ -243,10 +243,11 @@ def generate_markdown_list(addresses_file=MAIN_ADDRESSES_FILE, readme_file="../.
             if "fuses" in chain_data and chain_data["fuses"]:
                 fuses_md += f"### {chain.capitalize()} Fuses\n\n"
                 
+                explorer_base_url = EXPLORERS.get(chain.lower(), "")
                 sorted_fuses = sorted(chain_data["fuses"], key=lambda x: x["name"])
                 
-                fuses_md += f"| Fuse Name | Address |\n"
-                fuses_md += "|-----------|----------|\n"
+                fuses_md += f"| Fuse Name | Address / View in Explorer |\n"
+                fuses_md += "|-----------|---------------------------|\n"
                 
                 for fuse in sorted_fuses:
                     fuse_name = fuse["name"]
@@ -254,7 +255,11 @@ def generate_markdown_list(addresses_file=MAIN_ADDRESSES_FILE, readme_file="../.
                     sorted_versions = sorted(fuse["versions"].items(), key=lambda x: x[0], reverse=True)
                     if sorted_versions:
                         newest_date, newest_address = sorted_versions[0]
-                        fuses_md += f"| `{fuse_name}` | `{newest_address}` |\n"
+                        if explorer_base_url:
+                            address_display = f"`{newest_address}` [View]({explorer_base_url}{newest_address}#code)"
+                        else:
+                            address_display = f"`{newest_address}`"
+                        fuses_md += f"| `{fuse_name}` | {address_display} |\n"
                 
                 fuses_md += "\n"
                 
@@ -267,8 +272,8 @@ def generate_markdown_list(addresses_file=MAIN_ADDRESSES_FILE, readme_file="../.
                 
                 if has_older_versions:
                     fuses_md += f"#### {chain.capitalize()} Older Fuses Versions\n\n"
-                    fuses_md += f"| Fuse Name | Address |\n"
-                    fuses_md += "|-----------|----------|\n"
+                    fuses_md += f"| Fuse Name | Address / View in Explorer |\n"
+                    fuses_md += "|-----------|---------------------------|\n"
                     
                     for fuse in sorted_fuses:
                         fuse_name = fuse["name"]
@@ -276,7 +281,11 @@ def generate_markdown_list(addresses_file=MAIN_ADDRESSES_FILE, readme_file="../.
                         sorted_versions = sorted(fuse["versions"].items(), key=lambda x: x[0], reverse=True)
                         if len(sorted_versions) > 1:
                             for date, address in sorted_versions[1:]:
-                                fuses_md += f"| `{fuse_name}` | `{address}` |\n"
+                                if explorer_base_url:
+                                    address_display = f"`{address}` [View]({explorer_base_url}{address}#code)"
+                                else:
+                                    address_display = f"`{address}`"
+                                fuses_md += f"| `{fuse_name}` | {address_display} |\n"
                     
                     fuses_md += "\n"
 
