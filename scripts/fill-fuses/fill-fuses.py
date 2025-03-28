@@ -249,7 +249,7 @@ def generate_markdown_list(addresses_file=MAIN_ADDRESSES_FILE, readme_file="../.
                 for fuse in sorted_fuses:
                     fuse_name = fuse["name"]
                     fuses_md += f"#### {fuse_name}\n\n"
-                    fuses_md += "| Version | Address | Explorer |\n"
+                    fuses_md += f"| Version | {chain.capitalize()} Address | Explorer |\n"
                     fuses_md += "|---------|---------|----------|\n"
 
                     sorted_versions = sorted(fuse["versions"].items(), key=lambda x: x[0], reverse=True)
