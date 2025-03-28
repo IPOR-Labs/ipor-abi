@@ -8,10 +8,11 @@ from web3 import Web3
 from web3.exceptions import ContractLogicError
 
 ADDRESSES_FILENAME = 'addresses.json'
-START_PATH = '../../mainnet'
+MAINNET_PATH = '../../mainnet'
+TESTNET_PATH = '../../testnet'
 OUTPUT_DIR = 'output'
 OUTPUT_FILE = f'{OUTPUT_DIR}/fuses.json'
-MAIN_ADDRESSES_FILE = f'{START_PATH}/{ADDRESSES_FILENAME}'
+MAIN_ADDRESSES_FILE = f'{MAINNET_PATH}/{ADDRESSES_FILENAME}'
 
 ZERO_ADDRESS = "0x0000000000000000000000000000000000000000"
 
@@ -221,7 +222,8 @@ def update_addresses_json(fuses_file, addresses_file):
 def main():
     result = {}
 
-    addresses_files = find_addresses_files(START_PATH)
+    addresses_files = find_addresses_files(MAINNET_PATH)
+    addresses_files.extend(find_addresses_files(TESTNET_PATH))
 
     for file_path in addresses_files:
         relative_path = os.path.relpath(file_path, '.')

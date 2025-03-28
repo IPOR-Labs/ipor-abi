@@ -548,9 +548,33 @@
         }
       },
       {
+        "name": "BalanceFuseSwapPositionsUniswapV3",
+        "versions": {
+          "2024-10-08": "0xf5f05a86e4fe84033940FC7FaEEa5E17C6614945"
+        }
+      },
+      {
+        "name": "BalanceFuseSwapUniswapV2",
+        "versions": {
+          "2024-09-11": "0x0f0f43B3559bE3319a63082755AD05C158D3b011"
+        }
+      },
+      {
+        "name": "BalanceFuseSwapUniswapV3",
+        "versions": {
+          "2024-09-11": "0x43F3ca257B7e2d6BbE088B85eF2c2c57e2A3142c"
+        }
+      },
+      {
         "name": "BalanceFuseUniversalTokenSwapper",
         "versions": {
           "2024-09-11": "0x7ceAe29f467db23210C6fDB95247355C87026eD0"
+        }
+      },
+      {
+        "name": "BorrowFuseAaveV3",
+        "versions": {
+          "2024-09-11": "0x28264E8b70902f6C55420EAF66AeeE12b602302E"
         }
       },
       {
@@ -558,6 +582,12 @@
         "versions": {
           "2025-02-26": "0x292711bC63184318294593C38Ad914AcfCd1797B",
           "2025-03-14": "0xee322e49268760878924d18A645278aB08Ae245c"
+        }
+      },
+      {
+        "name": "ClaimRewardsFuseCompoundV3",
+        "versions": {
+          "2024-10-08": "0xfa27F28934D3478F65bcfA158E3096045bFdb1Bd"
         }
       },
       {
@@ -585,6 +615,12 @@
         }
       },
       {
+        "name": "CollectSwapFuseUniswapV3",
+        "versions": {
+          "2024-09-11": "0x75781AB6CdcE9c505DbD0848f4Ad8A97c68F53c1"
+        }
+      },
+      {
         "name": "FusePendleRedeemPtAfterMaturity",
         "versions": {
           "2025-03-25": "0x1c1B7AcdF17b0B10c6F3a00B0a89fDBB6FDd61bF"
@@ -609,9 +645,21 @@
         }
       },
       {
+        "name": "ModifyPositionSwapFuseUniswapV3",
+        "versions": {
+          "2024-09-11": "0xba503b6f2b95A4A47ee9884bbBcd80cAce2D2EB3"
+        }
+      },
+      {
         "name": "NewPositionSwapFuseRamsesV2",
         "versions": {
           "2024-10-08": "0xb025CC5e73e2966e12e4d859360B51c1D0F45EA3"
+        }
+      },
+      {
+        "name": "NewPositionSwapFuseUniswapV3",
+        "versions": {
+          "2024-10-08": "0x1DA7F95e63f12169B3495E2B83D01D0D6592DD86"
         }
       },
       {
@@ -690,6 +738,18 @@
         "name": "SupplyFuseGearboxV3FarmDToken",
         "versions": {
           "2024-09-03": "0xB0FBF6B7D0586C0a5Bc1C3b8a98773f4eD02c983"
+        }
+      },
+      {
+        "name": "SwapFuseUniswapV2",
+        "versions": {
+          "2024-09-11": "0xAdA9bF3c599DB229601dd1220D0b3CcAb6c7db84"
+        }
+      },
+      {
+        "name": "SwapFuseUniswapV3",
+        "versions": {
+          "2024-09-11": "0x84C5aB008C66d664681698A9E4536D942B916F89"
         }
       },
       {
@@ -916,6 +976,7 @@
       {
         "name": "BalanceFuseFlashLoanMorpho",
         "versions": {
+          "2024-10-29": "0x1704D12204052d2a1F241d5D73f4bF0926800a5B",
           "2024-11-18": "0x2Ce01779CfE56DC253D0Ac1b47E3bb7E597bCaEA"
         }
       },
@@ -947,6 +1008,18 @@
         "name": "BalanceFuseMorpho",
         "versions": {
           "2024-10-29": "0x7916856E11E0CA021967D0D4daC49D737b7d73d5"
+        }
+      },
+      {
+        "name": "BalanceFuseSwapPositionsUniswapV3",
+        "versions": {
+          "2024-10-29": "0x9c84c1A708eB8FfE699d7c2a81eC00b028ac3aac"
+        }
+      },
+      {
+        "name": "BalanceFuseSwapUniswapV3",
+        "versions": {
+          "2024-10-29": "0x5F169161227F92D6FBb691Ea1e4e89ea3fed24B3"
         }
       },
       {
@@ -1017,6 +1090,12 @@
         }
       },
       {
+        "name": "CollectSwapFuseUniswapV3",
+        "versions": {
+          "2024-10-29": "0xf13D892786aE580D1B300d378a654553c2F226De"
+        }
+      },
+      {
         "name": "EnableMarketFuseMoonwell",
         "versions": {
           "2024-11-18": "0xD62542Ef1ABFF0ac71A1b5666CB76801e81104Ef"
@@ -1044,6 +1123,18 @@
         "name": "FuseRequestSharesPlasmaVaultMarket1",
         "versions": {
           "2025-03-25": "0xEf40141EA3263004D398136FF9EB75E5d6743C09"
+        }
+      },
+      {
+        "name": "ModifyPositionSwapFuseUniswapV3",
+        "versions": {
+          "2024-10-29": "0x3978b49f991949cA453601656EE97e8339f56da3"
+        }
+      },
+      {
+        "name": "NewPositionSwapFuseUniswapV3",
+        "versions": {
+          "2024-10-29": "0x08C0F62E19a66800EdD2e8eBfeE02EDc912D510a"
         }
       },
       {
@@ -1185,8 +1276,15 @@
         }
       },
       {
+        "name": "SwapFuseUniswapV3",
+        "versions": {
+          "2024-10-29": "0x6C65F2155bb8730E1768558f2679eBB04d957145"
+        }
+      },
+      {
         "name": "SwapFuseUniversalTokenSwapper",
         "versions": {
+          "2024-10-29": "0x4d9cbA074b00249D0a7d390Ff8f038dE3Ae23317",
           "2024-11-26": "0xdBc5f9962CE85749F1b3c51BA0473909229E3807"
         }
       },
