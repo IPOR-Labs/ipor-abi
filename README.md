@@ -6,9 +6,9 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Fuses List
 
-*Last updated: 2025-03-28 17:51:42 UTC*
+*Last updated: 2025-03-28 17:54:57 UTC*
 
-### Ethereum
+### Ethereum Fuses
 
 | Fuse Name | Address |
 |-----------|----------|
@@ -64,7 +64,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `SwapFuseUniversalTokenSwapper` | `0x08dFdBB6Ecf19f1fc974E0675783E1150B2B650F` |
 | `UniversalReaderBalanceFuses` | `0x870E1Fb75BEdbc2eFB92857DC2B2cF171a0AEC1f` |
 
-### Arbitrum
+### Arbitrum Fuses
 
 | Fuse Name | Address |
 |-----------|----------|
@@ -121,13 +121,13 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `SwapFuseUniversalTokenSwapper` | `0xB052b0D983E493B4D40DeC75A03D21b70b83c2ca` |
 | `UniversalReaderBalanceFuses` | `0xacDB88ea2E2D248369b5b3137Fc3f971543d706c` |
 
-#### Arbitrum Older Versions
+#### Arbitrum Older Fuses Versions
 
 | Fuse Name | Address |
 |-----------|----------|
 | `BurnRequestFeeFuse` | `0x292711bC63184318294593C38Ad914AcfCd1797B` |
 
-### Base
+### Base Fuses
 
 | Fuse Name | Address |
 |-----------|----------|
@@ -205,7 +205,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `SwapFuseUniversalTokenSwapper` | `0xdBc5f9962CE85749F1b3c51BA0473909229E3807` |
 | `UniversalReaderBalanceFuses` | `0xE33F6a15D382CeabB8f351320BF63EE2860E8203` |
 
-#### Base Older Versions
+#### Base Older Fuses Versions
 
 | Fuse Name | Address |
 |-----------|----------|

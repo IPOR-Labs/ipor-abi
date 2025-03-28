@@ -241,7 +241,7 @@ def generate_markdown_list(addresses_file=MAIN_ADDRESSES_FILE, readme_file="../.
         
         for chain, chain_data in addresses_data.items():
             if "fuses" in chain_data and chain_data["fuses"]:
-                fuses_md += f"### {chain.capitalize()}\n\n"
+                fuses_md += f"### {chain.capitalize()} Fuses\n\n"
                 
                 sorted_fuses = sorted(chain_data["fuses"], key=lambda x: x["name"])
                 
@@ -266,7 +266,7 @@ def generate_markdown_list(addresses_file=MAIN_ADDRESSES_FILE, readme_file="../.
                         break
                 
                 if has_older_versions:
-                    fuses_md += f"#### {chain.capitalize()} Older Versions\n\n"
+                    fuses_md += f"#### {chain.capitalize()} Older Fuses Versions\n\n"
                     fuses_md += f"| Fuse Name | Address |\n"
                     fuses_md += "|-----------|----------|\n"
                     
