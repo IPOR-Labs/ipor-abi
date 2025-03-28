@@ -237,7 +237,7 @@ def generate_markdown_list(addresses_file=MAIN_ADDRESSES_FILE, readme_file="../.
             readme_content = "# Fuse Protocol\n\n"
 
         fuses_md = "## Fuses List\n\n"
-        fuses_md += f"*Last updated: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}*\n\n"
+        fuses_md += f"*Last updated: {datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%d %H:%M:%S')} UTC*\n\n"
         
         for chain, chain_data in addresses_data.items():
             if "fuses" in chain_data and chain_data["fuses"]:
