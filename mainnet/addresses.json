@@ -812,6 +812,12 @@
         }
       },
       {
+        "name": "BalanceFuseCompoundV3WEth",
+        "versions": {
+          "2025-03-27": "0x88810B5066A92d628A1Cb59A1902bc607eeb8C1B"
+        }
+      },
+      {
         "name": "BalanceFuseErc20",
         "versions": {
           "2024-10-29": "0x9ba147FC382DBf4D73512A45370ba0B70c25F6aa"
@@ -902,6 +908,12 @@
         }
       },
       {
+        "name": "BalanceFuseEulerV2",
+        "versions": {
+          "2025-03-27": "0xf8bB9A9051F6E94d097686544021e6dF17EA6CaF"
+        }
+      },
+      {
         "name": "BalanceFuseFlashLoanMorpho",
         "versions": {
           "2024-11-18": "0x2Ce01779CfE56DC253D0Ac1b47E3bb7E597bCaEA"
@@ -981,6 +993,12 @@
         }
       },
       {
+        "name": "ClaimRewardsFuseFluidProof",
+        "versions": {
+          "2025-03-27": "0xB002337C59a4133e328D91ed82C5012472952c6f"
+        }
+      },
+      {
         "name": "ClaimRewardsFuseMoonwell",
         "versions": {
           "2024-11-18": "0xd253C5C54248433C7879aC14Fb03201e008C5a1e"
@@ -1038,6 +1056,12 @@
         "name": "SupplyFuseCompoundV3Usdc",
         "versions": {
           "2024-10-29": "0x42FBD4D8f578b902Ed9030BF9035A606dDECa26f"
+        }
+      },
+      {
+        "name": "SupplyFuseCompoundV3WEth",
+        "versions": {
+          "2025-03-27": "0xD72Dd19C04362488a4143F43e407ec87A849b72b"
         }
       },
       {
@@ -1122,6 +1146,12 @@
         "name": "SupplyFuseErc4626Market9",
         "versions": {
           "2025-02-26": "0xc3B44addfAe29fD170196C324bA0C233C870c77a"
+        }
+      },
+      {
+        "name": "SupplyFuseEulerV2",
+        "versions": {
+          "2025-03-27": "0xFa00806c871558ceF982DFc02D7a87e4Ad0ec0Fa"
         }
       },
       {
