@@ -243,47 +243,40 @@ def generate_markdown_list(addresses_file=MAIN_ADDRESSES_FILE, readme_file="../.
             if "fuses" in chain_data and chain_data["fuses"]:
                 fuses_md += f"### {chain.capitalize()}\n\n"
                 
-                explorer_base_url = EXPLORERS.get(chain.lower(), "")
                 sorted_fuses = sorted(chain_data["fuses"], key=lambda x: x["name"])
                 
-                # Create a table with all fuses showing only newest version
-                fuses_md += f"| Fuse Name | Address | Version |\n"
-                fuses_md += "|-----------|---------|----------|\n"
+                fuses_md += f"| Fuse Name | Address |\n"
+                fuses_md += "|-----------|----------|\n"
                 
                 for fuse in sorted_fuses:
                     fuse_name = fuse["name"]
                     
-                    # Get the newest version (sort by date and take the first one)
                     sorted_versions = sorted(fuse["versions"].items(), key=lambda x: x[0], reverse=True)
                     if sorted_versions:
                         newest_date, newest_address = sorted_versions[0]
-                        explorer_link = f"[{newest_address}]({explorer_base_url}{newest_address}#code)" if explorer_base_url else newest_address
-                        fuses_md += f"| {fuse_name} | {explorer_link} | {newest_date} |\n"
+                        fuses_md += f"| `{fuse_name}` | `{newest_address}` |\n"
                 
                 fuses_md += "\n"
                 
-                # Add a section for older versions
                 has_older_versions = False
                 for fuse in sorted_fuses:
                     sorted_versions = sorted(fuse["versions"].items(), key=lambda x: x[0], reverse=True)
-                    if len(sorted_versions) > 1:  # If there are older versions
+                    if len(sorted_versions) > 1:
                         has_older_versions = True
                         break
                 
                 if has_older_versions:
-                    fuses_md += f"#### Older Versions\n\n"
-                    fuses_md += f"| Fuse Name | Address | Version |\n"
-                    fuses_md += "|-----------|---------|----------|\n"
+                    fuses_md += f"#### {chain.capitalize()} Older Versions\n\n"
+                    fuses_md += f"| Fuse Name | Address |\n"
+                    fuses_md += "|-----------|----------|\n"
                     
                     for fuse in sorted_fuses:
                         fuse_name = fuse["name"]
                         
-                        # Get all versions except the newest one
                         sorted_versions = sorted(fuse["versions"].items(), key=lambda x: x[0], reverse=True)
-                        if len(sorted_versions) > 1:  # Skip if there's only one version
-                            for date, address in sorted_versions[1:]:  # Skip the first (newest) version
-                                explorer_link = f"[{address}]({explorer_base_url}{address}#code)" if explorer_base_url else address
-                                fuses_md += f"| {fuse_name} | {explorer_link} | {date} |\n"
+                        if len(sorted_versions) > 1:
+                            for date, address in sorted_versions[1:]:
+                                fuses_md += f"| `{fuse_name}` | `{address}` |\n"
                     
                     fuses_md += "\n"
 
