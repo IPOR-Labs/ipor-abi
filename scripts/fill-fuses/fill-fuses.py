@@ -246,21 +246,48 @@ def generate_markdown_list(addresses_file=MAIN_ADDRESSES_FILE, readme_file="../.
                 explorer_base_url = EXPLORERS.get(chain.lower(), "")
                 sorted_fuses = sorted(chain_data["fuses"], key=lambda x: x["name"])
                 
+                fuses_md += f"| Fuse Name | Address / View in Explorer |\n"
+                fuses_md += "|-----------|---------------------------|\n"
+                
                 for fuse in sorted_fuses:
                     fuse_name = fuse["name"]
-                    fuses_md += f"#### {fuse_name}\n\n"
-                    fuses_md += f"| Version | {chain.capitalize()} Address | Explorer |\n"
-                    fuses_md += "|---------|---------|----------|\n"
-
+                    
                     sorted_versions = sorted(fuse["versions"].items(), key=lambda x: x[0], reverse=True)
-                    
-                    for version_date, version_address in sorted_versions:
-                        explorer_link = f"[View Code]({explorer_base_url}{version_address}#code)" if explorer_base_url else ""
-                        fuses_md += f"| {version_date} | `{version_address}` | {explorer_link} |\n"
-                    
-                    fuses_md += "\n"
+                    if sorted_versions:
+                        newest_date, newest_address = sorted_versions[0]
+                        if explorer_base_url:
+                            address_display = f"`{newest_address}` [View]({explorer_base_url}{newest_address}#code)"
+                        else:
+                            address_display = f"`{newest_address}`"
+                        fuses_md += f"| `{fuse_name}` | {address_display} |\n"
                 
                 fuses_md += "\n"
+                
+                has_older_versions = False
+                for fuse in sorted_fuses:
+                    sorted_versions = sorted(fuse["versions"].items(), key=lambda x: x[0], reverse=True)
+                    if len(sorted_versions) > 1:
+                        has_older_versions = True
+                        break
+                
+                if has_older_versions:
+                    fuses_md += f"#### {chain.capitalize()} Older Fuses Versions\n\n"
+                    fuses_md += f"| Fuse Name | Address / View in Explorer |\n"
+                    fuses_md += "|-----------|---------------------------|\n"
+                    
+                    for fuse in sorted_fuses:
+                        fuse_name = fuse["name"]
+                        
+                        sorted_versions = sorted(fuse["versions"].items(), key=lambda x: x[0], reverse=True)
+                        if len(sorted_versions) > 1:
+                            for date, address in sorted_versions[1:]:
+                                if explorer_base_url:
+                                    address_display = f"`{address}` [View]({explorer_base_url}{address}#code)"
+                                else:
+                                    address_display = f"`{address}`"
+                                fuses_md += f"| `{fuse_name}` | {address_display} |\n"
+                    
+                    fuses_md += "\n"
 
         import re
         sections = re.split(r'(^##\s+[^\n]+\n)', readme_content, flags=re.MULTILINE)
