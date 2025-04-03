@@ -884,6 +884,12 @@
         "token": "WETH",
         "asset": "0x4200000000000000000000000000000000000006",
         "PlasmaVault": "0x496E39F0Aa349c24032E5636E9180e7265C3FeCD"
+      },
+      {
+        "name": "Clearstar Synchrotron",
+        "token": "USDC",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0xB02D87EB201f56ba6aFa24C0969982bC4c4E8599"
       }
     ],
     "fuses": [
