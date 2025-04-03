@@ -241,7 +241,7 @@ def generate_markdown_list(addresses_file=MAIN_ADDRESSES_FILE, readme_file="../.
         
         for chain, chain_data in addresses_data.items():
             if "prehooks" in chain_data and chain_data["prehooks"]:
-                prehooks_md += f"### {chain.capitalize()} prehooks\n\n"
+                prehooks_md += f"### {chain.capitalize()} PreHooks\n\n"
                 
                 explorer_base_url = EXPLORERS.get(chain.lower(), "")
                 sorted_prehooks = sorted(chain_data["prehooks"], key=lambda x: x["name"])
@@ -271,7 +271,7 @@ def generate_markdown_list(addresses_file=MAIN_ADDRESSES_FILE, readme_file="../.
                         break
                 
                 if has_older_versions:
-                    prehooks_md += f"#### {chain.capitalize()} Older prehooks Versions\n\n"
+                    prehooks_md += f"#### {chain.capitalize()} Older PreHooks Versions\n\n"
                     prehooks_md += f"| PreHook Name | Address / View in Explorer |\n"
                     prehooks_md += "|-----------|---------------------------|\n"
                     
