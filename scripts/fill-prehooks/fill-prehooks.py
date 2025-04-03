@@ -11,7 +11,7 @@ ADDRESSES_FILENAME = 'addresses.json'
 MAINNET_PATH = '../../mainnet'
 TESTNET_PATH = '../../testnet'
 OUTPUT_DIR = 'output'
-OUTPUT_FILE = f'{OUTPUT_DIR}/fuses.json'
+OUTPUT_FILE = f'{OUTPUT_DIR}/prehooks.json'
 MAIN_ADDRESSES_FILE = f'{MAINNET_PATH}/{ADDRESSES_FILENAME}'
 
 ZERO_ADDRESS = "0x0000000000000000000000000000000000000000"
@@ -107,14 +107,14 @@ def find_addresses_files(start_path):
     return addresses_files
 
 
-def extract_fuse_fields(file_path):
+def extract_prehook_fields(file_path):
     try:
         with open(file_path, 'r') as f:
             data = json.load(f)
 
         extracted_data = {}
         for field in data:
-            if "fuse" in field.lower() and data[field] != ZERO_ADDRESS:
+            if "prehook" in field.lower() and data[field] != ZERO_ADDRESS:
                 extracted_data[field] = data[field]
 
         return extracted_data if extracted_data else None
@@ -124,22 +124,22 @@ def extract_fuse_fields(file_path):
         return None
 
 
-def update_addresses_json(fuses_file, addresses_file):
+def update_addresses_json(prehooks_file, addresses_file):
     try:
-        with open(fuses_file, 'r') as f:
-            fuses_data = json.load(f)
+        with open(prehooks_file, 'r') as f:
+            prehooks_data = json.load(f)
 
         try:
             with open(addresses_file, 'r') as f:
                 addresses = json.load(f)
         except FileNotFoundError:
             addresses = {
-                "ethereum": {"fuses": []},
-                "arbitrum": {"fuses": []},
-                "base": {"fuses": []}
+                "ethereum": {"prehooks": []},
+                "arbitrum": {"prehooks": []},
+                "base": {"prehooks": []}
             }
 
-        blockchain_fuses = {
+        blockchain_prehooks = {
             "ethereum": {},
             "arbitrum": {},
             "base": {}
@@ -149,15 +149,15 @@ def update_addresses_json(fuses_file, addresses_file):
         for chain, url in RPC_URLS.items():
             web3_connections[chain] = Web3(Web3.HTTPProvider(url))
 
-        existing_fuses = {}
+        existing_prehooks = {}
         for chain in addresses:
-            existing_fuses[chain] = {}
-            if "fuses" in addresses[chain]:
-                for fuse in addresses[chain]["fuses"]:
-                    existing_fuses[chain][fuse["name"]] = fuse["versions"]
-                    blockchain_fuses[chain][fuse["name"]] = fuse["versions"]
+            existing_prehooks[chain] = {}
+            if "prehooks" in addresses[chain]:
+                for prehook in addresses[chain]["prehooks"]:
+                    existing_prehooks[chain][prehook["name"]] = prehook["versions"]
+                    blockchain_prehooks[chain][prehook["name"]] = prehook["versions"]
 
-        for file_path, fuses in fuses_data.items():
+        for file_path, prehooks in prehooks_data.items():
             chain = None
             if "ethereum" in file_path:
                 chain = "ethereum"
@@ -171,48 +171,48 @@ def update_addresses_json(fuses_file, addresses_file):
 
             web3 = web3_connections[chain]
             
-            for field_name, address in fuses.items():
+            for field_name, address in prehooks.items():
                 address_already_known = False
-                if field_name in existing_fuses.get(chain, {}):
-                    for date, existing_address in existing_fuses[chain][field_name].items():
+                if field_name in existing_prehooks.get(chain, {}):
+                    for date, existing_address in existing_prehooks[chain][field_name].items():
                         if existing_address.lower() == address.lower():
                             address_already_known = True
-                            if field_name not in blockchain_fuses[chain]:
-                                blockchain_fuses[chain][field_name] = {}
-                            blockchain_fuses[chain][field_name][date] = address
+                            if field_name not in blockchain_prehooks[chain]:
+                                blockchain_prehooks[chain][field_name] = {}
+                            blockchain_prehooks[chain][field_name][date] = address
                             logger.info(f"Using existing date for {field_name} at {address} on {chain}")
                             break
                 
                 if not address_already_known:
                     deployment_date = get_contract_deployment_date(web3, address, chain)
                     
-                    if field_name not in blockchain_fuses[chain]:
-                        blockchain_fuses[chain][field_name] = {}
+                    if field_name not in blockchain_prehooks[chain]:
+                        blockchain_prehooks[chain][field_name] = {}
                     
-                    blockchain_fuses[chain][field_name][deployment_date] = address
+                    blockchain_prehooks[chain][field_name][deployment_date] = address
 
-        for chain, fuse_dict in blockchain_fuses.items():
+        for chain, prehook_dict in blockchain_prehooks.items():
             if chain not in addresses:
                 addresses[chain] = {}
 
-            if "fuses" not in addresses[chain]:
-                addresses[chain]["fuses"] = []
+            if "prehooks" not in addresses[chain]:
+                addresses[chain]["prehooks"] = []
 
-            fuse_entries = []
+            prehook_entries = []
             
-            for field_name, versions in fuse_dict.items():
+            for field_name, versions in prehook_dict.items():
                 sorted_versions = sorted(versions.items(), key=lambda x: x[0])
                 
                 versions_dict = {date: address for date, address in sorted_versions}
                 
-                fuse_entries.append({
+                prehook_entries.append({
                     "name": field_name,
                     "versions": versions_dict
                 })
             
-            fuse_entries.sort(key=lambda x: x["name"])
+            prehook_entries.sort(key=lambda x: x["name"])
             
-            addresses[chain]["fuses"] = fuse_entries
+            addresses[chain]["prehooks"] = prehook_entries
 
         os.makedirs(os.path.dirname(addresses_file), exist_ok=True)
 
@@ -234,86 +234,86 @@ def generate_markdown_list(addresses_file=MAIN_ADDRESSES_FILE, readme_file="../.
             with open(readme_file, 'r') as f:
                 readme_content = f.read()
         except FileNotFoundError:
-            readme_content = "# Fuse Protocol\n\n"
+            readme_content = "# PreHook Protocol\n\n"
 
-        fuses_md = "## Fuses List\n\n"
-        fuses_md += f"*Last updated: {datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%d %H:%M:%S')} UTC*\n\n"
+        prehooks_md = "## PreHooks List\n\n"
+        prehooks_md += f"*Last updated: {datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%d %H:%M:%S')} UTC*\n\n"
         
         for chain, chain_data in addresses_data.items():
-            if "fuses" in chain_data and chain_data["fuses"]:
-                fuses_md += f"### {chain.capitalize()} Fuses\n\n"
+            if "prehooks" in chain_data and chain_data["prehooks"]:
+                prehooks_md += f"### {chain.capitalize()} prehooks\n\n"
                 
                 explorer_base_url = EXPLORERS.get(chain.lower(), "")
-                sorted_fuses = sorted(chain_data["fuses"], key=lambda x: x["name"])
+                sorted_prehooks = sorted(chain_data["prehooks"], key=lambda x: x["name"])
                 
-                fuses_md += f"| Fuse Name | Address / View in Explorer |\n"
-                fuses_md += "|-----------|---------------------------|\n"
+                prehooks_md += f"| PreHook Name | Address / View in Explorer |\n"
+                prehooks_md += "|-----------|---------------------------|\n"
                 
-                for fuse in sorted_fuses:
-                    fuse_name = fuse["name"]
+                for prehook in sorted_prehooks:
+                    prehook_name = prehook["name"]
                     
-                    sorted_versions = sorted(fuse["versions"].items(), key=lambda x: x[0], reverse=True)
+                    sorted_versions = sorted(prehook["versions"].items(), key=lambda x: x[0], reverse=True)
                     if sorted_versions:
                         newest_date, newest_address = sorted_versions[0]
                         if explorer_base_url:
                             address_display = f"`{newest_address}` [View]({explorer_base_url}{newest_address}#code)"
                         else:
                             address_display = f"`{newest_address}`"
-                        fuses_md += f"| `{fuse_name}` | {address_display} |\n"
+                        prehooks_md += f"| `{prehook_name}` | {address_display} |\n"
                 
-                fuses_md += "\n"
+                prehooks_md += "\n"
                 
                 has_older_versions = False
-                for fuse in sorted_fuses:
-                    sorted_versions = sorted(fuse["versions"].items(), key=lambda x: x[0], reverse=True)
+                for prehook in sorted_prehooks:
+                    sorted_versions = sorted(prehook["versions"].items(), key=lambda x: x[0], reverse=True)
                     if len(sorted_versions) > 1:
                         has_older_versions = True
                         break
                 
                 if has_older_versions:
-                    fuses_md += f"#### {chain.capitalize()} Older Fuses Versions\n\n"
-                    fuses_md += f"| Fuse Name | Address / View in Explorer |\n"
-                    fuses_md += "|-----------|---------------------------|\n"
+                    prehooks_md += f"#### {chain.capitalize()} Older prehooks Versions\n\n"
+                    prehooks_md += f"| PreHook Name | Address / View in Explorer |\n"
+                    prehooks_md += "|-----------|---------------------------|\n"
                     
-                    for fuse in sorted_fuses:
-                        fuse_name = fuse["name"]
+                    for prehook in sorted_prehooks:
+                        prehook_name = prehook["name"]
                         
-                        sorted_versions = sorted(fuse["versions"].items(), key=lambda x: x[0], reverse=True)
+                        sorted_versions = sorted(prehook["versions"].items(), key=lambda x: x[0], reverse=True)
                         if len(sorted_versions) > 1:
                             for date, address in sorted_versions[1:]:
                                 if explorer_base_url:
                                     address_display = f"`{address}` [View]({explorer_base_url}{address}#code)"
                                 else:
                                     address_display = f"`{address}`"
-                                fuses_md += f"| `{fuse_name}` | {address_display} |\n"
+                                prehooks_md += f"| `{prehook_name}` | {address_display} |\n"
                     
-                    fuses_md += "\n"
+                    prehooks_md += "\n"
 
         import re
         sections = re.split(r'(^##\s+[^\n]+\n)', readme_content, flags=re.MULTILINE)
         
-        fuses_list_found = False
+        prehooks_list_found = False
         for i in range(1, len(sections), 2):
-            if "## Fuses List" in sections[i]:
-                sections[i+1] = "\n" + fuses_md.replace("## Fuses List\n\n", "")
-                fuses_list_found = True
+            if "## PreHooks List" in sections[i]:
+                sections[i+1] = "\n" + prehooks_md.replace("## PreHooks List\n\n", "")
+                prehooks_list_found = True
                 break
         
-        if not fuses_list_found:
-            sections.append("\n\n## Fuses List\n")
-            sections.append("\n" + fuses_md.replace("## Fuses List\n\n", ""))
+        if not prehooks_list_found:
+            sections.append("\n\n## PreHooks List\n")
+            sections.append("\n" + prehooks_md.replace("## PreHooks List\n\n", ""))
         
         new_readme_content = "".join(sections)
         
         with open(readme_file, 'w') as f:
             f.write(new_readme_content.strip() + "\n")
             
-        logger.info(f"Fuses list updated in {readme_file}")
+        logger.info(f"PreHooks list updated in {readme_file}")
         
-        output_md_file = f"{OUTPUT_DIR}/fuses_list.md"
+        output_md_file = f"{OUTPUT_DIR}/prehooks_list.md"
         os.makedirs(os.path.dirname(output_md_file), exist_ok=True)
         with open(output_md_file, 'w') as f:
-            f.write(fuses_md)
+            f.write(prehooks_md)
         
     except Exception as e:
         logger.error(f"Error generating markdown list: {str(e)}")
@@ -327,10 +327,10 @@ def main():
 
     for file_path in addresses_files:
         relative_path = os.path.relpath(file_path, '.')
-        fuse_data = extract_fuse_fields(file_path)
+        prehook_data = extract_prehook_fields(file_path)
 
-        if fuse_data:
-            result[relative_path] = fuse_data
+        if prehook_data:
+            result[relative_path] = prehook_data
 
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     

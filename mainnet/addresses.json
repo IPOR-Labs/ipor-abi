@@ -380,6 +380,26 @@
           "2025-03-25": "0x870E1Fb75BEdbc2eFB92857DC2B2cF171a0AEC1f"
         }
       }
+    ],
+    "prehooks": [
+      {
+        "name": "PreHookPauseFunction",
+        "versions": {
+          "2025-03-25": "0x7846BeD0b55048dB0e6A5388B89E92f091984D59"
+        }
+      },
+      {
+        "name": "PreHookUpdateBalancesIgnoreDust",
+        "versions": {
+          "2025-03-21": "0x0CF053385492FeF81e538F849E1e5308bEFC1A5C"
+        }
+      },
+      {
+        "name": "UniversalReaderPreHooksInfo",
+        "versions": {
+          "2025-03-25": "0x1Ecd96FD20f2c1a32e5906CCcAEc87e8aFe19821"
+        }
+      }
     ]
   },
   "arbitrum": {
@@ -762,6 +782,20 @@
         "name": "UniversalReaderBalanceFuses",
         "versions": {
           "2025-03-25": "0xacDB88ea2E2D248369b5b3137Fc3f971543d706c"
+        }
+      }
+    ],
+    "prehooks": [
+      {
+        "name": "PreHookPauseFunction",
+        "versions": {
+          "2025-03-25": "0x2635f5AB58E64690974533F1903378a9B3cA1C9f"
+        }
+      },
+      {
+        "name": "UniversalReaderPreHooksInfo",
+        "versions": {
+          "2025-03-25": "0x2774465A0BA2cf97F8b3624d59964FfC41b7ff0f"
         }
       }
     ]
@@ -1292,6 +1326,27 @@
         "name": "UniversalReaderBalanceFuses",
         "versions": {
           "2025-03-25": "0xE33F6a15D382CeabB8f351320BF63EE2860E8203"
+        }
+      }
+    ],
+    "prehooks": [
+      {
+        "name": "PreHookPauseFunction",
+        "versions": {
+          "2025-03-25": "0x10e64e5F2f2BD098F31849B48d0BA1B92331cE88"
+        }
+      },
+      {
+        "name": "PreHookUpdateBalances",
+        "versions": {
+          "2025-01-14": "0x34dA86DB286E6F0a17471198E329e1429cf5297F",
+          "2025-03-04": "0x7f9179DC81cd0dBE6488eCD192cf37d2B9530F0C"
+        }
+      },
+      {
+        "name": "UniversalReaderPreHooksInfo",
+        "versions": {
+          "2025-03-25": "0x79D31b98382C5D325aB42353Ce1aE7081757C89A"
         }
       }
     ]
