@@ -1,15 +1,18 @@
 interface PriceOracleMiddleware {
     error AddressEmptyCode(address target);
     error ArrayLengthMismatch();
+    error AssetPriceSourceAlreadySet();
     error AssetsAddressCanNotBeZero();
     error ERC1967InvalidImplementation(address implementation);
     error ERC1967NonPayable();
     error EmptyArrayNotSupported();
     error FailedInnerCall();
+    error InvalidExpectedPrice();
     error InvalidInitialization();
     error NotInitializing();
     error OwnableInvalidOwner(address owner);
     error OwnableUnauthorizedAccount(address account);
+    error PriceDeltaTooHigh();
     error SafeCastOverflowedIntToUint(int256 value);
     error SourceAddressCanNotBeZero();
     error UUPSUnauthorizedCallContext();
