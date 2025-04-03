@@ -50,6 +50,10 @@ TOKEN_ABI = [
     }
 ]
 
+NOT_PREHOOK_NAMES = [
+    "UniversalReaderPreHooksInfo",
+]
+
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
@@ -115,6 +119,9 @@ def extract_prehook_fields(file_path):
         extracted_data = {}
         for field in data:
             if "prehook" in field.lower() and data[field] != ZERO_ADDRESS:
+                if field in NOT_PREHOOK_NAMES:
+                    logger.info(f"Skipping field {field} as it's in NOT_PREHOOK_NAMES list")
+                    continue
                 extracted_data[field] = data[field]
 
         return extracted_data if extracted_data else None

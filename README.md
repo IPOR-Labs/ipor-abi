@@ -215,7 +215,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## PreHooks List
 
-*Last updated: 2025-04-03 12:38:24 UTC*
+*Last updated: 2025-04-03 12:50:26 UTC*
 
 ### Ethereum PreHooks
 
@@ -223,14 +223,12 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 |-----------|---------------------------|
 | `PreHookPauseFunction` | `0x7846BeD0b55048dB0e6A5388B89E92f091984D59` [View](https://etherscan.io/address/0x7846BeD0b55048dB0e6A5388B89E92f091984D59#code) |
 | `PreHookUpdateBalancesIgnoreDust` | `0x0CF053385492FeF81e538F849E1e5308bEFC1A5C` [View](https://etherscan.io/address/0x0CF053385492FeF81e538F849E1e5308bEFC1A5C#code) |
-| `UniversalReaderPreHooksInfo` | `0x1Ecd96FD20f2c1a32e5906CCcAEc87e8aFe19821` [View](https://etherscan.io/address/0x1Ecd96FD20f2c1a32e5906CCcAEc87e8aFe19821#code) |
 
 ### Arbitrum PreHooks
 
 | PreHook Name | Address / View in Explorer |
 |-----------|---------------------------|
 | `PreHookPauseFunction` | `0x2635f5AB58E64690974533F1903378a9B3cA1C9f` [View](https://arbiscan.io/address/0x2635f5AB58E64690974533F1903378a9B3cA1C9f#code) |
-| `UniversalReaderPreHooksInfo` | `0x2774465A0BA2cf97F8b3624d59964FfC41b7ff0f` [View](https://arbiscan.io/address/0x2774465A0BA2cf97F8b3624d59964FfC41b7ff0f#code) |
 
 ### Base PreHooks
 
@@ -238,7 +236,6 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 |-----------|---------------------------|
 | `PreHookPauseFunction` | `0x10e64e5F2f2BD098F31849B48d0BA1B92331cE88` [View](https://basescan.org/address/0x10e64e5F2f2BD098F31849B48d0BA1B92331cE88#code) |
 | `PreHookUpdateBalances` | `0x7f9179DC81cd0dBE6488eCD192cf37d2B9530F0C` [View](https://basescan.org/address/0x7f9179DC81cd0dBE6488eCD192cf37d2B9530F0C#code) |
-| `UniversalReaderPreHooksInfo` | `0x79D31b98382C5D325aB42353Ce1aE7081757C89A` [View](https://basescan.org/address/0x79D31b98382C5D325aB42353Ce1aE7081757C89A#code) |
 
 #### Base Older PreHooks Versions
 
