@@ -71,6 +71,12 @@
         "token": "USDC",
         "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "PlasmaVault": "0x9dC2819B49C3d39b11a5F4C8c0c17BD7e18126D9"
+      },
+      {
+        "name": "Tesseract Managed BTC",
+        "token": "WBTC",
+        "asset": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+        "PlasmaVault": "0x1fdf5dc3f915Cb40E0AD5690DE51E3cB464d1BAD"
       }
     ],
     "fuses": [
@@ -872,6 +878,12 @@
         "token": "WETH",
         "asset": "0x4200000000000000000000000000000000000006",
         "PlasmaVault": "0xD7412A93Db3D39AA7Ab9C30c471f069A3F059aD5"
+      },
+      {
+        "name": "Tanken WETH Base",
+        "token": "WETH",
+        "asset": "0x4200000000000000000000000000000000000006",
+        "PlasmaVault": "0x496E39F0Aa349c24032E5636E9180e7265C3FeCD"
       }
     ],
     "fuses": [

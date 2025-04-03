@@ -345,6 +345,11 @@
   },
   {
     "type": "error",
+    "name": "AssetPriceSourceAlreadySet",
+    "inputs": []
+  },
+  {
+    "type": "error",
     "name": "AssetsAddressCanNotBeZero",
     "inputs": []
   },
@@ -372,6 +377,11 @@
   {
     "type": "error",
     "name": "FailedInnerCall",
+    "inputs": []
+  },
+  {
+    "type": "error",
+    "name": "InvalidExpectedPrice",
     "inputs": []
   },
   {
@@ -405,6 +415,11 @@
         "internalType": "address"
       }
     ]
+  },
+  {
+    "type": "error",
+    "name": "PriceDeltaTooHigh",
+    "inputs": []
   },
   {
     "type": "error",
