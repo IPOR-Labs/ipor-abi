@@ -6,7 +6,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Fuses List
 
-*Last updated: 2025-04-03 12:08:36 UTC*
+*Last updated: 2025-04-03 12:34:03 UTC*
 
 ### Ethereum Fuses
 
@@ -212,3 +212,33 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `BalanceFuseFlashLoanMorpho` | `0x1704D12204052d2a1F241d5D73f4bF0926800a5B` [View](https://basescan.org/address/0x1704D12204052d2a1F241d5D73f4bF0926800a5B#code) |
 | `BorrowFuseMoonwell` | `0x8f6951795193C5AE825397ba35e940C5586e7b7D` [View](https://basescan.org/address/0x8f6951795193C5AE825397ba35e940C5586e7b7D#code) |
 | `SwapFuseUniversalTokenSwapper` | `0x4d9cbA074b00249D0a7d390Ff8f038dE3Ae23317` [View](https://basescan.org/address/0x4d9cbA074b00249D0a7d390Ff8f038dE3Ae23317#code) |
+
+## PreHooks List
+
+*Last updated: 2025-04-03 12:50:26 UTC*
+
+### Ethereum PreHooks
+
+| PreHook Name | Address / View in Explorer |
+|-----------|---------------------------|
+| `PreHookPauseFunction` | `0x7846BeD0b55048dB0e6A5388B89E92f091984D59` [View](https://etherscan.io/address/0x7846BeD0b55048dB0e6A5388B89E92f091984D59#code) |
+| `PreHookUpdateBalancesIgnoreDust` | `0x0CF053385492FeF81e538F849E1e5308bEFC1A5C` [View](https://etherscan.io/address/0x0CF053385492FeF81e538F849E1e5308bEFC1A5C#code) |
+
+### Arbitrum PreHooks
+
+| PreHook Name | Address / View in Explorer |
+|-----------|---------------------------|
+| `PreHookPauseFunction` | `0x2635f5AB58E64690974533F1903378a9B3cA1C9f` [View](https://arbiscan.io/address/0x2635f5AB58E64690974533F1903378a9B3cA1C9f#code) |
+
+### Base PreHooks
+
+| PreHook Name | Address / View in Explorer |
+|-----------|---------------------------|
+| `PreHookPauseFunction` | `0x10e64e5F2f2BD098F31849B48d0BA1B92331cE88` [View](https://basescan.org/address/0x10e64e5F2f2BD098F31849B48d0BA1B92331cE88#code) |
+| `PreHookUpdateBalances` | `0x7f9179DC81cd0dBE6488eCD192cf37d2B9530F0C` [View](https://basescan.org/address/0x7f9179DC81cd0dBE6488eCD192cf37d2B9530F0C#code) |
+
+#### Base Older PreHooks Versions
+
+| PreHook Name | Address / View in Explorer |
+|-----------|---------------------------|
+| `PreHookUpdateBalances` | `0x34dA86DB286E6F0a17471198E329e1429cf5297F` [View](https://basescan.org/address/0x34dA86DB286E6F0a17471198E329e1429cf5297F#code) |
