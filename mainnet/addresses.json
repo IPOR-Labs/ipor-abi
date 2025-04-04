@@ -129,6 +129,24 @@
         }
       },
       {
+        "name": "BalanceFuseErc4626Market3",
+        "versions": {
+          "2025-04-04": "0x318DC5D24bcC71bA0127A45e009B64BdBA0C2EdF"
+        }
+      },
+      {
+        "name": "BalanceFuseErc4626Market4",
+        "versions": {
+          "2025-04-04": "0xF9a1F7147D04d569AF9f9E1b6b713935cA1308fe"
+        }
+      },
+      {
+        "name": "BalanceFuseErc4626Market5",
+        "versions": {
+          "2025-04-04": "0x560c836581476a95B5adf65b1986fBa3cF7772f0"
+        }
+      },
+      {
         "name": "BalanceFuseEulerV2",
         "versions": {
           "2024-11-26": "0xA607855Ec4881B5F25711d1404E0CddeAdEEacdC"
@@ -336,6 +354,24 @@
         "name": "SupplyFuseErc4626Market2",
         "versions": {
           "2025-03-17": "0x83Be46881AaeBA80B3d647e08a47301Db2e4E754"
+        }
+      },
+      {
+        "name": "SupplyFuseErc4626Market3",
+        "versions": {
+          "2025-04-04": "0x53ecC250d70C9F8B88edb817a9097c6caAC81a6B"
+        }
+      },
+      {
+        "name": "SupplyFuseErc4626Market4",
+        "versions": {
+          "2025-04-04": "0x06B53AF012499D6429741B9D53e868Fd89a5D3B2"
+        }
+      },
+      {
+        "name": "SupplyFuseErc4626Market5",
+        "versions": {
+          "2025-04-04": "0x59E58D1a800426dF9FDdDdbd248da0ACC4D38F89"
         }
       },
       {

@@ -6,7 +6,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Fuses List
 
-*Last updated: 2025-04-04 11:19:33 UTC*
+*Last updated: 2025-04-04 13:00:27 UTC*
 
 ### Ethereum Fuses
 
@@ -20,6 +20,9 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `BalanceFuseErc20` | `0x6cEBf3e3392D0860Ed174402884b941DCBB30654` [View](https://etherscan.io/address/0x6cEBf3e3392D0860Ed174402884b941DCBB30654#code) |
 | `BalanceFuseErc4626Market1` | `0x2C10C36028C430f445a4bA9f7Dd096a5DcC75d5e` [View](https://etherscan.io/address/0x2C10C36028C430f445a4bA9f7Dd096a5DcC75d5e#code) |
 | `BalanceFuseErc4626Market2` | `0x933bfF1078fF1a0ca3b53dad00d7B1850aF8749b` [View](https://etherscan.io/address/0x933bfF1078fF1a0ca3b53dad00d7B1850aF8749b#code) |
+| `BalanceFuseErc4626Market3` | `0x318DC5D24bcC71bA0127A45e009B64BdBA0C2EdF` [View](https://etherscan.io/address/0x318DC5D24bcC71bA0127A45e009B64BdBA0C2EdF#code) |
+| `BalanceFuseErc4626Market4` | `0xF9a1F7147D04d569AF9f9E1b6b713935cA1308fe` [View](https://etherscan.io/address/0xF9a1F7147D04d569AF9f9E1b6b713935cA1308fe#code) |
+| `BalanceFuseErc4626Market5` | `0x560c836581476a95B5adf65b1986fBa3cF7772f0` [View](https://etherscan.io/address/0x560c836581476a95B5adf65b1986fBa3cF7772f0#code) |
 | `BalanceFuseEulerV2` | `0xA607855Ec4881B5F25711d1404E0CddeAdEEacdC` [View](https://etherscan.io/address/0xA607855Ec4881B5F25711d1404E0CddeAdEEacdC#code) |
 | `BalanceFuseFlashLoanMorpho` | `0xB1B74e885349cd9D1F0efFb2E1ce0fB79959D7cf` [View](https://etherscan.io/address/0xB1B74e885349cd9D1F0efFb2E1ce0fB79959D7cf#code) |
 | `BalanceFuseFluidInstadappPoolFToken` | `0xA0777a5b44D36eE425DC0Ca828549f06E40E0cEE` [View](https://etherscan.io/address/0xA0777a5b44D36eE425DC0Ca828549f06E40E0cEE#code) |
@@ -55,6 +58,9 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `SupplyFuseCompoundV3Usdt` | `0x4f35094b049e4aa0eA98CfA00fA55f30B12aaF29` [View](https://etherscan.io/address/0x4f35094b049e4aa0eA98CfA00fA55f30B12aaF29#code) |
 | `SupplyFuseErc4626Market1` | `0x12FD0EE183c85940CAedd4877f5d3Fc637515870` [View](https://etherscan.io/address/0x12FD0EE183c85940CAedd4877f5d3Fc637515870#code) |
 | `SupplyFuseErc4626Market2` | `0x83Be46881AaeBA80B3d647e08a47301Db2e4E754` [View](https://etherscan.io/address/0x83Be46881AaeBA80B3d647e08a47301Db2e4E754#code) |
+| `SupplyFuseErc4626Market3` | `0x53ecC250d70C9F8B88edb817a9097c6caAC81a6B` [View](https://etherscan.io/address/0x53ecC250d70C9F8B88edb817a9097c6caAC81a6B#code) |
+| `SupplyFuseErc4626Market4` | `0x06B53AF012499D6429741B9D53e868Fd89a5D3B2` [View](https://etherscan.io/address/0x06B53AF012499D6429741B9D53e868Fd89a5D3B2#code) |
+| `SupplyFuseErc4626Market5` | `0x59E58D1a800426dF9FDdDdbd248da0ACC4D38F89` [View](https://etherscan.io/address/0x59E58D1a800426dF9FDdDdbd248da0ACC4D38F89#code) |
 | `SupplyFuseEulerV2` | `0x225D3e01d3Ba0DdF904E1Fbb46256f7D3A7e7bF0` [View](https://etherscan.io/address/0x225D3e01d3Ba0DdF904E1Fbb46256f7D3A7e7bF0#code) |
 | `SupplyFuseFluidInstadappPoolFToken` | `0xe49207496BB2Cf8C3D4FDadcad8e5f72E780B4Ae` [View](https://etherscan.io/address/0xe49207496BB2Cf8C3D4FDadcad8e5f72E780B4Ae#code) |
 | `SupplyFuseFluidInstadappStakingRewardsFToken` | `0xa613249EF6D0C3dF83d0593abb63e0638d1d590F` [View](https://etherscan.io/address/0xa613249EF6D0C3dF83d0593abb63e0638d1d590F#code) |
@@ -221,7 +227,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## PreHooks List
 
-*Last updated: 2025-04-04 11:20:32 UTC*
+*Last updated: 2025-04-04 13:00:39 UTC*
 
 ### Ethereum PreHooks
 
