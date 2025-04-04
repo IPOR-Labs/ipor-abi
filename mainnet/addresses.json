@@ -914,6 +914,12 @@
         "token": "USDC",
         "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
         "PlasmaVault": "0xB02D87EB201f56ba6aFa24C0969982bC4c4E8599"
+      },
+      {
+        "name": "USDO Synchrotron",
+        "token": "USDC",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x09f77a2552b83E157Cd5d49867b5D580B50588ea"
       }
     ],
     "fuses": [
