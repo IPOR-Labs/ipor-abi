@@ -25,6 +25,8 @@ PLASMA_FIELDS = [
     'IporPlasmaVaultWBTC',
     'IporPlasmaVaultWEth',
     'IporPlasmaVaultWstETH',
+    'IporPlasmaVaultUsdcCSLL',
+    'IporPlasmaVaultUsdcLPCO'
 ]
 
 load_dotenv()
@@ -106,11 +108,15 @@ def extract_plasma_fields(file_path):
         with open(file_path, 'r') as f:
             data = json.load(f)
 
-        extracted_data = {
-            field: data[field]
-            for field in PLASMA_FIELDS
-            if field in data and data[field] != ZERO_ADDRESS
-        }
+        # Create a case-insensitive mapping of fields
+        data_lower = {k.lower(): (k, v) for k, v in data.items()}
+        
+        extracted_data = {}
+        for field in PLASMA_FIELDS:
+            field_lower = field.lower()
+            if field_lower in data_lower and data_lower[field_lower][1] != ZERO_ADDRESS:
+                original_key, value = data_lower[field_lower]
+                extracted_data[original_key] = value
 
         return extracted_data if extracted_data else None
 
