@@ -177,6 +177,12 @@
         }
       },
       {
+        "name": "BalanceFusePendle",
+        "versions": {
+          "2025-04-04": "0x48bD852d83f6e58Af59255aBc708e3ddeCB1d1E6"
+        }
+      },
+      {
         "name": "BalanceFuseSpark",
         "versions": {
           "2024-09-29": "0xb3ca07c9c10374D51046F94e5547a2C501DA0ab4"
@@ -270,6 +276,12 @@
         "name": "FusePendleRedeemPtAfterMaturity",
         "versions": {
           "2025-03-25": "0x40430a509188b71BdA9a0c06b132e978Ea2015BE"
+        }
+      },
+      {
+        "name": "FusePendleSwapPt",
+        "versions": {
+          "2025-04-04": "0xEEA3812B60ca4c6D0e2672a865bf7217eCd49f95"
         }
       },
       {
@@ -562,6 +574,12 @@
         }
       },
       {
+        "name": "BalanceFusePendle",
+        "versions": {
+          "2025-04-04": "0xE78D9bE2fAe6C0202Fd10fcDaf2cbc4DbfdDE7C1"
+        }
+      },
+      {
         "name": "BalanceFuseSwapPositionsRamsesV2",
         "versions": {
           "2024-10-08": "0xD9fd7D42848A97F946f42c62eC3150D24C0a3835"
@@ -644,6 +662,12 @@
         "name": "FusePendleRedeemPtAfterMaturity",
         "versions": {
           "2025-03-25": "0x1c1B7AcdF17b0B10c6F3a00B0a89fDBB6FDd61bF"
+        }
+      },
+      {
+        "name": "FusePendleSwapPt",
+        "versions": {
+          "2025-04-04": "0x31fA1E9dC753d0f565CfA9337d59A91298146244"
         }
       },
       {
@@ -890,6 +914,12 @@
         "token": "USDC",
         "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
         "PlasmaVault": "0xB02D87EB201f56ba6aFa24C0969982bC4c4E8599"
+      },
+      {
+        "name": "USDO Synchrotron",
+        "token": "USDC",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x09f77a2552b83E157Cd5d49867b5D580B50588ea"
       }
     ],
     "fuses": [
@@ -1051,6 +1081,12 @@
         }
       },
       {
+        "name": "BalanceFusePendle",
+        "versions": {
+          "2025-04-04": "0xc8A552BF7279a932b9fCA8F527Ef292083c5B87f"
+        }
+      },
+      {
         "name": "BalanceFuseSwapPositionsUniswapV3",
         "versions": {
           "2024-10-29": "0x9c84c1A708eB8FfE699d7c2a81eC00b028ac3aac"
@@ -1151,6 +1187,12 @@
         "name": "FusePendleRedeemPtAfterMaturity",
         "versions": {
           "2025-03-25": "0xE59e63565d1fD5186765EBE3302C24b72C6f2EeA"
+        }
+      },
+      {
+        "name": "FusePendleSwapPt",
+        "versions": {
+          "2025-04-04": "0x3C715eE10C1cb2c565Fd13E35d81Df1C986eeF76"
         }
       },
       {

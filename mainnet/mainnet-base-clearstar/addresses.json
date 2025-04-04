@@ -22,5 +22,6 @@
   "PlasmaVaultBase": "0x3Ba9022735C7d570Ad99563b428e0e122cb0E1eb",
   "PriceOracleMiddlewareUsdWithRolesImpl": "0xCf1e01e973A04c37c6dA37aD6d5D824a51f6D878",
   "PriceOracleMiddlewareUsdWithRolesProxy": "0xD9b73Af0b29Cbaf88F01384EA1fB5ADcb608bed0",
-  "USDC": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"
+  "USDC": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+  "IporPlasmaVaultUsdcLPCO" : "0x09f77a2552b83E157Cd5d49867b5D580B50588ea"
 }
