@@ -77,6 +77,36 @@
         "token": "WBTC",
         "asset": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
         "PlasmaVault": "0x1fdf5dc3f915Cb40E0AD5690DE51E3cB464d1BAD"
+      },
+      {
+        "name": "Leveraged Falcon USDC Core",
+        "token": "USDC",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0x5904DA6C07A15884ff9C480F240Bc57fE9032eB2"
+      },
+      {
+        "name": "TAU Rserevoir Pointsmax",
+        "token": "USDC",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0x6f66b845604dad6E80b2A1472e6cAcbbE66A8C40"
+      },
+      {
+        "name": "IPOR stETH Ethereum",
+        "token": "stETH",
+        "asset": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
+        "PlasmaVault": "0x3a58d6d52d68460CbbDA93dd858F4353878EF697"
+      },
+      {
+        "name": "IPOR weETH Ethereum",
+        "token": "weETH",
+        "asset": "0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee",
+        "PlasmaVault": "0x981a6c7cA4496ACC3FF7bCDcC3B834fe0C4Db5Bc"
+      },
+      {
+        "name": "Leveraged sUSDf",
+        "token": "sUSDf",
+        "asset": "0xc8CF6D7991f15525488b2A83Df53468D682Ba4B0",
+        "PlasmaVault": "0x29d322DD088e9b9D1416F43188954F08748fafbb"
       }
     ],
     "fuses": [
@@ -516,6 +546,12 @@
         "token": "WETH",
         "asset": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
         "PlasmaVault": "0x18B9Dc9762Ec6095f34f2d77042Ab8283fA764B4"
+      },
+      {
+        "name": "IPOR wstETH Arbitrum",
+        "token": "wstETH",
+        "asset": "0x5979D7b546E38E414F7E9822514be443A4800529",
+        "PlasmaVault": "0x8Ff603adE68859D936a3b8f9A7b2bBA559cCeF7C"
       }
     ],
     "fuses": [
