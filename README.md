@@ -257,11 +257,11 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Price Oracles List
 
-*Last updated: 2025-04-17 16:15:54 UTC*
+*Last updated: 2025-04-17 16:21:54 UTC*
 
 ### Ethereum Price Oracles
 
-| Price Oracle Name | Address |
+| Price Oracle Name | Address / View in Explorer |
 |-----------|---------------------------|
 | `PriceOracleMiddlewareUsdProxy` | `0x6c25876346A48De3457312cB6D50020504413b5D` [View](https://etherscan.io/address/0x6c25876346A48De3457312cB6D50020504413b5D#code) |
 | `PriceOracleMiddlewareUsdWithRolesProxy` | `0xC9F32d65a278b012371858fD3cdE315B12d664c6` [View](https://etherscan.io/address/0xC9F32d65a278b012371858fD3cdE315B12d664c6#code) |
@@ -270,14 +270,14 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ##### Version 2025-01-16 - `0x6c25876346A48De3457312cB6D50020504413b5D` [View](https://etherscan.io/address/0x6c25876346A48De3457312cB6D50020504413b5D#code)
 
-| Asset | Source |
+| Asset | Source / View in Explorer |
 |-------|---------------|
 | **rUSD** `0x09D4214C03D01F49544C0448DBE3A27f768F2b34` | `0x02b2F2809ce74563cb4b2ecA1ADaFB188E4Ed8D7` [View](https://etherscan.io/address/0x02b2F2809ce74563cb4b2ecA1ADaFB188E4Ed8D7) |
 | **srUSD** `0x738d1115B90efa71AE468F1287fc864775e23a31` | `0x810625fCB9b9819a02a135DE1172b468ad673FD8` [View](https://etherscan.io/address/0x810625fCB9b9819a02a135DE1172b468ad673FD8) |
 
 ##### Version 2024-09-29 - `0xB7018C15279E0f5990613cc00A91b6032066f2f7` [View](https://etherscan.io/address/0xB7018C15279E0f5990613cc00A91b6032066f2f7#code)
 
-| Asset | Source |
+| Asset | Source / View in Explorer |
 |-------|---------------|
 | **USDT** `0xdAC17F958D2ee523a2206206994597C13D831ec7` | `0x3E7d1eAB13ad0104d2750B8863b489D65364e32D` [View](https://etherscan.io/address/0x3E7d1eAB13ad0104d2750B8863b489D65364e32D) |
 | **USDC** `0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48` | `0x8fFfFfd4AfB6115b954Bd326cbe7B4BA576818f6` [View](https://etherscan.io/address/0x8fFfFfd4AfB6115b954Bd326cbe7B4BA576818f6) |
@@ -298,7 +298,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ##### Version 2025-03-25 - `0xC9F32d65a278b012371858fD3cdE315B12d664c6` [View](https://etherscan.io/address/0xC9F32d65a278b012371858fD3cdE315B12d664c6#code)
 
-| Asset | Source |
+| Asset | Source / View in Explorer |
 |-------|---------------|
 | **WETH** `0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2` | `0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419` [View](https://etherscan.io/address/0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419) |
 | **ETH+** `0xE72B141DF173b999AE7c1aDcbF60Cc9833Ce56a8` | `0xD529f458Bc879Be231E36eC62968416C07580199` [View](https://etherscan.io/address/0xD529f458Bc879Be231E36eC62968416C07580199) |
@@ -316,7 +316,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ### Arbitrum Price Oracles
 
-| Price Oracle Name | Address |
+| Price Oracle Name | Address / View in Explorer |
 |-----------|---------------------------|
 | `PriceOracleMiddlewareUsdProxy` | `0x9838c0d15b439816D25d5fD1AEbd259EeddB66B4` [View](https://arbiscan.io/address/0x9838c0d15b439816D25d5fD1AEbd259EeddB66B4#code) |
 | `PriceOracleMiddlewareUsdWithRolesProxy` | `0xd19D0C917844b996B09c48A9FF622177Af219C79` [View](https://arbiscan.io/address/0xd19D0C917844b996B09c48A9FF622177Af219C79#code) |
@@ -325,14 +325,14 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ##### Version 2024-09-11 - `0x9838c0d15b439816D25d5fD1AEbd259EeddB66B4` [View](https://arbiscan.io/address/0x9838c0d15b439816D25d5fD1AEbd259EeddB66B4#code)
 
-| Asset | Source |
+| Asset | Source / View in Explorer |
 |-------|---------------|
 | **USDC** `0xaf88d065e77c8cC2239327C5EDb3A432268e5831` | `0x50834F3163758fcC1Df9973b6e91f0F0F0434aD3` [View](https://arbiscan.io/address/0x50834F3163758fcC1Df9973b6e91f0F0F0434aD3) |
 | **USD₮0** `0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9` | `0x3f3f5dF88dC9F13eac63DF89EC16ef6e7E25DdE7` [View](https://arbiscan.io/address/0x3f3f5dF88dC9F13eac63DF89EC16ef6e7E25DdE7) |
 
 ##### Version 2024-09-03 - `0xF9d7F359875E21b3A74BEd7Db40348f5393AF758` [View](https://arbiscan.io/address/0xF9d7F359875E21b3A74BEd7Db40348f5393AF758#code)
 
-| Asset | Source |
+| Asset | Source / View in Explorer |
 |-------|---------------|
 | **USDC** `0xaf88d065e77c8cC2239327C5EDb3A432268e5831` | `0x50834F3163758fcC1Df9973b6e91f0F0F0434aD3` [View](https://arbiscan.io/address/0x50834F3163758fcC1Df9973b6e91f0F0F0434aD3) |
 | **USD₮0** `0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9` | `0x3f3f5dF88dC9F13eac63DF89EC16ef6e7E25DdE7` [View](https://arbiscan.io/address/0x3f3f5dF88dC9F13eac63DF89EC16ef6e7E25DdE7) |
@@ -354,7 +354,7 @@ No price feeds found for this version.
 
 ### Base Price Oracles
 
-| Price Oracle Name | Address |
+| Price Oracle Name | Address / View in Explorer |
 |-----------|---------------------------|
 | `PriceOracleMiddlewareUsdProxy` | `0x1C55a415550ba8B5675175fa384E7e2D1Dd85B82` [View](https://basescan.org/address/0x1C55a415550ba8B5675175fa384E7e2D1Dd85B82#code) |
 | `PriceOracleMiddlewareUsdWithRolesProxy` | `0x6d908194a5a1005C374203Fc1baF396c7dbC8E99` [View](https://basescan.org/address/0x6d908194a5a1005C374203Fc1baF396c7dbC8E99#code) |
@@ -363,7 +363,7 @@ No price feeds found for this version.
 
 ##### Version 2025-01-14 - `0x1C55a415550ba8B5675175fa384E7e2D1Dd85B82` [View](https://basescan.org/address/0x1C55a415550ba8B5675175fa384E7e2D1Dd85B82#code)
 
-| Asset | Source |
+| Asset | Source / View in Explorer |
 |-------|---------------|
 | **DEGEN** `0x4ed4E862860beD51a9570b96d89aF5E1B0Efefed` | `0x1dBdb06e14606d34b51BD723bD2334004757e8b4` [View](https://basescan.org/address/0x1dBdb06e14606d34b51BD723bD2334004757e8b4) |
 | **AERO** `0x940181a94A35A4569E4529A3CDfB74e38FD98631` | `0x136a2098b994959651091fED13FAC20B0d41B899` [View](https://basescan.org/address/0x136a2098b994959651091fED13FAC20B0d41B899) |
@@ -374,7 +374,7 @@ No price feeds found for this version.
 
 ##### Version 2024-11-08 - `0x41883F367ab187B1C676A4A4767758916A6a01Fa` [View](https://basescan.org/address/0x41883F367ab187B1C676A4A4767758916A6a01Fa#code)
 
-| Asset | Source |
+| Asset | Source / View in Explorer |
 |-------|---------------|
 | **USDC** `0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913` | `0x7e860098F58bBFC8648a4311b374B1D669a2bc6B` [View](https://basescan.org/address/0x7e860098F58bBFC8648a4311b374B1D669a2bc6B) |
 | **WETH** `0x4200000000000000000000000000000000000006` | `0x71041dddad3595F9CEd3DcCFBe3D1F4b0a16Bb70` [View](https://basescan.org/address/0x71041dddad3595F9CEd3DcCFBe3D1F4b0a16Bb70) |
@@ -389,7 +389,7 @@ No price feeds found for this version.
 
 ##### Version 2024-10-29 - `0xa9ae6bF914DB9e8A297Ca2ecD05AE094b8BAd407` [View](https://basescan.org/address/0xa9ae6bF914DB9e8A297Ca2ecD05AE094b8BAd407#code)
 
-| Asset | Source |
+| Asset | Source / View in Explorer |
 |-------|---------------|
 | **WETH** `0x4200000000000000000000000000000000000006` | `0x71041dddad3595F9CEd3DcCFBe3D1F4b0a16Bb70` [View](https://basescan.org/address/0x71041dddad3595F9CEd3DcCFBe3D1F4b0a16Bb70) |
 | **USDC** `0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913` | `0x7e860098F58bBFC8648a4311b374B1D669a2bc6B` [View](https://basescan.org/address/0x7e860098F58bBFC8648a4311b374B1D669a2bc6B) |

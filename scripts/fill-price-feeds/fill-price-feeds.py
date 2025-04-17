@@ -418,7 +418,7 @@ def generate_markdown_list(addresses_file=MAIN_ADDRESSES_FILE, readme_file="../.
                 explorer_base_url = EXPLORERS.get(chain.lower(), "")
                 sorted_priceoracles = sorted(chain_data["price_oracles"], key=lambda x: x["name"])
                 
-                priceoracles_md += f"| Price Oracle Name | Address |\n"
+                priceoracles_md += f"| Price Oracle Name | Address / View in Explorer |\n"
                 priceoracles_md += "|-----------|---------------------------|\n"
                 
                 def sort_key(item):
@@ -468,7 +468,7 @@ def generate_markdown_list(addresses_file=MAIN_ADDRESSES_FILE, readme_file="../.
                             price_feeds = version_data.get("price_feeds", {}) if isinstance(version_data, dict) else {}
                             
                             if price_feeds:
-                                priceoracles_md += "| Asset | Source |\n"
+                                priceoracles_md += "| Asset | Source / View in Explorer |\n"
                                 priceoracles_md += "|-------|---------------|\n"
                                 
                                 for asset_address, feed_data in price_feeds.items():
