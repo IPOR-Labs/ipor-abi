@@ -468,8 +468,8 @@ def generate_markdown_list(addresses_file=MAIN_ADDRESSES_FILE, readme_file="../.
                             price_feeds = version_data.get("price_feeds", {}) if isinstance(version_data, dict) else {}
                             
                             if price_feeds:
-                                priceoracles_md += "| Asset | Asset Address | Source |\n"
-                                priceoracles_md += "|-------|--------------|--------|\n"
+                                priceoracles_md += "| Asset | Source Address |\n"
+                                priceoracles_md += "|-------|---------------|\n"
                                 
                                 for asset_address, feed_data in price_feeds.items():
                                     symbol = feed_data.get("symbol", "Unknown")
@@ -478,7 +478,7 @@ def generate_markdown_list(addresses_file=MAIN_ADDRESSES_FILE, readme_file="../.
                                     asset_link = f"`{asset_address}` [View]({explorer_base_url}{asset_address})"
                                     source_link = f"`{source}` [View]({explorer_base_url}{source})" if source else "`None`"
                                     
-                                    priceoracles_md += f"| {symbol} | {asset_link} | {source_link} |\n"
+                                    priceoracles_md += f"| **{symbol}**<br>{asset_link} | {source_link} |\n"
                                 
                                 priceoracles_md += "\n"
                             else:
