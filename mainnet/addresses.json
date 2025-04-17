@@ -483,7 +483,7 @@
       {
         "name": "PriceOracleMiddlewareUsdProxy",
         "versions": {
-          "2024-09-29": {
+          "2024-09-29_001": {
             "address": "0xB7018C15279E0f5990613cc00A91b6032066f2f7",
             "price_feeds": {
               "0xdAC17F958D2ee523a2206206994597C13D831ec7": {
@@ -544,7 +544,7 @@
               }
             }
           },
-          "2025-01-16": {
+          "2025-01-16_001": {
             "address": "0x6c25876346A48De3457312cB6D50020504413b5D",
             "price_feeds": {
               "0x09D4214C03D01F49544C0448DBE3A27f768F2b34": {
@@ -562,7 +562,7 @@
       {
         "name": "PriceOracleMiddlewareUsdWithRolesProxy",
         "versions": {
-          "2025-03-25": {
+          "2025-03-25_001": {
             "address": "0xC9F32d65a278b012371858fD3cdE315B12d664c6",
             "price_feeds": {
               "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2": {
@@ -1032,7 +1032,7 @@
       {
         "name": "PriceOracleMiddlewareUsdProxy",
         "versions": {
-          "2024-09-03": {
+          "2024-09-03_001": {
             "address": "0xF9d7F359875E21b3A74BEd7Db40348f5393AF758",
             "price_feeds": {
               "0xaf88d065e77c8cC2239327C5EDb3A432268e5831": {
@@ -1077,7 +1077,7 @@
               }
             }
           },
-          "2024-09-11": {
+          "2024-09-11_001": {
             "address": "0x9838c0d15b439816D25d5fD1AEbd259EeddB66B4",
             "price_feeds": {
               "0xaf88d065e77c8cC2239327C5EDb3A432268e5831": {
@@ -1095,7 +1095,7 @@
       {
         "name": "PriceOracleMiddlewareUsdWithRolesProxy",
         "versions": {
-          "2025-03-25": {
+          "2025-03-25_001": {
             "address": "0xd19D0C917844b996B09c48A9FF622177Af219C79"
           }
         }
@@ -1680,7 +1680,7 @@
       {
         "name": "PriceOracleMiddlewareUsdProxy",
         "versions": {
-          "2024-10-29": {
+          "2024-10-29_001": {
             "address": "0xa9ae6bF914DB9e8A297Ca2ecD05AE094b8BAd407",
             "price_feeds": {
               "0x4200000000000000000000000000000000000006": {
@@ -1709,7 +1709,7 @@
               }
             }
           },
-          "2024-11-08": {
+          "2024-11-08_001": {
             "address": "0x41883F367ab187B1C676A4A4767758916A6a01Fa",
             "price_feeds": {
               "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913": {
@@ -1754,7 +1754,7 @@
               }
             }
           },
-          "2025-01-14": {
+          "2025-01-14_001": {
             "address": "0x1C55a415550ba8B5675175fa384E7e2D1Dd85B82",
             "price_feeds": {
               "0x4ed4E862860beD51a9570b96d89aF5E1B0Efefed": {
@@ -1788,7 +1788,10 @@
       {
         "name": "PriceOracleMiddlewareUsdWithRolesProxy",
         "versions": {
-          "2025-03-25": {
+          "2025-03-25_001": {
+            "address": "0xD9b73Af0b29Cbaf88F01384EA1fB5ADcb608bed0"
+          },
+          "2025-03-25_002": {
             "address": "0x6d908194a5a1005C374203Fc1baF396c7dbC8E99"
           }
         }

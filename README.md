@@ -6,7 +6,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Fuses List
 
-*Last updated: 2025-04-10 11:40:36 UTC*
+*Last updated: 2025-04-17 15:59:43 UTC*
 
 ### Ethereum Fuses
 
@@ -227,7 +227,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## PreHooks List
 
-*Last updated: 2025-04-10 11:40:49 UTC*
+*Last updated: 2025-04-17 15:59:44 UTC*
 
 ### Ethereum PreHooks
 
@@ -254,3 +254,156 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | PreHook Name | Address / View in Explorer |
 |-----------|---------------------------|
 | `PreHookUpdateBalances` | `0x34dA86DB286E6F0a17471198E329e1429cf5297F` [View](https://basescan.org/address/0x34dA86DB286E6F0a17471198E329e1429cf5297F#code) |
+
+## Price Oracles List
+
+*Last updated: 2025-04-17 16:00:10 UTC*
+
+### Ethereum Price Oracles
+
+| Price Oracle Name | Address / View in Explorer |
+|-----------|---------------------------|
+| `PriceOracleMiddlewareUsdProxy` | `0x6c25876346A48De3457312cB6D50020504413b5D` [View](https://etherscan.io/address/0x6c25876346A48De3457312cB6D50020504413b5D#code) |
+| `PriceOracleMiddlewareUsdWithRolesProxy` | `0xC9F32d65a278b012371858fD3cdE315B12d664c6` [View](https://etherscan.io/address/0xC9F32d65a278b012371858fD3cdE315B12d664c6#code) |
+
+#### Price Feeds for `PriceOracleMiddlewareUsdProxy`
+
+##### Version 2025-01-16 - `0x6c25876346A48De3457312cB6D50020504413b5D` [View](https://etherscan.io/address/0x6c25876346A48De3457312cB6D50020504413b5D#code)
+
+| Asset | Asset Address | Source |
+|-------|--------------|--------|
+| rUSD | `0x09D4214C03D01F49544C0448DBE3A27f768F2b34` [View](https://etherscan.io/address/0x09D4214C03D01F49544C0448DBE3A27f768F2b34) | `0x02b2F2809ce74563cb4b2ecA1ADaFB188E4Ed8D7` [View](https://etherscan.io/address/0x02b2F2809ce74563cb4b2ecA1ADaFB188E4Ed8D7) |
+| srUSD | `0x738d1115B90efa71AE468F1287fc864775e23a31` [View](https://etherscan.io/address/0x738d1115B90efa71AE468F1287fc864775e23a31) | `0x810625fCB9b9819a02a135DE1172b468ad673FD8` [View](https://etherscan.io/address/0x810625fCB9b9819a02a135DE1172b468ad673FD8) |
+
+##### Version 2024-09-29 - `0xB7018C15279E0f5990613cc00A91b6032066f2f7` [View](https://etherscan.io/address/0xB7018C15279E0f5990613cc00A91b6032066f2f7#code)
+
+| Asset | Asset Address | Source |
+|-------|--------------|--------|
+| USDT | `0xdAC17F958D2ee523a2206206994597C13D831ec7` [View](https://etherscan.io/address/0xdAC17F958D2ee523a2206206994597C13D831ec7) | `0x3E7d1eAB13ad0104d2750B8863b489D65364e32D` [View](https://etherscan.io/address/0x3E7d1eAB13ad0104d2750B8863b489D65364e32D) |
+| USDC | `0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48` [View](https://etherscan.io/address/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48) | `0x8fFfFfd4AfB6115b954Bd326cbe7B4BA576818f6` [View](https://etherscan.io/address/0x8fFfFfd4AfB6115b954Bd326cbe7B4BA576818f6) |
+| sDAI | `0x83F20F44975D03b1b09e64809B757c47f942BEeA` [View](https://etherscan.io/address/0x83F20F44975D03b1b09e64809B757c47f942BEeA) | `0x974672fa995917FEC4A5C9db32784D36c370805d` [View](https://etherscan.io/address/0x974672fa995917FEC4A5C9db32784D36c370805d) |
+| PT-sUSDE-27MAR2025 | `0xE00bd3Df25fb187d6ABBB620b3dfd19839947b81` [View](https://etherscan.io/address/0xE00bd3Df25fb187d6ABBB620b3dfd19839947b81) | `0xD7Aa529Ce055A1f745a40c1EEa98CcB9B90e61cf` [View](https://etherscan.io/address/0xD7Aa529Ce055A1f745a40c1EEa98CcB9B90e61cf) |
+| PT-sUSDE-26DEC2024 | `0xEe9085fC268F6727d5D4293dBABccF901ffDCC29` [View](https://etherscan.io/address/0xEe9085fC268F6727d5D4293dBABccF901ffDCC29) | `0xD7Aa529Ce055A1f745a40c1EEa98CcB9B90e61cf` [View](https://etherscan.io/address/0xD7Aa529Ce055A1f745a40c1EEa98CcB9B90e61cf) |
+| WBTC | `0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599` [View](https://etherscan.io/address/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599) | `0x106f9537Dd66423E6674e85CA187B43055B59fe9` [View](https://etherscan.io/address/0x106f9537Dd66423E6674e85CA187B43055B59fe9) |
+| wstETH | `0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0` [View](https://etherscan.io/address/0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0) | `0x4329e2178D41D058Cf2808c11436A9e83BC5D8b0` [View](https://etherscan.io/address/0x4329e2178D41D058Cf2808c11436A9e83BC5D8b0) |
+| PT-USD0++-27MAR2025 | `0x5BaE9a5D67d1CA5b09B14c91935f635CFBF3b685` [View](https://etherscan.io/address/0x5BaE9a5D67d1CA5b09B14c91935f635CFBF3b685) | `0xD7Aa529Ce055A1f745a40c1EEa98CcB9B90e61cf` [View](https://etherscan.io/address/0xD7Aa529Ce055A1f745a40c1EEa98CcB9B90e61cf) |
+| PT-sUSDE-27FEB2025 | `0x386AE941D4262B0Ee96354499dF2ab8442734EC0` [View](https://etherscan.io/address/0x386AE941D4262B0Ee96354499dF2ab8442734EC0) | `0xD7Aa529Ce055A1f745a40c1EEa98CcB9B90e61cf` [View](https://etherscan.io/address/0xD7Aa529Ce055A1f745a40c1EEa98CcB9B90e61cf) |
+| rUSD | `0x09D4214C03D01F49544C0448DBE3A27f768F2b34` [View](https://etherscan.io/address/0x09D4214C03D01F49544C0448DBE3A27f768F2b34) | `0x02b2F2809ce74563cb4b2ecA1ADaFB188E4Ed8D7` [View](https://etherscan.io/address/0x02b2F2809ce74563cb4b2ecA1ADaFB188E4Ed8D7) |
+| srUSD | `0x738d1115B90efa71AE468F1287fc864775e23a31` [View](https://etherscan.io/address/0x738d1115B90efa71AE468F1287fc864775e23a31) | `0x810625fCB9b9819a02a135DE1172b468ad673FD8` [View](https://etherscan.io/address/0x810625fCB9b9819a02a135DE1172b468ad673FD8) |
+| PT-sUSDE-29MAY2025 | `0xb7de5dFCb74d25c2f21841fbd6230355C50d9308` [View](https://etherscan.io/address/0xb7de5dFCb74d25c2f21841fbd6230355C50d9308) | `0xD7Aa529Ce055A1f745a40c1EEa98CcB9B90e61cf` [View](https://etherscan.io/address/0xD7Aa529Ce055A1f745a40c1EEa98CcB9B90e61cf) |
+| ETH+ | `0xE72B141DF173b999AE7c1aDcbF60Cc9833Ce56a8` [View](https://etherscan.io/address/0xE72B141DF173b999AE7c1aDcbF60Cc9833Ce56a8) | `0xD529f458Bc879Be231E36eC62968416C07580199` [View](https://etherscan.io/address/0xD529f458Bc879Be231E36eC62968416C07580199) |
+| WETH | `0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2` [View](https://etherscan.io/address/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2) | `0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419` [View](https://etherscan.io/address/0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419) |
+
+#### Price Feeds for `PriceOracleMiddlewareUsdWithRolesProxy`
+
+##### Version 2025-03-25 - `0xC9F32d65a278b012371858fD3cdE315B12d664c6` [View](https://etherscan.io/address/0xC9F32d65a278b012371858fD3cdE315B12d664c6#code)
+
+| Asset | Asset Address | Source |
+|-------|--------------|--------|
+| WETH | `0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2` [View](https://etherscan.io/address/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2) | `0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419` [View](https://etherscan.io/address/0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419) |
+| ETH+ | `0xE72B141DF173b999AE7c1aDcbF60Cc9833Ce56a8` [View](https://etherscan.io/address/0xE72B141DF173b999AE7c1aDcbF60Cc9833Ce56a8) | `0xD529f458Bc879Be231E36eC62968416C07580199` [View](https://etherscan.io/address/0xD529f458Bc879Be231E36eC62968416C07580199) |
+| srUSD | `0x738d1115B90efa71AE468F1287fc864775e23a31` [View](https://etherscan.io/address/0x738d1115B90efa71AE468F1287fc864775e23a31) | `0x810625fCB9b9819a02a135DE1172b468ad673FD8` [View](https://etherscan.io/address/0x810625fCB9b9819a02a135DE1172b468ad673FD8) |
+| rUSD | `0x09D4214C03D01F49544C0448DBE3A27f768F2b34` [View](https://etherscan.io/address/0x09D4214C03D01F49544C0448DBE3A27f768F2b34) | `0x02b2F2809ce74563cb4b2ecA1ADaFB188E4Ed8D7` [View](https://etherscan.io/address/0x02b2F2809ce74563cb4b2ecA1ADaFB188E4Ed8D7) |
+| wstETH | `0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0` [View](https://etherscan.io/address/0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0) | `0x4329e2178D41D058Cf2808c11436A9e83BC5D8b0` [View](https://etherscan.io/address/0x4329e2178D41D058Cf2808c11436A9e83BC5D8b0) |
+| WBTC | `0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599` [View](https://etherscan.io/address/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599) | `0x106f9537Dd66423E6674e85CA187B43055B59fe9` [View](https://etherscan.io/address/0x106f9537Dd66423E6674e85CA187B43055B59fe9) |
+| sDAI | `0x83F20F44975D03b1b09e64809B757c47f942BEeA` [View](https://etherscan.io/address/0x83F20F44975D03b1b09e64809B757c47f942BEeA) | `0x974672fa995917FEC4A5C9db32784D36c370805d` [View](https://etherscan.io/address/0x974672fa995917FEC4A5C9db32784D36c370805d) |
+| USDC | `0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48` [View](https://etherscan.io/address/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48) | `0x8fFfFfd4AfB6115b954Bd326cbe7B4BA576818f6` [View](https://etherscan.io/address/0x8fFfFfd4AfB6115b954Bd326cbe7B4BA576818f6) |
+| USDT | `0xdAC17F958D2ee523a2206206994597C13D831ec7` [View](https://etherscan.io/address/0xdAC17F958D2ee523a2206206994597C13D831ec7) | `0x3E7d1eAB13ad0104d2750B8863b489D65364e32D` [View](https://etherscan.io/address/0x3E7d1eAB13ad0104d2750B8863b489D65364e32D) |
+| lvlUSD | `0x7C1156E515aA1A2E851674120074968C905aAF37` [View](https://etherscan.io/address/0x7C1156E515aA1A2E851674120074968C905aAF37) | `0x8fFfFfd4AfB6115b954Bd326cbe7B4BA576818f6` [View](https://etherscan.io/address/0x8fFfFfd4AfB6115b954Bd326cbe7B4BA576818f6) |
+| PT-lvlUSD-29MAY2025 | `0x9BcA74F805AB0a22DDD0886dB0942199a0feBa71` [View](https://etherscan.io/address/0x9BcA74F805AB0a22DDD0886dB0942199a0feBa71) | `0x5D902B950cCcdEC3d74885f0c1bEcfbCA11673e8` [View](https://etherscan.io/address/0x5D902B950cCcdEC3d74885f0c1bEcfbCA11673e8) |
+| PT-eUSDE-29MAY2025 | `0x50D2C7992b802Eef16c04FeADAB310f31866a545` [View](https://etherscan.io/address/0x50D2C7992b802Eef16c04FeADAB310f31866a545) | `0x9f59e34f4C7808e0F0403bd6dcc51525DB89041c` [View](https://etherscan.io/address/0x9f59e34f4C7808e0F0403bd6dcc51525DB89041c) |
+
+
+### Arbitrum Price Oracles
+
+| Price Oracle Name | Address / View in Explorer |
+|-----------|---------------------------|
+| `PriceOracleMiddlewareUsdProxy` | `0x9838c0d15b439816D25d5fD1AEbd259EeddB66B4` [View](https://arbiscan.io/address/0x9838c0d15b439816D25d5fD1AEbd259EeddB66B4#code) |
+| `PriceOracleMiddlewareUsdWithRolesProxy` | `0xd19D0C917844b996B09c48A9FF622177Af219C79` [View](https://arbiscan.io/address/0xd19D0C917844b996B09c48A9FF622177Af219C79#code) |
+
+#### Price Feeds for `PriceOracleMiddlewareUsdProxy`
+
+##### Version 2024-09-11 - `0x9838c0d15b439816D25d5fD1AEbd259EeddB66B4` [View](https://arbiscan.io/address/0x9838c0d15b439816D25d5fD1AEbd259EeddB66B4#code)
+
+| Asset | Asset Address | Source |
+|-------|--------------|--------|
+| USDC | `0xaf88d065e77c8cC2239327C5EDb3A432268e5831` [View](https://arbiscan.io/address/0xaf88d065e77c8cC2239327C5EDb3A432268e5831) | `0x50834F3163758fcC1Df9973b6e91f0F0F0434aD3` [View](https://arbiscan.io/address/0x50834F3163758fcC1Df9973b6e91f0F0F0434aD3) |
+| USD₮0 | `0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9` [View](https://arbiscan.io/address/0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9) | `0x3f3f5dF88dC9F13eac63DF89EC16ef6e7E25DdE7` [View](https://arbiscan.io/address/0x3f3f5dF88dC9F13eac63DF89EC16ef6e7E25DdE7) |
+
+##### Version 2024-09-03 - `0xF9d7F359875E21b3A74BEd7Db40348f5393AF758` [View](https://arbiscan.io/address/0xF9d7F359875E21b3A74BEd7Db40348f5393AF758#code)
+
+| Asset | Asset Address | Source |
+|-------|--------------|--------|
+| USDC | `0xaf88d065e77c8cC2239327C5EDb3A432268e5831` [View](https://arbiscan.io/address/0xaf88d065e77c8cC2239327C5EDb3A432268e5831) | `0x50834F3163758fcC1Df9973b6e91f0F0F0434aD3` [View](https://arbiscan.io/address/0x50834F3163758fcC1Df9973b6e91f0F0F0434aD3) |
+| USD₮0 | `0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9` [View](https://arbiscan.io/address/0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9) | `0x3f3f5dF88dC9F13eac63DF89EC16ef6e7E25DdE7` [View](https://arbiscan.io/address/0x3f3f5dF88dC9F13eac63DF89EC16ef6e7E25DdE7) |
+| USDC | `0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8` [View](https://arbiscan.io/address/0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8) | `0x50834F3163758fcC1Df9973b6e91f0F0F0434aD3` [View](https://arbiscan.io/address/0x50834F3163758fcC1Df9973b6e91f0F0F0434aD3) |
+| DAI | `0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1` [View](https://arbiscan.io/address/0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1) | `0xc5C8E77B397E531B8EC06BFb0048328B30E9eCfB` [View](https://arbiscan.io/address/0xc5C8E77B397E531B8EC06BFb0048328B30E9eCfB) |
+| WETH | `0x82aF49447D8a07e3bd95BD0d56f35241523fBab1` [View](https://arbiscan.io/address/0x82aF49447D8a07e3bd95BD0d56f35241523fBab1) | `0xA2829e6EB0c464dCa8cc04FA397AC2a0a367c7C0` [View](https://arbiscan.io/address/0xA2829e6EB0c464dCa8cc04FA397AC2a0a367c7C0) |
+| ETHx | `0xED65C5085a18Fa160Af0313E60dcc7905E944Dc7` [View](https://arbiscan.io/address/0xED65C5085a18Fa160Af0313E60dcc7905E944Dc7) | `0xAa03F54E803d26465107d252C29bF4ff8497C72d` [View](https://arbiscan.io/address/0xAa03F54E803d26465107d252C29bF4ff8497C72d) |
+| rsETH | `0x4186BFC76E2E237523CBC30FD220FE055156b41F` [View](https://arbiscan.io/address/0x4186BFC76E2E237523CBC30FD220FE055156b41F) | `0x4676705Ea193b70d523D4f09d0eCCa08742b8493` [View](https://arbiscan.io/address/0x4676705Ea193b70d523D4f09d0eCCa08742b8493) |
+| wstETH | `0x5979D7b546E38E414F7E9822514be443A4800529` [View](https://arbiscan.io/address/0x5979D7b546E38E414F7E9822514be443A4800529) | `0xDc2AE617d91536005Fb4E303150BA0eb2A045511` [View](https://arbiscan.io/address/0xDc2AE617d91536005Fb4E303150BA0eb2A045511) |
+| weETH | `0x35751007a407ca6FEFfE80b3cB397736D2cf4dbe` [View](https://arbiscan.io/address/0x35751007a407ca6FEFfE80b3cB397736D2cf4dbe) | `0x36A027f551231f6805A7aC4E601ca747a63f3C31` [View](https://arbiscan.io/address/0x36A027f551231f6805A7aC4E601ca747a63f3C31) |
+| WBTC | `0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f` [View](https://arbiscan.io/address/0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f) | `0xd0C7101eACbB49F3deCcCc166d238410D6D46d57` [View](https://arbiscan.io/address/0xd0C7101eACbB49F3deCcCc166d238410D6D46d57) |
+
+#### Price Feeds for `PriceOracleMiddlewareUsdWithRolesProxy`
+
+##### Version 2025-03-25 - `0xd19D0C917844b996B09c48A9FF622177Af219C79` [View](https://arbiscan.io/address/0xd19D0C917844b996B09c48A9FF622177Af219C79#code)
+
+No price feeds found for this version.
+
+
+### Base Price Oracles
+
+| Price Oracle Name | Address / View in Explorer |
+|-----------|---------------------------|
+| `PriceOracleMiddlewareUsdProxy` | `0x1C55a415550ba8B5675175fa384E7e2D1Dd85B82` [View](https://basescan.org/address/0x1C55a415550ba8B5675175fa384E7e2D1Dd85B82#code) |
+| `PriceOracleMiddlewareUsdWithRolesProxy` | `0x6d908194a5a1005C374203Fc1baF396c7dbC8E99` [View](https://basescan.org/address/0x6d908194a5a1005C374203Fc1baF396c7dbC8E99#code) |
+
+#### Price Feeds for `PriceOracleMiddlewareUsdProxy`
+
+##### Version 2025-01-14 - `0x1C55a415550ba8B5675175fa384E7e2D1Dd85B82` [View](https://basescan.org/address/0x1C55a415550ba8B5675175fa384E7e2D1Dd85B82#code)
+
+| Asset | Asset Address | Source |
+|-------|--------------|--------|
+| DEGEN | `0x4ed4E862860beD51a9570b96d89aF5E1B0Efefed` [View](https://basescan.org/address/0x4ed4E862860beD51a9570b96d89aF5E1B0Efefed) | `0x1dBdb06e14606d34b51BD723bD2334004757e8b4` [View](https://basescan.org/address/0x1dBdb06e14606d34b51BD723bD2334004757e8b4) |
+| AERO | `0x940181a94A35A4569E4529A3CDfB74e38FD98631` [View](https://basescan.org/address/0x940181a94A35A4569E4529A3CDfB74e38FD98631) | `0x136a2098b994959651091fED13FAC20B0d41B899` [View](https://basescan.org/address/0x136a2098b994959651091fED13FAC20B0d41B899) |
+| PEPE | `0x52b492a33E447Cdb854c7FC19F1e57E8BfA1777D` [View](https://basescan.org/address/0x52b492a33E447Cdb854c7FC19F1e57E8BfA1777D) | `0x3563Db856798d52fB393EE809f050499C9AE2fF0` [View](https://basescan.org/address/0x3563Db856798d52fB393EE809f050499C9AE2fF0) |
+| USDC | `0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913` [View](https://basescan.org/address/0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913) | `0xF3783A124541A0Cce9eF089B590A8Efb10231e8F` [View](https://basescan.org/address/0xF3783A124541A0Cce9eF089B590A8Efb10231e8F) |
+| cbBTC | `0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf` [View](https://basescan.org/address/0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf) | `0x0071943e25A44B74A17A7f1c2d01264DCF50E060` [View](https://basescan.org/address/0x0071943e25A44B74A17A7f1c2d01264DCF50E060) |
+| WETH | `0x4200000000000000000000000000000000000006` [View](https://basescan.org/address/0x4200000000000000000000000000000000000006) | `0xb7266e94518aC8C067aB0457042a5817F032b2Cf` [View](https://basescan.org/address/0xb7266e94518aC8C067aB0457042a5817F032b2Cf) |
+
+##### Version 2024-11-08 - `0x41883F367ab187B1C676A4A4767758916A6a01Fa` [View](https://basescan.org/address/0x41883F367ab187B1C676A4A4767758916A6a01Fa#code)
+
+| Asset | Asset Address | Source |
+|-------|--------------|--------|
+| USDC | `0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913` [View](https://basescan.org/address/0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913) | `0x7e860098F58bBFC8648a4311b374B1D669a2bc6B` [View](https://basescan.org/address/0x7e860098F58bBFC8648a4311b374B1D669a2bc6B) |
+| WETH | `0x4200000000000000000000000000000000000006` [View](https://basescan.org/address/0x4200000000000000000000000000000000000006) | `0x71041dddad3595F9CEd3DcCFBe3D1F4b0a16Bb70` [View](https://basescan.org/address/0x71041dddad3595F9CEd3DcCFBe3D1F4b0a16Bb70) |
+| cbBTC | `0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf` [View](https://basescan.org/address/0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf) | `0x64c911996D3c6aC71f9b455B1E8E7266BcbD848F` [View](https://basescan.org/address/0x64c911996D3c6aC71f9b455B1E8E7266BcbD848F) |
+| cbETH | `0x2Ae3F1Ec7F1F5012CFEab0185bfc7aa3cf0DEc22` [View](https://basescan.org/address/0x2Ae3F1Ec7F1F5012CFEab0185bfc7aa3cf0DEc22) | `0xd7818272B9e248357d13057AAb0B417aF31E817d` [View](https://basescan.org/address/0xd7818272B9e248357d13057AAb0B417aF31E817d) |
+| wstETH | `0xc1CBa3fCea344f92D9239c08C0568f6F2F0ee452` [View](https://basescan.org/address/0xc1CBa3fCea344f92D9239c08C0568f6F2F0ee452) | `0xf9fDE8340A348277B62f81Ab7C6d83fDC2C3A145` [View](https://basescan.org/address/0xf9fDE8340A348277B62f81Ab7C6d83fDC2C3A145) |
+| EURC | `0x60a3E35Cc302bFA44Cb288Bc5a4F316Fdb1adb42` [View](https://basescan.org/address/0x60a3E35Cc302bFA44Cb288Bc5a4F316Fdb1adb42) | `0xDAe398520e2B67cd3f27aeF9Cf14D93D927f8250` [View](https://basescan.org/address/0xDAe398520e2B67cd3f27aeF9Cf14D93D927f8250) |
+| ezETH | `0x2416092f143378750bb29b79eD961ab195CcEea5` [View](https://basescan.org/address/0x2416092f143378750bb29b79eD961ab195CcEea5) | `0x5F3ebbF5873B9Ce40C97E8E96a130639d079F4bC` [View](https://basescan.org/address/0x5F3ebbF5873B9Ce40C97E8E96a130639d079F4bC) |
+| wrsETH | `0xEDfa23602D0EC14714057867A78d01e94176BEA0` [View](https://basescan.org/address/0xEDfa23602D0EC14714057867A78d01e94176BEA0) | `0xF1eBda1bAC6F51b50669D1930EaeFa8E7883214d` [View](https://basescan.org/address/0xF1eBda1bAC6F51b50669D1930EaeFa8E7883214d) |
+| weETH | `0x04C0599Ae5A44757c0af6F9eC3b93da8976c150A` [View](https://basescan.org/address/0x04C0599Ae5A44757c0af6F9eC3b93da8976c150A) | `0x0Cad80485AFaf04b87e435E46dEcc5F36B5ba23F` [View](https://basescan.org/address/0x0Cad80485AFaf04b87e435E46dEcc5F36B5ba23F) |
+| rETH | `0xB6fe221Fe9EeF5aBa221c348bA20A1Bf5e73624c` [View](https://basescan.org/address/0xB6fe221Fe9EeF5aBa221c348bA20A1Bf5e73624c) | `0xd7b19766A839b8A7BCB4E98310Be87B78D1046bA` [View](https://basescan.org/address/0xd7b19766A839b8A7BCB4E98310Be87B78D1046bA) |
+
+##### Version 2024-10-29 - `0xa9ae6bF914DB9e8A297Ca2ecD05AE094b8BAd407` [View](https://basescan.org/address/0xa9ae6bF914DB9e8A297Ca2ecD05AE094b8BAd407#code)
+
+| Asset | Asset Address | Source |
+|-------|--------------|--------|
+| WETH | `0x4200000000000000000000000000000000000006` [View](https://basescan.org/address/0x4200000000000000000000000000000000000006) | `0x71041dddad3595F9CEd3DcCFBe3D1F4b0a16Bb70` [View](https://basescan.org/address/0x71041dddad3595F9CEd3DcCFBe3D1F4b0a16Bb70) |
+| USDC | `0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913` [View](https://basescan.org/address/0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913) | `0x7e860098F58bBFC8648a4311b374B1D669a2bc6B` [View](https://basescan.org/address/0x7e860098F58bBFC8648a4311b374B1D669a2bc6B) |
+| USDT | `0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2` [View](https://basescan.org/address/0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2) | `0xf19d560eB8d2ADf07BD6D13ed03e1D11215721F9` [View](https://basescan.org/address/0xf19d560eB8d2ADf07BD6D13ed03e1D11215721F9) |
+| wstETH | `0xc1CBa3fCea344f92D9239c08C0568f6F2F0ee452` [View](https://basescan.org/address/0xc1CBa3fCea344f92D9239c08C0568f6F2F0ee452) | `0xf9fDE8340A348277B62f81Ab7C6d83fDC2C3A145` [View](https://basescan.org/address/0xf9fDE8340A348277B62f81Ab7C6d83fDC2C3A145) |
+| cbBTC | `0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf` [View](https://basescan.org/address/0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf) | `0x07DA0E54543a844a80ABE69c8A12F22B3aA59f9D` [View](https://basescan.org/address/0x07DA0E54543a844a80ABE69c8A12F22B3aA59f9D) |
+| cbETH | `0x2Ae3F1Ec7F1F5012CFEab0185bfc7aa3cf0DEc22` [View](https://basescan.org/address/0x2Ae3F1Ec7F1F5012CFEab0185bfc7aa3cf0DEc22) | `0xd7818272B9e248357d13057AAb0B417aF31E817d` [View](https://basescan.org/address/0xd7818272B9e248357d13057AAb0B417aF31E817d) |
+
+#### Price Feeds for `PriceOracleMiddlewareUsdWithRolesProxy`
+
+##### Version 2025-03-25 - `0x6d908194a5a1005C374203Fc1baF396c7dbC8E99` [View](https://basescan.org/address/0x6d908194a5a1005C374203Fc1baF396c7dbC8E99#code)
+
+No price feeds found for this version.
+
+##### Version 2025-03-25 - `0xD9b73Af0b29Cbaf88F01384EA1fB5ADcb608bed0` [View](https://basescan.org/address/0xD9b73Af0b29Cbaf88F01384EA1fB5ADcb608bed0#code)
+
+No price feeds found for this version.
