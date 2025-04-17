@@ -478,6 +478,145 @@
           "2025-03-21": "0x0CF053385492FeF81e538F849E1e5308bEFC1A5C"
         }
       }
+    ],
+    "price_oracles": [
+      {
+        "name": "PriceOracleMiddlewareUsdProxy",
+        "versions": {
+          "2024-09-29_001": {
+            "address": "0xB7018C15279E0f5990613cc00A91b6032066f2f7",
+            "price_feeds": {
+              "0xdAC17F958D2ee523a2206206994597C13D831ec7": {
+                "symbol": "USDT",
+                "source": "0x3E7d1eAB13ad0104d2750B8863b489D65364e32D"
+              },
+              "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48": {
+                "symbol": "USDC",
+                "source": "0x8fFfFfd4AfB6115b954Bd326cbe7B4BA576818f6"
+              },
+              "0x83F20F44975D03b1b09e64809B757c47f942BEeA": {
+                "symbol": "sDAI",
+                "source": "0x974672fa995917FEC4A5C9db32784D36c370805d"
+              },
+              "0xE00bd3Df25fb187d6ABBB620b3dfd19839947b81": {
+                "symbol": "PT-sUSDE-27MAR2025",
+                "source": "0xD7Aa529Ce055A1f745a40c1EEa98CcB9B90e61cf"
+              },
+              "0xEe9085fC268F6727d5D4293dBABccF901ffDCC29": {
+                "symbol": "PT-sUSDE-26DEC2024",
+                "source": "0xD7Aa529Ce055A1f745a40c1EEa98CcB9B90e61cf"
+              },
+              "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599": {
+                "symbol": "WBTC",
+                "source": "0x106f9537Dd66423E6674e85CA187B43055B59fe9"
+              },
+              "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0": {
+                "symbol": "wstETH",
+                "source": "0x4329e2178D41D058Cf2808c11436A9e83BC5D8b0"
+              },
+              "0x5BaE9a5D67d1CA5b09B14c91935f635CFBF3b685": {
+                "symbol": "PT-USD0++-27MAR2025",
+                "source": "0xD7Aa529Ce055A1f745a40c1EEa98CcB9B90e61cf"
+              },
+              "0x386AE941D4262B0Ee96354499dF2ab8442734EC0": {
+                "symbol": "PT-sUSDE-27FEB2025",
+                "source": "0xD7Aa529Ce055A1f745a40c1EEa98CcB9B90e61cf"
+              },
+              "0x09D4214C03D01F49544C0448DBE3A27f768F2b34": {
+                "symbol": "rUSD",
+                "source": "0x02b2F2809ce74563cb4b2ecA1ADaFB188E4Ed8D7"
+              },
+              "0x738d1115B90efa71AE468F1287fc864775e23a31": {
+                "symbol": "srUSD",
+                "source": "0x810625fCB9b9819a02a135DE1172b468ad673FD8"
+              },
+              "0xb7de5dFCb74d25c2f21841fbd6230355C50d9308": {
+                "symbol": "PT-sUSDE-29MAY2025",
+                "source": "0xD7Aa529Ce055A1f745a40c1EEa98CcB9B90e61cf"
+              },
+              "0xE72B141DF173b999AE7c1aDcbF60Cc9833Ce56a8": {
+                "symbol": "ETH+",
+                "source": "0xD529f458Bc879Be231E36eC62968416C07580199"
+              },
+              "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2": {
+                "symbol": "WETH",
+                "source": "0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419"
+              }
+            }
+          },
+          "2025-01-16_001": {
+            "address": "0x6c25876346A48De3457312cB6D50020504413b5D",
+            "price_feeds": {
+              "0x09D4214C03D01F49544C0448DBE3A27f768F2b34": {
+                "symbol": "rUSD",
+                "source": "0x02b2F2809ce74563cb4b2ecA1ADaFB188E4Ed8D7"
+              },
+              "0x738d1115B90efa71AE468F1287fc864775e23a31": {
+                "symbol": "srUSD",
+                "source": "0x810625fCB9b9819a02a135DE1172b468ad673FD8"
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "PriceOracleMiddlewareUsdWithRolesProxy",
+        "versions": {
+          "2025-03-25_001": {
+            "address": "0xC9F32d65a278b012371858fD3cdE315B12d664c6",
+            "price_feeds": {
+              "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2": {
+                "symbol": "WETH",
+                "source": "0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419"
+              },
+              "0xE72B141DF173b999AE7c1aDcbF60Cc9833Ce56a8": {
+                "symbol": "ETH+",
+                "source": "0xD529f458Bc879Be231E36eC62968416C07580199"
+              },
+              "0x738d1115B90efa71AE468F1287fc864775e23a31": {
+                "symbol": "srUSD",
+                "source": "0x810625fCB9b9819a02a135DE1172b468ad673FD8"
+              },
+              "0x09D4214C03D01F49544C0448DBE3A27f768F2b34": {
+                "symbol": "rUSD",
+                "source": "0x02b2F2809ce74563cb4b2ecA1ADaFB188E4Ed8D7"
+              },
+              "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0": {
+                "symbol": "wstETH",
+                "source": "0x4329e2178D41D058Cf2808c11436A9e83BC5D8b0"
+              },
+              "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599": {
+                "symbol": "WBTC",
+                "source": "0x106f9537Dd66423E6674e85CA187B43055B59fe9"
+              },
+              "0x83F20F44975D03b1b09e64809B757c47f942BEeA": {
+                "symbol": "sDAI",
+                "source": "0x974672fa995917FEC4A5C9db32784D36c370805d"
+              },
+              "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48": {
+                "symbol": "USDC",
+                "source": "0x8fFfFfd4AfB6115b954Bd326cbe7B4BA576818f6"
+              },
+              "0xdAC17F958D2ee523a2206206994597C13D831ec7": {
+                "symbol": "USDT",
+                "source": "0x3E7d1eAB13ad0104d2750B8863b489D65364e32D"
+              },
+              "0x7C1156E515aA1A2E851674120074968C905aAF37": {
+                "symbol": "lvlUSD",
+                "source": "0x8fFfFfd4AfB6115b954Bd326cbe7B4BA576818f6"
+              },
+              "0x9BcA74F805AB0a22DDD0886dB0942199a0feBa71": {
+                "symbol": "PT-lvlUSD-29MAY2025",
+                "source": "0x5D902B950cCcdEC3d74885f0c1bEcfbCA11673e8"
+              },
+              "0x50D2C7992b802Eef16c04FeADAB310f31866a545": {
+                "symbol": "PT-eUSDE-29MAY2025",
+                "source": "0x9f59e34f4C7808e0F0403bd6dcc51525DB89041c"
+              }
+            }
+          }
+        }
+      }
     ]
   },
   "arbitrum": {
@@ -886,6 +1025,79 @@
         "name": "PreHookPauseFunction",
         "versions": {
           "2025-03-25": "0x2635f5AB58E64690974533F1903378a9B3cA1C9f"
+        }
+      }
+    ],
+    "price_oracles": [
+      {
+        "name": "PriceOracleMiddlewareUsdProxy",
+        "versions": {
+          "2024-09-03_001": {
+            "address": "0xF9d7F359875E21b3A74BEd7Db40348f5393AF758",
+            "price_feeds": {
+              "0xaf88d065e77c8cC2239327C5EDb3A432268e5831": {
+                "symbol": "USDC",
+                "source": "0x50834F3163758fcC1Df9973b6e91f0F0F0434aD3"
+              },
+              "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9": {
+                "symbol": "USD\u20ae0",
+                "source": "0x3f3f5dF88dC9F13eac63DF89EC16ef6e7E25DdE7"
+              },
+              "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8": {
+                "symbol": "USDC",
+                "source": "0x50834F3163758fcC1Df9973b6e91f0F0F0434aD3"
+              },
+              "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1": {
+                "symbol": "DAI",
+                "source": "0xc5C8E77B397E531B8EC06BFb0048328B30E9eCfB"
+              },
+              "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1": {
+                "symbol": "WETH",
+                "source": "0xA2829e6EB0c464dCa8cc04FA397AC2a0a367c7C0"
+              },
+              "0xED65C5085a18Fa160Af0313E60dcc7905E944Dc7": {
+                "symbol": "ETHx",
+                "source": "0xAa03F54E803d26465107d252C29bF4ff8497C72d"
+              },
+              "0x4186BFC76E2E237523CBC30FD220FE055156b41F": {
+                "symbol": "rsETH",
+                "source": "0x4676705Ea193b70d523D4f09d0eCCa08742b8493"
+              },
+              "0x5979D7b546E38E414F7E9822514be443A4800529": {
+                "symbol": "wstETH",
+                "source": "0xDc2AE617d91536005Fb4E303150BA0eb2A045511"
+              },
+              "0x35751007a407ca6FEFfE80b3cB397736D2cf4dbe": {
+                "symbol": "weETH",
+                "source": "0x36A027f551231f6805A7aC4E601ca747a63f3C31"
+              },
+              "0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f": {
+                "symbol": "WBTC",
+                "source": "0xd0C7101eACbB49F3deCcCc166d238410D6D46d57"
+              }
+            }
+          },
+          "2024-09-11_001": {
+            "address": "0x9838c0d15b439816D25d5fD1AEbd259EeddB66B4",
+            "price_feeds": {
+              "0xaf88d065e77c8cC2239327C5EDb3A432268e5831": {
+                "symbol": "USDC",
+                "source": "0x50834F3163758fcC1Df9973b6e91f0F0F0434aD3"
+              },
+              "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9": {
+                "symbol": "USD\u20ae0",
+                "source": "0x3f3f5dF88dC9F13eac63DF89EC16ef6e7E25DdE7"
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "PriceOracleMiddlewareUsdWithRolesProxy",
+        "versions": {
+          "2025-03-25_001": {
+            "address": "0xd19D0C917844b996B09c48A9FF622177Af219C79"
+          }
         }
       }
     ]
@@ -1461,6 +1673,127 @@
         "versions": {
           "2025-01-14": "0x34dA86DB286E6F0a17471198E329e1429cf5297F",
           "2025-03-04": "0x7f9179DC81cd0dBE6488eCD192cf37d2B9530F0C"
+        }
+      }
+    ],
+    "price_oracles": [
+      {
+        "name": "PriceOracleMiddlewareUsdProxy",
+        "versions": {
+          "2024-10-29_001": {
+            "address": "0xa9ae6bF914DB9e8A297Ca2ecD05AE094b8BAd407",
+            "price_feeds": {
+              "0x4200000000000000000000000000000000000006": {
+                "symbol": "WETH",
+                "source": "0x71041dddad3595F9CEd3DcCFBe3D1F4b0a16Bb70"
+              },
+              "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913": {
+                "symbol": "USDC",
+                "source": "0x7e860098F58bBFC8648a4311b374B1D669a2bc6B"
+              },
+              "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2": {
+                "symbol": "USDT",
+                "source": "0xf19d560eB8d2ADf07BD6D13ed03e1D11215721F9"
+              },
+              "0xc1CBa3fCea344f92D9239c08C0568f6F2F0ee452": {
+                "symbol": "wstETH",
+                "source": "0xf9fDE8340A348277B62f81Ab7C6d83fDC2C3A145"
+              },
+              "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf": {
+                "symbol": "cbBTC",
+                "source": "0x07DA0E54543a844a80ABE69c8A12F22B3aA59f9D"
+              },
+              "0x2Ae3F1Ec7F1F5012CFEab0185bfc7aa3cf0DEc22": {
+                "symbol": "cbETH",
+                "source": "0xd7818272B9e248357d13057AAb0B417aF31E817d"
+              }
+            }
+          },
+          "2024-11-08_001": {
+            "address": "0x41883F367ab187B1C676A4A4767758916A6a01Fa",
+            "price_feeds": {
+              "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913": {
+                "symbol": "USDC",
+                "source": "0x7e860098F58bBFC8648a4311b374B1D669a2bc6B"
+              },
+              "0x4200000000000000000000000000000000000006": {
+                "symbol": "WETH",
+                "source": "0x71041dddad3595F9CEd3DcCFBe3D1F4b0a16Bb70"
+              },
+              "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf": {
+                "symbol": "cbBTC",
+                "source": "0x64c911996D3c6aC71f9b455B1E8E7266BcbD848F"
+              },
+              "0x2Ae3F1Ec7F1F5012CFEab0185bfc7aa3cf0DEc22": {
+                "symbol": "cbETH",
+                "source": "0xd7818272B9e248357d13057AAb0B417aF31E817d"
+              },
+              "0xc1CBa3fCea344f92D9239c08C0568f6F2F0ee452": {
+                "symbol": "wstETH",
+                "source": "0xf9fDE8340A348277B62f81Ab7C6d83fDC2C3A145"
+              },
+              "0x60a3E35Cc302bFA44Cb288Bc5a4F316Fdb1adb42": {
+                "symbol": "EURC",
+                "source": "0xDAe398520e2B67cd3f27aeF9Cf14D93D927f8250"
+              },
+              "0x2416092f143378750bb29b79eD961ab195CcEea5": {
+                "symbol": "ezETH",
+                "source": "0x5F3ebbF5873B9Ce40C97E8E96a130639d079F4bC"
+              },
+              "0xEDfa23602D0EC14714057867A78d01e94176BEA0": {
+                "symbol": "wrsETH",
+                "source": "0xF1eBda1bAC6F51b50669D1930EaeFa8E7883214d"
+              },
+              "0x04C0599Ae5A44757c0af6F9eC3b93da8976c150A": {
+                "symbol": "weETH",
+                "source": "0x0Cad80485AFaf04b87e435E46dEcc5F36B5ba23F"
+              },
+              "0xB6fe221Fe9EeF5aBa221c348bA20A1Bf5e73624c": {
+                "symbol": "rETH",
+                "source": "0xd7b19766A839b8A7BCB4E98310Be87B78D1046bA"
+              }
+            }
+          },
+          "2025-01-14_001": {
+            "address": "0x1C55a415550ba8B5675175fa384E7e2D1Dd85B82",
+            "price_feeds": {
+              "0x4ed4E862860beD51a9570b96d89aF5E1B0Efefed": {
+                "symbol": "DEGEN",
+                "source": "0x1dBdb06e14606d34b51BD723bD2334004757e8b4"
+              },
+              "0x940181a94A35A4569E4529A3CDfB74e38FD98631": {
+                "symbol": "AERO",
+                "source": "0x136a2098b994959651091fED13FAC20B0d41B899"
+              },
+              "0x52b492a33E447Cdb854c7FC19F1e57E8BfA1777D": {
+                "symbol": "PEPE",
+                "source": "0x3563Db856798d52fB393EE809f050499C9AE2fF0"
+              },
+              "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913": {
+                "symbol": "USDC",
+                "source": "0xF3783A124541A0Cce9eF089B590A8Efb10231e8F"
+              },
+              "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf": {
+                "symbol": "cbBTC",
+                "source": "0x0071943e25A44B74A17A7f1c2d01264DCF50E060"
+              },
+              "0x4200000000000000000000000000000000000006": {
+                "symbol": "WETH",
+                "source": "0xb7266e94518aC8C067aB0457042a5817F032b2Cf"
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "PriceOracleMiddlewareUsdWithRolesProxy",
+        "versions": {
+          "2025-03-25_001": {
+            "address": "0xD9b73Af0b29Cbaf88F01384EA1fB5ADcb608bed0"
+          },
+          "2025-03-25_002": {
+            "address": "0x6d908194a5a1005C374203Fc1baF396c7dbC8E99"
+          }
         }
       }
     ]
