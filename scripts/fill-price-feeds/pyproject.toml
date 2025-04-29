@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "fill-price-feeds"
+version = "0.1.0"
+description = "Script to fill price feeds"
+authors = ["IPOR Labs AG"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+web3 = "^7.8.0"
+python-dotenv = "^1.0.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+fill-price-feeds = "fill-price-feeds.py"
