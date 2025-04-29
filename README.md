@@ -6,7 +6,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Fuses List
 
-*Last updated: 2025-04-17 15:59:43 UTC*
+*Last updated: 2025-04-29 13:26:18 UTC*
 
 ### Ethereum Fuses
 
@@ -70,6 +70,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `SupplyFuseMorpho` | `0xD08Cb606CEe700628E55b0B0159Ad65421E6c8Df` [View](https://etherscan.io/address/0xD08Cb606CEe700628E55b0B0159Ad65421E6c8Df#code) |
 | `SupplyFuseSpark` | `0xB48CF802C2D648c46ac7f752C81e29Fa2C955E9B` [View](https://etherscan.io/address/0xB48CF802C2D648c46ac7f752C81e29Fa2C955E9B#code) |
 | `SwapFuseUniversalTokenSwapper` | `0x08dFdBB6Ecf19f1fc974E0675783E1150B2B650F` [View](https://etherscan.io/address/0x08dFdBB6Ecf19f1fc974E0675783E1150B2B650F#code) |
+| `SwapFuseUniversalTokenSwapperEth` | `0xee9a18F0De64E8Eb399A3BaEF0550aa50A218768` [View](https://etherscan.io/address/0xee9a18F0De64E8Eb399A3BaEF0550aa50A218768#code) |
 | `UniversalReaderBalanceFuses` | `0x870E1Fb75BEdbc2eFB92857DC2B2cF171a0AEC1f` [View](https://etherscan.io/address/0x870E1Fb75BEdbc2eFB92857DC2B2cF171a0AEC1f#code) |
 
 ### Arbitrum Fuses
@@ -129,6 +130,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `SwapFuseUniswapV2` | `0xAdA9bF3c599DB229601dd1220D0b3CcAb6c7db84` [View](https://arbiscan.io/address/0xAdA9bF3c599DB229601dd1220D0b3CcAb6c7db84#code) |
 | `SwapFuseUniswapV3` | `0x84C5aB008C66d664681698A9E4536D942B916F89` [View](https://arbiscan.io/address/0x84C5aB008C66d664681698A9E4536D942B916F89#code) |
 | `SwapFuseUniversalTokenSwapper` | `0xB052b0D983E493B4D40DeC75A03D21b70b83c2ca` [View](https://arbiscan.io/address/0xB052b0D983E493B4D40DeC75A03D21b70b83c2ca#code) |
+| `SwapFuseUniversalTokenSwapperEth` | `0xd43a359890072D1b3939366e612D7FA0C7DDdB32` [View](https://arbiscan.io/address/0xd43a359890072D1b3939366e612D7FA0C7DDdB32#code) |
 | `UniversalReaderBalanceFuses` | `0xacDB88ea2E2D248369b5b3137Fc3f971543d706c` [View](https://arbiscan.io/address/0xacDB88ea2E2D248369b5b3137Fc3f971543d706c#code) |
 
 #### Arbitrum Older Fuses Versions
@@ -215,6 +217,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `SupplyFuseMorpho` | `0xae93EF3cf337b9599F0dfC12520c3C281637410F` [View](https://basescan.org/address/0xae93EF3cf337b9599F0dfC12520c3C281637410F#code) |
 | `SwapFuseUniswapV3` | `0x6C65F2155bb8730E1768558f2679eBB04d957145` [View](https://basescan.org/address/0x6C65F2155bb8730E1768558f2679eBB04d957145#code) |
 | `SwapFuseUniversalTokenSwapper` | `0xdBc5f9962CE85749F1b3c51BA0473909229E3807` [View](https://basescan.org/address/0xdBc5f9962CE85749F1b3c51BA0473909229E3807#code) |
+| `SwapFuseUniversalTokenSwapperEth` | `0x1DC6eC62bD4225Ec063049238CeF89635cdbff72` [View](https://basescan.org/address/0x1DC6eC62bD4225Ec063049238CeF89635cdbff72#code) |
 | `UniversalReaderBalanceFuses` | `0xE33F6a15D382CeabB8f351320BF63EE2860E8203` [View](https://basescan.org/address/0xE33F6a15D382CeabB8f351320BF63EE2860E8203#code) |
 
 #### Base Older Fuses Versions
@@ -227,7 +230,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## PreHooks List
 
-*Last updated: 2025-04-17 15:59:44 UTC*
+*Last updated: 2025-04-29 13:26:52 UTC*
 
 ### Ethereum PreHooks
 
@@ -257,7 +260,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Price Oracles List
 
-*Last updated: 2025-04-17 16:21:54 UTC*
+*Last updated: 2025-04-29 13:32:16 UTC*
 
 ### Ethereum Price Oracles
 
@@ -312,6 +315,13 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | **lvlUSD** `0x7C1156E515aA1A2E851674120074968C905aAF37` | `0x8fFfFfd4AfB6115b954Bd326cbe7B4BA576818f6` [View](https://etherscan.io/address/0x8fFfFfd4AfB6115b954Bd326cbe7B4BA576818f6) |
 | **PT-lvlUSD-29MAY2025** `0x9BcA74F805AB0a22DDD0886dB0942199a0feBa71` | `0x5D902B950cCcdEC3d74885f0c1bEcfbCA11673e8` [View](https://etherscan.io/address/0x5D902B950cCcdEC3d74885f0c1bEcfbCA11673e8) |
 | **PT-eUSDE-29MAY2025** `0x50D2C7992b802Eef16c04FeADAB310f31866a545` | `0x9f59e34f4C7808e0F0403bd6dcc51525DB89041c` [View](https://etherscan.io/address/0x9f59e34f4C7808e0F0403bd6dcc51525DB89041c) |
+| **USDO** `0x8238884Ec9668Ef77B90C6dfF4D1a9F4F4823BFe` | `0x02b2F2809ce74563cb4b2ecA1ADaFB188E4Ed8D7` [View](https://etherscan.io/address/0x02b2F2809ce74563cb4b2ecA1ADaFB188E4Ed8D7) |
+| **PT-RUSD-31JUL2025** `0xf736acF34FF7Cd9B3565b73a1f15E652859bF322` | `0x4bb25F8a46602D00C4250c2f08459d98D4894f51` [View](https://etherscan.io/address/0x4bb25F8a46602D00C4250c2f08459d98D4894f51) |
+| **PT-syrupUSDC-28AUG2025** `0xCcE7D12f683c6dAe700154f0BAdf779C0bA1F89A` | `0xB37E44046eE563DAF324A7022263c4d69802E118` [View](https://etherscan.io/address/0xB37E44046eE563DAF324A7022263c4d69802E118) |
+| **PT-sUSDE-29MAY2025** `0xb7de5dFCb74d25c2f21841fbd6230355C50d9308` | `0xF3aa22c75d75d11FcbE62C5f0821279793B8C296` [View](https://etherscan.io/address/0xF3aa22c75d75d11FcbE62C5f0821279793B8C296) |
+| **PT-sUSDE-31JUL2025** `0x3b3fB9C57858EF816833dC91565EFcd85D96f634` | `0xdbb67Ce78f4B20466BbbCC3FF02409E40dbAf0A6` [View](https://etherscan.io/address/0xdbb67Ce78f4B20466BbbCC3FF02409E40dbAf0A6) |
+| **PT-wstUSR-25SEP2025** `0x23E60d1488525bf4685f53b3aa8E676c30321066` | `0xeA6F7F4eceFC73B13345Ede73772D7f884D637ff` [View](https://etherscan.io/address/0xeA6F7F4eceFC73B13345Ede73772D7f884D637ff) |
+| **PT-cUSDO-19JUN2025** `0x933B9FfEE0Ad3Ef8E4DBb52688ea905826D73755` | `0xbE7E88B52C79C6B0e507d43D9b6Ad6992187779c` [View](https://etherscan.io/address/0xbE7E88B52C79C6B0e507d43D9b6Ad6992187779c) |
 
 
 ### Arbitrum Price Oracles
@@ -406,4 +416,15 @@ No price feeds found for this version.
 
 ##### Version 2025-03-25 - `0xD9b73Af0b29Cbaf88F01384EA1fB5ADcb608bed0` [View](https://basescan.org/address/0xD9b73Af0b29Cbaf88F01384EA1fB5ADcb608bed0#code)
 
-No price feeds found for this version.
+| Asset | Source / View in Explorer |
+|-------|---------------|
+| **USDC** `0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913` | `0x7e860098F58bBFC8648a4311b374B1D669a2bc6B` [View](https://basescan.org/address/0x7e860098F58bBFC8648a4311b374B1D669a2bc6B) |
+| **WETH** `0x4200000000000000000000000000000000000006` | `0x71041dddad3595F9CEd3DcCFBe3D1F4b0a16Bb70` [View](https://basescan.org/address/0x71041dddad3595F9CEd3DcCFBe3D1F4b0a16Bb70) |
+| **cbBTC** `0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf` | `0x64c911996D3c6aC71f9b455B1E8E7266BcbD848F` [View](https://basescan.org/address/0x64c911996D3c6aC71f9b455B1E8E7266BcbD848F) |
+| **cbETH** `0x2Ae3F1Ec7F1F5012CFEab0185bfc7aa3cf0DEc22` | `0xd7818272B9e248357d13057AAb0B417aF31E817d` [View](https://basescan.org/address/0xd7818272B9e248357d13057AAb0B417aF31E817d) |
+| **wstETH** `0xc1CBa3fCea344f92D9239c08C0568f6F2F0ee452` | `0xf9fDE8340A348277B62f81Ab7C6d83fDC2C3A145` [View](https://basescan.org/address/0xf9fDE8340A348277B62f81Ab7C6d83fDC2C3A145) |
+| **EURC** `0x60a3E35Cc302bFA44Cb288Bc5a4F316Fdb1adb42` | `0xDAe398520e2B67cd3f27aeF9Cf14D93D927f8250` [View](https://basescan.org/address/0xDAe398520e2B67cd3f27aeF9Cf14D93D927f8250) |
+| **ezETH** `0x2416092f143378750bb29b79eD961ab195CcEea5` | `0x5F3ebbF5873B9Ce40C97E8E96a130639d079F4bC` [View](https://basescan.org/address/0x5F3ebbF5873B9Ce40C97E8E96a130639d079F4bC) |
+| **wrsETH** `0xEDfa23602D0EC14714057867A78d01e94176BEA0` | `0xF1eBda1bAC6F51b50669D1930EaeFa8E7883214d` [View](https://basescan.org/address/0xF1eBda1bAC6F51b50669D1930EaeFa8E7883214d) |
+| **weETH** `0x04C0599Ae5A44757c0af6F9eC3b93da8976c150A` | `0x0Cad80485AFaf04b87e435E46dEcc5F36B5ba23F` [View](https://basescan.org/address/0x0Cad80485AFaf04b87e435E46dEcc5F36B5ba23F) |
+| **rETH** `0xB6fe221Fe9EeF5aBa221c348bA20A1Bf5e73624c` | `0xd7b19766A839b8A7BCB4E98310Be87B78D1046bA` [View](https://basescan.org/address/0xd7b19766A839b8A7BCB4E98310Be87B78D1046bA) |

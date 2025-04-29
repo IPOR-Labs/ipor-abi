@@ -64,7 +64,6 @@ PRICE_ORACLE_ABI = [
 ]
 
 NOT_PRICE_FEED_NAMES = [
-    "UniversalReaderPreHooksInfo",
 ]
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
@@ -406,7 +405,7 @@ def generate_markdown_list(addresses_file=MAIN_ADDRESSES_FILE, readme_file="../.
             with open(readme_file, 'r') as f:
                 readme_content = f.read()
         except FileNotFoundError:
-            readme_content = "# PreHook Protocol\n\n"
+            readme_content = "# Price Oracles Protocol\n\n"
 
         priceoracles_md = "## Price Oracles List\n\n"
         priceoracles_md += f"*Last updated: {datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%d %H:%M:%S')} UTC*\n\n"
