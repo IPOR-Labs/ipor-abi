@@ -459,6 +459,12 @@
         }
       },
       {
+        "name": "SwapFuseUniversalTokenSwapperEth",
+        "versions": {
+          "2025-04-29": "0xee9a18F0De64E8Eb399A3BaEF0550aa50A218768"
+        }
+      },
+      {
         "name": "UniversalReaderBalanceFuses",
         "versions": {
           "2025-03-25": "0x870E1Fb75BEdbc2eFB92857DC2B2cF171a0AEC1f"
@@ -612,6 +618,34 @@
               "0x50D2C7992b802Eef16c04FeADAB310f31866a545": {
                 "symbol": "PT-eUSDE-29MAY2025",
                 "source": "0x9f59e34f4C7808e0F0403bd6dcc51525DB89041c"
+              },
+              "0x8238884Ec9668Ef77B90C6dfF4D1a9F4F4823BFe": {
+                "symbol": "USDO",
+                "source": "0x02b2F2809ce74563cb4b2ecA1ADaFB188E4Ed8D7"
+              },
+              "0xf736acF34FF7Cd9B3565b73a1f15E652859bF322": {
+                "symbol": "PT-RUSD-31JUL2025",
+                "source": "0x4bb25F8a46602D00C4250c2f08459d98D4894f51"
+              },
+              "0xCcE7D12f683c6dAe700154f0BAdf779C0bA1F89A": {
+                "symbol": "PT-syrupUSDC-28AUG2025",
+                "source": "0xB37E44046eE563DAF324A7022263c4d69802E118"
+              },
+              "0xb7de5dFCb74d25c2f21841fbd6230355C50d9308": {
+                "symbol": "PT-sUSDE-29MAY2025",
+                "source": "0xF3aa22c75d75d11FcbE62C5f0821279793B8C296"
+              },
+              "0x3b3fB9C57858EF816833dC91565EFcd85D96f634": {
+                "symbol": "PT-sUSDE-31JUL2025",
+                "source": "0xdbb67Ce78f4B20466BbbCC3FF02409E40dbAf0A6"
+              },
+              "0x23E60d1488525bf4685f53b3aa8E676c30321066": {
+                "symbol": "PT-wstUSR-25SEP2025",
+                "source": "0xeA6F7F4eceFC73B13345Ede73772D7f884D637ff"
+              },
+              "0x933B9FfEE0Ad3Ef8E4DBb52688ea905826D73755": {
+                "symbol": "PT-cUSDO-19JUN2025",
+                "source": "0xbE7E88B52C79C6B0e507d43D9b6Ad6992187779c"
               }
             }
           }
@@ -1011,6 +1045,12 @@
         "name": "SwapFuseUniversalTokenSwapper",
         "versions": {
           "2024-09-11": "0xB052b0D983E493B4D40DeC75A03D21b70b83c2ca"
+        }
+      },
+      {
+        "name": "SwapFuseUniversalTokenSwapperEth",
+        "versions": {
+          "2025-04-29": "0xd43a359890072D1b3939366e612D7FA0C7DDdB32"
         }
       },
       {
@@ -1655,6 +1695,12 @@
         }
       },
       {
+        "name": "SwapFuseUniversalTokenSwapperEth",
+        "versions": {
+          "2025-04-29": "0x1DC6eC62bD4225Ec063049238CeF89635cdbff72"
+        }
+      },
+      {
         "name": "UniversalReaderBalanceFuses",
         "versions": {
           "2025-03-25": "0xE33F6a15D382CeabB8f351320BF63EE2860E8203"
@@ -1789,7 +1835,49 @@
         "name": "PriceOracleMiddlewareUsdWithRolesProxy",
         "versions": {
           "2025-03-25_001": {
-            "address": "0xD9b73Af0b29Cbaf88F01384EA1fB5ADcb608bed0"
+            "address": "0xD9b73Af0b29Cbaf88F01384EA1fB5ADcb608bed0",
+            "price_feeds": {
+              "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913": {
+                "symbol": "USDC",
+                "source": "0x7e860098F58bBFC8648a4311b374B1D669a2bc6B"
+              },
+              "0x4200000000000000000000000000000000000006": {
+                "symbol": "WETH",
+                "source": "0x71041dddad3595F9CEd3DcCFBe3D1F4b0a16Bb70"
+              },
+              "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf": {
+                "symbol": "cbBTC",
+                "source": "0x64c911996D3c6aC71f9b455B1E8E7266BcbD848F"
+              },
+              "0x2Ae3F1Ec7F1F5012CFEab0185bfc7aa3cf0DEc22": {
+                "symbol": "cbETH",
+                "source": "0xd7818272B9e248357d13057AAb0B417aF31E817d"
+              },
+              "0xc1CBa3fCea344f92D9239c08C0568f6F2F0ee452": {
+                "symbol": "wstETH",
+                "source": "0xf9fDE8340A348277B62f81Ab7C6d83fDC2C3A145"
+              },
+              "0x60a3E35Cc302bFA44Cb288Bc5a4F316Fdb1adb42": {
+                "symbol": "EURC",
+                "source": "0xDAe398520e2B67cd3f27aeF9Cf14D93D927f8250"
+              },
+              "0x2416092f143378750bb29b79eD961ab195CcEea5": {
+                "symbol": "ezETH",
+                "source": "0x5F3ebbF5873B9Ce40C97E8E96a130639d079F4bC"
+              },
+              "0xEDfa23602D0EC14714057867A78d01e94176BEA0": {
+                "symbol": "wrsETH",
+                "source": "0xF1eBda1bAC6F51b50669D1930EaeFa8E7883214d"
+              },
+              "0x04C0599Ae5A44757c0af6F9eC3b93da8976c150A": {
+                "symbol": "weETH",
+                "source": "0x0Cad80485AFaf04b87e435E46dEcc5F36B5ba23F"
+              },
+              "0xB6fe221Fe9EeF5aBa221c348bA20A1Bf5e73624c": {
+                "symbol": "rETH",
+                "source": "0xd7b19766A839b8A7BCB4E98310Be87B78D1046bA"
+              }
+            }
           },
           "2025-03-25_002": {
             "address": "0x6d908194a5a1005C374203Fc1baF396c7dbC8E99"
