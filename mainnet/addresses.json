@@ -106,7 +106,7 @@
         "name": "Leveraged sUSDf",
         "token": "sUSDf",
         "asset": "0xc8CF6D7991f15525488b2A83Df53468D682Ba4B0",
-        "PlasmaVault": "0x29d322DD088e9b9D1416F43188954F08748fafbb"
+        "PlasmaVault": "0xb530a1B5259A71187F1D69aCF0488F102637a3ED"
       }
     ],
     "fuses": [
@@ -646,6 +646,10 @@
               "0x933B9FfEE0Ad3Ef8E4DBb52688ea905826D73755": {
                 "symbol": "PT-cUSDO-19JUN2025",
                 "source": "0xbE7E88B52C79C6B0e507d43D9b6Ad6992187779c"
+              },
+              "0xc8CF6D7991f15525488b2A83Df53468D682Ba4B0": {
+                "symbol": "sUSDf",
+                "source": "0xdbFFc30F3b95B8CA5BaB3e6C139076feA47f89b3"
               }
             }
           }
