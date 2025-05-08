@@ -14,7 +14,7 @@
   "FusePendleSwapPt": "0x31fA1E9dC753d0f565CfA9337d59A91298146244",
   "FuseRedeemFromRequestPlasmaVaultMarket1": "0x4d3E8763E86Dee40B34bC21e098b26f5B9ba394d",
   "FuseRequestSharesPlasmaVaultMarket1": "0xD6c4bf7Ac3AEA99Fa01532e4457202AE41A2596B",
-  "IporFusionFeeManagerFactory": "0x12Bbe00B5d3eAf6A2f5f50b9A7cFC8a66879bf61",
+  "IporFusionFeeManagerFactory": "0x3958c1f3FB47AC653a26C5363b2C388Dca4D7974",
   "IporFusionPriceOracleMiddlewareWithRolesOwner": "0xff560c41eacd072AD025F43DF3516cB6580C96bF",
   "IporProtocolDeployer": "0x13e6F9f955149F6F4Ff3758F4A1755AE52a88D8D",
   "PlasmaVaultBase": "0x4B573A75f4B77eE2474FCFc42A8969107a4591dB",
