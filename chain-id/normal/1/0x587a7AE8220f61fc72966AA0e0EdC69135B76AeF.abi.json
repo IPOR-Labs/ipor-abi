@@ -1,0 +1,114 @@
+[
+  {
+    "type": "function",
+    "name": "deployFeeManager",
+    "inputs": [
+      {
+        "name": "initData_",
+        "type": "tuple",
+        "internalType": "struct FeeManagerInitData",
+        "components": [
+          {
+            "name": "initialAuthority",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "plasmaVault",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "iporDaoManagementFee",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "iporDaoPerformanceFee",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "iporDaoFeeRecipientAddress",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "recipientManagementFees",
+            "type": "tuple[]",
+            "internalType": "struct RecipientFee[]",
+            "components": [
+              {
+                "name": "recipient",
+                "type": "address",
+                "internalType": "address"
+              },
+              {
+                "name": "feeValue",
+                "type": "uint256",
+                "internalType": "uint256"
+              }
+            ]
+          },
+          {
+            "name": "recipientPerformanceFees",
+            "type": "tuple[]",
+            "internalType": "struct RecipientFee[]",
+            "components": [
+              {
+                "name": "recipient",
+                "type": "address",
+                "internalType": "address"
+              },
+              {
+                "name": "feeValue",
+                "type": "uint256",
+                "internalType": "uint256"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "tuple",
+        "internalType": "struct FeeManagerData",
+        "components": [
+          {
+            "name": "feeManager",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "plasmaVault",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "performanceFeeAccount",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "managementFeeAccount",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "managementFee",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "performanceFee",
+            "type": "uint256",
+            "internalType": "uint256"
+          }
+        ]
+      }
+    ],
+    "stateMutability": "nonpayable"
+  }
+]
