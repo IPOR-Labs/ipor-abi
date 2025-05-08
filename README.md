@@ -6,7 +6,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Fuses List
 
-*Last updated: 2025-04-29 13:26:18 UTC*
+*Last updated: 2025-05-08 22:29:46 UTC*
 
 ### Ethereum Fuses
 
@@ -230,7 +230,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## PreHooks List
 
-*Last updated: 2025-04-29 13:26:52 UTC*
+*Last updated: 2025-05-08 22:29:47 UTC*
 
 ### Ethereum PreHooks
 
@@ -260,7 +260,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Price Oracles List
 
-*Last updated: 2025-04-29 13:32:16 UTC*
+*Last updated: 2025-05-08 22:31:55 UTC*
 
 ### Ethereum Price Oracles
 
@@ -322,6 +322,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | **PT-sUSDE-31JUL2025** `0x3b3fB9C57858EF816833dC91565EFcd85D96f634` | `0xdbb67Ce78f4B20466BbbCC3FF02409E40dbAf0A6` [View](https://etherscan.io/address/0xdbb67Ce78f4B20466BbbCC3FF02409E40dbAf0A6) |
 | **PT-wstUSR-25SEP2025** `0x23E60d1488525bf4685f53b3aa8E676c30321066` | `0xeA6F7F4eceFC73B13345Ede73772D7f884D637ff` [View](https://etherscan.io/address/0xeA6F7F4eceFC73B13345Ede73772D7f884D637ff) |
 | **PT-cUSDO-19JUN2025** `0x933B9FfEE0Ad3Ef8E4DBb52688ea905826D73755` | `0xbE7E88B52C79C6B0e507d43D9b6Ad6992187779c` [View](https://etherscan.io/address/0xbE7E88B52C79C6B0e507d43D9b6Ad6992187779c) |
+| **sUSDf** `0xc8CF6D7991f15525488b2A83Df53468D682Ba4B0` | `0xdbFFc30F3b95B8CA5BaB3e6C139076feA47f89b3` [View](https://etherscan.io/address/0xdbFFc30F3b95B8CA5BaB3e6C139076feA47f89b3) |
 
 
 ### Arbitrum Price Oracles
