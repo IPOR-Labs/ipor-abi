@@ -25,14 +25,15 @@ PLASMA_FIELDS = [
     'IporPlasmaVaultWBTC',
     'IporPlasmaVaultWEth',
     'IporPlasmaVaultWstETH',
-    'IporPlasmaVaultUsdcCSLL',
     'IporPlasmaVaultUsdcLPCO',
+    'IporPlasmaVaultUsdcCSLL',
     'PlasmaVaultStETH',
     'PlasmaVaultWeETH',
     'IporPlasmaVaultUsdcTAUSRP',
     'PlasmaVault_USDC_iUSDC',
     'PlasmaVault_sUSDf_iFALC',
-    'PlasmaVaultWstETH'
+    'PlasmaVaultWstETH',
+    'PlasmaVaultUsdcTAUBOND'
 ]
 
 load_dotenv()
