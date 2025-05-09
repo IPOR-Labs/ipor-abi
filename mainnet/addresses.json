@@ -107,6 +107,12 @@
         "token": "sUSDf",
         "asset": "0xc8CF6D7991f15525488b2A83Df53468D682Ba4B0",
         "PlasmaVault": "0xb530a1B5259A71187F1D69aCF0488F102637a3ED"
+      },
+      {
+        "name": "TAU Yield Bond ETF",
+        "token": "USDC",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0x43a32D4f6c582f281c52393f8F9E5AcE1D4A1E68"
       }
     ],
     "fuses": [
