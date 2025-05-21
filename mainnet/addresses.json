@@ -113,6 +113,12 @@
         "token": "USDC",
         "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "PlasmaVault": "0x43a32D4f6c582f281c52393f8F9E5AcE1D4A1E68"
+      },
+      {
+        "name": "Autopilot USDC Ethereum",
+        "token": "USDC",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0x3151cEE0cdb517C0E7Db2B55FF5085e7D1809d90"
       }
     ],
     "fuses": [
@@ -159,6 +165,42 @@
         }
       },
       {
+        "name": "BalanceFuseErc4626Market10",
+        "versions": {
+          "2025-05-19": "0x19E332aBA9cd9387e9310C9645B0a4B03a6e7906"
+        }
+      },
+      {
+        "name": "BalanceFuseErc4626Market11",
+        "versions": {
+          "2025-05-19": "0xf3D20CA7e35687b159C2EA4C3876C89aFa27BF11"
+        }
+      },
+      {
+        "name": "BalanceFuseErc4626Market12",
+        "versions": {
+          "2025-05-19": "0x2E3266358674C8A54EaD81610C3C41033279E7Dd"
+        }
+      },
+      {
+        "name": "BalanceFuseErc4626Market13",
+        "versions": {
+          "2025-05-19": "0xa72f8391D7c9F1991769b76858b8Ac54cCEE92CF"
+        }
+      },
+      {
+        "name": "BalanceFuseErc4626Market14",
+        "versions": {
+          "2025-05-19": "0x1469e4f7C78805C48b550fC4F49e4e2995512ee8"
+        }
+      },
+      {
+        "name": "BalanceFuseErc4626Market15",
+        "versions": {
+          "2025-05-19": "0x5D4474A85b445671BD0d33Da944036D9522b9A9a"
+        }
+      },
+      {
         "name": "BalanceFuseErc4626Market2",
         "versions": {
           "2025-03-17": "0x933bfF1078fF1a0ca3b53dad00d7B1850aF8749b"
@@ -180,6 +222,30 @@
         "name": "BalanceFuseErc4626Market5",
         "versions": {
           "2025-04-04": "0x560c836581476a95B5adf65b1986fBa3cF7772f0"
+        }
+      },
+      {
+        "name": "BalanceFuseErc4626Market6",
+        "versions": {
+          "2025-05-19": "0x8c8f2A5250d440BDf6aC21B097BE04B07CCe78aF"
+        }
+      },
+      {
+        "name": "BalanceFuseErc4626Market7",
+        "versions": {
+          "2025-05-19": "0x32971e61678B0A77A07425F617F83C6D5aeCf8e7"
+        }
+      },
+      {
+        "name": "BalanceFuseErc4626Market8",
+        "versions": {
+          "2025-05-19": "0x10e2c21205c180654b8eEa5B75c3A51014CDb336"
+        }
+      },
+      {
+        "name": "BalanceFuseErc4626Market9",
+        "versions": {
+          "2025-05-19": "0x806B55F731b0Bf5d32D9d14785743589ea23fb94"
         }
       },
       {
@@ -387,6 +453,42 @@
         }
       },
       {
+        "name": "SupplyFuseErc4626Market10",
+        "versions": {
+          "2025-05-19": "0x01D4fa645F3B98Fc9D870Dd687dE3665F0D45CDf"
+        }
+      },
+      {
+        "name": "SupplyFuseErc4626Market11",
+        "versions": {
+          "2025-05-19": "0x6b9489369015233e049F548cE6C0deDcf17BFb90"
+        }
+      },
+      {
+        "name": "SupplyFuseErc4626Market12",
+        "versions": {
+          "2025-05-19": "0xf16119e669C1fB8264DFFD92EcB1AB592f73D8e3"
+        }
+      },
+      {
+        "name": "SupplyFuseErc4626Market13",
+        "versions": {
+          "2025-05-19": "0x970b4f5522685D4826eceb0377B3DdBF12836dFd"
+        }
+      },
+      {
+        "name": "SupplyFuseErc4626Market14",
+        "versions": {
+          "2025-05-19": "0xD6Fa88B765846615cE14d9a444e0cB350043b783"
+        }
+      },
+      {
+        "name": "SupplyFuseErc4626Market15",
+        "versions": {
+          "2025-05-19": "0x361Baf77C94f4504691d9f3C463f9950591C9434"
+        }
+      },
+      {
         "name": "SupplyFuseErc4626Market2",
         "versions": {
           "2025-03-17": "0x83Be46881AaeBA80B3d647e08a47301Db2e4E754"
@@ -408,6 +510,30 @@
         "name": "SupplyFuseErc4626Market5",
         "versions": {
           "2025-04-04": "0x59E58D1a800426dF9FDdDdbd248da0ACC4D38F89"
+        }
+      },
+      {
+        "name": "SupplyFuseErc4626Market6",
+        "versions": {
+          "2025-05-19": "0xf492E277D6D6E051f9871E66bADFd089fB7BF5E7"
+        }
+      },
+      {
+        "name": "SupplyFuseErc4626Market7",
+        "versions": {
+          "2025-05-19": "0x87E3b7C430368eb4684ef622baE0D4c8C0cd590B"
+        }
+      },
+      {
+        "name": "SupplyFuseErc4626Market8",
+        "versions": {
+          "2025-05-19": "0xbD8a194d188Bc27A050f271a923459cAB847CA9F"
+        }
+      },
+      {
+        "name": "SupplyFuseErc4626Market9",
+        "versions": {
+          "2025-05-19": "0x62679B25956d525703c810a6c13e2324312649e8"
         }
       },
       {
