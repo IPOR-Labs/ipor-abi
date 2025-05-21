@@ -1,0 +1,22 @@
+{
+  "BalanceFuseBurnRequestFee": "0xbc2907d76964510a4232878e7aC6E2B18c474EFb",
+  "BurnRequestFeeFuse": "0x79e8B115Bd41baee318c1940F42F1a2d94D29ab4",
+  "IporDaoAccount": "0xF6a9bd8F6DC537675D499Ac1CA14f2c55d8b5569",
+  "IporFusionAccessManager_USDC_Autopilot_USDC": "0xDcf1EC5bfCA5C16D7b656B3af2481B4234Dd2E46",
+  "IporFusionFeeManagerFactory": "0x587a7AE8220f61fc72966AA0e0EdC69135B76AeF",
+  "IporProtocolDeployer": "0xf2C6a2225BE9829eD77263b032E3D92C52aE6694",
+  "PlasmaVaultAlpha_USDC_Autopilot_USDC": "0x0000000000000000000000000000000000000000",
+  "PlasmaVaultAtomist_USDC_Autopilot_USDC": "0xC4C3065Bf62A11edF8A6B5252f550adEC82Dd38F",
+  "PlasmaVaultBase": "0x9781413baff29DB7bEbdc52c475c780591C7B37b",
+  "PlasmaVaultContextManager_USDC_Autopilot_USDC": "0x695d748AbA7c7946bCF3A4cdda607ECAd268dE3a",
+  "PlasmaVaultFeeManager_USDC_Autopilot_USDC": "0x0D7ed497B05a983b823aD7F412D39D63A4aA8058",
+  "PlasmaVaultOwner_USDC_Autopilot_USDC": "0xF066789028fE31D4f53B69B81b328B8218Cc0641",
+  "PlasmaVaultPriceManager_USDC_Autopilot_USDC": "0xC3eB0c3F691F3fD2FC3aB6AE03B68C7c888d5787",
+  "PlasmaVaultRewardsClaimManager_USDC_Autopilot_USDC": "0x11cbc30008dDE93DB992AC0190848852d310367F",
+  "PlasmaVaultWithdrawManager_USDC_Autopilot_USDC": "0x5B7aeCDC033968ccBf74f529f7DE39DF727b5C81",
+  "PlasmaVault_USDC_Autopilot_USDC": "0x3151cEE0cdb517C0E7Db2B55FF5085e7D1809d90",
+  "PriceOracleMiddlewareUsdWithRolesImpl": "0xEBA87A0b152b4B672Ad048d3f446810a89F9317C",
+  "PriceOracleMiddlewareUsdWithRolesProxy": "0xC9F32d65a278b012371858fD3cdE315B12d664c6",
+  "PriceOracleMiddlewareWithRolesOwner": "0xF6a9bd8F6DC537675D499Ac1CA14f2c55d8b5569",
+  "USDC": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+}
