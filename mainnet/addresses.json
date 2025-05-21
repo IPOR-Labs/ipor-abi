@@ -113,6 +113,12 @@
         "token": "USDC",
         "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "PlasmaVault": "0x43a32D4f6c582f281c52393f8F9E5AcE1D4A1E68"
+      },
+      {
+        "name": "Autopilot USDC Ethereum",
+        "token": "USDC",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0x3151cEE0cdb517C0E7Db2B55FF5085e7D1809d90"
       }
     ],
     "fuses": [
