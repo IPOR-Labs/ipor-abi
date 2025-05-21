@@ -1355,7 +1355,7 @@
         "name": "IPOR WstETH Base",
         "token": "wstETH",
         "asset": "0xc1CBa3fCea344f92D9239c08C0568f6F2F0ee452",
-        "PlasmaVault": "0xFe8b23B493579e5c3a0A3BC5BBF20662B3072DE6"
+        "PlasmaVault": "0xC4C00d8b323f37527eEda27c87412378be9F68Ec"
       },
       {
         "name": "Xerberus Evergreen",
