@@ -1361,7 +1361,7 @@
         "name": "Xerberus Evergreen",
         "token": "WETH",
         "asset": "0x4200000000000000000000000000000000000006",
-        "PlasmaVault": "0xD7412A93Db3D39AA7Ab9C30c471f069A3F059aD5"
+        "PlasmaVault": "0xE2996FE2D49b41e37B5c01dF32CDfC125329e5D0"
       },
       {
         "name": "Tanken WETH Base",
