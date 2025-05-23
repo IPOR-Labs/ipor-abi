@@ -119,6 +119,12 @@
         "token": "USDC",
         "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "PlasmaVault": "0x3151cEE0cdb517C0E7Db2B55FF5085e7D1809d90"
+      },
+      {
+        "name": "BC_vault_one",
+        "token": "WETH",
+        "asset": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "PlasmaVault": "0x64d47d8516034857C6fc040ecd405e03643a464F"
       }
     ],
     "fuses": [

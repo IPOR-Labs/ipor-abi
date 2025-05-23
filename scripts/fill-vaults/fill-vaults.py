@@ -34,7 +34,8 @@ PLASMA_FIELDS = [
     'PlasmaVault_sUSDf_iFALC',
     'PlasmaVaultWstETH',
     'PlasmaVaultUsdcTAUBOND',
-    'PlasmaVault_USDC_Autopilot_USDC'
+    'PlasmaVault_USDC_Autopilot_USDC',
+    'PlasmaVault_wETH_BCV1'
 ]
 
 load_dotenv()
