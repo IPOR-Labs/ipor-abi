@@ -2056,7 +2056,7 @@
     ],
     "outputs": [
       {
-        "name": "",
+        "name": "assetsToWithdraw",
         "type": "uint256",
         "internalType": "uint256"
       }
@@ -3037,6 +3037,11 @@
         "internalType": "uint256"
       }
     ]
+  },
+  {
+    "type": "error",
+    "name": "WithdrawManagerNotSet",
+    "inputs": []
   },
   {
     "type": "error",

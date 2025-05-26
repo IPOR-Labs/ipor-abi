@@ -151,6 +151,45 @@
   },
   {
     "type": "function",
+    "name": "calculateAndUpdatePerformanceFee",
+    "inputs": [
+      {
+        "name": "actualExchangeRate_",
+        "type": "uint128",
+        "internalType": "uint128"
+      },
+      {
+        "name": "totalSupply_",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "performanceFee_",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "assetDecimals_",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "recipient",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "feeShares",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
     "name": "clearContext",
     "inputs": [],
     "outputs": [],
@@ -213,6 +252,36 @@
             "name": "feeValue",
             "type": "uint256",
             "internalType": "uint256"
+          }
+        ]
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "getPlasmaVaultHighWaterMarkPerformanceFee",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "tuple",
+        "internalType": "struct HighWaterMarkPerformanceFeeStorage",
+        "components": [
+          {
+            "name": "highWaterMark",
+            "type": "uint128",
+            "internalType": "uint128"
+          },
+          {
+            "name": "lastUpdate",
+            "type": "uint32",
+            "internalType": "uint32"
+          },
+          {
+            "name": "updateInterval",
+            "type": "uint32",
+            "internalType": "uint32"
           }
         ]
       }
@@ -320,6 +389,26 @@
         "name": "sender_",
         "type": "address",
         "internalType": "address"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "updateHighWaterMarkPerformanceFee",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "updateIntervalHighWaterMarkPerformanceFee",
+    "inputs": [
+      {
+        "name": "updateInterval_",
+        "type": "uint32",
+        "internalType": "uint32"
       }
     ],
     "outputs": [],
@@ -448,6 +537,32 @@
         "type": "uint256",
         "indexed": false,
         "internalType": "uint256"
+      }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "HighWaterMarkPerformanceFeeUpdateIntervalUpdated",
+    "inputs": [
+      {
+        "name": "updateInterval",
+        "type": "uint32",
+        "indexed": false,
+        "internalType": "uint32"
+      }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "HighWaterMarkPerformanceFeeUpdated",
+    "inputs": [
+      {
+        "name": "highWaterMark",
+        "type": "uint128",
+        "indexed": false,
+        "internalType": "uint128"
       }
     ],
     "anonymous": false
@@ -593,6 +708,11 @@
   },
   {
     "type": "error",
+    "name": "InvalidHighWaterMark",
+    "inputs": []
+  },
+  {
+    "type": "error",
     "name": "InvalidInitialization",
     "inputs": []
   },
@@ -610,6 +730,27 @@
     "type": "error",
     "name": "NotInitializing",
     "inputs": []
+  },
+  {
+    "type": "error",
+    "name": "NotPlasmaVault",
+    "inputs": []
+  },
+  {
+    "type": "error",
+    "name": "SafeCastOverflowedUintDowncast",
+    "inputs": [
+      {
+        "name": "bits",
+        "type": "uint8",
+        "internalType": "uint8"
+      },
+      {
+        "name": "value",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ]
   },
   {
     "type": "error",
