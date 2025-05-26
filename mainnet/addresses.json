@@ -70,7 +70,7 @@
         "name": "Vault TAU Core",
         "token": "USDC",
         "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-        "PlasmaVault": "0x9dC2819B49C3d39b11a5F4C8c0c17BD7e18126D9"
+        "PlasmaVault": "0x707d816272ED15174c72F92ECCc4149D1dcB7a80"
       },
       {
         "name": "Tesseract Managed BTC",
@@ -82,7 +82,7 @@
         "name": "Leveraged Falcon USDC Core",
         "token": "USDC",
         "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-        "PlasmaVault": "0x5904DA6C07A15884ff9C480F240Bc57fE9032eB2"
+        "PlasmaVault": "0xB4790CfDF1DF71c2E4ac2F5c43dBCb975AD447ae"
       },
       {
         "name": "TAU Rserevoir Pointsmax",
@@ -125,6 +125,18 @@
         "token": "WETH",
         "asset": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
         "PlasmaVault": "0x64d47d8516034857C6fc040ecd405e03643a464F"
+      },
+      {
+        "name": "BTC Valos",
+        "token": "WBTC",
+        "asset": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+        "PlasmaVault": "0xfFB090Cb1829C5977fBd070ceBFf7425c76B0472"
+      },
+      {
+        "name": "F1 Champion Principle Protected Note",
+        "token": "USDC",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0xC1926C01ED88E93F5C266F3B43AF57c1f6E63b5D"
       }
     ],
     "fuses": [
@@ -1386,6 +1398,12 @@
         "token": "USDC",
         "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
         "PlasmaVault": "0x09f77a2552b83E157Cd5d49867b5D580B50588ea"
+      },
+      {
+        "name": "Xerberus BASE 10 - Risk Weighted",
+        "token": "USDC",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0xa51787E262E53220bbEef297613ee28a9C011937"
       }
     ],
     "fuses": [
