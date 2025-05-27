@@ -333,6 +333,12 @@
         }
       },
       {
+        "name": "BorrowFuseAaveV3",
+        "versions": {
+          "2025-05-27": "0x820D879Ef89356B93A7c71ADDBf45c40a0dDE453"
+        }
+      },
+      {
         "name": "BorrowFuseAaveV3Lido",
         "versions": {
           "2025-03-10": "0xF020b954e02D8B8419cF5625D4371F16a678d884"
