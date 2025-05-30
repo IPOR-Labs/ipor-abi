@@ -39,6 +39,7 @@ PLASMA_FIELDS = [
     'PlasmaVault_USDC_BASEX',
     'PlasmaVault_wBTC_vBTC',
     'PlasmaVault_USDC_F1_PP_NOTE'
+    'PlasmaVault_USDC_PILOT_V1'
 ]
 
 load_dotenv()
@@ -46,7 +47,8 @@ load_dotenv()
 RPC_URLS = {
     "ethereum": os.getenv("ETHEREUM_RPC_URL", "https://eth.llamarpc.com"),
     "arbitrum": os.getenv("ARBITRUM_RPC_URL", "https://arb1.arbitrum.io/rpc"),
-    "base": os.getenv("BASE_RPC_URL", "https://mainnet.base.org")
+    "base": os.getenv("BASE_RPC_URL", "https://mainnet.base.org"),
+    "unichain": os.getenv("UNICHAIN_RPC_URL", "https://mainnet.unichain.org")
 }
 
 VAULT_ABI = [
@@ -149,7 +151,8 @@ def update_addresses_json(plasma_vaults_file, addresses_file):
             addresses = {
                 "ethereum": {"vaults": []},
                 "arbitrum": {"vaults": []},
-                "base": {"vaults": []}
+                "base": {"vaults": []},
+                "unichain": {"vaults": []}
             }
 
         web3_connections = {
@@ -165,6 +168,8 @@ def update_addresses_json(plasma_vaults_file, addresses_file):
                 chain = "arbitrum"
             elif "base" in file_path:
                 chain = "base"
+            elif "unichain" in file_path:
+                chain = "unichain"
 
             if not chain:
                 continue

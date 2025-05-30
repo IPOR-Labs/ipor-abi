@@ -806,6 +806,18 @@
               "0xc8CF6D7991f15525488b2A83Df53468D682Ba4B0": {
                 "symbol": "sUSDf",
                 "source": "0xdbFFc30F3b95B8CA5BaB3e6C139076feA47f89b3"
+              },
+              "0x9F56094C450763769BA0EA9Fe2876070c0fD5F77": {
+                "symbol": "PT-sUSDE-25SEP2025",
+                "source": "0x2dA0Bbff13Af521f21b092B9161b92e3172373e4"
+              },
+              "0x207F7205fd6c4b602Fa792C8b2B60e6006D4a0b8": {
+                "symbol": "PT-lvlUSD-25SEP2025",
+                "source": "0x3Cb11512948D476E8930964D7Ed08bC155f101E2"
+              },
+              "0xFfEc096c087C13Cc268497B89A613cACE4DF9A48": {
+                "symbol": "PT-USDS-14AUG2025",
+                "source": "0xc5B457325e6bEE5E32FCd00dCFCcf657e1f30B4C"
               }
             }
           }
@@ -2042,11 +2054,58 @@
               "0xB6fe221Fe9EeF5aBa221c348bA20A1Bf5e73624c": {
                 "symbol": "rETH",
                 "source": "0xd7b19766A839b8A7BCB4E98310Be87B78D1046bA"
+              },
+              "0x88Fb150BDc53A65fe94Dea0c9BA0a6dAf8C6e196": {
+                "symbol": "LINK",
+                "source": "0x17CAb8FE31E32f08326e5E27412894e49B0f9D65"
+              },
+              "0x0b3e328455c4059EEb9e3f84b5543F74E24e7E1b": {
+                "symbol": "VIRTUAL",
+                "source": "0xEaf310161c9eF7c813A14f8FEF6Fb271434019F7"
+              },
+              "0x940181a94A35A4569E4529A3CDfB74e38FD98631": {
+                "symbol": "AERO",
+                "source": "0x4EC5970fC728C5f65ba413992CD5fF6FD70fcfF0"
+              },
+              "0xBAa5CC21fd487B8Fcc2F632f3F4E8D37262a0842": {
+                "symbol": "MORPHO",
+                "source": "0xe95e258bb6615d47515Fc849f8542dA651f12bF6"
+              },
+              "0x6985884C4392D348587B19cb9eAAf157F13271cd": {
+                "symbol": "ZRO",
+                "source": "0xdc31a4CCfCA039BeC6222e20BE7770E12581bfEB"
               }
             }
           },
           "2025-03-25_002": {
             "address": "0x6d908194a5a1005C374203Fc1baF396c7dbC8E99"
+          }
+        }
+      }
+    ]
+  },
+  "unichain": {
+    "fuses": [
+      {
+        "name": "BalanceFuseBurnRequestFee",
+        "versions": {
+          "2025-05-30": "0x81E91F9c1aD45E9DAD18A78732ad290b4A5e890b"
+        }
+      },
+      {
+        "name": "BurnRequestFeeFuse",
+        "versions": {
+          "2025-05-30": "0xa7C6120a16B6b5201a7e33FF4ee13C798c838FC8"
+        }
+      }
+    ],
+    "prehooks": [],
+    "price_oracles": [
+      {
+        "name": "PriceOracleMiddlewareUsdWithRolesProxy",
+        "versions": {
+          "2025-05-30_001": {
+            "address": "0x272978Db64B8B37B0832586c0BFEBe1BE66AA93d"
           }
         }
       }
