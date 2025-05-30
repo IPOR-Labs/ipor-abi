@@ -38,7 +38,8 @@ PLASMA_FIELDS = [
     'PlasmaVault_wETH_BCV1',
     'PlasmaVault_USDC_BASEX',
     'PlasmaVault_wBTC_vBTC',
-    'PlasmaVault_USDC_F1_PP_NOTE'
+    'PlasmaVault_USDC_F1_PP_NOTE',
+    'PlasmaVault_stETH_ipstETHfusion'
 ]
 
 load_dotenv()
