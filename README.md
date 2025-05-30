@@ -6,7 +6,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Fuses List
 
-*Last updated: 2025-05-27 10:48:12 UTC*
+*Last updated: 2025-05-30 09:55:27 UTC*
 
 ### Ethereum Fuses
 
@@ -251,7 +251,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## PreHooks List
 
-*Last updated: 2025-05-27 10:48:13 UTC*
+*Last updated: 2025-05-30 09:55:28 UTC*
 
 ### Ethereum PreHooks
 
@@ -281,7 +281,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Price Oracles List
 
-*Last updated: 2025-05-27 10:48:35 UTC*
+*Last updated: 2025-05-30 09:55:47 UTC*
 
 ### Ethereum Price Oracles
 
@@ -344,6 +344,9 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | **PT-wstUSR-25SEP2025** `0x23E60d1488525bf4685f53b3aa8E676c30321066` | `0xeA6F7F4eceFC73B13345Ede73772D7f884D637ff` [View](https://etherscan.io/address/0xeA6F7F4eceFC73B13345Ede73772D7f884D637ff) |
 | **PT-cUSDO-19JUN2025** `0x933B9FfEE0Ad3Ef8E4DBb52688ea905826D73755` | `0xbE7E88B52C79C6B0e507d43D9b6Ad6992187779c` [View](https://etherscan.io/address/0xbE7E88B52C79C6B0e507d43D9b6Ad6992187779c) |
 | **sUSDf** `0xc8CF6D7991f15525488b2A83Df53468D682Ba4B0` | `0xdbFFc30F3b95B8CA5BaB3e6C139076feA47f89b3` [View](https://etherscan.io/address/0xdbFFc30F3b95B8CA5BaB3e6C139076feA47f89b3) |
+| **PT-sUSDE-25SEP2025** `0x9F56094C450763769BA0EA9Fe2876070c0fD5F77` | `0x2dA0Bbff13Af521f21b092B9161b92e3172373e4` [View](https://etherscan.io/address/0x2dA0Bbff13Af521f21b092B9161b92e3172373e4) |
+| **PT-lvlUSD-25SEP2025** `0x207F7205fd6c4b602Fa792C8b2B60e6006D4a0b8` | `0x3Cb11512948D476E8930964D7Ed08bC155f101E2` [View](https://etherscan.io/address/0x3Cb11512948D476E8930964D7Ed08bC155f101E2) |
+| **PT-USDS-14AUG2025** `0xFfEc096c087C13Cc268497B89A613cACE4DF9A48` | `0xc5B457325e6bEE5E32FCd00dCFCcf657e1f30B4C` [View](https://etherscan.io/address/0xc5B457325e6bEE5E32FCd00dCFCcf657e1f30B4C) |
 
 
 ### Arbitrum Price Oracles
@@ -450,3 +453,8 @@ No price feeds found for this version.
 | **wrsETH** `0xEDfa23602D0EC14714057867A78d01e94176BEA0` | `0xF1eBda1bAC6F51b50669D1930EaeFa8E7883214d` [View](https://basescan.org/address/0xF1eBda1bAC6F51b50669D1930EaeFa8E7883214d) |
 | **weETH** `0x04C0599Ae5A44757c0af6F9eC3b93da8976c150A` | `0x0Cad80485AFaf04b87e435E46dEcc5F36B5ba23F` [View](https://basescan.org/address/0x0Cad80485AFaf04b87e435E46dEcc5F36B5ba23F) |
 | **rETH** `0xB6fe221Fe9EeF5aBa221c348bA20A1Bf5e73624c` | `0xd7b19766A839b8A7BCB4E98310Be87B78D1046bA` [View](https://basescan.org/address/0xd7b19766A839b8A7BCB4E98310Be87B78D1046bA) |
+| **LINK** `0x88Fb150BDc53A65fe94Dea0c9BA0a6dAf8C6e196` | `0x17CAb8FE31E32f08326e5E27412894e49B0f9D65` [View](https://basescan.org/address/0x17CAb8FE31E32f08326e5E27412894e49B0f9D65) |
+| **VIRTUAL** `0x0b3e328455c4059EEb9e3f84b5543F74E24e7E1b` | `0xEaf310161c9eF7c813A14f8FEF6Fb271434019F7` [View](https://basescan.org/address/0xEaf310161c9eF7c813A14f8FEF6Fb271434019F7) |
+| **AERO** `0x940181a94A35A4569E4529A3CDfB74e38FD98631` | `0x4EC5970fC728C5f65ba413992CD5fF6FD70fcfF0` [View](https://basescan.org/address/0x4EC5970fC728C5f65ba413992CD5fF6FD70fcfF0) |
+| **MORPHO** `0xBAa5CC21fd487B8Fcc2F632f3F4E8D37262a0842` | `0xe95e258bb6615d47515Fc849f8542dA651f12bF6` [View](https://basescan.org/address/0xe95e258bb6615d47515Fc849f8542dA651f12bF6) |
+| **ZRO** `0x6985884C4392D348587B19cb9eAAf157F13271cd` | `0xdc31a4CCfCA039BeC6222e20BE7770E12581bfEB` [View](https://basescan.org/address/0xdc31a4CCfCA039BeC6222e20BE7770E12581bfEB) |
