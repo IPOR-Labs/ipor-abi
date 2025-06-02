@@ -2131,5 +2131,32 @@
         }
       }
     ]
+  },
+  "unichain": {
+    "fuses": [
+      {
+        "name": "BalanceFuseBurnRequestFee",
+        "versions": {
+          "2025-05-30": "0x81E91F9c1aD45E9DAD18A78732ad290b4A5e890b"
+        }
+      },
+      {
+        "name": "BurnRequestFeeFuse",
+        "versions": {
+          "2025-05-30": "0xa7C6120a16B6b5201a7e33FF4ee13C798c838FC8"
+        }
+      }
+    ],
+    "prehooks": [],
+    "price_oracles": [
+      {
+        "name": "PriceOracleMiddlewareUsdWithRolesProxy",
+        "versions": {
+          "2025-05-30_001": {
+            "address": "0x272978Db64B8B37B0832586c0BFEBe1BE66AA93d"
+          }
+        }
+      }
+    ]
   }
 }

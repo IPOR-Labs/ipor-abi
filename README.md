@@ -6,7 +6,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Fuses List
 
-*Last updated: 2025-05-30 09:55:27 UTC*
+*Last updated: 2025-05-30 15:06:50 UTC*
 
 ### Ethereum Fuses
 
@@ -257,9 +257,16 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `BorrowFuseMoonwell` | `0x8f6951795193C5AE825397ba35e940C5586e7b7D` [View](https://basescan.org/address/0x8f6951795193C5AE825397ba35e940C5586e7b7D#code) |
 | `SwapFuseUniversalTokenSwapper` | `0x4d9cbA074b00249D0a7d390Ff8f038dE3Ae23317` [View](https://basescan.org/address/0x4d9cbA074b00249D0a7d390Ff8f038dE3Ae23317#code) |
 
+### Unichain Fuses
+
+| Fuse Name | Address / View in Explorer |
+|-----------|---------------------------|
+| `BalanceFuseBurnRequestFee` | `0x81E91F9c1aD45E9DAD18A78732ad290b4A5e890b` [View](https://uniscan.xyz/address/0x81E91F9c1aD45E9DAD18A78732ad290b4A5e890b#code) |
+| `BurnRequestFeeFuse` | `0xa7C6120a16B6b5201a7e33FF4ee13C798c838FC8` [View](https://uniscan.xyz/address/0xa7C6120a16B6b5201a7e33FF4ee13C798c838FC8#code) |
+
 ## PreHooks List
 
-*Last updated: 2025-05-30 09:55:28 UTC*
+*Last updated: 2025-05-30 15:06:51 UTC*
 
 ### Ethereum PreHooks
 
@@ -289,7 +296,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Price Oracles List
 
-*Last updated: 2025-05-30 09:55:47 UTC*
+*Last updated: 2025-05-30 15:07:14 UTC*
 
 ### Ethereum Price Oracles
 
@@ -466,3 +473,16 @@ No price feeds found for this version.
 | **AERO** `0x940181a94A35A4569E4529A3CDfB74e38FD98631` | `0x4EC5970fC728C5f65ba413992CD5fF6FD70fcfF0` [View](https://basescan.org/address/0x4EC5970fC728C5f65ba413992CD5fF6FD70fcfF0) |
 | **MORPHO** `0xBAa5CC21fd487B8Fcc2F632f3F4E8D37262a0842` | `0xe95e258bb6615d47515Fc849f8542dA651f12bF6` [View](https://basescan.org/address/0xe95e258bb6615d47515Fc849f8542dA651f12bF6) |
 | **ZRO** `0x6985884C4392D348587B19cb9eAAf157F13271cd` | `0xdc31a4CCfCA039BeC6222e20BE7770E12581bfEB` [View](https://basescan.org/address/0xdc31a4CCfCA039BeC6222e20BE7770E12581bfEB) |
+
+
+### Unichain Price Oracles
+
+| Price Oracle Name | Address / View in Explorer |
+|-----------|---------------------------|
+| `PriceOracleMiddlewareUsdWithRolesProxy` | `0x272978Db64B8B37B0832586c0BFEBe1BE66AA93d` [View](https://uniscan.xyz/address/0x272978Db64B8B37B0832586c0BFEBe1BE66AA93d#code) |
+
+#### Price Feeds for `PriceOracleMiddlewareUsdWithRolesProxy`
+
+##### Version 2025-05-30 - `0x272978Db64B8B37B0832586c0BFEBe1BE66AA93d` [View](https://uniscan.xyz/address/0x272978Db64B8B37B0832586c0BFEBe1BE66AA93d#code)
+
+No price feeds found for this version.
