@@ -6,7 +6,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Fuses List
 
-*Last updated: 2025-05-30 15:06:50 UTC*
+*Last updated: 2025-06-02 14:23:04 UTC*
 
 ### Ethereum Fuses
 
@@ -39,6 +39,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `BalanceFuseFluidInstadappStakingRewardsFToken` | `0xE9d0e294A0524962c43eEDFA935F1E8112A16AbA` [View](https://etherscan.io/address/0xE9d0e294A0524962c43eEDFA935F1E8112A16AbA#code) |
 | `BalanceFuseGearboxV3DToken` | `0xE1FD88a76e95dd735c6dda45b2ABA9E5fFA9a7F3` [View](https://etherscan.io/address/0xE1FD88a76e95dd735c6dda45b2ABA9E5fFA9a7F3#code) |
 | `BalanceFuseGearboxV3FarmDToken` | `0xE88982097ECdF1dcFC4D500e3392Ee0eb70B45f2` [View](https://etherscan.io/address/0xE88982097ECdF1dcFC4D500e3392Ee0eb70B45f2#code) |
+| `BalanceFuseHarvestDoHardWork` | `0x759ddf11E56d2915fE10Ea8C4Dbfc44A8D048E6E` [View](https://etherscan.io/address/0x759ddf11E56d2915fE10Ea8C4Dbfc44A8D048E6E#code) |
 | `BalanceFuseMetaMorphoMarket0001` | `0xCb6BB5ab51cDc6EFB3B81C84f252Cfe6bFbA6566` [View](https://etherscan.io/address/0xCb6BB5ab51cDc6EFB3B81C84f252Cfe6bFbA6566#code) |
 | `BalanceFuseMorpho` | `0x0aD1776B9319a03216A44AbA0242cC0Bc7e3CaC3` [View](https://etherscan.io/address/0x0aD1776B9319a03216A44AbA0242cC0Bc7e3CaC3#code) |
 | `BalanceFusePendle` | `0x48bD852d83f6e58Af59255aBc708e3ddeCB1d1E6` [View](https://etherscan.io/address/0x48bD852d83f6e58Af59255aBc708e3ddeCB1d1E6#code) |
@@ -58,6 +59,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `CollateralFuseMorpho` | `0xE1aA89eb42C23f292cDa1544566F6EBeE3a67EED` [View](https://etherscan.io/address/0xE1aA89eb42C23f292cDa1544566F6EBeE3a67EED#code) |
 | `ControllerFuseEulerV2` | `0x4DcA6Fd6f153EE18602ac77B4396070476ec6c25` [View](https://etherscan.io/address/0x4DcA6Fd6f153EE18602ac77B4396070476ec6c25#code) |
 | `FlashloanFuseMorpho` | `0x9185033e24dB36407b9b1A1886Cb47B9533433DE` [View](https://etherscan.io/address/0x9185033e24dB36407b9b1A1886Cb47B9533433DE#code) |
+| `FuseHarvestDoHardWork` | `0xDA45fe8099358bba400554c9b640170246B43e50` [View](https://etherscan.io/address/0xDA45fe8099358bba400554c9b640170246B43e50#code) |
 | `FusePendleRedeemPtAfterMaturity` | `0x40430a509188b71BdA9a0c06b132e978Ea2015BE` [View](https://etherscan.io/address/0x40430a509188b71BdA9a0c06b132e978Ea2015BE#code) |
 | `FusePendleSwapPt` | `0xEEA3812B60ca4c6D0e2672a865bf7217eCd49f95` [View](https://etherscan.io/address/0xEEA3812B60ca4c6D0e2672a865bf7217eCd49f95#code) |
 | `FuseRedeemFromRequestPlasmaVaultMarket1` | `0x906Af6A42079AdAF1aBD92F924a5d4263653AF0d` [View](https://etherscan.io/address/0x906Af6A42079AdAF1aBD92F924a5d4263653AF0d#code) |
@@ -266,7 +268,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## PreHooks List
 
-*Last updated: 2025-05-30 15:06:51 UTC*
+*Last updated: 2025-06-02 14:23:05 UTC*
 
 ### Ethereum PreHooks
 
@@ -296,7 +298,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Price Oracles List
 
-*Last updated: 2025-05-30 15:07:14 UTC*
+*Last updated: 2025-06-02 14:23:31 UTC*
 
 ### Ethereum Price Oracles
 
