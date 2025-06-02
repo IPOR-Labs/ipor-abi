@@ -94,7 +94,7 @@
         "name": "IPOR stETH Ethereum",
         "token": "stETH",
         "asset": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
-        "PlasmaVault": "0x3a58d6d52d68460CbbDA93dd858F4353878EF697"
+        "PlasmaVault": "0x0552E28123A19FF2853D1ED3BE75Ef1329BB6ca8"
       },
       {
         "name": "IPOR weETH Ethereum",
