@@ -806,6 +806,18 @@
               "0xc8CF6D7991f15525488b2A83Df53468D682Ba4B0": {
                 "symbol": "sUSDf",
                 "source": "0xdbFFc30F3b95B8CA5BaB3e6C139076feA47f89b3"
+              },
+              "0x9F56094C450763769BA0EA9Fe2876070c0fD5F77": {
+                "symbol": "PT-sUSDE-25SEP2025",
+                "source": "0x2dA0Bbff13Af521f21b092B9161b92e3172373e4"
+              },
+              "0x207F7205fd6c4b602Fa792C8b2B60e6006D4a0b8": {
+                "symbol": "PT-lvlUSD-25SEP2025",
+                "source": "0x3Cb11512948D476E8930964D7Ed08bC155f101E2"
+              },
+              "0xFfEc096c087C13Cc268497B89A613cACE4DF9A48": {
+                "symbol": "PT-USDS-14AUG2025",
+                "source": "0xc5B457325e6bEE5E32FCd00dCFCcf657e1f30B4C"
               }
             }
           }
@@ -955,6 +967,12 @@
         }
       },
       {
+        "name": "BalanceFuseEulerV2",
+        "versions": {
+          "2025-05-29": "0x654Ee0c6d477A4ddFE62f600Ed52134593c1733c"
+        }
+      },
+      {
         "name": "BalanceFuseFluidInstadappPoolFToken",
         "versions": {
           "2024-09-03": "0xdb26Af00177bFAE4439eB881b7742EF47EddfAF6"
@@ -1021,6 +1039,12 @@
         }
       },
       {
+        "name": "BorrowFuseEulerV2",
+        "versions": {
+          "2025-05-29": "0xe436decF5a8D7004338833555ee3970B24a9f47F"
+        }
+      },
+      {
         "name": "BurnRequestFeeFuse",
         "versions": {
           "2025-02-26": "0x292711bC63184318294593C38Ad914AcfCd1797B",
@@ -1052,6 +1076,12 @@
         }
       },
       {
+        "name": "CollateralFuseEulerV2",
+        "versions": {
+          "2025-05-29": "0x4567EE5D7D531f2e09DA915d95c8c7bb0c2b1459"
+        }
+      },
+      {
         "name": "CollectSwapFuseRamsesV2",
         "versions": {
           "2024-10-08": "0x859F5c9D5CB2800A9Ff72C56d79323EA01cB30b9"
@@ -1061,6 +1091,12 @@
         "name": "CollectSwapFuseUniswapV3",
         "versions": {
           "2024-09-11": "0x75781AB6CdcE9c505DbD0848f4Ad8A97c68F53c1"
+        }
+      },
+      {
+        "name": "ControllerFuseEulerV2",
+        "versions": {
+          "2025-05-29": "0xc27E938FCA53E3f5fE5deb9141033573048a22B4"
         }
       },
       {
@@ -1163,6 +1199,12 @@
         "name": "SupplyFuseErc4626Market7",
         "versions": {
           "2025-02-26": "0x624E2AB4E17aA38B078674eec75dbadcc10e295B"
+        }
+      },
+      {
+        "name": "SupplyFuseEulerV2",
+        "versions": {
+          "2025-05-29": "0x371718ca5cf78A2C8fD2f44Ec2CE88363481B2D3"
         }
       },
       {
@@ -1601,6 +1643,12 @@
         }
       },
       {
+        "name": "BorrowFuseEulerV2",
+        "versions": {
+          "2025-05-29": "0xFd5Ba41a7Ce38BC901308547dFCBAded2B682B11"
+        }
+      },
+      {
         "name": "BorrowFuseMoonwell",
         "versions": {
           "2024-11-18": "0x8f6951795193C5AE825397ba35e940C5586e7b7D",
@@ -1650,6 +1698,12 @@
         }
       },
       {
+        "name": "CollateralFuseEulerV2",
+        "versions": {
+          "2025-05-29": "0xF569a44710DEb64c8Dc9751D8595bb90962f7a67"
+        }
+      },
+      {
         "name": "CollateralFuseMorpho",
         "versions": {
           "2024-10-29": "0xDE3FD3A25534471e92C5940d418B0582802b17B6"
@@ -1659,6 +1713,12 @@
         "name": "CollectSwapFuseUniswapV3",
         "versions": {
           "2024-10-29": "0xf13D892786aE580D1B300d378a654553c2F226De"
+        }
+      },
+      {
+        "name": "ControllerFuseEulerV2",
+        "versions": {
+          "2025-05-29": "0x0F86A5ECa11A0a2539Cc24eC27826C65Cc0094eD"
         }
       },
       {
@@ -2042,6 +2102,26 @@
               "0xB6fe221Fe9EeF5aBa221c348bA20A1Bf5e73624c": {
                 "symbol": "rETH",
                 "source": "0xd7b19766A839b8A7BCB4E98310Be87B78D1046bA"
+              },
+              "0x88Fb150BDc53A65fe94Dea0c9BA0a6dAf8C6e196": {
+                "symbol": "LINK",
+                "source": "0x17CAb8FE31E32f08326e5E27412894e49B0f9D65"
+              },
+              "0x0b3e328455c4059EEb9e3f84b5543F74E24e7E1b": {
+                "symbol": "VIRTUAL",
+                "source": "0xEaf310161c9eF7c813A14f8FEF6Fb271434019F7"
+              },
+              "0x940181a94A35A4569E4529A3CDfB74e38FD98631": {
+                "symbol": "AERO",
+                "source": "0x4EC5970fC728C5f65ba413992CD5fF6FD70fcfF0"
+              },
+              "0xBAa5CC21fd487B8Fcc2F632f3F4E8D37262a0842": {
+                "symbol": "MORPHO",
+                "source": "0xe95e258bb6615d47515Fc849f8542dA651f12bF6"
+              },
+              "0x6985884C4392D348587B19cb9eAAf157F13271cd": {
+                "symbol": "ZRO",
+                "source": "0xdc31a4CCfCA039BeC6222e20BE7770E12581bfEB"
               }
             }
           },
