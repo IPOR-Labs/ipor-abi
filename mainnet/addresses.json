@@ -303,6 +303,12 @@
         }
       },
       {
+        "name": "BalanceFuseHarvestDoHardWork",
+        "versions": {
+          "2025-06-02": "0x759ddf11E56d2915fE10Ea8C4Dbfc44A8D048E6E"
+        }
+      },
+      {
         "name": "BalanceFuseMetaMorphoMarket0001",
         "versions": {
           "2024-12-12": "0xCb6BB5ab51cDc6EFB3B81C84f252Cfe6bFbA6566"
@@ -414,6 +420,12 @@
         "name": "FlashloanFuseMorpho",
         "versions": {
           "2025-01-16": "0x9185033e24dB36407b9b1A1886Cb47B9533433DE"
+        }
+      },
+      {
+        "name": "FuseHarvestDoHardWork",
+        "versions": {
+          "2025-06-02": "0xDA45fe8099358bba400554c9b640170246B43e50"
         }
       },
       {
