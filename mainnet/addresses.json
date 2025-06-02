@@ -967,6 +967,12 @@
         }
       },
       {
+        "name": "BalanceFuseEulerV2",
+        "versions": {
+          "2025-05-29": "0x654Ee0c6d477A4ddFE62f600Ed52134593c1733c"
+        }
+      },
+      {
         "name": "BalanceFuseFluidInstadappPoolFToken",
         "versions": {
           "2024-09-03": "0xdb26Af00177bFAE4439eB881b7742EF47EddfAF6"
@@ -1033,6 +1039,12 @@
         }
       },
       {
+        "name": "BorrowFuseEulerV2",
+        "versions": {
+          "2025-05-29": "0xe436decF5a8D7004338833555ee3970B24a9f47F"
+        }
+      },
+      {
         "name": "BurnRequestFeeFuse",
         "versions": {
           "2025-02-26": "0x292711bC63184318294593C38Ad914AcfCd1797B",
@@ -1064,6 +1076,12 @@
         }
       },
       {
+        "name": "CollateralFuseEulerV2",
+        "versions": {
+          "2025-05-29": "0x4567EE5D7D531f2e09DA915d95c8c7bb0c2b1459"
+        }
+      },
+      {
         "name": "CollectSwapFuseRamsesV2",
         "versions": {
           "2024-10-08": "0x859F5c9D5CB2800A9Ff72C56d79323EA01cB30b9"
@@ -1073,6 +1091,12 @@
         "name": "CollectSwapFuseUniswapV3",
         "versions": {
           "2024-09-11": "0x75781AB6CdcE9c505DbD0848f4Ad8A97c68F53c1"
+        }
+      },
+      {
+        "name": "ControllerFuseEulerV2",
+        "versions": {
+          "2025-05-29": "0xc27E938FCA53E3f5fE5deb9141033573048a22B4"
         }
       },
       {
@@ -1175,6 +1199,12 @@
         "name": "SupplyFuseErc4626Market7",
         "versions": {
           "2025-02-26": "0x624E2AB4E17aA38B078674eec75dbadcc10e295B"
+        }
+      },
+      {
+        "name": "SupplyFuseEulerV2",
+        "versions": {
+          "2025-05-29": "0x371718ca5cf78A2C8fD2f44Ec2CE88363481B2D3"
         }
       },
       {
@@ -1613,6 +1643,12 @@
         }
       },
       {
+        "name": "BorrowFuseEulerV2",
+        "versions": {
+          "2025-05-29": "0xFd5Ba41a7Ce38BC901308547dFCBAded2B682B11"
+        }
+      },
+      {
         "name": "BorrowFuseMoonwell",
         "versions": {
           "2024-11-18": "0x8f6951795193C5AE825397ba35e940C5586e7b7D",
@@ -1662,6 +1698,12 @@
         }
       },
       {
+        "name": "CollateralFuseEulerV2",
+        "versions": {
+          "2025-05-29": "0xF569a44710DEb64c8Dc9751D8595bb90962f7a67"
+        }
+      },
+      {
         "name": "CollateralFuseMorpho",
         "versions": {
           "2024-10-29": "0xDE3FD3A25534471e92C5940d418B0582802b17B6"
@@ -1671,6 +1713,12 @@
         "name": "CollectSwapFuseUniswapV3",
         "versions": {
           "2024-10-29": "0xf13D892786aE580D1B300d378a654553c2F226De"
+        }
+      },
+      {
+        "name": "ControllerFuseEulerV2",
+        "versions": {
+          "2025-05-29": "0x0F86A5ECa11A0a2539Cc24eC27826C65Cc0094eD"
         }
       },
       {
