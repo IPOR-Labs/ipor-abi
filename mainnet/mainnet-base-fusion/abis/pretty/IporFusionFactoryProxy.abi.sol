@@ -2,7 +2,10 @@ library FusionFactoryLib {
     struct FusionInstance {
         string assetName;
         string assetSymbol;
+        uint8 assetDecimals;
         address underlyingToken;
+        string underlyingTokenSymbol;
+        uint8 underlyingTokenDecimals;
         address initialOwner;
         address plasmaVault;
         address plasmaVaultBase;

@@ -111,9 +111,24 @@
             "internalType": "string"
           },
           {
+            "name": "assetDecimals",
+            "type": "uint8",
+            "internalType": "uint8"
+          },
+          {
             "name": "underlyingToken",
             "type": "address",
             "internalType": "address"
+          },
+          {
+            "name": "underlyingTokenSymbol",
+            "type": "string",
+            "internalType": "string"
+          },
+          {
+            "name": "underlyingTokenDecimals",
+            "type": "uint8",
+            "internalType": "uint8"
           },
           {
             "name": "initialOwner",
