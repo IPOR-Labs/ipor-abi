@@ -2169,6 +2169,14 @@
           }
         }
       }
+    ],
+    "vaults": [
+      {
+        "name": "K3 Capital ETH Maxi",
+        "token": "WETH",
+        "asset": "0x4200000000000000000000000000000000000006",
+        "PlasmaVault": "0xaaC344bebeC9f5005df5a43a56F2736648aAC936"
+      }
     ]
   }
 }
