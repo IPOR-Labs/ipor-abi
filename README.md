@@ -6,7 +6,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Fuses List
 
-*Last updated: 2025-06-11 22:53:44 UTC*
+*Last updated: 2025-06-16 15:55:57 UTC*
 
 ### Ethereum Fuses
 
@@ -279,7 +279,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## PreHooks List
 
-*Last updated: 2025-06-11 22:53:47 UTC*
+*Last updated: 2025-06-16 15:55:58 UTC*
 
 ### Ethereum PreHooks
 
@@ -316,7 +316,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Price Oracles List
 
-*Last updated: 2025-06-11 22:54:08 UTC*
+*Last updated: 2025-06-16 15:56:26 UTC*
 
 ### Ethereum Price Oracles
 
@@ -427,7 +427,7 @@ No price feeds found for this version.
 | Price Oracle Name | Address / View in Explorer |
 |-----------|---------------------------|
 | `PriceOracleMiddlewareUsdProxy` | `0x1C55a415550ba8B5675175fa384E7e2D1Dd85B82` [View](https://basescan.org/address/0x1C55a415550ba8B5675175fa384E7e2D1Dd85B82#code) |
-| `PriceOracleMiddlewareUsdWithRolesProxy` | `0x6d908194a5a1005C374203Fc1baF396c7dbC8E99` [View](https://basescan.org/address/0x6d908194a5a1005C374203Fc1baF396c7dbC8E99#code) |
+| `PriceOracleMiddlewareUsdWithRolesProxy` | `0x56FFd1794E20bF04AC4D4B0992B83184cFCa9E9C` [View](https://basescan.org/address/0x56FFd1794E20bF04AC4D4B0992B83184cFCa9E9C#code) |
 
 #### Price Feeds for `PriceOracleMiddlewareUsdProxy`
 
@@ -469,6 +469,10 @@ No price feeds found for this version.
 | **cbETH** `0x2Ae3F1Ec7F1F5012CFEab0185bfc7aa3cf0DEc22` | `0xd7818272B9e248357d13057AAb0B417aF31E817d` [View](https://basescan.org/address/0xd7818272B9e248357d13057AAb0B417aF31E817d) |
 
 #### Price Feeds for `PriceOracleMiddlewareUsdWithRolesProxy`
+
+##### Version 2025-06-04 - `0x56FFd1794E20bF04AC4D4B0992B83184cFCa9E9C` [View](https://basescan.org/address/0x56FFd1794E20bF04AC4D4B0992B83184cFCa9E9C#code)
+
+No price feeds found for this version.
 
 ##### Version 2025-03-25 - `0x6d908194a5a1005C374203Fc1baF396c7dbC8E99` [View](https://basescan.org/address/0x6d908194a5a1005C374203Fc1baF396c7dbC8E99#code)
 
