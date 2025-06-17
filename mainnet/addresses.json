@@ -2139,6 +2139,9 @@
           },
           "2025-03-25_002": {
             "address": "0x6d908194a5a1005C374203Fc1baF396c7dbC8E99"
+          },
+          "2025-06-04_001": {
+            "address": "0x56FFd1794E20bF04AC4D4B0992B83184cFCa9E9C"
           }
         }
       }
@@ -2254,7 +2257,7 @@
         "name": "K3 Capital ETH Maxi",
         "token": "WETH",
         "asset": "0x4200000000000000000000000000000000000006",
-        "PlasmaVault": "0xaaC344bebeC9f5005df5a43a56F2736648aAC936"
+        "PlasmaVault": "0x277c6A44AF555cD54c2918Cb8458dBd5931F2AAC"
       }
     ]
   }
