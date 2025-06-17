@@ -1,5 +1,7 @@
 library FusionFactoryLib {
     struct FusionInstance {
+        uint256 index;
+        uint256 version;
         string assetName;
         string assetSymbol;
         uint8 assetDecimals;
@@ -52,7 +54,16 @@ interface FusionFactory {
     event BurnRequestFeeBalanceFuseUpdated(address newBurnRequestFeeBalanceFuse);
     event BurnRequestFeeFuseUpdated(address newBurnRequestFeeFuse);
     event DaoFeeUpdated(address newDaoFeeRecipient, uint256 newDaoManagementFee, uint256 newDaoPerformanceFee);
-    event FactoryAddressesUpdated(FusionFactoryStorageLib.FactoryAddresses newFactoryAddresses);
+    event FactoryAddressesUpdated(
+        uint256 version,
+        address accessManagerFactory,
+        address plasmaVaultFactory,
+        address feeManagerFactory,
+        address withdrawManagerFactory,
+        address rewardsManagerFactory,
+        address contextManagerFactory,
+        address priceManagerFactory
+    );
     event Initialized(uint64 version);
     event Paused(address account);
     event PlasmaVaultAdminArrayUpdated(address[] newPlasmaVaultAdminArray);
@@ -82,6 +93,7 @@ interface FusionFactory {
     function getDaoPerformanceFee() external view returns (uint256);
     function getFactoryAddresses() external view returns (FusionFactoryStorageLib.FactoryAddresses memory);
     function getFusionFactoryIndex() external view returns (uint256);
+    function getFusionFactoryVersion() external view returns (uint256);
     function getPlasmaVaultAdminArray() external view returns (address[] memory);
     function getPlasmaVaultBaseAddress() external view returns (address);
     function getPriceOracleMiddleware() external view returns (address);
@@ -113,7 +125,10 @@ interface FusionFactory {
     function updateBurnRequestFeeFuse(address newBurnRequestFeeFuse_) external;
     function updateDaoFee(address newDaoFeeRecipient_, uint256 newDaoManagementFee_, uint256 newDaoPerformanceFee_)
         external;
-    function updateFactoryAddresses(FusionFactoryStorageLib.FactoryAddresses memory newFactoryAddresses_) external;
+    function updateFactoryAddresses(
+        uint256 version_,
+        FusionFactoryStorageLib.FactoryAddresses memory newFactoryAddresses_
+    ) external;
     function updatePlasmaVaultAdminArray(address[] memory newPlasmaVaultAdminArray_) external;
     function updatePlasmaVaultBase(address newPlasmaVaultBase_) external;
     function updatePriceOracleMiddleware(address newPriceOracleMiddleware_) external;
