@@ -280,7 +280,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## PreHooks List
 
-*Last updated: 2025-06-17 10:23:39 UTC*
+*Last updated: 2025-06-16 18:52:41 UTC*
 
 ### Ethereum PreHooks
 
