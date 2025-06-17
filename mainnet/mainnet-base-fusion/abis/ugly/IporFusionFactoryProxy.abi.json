@@ -101,6 +101,16 @@
         "internalType": "struct FusionFactoryLib.FusionInstance",
         "components": [
           {
+            "name": "index",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "version",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
             "name": "assetName",
             "type": "string",
             "internalType": "string"
@@ -298,6 +308,19 @@
   {
     "type": "function",
     "name": "getFusionFactoryIndex",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "getFusionFactoryVersion",
     "inputs": [],
     "outputs": [
       {
@@ -719,6 +742,11 @@
     "name": "updateFactoryAddresses",
     "inputs": [
       {
+        "name": "version_",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
         "name": "newFactoryAddresses_",
         "type": "tuple",
         "internalType": "struct FusionFactoryStorageLib.FactoryAddresses",
@@ -916,47 +944,52 @@
     "name": "FactoryAddressesUpdated",
     "inputs": [
       {
-        "name": "newFactoryAddresses",
-        "type": "tuple",
+        "name": "version",
+        "type": "uint256",
         "indexed": false,
-        "internalType": "struct FusionFactoryStorageLib.FactoryAddresses",
-        "components": [
-          {
-            "name": "accessManagerFactory",
-            "type": "address",
-            "internalType": "address"
-          },
-          {
-            "name": "plasmaVaultFactory",
-            "type": "address",
-            "internalType": "address"
-          },
-          {
-            "name": "feeManagerFactory",
-            "type": "address",
-            "internalType": "address"
-          },
-          {
-            "name": "withdrawManagerFactory",
-            "type": "address",
-            "internalType": "address"
-          },
-          {
-            "name": "rewardsManagerFactory",
-            "type": "address",
-            "internalType": "address"
-          },
-          {
-            "name": "contextManagerFactory",
-            "type": "address",
-            "internalType": "address"
-          },
-          {
-            "name": "priceManagerFactory",
-            "type": "address",
-            "internalType": "address"
-          }
-        ]
+        "internalType": "uint256"
+      },
+      {
+        "name": "accessManagerFactory",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      },
+      {
+        "name": "plasmaVaultFactory",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      },
+      {
+        "name": "feeManagerFactory",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      },
+      {
+        "name": "withdrawManagerFactory",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      },
+      {
+        "name": "rewardsManagerFactory",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      },
+      {
+        "name": "contextManagerFactory",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      },
+      {
+        "name": "priceManagerFactory",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
       }
     ],
     "anonymous": false
