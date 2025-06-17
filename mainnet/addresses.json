@@ -2216,6 +2216,12 @@
         }
       },
       {
+        "name": "SupplyFuseMorpho",
+        "versions": {
+          "2025-06-17": "0xea13241E2D0EF964Ee616151e72d493496A568F5"
+        }
+      },
+      {
         "name": "SwapFuseUniversalTokenSwapper",
         "versions": {
           "2025-06-11": "0x6991332CC5AF5208871aC1483218C723542714C6"
@@ -2271,7 +2277,7 @@
         "name": "K3 Capital ETH Maxi",
         "token": "WETH",
         "asset": "0x4200000000000000000000000000000000000006",
-        "PlasmaVault": "0xaaC344bebeC9f5005df5a43a56F2736648aAC936"
+        "PlasmaVault": "0x277c6A44AF555cD54c2918Cb8458dBd5931F2AAC"
       }
     ]
   }

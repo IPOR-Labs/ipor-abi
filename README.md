@@ -274,6 +274,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `CollateralFuseMorpho` | `0xFc3400A8B10c05DCB7394E51cF67E2189c48BFe8` [View](https://uniscan.xyz/address/0xFc3400A8B10c05DCB7394E51cF67E2189c48BFe8#code) |
 | `FlashloanFuseMorpho` | `0xc043d8F356cdD27e98af1A76918Ac18F828Ed8F4` [View](https://uniscan.xyz/address/0xc043d8F356cdD27e98af1A76918Ac18F828Ed8F4#code) |
 | `SupplyFuseMetaMorphoMarket0001` | `0x8D55edf480214fAa0f476512b68dFd876cf12683` [View](https://uniscan.xyz/address/0x8D55edf480214fAa0f476512b68dFd876cf12683#code) |
+| `SupplyFuseMorpho` | `0xea13241E2D0EF964Ee616151e72d493496A568F5` [View](https://uniscan.xyz/address/0xea13241E2D0EF964Ee616151e72d493496A568F5#code) |
 | `SwapFuseUniversalTokenSwapper` | `0x6991332CC5AF5208871aC1483218C723542714C6` [View](https://uniscan.xyz/address/0x6991332CC5AF5208871aC1483218C723542714C6#code) |
 | `SwapFuseUniversalTokenSwapperEth` | `0xf66aEF6C06dBC5dB4610f50a46668716B84b5629` [View](https://uniscan.xyz/address/0xf66aEF6C06dBC5dB4610f50a46668716B84b5629#code) |
 
