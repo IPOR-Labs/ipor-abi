@@ -2216,6 +2216,12 @@
         }
       },
       {
+        "name": "SupplyFuseMorpho",
+        "versions": {
+          "2025-06-17": "0xea13241E2D0EF964Ee616151e72d493496A568F5"
+        }
+      },
+      {
         "name": "SwapFuseUniversalTokenSwapper",
         "versions": {
           "2025-06-11": "0x6991332CC5AF5208871aC1483218C723542714C6"
@@ -2247,7 +2253,17 @@
         "name": "PriceOracleMiddlewareUsdWithRolesProxy",
         "versions": {
           "2025-05-30_001": {
-            "address": "0x272978Db64B8B37B0832586c0BFEBe1BE66AA93d"
+            "address": "0x272978Db64B8B37B0832586c0BFEBe1BE66AA93d",
+            "price_feeds": {
+              "0x4200000000000000000000000000000000000006": {
+                "symbol": "WETH",
+                "source": "0xe8D9FbC10e00ecc9f0694617075fDAF657a76FB2"
+              },
+              "0xc02fE7317D4eb8753a02c35fe019786854A92001": {
+                "symbol": "wstETH",
+                "source": "0x2C410477FA03360537224E6255789Ed6857D0fdF"
+              }
+            }
           }
         }
       }

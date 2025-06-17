@@ -6,7 +6,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Fuses List
 
-*Last updated: 2025-06-16 18:52:40 UTC*
+*Last updated: 2025-06-17 10:23:38 UTC*
 
 ### Ethereum Fuses
 
@@ -274,6 +274,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `CollateralFuseMorpho` | `0xFc3400A8B10c05DCB7394E51cF67E2189c48BFe8` [View](https://uniscan.xyz/address/0xFc3400A8B10c05DCB7394E51cF67E2189c48BFe8#code) |
 | `FlashloanFuseMorpho` | `0xc043d8F356cdD27e98af1A76918Ac18F828Ed8F4` [View](https://uniscan.xyz/address/0xc043d8F356cdD27e98af1A76918Ac18F828Ed8F4#code) |
 | `SupplyFuseMetaMorphoMarket0001` | `0x8D55edf480214fAa0f476512b68dFd876cf12683` [View](https://uniscan.xyz/address/0x8D55edf480214fAa0f476512b68dFd876cf12683#code) |
+| `SupplyFuseMorpho` | `0xea13241E2D0EF964Ee616151e72d493496A568F5` [View](https://uniscan.xyz/address/0xea13241E2D0EF964Ee616151e72d493496A568F5#code) |
 | `SwapFuseUniversalTokenSwapper` | `0x6991332CC5AF5208871aC1483218C723542714C6` [View](https://uniscan.xyz/address/0x6991332CC5AF5208871aC1483218C723542714C6#code) |
 | `SwapFuseUniversalTokenSwapperEth` | `0xf66aEF6C06dBC5dB4610f50a46668716B84b5629` [View](https://uniscan.xyz/address/0xf66aEF6C06dBC5dB4610f50a46668716B84b5629#code) |
 
@@ -316,7 +317,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Price Oracles List
 
-*Last updated: 2025-06-16 18:53:05 UTC*
+*Last updated: 2025-06-17 10:24:06 UTC*
 
 ### Ethereum Price Oracles
 
@@ -509,4 +510,7 @@ No price feeds found for this version.
 
 ##### Version 2025-05-30 - `0x272978Db64B8B37B0832586c0BFEBe1BE66AA93d` [View](https://uniscan.xyz/address/0x272978Db64B8B37B0832586c0BFEBe1BE66AA93d#code)
 
-No price feeds found for this version.
+| Asset | Source / View in Explorer |
+|-------|---------------|
+| **WETH** `0x4200000000000000000000000000000000000006` | `0xe8D9FbC10e00ecc9f0694617075fDAF657a76FB2` [View](https://uniscan.xyz/address/0xe8D9FbC10e00ecc9f0694617075fDAF657a76FB2) |
+| **wstETH** `0xc02fE7317D4eb8753a02c35fe019786854A92001` | `0x2C410477FA03360537224E6255789Ed6857D0fdF` [View](https://uniscan.xyz/address/0x2C410477FA03360537224E6255789Ed6857D0fdF) |
