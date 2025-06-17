@@ -86,12 +86,6 @@ interface FusionFactory {
     function create(string memory assetName_, string memory assetSymbol_, address underlyingToken_, address owner_)
         external
         returns (FusionFactoryLib.FusionInstance memory);
-    function createSupervised(
-        string memory assetName_,
-        string memory assetSymbol_,
-        address underlyingToken_,
-        address owner_
-    ) external returns (FusionFactoryLib.FusionInstance memory);
     function getBurnRequestFeeBalanceFuseAddress() external view returns (address);
     function getBurnRequestFeeFuseAddress() external view returns (address);
     function getDaoFeeRecipientAddress() external view returns (address);

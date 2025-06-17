@@ -6,7 +6,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Fuses List
 
-*Last updated: 2025-06-17 10:23:38 UTC*
+*Last updated: 2025-06-17 12:16:30 UTC*
 
 ### Ethereum Fuses
 
@@ -280,7 +280,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## PreHooks List
 
-*Last updated: 2025-06-16 18:52:41 UTC*
+*Last updated: 2025-06-17 12:16:31 UTC*
 
 ### Ethereum PreHooks
 
@@ -317,7 +317,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Price Oracles List
 
-*Last updated: 2025-06-17 10:24:06 UTC*
+*Last updated: 2025-06-17 12:16:55 UTC*
 
 ### Ethereum Price Oracles
 
@@ -514,3 +514,4 @@ No price feeds found for this version.
 |-------|---------------|
 | **WETH** `0x4200000000000000000000000000000000000006` | `0xe8D9FbC10e00ecc9f0694617075fDAF657a76FB2` [View](https://uniscan.xyz/address/0xe8D9FbC10e00ecc9f0694617075fDAF657a76FB2) |
 | **wstETH** `0xc02fE7317D4eb8753a02c35fe019786854A92001` | `0x2C410477FA03360537224E6255789Ed6857D0fdF` [View](https://uniscan.xyz/address/0x2C410477FA03360537224E6255789Ed6857D0fdF) |
+| **weETH** `0x7DCC39B4d1C53CB31e1aBc0e358b43987FEF80f7` | `0x06F05AeaADaB7127f61DC39F53789b80CdEE88c3` [View](https://uniscan.xyz/address/0x06F05AeaADaB7127f61DC39F53789b80CdEE88c3) |
