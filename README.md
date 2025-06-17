@@ -6,7 +6,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Fuses List
 
-*Last updated: 2025-06-11 22:53:44 UTC*
+*Last updated: 2025-06-17 10:59:00 UTC*
 
 ### Ethereum Fuses
 
@@ -279,7 +279,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## PreHooks List
 
-*Last updated: 2025-06-11 22:53:47 UTC*
+*Last updated: 2025-06-17 10:59:01 UTC*
 
 ### Ethereum PreHooks
 
@@ -316,7 +316,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Price Oracles List
 
-*Last updated: 2025-06-11 22:54:08 UTC*
+*Last updated: 2025-06-17 10:59:23 UTC*
 
 ### Ethereum Price Oracles
 
@@ -427,7 +427,7 @@ No price feeds found for this version.
 | Price Oracle Name | Address / View in Explorer |
 |-----------|---------------------------|
 | `PriceOracleMiddlewareUsdProxy` | `0x1C55a415550ba8B5675175fa384E7e2D1Dd85B82` [View](https://basescan.org/address/0x1C55a415550ba8B5675175fa384E7e2D1Dd85B82#code) |
-| `PriceOracleMiddlewareUsdWithRolesProxy` | `0x6d908194a5a1005C374203Fc1baF396c7dbC8E99` [View](https://basescan.org/address/0x6d908194a5a1005C374203Fc1baF396c7dbC8E99#code) |
+| `PriceOracleMiddlewareUsdWithRolesProxy` | `0x56FFd1794E20bF04AC4D4B0992B83184cFCa9E9C` [View](https://basescan.org/address/0x56FFd1794E20bF04AC4D4B0992B83184cFCa9E9C#code) |
 
 #### Price Feeds for `PriceOracleMiddlewareUsdProxy`
 
@@ -470,6 +470,10 @@ No price feeds found for this version.
 
 #### Price Feeds for `PriceOracleMiddlewareUsdWithRolesProxy`
 
+##### Version 2025-06-04 - `0x56FFd1794E20bF04AC4D4B0992B83184cFCa9E9C` [View](https://basescan.org/address/0x56FFd1794E20bF04AC4D4B0992B83184cFCa9E9C#code)
+
+No price feeds found for this version.
+
 ##### Version 2025-03-25 - `0x6d908194a5a1005C374203Fc1baF396c7dbC8E99` [View](https://basescan.org/address/0x6d908194a5a1005C374203Fc1baF396c7dbC8E99#code)
 
 No price feeds found for this version.
@@ -505,4 +509,8 @@ No price feeds found for this version.
 
 ##### Version 2025-05-30 - `0x272978Db64B8B37B0832586c0BFEBe1BE66AA93d` [View](https://uniscan.xyz/address/0x272978Db64B8B37B0832586c0BFEBe1BE66AA93d#code)
 
-No price feeds found for this version.
+| Asset | Source / View in Explorer |
+|-------|---------------|
+| **WETH** `0x4200000000000000000000000000000000000006` | `0xe8D9FbC10e00ecc9f0694617075fDAF657a76FB2` [View](https://uniscan.xyz/address/0xe8D9FbC10e00ecc9f0694617075fDAF657a76FB2) |
+| **wstETH** `0xc02fE7317D4eb8753a02c35fe019786854A92001` | `0x2C410477FA03360537224E6255789Ed6857D0fdF` [View](https://uniscan.xyz/address/0x2C410477FA03360537224E6255789Ed6857D0fdF) |
+| **weETH** `0x7DCC39B4d1C53CB31e1aBc0e358b43987FEF80f7` | `0x06F05AeaADaB7127f61DC39F53789b80CdEE88c3` [View](https://uniscan.xyz/address/0x06F05AeaADaB7127f61DC39F53789b80CdEE88c3) |
