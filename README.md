@@ -6,7 +6,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Fuses List
 
-*Last updated: 2025-06-18 11:27:10 UTC*
+*Last updated: 2025-06-18 12:46:28 UTC*
 
 ### Ethereum Fuses
 
@@ -278,6 +278,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `SupplyFuseMorpho` | `0xea13241E2D0EF964Ee616151e72d493496A568F5` [View](https://uniscan.xyz/address/0xea13241E2D0EF964Ee616151e72d493496A568F5#code) |
 | `SwapFuseUniversalTokenSwapper` | `0x6991332CC5AF5208871aC1483218C723542714C6` [View](https://uniscan.xyz/address/0x6991332CC5AF5208871aC1483218C723542714C6#code) |
 | `SwapFuseUniversalTokenSwapperEth` | `0xf66aEF6C06dBC5dB4610f50a46668716B84b5629` [View](https://uniscan.xyz/address/0xf66aEF6C06dBC5dB4610f50a46668716B84b5629#code) |
+| `UniversalReaderBalanceFuses` | `0x65fb961658b4d3d6ca0a47b741c5d181c25c64f4` [View](https://uniscan.xyz/address/0x65fb961658b4d3d6ca0a47b741c5d181c25c64f4#code) |
 
 #### Unichain Older Fuses Versions
 
@@ -287,7 +288,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## PreHooks List
 
-*Last updated: 2025-06-18 11:27:11 UTC*
+*Last updated: 2025-06-18 12:46:29 UTC*
 
 ### Ethereum PreHooks
 
@@ -324,7 +325,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Price Oracles List
 
-*Last updated: 2025-06-18 11:27:39 UTC*
+*Last updated: 2025-06-18 12:46:57 UTC*
 
 ### Ethereum Price Oracles
 
