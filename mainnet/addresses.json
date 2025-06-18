@@ -2176,7 +2176,14 @@
       {
         "name": "BalanceFuseMorpho",
         "versions": {
-          "2025-06-11": "0x657B4cB830Ad0d7036a5D41a4C241bf7F444AEEe"
+          "2025-06-11": "0x657B4cB830Ad0d7036a5D41a4C241bf7F444AEEe",
+          "2025-06-18": "0x86653327f3E3e499e053261ec44D627AecEDfae8"
+        }
+      },
+      {
+        "name": "BalanceFuseUniversalTokenSwapper",
+        "versions": {
+          "2025-06-18": "0x6Fb90c6Cb82Ae0848f221bc06f022E3FD71226AE"
         }
       },
       {
