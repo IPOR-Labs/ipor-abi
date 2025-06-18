@@ -267,7 +267,8 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `BalanceFuseErc20` | `0x8742A06bd12f72D5D58B00F593FDD0e455A19b9d` [View](https://uniscan.xyz/address/0x8742A06bd12f72D5D58B00F593FDD0e455A19b9d#code) |
 | `BalanceFuseFlashLoanMorpho` | `0x9Bc291B820A871001030A9ac76d31709f5B9E0aD` [View](https://uniscan.xyz/address/0x9Bc291B820A871001030A9ac76d31709f5B9E0aD#code) |
 | `BalanceFuseMetaMorphoMarket0001` | `0xfCbf8d7eF18684F999EbfF0d5A83c1b6DA877870` [View](https://uniscan.xyz/address/0xfCbf8d7eF18684F999EbfF0d5A83c1b6DA877870#code) |
-| `BalanceFuseMorpho` | `0x657B4cB830Ad0d7036a5D41a4C241bf7F444AEEe` [View](https://uniscan.xyz/address/0x657B4cB830Ad0d7036a5D41a4C241bf7F444AEEe#code) |
+| `BalanceFuseMorpho` | `0x86653327f3E3e499e053261ec44D627AecEDfae8` [View](https://uniscan.xyz/address/0x86653327f3E3e499e053261ec44D627AecEDfae8#code) |
+| `BalanceFuseUniversalTokenSwapper` | `0x6Fb90c6Cb82Ae0848f221bc06f022E3FD71226AE` [View](https://uniscan.xyz/address/0x6Fb90c6Cb82Ae0848f221bc06f022E3FD71226AE#code) |
 | `BorrowFuseMorpho` | `0x8A84b69aFCCAC94b5Fb0a4894D0fA016dB2CF020` [View](https://uniscan.xyz/address/0x8A84b69aFCCAC94b5Fb0a4894D0fA016dB2CF020#code) |
 | `BurnRequestFeeFuse` | `0xa7C6120a16B6b5201a7e33FF4ee13C798c838FC8` [View](https://uniscan.xyz/address/0xa7C6120a16B6b5201a7e33FF4ee13C798c838FC8#code) |
 | `ClaimRewardsFuseMorpho` | `0xc073695aEDD12Fa885318A8b229D55120ce90325` [View](https://uniscan.xyz/address/0xc073695aEDD12Fa885318A8b229D55120ce90325#code) |
@@ -277,6 +278,12 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `SupplyFuseMorpho` | `0xea13241E2D0EF964Ee616151e72d493496A568F5` [View](https://uniscan.xyz/address/0xea13241E2D0EF964Ee616151e72d493496A568F5#code) |
 | `SwapFuseUniversalTokenSwapper` | `0x6991332CC5AF5208871aC1483218C723542714C6` [View](https://uniscan.xyz/address/0x6991332CC5AF5208871aC1483218C723542714C6#code) |
 | `SwapFuseUniversalTokenSwapperEth` | `0xf66aEF6C06dBC5dB4610f50a46668716B84b5629` [View](https://uniscan.xyz/address/0xf66aEF6C06dBC5dB4610f50a46668716B84b5629#code) |
+
+#### Unichain Older Fuses Versions
+
+| Fuse Name | Address / View in Explorer |
+|-----------|---------------------------|
+| `BalanceFuseMorpho` | `0x657B4cB830Ad0d7036a5D41a4C241bf7F444AEEe` [View](https://uniscan.xyz/address/0x657B4cB830Ad0d7036a5D41a4C241bf7F444AEEe#code) |
 
 ## PreHooks List
 
