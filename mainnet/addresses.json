@@ -2243,7 +2243,7 @@
       {
         "name": "UniversalReaderBalanceFuses",
         "versions": {
-          "2025-06-18": "0x65fb961658b4d3d6ca0a47b741c5d181c25c64f4"
+          "2025-06-18": "0x65fb961658b4D3D6Ca0A47b741C5D181C25c64f4"
         }
       }
     ],
