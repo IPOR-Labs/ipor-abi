@@ -89,6 +89,11 @@
         "internalType": "address"
       },
       {
+        "name": "redemptionDelayInSeconds_",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
         "name": "owner_",
         "type": "address",
         "internalType": "address"
@@ -208,6 +213,11 @@
         "name": "underlyingToken_",
         "type": "address",
         "internalType": "address"
+      },
+      {
+        "name": "redemptionDelayInSeconds_",
+        "type": "uint256",
+        "internalType": "uint256"
       },
       {
         "name": "owner_",
@@ -493,19 +503,6 @@
   },
   {
     "type": "function",
-    "name": "getRedemptionDelayInSeconds",
-    "inputs": [],
-    "outputs": [
-      {
-        "name": "",
-        "type": "uint256",
-        "internalType": "uint256"
-      }
-    ],
-    "stateMutability": "view"
-  },
-  {
-    "type": "function",
     "name": "getRoleAdmin",
     "inputs": [
       {
@@ -716,26 +713,6 @@
   },
   {
     "type": "function",
-    "name": "pause",
-    "inputs": [],
-    "outputs": [],
-    "stateMutability": "nonpayable"
-  },
-  {
-    "type": "function",
-    "name": "paused",
-    "inputs": [],
-    "outputs": [
-      {
-        "name": "",
-        "type": "bool",
-        "internalType": "bool"
-      }
-    ],
-    "stateMutability": "view"
-  },
-  {
-    "type": "function",
     "name": "proxiableUUID",
     "inputs": [],
     "outputs": [
@@ -801,13 +778,6 @@
       }
     ],
     "stateMutability": "view"
-  },
-  {
-    "type": "function",
-    "name": "unpause",
-    "inputs": [],
-    "outputs": [],
-    "stateMutability": "nonpayable"
   },
   {
     "type": "function",
@@ -947,19 +917,6 @@
         "name": "newPriceOracleMiddleware_",
         "type": "address",
         "internalType": "address"
-      }
-    ],
-    "outputs": [],
-    "stateMutability": "nonpayable"
-  },
-  {
-    "type": "function",
-    "name": "updateRedemptionDelayInSeconds",
-    "inputs": [
-      {
-        "name": "newRedemptionDelayInSeconds_",
-        "type": "uint256",
-        "internalType": "uint256"
       }
     ],
     "outputs": [],
@@ -1130,19 +1087,6 @@
   },
   {
     "type": "event",
-    "name": "Paused",
-    "inputs": [
-      {
-        "name": "account",
-        "type": "address",
-        "indexed": false,
-        "internalType": "address"
-      }
-    ],
-    "anonymous": false
-  },
-  {
-    "type": "event",
     "name": "PlasmaVaultAdminArrayUpdated",
     "inputs": [
       {
@@ -1176,19 +1120,6 @@
         "type": "address",
         "indexed": false,
         "internalType": "address"
-      }
-    ],
-    "anonymous": false
-  },
-  {
-    "type": "event",
-    "name": "RedemptionDelayInSecondsUpdated",
-    "inputs": [
-      {
-        "name": "newRedemptionDelayInSeconds",
-        "type": "uint256",
-        "indexed": false,
-        "internalType": "uint256"
       }
     ],
     "anonymous": false
@@ -1263,19 +1194,6 @@
         "name": "sender",
         "type": "address",
         "indexed": true,
-        "internalType": "address"
-      }
-    ],
-    "anonymous": false
-  },
-  {
-    "type": "event",
-    "name": "Unpaused",
-    "inputs": [
-      {
-        "name": "account",
-        "type": "address",
-        "indexed": false,
         "internalType": "address"
       }
     ],
@@ -1370,16 +1288,6 @@
   },
   {
     "type": "error",
-    "name": "EnforcedPause",
-    "inputs": []
-  },
-  {
-    "type": "error",
-    "name": "ExpectedPause",
-    "inputs": []
-  },
-  {
-    "type": "error",
     "name": "FailedInnerCall",
     "inputs": []
   },
@@ -1401,11 +1309,6 @@
   {
     "type": "error",
     "name": "InvalidInitialization",
-    "inputs": []
-  },
-  {
-    "type": "error",
-    "name": "InvalidRedemptionDelay",
     "inputs": []
   },
   {
