@@ -1,0 +1,151 @@
+[
+  {
+    "type": "event",
+    "name": "FusionInstanceCreated",
+    "inputs": [
+      {
+        "name": "index",
+        "type": "uint256",
+        "indexed": false,
+        "internalType": "uint256"
+      },
+      {
+        "name": "version",
+        "type": "uint256",
+        "indexed": false,
+        "internalType": "uint256"
+      },
+      {
+        "name": "assetName",
+        "type": "string",
+        "indexed": false,
+        "internalType": "string"
+      },
+      {
+        "name": "assetSymbol",
+        "type": "string",
+        "indexed": false,
+        "internalType": "string"
+      },
+      {
+        "name": "assetDecimals",
+        "type": "uint8",
+        "indexed": false,
+        "internalType": "uint8"
+      },
+      {
+        "name": "underlyingToken",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      },
+      {
+        "name": "underlyingTokenSymbol",
+        "type": "string",
+        "indexed": false,
+        "internalType": "string"
+      },
+      {
+        "name": "underlyingTokenDecimals",
+        "type": "uint8",
+        "indexed": false,
+        "internalType": "uint8"
+      },
+      {
+        "name": "initialOwner",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      },
+      {
+        "name": "plasmaVault",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      },
+      {
+        "name": "plasmaVaultBase",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      },
+      {
+        "name": "feeManager",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "error",
+    "name": "BalanceFuseBurnRequestFeeNotSet",
+    "inputs": []
+  },
+  {
+    "type": "error",
+    "name": "BurnRequestFeeFuseNotSet",
+    "inputs": []
+  },
+  {
+    "type": "error",
+    "name": "InvalidAddress",
+    "inputs": []
+  },
+  {
+    "type": "error",
+    "name": "InvalidAddress",
+    "inputs": []
+  },
+  {
+    "type": "error",
+    "name": "InvalidAssetName",
+    "inputs": []
+  },
+  {
+    "type": "error",
+    "name": "InvalidAssetSymbol",
+    "inputs": []
+  },
+  {
+    "type": "error",
+    "name": "InvalidDaoFeeRecipient",
+    "inputs": []
+  },
+  {
+    "type": "error",
+    "name": "InvalidFactoryAddress",
+    "inputs": []
+  },
+  {
+    "type": "error",
+    "name": "InvalidFeeValue",
+    "inputs": []
+  },
+  {
+    "type": "error",
+    "name": "InvalidIporDaoFeeRecipient",
+    "inputs": []
+  },
+  {
+    "type": "error",
+    "name": "InvalidOwner",
+    "inputs": []
+  },
+  {
+    "type": "error",
+    "name": "InvalidPlasmaVaultAdmin",
+    "inputs": []
+  },
+  {
+    "type": "error",
+    "name": "InvalidUnderlyingToken",
+    "inputs": []
+  },
+  {
+    "type": "error",
+    "name": "InvalidWithdrawWindow",
+    "inputs": []
+  }
+]
