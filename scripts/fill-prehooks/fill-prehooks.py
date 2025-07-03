@@ -22,7 +22,8 @@ RPC_URLS = {
     "ethereum": os.getenv("ETHEREUM_RPC_URL", "https://eth.llamarpc.com"),
     "arbitrum": os.getenv("ARBITRUM_RPC_URL", "https://arb1.arbitrum.io/rpc"),
     "base": os.getenv("BASE_RPC_URL", "https://mainnet.base.org"),
-    "unichain": os.getenv("UNICHAIN_RPC_URL", "https://mainnet.unichain.org")
+    "unichain": os.getenv("UNICHAIN_RPC_URL", "https://mainnet.unichain.org"),
+    "tac": os.getenv("TAC_RPC_URL", "https://rpc.ankr.com/tac")
 }
 
 for chain, url in RPC_URLS.items():
@@ -33,14 +34,16 @@ CHAIN_START_BLOCKS = {
     "ethereum": 20733870,
     "arbitrum": 218743859,
     "base": 21704649,
-    "unichain": 17867366
+    "unichain": 17867366,
+    "tac": 239
 }
 
 EXPLORERS = {
     "ethereum": "https://etherscan.io/address/",
     "arbitrum": "https://arbiscan.io/address/",
     "base": "https://basescan.org/address/",
-    "unichain": "https://uniscan.xyz/address/"
+    "unichain": "https://uniscan.xyz/address/",
+    "tac": "https://explorer.tac.build/address/"
 }
 
 TOKEN_ABI = [
@@ -147,14 +150,16 @@ def update_addresses_json(prehooks_file, addresses_file):
                 "ethereum": {"prehooks": []},
                 "arbitrum": {"prehooks": []},
                 "base": {"prehooks": []},
-                "unichain": {"prehooks": []}
+                "unichain": {"prehooks": []},
+                "tac": {"prehooks": []}
             }
 
         blockchain_prehooks = {
             "ethereum": {},
             "arbitrum": {},
             "base": {},
-            "unichain": {}
+            "unichain": {},
+            "tac": {}
         }
 
         web3_connections = {}
@@ -179,6 +184,8 @@ def update_addresses_json(prehooks_file, addresses_file):
                 chain = "base"
             elif "unichain" in file_path:
                 chain = "unichain"
+            elif "tac" in file_path:
+                chain = "tac"
 
             if not chain:
                 continue

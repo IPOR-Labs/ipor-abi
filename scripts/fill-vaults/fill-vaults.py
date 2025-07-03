@@ -50,7 +50,8 @@ RPC_URLS = {
     "ethereum": os.getenv("ETHEREUM_RPC_URL", "https://eth.llamarpc.com"),
     "arbitrum": os.getenv("ARBITRUM_RPC_URL", "https://arb1.arbitrum.io/rpc"),
     "base": os.getenv("BASE_RPC_URL", "https://mainnet.base.org"),
-    "unichain": os.getenv("UNICHAIN_RPC_URL", "https://mainnet.unichain.org")
+    "unichain": os.getenv("UNICHAIN_RPC_URL", "https://mainnet.unichain.org"),
+    "tac": os.getenv("TAC_RPC_URL", "https://rpc.ankr.com/tac")
 }
 
 VAULT_ABI = [
@@ -154,7 +155,8 @@ def update_addresses_json(plasma_vaults_file, addresses_file):
                 "ethereum": {"vaults": []},
                 "arbitrum": {"vaults": []},
                 "base": {"vaults": []},
-                "unichain": {"vaults": []}
+                "unichain": {"vaults": []},
+                "tac": {"vaults": []}
             }
 
         web3_connections = {
@@ -172,6 +174,8 @@ def update_addresses_json(plasma_vaults_file, addresses_file):
                 chain = "base"
             elif "unichain" in file_path:
                 chain = "unichain"
+            elif "tac" in file_path:
+                chain = "tac"
 
             if not chain:
                 continue
