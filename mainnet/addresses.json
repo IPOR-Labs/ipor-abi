@@ -2303,5 +2303,69 @@
         "PlasmaVault": "0x2aF2146E6722B80A0A455F405eDFF3993715E417"
       }
     ]
+  },
+  "tac": {
+    "fuses": [
+      {
+        "name": "BalanceFuseBurnRequestFee",
+        "versions": {
+          "2025-07-03": "0x75ea3B63b469503A1948F23bd84917893C82E7fD"
+        }
+      },
+      {
+        "name": "BalanceFuseErc20",
+        "versions": {
+          "2025-07-03": "0xCFE88D3812c02e331D6E62F2bA75006d207612b3"
+        }
+      },
+      {
+        "name": "BalanceFuseUniversalTokenSwapper",
+        "versions": {
+          "2025-07-03": "0x0E0350AbE7c47cEA27D8D8884F55C5904Eba08f8"
+        }
+      },
+      {
+        "name": "BurnRequestFeeFuse",
+        "versions": {
+          "2025-07-03": "0x13AefCeb3490e419F31AbA8997eF4b11e88AfFa4"
+        }
+      },
+      {
+        "name": "SwapFuseUniversalTokenSwapper",
+        "versions": {
+          "2025-07-03": "0x81a4f4d9e70e6367a0509FE058efbeA2092e310e"
+        }
+      },
+      {
+        "name": "UniversalReaderBalanceFuses",
+        "versions": {
+          "2025-07-03": "0xAbD1823440f718f2f5F8B549868600Ea7Fd5A72a"
+        }
+      }
+    ],
+    "prehooks": [
+      {
+        "name": "PreHookPauseFunction",
+        "versions": {
+          "2025-07-03": "0x97cAA1a25a1c37a8b748E53DDe48fc44C18E7e2B"
+        }
+      },
+      {
+        "name": "PreHookUpdateBalancesIgnoreDust",
+        "versions": {
+          "2025-07-03": "0x8D37Bea911CD0a79842f4B0f46dA805AeD23FF29"
+        }
+      }
+    ],
+    "price_oracles": [
+      {
+        "name": "PriceOracleMiddlewareUsdWithRolesProxy",
+        "versions": {
+          "2025-07-03_001": {
+            "address": "0x4521a59ecB7F9FC4718714DE354c86f6afF6aa6f"
+          }
+        }
+      }
+    ]
   }
 }
