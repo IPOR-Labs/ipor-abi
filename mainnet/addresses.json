@@ -986,7 +986,8 @@
       {
         "name": "BalanceFuseEulerV2",
         "versions": {
-          "2025-05-29": "0x654Ee0c6d477A4ddFE62f600Ed52134593c1733c"
+          "2025-05-29": "0x654Ee0c6d477A4ddFE62f600Ed52134593c1733c",
+          "2025-07-03": "0xF7dF7b8eB5B0c6d02b1b8FEC769dFE65D9a27E3b"
         }
       },
       {
@@ -1058,7 +1059,8 @@
       {
         "name": "BorrowFuseEulerV2",
         "versions": {
-          "2025-05-29": "0xe436decF5a8D7004338833555ee3970B24a9f47F"
+          "2025-05-29": "0xe436decF5a8D7004338833555ee3970B24a9f47F",
+          "2025-07-03": "0x10eb9B247e7Ce00F3290F66d8B5E83BfD311375F"
         }
       },
       {
@@ -1095,7 +1097,8 @@
       {
         "name": "CollateralFuseEulerV2",
         "versions": {
-          "2025-05-29": "0x4567EE5D7D531f2e09DA915d95c8c7bb0c2b1459"
+          "2025-05-29": "0x4567EE5D7D531f2e09DA915d95c8c7bb0c2b1459",
+          "2025-07-03": "0x6D35934cB431B36338fF88641BEBF540e826bd7D"
         }
       },
       {
@@ -1113,7 +1116,8 @@
       {
         "name": "ControllerFuseEulerV2",
         "versions": {
-          "2025-05-29": "0xc27E938FCA53E3f5fE5deb9141033573048a22B4"
+          "2025-05-29": "0xc27E938FCA53E3f5fE5deb9141033573048a22B4",
+          "2025-07-03": "0x2A02Ae392816441E804aa9eCcf5c0333911Dc989"
         }
       },
       {
@@ -1221,7 +1225,8 @@
       {
         "name": "SupplyFuseEulerV2",
         "versions": {
-          "2025-05-29": "0x371718ca5cf78A2C8fD2f44Ec2CE88363481B2D3"
+          "2025-05-29": "0x371718ca5cf78A2C8fD2f44Ec2CE88363481B2D3",
+          "2025-07-03": "0x96A29E00C13A3e23f91259364F118501e1a46344"
         }
       },
       {
@@ -2172,6 +2177,12 @@
         }
       },
       {
+        "name": "BalanceFuseEulerV2",
+        "versions": {
+          "2025-07-03": "0x6402AC17506cacb2a917862A321EB9327e7bd81A"
+        }
+      },
+      {
         "name": "BalanceFuseFlashLoanMorpho",
         "versions": {
           "2025-06-11": "0x9Bc291B820A871001030A9ac76d31709f5B9E0aD"
@@ -2197,6 +2208,12 @@
         }
       },
       {
+        "name": "BorrowFuseEulerV2",
+        "versions": {
+          "2025-07-03": "0xf5965cc67C566A4587F627Eba09Ef33EB6120fA4"
+        }
+      },
+      {
         "name": "BorrowFuseMorpho",
         "versions": {
           "2025-06-11": "0x8A84b69aFCCAC94b5Fb0a4894D0fA016dB2CF020"
@@ -2215,15 +2232,33 @@
         }
       },
       {
+        "name": "CollateralFuseEulerV2",
+        "versions": {
+          "2025-07-03": "0xc9dbe9B52Deef0DDC9b5e513Cc249604A5d29A82"
+        }
+      },
+      {
         "name": "CollateralFuseMorpho",
         "versions": {
           "2025-06-11": "0xFc3400A8B10c05DCB7394E51cF67E2189c48BFe8"
         }
       },
       {
+        "name": "ControllerFuseEulerV2",
+        "versions": {
+          "2025-07-03": "0xa32E128CA86e8116dF090c5287C21E08b2EaCAf0"
+        }
+      },
+      {
         "name": "FlashloanFuseMorpho",
         "versions": {
           "2025-06-11": "0xc043d8F356cdD27e98af1A76918Ac18F828Ed8F4"
+        }
+      },
+      {
+        "name": "SupplyFuseEulerV2",
+        "versions": {
+          "2025-07-03": "0xBf8759c387b9C44aD304B0778c12437A520f93A1"
         }
       },
       {
