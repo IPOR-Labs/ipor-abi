@@ -43,7 +43,15 @@ EXPLORERS = {
     "arbitrum": "https://arbiscan.io/address/",
     "base": "https://basescan.org/address/",
     "unichain": "https://uniscan.xyz/address/",
-    "tac": "https://explorer.tac.build/"
+    "tac": "https://explorer.tac.build/address/"
+}
+
+NAMES = {
+    "ethereum": "Ethereum",
+    "arbitrum": "Arbitrum",
+    "base": "Base",
+    "unichain": "Unichain",
+    "tac": "TAC"
 }
 
 TOKEN_ABI = [
@@ -255,7 +263,7 @@ def generate_markdown_list(addresses_file=MAIN_ADDRESSES_FILE, readme_file="../.
         
         for chain, chain_data in addresses_data.items():
             if "fuses" in chain_data and chain_data["fuses"]:
-                fuses_md += f"### {chain.capitalize()} Fuses\n\n"
+                fuses_md += f"### {NAMES[chain]} Fuses\n\n"
                 
                 explorer_base_url = EXPLORERS.get(chain.lower(), "")
                 sorted_fuses = sorted(chain_data["fuses"], key=lambda x: x["name"])
@@ -285,7 +293,7 @@ def generate_markdown_list(addresses_file=MAIN_ADDRESSES_FILE, readme_file="../.
                         break
                 
                 if has_older_versions:
-                    fuses_md += f"#### {chain.capitalize()} Older Fuses Versions\n\n"
+                    fuses_md += f"#### {NAMES[chain]} Older Fuses Versions\n\n"
                     fuses_md += f"| Fuse Name | Address / View in Explorer |\n"
                     fuses_md += "|-----------|---------------------------|\n"
                     

@@ -47,6 +47,14 @@ EXPLORERS = {
     "tac": "https://explorer.tac.build/address/"
 }
 
+NAMES = {
+    "ethereum": "Ethereum",
+    "arbitrum": "Arbitrum",
+    "base": "Base",
+    "unichain": "Unichain",
+    "tac": "TAC"
+}
+
 TOKEN_ABI = [
     {
         "inputs": [],
@@ -432,7 +440,7 @@ def generate_markdown_list(addresses_file=MAIN_ADDRESSES_FILE, readme_file="../.
         
         for chain, chain_data in addresses_data.items():
             if "price_oracles" in chain_data and chain_data["price_oracles"]:
-                priceoracles_md += f"### {chain.capitalize()} Price Oracles\n\n"
+                priceoracles_md += f"### {NAMES[chain]} Price Oracles\n\n"
                 
                 explorer_base_url = EXPLORERS.get(chain.lower(), "")
                 sorted_priceoracles = sorted(chain_data["price_oracles"], key=lambda x: x["name"])
