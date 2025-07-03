@@ -6,7 +6,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Fuses List
 
-*Last updated: 2025-07-03 01:04:58 UTC*
+*Last updated: 2025-07-03 15:39:56 UTC*
 
 ### Ethereum Fuses
 
@@ -311,9 +311,20 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 |-----------|---------------------------|
 | `BalanceFuseMorpho` | `0x657B4cB830Ad0d7036a5D41a4C241bf7F444AEEe` [View](https://uniscan.xyz/address/0x657B4cB830Ad0d7036a5D41a4C241bf7F444AEEe#code) |
 
+### Tac Fuses
+
+| Fuse Name | Address / View in Explorer |
+|-----------|---------------------------|
+| `BalanceFuseBurnRequestFee` | `0x75ea3B63b469503A1948F23bd84917893C82E7fD` [View](https://explorer.tac.build/0x75ea3B63b469503A1948F23bd84917893C82E7fD#code) |
+| `BalanceFuseErc20` | `0xCFE88D3812c02e331D6E62F2bA75006d207612b3` [View](https://explorer.tac.build/0xCFE88D3812c02e331D6E62F2bA75006d207612b3#code) |
+| `BalanceFuseUniversalTokenSwapper` | `0x0E0350AbE7c47cEA27D8D8884F55C5904Eba08f8` [View](https://explorer.tac.build/0x0E0350AbE7c47cEA27D8D8884F55C5904Eba08f8#code) |
+| `BurnRequestFeeFuse` | `0x13AefCeb3490e419F31AbA8997eF4b11e88AfFa4` [View](https://explorer.tac.build/0x13AefCeb3490e419F31AbA8997eF4b11e88AfFa4#code) |
+| `SwapFuseUniversalTokenSwapper` | `0x81a4f4d9e70e6367a0509FE058efbeA2092e310e` [View](https://explorer.tac.build/0x81a4f4d9e70e6367a0509FE058efbeA2092e310e#code) |
+| `UniversalReaderBalanceFuses` | `0xAbD1823440f718f2f5F8B549868600Ea7Fd5A72a` [View](https://explorer.tac.build/0xAbD1823440f718f2f5F8B549868600Ea7Fd5A72a#code) |
+
 ## PreHooks List
 
-*Last updated: 2025-07-03 01:05:03 UTC*
+*Last updated: 2025-07-03 15:39:57 UTC*
 
 ### Ethereum PreHooks
 
@@ -348,9 +359,16 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `PreHookPauseFunction` | `0x76fA5832f36F488084E5889CAda081F9D34dF3Fc` [View](https://uniscan.xyz/address/0x76fA5832f36F488084E5889CAda081F9D34dF3Fc#code) |
 | `PreHookUpdateBalancesIgnoreDust` | `0xE9c3c5878Df61688894BBB92dBa6916Aed323976` [View](https://uniscan.xyz/address/0xE9c3c5878Df61688894BBB92dBa6916Aed323976#code) |
 
+### Tac PreHooks
+
+| PreHook Name | Address / View in Explorer |
+|-----------|---------------------------|
+| `PreHookPauseFunction` | `0x97cAA1a25a1c37a8b748E53DDe48fc44C18E7e2B` [View](https://explorer.tac.build/address/0x97cAA1a25a1c37a8b748E53DDe48fc44C18E7e2B#code) |
+| `PreHookUpdateBalancesIgnoreDust` | `0x8D37Bea911CD0a79842f4B0f46dA805AeD23FF29` [View](https://explorer.tac.build/address/0x8D37Bea911CD0a79842f4B0f46dA805AeD23FF29#code) |
+
 ## Price Oracles List
 
-*Last updated: 2025-07-03 01:05:31 UTC*
+*Last updated: 2025-07-03 15:40:21 UTC*
 
 ### Ethereum Price Oracles
 
@@ -548,3 +566,16 @@ No price feeds found for this version.
 | **WETH** `0x4200000000000000000000000000000000000006` | `0xe8D9FbC10e00ecc9f0694617075fDAF657a76FB2` [View](https://uniscan.xyz/address/0xe8D9FbC10e00ecc9f0694617075fDAF657a76FB2) |
 | **wstETH** `0xc02fE7317D4eb8753a02c35fe019786854A92001` | `0x2C410477FA03360537224E6255789Ed6857D0fdF` [View](https://uniscan.xyz/address/0x2C410477FA03360537224E6255789Ed6857D0fdF) |
 | **weETH** `0x7DCC39B4d1C53CB31e1aBc0e358b43987FEF80f7` | `0x06F05AeaADaB7127f61DC39F53789b80CdEE88c3` [View](https://uniscan.xyz/address/0x06F05AeaADaB7127f61DC39F53789b80CdEE88c3) |
+
+
+### Tac Price Oracles
+
+| Price Oracle Name | Address / View in Explorer |
+|-----------|---------------------------|
+| `PriceOracleMiddlewareUsdWithRolesProxy` | `0x4521a59ecB7F9FC4718714DE354c86f6afF6aa6f` [View](https://explorer.tac.build/address/0x4521a59ecB7F9FC4718714DE354c86f6afF6aa6f#code) |
+
+#### Price Feeds for `PriceOracleMiddlewareUsdWithRolesProxy`
+
+##### Version 2025-07-03 - `0x4521a59ecB7F9FC4718714DE354c86f6afF6aa6f` [View](https://explorer.tac.build/address/0x4521a59ecB7F9FC4718714DE354c86f6afF6aa6f#code)
+
+No price feeds found for this version.

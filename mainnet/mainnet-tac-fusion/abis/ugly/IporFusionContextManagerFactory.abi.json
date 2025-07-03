@@ -1,0 +1,56 @@
+[
+  {
+    "type": "function",
+    "name": "create",
+    "inputs": [
+      {
+        "name": "index_",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "accessManager_",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "approvedTargets_",
+        "type": "address[]",
+        "internalType": "address[]"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "contextManager",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "event",
+    "name": "ContextManagerCreated",
+    "inputs": [
+      {
+        "name": "index",
+        "type": "uint256",
+        "indexed": false,
+        "internalType": "uint256"
+      },
+      {
+        "name": "contextManager",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      },
+      {
+        "name": "approvedTargets",
+        "type": "address[]",
+        "indexed": false,
+        "internalType": "address[]"
+      }
+    ],
+    "anonymous": false
+  }
+]
