@@ -15,6 +15,7 @@
   "IporFusionFactoryProxy": "0x26b5561E2E0e7d7977431E92740903Ef3cB7194b",
   "IporFusionFeeManagerFactory": "0xF03fD5da172906B49000D8423752adDD6fFc9ac7",
   "IporFusionPlasmaVaultFactory": "0x9875928E56CBFF467D9dc780d3809901cf7747E2",
+  "IporFusionPriceFeedUSD": "0x535595DBD2069eb4FE9378f69a6D64719c4ac9b7",
   "IporFusionPriceManagerFactory": "0xC19dCd7120F2BBF27e670075a0DBeD4F9E36fA6E",
   "IporFusionPriceOracleMiddlewareWithRolesOwner": "0xe9369499B0183e992a5A09E8696c24Aa2Cff2951",
   "IporFusionRewardsManagerFactory": "0x880065A9354613E9eB476F3814Ebc0a7E5ef90D1",
