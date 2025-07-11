@@ -7,6 +7,7 @@
   "CollateralTokenOnMorphoMarketPriceFeedFactoryProxy": "0xA13F880D067b4fE290213341c9b18A15EfcD39b6",
   "DualCrossReferencePriceFeedFactoryImpl": "0xcE2Ce5994B1D641ded6D8340365DAF808240b0b8",
   "DualCrossReferencePriceFeedFactoryProxy": "0x6A7bA901Efd4894FB3AE583Cd463d4653850B3FE",
+  "ERC4626ZapInWithNativeToken": "0x4BA95175b35e85633068FdA202C827D09cC2FE65",
   "IporDaoAccount": "0xe9369499B0183e992a5A09E8696c24Aa2Cff2951",
   "IporFusionAccessManagerFactory": "0x51dDcCa665b224CfDe7aa9F073b568508e79b8c1",
   "IporFusionContextManagerFactory": "0x3cdcf0EDe87E989dA10C42F612Fd3DD548a3413D",
