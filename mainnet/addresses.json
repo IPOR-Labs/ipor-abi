@@ -835,6 +835,18 @@
               "0xFfEc096c087C13Cc268497B89A613cACE4DF9A48": {
                 "symbol": "PT-USDS-14AUG2025",
                 "source": "0xc5B457325e6bEE5E32FCd00dCFCcf657e1f30B4C"
+              },
+              "0x6440f144b7e50D6a8439336510312d2F54beB01D": {
+                "symbol": "BOLD",
+                "source": "0x596cDF5D33486b035e8482688c638E7dcAf25a7b"
+              },
+              "0x50Bd66D59911F5e086Ec87aE43C811e0D059DD11": {
+                "symbol": "sBOLD",
+                "source": "0x3c3F08A0cE5dC1608D7E11167C60244E16922D93"
+              },
+              "0x66526197a4BAf496D97e1004e43c2C374Fb7d2E7": {
+                "symbol": "PT-sBOLD-27NOV2025",
+                "source": "0xa0f108184a8c461640fE8349a2FD36e3c6cd3E77"
               }
             }
           }
@@ -2370,6 +2382,30 @@
         "name": "SwapFuseUniversalTokenSwapper",
         "versions": {
           "2025-07-03": "0x81a4f4d9e70e6367a0509FE058efbeA2092e310e"
+        }
+      },
+      {
+        "name": "TacStakingBalanceFuse",
+        "versions": {
+          "2025-07-14": "0x839C0475fd43690B61D935F0255C4f9B4a9e13f1"
+        }
+      },
+      {
+        "name": "TacStakingDelegateFuse",
+        "versions": {
+          "2025-07-14": "0x457C6981b48C60099B2218C196071Cc2c60d0638"
+        }
+      },
+      {
+        "name": "TacStakingEmergencyFuse",
+        "versions": {
+          "2025-07-14": "0xaBdFC4f716227946ACbCB6d9089Ab8c4BDEDB7C7"
+        }
+      },
+      {
+        "name": "TacStakingRedelegateFuse",
+        "versions": {
+          "2025-07-14": "0x7b499CE3B1babc150bdbc6F31E52200D6Cdb02E9"
         }
       },
       {

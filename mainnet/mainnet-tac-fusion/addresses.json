@@ -27,8 +27,15 @@
   "PriceOracleMiddlewareUsdWithRolesProxy": "0x4521a59ecB7F9FC4718714DE354c86f6afF6aa6f",
   "SwapExecutor": "0x1C2F0DBcdA334584532CD8f22Da63061f02DDDAF",
   "SwapFuseUniversalTokenSwapper": "0x81a4f4d9e70e6367a0509FE058efbeA2092e310e",
+  "TacStakingBalanceFuse": "0x839C0475fd43690B61D935F0255C4f9B4a9e13f1",
+  "TacStakingContract": "0x0000000000000000000000000000000000000800",
+  "TacStakingDelegateFuse": "0x457C6981b48C60099B2218C196071Cc2c60d0638",
+  "TacStakingDelegatorAddressReader": "0xE83C05Cce1B1CAa9B77776140c82E4A9Fed71e82",
+  "TacStakingEmergencyFuse": "0xaBdFC4f716227946ACbCB6d9089Ab8c4BDEDB7C7",
+  "TacStakingRedelegateFuse": "0x7b499CE3B1babc150bdbc6F31E52200D6Cdb02E9",
   "UniversalReaderBalanceFuses": "0xAbD1823440f718f2f5F8B549868600Ea7Fd5A72a",
   "UniversalReaderPreHooksInfo": "0x817d48141e8b140d313acB670db01CE0B9A0D0Db",
   "WrappedPlasmaVaultFactoryImpl": "0xe5bf0302Bb2A8E27DB081098106BfE88E4Fc228D",
-  "WrappedPlasmaVaultFactoryProxy": "0xB8AD579cAf08b7530E228d2DDbe5A8ecc9Ab2D41"
+  "WrappedPlasmaVaultFactoryProxy": "0xB8AD579cAf08b7530E228d2DDbe5A8ecc9Ab2D41",
+  "wTAC": "0xB63B9f0eb4A6E6f191529D71d4D88cc8900Df2C9"
 }

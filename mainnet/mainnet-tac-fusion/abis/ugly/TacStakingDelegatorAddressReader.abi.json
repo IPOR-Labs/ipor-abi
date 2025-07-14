@@ -1,0 +1,87 @@
+[
+  {
+    "type": "function",
+    "name": "convertBytes32ToValidatorAddress",
+    "inputs": [
+      {
+        "name": "firstSlot_",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      },
+      {
+        "name": "secondSlot_",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "stateMutability": "pure"
+  },
+  {
+    "type": "function",
+    "name": "convertValidatorAddressToBytes32",
+    "inputs": [
+      {
+        "name": "validatorAddress_",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      },
+      {
+        "name": "",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      }
+    ],
+    "stateMutability": "pure"
+  },
+  {
+    "type": "function",
+    "name": "getTacStakingDelegatorAddress",
+    "inputs": [
+      {
+        "name": "plasmaVault_",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "delegatorAddress",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "readTacStakingDelegatorAddress",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "delegatorAddress",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "error",
+    "name": "TacValidatorAddressConverterInvalidAddress",
+    "inputs": []
+  }
+]

@@ -6,7 +6,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Fuses List
 
-*Last updated: 2025-07-03 15:52:07 UTC*
+*Last updated: 2025-07-14 10:19:46 UTC*
 
 ### Ethereum Fuses
 
@@ -320,11 +320,15 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `BalanceFuseUniversalTokenSwapper` | `0x0E0350AbE7c47cEA27D8D8884F55C5904Eba08f8` [View](https://explorer.tac.build/address/0x0E0350AbE7c47cEA27D8D8884F55C5904Eba08f8#code) |
 | `BurnRequestFeeFuse` | `0x13AefCeb3490e419F31AbA8997eF4b11e88AfFa4` [View](https://explorer.tac.build/address/0x13AefCeb3490e419F31AbA8997eF4b11e88AfFa4#code) |
 | `SwapFuseUniversalTokenSwapper` | `0x81a4f4d9e70e6367a0509FE058efbeA2092e310e` [View](https://explorer.tac.build/address/0x81a4f4d9e70e6367a0509FE058efbeA2092e310e#code) |
+| `TacStakingBalanceFuse` | `0x839C0475fd43690B61D935F0255C4f9B4a9e13f1` [View](https://explorer.tac.build/address/0x839C0475fd43690B61D935F0255C4f9B4a9e13f1#code) |
+| `TacStakingDelegateFuse` | `0x457C6981b48C60099B2218C196071Cc2c60d0638` [View](https://explorer.tac.build/address/0x457C6981b48C60099B2218C196071Cc2c60d0638#code) |
+| `TacStakingEmergencyFuse` | `0xaBdFC4f716227946ACbCB6d9089Ab8c4BDEDB7C7` [View](https://explorer.tac.build/address/0xaBdFC4f716227946ACbCB6d9089Ab8c4BDEDB7C7#code) |
+| `TacStakingRedelegateFuse` | `0x7b499CE3B1babc150bdbc6F31E52200D6Cdb02E9` [View](https://explorer.tac.build/address/0x7b499CE3B1babc150bdbc6F31E52200D6Cdb02E9#code) |
 | `UniversalReaderBalanceFuses` | `0xAbD1823440f718f2f5F8B549868600Ea7Fd5A72a` [View](https://explorer.tac.build/address/0xAbD1823440f718f2f5F8B549868600Ea7Fd5A72a#code) |
 
 ## PreHooks List
 
-*Last updated: 2025-07-03 15:52:09 UTC*
+*Last updated: 2025-07-14 10:19:47 UTC*
 
 ### Ethereum PreHooks
 
@@ -368,7 +372,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Price Oracles List
 
-*Last updated: 2025-07-03 15:52:34 UTC*
+*Last updated: 2025-07-14 10:20:21 UTC*
 
 ### Ethereum Price Oracles
 
@@ -434,6 +438,9 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | **PT-sUSDE-25SEP2025** `0x9F56094C450763769BA0EA9Fe2876070c0fD5F77` | `0x2dA0Bbff13Af521f21b092B9161b92e3172373e4` [View](https://etherscan.io/address/0x2dA0Bbff13Af521f21b092B9161b92e3172373e4) |
 | **PT-lvlUSD-25SEP2025** `0x207F7205fd6c4b602Fa792C8b2B60e6006D4a0b8` | `0x3Cb11512948D476E8930964D7Ed08bC155f101E2` [View](https://etherscan.io/address/0x3Cb11512948D476E8930964D7Ed08bC155f101E2) |
 | **PT-USDS-14AUG2025** `0xFfEc096c087C13Cc268497B89A613cACE4DF9A48` | `0xc5B457325e6bEE5E32FCd00dCFCcf657e1f30B4C` [View](https://etherscan.io/address/0xc5B457325e6bEE5E32FCd00dCFCcf657e1f30B4C) |
+| **BOLD** `0x6440f144b7e50D6a8439336510312d2F54beB01D` | `0x596cDF5D33486b035e8482688c638E7dcAf25a7b` [View](https://etherscan.io/address/0x596cDF5D33486b035e8482688c638E7dcAf25a7b) |
+| **sBOLD** `0x50Bd66D59911F5e086Ec87aE43C811e0D059DD11` | `0x3c3F08A0cE5dC1608D7E11167C60244E16922D93` [View](https://etherscan.io/address/0x3c3F08A0cE5dC1608D7E11167C60244E16922D93) |
+| **PT-sBOLD-27NOV2025** `0x66526197a4BAf496D97e1004e43c2C374Fb7d2E7` | `0xa0f108184a8c461640fE8349a2FD36e3c6cd3E77` [View](https://etherscan.io/address/0xa0f108184a8c461640fE8349a2FD36e3c6cd3E77) |
 
 
 ### Arbitrum Price Oracles
