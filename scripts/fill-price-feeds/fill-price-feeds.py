@@ -24,7 +24,8 @@ RPC_URLS = {
     "arbitrum": os.getenv("ARBITRUM_RPC_URL", "https://arb1.arbitrum.io/rpc"),
     "base": os.getenv("BASE_RPC_URL", "https://mainnet.base.org"),
     "unichain": os.getenv("UNICHAIN_RPC_URL", "https://mainnet.unichain.org"),
-    "tac": os.getenv("TAC_RPC_URL", "https://rpc.ankr.com/tac")
+    "tac": os.getenv("TAC_RPC_URL", "https://rpc.ankr.com/tac"),
+    "ink": os.getenv("INK_RPC_URL", "https://ink.drpc.org")
 }
 
 for chain, url in RPC_URLS.items():
@@ -36,7 +37,8 @@ CHAIN_START_BLOCKS = {
     "arbitrum": 218743859,
     "base": 21704649,
     "unichain": 17867366,
-    "tac": 239
+    "tac": 239,
+    "ink": 19102371
 }
 
 EXPLORERS = {
@@ -44,7 +46,8 @@ EXPLORERS = {
     "arbitrum": "https://arbiscan.io/address/",
     "base": "https://basescan.org/address/",
     "unichain": "https://uniscan.xyz/address/",
-    "tac": "https://explorer.tac.build/address/"
+    "tac": "https://explorer.tac.build/address/",
+    "ink": "https://explorer.inkonchain.com/address/"
 }
 
 NAMES = {
@@ -52,7 +55,8 @@ NAMES = {
     "arbitrum": "Arbitrum",
     "base": "Base",
     "unichain": "Unichain",
-    "tac": "TAC"
+    "tac": "TAC",
+    "ink": "Ink"
 }
 
 TOKEN_ABI = [
@@ -216,7 +220,8 @@ def update_addresses_json(priceoracles_file, addresses_file):
                 "arbitrum": {"price_oracles": []},
                 "base": {"price_oracles": []},
                 "unichain": {"price_oracles": []},
-                "tac": {"price_oracles": []}
+                "tac": {"price_oracles": []},
+                "ink": {"price_oracles": []}
             }
 
         blockchain_priceoracles = {
@@ -224,7 +229,8 @@ def update_addresses_json(priceoracles_file, addresses_file):
             "arbitrum": {},
             "base": {},
             "unichain": {},
-            "tac": {}
+            "tac": {},
+            "ink": {}
         }
 
         web3_connections = {}
@@ -249,7 +255,8 @@ def update_addresses_json(priceoracles_file, addresses_file):
             "arbitrum": {},
             "base": {},
             "unichain": {},
-            "tac": {}
+            "tac": {},
+            "ink": {}
         }
 
         unique_addresses = {
@@ -257,7 +264,8 @@ def update_addresses_json(priceoracles_file, addresses_file):
             "arbitrum": {},
             "base": {},
             "unichain": {},
-            "tac": {}
+            "tac": {},
+            "ink": {}
         }
 
         address_to_date_key = {
@@ -265,7 +273,8 @@ def update_addresses_json(priceoracles_file, addresses_file):
             "arbitrum": {},
             "base": {},
             "unichain": {},
-            "tac": {}
+            "tac": {},
+            "ink": {}
         }
 
         for file_path, priceoracles in priceoracles_data.items():
@@ -280,6 +289,8 @@ def update_addresses_json(priceoracles_file, addresses_file):
                 chain = "unichain"
             elif "tac" in file_path:
                 chain = "tac"
+            elif "ink" in file_path:
+                chain = "ink"
 
             if not chain:
                 continue
