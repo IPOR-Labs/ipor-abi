@@ -310,6 +310,12 @@
         }
       },
       {
+        "name": "BalanceFuseLiquity",
+        "versions": {
+          "2025-07-15": "0x76E7F7174415E93D770Efe004d4b8C9c76C3C6E2"
+        }
+      },
+      {
         "name": "BalanceFuseMetaMorphoMarket0001",
         "versions": {
           "2024-12-12": "0xCb6BB5ab51cDc6EFB3B81C84f252Cfe6bFbA6566"
@@ -460,6 +466,12 @@
         "name": "MaintenanceFuseUpdateWithdrawManager",
         "versions": {
           "2025-03-13": "0x74CA34C2C47d0865856A54060246AB736a0Bb0D0"
+        }
+      },
+      {
+        "name": "StabilityPoolFuseLiquity",
+        "versions": {
+          "2025-07-15": "0x5f0E7454F0AF81141806ec3B31D972401Bae3Edb"
         }
       },
       {
