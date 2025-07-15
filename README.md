@@ -6,7 +6,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Fuses List
 
-*Last updated: 2025-07-15 10:46:48 UTC*
+*Last updated: 2025-07-15 18:27:17 UTC*
 
 ### Ethereum Fuses
 
@@ -328,9 +328,22 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `TacStakingRedelegateFuse` | `0x7b499CE3B1babc150bdbc6F31E52200D6Cdb02E9` [View](https://explorer.tac.build/address/0x7b499CE3B1babc150bdbc6F31E52200D6Cdb02E9#code) |
 | `UniversalReaderBalanceFuses` | `0xAbD1823440f718f2f5F8B549868600Ea7Fd5A72a` [View](https://explorer.tac.build/address/0xAbD1823440f718f2f5F8B549868600Ea7Fd5A72a#code) |
 
+### Ink Fuses
+
+| Fuse Name | Address / View in Explorer |
+|-----------|---------------------------|
+| `BalanceFuseBurnRequestFee` | `0xF4Db8b9315B89Ca94Da07788faD2C942Af7F7b67` [View](https://explorer.inkonchain.com/address/0xF4Db8b9315B89Ca94Da07788faD2C942Af7F7b67#code) |
+| `BalanceFuseErc20` | `0x3DAf55a976821680cB812330CbbDc82816EBe4C0` [View](https://explorer.inkonchain.com/address/0x3DAf55a976821680cB812330CbbDc82816EBe4C0#code) |
+| `BalanceFuseUniversalTokenSwapper` | `0xE4F26Ad8d3f7f6d7d52C18f19eF066C884D60168` [View](https://explorer.inkonchain.com/address/0xE4F26Ad8d3f7f6d7d52C18f19eF066C884D60168#code) |
+| `BurnRequestFeeFuse` | `0x38FfDFc14D17aBC9f996f22cc105F6B48D7Ce2a2` [View](https://explorer.inkonchain.com/address/0x38FfDFc14D17aBC9f996f22cc105F6B48D7Ce2a2#code) |
+| `SwapFuseUniversalTokenSwapper` | `0xd50C735Ef23E4119134aA5e85076f6BfC44d8649` [View](https://explorer.inkonchain.com/address/0xd50C735Ef23E4119134aA5e85076f6BfC44d8649#code) |
+| `SwapFuseUniversalTokenSwapperEth` | `0x20A50284b04B4AbEFdCfBfE95910A0A361a4A991` [View](https://explorer.inkonchain.com/address/0x20A50284b04B4AbEFdCfBfE95910A0A361a4A991#code) |
+| `SwapFuseUniversalTokenSwapperWithVerification` | `0x143fA0BaA257d734eA70F7240995649Aa9cb43A8` [View](https://explorer.inkonchain.com/address/0x143fA0BaA257d734eA70F7240995649Aa9cb43A8#code) |
+| `UniversalReaderBalanceFuses` | `0x9Da21B83375041937C3D91cCA2cCb11E3e427FbB` [View](https://explorer.inkonchain.com/address/0x9Da21B83375041937C3D91cCA2cCb11E3e427FbB#code) |
+
 ## PreHooks List
 
-*Last updated: 2025-07-15 10:46:49 UTC*
+*Last updated: 2025-07-15 18:27:28 UTC*
 
 ### Ethereum PreHooks
 
@@ -372,9 +385,16 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `PreHookPauseFunction` | `0x97cAA1a25a1c37a8b748E53DDe48fc44C18E7e2B` [View](https://explorer.tac.build/address/0x97cAA1a25a1c37a8b748E53DDe48fc44C18E7e2B#code) |
 | `PreHookUpdateBalancesIgnoreDust` | `0x8D37Bea911CD0a79842f4B0f46dA805AeD23FF29` [View](https://explorer.tac.build/address/0x8D37Bea911CD0a79842f4B0f46dA805AeD23FF29#code) |
 
+### Ink PreHooks
+
+| PreHook Name | Address / View in Explorer |
+|-----------|---------------------------|
+| `PreHookPauseFunction` | `0x7B9Ca73aC9afB4119D4823e9b0E906B1abe5d16C` [View](https://explorer.inkonchain.com/address/0x7B9Ca73aC9afB4119D4823e9b0E906B1abe5d16C#code) |
+| `PreHookUpdateBalancesIgnoreDust` | `0x1d802E8B2AdC589E6d390692B56606a7F09B0Dc1` [View](https://explorer.inkonchain.com/address/0x1d802E8B2AdC589E6d390692B56606a7F09B0Dc1#code) |
+
 ## Price Oracles List
 
-*Last updated: 2025-07-15 10:47:19 UTC*
+*Last updated: 2025-07-15 18:28:02 UTC*
 
 ### Ethereum Price Oracles
 
@@ -586,5 +606,18 @@ No price feeds found for this version.
 #### Price Feeds for `PriceOracleMiddlewareUsdWithRolesProxy`
 
 ##### Version 2025-07-03 - `0x4521a59ecB7F9FC4718714DE354c86f6afF6aa6f` [View](https://explorer.tac.build/address/0x4521a59ecB7F9FC4718714DE354c86f6afF6aa6f#code)
+
+No price feeds found for this version.
+
+
+### Ink Price Oracles
+
+| Price Oracle Name | Address / View in Explorer |
+|-----------|---------------------------|
+| `PriceOracleMiddlewareUsdWithRolesProxy` | `0xC2a698A69904306a7eF90012d7C58fE02E0BC3C5` [View](https://explorer.inkonchain.com/address/0xC2a698A69904306a7eF90012d7C58fE02E0BC3C5#code) |
+
+#### Price Feeds for `PriceOracleMiddlewareUsdWithRolesProxy`
+
+##### Version 2025-07-15 - `0xC2a698A69904306a7eF90012d7C58fE02E0BC3C5` [View](https://explorer.inkonchain.com/address/0xC2a698A69904306a7eF90012d7C58fE02E0BC3C5#code)
 
 No price feeds found for this version.

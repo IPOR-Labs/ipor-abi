@@ -2453,5 +2453,83 @@
     ],
     "vaults": [],
     "pools": []
+  },
+  "ink": {
+    "fuses": [
+      {
+        "name": "BalanceFuseBurnRequestFee",
+        "versions": {
+          "2025-07-15": "0xF4Db8b9315B89Ca94Da07788faD2C942Af7F7b67"
+        }
+      },
+      {
+        "name": "BalanceFuseErc20",
+        "versions": {
+          "2025-07-15": "0x3DAf55a976821680cB812330CbbDc82816EBe4C0"
+        }
+      },
+      {
+        "name": "BalanceFuseUniversalTokenSwapper",
+        "versions": {
+          "2025-07-15": "0xE4F26Ad8d3f7f6d7d52C18f19eF066C884D60168"
+        }
+      },
+      {
+        "name": "BurnRequestFeeFuse",
+        "versions": {
+          "2025-07-15": "0x38FfDFc14D17aBC9f996f22cc105F6B48D7Ce2a2"
+        }
+      },
+      {
+        "name": "SwapFuseUniversalTokenSwapper",
+        "versions": {
+          "2025-07-15": "0xd50C735Ef23E4119134aA5e85076f6BfC44d8649"
+        }
+      },
+      {
+        "name": "SwapFuseUniversalTokenSwapperEth",
+        "versions": {
+          "2025-07-15": "0x20A50284b04B4AbEFdCfBfE95910A0A361a4A991"
+        }
+      },
+      {
+        "name": "SwapFuseUniversalTokenSwapperWithVerification",
+        "versions": {
+          "2025-07-15": "0x143fA0BaA257d734eA70F7240995649Aa9cb43A8"
+        }
+      },
+      {
+        "name": "UniversalReaderBalanceFuses",
+        "versions": {
+          "2025-07-15": "0x9Da21B83375041937C3D91cCA2cCb11E3e427FbB"
+        }
+      }
+    ],
+    "prehooks": [
+      {
+        "name": "PreHookPauseFunction",
+        "versions": {
+          "2025-07-15": "0x7B9Ca73aC9afB4119D4823e9b0E906B1abe5d16C"
+        }
+      },
+      {
+        "name": "PreHookUpdateBalancesIgnoreDust",
+        "versions": {
+          "2025-07-15": "0x1d802E8B2AdC589E6d390692B56606a7F09B0Dc1"
+        }
+      }
+    ],
+    "price_oracles": [
+      {
+        "name": "PriceOracleMiddlewareUsdWithRolesProxy",
+        "versions": {
+          "2025-07-15_001": {
+            "address": "0xC2a698A69904306a7eF90012d7C58fE02E0BC3C5"
+          }
+        }
+      }
+    ],
+    "vaults": [],
+    "pools": []
   }
 }

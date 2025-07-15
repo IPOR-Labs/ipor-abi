@@ -1,0 +1,26 @@
+[
+  {
+    "type": "function",
+    "name": "run",
+    "inputs": [
+      {
+        "name": "selector_",
+        "type": "bytes4",
+        "internalType": "bytes4"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "pure"
+  },
+  {
+    "type": "error",
+    "name": "FunctionPaused",
+    "inputs": [
+      {
+        "name": "selector",
+        "type": "bytes4",
+        "internalType": "bytes4"
+      }
+    ]
+  }
+]
