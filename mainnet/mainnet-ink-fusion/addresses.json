@@ -30,6 +30,7 @@
   "SwapFuseUniversalTokenSwapperEth": "0x20A50284b04B4AbEFdCfBfE95910A0A361a4A991",
   "SwapFuseUniversalTokenSwapperWithVerification": "0x143fA0BaA257d734eA70F7240995649Aa9cb43A8",
   "UniversalReaderBalanceFuses": "0x9Da21B83375041937C3D91cCA2cCb11E3e427FbB",
+  "UniversalReaderCallbackHandler": "0x9ED3e4b359FEf0f2084c3d784206D3e21F2630D8",
   "UniversalReaderPreHooksInfo": "0xF27f66525004481Ce2fC0dc7e2E3BA12Fe4B089C",
   "WrappedPlasmaVaultFactoryImpl": "0x50e4d6C4157c55b2A4D45E6c39b35853A53FedC3",
   "WrappedPlasmaVaultFactoryProxy": "0x3dfbfDae21E159D08F3D7ED872113389B713AB78",
