@@ -9,6 +9,7 @@ DIRECTORIES=(
   "fill-prehooks"
   "fill-price-feeds"
   "fill-vaults"
+  "fill-factory-vaults"
 )
 
 for DIRECTORY in "${DIRECTORIES[@]}"; do

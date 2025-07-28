@@ -137,6 +137,42 @@
         "token": "USDC",
         "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "PlasmaVault": "0xC1926C01ED88E93F5C266F3B43AF57c1f6E63b5D"
+      },
+      {
+        "name": "Auto-compounding Liquity ETH Stability Pool",
+        "token": "efBOLD",
+        "asset": "0x6440f144b7e50D6a8439336510312d2F54beB01D",
+        "PlasmaVault": "0x4536D493292e53c5c11DefA9e4C6826777502eFA"
+      },
+      {
+        "name": "Gami slvlUSD Looping",
+        "token": "gamislvlUSD-loop",
+        "asset": "0x4737D9b4592B40d51e110b94c9C043c6654067Ae",
+        "PlasmaVault": "0x813182901410f819F9BbF82b4Cb7B4F796281b6B"
+      },
+      {
+        "name": "Gami csUSDL Looping",
+        "token": "GamicsUSDL-loop",
+        "asset": "0xbEeFc011e94f43b8B7b455eBaB290C7Ab4E216f1",
+        "PlasmaVault": "0x24308F0aAd1b6e9F99Ada39EB3E0f8477075b8eA"
+      },
+      {
+        "name": "Gami sUSDf Looping",
+        "token": "gamisUSDf-loop",
+        "asset": "0xc8CF6D7991f15525488b2A83Df53468D682Ba4B0",
+        "PlasmaVault": "0xa3a6d234171F8BDce93ee35B58463942d29226c5"
+      },
+      {
+        "name": "TAU InfiniFi Pointsmax",
+        "token": "$TAUSIUSD",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0x588480B918E13Ab6F72bADa02B231d89Cc94154C"
+      },
+      {
+        "name": "IPOR Testflight",
+        "token": "IPORTF",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0xD190c2235A1e0353d30F5189Ac927249Ad50B8C4"
       }
     ],
     "fuses": [
@@ -950,6 +986,18 @@
         "token": "wstETH",
         "asset": "0x5979D7b546E38E414F7E9822514be443A4800529",
         "PlasmaVault": "0x8Ff603adE68859D936a3b8f9A7b2bBA559cCeF7C"
+      },
+      {
+        "name": "LlamaRisk crvUSD Optimizer PoC",
+        "token": "LLRcrvUSDPoC",
+        "asset": "0x498Bf2B1e120FeD3ad3D42EA2165E9b73f99C1e5",
+        "PlasmaVault": "0xffe93Fcf25A68Dd248806a5Bf07D8AC1004D099c"
+      },
+      {
+        "name": "Arbitrum Test vault",
+        "token": "ARBTST",
+        "asset": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "PlasmaVault": "0xEAbB2BEA1185d0c71f06c0Dd6BF270bdF0758562"
       }
     ],
     "fuses": [
@@ -1516,6 +1564,114 @@
         "token": "USDC",
         "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
         "PlasmaVault": "0xa51787E262E53220bbEef297613ee28a9C011937"
+      },
+      {
+        "name": "Maciek F2 Ultra USDC Yield machine",
+        "token": "MF2",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x352722980808Bd004aFAB050C15c4147747dD133"
+      },
+      {
+        "name": "Woo USDC",
+        "token": "WOOUSDC",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x527D88Bff0654191F04116B08f7A62657e08e7ee"
+      },
+      {
+        "name": "alphazero-usdc-2",
+        "token": "AzeroUSDC",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0xA3efEfBF1Ef0f97712582924D7D36d14361C4401"
+      },
+      {
+        "name": "6578654",
+        "token": "SHESH",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0xDE02E5C0fF43127653da07b3c7c6c42D85698904"
+      },
+      {
+        "name": "Clearstar Core ",
+        "token": "CSCORE",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0xf2F8386B88CB15c5CeaDE069c44f57fd2fD35E95"
+      },
+      {
+        "name": "Woo USDC 2",
+        "token": "WOOUSDC2",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x5C3F21e11C882B239146130b2D490316442a6d3E"
+      },
+      {
+        "name": "Liquity Stability Pool Test",
+        "token": "IPLSPT",
+        "asset": "0x03569CC076654F82679C4BA2124D64774781B01D",
+        "PlasmaVault": "0xccDE6Aec5718088FFE794D571A4c2ea410e1bDD9"
+      },
+      {
+        "name": "Test vault",
+        "token": "tst",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x18d7fe241df221Db1E240051b69Fc5dBAFae6C90"
+      },
+      {
+        "name": "Test vault",
+        "token": "TST",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0xbD47f8363DCC07836374d246a077325284BF6224"
+      },
+      {
+        "name": "New test vault",
+        "token": "TST",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x151838C4c1C854C9fc9B9a653098d96A3917B3BA"
+      },
+      {
+        "name": "TiD Capital Base USD Testing Vault",
+        "token": "TiD_BASE_USD_TEST",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0xE033f8f1Ee8528691e81b2706cbD57f71A87BFa4"
+      },
+      {
+        "name": "TiD Capital Base USD Testing Vault",
+        "token": "TiD_BASE_USD_TEST",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0xf69A064522f73717d837f2ccB249e081090B6a3B"
+      },
+      {
+        "name": "Test",
+        "token": "tst",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0xeaa0dcEBEef1b4C88c0ca73Dc2513dEF3587fB87"
+      },
+      {
+        "name": "demo vault",
+        "token": "demo",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x381dd941605C44a606D3a1c272b1b6B3543B38Ff"
+      },
+      {
+        "name": "DummyPTLendingOptimizer",
+        "token": "dummyPTLending",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0xf50b199c23C86b2284731e21BF8D036189e0C45A"
+      },
+      {
+        "name": "Test vault",
+        "token": "TST",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0xE326Df5357c931C42C58CA3E167727cF107207C6"
+      },
+      {
+        "name": "alpha-zero-btc",
+        "token": "zeroBTC",
+        "asset": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+        "PlasmaVault": "0x9aE51f9729713a556A700724Ef84238EA579a1b8"
+      },
+      {
+        "name": "Synchrotron",
+        "token": "CSSYNCH",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x6d6ca3a393a36AB94f25664Ca94B10DA117A111D"
       }
     ],
     "fuses": [
@@ -2394,6 +2550,24 @@
         "token": "WETH",
         "asset": "0x4200000000000000000000000000000000000006",
         "PlasmaVault": "0x2aF2146E6722B80A0A455F405eDFF3993715E417"
+      },
+      {
+        "name": "Woo USDC",
+        "token": "WOOUSDC",
+        "asset": "0x078D782b760474a361dDA0AF3839290b0EF57AD6",
+        "PlasmaVault": "0x05506347FEBE0D15CE283f26eA8B70813B4F74aC"
+      },
+      {
+        "name": "Yo Vault",
+        "token": "YVV",
+        "asset": "0x078D782b760474a361dDA0AF3839290b0EF57AD6",
+        "PlasmaVault": "0x6FBb0f62B79da4ED1E8ec42b7534Da9B3f5ad11f"
+      },
+      {
+        "name": "This sample vault",
+        "token": "TSV",
+        "asset": "0x078D782b760474a361dDA0AF3839290b0EF57AD6",
+        "PlasmaVault": "0xa8eFd13FFb9d8616a6133c910dF591202f67d2E0"
       }
     ],
     "pools": []
@@ -2485,7 +2659,26 @@
         }
       }
     ],
-    "vaults": [],
+    "vaults": [
+      {
+        "name": "Test",
+        "token": "TST",
+        "asset": "0xAF988C3f7CB2AceAbB15f96b19388a259b6C438f",
+        "PlasmaVault": "0x8529bE372ffe4762c5eE687f2Ff3FF32dc024187"
+      },
+      {
+        "name": "Test TAC Vault",
+        "token": "TSC",
+        "asset": "0xAF988C3f7CB2AceAbB15f96b19388a259b6C438f",
+        "PlasmaVault": "0x101539f9331A3c8C9e0a55FDC00710986c9FC04c"
+      },
+      {
+        "name": "gForce Vault",
+        "token": "GFRC",
+        "asset": "0xB63B9f0eb4A6E6f191529D71d4D88cc8900Df2C9",
+        "PlasmaVault": "0x754bed7C83FB9bc172df86e606be7baC8bD69357"
+      }
+    ],
     "pools": []
   },
   "ink": {
