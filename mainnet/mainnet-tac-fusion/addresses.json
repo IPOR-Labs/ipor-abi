@@ -34,6 +34,7 @@
   "TacStakingEmergencyFuse": "0xaBdFC4f716227946ACbCB6d9089Ab8c4BDEDB7C7",
   "TacStakingRedelegateFuse": "0x7b499CE3B1babc150bdbc6F31E52200D6Cdb02E9",
   "UniversalReaderBalanceFuses": "0xAbD1823440f718f2f5F8B549868600Ea7Fd5A72a",
+  "UniversalReaderCallbackHandler": "0x7c1f89992FbF49ec9340aFAA81b46d86F28a0F56",
   "UniversalReaderPreHooksInfo": "0x817d48141e8b140d313acB670db01CE0B9A0D0Db",
   "WrappedPlasmaVaultFactoryImpl": "0xe5bf0302Bb2A8E27DB081098106BfE88E4Fc228D",
   "WrappedPlasmaVaultFactoryProxy": "0xB8AD579cAf08b7530E228d2DDbe5A8ecc9Ab2D41",

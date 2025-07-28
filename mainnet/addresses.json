@@ -650,6 +650,18 @@
         }
       },
       {
+        "name": "SwapFuseUniversalTokenSwapperEthNoSlippage",
+        "versions": {
+          "2025-07-25": "0xd932D47FcF53D8dc1eF58455Dd5910E19aF2DbF0"
+        }
+      },
+      {
+        "name": "SwapFuseUniversalTokenSwapperWithVerification",
+        "versions": {
+          "2025-07-25": "0x4E0B22A5052B640967c55b92401b1c067FdA53e0"
+        }
+      },
+      {
         "name": "UniversalReaderBalanceFuses",
         "versions": {
           "2025-03-25": "0x870E1Fb75BEdbc2eFB92857DC2B2cF171a0AEC1f"
@@ -1299,6 +1311,12 @@
         "name": "SwapFuseUniversalTokenSwapperEth",
         "versions": {
           "2025-04-29": "0xd43a359890072D1b3939366e612D7FA0C7DDdB32"
+        }
+      },
+      {
+        "name": "SwapFuseUniversalTokenSwapperWithVerification",
+        "versions": {
+          "2025-07-25": "0x64D077CD727937E5A4861A2695C2C9AD65EED700"
         }
       },
       {
@@ -1978,6 +1996,12 @@
         }
       },
       {
+        "name": "SwapFuseUniversalTokenSwapperWithVerification",
+        "versions": {
+          "2025-07-25": "0x38Bd09C17EA88ceB2F7916BF07AF13C2D9F72370"
+        }
+      },
+      {
         "name": "UniversalReaderBalanceFuses",
         "versions": {
           "2025-03-25": "0xE33F6a15D382CeabB8f351320BF63EE2860E8203"
@@ -2310,6 +2334,12 @@
         }
       },
       {
+        "name": "SwapFuseUniversalTokenSwapperWithVerification",
+        "versions": {
+          "2025-07-25": "0x50f97E9DB639380C77BA3e4B3039E57649e527Ac"
+        }
+      },
+      {
         "name": "UniversalReaderBalanceFuses",
         "versions": {
           "2025-06-18": "0x65fb961658b4D3D6Ca0A47b741C5D181C25c64f4"
@@ -2348,6 +2378,10 @@
               "0x7DCC39B4d1C53CB31e1aBc0e358b43987FEF80f7": {
                 "symbol": "weETH",
                 "source": "0x06F05AeaADaB7127f61DC39F53789b80CdEE88c3"
+              },
+              "0xc3eACf0612346366Db554C991D7858716db09f58": {
+                "symbol": "rsETH",
+                "source": "0x85C4F855Bc0609D2584405819EdAEa3aDAbfE97D"
               }
             }
           }
