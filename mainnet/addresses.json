@@ -178,529 +178,1153 @@
     "fuses": [
       {
         "name": "BalanceFuseAaveV3",
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
+        },
         "versions": {
-          "2024-09-29": "0x05bCb16a50DaFE0526FB7b3941B81B1B74a7877e"
+          "2024-09-29": {
+            "address": "0x05bCb16a50DaFE0526FB7b3941B81B1B74a7877e",
+            "status": 1
+          }
         }
       },
       {
         "name": "BalanceFuseAaveV3Lido",
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
+        },
         "versions": {
-          "2025-03-10": "0xE5a3958B24767b30f0f5d3F47A25cFB4c08c1053"
+          "2025-03-10": {
+            "address": "0xE5a3958B24767b30f0f5d3F47A25cFB4c08c1053",
+            "status": 1
+          }
         }
       },
       {
         "name": "BalanceFuseBurnRequestFee",
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
+        },
         "versions": {
-          "2025-03-10": "0xbc2907d76964510a4232878e7aC6E2B18c474EFb"
+          "2025-03-10": {
+            "address": "0xbc2907d76964510a4232878e7aC6E2B18c474EFb",
+            "status": 1
+          }
         }
       },
       {
         "name": "BalanceFuseCompoundV3Usdc",
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
+        },
         "versions": {
-          "2024-09-29": "0x7070d0A706Bf79A1e6d12706b9a429b9D8099C8b"
+          "2024-09-29": {
+            "address": "0x7070d0A706Bf79A1e6d12706b9a429b9D8099C8b",
+            "status": 1
+          }
         }
       },
       {
         "name": "BalanceFuseCompoundV3Usdt",
         "versions": {
-          "2024-09-29": "0x9eF773720BbF05353b1D5e800E529315325A4481"
+          "2024-09-29": {
+            "address": "0x9eF773720BbF05353b1D5e800E529315325A4481",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseErc20",
         "versions": {
-          "2025-01-16": "0x6cEBf3e3392D0860Ed174402884b941DCBB30654"
+          "2025-01-16": {
+            "address": "0x6cEBf3e3392D0860Ed174402884b941DCBB30654",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseErc4626Market1",
         "versions": {
-          "2025-03-17": "0x2C10C36028C430f445a4bA9f7Dd096a5DcC75d5e"
+          "2025-03-17": {
+            "address": "0x2C10C36028C430f445a4bA9f7Dd096a5DcC75d5e",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseErc4626Market10",
         "versions": {
-          "2025-05-19": "0x19E332aBA9cd9387e9310C9645B0a4B03a6e7906"
+          "2025-05-19": {
+            "address": "0x19E332aBA9cd9387e9310C9645B0a4B03a6e7906",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseErc4626Market11",
         "versions": {
-          "2025-05-19": "0xf3D20CA7e35687b159C2EA4C3876C89aFa27BF11"
+          "2025-05-19": {
+            "address": "0xf3D20CA7e35687b159C2EA4C3876C89aFa27BF11",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseErc4626Market12",
         "versions": {
-          "2025-05-19": "0x2E3266358674C8A54EaD81610C3C41033279E7Dd"
+          "2025-05-19": {
+            "address": "0x2E3266358674C8A54EaD81610C3C41033279E7Dd",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseErc4626Market13",
         "versions": {
-          "2025-05-19": "0xa72f8391D7c9F1991769b76858b8Ac54cCEE92CF"
+          "2025-05-19": {
+            "address": "0xa72f8391D7c9F1991769b76858b8Ac54cCEE92CF",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseErc4626Market14",
         "versions": {
-          "2025-05-19": "0x1469e4f7C78805C48b550fC4F49e4e2995512ee8"
+          "2025-05-19": {
+            "address": "0x1469e4f7C78805C48b550fC4F49e4e2995512ee8",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseErc4626Market15",
         "versions": {
-          "2025-05-19": "0x5D4474A85b445671BD0d33Da944036D9522b9A9a"
+          "2025-05-19": {
+            "address": "0x5D4474A85b445671BD0d33Da944036D9522b9A9a",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseErc4626Market2",
         "versions": {
-          "2025-03-17": "0x933bfF1078fF1a0ca3b53dad00d7B1850aF8749b"
+          "2025-03-17": {
+            "address": "0x933bfF1078fF1a0ca3b53dad00d7B1850aF8749b",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseErc4626Market3",
         "versions": {
-          "2025-04-04": "0x318DC5D24bcC71bA0127A45e009B64BdBA0C2EdF"
+          "2025-04-04": {
+            "address": "0x318DC5D24bcC71bA0127A45e009B64BdBA0C2EdF",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseErc4626Market4",
         "versions": {
-          "2025-04-04": "0xF9a1F7147D04d569AF9f9E1b6b713935cA1308fe"
+          "2025-04-04": {
+            "address": "0xF9a1F7147D04d569AF9f9E1b6b713935cA1308fe",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseErc4626Market5",
         "versions": {
-          "2025-04-04": "0x560c836581476a95B5adf65b1986fBa3cF7772f0"
+          "2025-04-04": {
+            "address": "0x560c836581476a95B5adf65b1986fBa3cF7772f0",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseErc4626Market6",
         "versions": {
-          "2025-05-19": "0x8c8f2A5250d440BDf6aC21B097BE04B07CCe78aF"
+          "2025-05-19": {
+            "address": "0x8c8f2A5250d440BDf6aC21B097BE04B07CCe78aF",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseErc4626Market7",
         "versions": {
-          "2025-05-19": "0x32971e61678B0A77A07425F617F83C6D5aeCf8e7"
+          "2025-05-19": {
+            "address": "0x32971e61678B0A77A07425F617F83C6D5aeCf8e7",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseErc4626Market8",
         "versions": {
-          "2025-05-19": "0x10e2c21205c180654b8eEa5B75c3A51014CDb336"
+          "2025-05-19": {
+            "address": "0x10e2c21205c180654b8eEa5B75c3A51014CDb336",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseErc4626Market9",
         "versions": {
-          "2025-05-19": "0x806B55F731b0Bf5d32D9d14785743589ea23fb94"
+          "2025-05-19": {
+            "address": "0x806B55F731b0Bf5d32D9d14785743589ea23fb94",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseEulerV2",
         "versions": {
-          "2024-11-26": "0xA607855Ec4881B5F25711d1404E0CddeAdEEacdC",
-          "2025-07-01": "0xAE9a37DD9229687662834e6696e396e7837BAABD"
+          "2024-11-26": {
+            "address": "0xA607855Ec4881B5F25711d1404E0CddeAdEEacdC",
+            "status": 1
+          },
+          "2025-07-01": {
+            "address": "0xAE9a37DD9229687662834e6696e396e7837BAABD",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseFlashLoanMorpho",
         "versions": {
-          "2025-01-16": "0xB1B74e885349cd9D1F0efFb2E1ce0fB79959D7cf"
+          "2025-01-16": {
+            "address": "0xB1B74e885349cd9D1F0efFb2E1ce0fB79959D7cf",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "flashLoan"
         }
       },
       {
         "name": "BalanceFuseFluidInstadappPoolFToken",
         "versions": {
-          "2024-09-29": "0xA0777a5b44D36eE425DC0Ca828549f06E40E0cEE"
+          "2024-09-29": {
+            "address": "0xA0777a5b44D36eE425DC0Ca828549f06E40E0cEE",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseFluidInstadappStakingRewardsFToken",
         "versions": {
-          "2024-09-29": "0xE9d0e294A0524962c43eEDFA935F1E8112A16AbA"
+          "2024-09-29": {
+            "address": "0xE9d0e294A0524962c43eEDFA935F1E8112A16AbA",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "rewards"
         }
       },
       {
         "name": "BalanceFuseGearboxV3DToken",
         "versions": {
-          "2024-09-29": "0xE1FD88a76e95dd735c6dda45b2ABA9E5fFA9a7F3"
+          "2024-09-29": {
+            "address": "0xE1FD88a76e95dd735c6dda45b2ABA9E5fFA9a7F3",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseGearboxV3FarmDToken",
         "versions": {
-          "2024-09-29": "0xE88982097ECdF1dcFC4D500e3392Ee0eb70B45f2"
+          "2024-09-29": {
+            "address": "0xE88982097ECdF1dcFC4D500e3392Ee0eb70B45f2",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseHarvestDoHardWork",
         "versions": {
-          "2025-06-02": "0x759ddf11E56d2915fE10Ea8C4Dbfc44A8D048E6E"
+          "2025-06-02": {
+            "address": "0x759ddf11E56d2915fE10Ea8C4Dbfc44A8D048E6E",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseLiquity",
         "versions": {
-          "2025-07-15": "0x76E7F7174415E93D770Efe004d4b8C9c76C3C6E2"
+          "2025-07-15": {
+            "address": "0x76E7F7174415E93D770Efe004d4b8C9c76C3C6E2",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseMetaMorphoMarket0001",
         "versions": {
-          "2024-12-12": "0xCb6BB5ab51cDc6EFB3B81C84f252Cfe6bFbA6566"
+          "2024-12-12": {
+            "address": "0xCb6BB5ab51cDc6EFB3B81C84f252Cfe6bFbA6566",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseMorpho",
         "versions": {
-          "2024-09-29": "0x0aD1776B9319a03216A44AbA0242cC0Bc7e3CaC3"
+          "2024-09-29": {
+            "address": "0x0aD1776B9319a03216A44AbA0242cC0Bc7e3CaC3",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFusePendle",
         "versions": {
-          "2025-04-04": "0x48bD852d83f6e58Af59255aBc708e3ddeCB1d1E6"
+          "2025-04-04": {
+            "address": "0x48bD852d83f6e58Af59255aBc708e3ddeCB1d1E6",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseSpark",
         "versions": {
-          "2024-09-29": "0xb3ca07c9c10374D51046F94e5547a2C501DA0ab4"
+          "2024-09-29": {
+            "address": "0xb3ca07c9c10374D51046F94e5547a2C501DA0ab4",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseUniversalTokenSwapper",
         "versions": {
-          "2025-01-16": "0xe9562d7bd06b43E6391C5bE4B3c5F5C2BC1E06Bf"
+          "2025-01-16": {
+            "address": "0xe9562d7bd06b43E6391C5bE4B3c5F5C2BC1E06Bf",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BorrowFuseAaveV3",
         "versions": {
-          "2025-05-27": "0x820D879Ef89356B93A7c71ADDBf45c40a0dDE453"
+          "2025-05-27": {
+            "address": "0x820D879Ef89356B93A7c71ADDBf45c40a0dDE453",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "borrow"
         }
       },
       {
         "name": "BorrowFuseAaveV3Lido",
         "versions": {
-          "2025-03-10": "0xF020b954e02D8B8419cF5625D4371F16a678d884"
+          "2025-03-10": {
+            "address": "0xF020b954e02D8B8419cF5625D4371F16a678d884",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "borrow"
         }
       },
       {
         "name": "BorrowFuseEulerV2",
         "versions": {
-          "2024-11-26": "0x20c782C94800d709541660E322035785c89E32C2",
-          "2025-07-01": "0x6B339a926328B9a5A5705fD051aA5028D9f7f2F6"
+          "2024-11-26": {
+            "address": "0x20c782C94800d709541660E322035785c89E32C2",
+            "status": 1
+          },
+          "2025-07-01": {
+            "address": "0x6B339a926328B9a5A5705fD051aA5028D9f7f2F6",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "borrow"
         }
       },
       {
         "name": "BorrowFuseMorpho",
         "versions": {
-          "2025-01-16": "0x9981e75b7254fD268C9182631Bf89C86101359d6"
+          "2025-01-16": {
+            "address": "0x9981e75b7254fD268C9182631Bf89C86101359d6",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "borrow"
         }
       },
       {
         "name": "BurnRequestFeeFuse",
         "versions": {
-          "2025-03-06": "0x79e8B115Bd41baee318c1940F42F1a2d94D29ab4"
+          "2025-03-06": {
+            "address": "0x79e8B115Bd41baee318c1940F42F1a2d94D29ab4",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "other"
         }
       },
       {
         "name": "ClaimRewardsFuseCompoundV3",
         "versions": {
-          "2024-11-26": "0x2B98080341D9469d8beAbf2db037dE8897c232cD"
+          "2024-11-26": {
+            "address": "0x2B98080341D9469d8beAbf2db037dE8897c232cD",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "rewards"
         }
       },
       {
         "name": "ClaimRewardsFuseFluidInstadapp",
         "versions": {
-          "2024-09-29": "0x59Da0ce05CfCf0DA3257a96446e5B98EDB788c25"
+          "2024-09-29": {
+            "address": "0x59Da0ce05CfCf0DA3257a96446e5B98EDB788c25",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "rewards"
         }
       },
       {
         "name": "ClaimRewardsFuseFluidProof",
         "versions": {
-          "2025-01-28": "0x30AdE01153CB697BB751cacb6392F49C22558fe0"
+          "2025-01-28": {
+            "address": "0x30AdE01153CB697BB751cacb6392F49C22558fe0",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "rewards"
         }
       },
       {
         "name": "ClaimRewardsFuseGearboxV3FarmDToken",
         "versions": {
-          "2024-09-29": "0xF710B1dAAB1623FeEB78D32bf34E288C3ee67072"
+          "2024-09-29": {
+            "address": "0xF710B1dAAB1623FeEB78D32bf34E288C3ee67072",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "rewards"
         }
       },
       {
         "name": "ClaimRewardsFuseMorpho",
         "versions": {
-          "2024-12-12": "0x6820dF665BA09FBbd3240aA303421928EF4C71a1"
+          "2024-12-12": {
+            "address": "0x6820dF665BA09FBbd3240aA303421928EF4C71a1",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "rewards"
         }
       },
       {
         "name": "CollateralFuseEulerV2",
         "versions": {
-          "2024-11-26": "0xF58d96142A6AbBeE5cB2f2eDe750Aa7429672618",
-          "2025-07-01": "0x07d80997d57AD9489a4c48f6134dF91822e36514"
+          "2024-11-26": {
+            "address": "0xF58d96142A6AbBeE5cB2f2eDe750Aa7429672618",
+            "status": 1
+          },
+          "2025-07-01": {
+            "address": "0x07d80997d57AD9489a4c48f6134dF91822e36514",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "collateral"
         }
       },
       {
         "name": "CollateralFuseMorpho",
         "versions": {
-          "2025-01-16": "0xE1aA89eb42C23f292cDa1544566F6EBeE3a67EED"
+          "2025-01-16": {
+            "address": "0xE1aA89eb42C23f292cDa1544566F6EBeE3a67EED",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "collateral"
         }
       },
       {
         "name": "ControllerFuseEulerV2",
         "versions": {
-          "2024-11-26": "0x4DcA6Fd6f153EE18602ac77B4396070476ec6c25",
-          "2025-07-01": "0x4bFEa07593844155c0BD5ee656cE54e864cA9B55"
+          "2024-11-26": {
+            "address": "0x4DcA6Fd6f153EE18602ac77B4396070476ec6c25",
+            "status": 1
+          },
+          "2025-07-01": {
+            "address": "0x4bFEa07593844155c0BD5ee656cE54e864cA9B55",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "other"
         }
       },
       {
         "name": "FlashloanFuseMorpho",
         "versions": {
-          "2025-01-16": "0x9185033e24dB36407b9b1A1886Cb47B9533433DE"
+          "2025-01-16": {
+            "address": "0x9185033e24dB36407b9b1A1886Cb47B9533433DE",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "flashLoan"
         }
       },
       {
         "name": "FuseHarvestDoHardWork",
         "versions": {
-          "2025-06-02": "0xDA45fe8099358bba400554c9b640170246B43e50"
+          "2025-06-02": {
+            "address": "0xDA45fe8099358bba400554c9b640170246B43e50",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "other"
         }
       },
       {
         "name": "FusePendleRedeemPtAfterMaturity",
         "versions": {
-          "2025-03-25": "0x40430a509188b71BdA9a0c06b132e978Ea2015BE"
+          "2025-03-25": {
+            "address": "0x40430a509188b71BdA9a0c06b132e978Ea2015BE",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "other"
         }
       },
       {
         "name": "FusePendleSwapPt",
         "versions": {
-          "2025-04-04": "0xEEA3812B60ca4c6D0e2672a865bf7217eCd49f95"
+          "2025-04-04": {
+            "address": "0xEEA3812B60ca4c6D0e2672a865bf7217eCd49f95",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "DEX"
         }
       },
       {
         "name": "FuseRedeemFromRequestPlasmaVaultMarket1",
         "versions": {
-          "2025-03-25": "0x906Af6A42079AdAF1aBD92F924a5d4263653AF0d"
+          "2025-03-25": {
+            "address": "0x906Af6A42079AdAF1aBD92F924a5d4263653AF0d",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "other"
         }
       },
       {
         "name": "FuseRequestSharesPlasmaVaultMarket1",
         "versions": {
-          "2025-03-25": "0x7130383298822097531Cf5cc5e3414dda1e09542"
+          "2025-03-25": {
+            "address": "0x7130383298822097531Cf5cc5e3414dda1e09542",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "other"
         }
       },
       {
         "name": "MaintenanceFuseUpdateWithdrawManager",
         "versions": {
-          "2025-03-13": "0x74CA34C2C47d0865856A54060246AB736a0Bb0D0"
+          "2025-03-13": {
+            "address": "0x74CA34C2C47d0865856A54060246AB736a0Bb0D0",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "other"
         }
       },
       {
         "name": "StabilityPoolFuseLiquity",
         "versions": {
-          "2025-07-15": "0x5f0E7454F0AF81141806ec3B31D972401Bae3Edb"
+          "2025-07-15": {
+            "address": "0x5f0E7454F0AF81141806ec3B31D972401Bae3Edb",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "other"
         }
       },
       {
         "name": "SupplyFuseAaveV3",
         "versions": {
-          "2024-09-29": "0x465D639EB964158beE11f35E8fc23f704EC936a2"
+          "2024-09-29": {
+            "address": "0x465D639EB964158beE11f35E8fc23f704EC936a2",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "supply"
         }
       },
       {
         "name": "SupplyFuseAaveV3Lido",
         "versions": {
-          "2025-03-10": "0x09791C53218010eE59464386F6a3B9D656490d60"
+          "2025-03-10": {
+            "address": "0x09791C53218010eE59464386F6a3B9D656490d60",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "supply"
         }
       },
       {
         "name": "SupplyFuseCompoundV3Usdc",
         "versions": {
-          "2024-09-29": "0x00A220F09C1CF5f549C98Fa37C837aed54aBA26c"
+          "2024-09-29": {
+            "address": "0x00A220F09C1CF5f549C98Fa37C837aed54aBA26c",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "supply"
         }
       },
       {
         "name": "SupplyFuseCompoundV3Usdt",
         "versions": {
-          "2024-09-29": "0x4f35094b049e4aa0eA98CfA00fA55f30B12aaF29"
+          "2024-09-29": {
+            "address": "0x4f35094b049e4aa0eA98CfA00fA55f30B12aaF29",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "supply"
         }
       },
       {
         "name": "SupplyFuseErc4626Market1",
         "versions": {
-          "2025-03-17": "0x12FD0EE183c85940CAedd4877f5d3Fc637515870"
+          "2025-03-17": {
+            "address": "0x12FD0EE183c85940CAedd4877f5d3Fc637515870",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "supply"
         }
       },
       {
         "name": "SupplyFuseErc4626Market10",
         "versions": {
-          "2025-05-19": "0x01D4fa645F3B98Fc9D870Dd687dE3665F0D45CDf"
+          "2025-05-19": {
+            "address": "0x01D4fa645F3B98Fc9D870Dd687dE3665F0D45CDf",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "supply"
         }
       },
       {
         "name": "SupplyFuseErc4626Market11",
         "versions": {
-          "2025-05-19": "0x6b9489369015233e049F548cE6C0deDcf17BFb90"
+          "2025-05-19": {
+            "address": "0x6b9489369015233e049F548cE6C0deDcf17BFb90",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "supply"
         }
       },
       {
         "name": "SupplyFuseErc4626Market12",
         "versions": {
-          "2025-05-19": "0xf16119e669C1fB8264DFFD92EcB1AB592f73D8e3"
+          "2025-05-19": {
+            "address": "0xf16119e669C1fB8264DFFD92EcB1AB592f73D8e3",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "supply"
         }
       },
       {
         "name": "SupplyFuseErc4626Market13",
         "versions": {
-          "2025-05-19": "0x970b4f5522685D4826eceb0377B3DdBF12836dFd"
+          "2025-05-19": {
+            "address": "0x970b4f5522685D4826eceb0377B3DdBF12836dFd",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "supply"
         }
       },
       {
         "name": "SupplyFuseErc4626Market14",
         "versions": {
-          "2025-05-19": "0xD6Fa88B765846615cE14d9a444e0cB350043b783"
+          "2025-05-19": {
+            "address": "0xD6Fa88B765846615cE14d9a444e0cB350043b783",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "supply"
         }
       },
       {
         "name": "SupplyFuseErc4626Market15",
         "versions": {
-          "2025-05-19": "0x361Baf77C94f4504691d9f3C463f9950591C9434"
+          "2025-05-19": {
+            "address": "0x361Baf77C94f4504691d9f3C463f9950591C9434",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "supply"
         }
       },
       {
         "name": "SupplyFuseErc4626Market2",
         "versions": {
-          "2025-03-17": "0x83Be46881AaeBA80B3d647e08a47301Db2e4E754"
+          "2025-03-17": {
+            "address": "0x83Be46881AaeBA80B3d647e08a47301Db2e4E754",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "supply"
         }
       },
       {
         "name": "SupplyFuseErc4626Market3",
         "versions": {
-          "2025-04-04": "0x53ecC250d70C9F8B88edb817a9097c6caAC81a6B"
+          "2025-04-04": {
+            "address": "0x53ecC250d70C9F8B88edb817a9097c6caAC81a6B",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "supply"
         }
       },
       {
         "name": "SupplyFuseErc4626Market4",
         "versions": {
-          "2025-04-04": "0x06B53AF012499D6429741B9D53e868Fd89a5D3B2"
+          "2025-04-04": {
+            "address": "0x06B53AF012499D6429741B9D53e868Fd89a5D3B2",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "supply"
         }
       },
       {
         "name": "SupplyFuseErc4626Market5",
         "versions": {
-          "2025-04-04": "0x59E58D1a800426dF9FDdDdbd248da0ACC4D38F89"
+          "2025-04-04": {
+            "address": "0x59E58D1a800426dF9FDdDdbd248da0ACC4D38F89",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "supply"
         }
       },
       {
         "name": "SupplyFuseErc4626Market6",
         "versions": {
-          "2025-05-19": "0xf492E277D6D6E051f9871E66bADFd089fB7BF5E7"
+          "2025-05-19": {
+            "address": "0xf492E277D6D6E051f9871E66bADFd089fB7BF5E7",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "supply"
         }
       },
       {
         "name": "SupplyFuseErc4626Market7",
         "versions": {
-          "2025-05-19": "0x87E3b7C430368eb4684ef622baE0D4c8C0cd590B"
+          "2025-05-19": {
+            "address": "0x87E3b7C430368eb4684ef622baE0D4c8C0cd590B",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "supply"
         }
       },
       {
         "name": "SupplyFuseErc4626Market8",
         "versions": {
-          "2025-05-19": "0xbD8a194d188Bc27A050f271a923459cAB847CA9F"
+          "2025-05-19": {
+            "address": "0xbD8a194d188Bc27A050f271a923459cAB847CA9F",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "supply"
         }
       },
       {
         "name": "SupplyFuseErc4626Market9",
         "versions": {
-          "2025-05-19": "0x62679B25956d525703c810a6c13e2324312649e8"
+          "2025-05-19": {
+            "address": "0x62679B25956d525703c810a6c13e2324312649e8",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "supply"
         }
       },
       {
         "name": "SupplyFuseEulerV2",
         "versions": {
-          "2024-11-26": "0x225D3e01d3Ba0DdF904E1Fbb46256f7D3A7e7bF0",
-          "2025-07-01": "0xDd33b4b6b9A7aA6fcC5F1D1c8ebB649A796Fd5B5"
+          "2024-11-26": {
+            "address": "0x225D3e01d3Ba0DdF904E1Fbb46256f7D3A7e7bF0",
+            "status": 1
+          },
+          "2025-07-01": {
+            "address": "0xDd33b4b6b9A7aA6fcC5F1D1c8ebB649A796Fd5B5",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "supply"
         }
       },
       {
         "name": "SupplyFuseFluidInstadappPoolFToken",
         "versions": {
-          "2024-09-29": "0xe49207496BB2Cf8C3D4FDadcad8e5f72E780B4Ae"
+          "2024-09-29": {
+            "address": "0xe49207496BB2Cf8C3D4FDadcad8e5f72E780B4Ae",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "supply"
         }
       },
       {
         "name": "SupplyFuseFluidInstadappStakingRewardsFToken",
         "versions": {
-          "2024-09-29": "0xa613249EF6D0C3dF83d0593abb63e0638d1d590F"
+          "2024-09-29": {
+            "address": "0xa613249EF6D0C3dF83d0593abb63e0638d1d590F",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "supply"
         }
       },
       {
         "name": "SupplyFuseGearboxV3DToken",
         "versions": {
-          "2024-09-29": "0x95acDF1C8f4447E655a097aEa3F92FB15035485D"
+          "2024-09-29": {
+            "address": "0x95acDF1C8f4447E655a097aEa3F92FB15035485D",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "supply"
         }
       },
       {
         "name": "SupplyFuseGearboxV3FarmDToken",
         "versions": {
-          "2024-09-29": "0xF6016A183745C86Dd584488c9E75c00BBD61C34E"
+          "2024-09-29": {
+            "address": "0xF6016A183745C86Dd584488c9E75c00BBD61C34E",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "supply"
         }
       },
       {
         "name": "SupplyFuseMetaMorphoMarket0001",
         "versions": {
-          "2024-12-12": "0x5E58D1f3c9155c74fC43dbBd0157ef49BaFA6A88"
+          "2024-12-12": {
+            "address": "0x5E58D1f3c9155c74fC43dbBd0157ef49BaFA6A88",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "supply"
         }
       },
       {
         "name": "SupplyFuseMorpho",
         "versions": {
-          "2024-09-29": "0xD08Cb606CEe700628E55b0B0159Ad65421E6c8Df"
+          "2024-09-29": {
+            "address": "0xD08Cb606CEe700628E55b0B0159Ad65421E6c8Df",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "supply"
         }
       },
       {
         "name": "SupplyFuseSpark",
         "versions": {
-          "2024-09-29": "0xB48CF802C2D648c46ac7f752C81e29Fa2C955E9B"
+          "2024-09-29": {
+            "address": "0xB48CF802C2D648c46ac7f752C81e29Fa2C955E9B",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "supply"
         }
       },
       {
         "name": "SwapFuseUniversalTokenSwapper",
         "versions": {
-          "2025-01-16": "0x08dFdBB6Ecf19f1fc974E0675783E1150B2B650F"
+          "2025-01-16": {
+            "address": "0x08dFdBB6Ecf19f1fc974E0675783E1150B2B650F",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "DEX"
         }
       },
       {
         "name": "SwapFuseUniversalTokenSwapperEth",
         "versions": {
-          "2025-04-29": "0xee9a18F0De64E8Eb399A3BaEF0550aa50A218768"
+          "2025-04-29": {
+            "address": "0xee9a18F0De64E8Eb399A3BaEF0550aa50A218768",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "DEX"
         }
       },
       {
         "name": "SwapFuseUniversalTokenSwapperEthNoSlippage",
         "versions": {
-          "2025-07-25": "0xd932D47FcF53D8dc1eF58455Dd5910E19aF2DbF0"
+          "2025-07-25": {
+            "address": "0xd932D47FcF53D8dc1eF58455Dd5910E19aF2DbF0",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "DEX"
         }
       },
       {
         "name": "SwapFuseUniversalTokenSwapperWithVerification",
         "versions": {
-          "2025-07-25": "0x4E0B22A5052B640967c55b92401b1c067FdA53e0"
+          "2025-07-25": {
+            "address": "0x4E0B22A5052B640967c55b92401b1c067FdA53e0",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "DEX"
         }
       },
       {
         "name": "UniversalReaderBalanceFuses",
         "versions": {
-          "2025-03-25": "0x870E1Fb75BEdbc2eFB92857DC2B2cF171a0AEC1f"
+          "2025-03-25": {
+            "address": "0x870E1Fb75BEdbc2eFB92857DC2B2cF171a0AEC1f",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       }
     ],
@@ -1004,373 +1628,818 @@
       {
         "name": "BalanceFuseAaveV3",
         "versions": {
-          "2024-09-03": "0x4CB1c4774BA1B65802c68Adb33DE99ABf8B21228"
+          "2024-09-03": {
+            "address": "0x4CB1c4774BA1B65802c68Adb33DE99ABf8B21228",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseBurnRequestFee",
         "versions": {
-          "2025-03-14": "0xF8a9E4D0899d6268421FC1af952d91782728b8E5"
+          "2025-03-14": {
+            "address": "0xF8a9E4D0899d6268421FC1af952d91782728b8E5",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseCompoundV3Usdc",
         "versions": {
-          "2024-09-03": "0xCF730BAA5542DC7570907696271bA96019FcD10C"
+          "2024-09-03": {
+            "address": "0xCF730BAA5542DC7570907696271bA96019FcD10C",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseErc20",
         "versions": {
-          "2024-09-11": "0x1a047137F2D4daE60853f87Dc13ae92C0dB2c123"
+          "2024-09-11": {
+            "address": "0x1a047137F2D4daE60853f87Dc13ae92C0dB2c123",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseErc4626Market1",
         "versions": {
-          "2024-10-15": "0xfc938b178e37788CECb6925C9034f589A91783FB"
+          "2024-10-15": {
+            "address": "0xfc938b178e37788CECb6925C9034f589A91783FB",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseErc4626Market2",
         "versions": {
-          "2024-10-15": "0xd78C731597247883103682eaF51097FB35d819B4"
+          "2024-10-15": {
+            "address": "0xd78C731597247883103682eaF51097FB35d819B4",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseErc4626Market3",
         "versions": {
-          "2024-10-15": "0x5e31e0c31Be569b0E8375B35b6354dE755525ecC"
+          "2024-10-15": {
+            "address": "0x5e31e0c31Be569b0E8375B35b6354dE755525ecC",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseErc4626Market4",
         "versions": {
-          "2025-02-26": "0xa57AE6DD2551eDE6eAd278E47DF9dF3535935418"
+          "2025-02-26": {
+            "address": "0xa57AE6DD2551eDE6eAd278E47DF9dF3535935418",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseErc4626Market5",
         "versions": {
-          "2025-02-26": "0xd3f1F690c9459c1cd7048725f420149668240b7B"
+          "2025-02-26": {
+            "address": "0xd3f1F690c9459c1cd7048725f420149668240b7B",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseErc4626Market6",
         "versions": {
-          "2025-02-26": "0x37189A0f865abACc9445F5E44D2d35426d0F2CF7"
+          "2025-02-26": {
+            "address": "0x37189A0f865abACc9445F5E44D2d35426d0F2CF7",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseErc4626Market7",
         "versions": {
-          "2025-02-26": "0xA1cD5b1112e6700D98a4A4B39A7946fEC3a4663B"
+          "2025-02-26": {
+            "address": "0xA1cD5b1112e6700D98a4A4B39A7946fEC3a4663B",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseEulerV2",
         "versions": {
-          "2025-05-29": "0x654Ee0c6d477A4ddFE62f600Ed52134593c1733c",
-          "2025-07-03": "0xF7dF7b8eB5B0c6d02b1b8FEC769dFE65D9a27E3b"
+          "2025-05-29": {
+            "address": "0x654Ee0c6d477A4ddFE62f600Ed52134593c1733c",
+            "status": 1
+          },
+          "2025-07-03": {
+            "address": "0xF7dF7b8eB5B0c6d02b1b8FEC769dFE65D9a27E3b",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseFluidInstadappPoolFToken",
         "versions": {
-          "2024-09-03": "0xdb26Af00177bFAE4439eB881b7742EF47EddfAF6"
+          "2024-09-03": {
+            "address": "0xdb26Af00177bFAE4439eB881b7742EF47EddfAF6",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseFluidInstadappStakingRewardsFToken",
         "versions": {
-          "2024-09-03": "0xA99ab2d4709c9FC83779Bd4B230e888DcCaEdaf6"
+          "2024-09-03": {
+            "address": "0xA99ab2d4709c9FC83779Bd4B230e888DcCaEdaf6",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "rewards"
         }
       },
       {
         "name": "BalanceFuseGearboxV3DToken",
         "versions": {
-          "2024-09-03": "0xd347F4BB96531b01c8fAB953CF8E920419193a8c"
+          "2024-09-03": {
+            "address": "0xd347F4BB96531b01c8fAB953CF8E920419193a8c",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseGearboxV3FarmDToken",
         "versions": {
-          "2024-09-03": "0xAa6C8DB1DA40f685e02564dE92Bc2276C12729f6"
+          "2024-09-03": {
+            "address": "0xAa6C8DB1DA40f685e02564dE92Bc2276C12729f6",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFusePendle",
         "versions": {
-          "2025-04-04": "0xE78D9bE2fAe6C0202Fd10fcDaf2cbc4DbfdDE7C1"
+          "2025-04-04": {
+            "address": "0xE78D9bE2fAe6C0202Fd10fcDaf2cbc4DbfdDE7C1",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseSwapPositionsRamsesV2",
         "versions": {
-          "2024-10-08": "0xD9fd7D42848A97F946f42c62eC3150D24C0a3835"
+          "2024-10-08": {
+            "address": "0xD9fd7D42848A97F946f42c62eC3150D24C0a3835",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseSwapPositionsUniswapV3",
         "versions": {
-          "2024-10-08": "0xf5f05a86e4fe84033940FC7FaEEa5E17C6614945"
+          "2024-10-08": {
+            "address": "0xf5f05a86e4fe84033940FC7FaEEa5E17C6614945",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseSwapUniswapV2",
         "versions": {
-          "2024-09-11": "0x0f0f43B3559bE3319a63082755AD05C158D3b011"
+          "2024-09-11": {
+            "address": "0x0f0f43B3559bE3319a63082755AD05C158D3b011",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseSwapUniswapV3",
         "versions": {
-          "2024-09-11": "0x43F3ca257B7e2d6BbE088B85eF2c2c57e2A3142c"
+          "2024-09-11": {
+            "address": "0x43F3ca257B7e2d6BbE088B85eF2c2c57e2A3142c",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseUniversalTokenSwapper",
         "versions": {
-          "2024-09-11": "0x7ceAe29f467db23210C6fDB95247355C87026eD0"
+          "2024-09-11": {
+            "address": "0x7ceAe29f467db23210C6fDB95247355C87026eD0",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BorrowFuseAaveV3",
         "versions": {
-          "2024-09-11": "0x28264E8b70902f6C55420EAF66AeeE12b602302E"
+          "2024-09-11": {
+            "address": "0x28264E8b70902f6C55420EAF66AeeE12b602302E",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "borrow"
         }
       },
       {
         "name": "BorrowFuseEulerV2",
         "versions": {
-          "2025-05-29": "0xe436decF5a8D7004338833555ee3970B24a9f47F",
-          "2025-07-03": "0x10eb9B247e7Ce00F3290F66d8B5E83BfD311375F"
+          "2025-05-29": {
+            "address": "0xe436decF5a8D7004338833555ee3970B24a9f47F",
+            "status": 1
+          },
+          "2025-07-03": {
+            "address": "0x10eb9B247e7Ce00F3290F66d8B5E83BfD311375F",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "borrow"
         }
       },
       {
         "name": "BurnRequestFeeFuse",
         "versions": {
-          "2025-02-26": "0x292711bC63184318294593C38Ad914AcfCd1797B",
-          "2025-03-14": "0xee322e49268760878924d18A645278aB08Ae245c"
+          "2025-02-26": {
+            "address": "0x292711bC63184318294593C38Ad914AcfCd1797B",
+            "status": 1
+          },
+          "2025-03-14": {
+            "address": "0xee322e49268760878924d18A645278aB08Ae245c",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "other"
         }
       },
       {
         "name": "ClaimRewardsFuseCompoundV3",
         "versions": {
-          "2024-10-08": "0xfa27F28934D3478F65bcfA158E3096045bFdb1Bd"
+          "2024-10-08": {
+            "address": "0xfa27F28934D3478F65bcfA158E3096045bFdb1Bd",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "rewards"
         }
       },
       {
         "name": "ClaimRewardsFuseFluidInstadapp",
         "versions": {
-          "2024-09-03": "0x5c7E10C4D6F65b89C026fC8df69891e6B90A8434"
+          "2024-09-03": {
+            "address": "0x5c7E10C4D6F65b89C026fC8df69891e6B90A8434",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "rewards"
         }
       },
       {
         "name": "ClaimRewardsFuseGearboxV3FarmDToken",
         "versions": {
-          "2024-09-03": "0xFa209140BBA92a64b1038649e7385fa860405099"
+          "2024-09-03": {
+            "address": "0xFa209140BBA92a64b1038649e7385fa860405099",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "rewards"
         }
       },
       {
         "name": "ClaimRewardsFuseRamsesV2",
         "versions": {
-          "2024-10-08": "0x6F292d12a2966c9B796642cAFD67549bbbE3D066"
+          "2024-10-08": {
+            "address": "0x6F292d12a2966c9B796642cAFD67549bbbE3D066",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "rewards"
         }
       },
       {
         "name": "CollateralFuseEulerV2",
         "versions": {
-          "2025-05-29": "0x4567EE5D7D531f2e09DA915d95c8c7bb0c2b1459",
-          "2025-07-03": "0x6D35934cB431B36338fF88641BEBF540e826bd7D"
+          "2025-05-29": {
+            "address": "0x4567EE5D7D531f2e09DA915d95c8c7bb0c2b1459",
+            "status": 1
+          },
+          "2025-07-03": {
+            "address": "0x6D35934cB431B36338fF88641BEBF540e826bd7D",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "collateral"
         }
       },
       {
         "name": "CollectSwapFuseRamsesV2",
         "versions": {
-          "2024-10-08": "0x859F5c9D5CB2800A9Ff72C56d79323EA01cB30b9"
+          "2024-10-08": {
+            "address": "0x859F5c9D5CB2800A9Ff72C56d79323EA01cB30b9",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "DEX"
         }
       },
       {
         "name": "CollectSwapFuseUniswapV3",
         "versions": {
-          "2024-09-11": "0x75781AB6CdcE9c505DbD0848f4Ad8A97c68F53c1"
+          "2024-09-11": {
+            "address": "0x75781AB6CdcE9c505DbD0848f4Ad8A97c68F53c1",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "DEX"
         }
       },
       {
         "name": "ControllerFuseEulerV2",
         "versions": {
-          "2025-05-29": "0xc27E938FCA53E3f5fE5deb9141033573048a22B4",
-          "2025-07-03": "0x2A02Ae392816441E804aa9eCcf5c0333911Dc989"
+          "2025-05-29": {
+            "address": "0xc27E938FCA53E3f5fE5deb9141033573048a22B4",
+            "status": 1
+          },
+          "2025-07-03": {
+            "address": "0x2A02Ae392816441E804aa9eCcf5c0333911Dc989",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "other"
         }
       },
       {
         "name": "FusePendleRedeemPtAfterMaturity",
         "versions": {
-          "2025-03-25": "0x1c1B7AcdF17b0B10c6F3a00B0a89fDBB6FDd61bF"
+          "2025-03-25": {
+            "address": "0x1c1B7AcdF17b0B10c6F3a00B0a89fDBB6FDd61bF",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "other"
         }
       },
       {
         "name": "FusePendleSwapPt",
         "versions": {
-          "2025-04-04": "0x31fA1E9dC753d0f565CfA9337d59A91298146244"
+          "2025-04-04": {
+            "address": "0x31fA1E9dC753d0f565CfA9337d59A91298146244",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "DEX"
         }
       },
       {
         "name": "FuseRedeemFromRequestPlasmaVaultMarket1",
         "versions": {
-          "2025-03-25": "0x4d3E8763E86Dee40B34bC21e098b26f5B9ba394d"
+          "2025-03-25": {
+            "address": "0x4d3E8763E86Dee40B34bC21e098b26f5B9ba394d",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "other"
         }
       },
       {
         "name": "FuseRequestSharesPlasmaVaultMarket1",
         "versions": {
-          "2025-03-25": "0xD6c4bf7Ac3AEA99Fa01532e4457202AE41A2596B"
+          "2025-03-25": {
+            "address": "0xD6c4bf7Ac3AEA99Fa01532e4457202AE41A2596B",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "other"
         }
       },
       {
         "name": "ModifyPositionSwapFuseRamsesV2",
         "versions": {
-          "2024-10-08": "0xD41501B46a68DeA06a460fD79a7bCda9e3b92674"
+          "2024-10-08": {
+            "address": "0xD41501B46a68DeA06a460fD79a7bCda9e3b92674",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "DEX"
         }
       },
       {
         "name": "ModifyPositionSwapFuseUniswapV3",
         "versions": {
-          "2024-09-11": "0xba503b6f2b95A4A47ee9884bbBcd80cAce2D2EB3"
+          "2024-09-11": {
+            "address": "0xba503b6f2b95A4A47ee9884bbBcd80cAce2D2EB3",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "DEX"
         }
       },
       {
         "name": "NewPositionSwapFuseRamsesV2",
         "versions": {
-          "2024-10-08": "0xb025CC5e73e2966e12e4d859360B51c1D0F45EA3"
+          "2024-10-08": {
+            "address": "0xb025CC5e73e2966e12e4d859360B51c1D0F45EA3",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "DEX"
         }
       },
       {
         "name": "NewPositionSwapFuseUniswapV3",
         "versions": {
-          "2024-10-08": "0x1DA7F95e63f12169B3495E2B83D01D0D6592DD86"
+          "2024-10-08": {
+            "address": "0x1DA7F95e63f12169B3495E2B83D01D0D6592DD86",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "DEX"
         }
       },
       {
         "name": "SupplyFuseAaveV3",
         "versions": {
-          "2024-09-03": "0x9339acD4e73C8a11109f77bC87221bDfC7b7A4FC"
+          "2024-09-03": {
+            "address": "0x9339acD4e73C8a11109f77bC87221bDfC7b7A4FC",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "supply"
         }
       },
       {
         "name": "SupplyFuseCompoundV3Usdc",
         "versions": {
-          "2024-09-03": "0xB0b3dc1B27C6c8007c9B01a768d6717f6813fE94"
+          "2024-09-03": {
+            "address": "0xB0b3dc1B27C6c8007c9B01a768d6717f6813fE94",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "supply"
         }
       },
       {
         "name": "SupplyFuseErc4626Market1",
         "versions": {
-          "2024-10-15": "0xe7d3a550F0aD32cCBEF570C670b5ac004C276f24"
+          "2024-10-15": {
+            "address": "0xe7d3a550F0aD32cCBEF570C670b5ac004C276f24",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "supply"
         }
       },
       {
         "name": "SupplyFuseErc4626Market2",
         "versions": {
-          "2024-10-15": "0xBA4e51A46b562cBaEF372C07bF191c7111a067aA"
+          "2024-10-15": {
+            "address": "0xBA4e51A46b562cBaEF372C07bF191c7111a067aA",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "supply"
         }
       },
       {
         "name": "SupplyFuseErc4626Market3",
         "versions": {
-          "2024-10-15": "0xF5c5E375d219e573B10f9c90A1815f93951AD275"
+          "2024-10-15": {
+            "address": "0xF5c5E375d219e573B10f9c90A1815f93951AD275",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "supply"
         }
       },
       {
         "name": "SupplyFuseErc4626Market4",
         "versions": {
-          "2025-02-26": "0x2f34F8566952b055F3Cc32ACB8b9C8203E91132A"
+          "2025-02-26": {
+            "address": "0x2f34F8566952b055F3Cc32ACB8b9C8203E91132A",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "supply"
         }
       },
       {
         "name": "SupplyFuseErc4626Market5",
         "versions": {
-          "2025-02-26": "0x28eE4cD5E888f6331B6c6c38959bBBE05eF7D73A"
+          "2025-02-26": {
+            "address": "0x28eE4cD5E888f6331B6c6c38959bBBE05eF7D73A",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "supply"
         }
       },
       {
         "name": "SupplyFuseErc4626Market6",
         "versions": {
-          "2025-02-26": "0x0dE665bb75556ea407C23b513A5d521064245b3e"
+          "2025-02-26": {
+            "address": "0x0dE665bb75556ea407C23b513A5d521064245b3e",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "supply"
         }
       },
       {
         "name": "SupplyFuseErc4626Market7",
         "versions": {
-          "2025-02-26": "0x624E2AB4E17aA38B078674eec75dbadcc10e295B"
+          "2025-02-26": {
+            "address": "0x624E2AB4E17aA38B078674eec75dbadcc10e295B",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "supply"
         }
       },
       {
         "name": "SupplyFuseEulerV2",
         "versions": {
-          "2025-05-29": "0x371718ca5cf78A2C8fD2f44Ec2CE88363481B2D3",
-          "2025-07-03": "0x96A29E00C13A3e23f91259364F118501e1a46344"
+          "2025-05-29": {
+            "address": "0x371718ca5cf78A2C8fD2f44Ec2CE88363481B2D3",
+            "status": 1
+          },
+          "2025-07-03": {
+            "address": "0x96A29E00C13A3e23f91259364F118501e1a46344",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "supply"
         }
       },
       {
         "name": "SupplyFuseFluidInstadappPoolFToken",
         "versions": {
-          "2024-09-03": "0x4Ae8640B3A6b71Fa1a05372A59946e66bEb05F9f"
+          "2024-09-03": {
+            "address": "0x4Ae8640B3A6b71Fa1a05372A59946e66bEb05F9f",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "supply"
         }
       },
       {
         "name": "SupplyFuseFluidInstadappStakingRewardsFToken",
         "versions": {
-          "2024-09-03": "0x2B83F05E463cbc34861b10CB020b6eB4740Bd890"
+          "2024-09-03": {
+            "address": "0x2B83F05E463cbc34861b10CB020b6eB4740Bd890",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "supply"
         }
       },
       {
         "name": "SupplyFuseGearboxV3DToken",
         "versions": {
-          "2024-09-03": "0x07cD27531ee9dF28292B26Eeba3f457609DeAe07"
+          "2024-09-03": {
+            "address": "0x07cD27531ee9dF28292B26Eeba3f457609DeAe07",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "supply"
         }
       },
       {
         "name": "SupplyFuseGearboxV3FarmDToken",
         "versions": {
-          "2024-09-03": "0xB0FBF6B7D0586C0a5Bc1C3b8a98773f4eD02c983"
+          "2024-09-03": {
+            "address": "0xB0FBF6B7D0586C0a5Bc1C3b8a98773f4eD02c983",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "supply"
         }
       },
       {
         "name": "SwapFuseUniswapV2",
         "versions": {
-          "2024-09-11": "0xAdA9bF3c599DB229601dd1220D0b3CcAb6c7db84"
+          "2024-09-11": {
+            "address": "0xAdA9bF3c599DB229601dd1220D0b3CcAb6c7db84",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "DEX"
         }
       },
       {
         "name": "SwapFuseUniswapV3",
         "versions": {
-          "2024-09-11": "0x84C5aB008C66d664681698A9E4536D942B916F89"
+          "2024-09-11": {
+            "address": "0x84C5aB008C66d664681698A9E4536D942B916F89",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "DEX"
         }
       },
       {
         "name": "SwapFuseUniversalTokenSwapper",
         "versions": {
-          "2024-09-11": "0xB052b0D983E493B4D40DeC75A03D21b70b83c2ca"
+          "2024-09-11": {
+            "address": "0xB052b0D983E493B4D40DeC75A03D21b70b83c2ca",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "DEX"
         }
       },
       {
         "name": "SwapFuseUniversalTokenSwapperEth",
         "versions": {
-          "2025-04-29": "0xd43a359890072D1b3939366e612D7FA0C7DDdB32"
+          "2025-04-29": {
+            "address": "0xd43a359890072D1b3939366e612D7FA0C7DDdB32",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "DEX"
         }
       },
       {
         "name": "SwapFuseUniversalTokenSwapperWithVerification",
         "versions": {
-          "2025-07-25": "0x64D077CD727937E5A4861A2695C2C9AD65EED700"
+          "2025-07-25": {
+            "address": "0x64D077CD727937E5A4861A2695C2C9AD65EED700",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "DEX"
         }
       },
       {
         "name": "UniversalReaderBalanceFuses",
         "versions": {
-          "2025-03-25": "0xacDB88ea2E2D248369b5b3137Fc3f971543d706c"
+          "2025-03-25": {
+            "address": "0x870E1Fb75BEdbc2eFB92857DC2B2cF171a0AEC1f",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       }
     ],
@@ -1678,489 +2747,1073 @@
       {
         "name": "BalanceFuseAaveV3",
         "versions": {
-          "2024-10-29": "0xf53f3EaFfDf67539256365cA7299540A98b60BA9"
+          "2024-10-29": {
+            "address": "0xf53f3EaFfDf67539256365cA7299540A98b60BA9",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseBurnRequestFee",
         "versions": {
-          "2025-03-14": "0x341D2459606FEB164A986767cB72Ddd8230744Fe"
+          "2025-03-14": {
+            "address": "0x341D2459606FEB164A986767cB72Ddd8230744Fe",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseCompoundV3Usdc",
         "versions": {
-          "2024-10-29": "0x62286efb801ae4eE93733c3bc1bFA0746e5103D8"
+          "2024-10-29": {
+            "address": "0x62286efb801ae4eE93733c3bc1bFA0746e5103D8",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseCompoundV3WEth",
         "versions": {
-          "2025-03-27": "0x88810B5066A92d628A1Cb59A1902bc607eeb8C1B"
+          "2025-03-27": {
+            "address": "0x88810B5066A92d628A1Cb59A1902bc607eeb8C1B",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseErc20",
         "versions": {
-          "2024-10-29": "0x9ba147FC382DBf4D73512A45370ba0B70c25F6aa"
+          "2024-10-29": {
+            "address": "0x9ba147FC382DBf4D73512A45370ba0B70c25F6aa",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseErc4626Market1",
         "versions": {
-          "2025-01-28": "0x7F4D9EFdE7EfEBBAFbb506ca3f711764cBc96391"
+          "2025-01-28": {
+            "address": "0x7F4D9EFdE7EfEBBAFbb506ca3f711764cBc96391",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseErc4626Market10",
         "versions": {
-          "2025-02-26": "0xE1725cC2AF00941Db5847a59B4aA8bF47AD35bDF"
+          "2025-02-26": {
+            "address": "0xE1725cC2AF00941Db5847a59B4aA8bF47AD35bDF",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseErc4626Market11",
         "versions": {
-          "2025-02-26": "0x9332dafA9376b7E049755FD81B01B23fC772B8A6"
+          "2025-02-26": {
+            "address": "0x9332dafA9376b7E049755FD81B01B23fC772B8A6",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseErc4626Market12",
         "versions": {
-          "2025-02-26": "0x5f565d142815Eb430ab14bC9bdA9D12C9fCa3C6c"
+          "2025-02-26": {
+            "address": "0x5f565d142815Eb430ab14bC9bdA9D12C9fCa3C6c",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseErc4626Market13",
         "versions": {
-          "2025-02-26": "0x44B13c4af19D97af4dA32c46b533C3e632000bf8"
+          "2025-02-26": {
+            "address": "0x44B13c4af19D97af4dA32c46b533C3e632000bf8",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseErc4626Market14",
         "versions": {
-          "2025-02-26": "0x4b69AC30feDDd922eb26adB30713984d5fb0e972"
+          "2025-02-26": {
+            "address": "0x4b69AC30feDDd922eb26adB30713984d5fb0e972",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseErc4626Market2",
         "versions": {
-          "2025-01-28": "0x3Dfe25F60191AAee4213080398D2Fdf65EC3CF2F"
+          "2025-01-28": {
+            "address": "0x3Dfe25F60191AAee4213080398D2Fdf65EC3CF2F",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseErc4626Market3",
         "versions": {
-          "2025-01-28": "0xfEe84b6AF26a481C1819655dAde5f5588416e19f"
+          "2025-01-28": {
+            "address": "0xfEe84b6AF26a481C1819655dAde5f5588416e19f",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseErc4626Market4",
         "versions": {
-          "2025-01-28": "0x903c1ABb5A303Cf717196e8d12CE87F46dE56719"
+          "2025-01-28": {
+            "address": "0x903c1ABb5A303Cf717196e8d12CE87F46dE56719",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseErc4626Market5",
         "versions": {
-          "2025-01-28": "0xE017C7326d371828a6877727e46A203e915AF0fD"
+          "2025-01-28": {
+            "address": "0xE017C7326d371828a6877727e46A203e915AF0fD",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseErc4626Market6",
         "versions": {
-          "2025-01-28": "0xc8C0498e36a4f26744E8222C8749cd0143F6E6EB"
+          "2025-01-28": {
+            "address": "0xc8C0498e36a4f26744E8222C8749cd0143F6E6EB",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseErc4626Market7",
         "versions": {
-          "2025-02-26": "0xC5d840B15B8DcE3F38989F4bE9f42a9308Ed8FCe"
+          "2025-02-26": {
+            "address": "0xC5d840B15B8DcE3F38989F4bE9f42a9308Ed8FCe",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseErc4626Market8",
         "versions": {
-          "2025-02-26": "0x684b5c8866AaDE4E21f8A30697A56A805B108a67"
+          "2025-02-26": {
+            "address": "0x684b5c8866AaDE4E21f8A30697A56A805B108a67",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseErc4626Market9",
         "versions": {
-          "2025-02-26": "0x32b8389d5Cc5E50221C9a127aE2B47968919FD74"
+          "2025-02-26": {
+            "address": "0x32b8389d5Cc5E50221C9a127aE2B47968919FD74",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseEulerV2",
         "versions": {
-          "2025-03-27": "0xf8bB9A9051F6E94d097686544021e6dF17EA6CaF",
-          "2025-07-01": "0xF8A6AA09bB55f2319113b0DA88883F392e66A5fa"
+          "2025-03-27": {
+            "address": "0xf8bB9A9051F6E94d097686544021e6dF17EA6CaF",
+            "status": 1
+          },
+          "2025-07-01": {
+            "address": "0xF8A6AA09bB55f2319113b0DA88883F392e66A5fa",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseFlashLoanMorpho",
         "versions": {
-          "2024-10-29": "0x1704D12204052d2a1F241d5D73f4bF0926800a5B",
-          "2024-11-18": "0x2Ce01779CfE56DC253D0Ac1b47E3bb7E597bCaEA"
+          "2024-10-29": {
+            "address": "0x1704D12204052d2a1F241d5D73f4bF0926800a5B",
+            "status": 1
+          },
+          "2024-11-18": {
+            "address": "0x2Ce01779CfE56DC253D0Ac1b47E3bb7E597bCaEA",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "flashLoan"
         }
       },
       {
         "name": "BalanceFuseFluidInstadappPoolFToken",
         "versions": {
-          "2024-10-29": "0xC80e5a95540d6ebFE4970A0743E71C639DF8C25e"
+          "2024-10-29": {
+            "address": "0xC80e5a95540d6ebFE4970A0743E71C639DF8C25e",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseFluidInstadappStakingRewardsFToken",
         "versions": {
-          "2024-10-29": "0x29d294d3d8Bb422ddDc925Cb95a903d34eEB208A"
+          "2024-10-29": {
+            "address": "0x29d294d3d8Bb422ddDc925Cb95a903d34eEB208A",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "rewards"
         }
       },
       {
         "name": "BalanceFuseMetaMorphoMarket0001",
         "versions": {
-          "2025-02-25": "0xf760384518C9157B82CDC4ecb0f53799970728d9"
+          "2025-02-25": {
+            "address": "0xf760384518C9157B82CDC4ecb0f53799970728d9",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseMoonwell",
         "versions": {
-          "2024-11-18": "0x86417B0B3B03e8BC8b68377994363796b4ccD3Bc"
+          "2024-11-18": {
+            "address": "0x86417B0B3B03e8BC8b68377994363796b4ccD3Bc",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseMorpho",
         "versions": {
-          "2024-10-29": "0x7916856E11E0CA021967D0D4daC49D737b7d73d5"
+          "2024-10-29": {
+            "address": "0x7916856E11E0CA021967D0D4daC49D737b7d73d5",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFusePendle",
         "versions": {
-          "2025-04-04": "0xc8A552BF7279a932b9fCA8F527Ef292083c5B87f"
+          "2025-04-04": {
+            "address": "0xc8A552BF7279a932b9fCA8F527Ef292083c5B87f",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseSwapPositionsUniswapV3",
         "versions": {
-          "2024-10-29": "0x9c84c1A708eB8FfE699d7c2a81eC00b028ac3aac"
+          "2024-10-29": {
+            "address": "0x9c84c1A708eB8FfE699d7c2a81eC00b028ac3aac",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseSwapUniswapV3",
         "versions": {
-          "2024-10-29": "0x5F169161227F92D6FBb691Ea1e4e89ea3fed24B3"
+          "2024-10-29": {
+            "address": "0x5F169161227F92D6FBb691Ea1e4e89ea3fed24B3",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseUniversalTokenSwapper",
         "versions": {
-          "2024-10-29": "0x706ca1cA4EcE9CF23301D6AB35ce6fb7Cf25DA15"
+          "2024-10-29": {
+            "address": "0x706ca1cA4EcE9CF23301D6AB35ce6fb7Cf25DA15",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BorrowFuseAaveV3",
         "versions": {
-          "2024-10-29": "0x1Df60F2A046F3Dce8102427e091C1Ea99aE1d774"
+          "2024-10-29": {
+            "address": "0x1Df60F2A046F3Dce8102427e091C1Ea99aE1d774",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "borrow"
         }
       },
       {
         "name": "BorrowFuseEulerV2",
         "versions": {
-          "2025-05-29": "0xFd5Ba41a7Ce38BC901308547dFCBAded2B682B11",
-          "2025-07-01": "0x906496F0D4C733275F892b1a6fC92eD56639B379"
+          "2025-05-29": {
+            "address": "0xFd5Ba41a7Ce38BC901308547dFCBAded2B682B11",
+            "status": 1
+          },
+          "2025-07-01": {
+            "address": "0x906496F0D4C733275F892b1a6fC92eD56639B379",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "borrow"
         }
       },
       {
         "name": "BorrowFuseMoonwell",
         "versions": {
-          "2024-11-18": "0x8f6951795193C5AE825397ba35e940C5586e7b7D",
-          "2024-12-04": "0x377a5B195E3C074d982BD7bAC66B48D4C3006353"
+          "2024-11-18": {
+            "address": "0x8f6951795193C5AE825397ba35e940C5586e7b7D",
+            "status": 1
+          },
+          "2024-12-04": {
+            "address": "0x377a5B195E3C074d982BD7bAC66B48D4C3006353",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "borrow"
         }
       },
       {
         "name": "BorrowFuseMorpho",
         "versions": {
-          "2024-10-29": "0x35f44aD1D9F2773dA05F4664bf574C760bA47bf6"
+          "2024-10-29": {
+            "address": "0x35f44aD1D9F2773dA05F4664bf574C760bA47bf6",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "borrow"
         }
       },
       {
         "name": "BurnRequestFeeFuse",
         "versions": {
-          "2025-02-26": "0x8Aad082F04d04d1dB2e92160bAa630e31C22C073"
+          "2025-02-26": {
+            "address": "0x8Aad082F04d04d1dB2e92160bAa630e31C22C073",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "other"
         }
       },
       {
         "name": "ClaimRewardsFuseCompoundV3",
         "versions": {
-          "2024-10-29": "0x10de4b8aa7c363999769F8a8295F4F091a77DF4F"
+          "2024-10-29": {
+            "address": "0x10de4b8aa7c363999769F8a8295F4F091a77DF4F",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "rewards"
         }
       },
       {
         "name": "ClaimRewardsFuseFluidInstadapp",
         "versions": {
-          "2024-10-29": "0x4E3139528EBA9B85addf1b7E5c36002b7bE8c9B2"
+          "2024-10-29": {
+            "address": "0x4E3139528EBA9B85addf1b7E5c36002b7bE8c9B2",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "rewards"
         }
       },
       {
         "name": "ClaimRewardsFuseFluidProof",
         "versions": {
-          "2025-03-27": "0xB002337C59a4133e328D91ed82C5012472952c6f"
+          "2025-03-27": {
+            "address": "0xB002337C59a4133e328D91ed82C5012472952c6f",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "rewards"
         }
       },
       {
         "name": "ClaimRewardsFuseMoonwell",
         "versions": {
-          "2024-11-18": "0xd253C5C54248433C7879aC14Fb03201e008C5a1e"
+          "2024-11-18": {
+            "address": "0xd253C5C54248433C7879aC14Fb03201e008C5a1e",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "rewards"
         }
       },
       {
         "name": "ClaimRewardsFuseMorpho",
         "versions": {
-          "2025-01-02": "0x26C740247FC4E1462D4C36e90057cf0e168B3B2B"
+          "2025-01-02": {
+            "address": "0x26C740247FC4E1462D4C36e90057cf0e168B3B2B",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "rewards"
         }
       },
       {
         "name": "CollateralFuseEulerV2",
         "versions": {
-          "2025-05-29": "0xF569a44710DEb64c8Dc9751D8595bb90962f7a67",
-          "2025-07-01": "0x12c479f8aB53D4884fc76F803dD24eb8B6D17a94"
+          "2025-05-29": {
+            "address": "0xF569a44710DEb64c8Dc9751D8595bb90962f7a67",
+            "status": 1
+          },
+          "2025-07-01": {
+            "address": "0x12c479f8aB53D4884fc76F803dD24eb8B6D17a94",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "collateral"
         }
       },
       {
         "name": "CollateralFuseMorpho",
         "versions": {
-          "2024-10-29": "0xDE3FD3A25534471e92C5940d418B0582802b17B6"
+          "2024-10-29": {
+            "address": "0xDE3FD3A25534471e92C5940d418B0582802b17B6",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "collateral"
         }
       },
       {
         "name": "CollectSwapFuseUniswapV3",
         "versions": {
-          "2024-10-29": "0xf13D892786aE580D1B300d378a654553c2F226De"
+          "2024-10-29": {
+            "address": "0xf13D892786aE580D1B300d378a654553c2F226De",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "other"
         }
       },
       {
         "name": "ControllerFuseEulerV2",
         "versions": {
-          "2025-05-29": "0x0F86A5ECa11A0a2539Cc24eC27826C65Cc0094eD",
-          "2025-07-01": "0x108c8cFB9e00681FfA1fa3b654937E8b3BCd2E64"
+          "2025-05-29": {
+            "address": "0x0F86A5ECa11A0a2539Cc24eC27826C65Cc0094eD",
+            "status": 1
+          },
+          "2025-07-01": {
+            "address": "0x108c8cFB9e00681FfA1fa3b654937E8b3BCd2E64",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "other"
         }
       },
       {
         "name": "EnableMarketFuseMoonwell",
         "versions": {
-          "2024-11-18": "0xD62542Ef1ABFF0ac71A1b5666CB76801e81104Ef"
+          "2024-11-18": {
+            "address": "0xD62542Ef1ABFF0ac71A1b5666CB76801e81104Ef",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "other"
         }
       },
       {
         "name": "FlashloanFuseMorpho",
         "versions": {
-          "2024-10-29": "0x20f305Ce4fC12F9171Fcd7C2fBcD7D11f6119265"
+          "2024-10-29": {
+            "address": "0x20f305Ce4fC12F9171Fcd7C2fBcD7D11f6119265",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "flashLoan"
         }
       },
       {
         "name": "FusePendleRedeemPtAfterMaturity",
         "versions": {
-          "2025-03-25": "0xE59e63565d1fD5186765EBE3302C24b72C6f2EeA"
+          "2025-03-25": {
+            "address": "0xE59e63565d1fD5186765EBE3302C24b72C6f2EeA",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "other"
         }
       },
       {
         "name": "FusePendleSwapPt",
         "versions": {
-          "2025-04-04": "0x3C715eE10C1cb2c565Fd13E35d81Df1C986eeF76"
+          "2025-04-04": {
+            "address": "0x3C715eE10C1cb2c565Fd13E35d81Df1C986eeF76",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "other"
         }
       },
       {
         "name": "FuseRedeemFromRequestPlasmaVaultMarket1",
         "versions": {
-          "2025-03-25": "0x07c547bcc5f7e66333C259B3f8938a4049aa44DF"
+          "2025-03-25": {
+            "address": "0x07c547bcc5f7e66333C259B3f8938a4049aa44DF",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "other"
         }
       },
       {
         "name": "FuseRequestSharesPlasmaVaultMarket1",
         "versions": {
-          "2025-03-25": "0xEf40141EA3263004D398136FF9EB75E5d6743C09"
+          "2025-03-25": {
+            "address": "0xEf40141EA3263004D398136FF9EB75E5d6743C09",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "other"
         }
       },
       {
         "name": "ModifyPositionSwapFuseUniswapV3",
         "versions": {
-          "2024-10-29": "0x3978b49f991949cA453601656EE97e8339f56da3"
+          "2024-10-29": {
+            "address": "0x3978b49f991949cA453601656EE97e8339f56da3",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "other"
         }
       },
       {
         "name": "NewPositionSwapFuseUniswapV3",
         "versions": {
-          "2024-10-29": "0x08C0F62E19a66800EdD2e8eBfeE02EDc912D510a"
+          "2024-10-29": {
+            "address": "0x08C0F62E19a66800EdD2e8eBfeE02EDc912D510a",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "other"
         }
       },
       {
         "name": "SupplyFuseAaveV3",
         "versions": {
-          "2024-10-29": "0x44dcB8A4c40FA9941d99F409b2948FE91B6C15d5"
+          "2024-10-29": {
+            "address": "0x44dcB8A4c40FA9941d99F409b2948FE91B6C15d5",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "supply"
         }
       },
       {
         "name": "SupplyFuseCompoundV3Usdc",
         "versions": {
-          "2024-10-29": "0x42FBD4D8f578b902Ed9030BF9035A606dDECa26f"
+          "2024-10-29": {
+            "address": "0x42FBD4D8f578b902Ed9030BF9035A606dDECa26f",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "supply"
         }
       },
       {
         "name": "SupplyFuseCompoundV3WEth",
         "versions": {
-          "2025-03-27": "0xD72Dd19C04362488a4143F43e407ec87A849b72b"
+          "2025-03-27": {
+            "address": "0xD72Dd19C04362488a4143F43e407ec87A849b72b",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "supply"
         }
       },
       {
         "name": "SupplyFuseErc4626Market1",
         "versions": {
-          "2025-01-28": "0xbe8ab5217F4f251E4A667650fc34a63035C231a8"
+          "2025-01-28": {
+            "address": "0xbe8ab5217F4f251E4A667650fc34a63035C231a8",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "supply"
         }
       },
       {
         "name": "SupplyFuseErc4626Market10",
         "versions": {
-          "2025-02-26": "0xF4FB53B8831DD70b628F225Ab8BbAadC0A93E2dC"
+          "2025-02-26": {
+            "address": "0xF4FB53B8831DD70b628F225Ab8BbAadC0A93E2dC",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "supply"
         }
       },
       {
         "name": "SupplyFuseErc4626Market11",
         "versions": {
-          "2025-02-26": "0x25c275CbFFb6539D81e00AFcdbFDbd962f5d3202"
+          "2025-02-26": {
+            "address": "0x25c275CbFFb6539D81e00AFcdbFDbd962f5d3202",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "supply"
         }
       },
       {
         "name": "SupplyFuseErc4626Market12",
         "versions": {
-          "2025-02-26": "0x32df46Cff7e6Cab610ed6113D7A57F242d061D68"
+          "2025-02-26": {
+            "address": "0x32df46Cff7e6Cab610ed6113D7A57F242d061D68",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "supply"
         }
       },
       {
         "name": "SupplyFuseErc4626Market13",
         "versions": {
-          "2025-02-26": "0x8598432cda45fd6dC836728d6B12f325f78b62b6"
+          "2025-02-26": {
+            "address": "0x8598432cda45fd6dC836728d6B12f325f78b62b6",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "supply"
         }
       },
       {
         "name": "SupplyFuseErc4626Market14",
         "versions": {
-          "2025-02-26": "0xe1Cce1485F5A22D64b89D8E0ba2190Ca4e8f1eA2"
+          "2025-02-26": {
+            "address": "0xe1Cce1485F5A22D64b89D8E0ba2190Ca4e8f1eA2",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "supply"
         }
       },
       {
         "name": "SupplyFuseErc4626Market2",
         "versions": {
-          "2025-01-28": "0xed5Ec535e6e6a3051105A8Ea2E8Bd178951A9EAc"
+          "2025-01-28": {
+            "address": "0xed5Ec535e6e6a3051105A8Ea2E8Bd178951A9EAc",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "supply"
         }
       },
       {
         "name": "SupplyFuseErc4626Market3",
         "versions": {
-          "2025-01-28": "0xdA0711a0b1B1dD289c4D7C08704Dd1e4cceA80C1"
+          "2025-01-28": {
+            "address": "0xdA0711a0b1B1dD289c4D7C08704Dd1e4cceA80C1",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "supply"
         }
       },
       {
         "name": "SupplyFuseErc4626Market4",
         "versions": {
-          "2025-01-28": "0xb187050408857FC2a57be0a5618e39b331425E77"
+          "2025-01-28": {
+            "address": "0xb187050408857FC2a57be0a5618e39b331425E77",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "supply"
         }
       },
       {
         "name": "SupplyFuseErc4626Market5",
         "versions": {
-          "2025-01-28": "0x633d78849fb91a336077ff25aFC3c72c8f6a7045"
+          "2025-01-28": {
+            "address": "0x633d78849fb91a336077ff25aFC3c72c8f6a7045",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "supply"
         }
       },
       {
         "name": "SupplyFuseErc4626Market6",
         "versions": {
-          "2025-01-28": "0xF3ce837D8eBA7332Ce16b698d8262247d6CB277D"
+          "2025-01-28": {
+            "address": "0xF3ce837D8eBA7332Ce16b698d8262247d6CB277D",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "supply"
         }
       },
       {
         "name": "SupplyFuseErc4626Market7",
         "versions": {
-          "2025-02-26": "0x928c217E669d9F0F3fc08fB8AC322133a12E1F43"
+          "2025-02-26": {
+            "address": "0x928c217E669d9F0F3fc08fB8AC322133a12E1F43",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "supply"
         }
       },
       {
         "name": "SupplyFuseErc4626Market8",
         "versions": {
-          "2025-02-26": "0x5b36e95AbfF98a476FBAeB3E2434deE3EB463F48"
+          "2025-02-26": {
+            "address": "0x5b36e95AbfF98a476FBAeB3E2434deE3EB463F48",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "supply"
         }
       },
       {
         "name": "SupplyFuseErc4626Market9",
         "versions": {
-          "2025-02-26": "0xc3B44addfAe29fD170196C324bA0C233C870c77a"
+          "2025-02-26": {
+            "address": "0xc3B44addfAe29fD170196C324bA0C233C870c77a",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "supply"
         }
       },
       {
         "name": "SupplyFuseEulerV2",
         "versions": {
-          "2025-03-27": "0xFa00806c871558ceF982DFc02D7a87e4Ad0ec0Fa",
-          "2025-07-01": "0x96901b9A10f2A7f856a97ff148c4Cf3A0077d1ab"
+          "2025-03-27": {
+            "address": "0xFa00806c871558ceF982DFc02D7a87e4Ad0ec0Fa",
+            "status": 1
+          },
+          "2025-07-01": {
+            "address": "0x96901b9A10f2A7f856a97ff148c4Cf3A0077d1ab",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "supply"
         }
       },
       {
         "name": "SupplyFuseFluidInstadappPoolFToken",
         "versions": {
-          "2024-10-29": "0x15A1e2950dA9Ec0DA69a704b8940F01BdDdE86Ab"
+          "2024-10-29": {
+            "address": "0x15A1e2950dA9Ec0DA69a704b8940F01BdDdE86Ab",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "supply"
         }
       },
       {
         "name": "SupplyFuseFluidInstadappStakingRewardsFToken",
         "versions": {
-          "2024-10-29": "0x977e318676158A7695cCFeB00eC18a68c29BF0EF"
+          "2024-10-29": {
+            "address": "0x977e318676158A7695cCFeB00eC18a68c29BF0EF",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "supply"
         }
       },
       {
         "name": "SupplyFuseMetaMorphoMarket0001",
         "versions": {
-          "2025-02-25": "0x33Ed640Fc033A9BBE96c8469D1f32b106a4Ae8C9"
+          "2025-02-25": {
+            "address": "0x33Ed640Fc033A9BBE96c8469D1f32b106a4Ae8C9",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "supply"
         }
       },
       {
         "name": "SupplyFuseMoonwell",
         "versions": {
-          "2024-11-18": "0xC4a62Bd86dB7dd61a875611b2220f9ab6e14FFbf"
+          "2024-11-18": {
+            "address": "0xC4a62Bd86dB7dd61a875611b2220f9ab6e14FFbf",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "supply"
         }
       },
       {
         "name": "SupplyFuseMorpho",
         "versions": {
-          "2024-10-29": "0xae93EF3cf337b9599F0dfC12520c3C281637410F"
+          "2024-10-29": {
+            "address": "0xae93EF3cf337b9599F0dfC12520c3C281637410F",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "supply"
         }
       },
       {
         "name": "SwapFuseUniswapV3",
         "versions": {
-          "2024-10-29": "0x6C65F2155bb8730E1768558f2679eBB04d957145"
+          "2024-10-29": {
+            "address": "0x6C65F2155bb8730E1768558f2679eBB04d957145",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "other"
         }
       },
       {
         "name": "SwapFuseUniversalTokenSwapper",
         "versions": {
-          "2024-10-29": "0x4d9cbA074b00249D0a7d390Ff8f038dE3Ae23317",
-          "2024-11-26": "0xdBc5f9962CE85749F1b3c51BA0473909229E3807"
+          "2024-10-29": {
+            "address": "0x4d9cbA074b00249D0a7d390Ff8f038dE3Ae23317",
+            "status": 1
+          },
+          "2024-11-26": {
+            "address": "0xdBc5f9962CE85749F1b3c51BA0473909229E3807",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "other"
         }
       },
       {
         "name": "SwapFuseUniversalTokenSwapperEth",
         "versions": {
-          "2025-04-29": "0x1DC6eC62bD4225Ec063049238CeF89635cdbff72"
+          "2025-04-29": {
+            "address": "0x1DC6eC62bD4225Ec063049238CeF89635cdbff72",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "other"
         }
       },
       {
         "name": "SwapFuseUniversalTokenSwapperWithVerification",
         "versions": {
-          "2025-07-25": "0x38Bd09C17EA88ceB2F7916BF07AF13C2D9F72370"
+          "2025-07-25": {
+            "address": "0x38Bd09C17EA88ceB2F7916BF07AF13C2D9F72370",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "DEX"
         }
       },
       {
         "name": "UniversalReaderBalanceFuses",
         "versions": {
-          "2025-03-25": "0xE33F6a15D382CeabB8f351320BF63EE2860E8203"
+          "2025-03-25": {
+            "address": "0xE33F6a15D382CeabB8f351320BF63EE2860E8203",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       }
     ],
@@ -2371,134 +4024,291 @@
       {
         "name": "BalanceFuseBurnRequestFee",
         "versions": {
-          "2025-05-30": "0x81E91F9c1aD45E9DAD18A78732ad290b4A5e890b"
+          "2025-05-30": {
+            "address": "0x81E91F9c1aD45E9DAD18A78732ad290b4A5e890b",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseErc20",
         "versions": {
-          "2025-06-11": "0x8742A06bd12f72D5D58B00F593FDD0e455A19b9d"
+          "2025-06-11": {
+            "address": "0x8742A06bd12f72D5D58B00F593FDD0e455A19b9d",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseEulerV2",
         "versions": {
-          "2025-07-03": "0x6402AC17506cacb2a917862A321EB9327e7bd81A"
+          "2025-07-03": {
+            "address": "0x6402AC17506cacb2a917862A321EB9327e7bd81A",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseFlashLoanMorpho",
         "versions": {
-          "2025-06-11": "0x9Bc291B820A871001030A9ac76d31709f5B9E0aD"
+          "2025-06-11": {
+            "address": "0x9Bc291B820A871001030A9ac76d31709f5B9E0aD",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "flashLoan"
         }
       },
       {
         "name": "BalanceFuseMetaMorphoMarket0001",
         "versions": {
-          "2025-06-11": "0xfCbf8d7eF18684F999EbfF0d5A83c1b6DA877870"
+          "2025-06-11": {
+            "address": "0xfCbf8d7eF18684F999EbfF0d5A83c1b6DA877870",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseMorpho",
         "versions": {
-          "2025-06-11": "0x657B4cB830Ad0d7036a5D41a4C241bf7F444AEEe",
-          "2025-06-18": "0x86653327f3E3e499e053261ec44D627AecEDfae8"
+          "2025-06-11": {
+            "address": "0x657B4cB830Ad0d7036a5D41a4C241bf7F444AEEe",
+            "status": 1
+          },
+          "2025-06-18": {
+            "address": "0x86653327f3E3e499e053261ec44D627AecEDfae8",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseUniversalTokenSwapper",
         "versions": {
-          "2025-06-18": "0x6Fb90c6Cb82Ae0848f221bc06f022E3FD71226AE"
+          "2025-06-18": {
+            "address": "0x6Fb90c6Cb82Ae0848f221bc06f022E3FD71226AE",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BorrowFuseEulerV2",
         "versions": {
-          "2025-07-03": "0xf5965cc67C566A4587F627Eba09Ef33EB6120fA4"
+          "2025-07-03": {
+            "address": "0xf5965cc67C566A4587F627Eba09Ef33EB6120fA4",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "borrow"
         }
       },
       {
         "name": "BorrowFuseMorpho",
         "versions": {
-          "2025-06-11": "0x8A84b69aFCCAC94b5Fb0a4894D0fA016dB2CF020"
+          "2025-06-11": {
+            "address": "0x8A84b69aFCCAC94b5Fb0a4894D0fA016dB2CF020",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "borrow"
         }
       },
       {
         "name": "BurnRequestFeeFuse",
         "versions": {
-          "2025-05-30": "0xa7C6120a16B6b5201a7e33FF4ee13C798c838FC8"
+          "2025-05-30": {
+            "address": "0xa7C6120a16B6b5201a7e33FF4ee13C798c838FC8",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "other"
         }
       },
       {
         "name": "ClaimRewardsFuseMorpho",
         "versions": {
-          "2025-06-11": "0xc073695aEDD12Fa885318A8b229D55120ce90325"
+          "2025-06-11": {
+            "address": "0xc073695aEDD12Fa885318A8b229D55120ce90325",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "rewards"
         }
       },
       {
         "name": "CollateralFuseEulerV2",
         "versions": {
-          "2025-07-03": "0xc9dbe9B52Deef0DDC9b5e513Cc249604A5d29A82"
+          "2025-07-03": {
+            "address": "0xc9dbe9B52Deef0DDC9b5e513Cc249604A5d29A82",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "collateral"
         }
       },
       {
         "name": "CollateralFuseMorpho",
         "versions": {
-          "2025-06-11": "0xFc3400A8B10c05DCB7394E51cF67E2189c48BFe8"
+          "2025-06-11": {
+            "address": "0xFc3400A8B10c05DCB7394E51cF67E2189c48BFe8",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "collateral"
         }
       },
       {
         "name": "ControllerFuseEulerV2",
         "versions": {
-          "2025-07-03": "0xa32E128CA86e8116dF090c5287C21E08b2EaCAf0"
+          "2025-07-03": {
+            "address": "0xa32E128CA86e8116dF090c5287C21E08b2EaCAf0",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "other"
         }
       },
       {
         "name": "FlashloanFuseMorpho",
         "versions": {
-          "2025-06-11": "0xc043d8F356cdD27e98af1A76918Ac18F828Ed8F4"
+          "2025-06-11": {
+            "address": "0xc043d8F356cdD27e98af1A76918Ac18F828Ed8F4",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "flashLoan"
         }
       },
       {
         "name": "SupplyFuseEulerV2",
         "versions": {
-          "2025-07-03": "0xBf8759c387b9C44aD304B0778c12437A520f93A1"
+          "2025-07-03": {
+            "address": "0xBf8759c387b9C44aD304B0778c12437A520f93A1",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "supply"
         }
       },
       {
         "name": "SupplyFuseMetaMorphoMarket0001",
         "versions": {
-          "2025-06-11": "0x8D55edf480214fAa0f476512b68dFd876cf12683"
+          "2025-06-11": {
+            "address": "0x8D55edf480214fAa0f476512b68dFd876cf12683",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "supply"
         }
       },
       {
         "name": "SupplyFuseMorpho",
         "versions": {
-          "2025-06-17": "0xea13241E2D0EF964Ee616151e72d493496A568F5"
+          "2025-06-17": {
+            "address": "0xea13241E2D0EF964Ee616151e72d493496A568F5",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "supply"
         }
       },
       {
         "name": "SwapFuseUniversalTokenSwapper",
         "versions": {
-          "2025-06-11": "0x6991332CC5AF5208871aC1483218C723542714C6"
+          "2025-06-11": {
+            "address": "0x6991332CC5AF5208871aC1483218C723542714C6",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "other"
         }
       },
       {
         "name": "SwapFuseUniversalTokenSwapperEth",
         "versions": {
-          "2025-06-11": "0xf66aEF6C06dBC5dB4610f50a46668716B84b5629"
+          "2025-06-11": {
+            "address": "0xf66aEF6C06dBC5dB4610f50a46668716B84b5629",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "other"
         }
       },
       {
         "name": "SwapFuseUniversalTokenSwapperWithVerification",
         "versions": {
-          "2025-07-25": "0x50f97E9DB639380C77BA3e4B3039E57649e527Ac"
+          "2025-07-25": {
+            "address": "0x50f97E9DB639380C77BA3e4B3039E57649e527Ac",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "DEX"
         }
       },
       {
         "name": "UniversalReaderBalanceFuses",
         "versions": {
-          "2025-06-18": "0x65fb961658b4D3D6Ca0A47b741C5D181C25c64f4"
+          "2025-06-18": {
+            "address": "0x65fb961658b4D3D6Ca0A47b741C5D181C25c64f4",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       }
     ],
@@ -2577,61 +4387,131 @@
       {
         "name": "BalanceFuseBurnRequestFee",
         "versions": {
-          "2025-07-03": "0x75ea3B63b469503A1948F23bd84917893C82E7fD"
+          "2025-07-03": {
+            "address": "0x75ea3B63b469503A1948F23bd84917893C82E7fD",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseErc20",
         "versions": {
-          "2025-07-03": "0xCFE88D3812c02e331D6E62F2bA75006d207612b3"
+          "2025-07-03": {
+            "address": "0xCFE88D3812c02e331D6E62F2bA75006d207612b3",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseUniversalTokenSwapper",
         "versions": {
-          "2025-07-03": "0x0E0350AbE7c47cEA27D8D8884F55C5904Eba08f8"
+          "2025-07-03": {
+            "address": "0x0E0350AbE7c47cEA27D8D8884F55C5904Eba08f8",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BurnRequestFeeFuse",
         "versions": {
-          "2025-07-03": "0x13AefCeb3490e419F31AbA8997eF4b11e88AfFa4"
+          "2025-07-03": {
+            "address": "0x13AefCeb3490e419F31AbA8997eF4b11e88AfFa4",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "other"
         }
       },
       {
         "name": "SwapFuseUniversalTokenSwapper",
         "versions": {
-          "2025-07-03": "0x81a4f4d9e70e6367a0509FE058efbeA2092e310e"
+          "2025-07-03": {
+            "address": "0x81a4f4d9e70e6367a0509FE058efbeA2092e310e",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "other"
         }
       },
       {
         "name": "TacStakingBalanceFuse",
         "versions": {
-          "2025-07-14": "0x839C0475fd43690B61D935F0255C4f9B4a9e13f1"
+          "2025-07-14": {
+            "address": "0x839C0475fd43690B61D935F0255C4f9B4a9e13f1",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "TacStakingDelegateFuse",
         "versions": {
-          "2025-07-14": "0x457C6981b48C60099B2218C196071Cc2c60d0638"
+          "2025-07-14": {
+            "address": "0x457C6981b48C60099B2218C196071Cc2c60d0638",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "other"
         }
       },
       {
         "name": "TacStakingEmergencyFuse",
         "versions": {
-          "2025-07-14": "0xaBdFC4f716227946ACbCB6d9089Ab8c4BDEDB7C7"
+          "2025-07-14": {
+            "address": "0xaBdFC4f716227946ACbCB6d9089Ab8c4BDEDB7C7",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "other"
         }
       },
       {
         "name": "TacStakingRedelegateFuse",
         "versions": {
-          "2025-07-14": "0x7b499CE3B1babc150bdbc6F31E52200D6Cdb02E9"
+          "2025-07-14": {
+            "address": "0x7b499CE3B1babc150bdbc6F31E52200D6Cdb02E9",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "other"
         }
       },
       {
         "name": "UniversalReaderBalanceFuses",
         "versions": {
-          "2025-07-03": "0xAbD1823440f718f2f5F8B549868600Ea7Fd5A72a"
+          "2025-07-03": {
+            "address": "0xAbD1823440f718f2f5F8B549868600Ea7Fd5A72a",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       }
     ],
@@ -2686,49 +4566,105 @@
       {
         "name": "BalanceFuseBurnRequestFee",
         "versions": {
-          "2025-07-15": "0xF4Db8b9315B89Ca94Da07788faD2C942Af7F7b67"
+          "2025-07-15": {
+            "address": "0xF4Db8b9315B89Ca94Da07788faD2C942Af7F7b67",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseErc20",
         "versions": {
-          "2025-07-15": "0x3DAf55a976821680cB812330CbbDc82816EBe4C0"
+          "2025-07-15": {
+            "address": "0x3DAf55a976821680cB812330CbbDc82816EBe4C0",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BalanceFuseUniversalTokenSwapper",
         "versions": {
-          "2025-07-15": "0xE4F26Ad8d3f7f6d7d52C18f19eF066C884D60168"
+          "2025-07-15": {
+            "address": "0xE4F26Ad8d3f7f6d7d52C18f19eF066C884D60168",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       },
       {
         "name": "BurnRequestFeeFuse",
         "versions": {
-          "2025-07-15": "0x38FfDFc14D17aBC9f996f22cc105F6B48D7Ce2a2"
+          "2025-07-15": {
+            "address": "0x38FfDFc14D17aBC9f996f22cc105F6B48D7Ce2a2",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "other"
         }
       },
       {
         "name": "SwapFuseUniversalTokenSwapper",
         "versions": {
-          "2025-07-15": "0xd50C735Ef23E4119134aA5e85076f6BfC44d8649"
+          "2025-07-15": {
+            "address": "0xd50C735Ef23E4119134aA5e85076f6BfC44d8649",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "DEX"
         }
       },
       {
         "name": "SwapFuseUniversalTokenSwapperEth",
         "versions": {
-          "2025-07-15": "0x20A50284b04B4AbEFdCfBfE95910A0A361a4A991"
+          "2025-07-15": {
+            "address": "0x20A50284b04B4AbEFdCfBfE95910A0A361a4A991",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "DEX"
         }
       },
       {
         "name": "SwapFuseUniversalTokenSwapperWithVerification",
         "versions": {
-          "2025-07-15": "0x143fA0BaA257d734eA70F7240995649Aa9cb43A8"
+          "2025-07-15": {
+            "address": "0x143fA0BaA257d734eA70F7240995649Aa9cb43A8",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "DEX"
         }
       },
       {
         "name": "UniversalReaderBalanceFuses",
         "versions": {
-          "2025-07-15": "0x9Da21B83375041937C3D91cCA2cCb11E3e427FbB"
+          "2025-07-15": {
+            "address": "0x9Da21B83375041937C3D91cCA2cCb11E3e427FbB",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
         }
       }
     ],
