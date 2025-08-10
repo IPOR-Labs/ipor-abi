@@ -173,6 +173,18 @@
         "token": "IPORTF",
         "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "PlasmaVault": "0xD190c2235A1e0353d30F5189Ac927249Ad50B8C4"
+      },
+      {
+        "name": "Strata-Money PTs looping Ethereum ",
+        "token": "Strata",
+        "asset": "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
+        "PlasmaVault": "0xD731F94c778f7C1090e2E0D797150A647De5188A"
+      },
+      {
+        "name": "Syrup looper",
+        "token": "syruploop",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0x11f0f6CBf5Cb96BD07793B32933B541CcBD82461"
       }
     ],
     "fuses": [
@@ -505,6 +517,12 @@
         }
       },
       {
+        "name": "StEthWrapperFuse",
+        "versions": {
+          "2025-08-10": "0xab97e49fcB752f7713090814199b4458b4Ea1bAd"
+        }
+      },
+      {
         "name": "StabilityPoolFuseLiquity",
         "versions": {
           "2025-07-15": "0x5f0E7454F0AF81141806ec3B31D972401Bae3Edb"
@@ -513,13 +531,15 @@
       {
         "name": "SupplyFuseAaveV3",
         "versions": {
-          "2024-09-29": "0x465D639EB964158beE11f35E8fc23f704EC936a2"
+          "2024-09-29": "0x465D639EB964158beE11f35E8fc23f704EC936a2",
+          "2025-08-10": "0x7b3957B38b1c91057755D71701247905b48D6063"
         }
       },
       {
         "name": "SupplyFuseAaveV3Lido",
         "versions": {
-          "2025-03-10": "0x09791C53218010eE59464386F6a3B9D656490d60"
+          "2025-03-10": "0x09791C53218010eE59464386F6a3B9D656490d60",
+          "2025-08-10": "0x02956820074400138a4602d35ee1b7f3886EeC1e"
         }
       },
       {
@@ -907,6 +927,10 @@
               "0x66526197a4BAf496D97e1004e43c2C374Fb7d2E7": {
                 "symbol": "PT-sBOLD-27NOV2025",
                 "source": "0xa0f108184a8c461640fE8349a2FD36e3c6cd3E77"
+              },
+              "0xF3f491e5608f8B8a6Fd9E9d66a4a4036d7FD282C": {
+                "symbol": "PT-pUSDe-16OCT2025",
+                "source": "0x9cB88d61976701Ad9cB00722fa1bD8c27eeC8539"
               }
             }
           }
@@ -998,6 +1022,24 @@
         "token": "ARBTST",
         "asset": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "PlasmaVault": "0xEAbB2BEA1185d0c71f06c0Dd6BF270bdF0758562"
+      },
+      {
+        "name": "Stake DAO Smart Save (USDC)",
+        "token": "sdSaveUSDC",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xa4f39ec96B7A2178B381dE9CDc9021fB2490b409"
+      },
+      {
+        "name": "Maciek F2 crvUSD",
+        "token": "MF3",
+        "asset": "0x498Bf2B1e120FeD3ad3D42EA2165E9b73f99C1e5",
+        "PlasmaVault": "0xdfEB0d984373A7e3B57C193c071df47d2F53F341"
+      },
+      {
+        "name": "My Vault",
+        "token": "MYVLT",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x1d95D62ba0B4e87BA202F6B6Ab014F4D0FFBe1Fd"
       }
     ],
     "fuses": [
@@ -1450,7 +1492,17 @@
         "name": "PriceOracleMiddlewareUsdWithRolesProxy",
         "versions": {
           "2025-03-25_001": {
-            "address": "0xd19D0C917844b996B09c48A9FF622177Af219C79"
+            "address": "0xd19D0C917844b996B09c48A9FF622177Af219C79",
+            "price_feeds": {
+              "0xaf88d065e77c8cC2239327C5EDb3A432268e5831": {
+                "symbol": "USDC",
+                "source": "0x50834F3163758fcC1Df9973b6e91f0F0F0434aD3"
+              },
+              "0x498Bf2B1e120FeD3ad3D42EA2165E9b73f99C1e5": {
+                "symbol": "crvUSD",
+                "source": "0x0a32255dd4BB6177C994bAAc73E0606fDD568f66"
+              }
+            }
           }
         }
       }
@@ -1672,6 +1724,30 @@
         "token": "CSSYNCH",
         "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
         "PlasmaVault": "0x6d6ca3a393a36AB94f25664Ca94B10DA117A111D"
+      },
+      {
+        "name": "hodl_test",
+        "token": "hodl_test",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x36bFF77e1089fc25037070bB63f80d50aE2FFFE8"
+      },
+      {
+        "name": "Test Vault ",
+        "token": "TST",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x866b2729FC89e705ff1E107EC8F1712eeda132a7"
+      },
+      {
+        "name": "TiD USD Idle Vault",
+        "token": "TiDUSD_IDLE",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x793ae1Af29e18598e4eBEd8050c3b8Ba0C91b08f"
+      },
+      {
+        "name": "TiD Base USDC",
+        "token": "TID_BASE_USDC",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x7220Bb5Cb6497A359a177f864aB62A94D7F563Fa"
       }
     ],
     "fuses": [
@@ -2568,6 +2644,24 @@
         "token": "TSV",
         "asset": "0x078D782b760474a361dDA0AF3839290b0EF57AD6",
         "PlasmaVault": "0xa8eFd13FFb9d8616a6133c910dF591202f67d2E0"
+      },
+      {
+        "name": "TEST VAULT 4-8-2025",
+        "token": "TV04082025",
+        "asset": "0x078D782b760474a361dDA0AF3839290b0EF57AD6",
+        "PlasmaVault": "0xd0E066202CbB2Fc940FBE78281e95c96cdED85eA"
+      },
+      {
+        "name": "TEST05082025",
+        "token": "T05082025",
+        "asset": "0x4200000000000000000000000000000000000006",
+        "PlasmaVault": "0x0d9D8ba2257EE75B9e5765b10A01bB65D4A0fc72"
+      },
+      {
+        "name": "TEST1234",
+        "token": "TEST1234",
+        "asset": "0x4200000000000000000000000000000000000006",
+        "PlasmaVault": "0x6e31FDd21E0c8deF9e97876DC2961171586aF416"
       }
     ],
     "pools": []
@@ -2756,7 +2850,14 @@
         }
       }
     ],
-    "vaults": [],
+    "vaults": [
+      {
+        "name": "Maciek F1 Ultra USDC Yield machine",
+        "token": "MF3",
+        "asset": "0x4200000000000000000000000000000000000006",
+        "PlasmaVault": "0xa481Dc03d0B17087E450748D144E6F53707C4608"
+      }
+    ],
     "pools": []
   }
 }
