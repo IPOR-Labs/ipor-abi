@@ -185,6 +185,12 @@
         "token": "syruploop",
         "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "PlasmaVault": "0x11f0f6CBf5Cb96BD07793B32933B541CcBD82461"
+      },
+      {
+        "name": "TAU InfiniFi Pointsmax",
+        "token": "$TAUSIUSD",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0xB0f56BB0bf13ee05FeF8cD2d8DF5FfdFcAC7a74f"
       }
     ],
     "fuses": [
@@ -1748,6 +1754,12 @@
         "token": "TID_BASE_USDC",
         "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
         "PlasmaVault": "0x7220Bb5Cb6497A359a177f864aB62A94D7F563Fa"
+      },
+      {
+        "name": "TiD Base ETH",
+        "token": "TID_BASE_ETH",
+        "asset": "0x4200000000000000000000000000000000000006",
+        "PlasmaVault": "0x2c4524F8d602260030185F8CEbcc8Cc4e1c70c17"
       }
     ],
     "fuses": [
