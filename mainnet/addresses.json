@@ -191,6 +191,12 @@
         "token": "$TAUSIUSD",
         "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "PlasmaVault": "0xB0f56BB0bf13ee05FeF8cD2d8DF5FfdFcAC7a74f"
+      },
+      {
+        "name": "AlphaPK",
+        "token": "alphaPK",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0xB55794F8aa23be1E8bA90A817EE285CFf347017d"
       }
     ],
     "fuses": [
