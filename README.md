@@ -348,6 +348,16 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `SwapFuseUniversalTokenSwapperEth` | `0x20A50284b04B4AbEFdCfBfE95910A0A361a4A991` [View](https://explorer.inkonchain.com/address/0x20A50284b04B4AbEFdCfBfE95910A0A361a4A991#code) |
 | `SwapFuseUniversalTokenSwapperWithVerification` | `0x143fA0BaA257d734eA70F7240995649Aa9cb43A8` [View](https://explorer.inkonchain.com/address/0x143fA0BaA257d734eA70F7240995649Aa9cb43A8#code) |
 | `UniversalReaderBalanceFuses` | `0x9Da21B83375041937C3D91cCA2cCb11E3e427FbB` [View](https://explorer.inkonchain.com/address/0x9Da21B83375041937C3D91cCA2cCb11E3e427FbB#code) |
+| `VelodromeSuperchainBalanceFuse` | `0xd255d98CE8fdce515346c25b60291DBf52457EE1` [View](https://explorer.inkonchain.com/address/0xd255d98CE8fdce515346c25b60291DBf52457EE1#code) |
+| `VelodromeSuperchainGaugeClaimFuse` | `0xD309D21BdD090B997BF99928d0dfc092Bbc07f70` [View](https://explorer.inkonchain.com/address/0xD309D21BdD090B997BF99928d0dfc092Bbc07f70#code) |
+| `VelodromeSuperchainGaugeFuse` | `0x3688B96dED3662992902F5Ca794A5c5BEd4cd2eA` [View](https://explorer.inkonchain.com/address/0x3688B96dED3662992902F5Ca794A5c5BEd4cd2eA#code) |
+| `VelodromeSuperchainLiquidityFuse` | `0xEAc973C278436dc23dEeF8a925F809A8ad977624` [View](https://explorer.inkonchain.com/address/0xEAc973C278436dc23dEeF8a925F809A8ad977624#code) |
+| `VelodromeSuperchainSlipstreamBalanceFuse` | `0xDc2d9dA62f9c25e646A25B372a913E708b0b6f43` [View](https://explorer.inkonchain.com/address/0xDc2d9dA62f9c25e646A25B372a913E708b0b6f43#code) |
+| `VelodromeSuperchainSlipstreamCollectFuse` | `0xf14aE70027340dDC46a3f426808F381DdCe0BfE4` [View](https://explorer.inkonchain.com/address/0xf14aE70027340dDC46a3f426808F381DdCe0BfE4#code) |
+| `VelodromeSuperchainSlipstreamGaugeClaimFuse` | `0x56E626c5538402BF5A60e58A06fdF0D3D741FBaA` [View](https://explorer.inkonchain.com/address/0x56E626c5538402BF5A60e58A06fdF0D3D741FBaA#code) |
+| `VelodromeSuperchainSlipstreamLeafCLGaugeFuse` | `0xF11627F3e45220BB6F0d1b6fd5e9C3610C377bd0` [View](https://explorer.inkonchain.com/address/0xF11627F3e45220BB6F0d1b6fd5e9C3610C377bd0#code) |
+| `VelodromeSuperchainSlipstreamModifyPositionFuse` | `0xcA3e5E7ad17fD5eCF5C36B4c4C772A1A46B5e7cb` [View](https://explorer.inkonchain.com/address/0xcA3e5E7ad17fD5eCF5C36B4c4C772A1A46B5e7cb#code) |
+| `VelodromeSuperchainSlipstreamNewPositionFuse` | `0x8B67350b0EDf00481e6EaBc46EfFcDbea75c76da` [View](https://explorer.inkonchain.com/address/0x8B67350b0EDf00481e6EaBc46EfFcDbea75c76da#code) |
 
 ## PreHooks List
 
