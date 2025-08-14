@@ -6,7 +6,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Fuses List
 
-*Last updated: 2025-07-25 03:08:04 UTC*
+*Last updated: 2025-08-10 20:56:00 UTC*
 
 ### Ethereum Fuses
 
@@ -345,10 +345,20 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `SwapFuseUniversalTokenSwapperEth` | `0x20A50284b04B4AbEFdCfBfE95910A0A361a4A991` [View](https://explorer.inkonchain.com/address/0x20A50284b04B4AbEFdCfBfE95910A0A361a4A991#code) |
 | `SwapFuseUniversalTokenSwapperWithVerification` | `0x143fA0BaA257d734eA70F7240995649Aa9cb43A8` [View](https://explorer.inkonchain.com/address/0x143fA0BaA257d734eA70F7240995649Aa9cb43A8#code) |
 | `UniversalReaderBalanceFuses` | `0x9Da21B83375041937C3D91cCA2cCb11E3e427FbB` [View](https://explorer.inkonchain.com/address/0x9Da21B83375041937C3D91cCA2cCb11E3e427FbB#code) |
+| `VelodromeSuperchainBalanceFuse` | `0xd255d98CE8fdce515346c25b60291DBf52457EE1` [View](https://explorer.inkonchain.com/address/0xd255d98CE8fdce515346c25b60291DBf52457EE1#code) |
+| `VelodromeSuperchainGaugeClaimFuse` | `0xD309D21BdD090B997BF99928d0dfc092Bbc07f70` [View](https://explorer.inkonchain.com/address/0xD309D21BdD090B997BF99928d0dfc092Bbc07f70#code) |
+| `VelodromeSuperchainGaugeFuse` | `0x3688B96dED3662992902F5Ca794A5c5BEd4cd2eA` [View](https://explorer.inkonchain.com/address/0x3688B96dED3662992902F5Ca794A5c5BEd4cd2eA#code) |
+| `VelodromeSuperchainLiquidityFuse` | `0xEAc973C278436dc23dEeF8a925F809A8ad977624` [View](https://explorer.inkonchain.com/address/0xEAc973C278436dc23dEeF8a925F809A8ad977624#code) |
+| `VelodromeSuperchainSlipstreamBalanceFuse` | `0xDc2d9dA62f9c25e646A25B372a913E708b0b6f43` [View](https://explorer.inkonchain.com/address/0xDc2d9dA62f9c25e646A25B372a913E708b0b6f43#code) |
+| `VelodromeSuperchainSlipstreamCollectFuse` | `0xf14aE70027340dDC46a3f426808F381DdCe0BfE4` [View](https://explorer.inkonchain.com/address/0xf14aE70027340dDC46a3f426808F381DdCe0BfE4#code) |
+| `VelodromeSuperchainSlipstreamGaugeClaimFuse` | `0x56E626c5538402BF5A60e58A06fdF0D3D741FBaA` [View](https://explorer.inkonchain.com/address/0x56E626c5538402BF5A60e58A06fdF0D3D741FBaA#code) |
+| `VelodromeSuperchainSlipstreamLeafCLGaugeFuse` | `0xF11627F3e45220BB6F0d1b6fd5e9C3610C377bd0` [View](https://explorer.inkonchain.com/address/0xF11627F3e45220BB6F0d1b6fd5e9C3610C377bd0#code) |
+| `VelodromeSuperchainSlipstreamModifyPositionFuse` | `0xcA3e5E7ad17fD5eCF5C36B4c4C772A1A46B5e7cb` [View](https://explorer.inkonchain.com/address/0xcA3e5E7ad17fD5eCF5C36B4c4C772A1A46B5e7cb#code) |
+| `VelodromeSuperchainSlipstreamNewPositionFuse` | `0x8B67350b0EDf00481e6EaBc46EfFcDbea75c76da` [View](https://explorer.inkonchain.com/address/0x8B67350b0EDf00481e6EaBc46EfFcDbea75c76da#code) |
 
 ## PreHooks List
 
-*Last updated: 2025-07-25 03:08:05 UTC*
+*Last updated: 2025-08-10 20:56:02 UTC*
 
 ### Ethereum PreHooks
 
@@ -399,7 +409,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Price Oracles List
 
-*Last updated: 2025-07-25 03:08:33 UTC*
+*Last updated: 2025-08-10 20:56:35 UTC*
 
 ### Ethereum Price Oracles
 
@@ -468,6 +478,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | **BOLD** `0x6440f144b7e50D6a8439336510312d2F54beB01D` | `0x596cDF5D33486b035e8482688c638E7dcAf25a7b` [View](https://etherscan.io/address/0x596cDF5D33486b035e8482688c638E7dcAf25a7b) |
 | **sBOLD** `0x50Bd66D59911F5e086Ec87aE43C811e0D059DD11` | `0x3c3F08A0cE5dC1608D7E11167C60244E16922D93` [View](https://etherscan.io/address/0x3c3F08A0cE5dC1608D7E11167C60244E16922D93) |
 | **PT-sBOLD-27NOV2025** `0x66526197a4BAf496D97e1004e43c2C374Fb7d2E7` | `0xa0f108184a8c461640fE8349a2FD36e3c6cd3E77` [View](https://etherscan.io/address/0xa0f108184a8c461640fE8349a2FD36e3c6cd3E77) |
+| **PT-pUSDe-16OCT2025** `0xF3f491e5608f8B8a6Fd9E9d66a4a4036d7FD282C` | `0x9cB88d61976701Ad9cB00722fa1bD8c27eeC8539` [View](https://etherscan.io/address/0x9cB88d61976701Ad9cB00722fa1bD8c27eeC8539) |
 
 
 ### Arbitrum Price Oracles
@@ -505,7 +516,10 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ##### Version 2025-03-25 - `0xd19D0C917844b996B09c48A9FF622177Af219C79` [View](https://arbiscan.io/address/0xd19D0C917844b996B09c48A9FF622177Af219C79#code)
 
-No price feeds found for this version.
+| Asset | Source / View in Explorer |
+|-------|---------------|
+| **USDC** `0xaf88d065e77c8cC2239327C5EDb3A432268e5831` | `0x50834F3163758fcC1Df9973b6e91f0F0F0434aD3` [View](https://arbiscan.io/address/0x50834F3163758fcC1Df9973b6e91f0F0F0434aD3) |
+| **crvUSD** `0x498Bf2B1e120FeD3ad3D42EA2165E9b73f99C1e5` | `0x0a32255dd4BB6177C994bAAc73E0606fDD568f66` [View](https://arbiscan.io/address/0x0a32255dd4BB6177C994bAAc73E0606fDD568f66) |
 
 
 ### Base Price Oracles
