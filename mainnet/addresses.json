@@ -517,6 +517,12 @@
         }
       },
       {
+        "name": "StEthWrapperFuse",
+        "versions": {
+          "2025-08-10": "0xab97e49fcB752f7713090814199b4458b4Ea1bAd"
+        }
+      },
+      {
         "name": "StabilityPoolFuseLiquity",
         "versions": {
           "2025-07-15": "0x5f0E7454F0AF81141806ec3B31D972401Bae3Edb"
@@ -525,13 +531,15 @@
       {
         "name": "SupplyFuseAaveV3",
         "versions": {
-          "2024-09-29": "0x465D639EB964158beE11f35E8fc23f704EC936a2"
+          "2024-09-29": "0x465D639EB964158beE11f35E8fc23f704EC936a2",
+          "2025-08-10": "0x7b3957B38b1c91057755D71701247905b48D6063"
         }
       },
       {
         "name": "SupplyFuseAaveV3Lido",
         "versions": {
-          "2025-03-10": "0x09791C53218010eE59464386F6a3B9D656490d60"
+          "2025-03-10": "0x09791C53218010eE59464386F6a3B9D656490d60",
+          "2025-08-10": "0x02956820074400138a4602d35ee1b7f3886EeC1e"
         }
       },
       {
