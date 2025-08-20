@@ -1307,9 +1307,28 @@
         }
       },
       {
+        "name": "PlasmaVaultBalanceAssetsValidationFuse",
+        "versions": {
+          "2025-08-19": "0x3232C95AaC56fB1C6d49852B57D79EdB76de8e4B"
+        }
+      },
+      {
+        "name": "StakeDaoV2BalanceFuse",
+        "versions": {
+          "2025-08-19": "0x868358F70b43E23b650a11779442e048c9ec0Dd4"
+        }
+      },
+      {
+        "name": "StakeDaoV2SupplyFuse",
+        "versions": {
+          "2025-08-19": "0x588a48916262f726eFdB59200658829a4a6AB252"
+        }
+      },
+      {
         "name": "SupplyFuseAaveV3",
         "versions": {
-          "2024-09-03": "0x9339acD4e73C8a11109f77bC87221bDfC7b7A4FC"
+          "2024-09-03": "0x9339acD4e73C8a11109f77bC87221bDfC7b7A4FC",
+          "2025-08-19": "0x304756cD719382281fBD640f5F7932465eD663D6"
         }
       },
       {
@@ -1766,6 +1785,12 @@
         "token": "TID_BASE_ETH",
         "asset": "0x4200000000000000000000000000000000000006",
         "PlasmaVault": "0x2c4524F8d602260030185F8CEbcc8Cc4e1c70c17"
+      },
+      {
+        "name": "TID Base ETH SuperStaker",
+        "token": "TIDETHSS",
+        "asset": "0x4200000000000000000000000000000000000006",
+        "PlasmaVault": "0x73B471ac0cb6C71bc6d9445A40CA18621b6751Cb"
       }
     ],
     "fuses": [
