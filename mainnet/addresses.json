@@ -197,9 +197,45 @@
         "token": "alphaPK",
         "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "PlasmaVault": "0xB55794F8aa23be1E8bA90A817EE285CFf347017d"
+      },
+      {
+        "name": "Reservoir ETH Yield",
+        "token": "ipsrETH",
+        "asset": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "PlasmaVault": "0xf6cD9E8415162C8fb3C52676c7cA68812A34f76E"
+      },
+      {
+        "name": "Reservoir BTC Yield",
+        "token": "ipsrBTC",
+        "asset": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+        "PlasmaVault": "0xE47358eae04719f3CF7025E95d0AD202e68BD9b2"
+      },
+      {
+        "name": "K3 ALPHA EUR",
+        "token": "k3EU",
+        "asset": "0x1aBaEA1f7C830bD89Acc67eC4af516284b1bC33c",
+        "PlasmaVault": "0x7F0409E03c83F3b42D8ba4B83485ffF72Cc9D7aB"
+      },
+      {
+        "name": "Tesseract USDC Lending Optimizer",
+        "token": "TESUSLO",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0xc2A119EA6De75e4B1451330321CB2474Eb8D82d4"
       }
     ],
     "fuses": [
+      {
+        "name": "AaveV3WithPriceOracleMiddlewareBalanceFuse",
+        "versions": {
+          "2025-08-21": "0xB12D9640A809543615F221f3609eA34BB1F10b25"
+        }
+      },
+      {
+        "name": "AaveV3WithPriceOracleMiddlewareBalanceLidoFuse",
+        "versions": {
+          "2025-08-21": "0x1d04A9d1Efa9D0C54e3757503F99d75B8f398BfA"
+        }
+      },
       {
         "name": "BalanceFuseAaveV3",
         "versions": {
@@ -1056,6 +1092,12 @@
     ],
     "fuses": [
       {
+        "name": "AaveV3WithPriceOracleMiddlewareBalanceFuse",
+        "versions": {
+          "2025-08-21": "0xBb3C4Ba23bFbC2eBD4e11B900e05438EB9549602"
+        }
+      },
+      {
         "name": "BalanceFuseAaveV3",
         "versions": {
           "2024-09-03": "0x4CB1c4774BA1B65802c68Adb33DE99ABf8B21228"
@@ -1795,6 +1837,12 @@
     ],
     "fuses": [
       {
+        "name": "AaveV3WithPriceOracleMiddlewareBalanceFuse",
+        "versions": {
+          "2025-08-21": "0x952573Ec1B6895a88a95CA523097083d4da4D8e5"
+        }
+      },
+      {
         "name": "BalanceFuseAaveV3",
         "versions": {
           "2024-10-29": "0xf53f3EaFfDf67539256365cA7299540A98b60BA9"
@@ -2115,7 +2163,8 @@
       {
         "name": "SupplyFuseAaveV3",
         "versions": {
-          "2024-10-29": "0x44dcB8A4c40FA9941d99F409b2948FE91B6C15d5"
+          "2024-10-29": "0x44dcB8A4c40FA9941d99F409b2948FE91B6C15d5",
+          "2025-08-21": "0x26fD6EF391E98C78CfCA27e00c3d15be4D941625"
         }
       },
       {

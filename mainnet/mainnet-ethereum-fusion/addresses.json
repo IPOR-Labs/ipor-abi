@@ -1,5 +1,8 @@
 {
+  "AaveV3LidoPoolAddressesProvider": "0xcfBf336fe147D643B9Cb705648500e101504B16d",
   "AaveV3PoolAddressesProvider": "0x2f39d218133AFaB8F2B819B1066c7E434Ad94E9e",
+  "AaveV3WithPriceOracleMiddlewareBalanceFuse": "0xB12D9640A809543615F221f3609eA34BB1F10b25",
+  "AaveV3WithPriceOracleMiddlewareBalanceLidoFuse": "0x1d04A9d1Efa9D0C54e3757503F99d75B8f398BfA",
   "BalanceFuseAaveV3Lido": "0xE5a3958B24767b30f0f5d3F47A25cFB4c08c1053",
   "BalanceFuseBurnRequestFee": "0xbc2907d76964510a4232878e7aC6E2B18c474EFb",
   "BalanceFuseErc20": "0x6cEBf3e3392D0860Ed174402884b941DCBB30654",
