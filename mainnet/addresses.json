@@ -173,6 +173,30 @@
         "token": "IPORTF",
         "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "PlasmaVault": "0xD190c2235A1e0353d30F5189Ac927249Ad50B8C4"
+      },
+      {
+        "name": "Strata-Money PTs looping Ethereum ",
+        "token": "Strata",
+        "asset": "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
+        "PlasmaVault": "0xD731F94c778f7C1090e2E0D797150A647De5188A"
+      },
+      {
+        "name": "Syrup looper",
+        "token": "syruploop",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0x11f0f6CBf5Cb96BD07793B32933B541CcBD82461"
+      },
+      {
+        "name": "TAU InfiniFi Pointsmax",
+        "token": "$TAUSIUSD",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0xB0f56BB0bf13ee05FeF8cD2d8DF5FfdFcAC7a74f"
+      },
+      {
+        "name": "AlphaPK",
+        "token": "alphaPK",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0xB55794F8aa23be1E8bA90A817EE285CFf347017d"
       }
     ],
     "fuses": [
@@ -653,7 +677,7 @@
         "versions": {
           "2024-11-26": {
             "address": "0x20c782C94800d709541660E322035785c89E32C2",
-            "status": 1
+            "status": 2
           },
           "2025-07-01": {
             "address": "0x6B339a926328B9a5A5705fD051aA5028D9f7f2F6",
@@ -761,7 +785,7 @@
         "versions": {
           "2024-11-26": {
             "address": "0xF58d96142A6AbBeE5cB2f2eDe750Aa7429672618",
-            "status": 1
+            "status": 2
           },
           "2025-07-01": {
             "address": "0x07d80997d57AD9489a4c48f6134dF91822e36514",
@@ -791,7 +815,7 @@
         "versions": {
           "2024-11-26": {
             "address": "0x4DcA6Fd6f153EE18602ac77B4396070476ec6c25",
-            "status": 1
+            "status": 2
           },
           "2025-07-01": {
             "address": "0x4bFEa07593844155c0BD5ee656cE54e864cA9B55",
@@ -895,6 +919,17 @@
         }
       },
       {
+        "name": "StEthWrapperFuse",
+        "versions": {
+          "2025-08-10": "0xab97e49fcB752f7713090814199b4458b4Ea1bAd",
+          "status": 1
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "other"
+        }
+      },
+      {
         "name": "StabilityPoolFuseLiquity",
         "versions": {
           "2025-07-15": {
@@ -912,6 +947,10 @@
         "versions": {
           "2024-09-29": {
             "address": "0x465D639EB964158beE11f35E8fc23f704EC936a2",
+            "status": 2
+          },
+          "2025-08-10": {
+            "address": "0x7b3957B38b1c91057755D71701247905b48D6063",
             "status": 1
           }
         },
@@ -925,6 +964,10 @@
         "versions": {
           "2025-03-10": {
             "address": "0x09791C53218010eE59464386F6a3B9D656490d60",
+            "status": 2
+          },
+          "2025-08-10": {
+            "address": "0x02956820074400138a4602d35ee1b7f3886EeC1e",
             "status": 1
           }
         },
@@ -1159,7 +1202,7 @@
         "versions": {
           "2024-11-26": {
             "address": "0x225D3e01d3Ba0DdF904E1Fbb46256f7D3A7e7bF0",
-            "status": 1
+            "status": 2
           },
           "2025-07-01": {
             "address": "0xDd33b4b6b9A7aA6fcC5F1D1c8ebB649A796Fd5B5",
@@ -1531,6 +1574,10 @@
               "0x66526197a4BAf496D97e1004e43c2C374Fb7d2E7": {
                 "symbol": "PT-sBOLD-27NOV2025",
                 "source": "0xa0f108184a8c461640fE8349a2FD36e3c6cd3E77"
+              },
+              "0xF3f491e5608f8B8a6Fd9E9d66a4a4036d7FD282C": {
+                "symbol": "PT-pUSDe-16OCT2025",
+                "source": "0x9cB88d61976701Ad9cB00722fa1bD8c27eeC8539"
               }
             }
           }
@@ -1622,6 +1669,24 @@
         "token": "ARBTST",
         "asset": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "PlasmaVault": "0xEAbB2BEA1185d0c71f06c0Dd6BF270bdF0758562"
+      },
+      {
+        "name": "Stake DAO Smart Save (USDC)",
+        "token": "sdSaveUSDC",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xa4f39ec96B7A2178B381dE9CDc9021fB2490b409"
+      },
+      {
+        "name": "Maciek F2 crvUSD",
+        "token": "MF3",
+        "asset": "0x498Bf2B1e120FeD3ad3D42EA2165E9b73f99C1e5",
+        "PlasmaVault": "0xdfEB0d984373A7e3B57C193c071df47d2F53F341"
+      },
+      {
+        "name": "My Vault",
+        "token": "MYVLT",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x1d95D62ba0B4e87BA202F6B6Ab014F4D0FFBe1Fd"
       }
     ],
     "fuses": [
@@ -1773,7 +1838,7 @@
         "versions": {
           "2025-05-29": {
             "address": "0x654Ee0c6d477A4ddFE62f600Ed52134593c1733c",
-            "status": 1
+            "status": 2
           },
           "2025-07-03": {
             "address": "0xF7dF7b8eB5B0c6d02b1b8FEC769dFE65D9a27E3b",
@@ -1933,7 +1998,7 @@
         "versions": {
           "2025-05-29": {
             "address": "0xe436decF5a8D7004338833555ee3970B24a9f47F",
-            "status": 1
+            "status": 2
           },
           "2025-07-03": {
             "address": "0x10eb9B247e7Ce00F3290F66d8B5E83BfD311375F",
@@ -1950,7 +2015,7 @@
         "versions": {
           "2025-02-26": {
             "address": "0x292711bC63184318294593C38Ad914AcfCd1797B",
-            "status": 1
+            "status": 2
           },
           "2025-03-14": {
             "address": "0xee322e49268760878924d18A645278aB08Ae245c",
@@ -2019,7 +2084,7 @@
         "versions": {
           "2025-05-29": {
             "address": "0x4567EE5D7D531f2e09DA915d95c8c7bb0c2b1459",
-            "status": 1
+            "status": 2
           },
           "2025-07-03": {
             "address": "0x6D35934cB431B36338fF88641BEBF540e826bd7D",
@@ -2062,7 +2127,7 @@
         "versions": {
           "2025-05-29": {
             "address": "0xc27E938FCA53E3f5fE5deb9141033573048a22B4",
-            "status": 1
+            "status": 2
           },
           "2025-07-03": {
             "address": "0x2A02Ae392816441E804aa9eCcf5c0333911Dc989",
@@ -2179,10 +2244,53 @@
         }
       },
       {
+        "name": "PlasmaVaultBalanceAssetsValidationFuse",
+        "versions": {
+          "2025-08-19": {
+            "address": "0x3232C95AaC56fB1C6d49852B57D79EdB76de8e4B",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "other"
+        }
+      },
+      {
+        "name": "StakeDaoV2BalanceFuse",
+        "versions": {
+          "2025-08-19": {
+            "address": "0x868358F70b43E23b650a11779442e048c9ec0Dd4",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
+        }
+      },
+      {
+        "name": "StakeDaoV2SupplyFuse",
+        "versions": {
+          "2025-08-19": {
+            "address": "0x588a48916262f726eFdB59200658829a4a6AB252",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "supply"
+        }
+      },
+      {
         "name": "SupplyFuseAaveV3",
         "versions": {
           "2024-09-03": {
             "address": "0x9339acD4e73C8a11109f77bC87221bDfC7b7A4FC",
+            "status": 2
+          },
+          "2025-08-19": {
+            "address": "0x304756cD719382281fBD640f5F7932465eD663D6",
             "status": 1
           }
         },
@@ -2300,7 +2408,7 @@
         "versions": {
           "2025-05-29": {
             "address": "0x371718ca5cf78A2C8fD2f44Ec2CE88363481B2D3",
-            "status": 1
+            "status": 2
           },
           "2025-07-03": {
             "address": "0x96A29E00C13A3e23f91259364F118501e1a46344",
@@ -2519,7 +2627,17 @@
         "name": "PriceOracleMiddlewareUsdWithRolesProxy",
         "versions": {
           "2025-03-25_001": {
-            "address": "0xd19D0C917844b996B09c48A9FF622177Af219C79"
+            "address": "0xd19D0C917844b996B09c48A9FF622177Af219C79",
+            "price_feeds": {
+              "0xaf88d065e77c8cC2239327C5EDb3A432268e5831": {
+                "symbol": "USDC",
+                "source": "0x50834F3163758fcC1Df9973b6e91f0F0F0434aD3"
+              },
+              "0x498Bf2B1e120FeD3ad3D42EA2165E9b73f99C1e5": {
+                "symbol": "crvUSD",
+                "source": "0x0a32255dd4BB6177C994bAAc73E0606fDD568f66"
+              }
+            }
           }
         }
       }
@@ -2741,6 +2859,42 @@
         "token": "CSSYNCH",
         "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
         "PlasmaVault": "0x6d6ca3a393a36AB94f25664Ca94B10DA117A111D"
+      },
+      {
+        "name": "hodl_test",
+        "token": "hodl_test",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x36bFF77e1089fc25037070bB63f80d50aE2FFFE8"
+      },
+      {
+        "name": "Test Vault ",
+        "token": "TST",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x866b2729FC89e705ff1E107EC8F1712eeda132a7"
+      },
+      {
+        "name": "TiD USD Idle Vault",
+        "token": "TiDUSD_IDLE",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x793ae1Af29e18598e4eBEd8050c3b8Ba0C91b08f"
+      },
+      {
+        "name": "TiD Base USDC",
+        "token": "TID_BASE_USDC",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x7220Bb5Cb6497A359a177f864aB62A94D7F563Fa"
+      },
+      {
+        "name": "TiD Base ETH",
+        "token": "TID_BASE_ETH",
+        "asset": "0x4200000000000000000000000000000000000006",
+        "PlasmaVault": "0x2c4524F8d602260030185F8CEbcc8Cc4e1c70c17"
+      },
+      {
+        "name": "TID Base ETH SuperStaker",
+        "token": "TIDETHSS",
+        "asset": "0x4200000000000000000000000000000000000006",
+        "PlasmaVault": "0x73B471ac0cb6C71bc6d9445A40CA18621b6751Cb"
       }
     ],
     "fuses": [
@@ -2996,7 +3150,7 @@
         "versions": {
           "2025-03-27": {
             "address": "0xf8bB9A9051F6E94d097686544021e6dF17EA6CaF",
-            "status": 1
+            "status": 2
           },
           "2025-07-01": {
             "address": "0xF8A6AA09bB55f2319113b0DA88883F392e66A5fa",
@@ -3013,7 +3167,7 @@
         "versions": {
           "2024-10-29": {
             "address": "0x1704D12204052d2a1F241d5D73f4bF0926800a5B",
-            "status": 1
+            "status": 2
           },
           "2024-11-18": {
             "address": "0x2Ce01779CfE56DC253D0Ac1b47E3bb7E597bCaEA",
@@ -3160,7 +3314,7 @@
         "versions": {
           "2025-05-29": {
             "address": "0xFd5Ba41a7Ce38BC901308547dFCBAded2B682B11",
-            "status": 1
+            "status": 2
           },
           "2025-07-01": {
             "address": "0x906496F0D4C733275F892b1a6fC92eD56639B379",
@@ -3177,7 +3331,7 @@
         "versions": {
           "2024-11-18": {
             "address": "0x8f6951795193C5AE825397ba35e940C5586e7b7D",
-            "status": 1
+            "status": 2
           },
           "2024-12-04": {
             "address": "0x377a5B195E3C074d982BD7bAC66B48D4C3006353",
@@ -3285,7 +3439,7 @@
         "versions": {
           "2025-05-29": {
             "address": "0xF569a44710DEb64c8Dc9751D8595bb90962f7a67",
-            "status": 1
+            "status": 2
           },
           "2025-07-01": {
             "address": "0x12c479f8aB53D4884fc76F803dD24eb8B6D17a94",
@@ -3328,7 +3482,7 @@
         "versions": {
           "2025-05-29": {
             "address": "0x0F86A5ECa11A0a2539Cc24eC27826C65Cc0094eD",
-            "status": 1
+            "status": 2
           },
           "2025-07-01": {
             "address": "0x108c8cFB9e00681FfA1fa3b654937E8b3BCd2E64",
@@ -3670,7 +3824,7 @@
         "versions": {
           "2025-03-27": {
             "address": "0xFa00806c871558ceF982DFc02D7a87e4Ad0ec0Fa",
-            "status": 1
+            "status": 2
           },
           "2025-07-01": {
             "address": "0x96901b9A10f2A7f856a97ff148c4Cf3A0077d1ab",
@@ -3765,7 +3919,7 @@
         "versions": {
           "2024-10-29": {
             "address": "0x4d9cbA074b00249D0a7d390Ff8f038dE3Ae23317",
-            "status": 1
+            "status": 2
           },
           "2024-11-26": {
             "address": "0xdBc5f9962CE85749F1b3c51BA0473909229E3807",
@@ -4091,7 +4245,7 @@
         "versions": {
           "2025-06-11": {
             "address": "0x657B4cB830Ad0d7036a5D41a4C241bf7F444AEEe",
-            "status": 1
+            "status": 2
           },
           "2025-06-18": {
             "address": "0x86653327f3E3e499e053261ec44D627AecEDfae8",
@@ -4378,6 +4532,24 @@
         "token": "TSV",
         "asset": "0x078D782b760474a361dDA0AF3839290b0EF57AD6",
         "PlasmaVault": "0xa8eFd13FFb9d8616a6133c910dF591202f67d2E0"
+      },
+      {
+        "name": "TEST VAULT 4-8-2025",
+        "token": "TV04082025",
+        "asset": "0x078D782b760474a361dDA0AF3839290b0EF57AD6",
+        "PlasmaVault": "0xd0E066202CbB2Fc940FBE78281e95c96cdED85eA"
+      },
+      {
+        "name": "TEST05082025",
+        "token": "T05082025",
+        "asset": "0x4200000000000000000000000000000000000006",
+        "PlasmaVault": "0x0d9D8ba2257EE75B9e5765b10A01bB65D4A0fc72"
+      },
+      {
+        "name": "TEST1234",
+        "token": "TEST1234",
+        "asset": "0x4200000000000000000000000000000000000006",
+        "PlasmaVault": "0x6e31FDd21E0c8deF9e97876DC2961171586aF416"
       }
     ],
     "pools": []
@@ -4666,6 +4838,138 @@
           "auditStatus": 2,
           "category": "balance"
         }
+      },
+
+
+      {
+        "name": "VelodromeSuperchainBalanceFuse",
+        "versions": {
+          "2025-08-10": {
+            "address": "0xd255d98CE8fdce515346c25b60291DBf52457EE1",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
+        }
+      },
+      {
+        "name": "VelodromeSuperchainGaugeClaimFuse",
+        "versions": {
+          "2025-08-10": {
+            "address": "0xD309D21BdD090B997BF99928d0dfc092Bbc07f70",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "rewards"
+        }
+      },
+      {
+        "name": "VelodromeSuperchainGaugeFuse",
+        "versions": {
+          "2025-08-10": {
+            "address": "0x3688B96dED3662992902F5Ca794A5c5BEd4cd2eA",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "other"
+        }
+      },
+      {
+        "name": "VelodromeSuperchainLiquidityFuse",
+        "versions": {
+          "2025-08-10": {
+            "address": "0xEAc973C278436dc23dEeF8a925F809A8ad977624",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "other"
+        }
+      },
+      {
+        "name": "VelodromeSuperchainSlipstreamBalanceFuse",
+        "versions": {
+          "2025-08-10": {
+            "address": "0xDc2d9dA62f9c25e646A25B372a913E708b0b6f43",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "balance"
+        }
+      },
+      {
+        "name": "VelodromeSuperchainSlipstreamCollectFuse",
+        "versions": {
+          "2025-08-10": {
+            "address": "0xf14aE70027340dDC46a3f426808F381DdCe0BfE4",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "DEX"
+        }
+      },
+      {
+        "name": "VelodromeSuperchainSlipstreamGaugeClaimFuse",
+        "versions": {
+          "2025-08-10": {
+            "address": "0x56E626c5538402BF5A60e58A06fdF0D3D741FBaA",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "rewards"
+        }
+      },
+      {
+        "name": "VelodromeSuperchainSlipstreamLeafCLGaugeFuse",
+        "versions": {
+          "2025-08-10": {
+            "address": "0xF11627F3e45220BB6F0d1b6fd5e9C3610C377bd0",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "other"
+        }
+      },
+      {
+        "name": "VelodromeSuperchainSlipstreamModifyPositionFuse",
+        "versions": {
+          "2025-08-10": {
+            "address": "0xcA3e5E7ad17fD5eCF5C36B4c4C772A1A46B5e7cb",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "other"
+        }
+      },
+      {
+        "name": "VelodromeSuperchainSlipstreamNewPositionFuse",
+        "versions": {
+          "2025-08-10": {
+            "address": "0x8B67350b0EDf00481e6EaBc46EfFcDbea75c76da",
+            "status": 1
+          }
+        },
+        "metadata": {
+          "auditStatus": 2,
+          "category": "other"
+        }
       }
     ],
     "prehooks": [
@@ -4692,7 +4996,14 @@
         }
       }
     ],
-    "vaults": [],
+    "vaults": [
+      {
+        "name": "Maciek F1 Ultra USDC Yield machine",
+        "token": "MF3",
+        "asset": "0x4200000000000000000000000000000000000006",
+        "PlasmaVault": "0xa481Dc03d0B17087E450748D144E6F53707C4608"
+      }
+    ],
     "pools": []
   }
 }
