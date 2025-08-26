@@ -221,6 +221,12 @@
         "token": "TESUSLO",
         "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "PlasmaVault": "0xc2A119EA6De75e4B1451330321CB2474Eb8D82d4"
+      },
+      {
+        "name": "IPOR stETH Ethereum",
+        "token": "ipstETHfusion",
+        "asset": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
+        "PlasmaVault": "0xf4565375eCc96b665Ef28830317C2b47688CFd85"
       }
     ],
     "fuses": [
@@ -1088,6 +1094,12 @@
         "token": "MYVLT",
         "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
         "PlasmaVault": "0x1d95D62ba0B4e87BA202F6B6Ab014F4D0FFBe1Fd"
+      },
+      {
+        "name": "IPOR wstETH Arbitrum",
+        "token": "ipwstETHfusion",
+        "asset": "0x5979D7b546E38E414F7E9822514be443A4800529",
+        "PlasmaVault": "0x2c6f1e2BBd074822773Fc142922CAbdBF535696C"
       }
     ],
     "fuses": [
@@ -1171,6 +1183,12 @@
         }
       },
       {
+        "name": "BalanceFuseFlashLoanMorpho",
+        "versions": {
+          "2025-08-26": "0xAD5EdaEc3cd9a25C8Cc42284dDeF57dCFF40341d"
+        }
+      },
+      {
         "name": "BalanceFuseFluidInstadappPoolFToken",
         "versions": {
           "2024-09-03": "0xdb26Af00177bFAE4439eB881b7742EF47EddfAF6"
@@ -1192,6 +1210,12 @@
         "name": "BalanceFuseGearboxV3FarmDToken",
         "versions": {
           "2024-09-03": "0xAa6C8DB1DA40f685e02564dE92Bc2276C12729f6"
+        }
+      },
+      {
+        "name": "BalanceFuseMorpho",
+        "versions": {
+          "2025-08-26": "0x502E904E9dd40B8274dFF84F2dbFcCA48dE8F802"
         }
       },
       {
@@ -1269,6 +1293,12 @@
         }
       },
       {
+        "name": "ClaimRewardsFuseMorpho",
+        "versions": {
+          "2025-08-26": "0x8D8EF5f98E128A17B9184d81b0BA383aEe7f2374"
+        }
+      },
+      {
         "name": "ClaimRewardsFuseRamsesV2",
         "versions": {
           "2024-10-08": "0x6F292d12a2966c9B796642cAFD67549bbbE3D066"
@@ -1279,6 +1309,12 @@
         "versions": {
           "2025-05-29": "0x4567EE5D7D531f2e09DA915d95c8c7bb0c2b1459",
           "2025-07-03": "0x6D35934cB431B36338fF88641BEBF540e826bd7D"
+        }
+      },
+      {
+        "name": "CollateralFuseMorpho",
+        "versions": {
+          "2025-08-26": "0x19cc0d64bf870C179fD47d322BFB1250ce0A59dD"
         }
       },
       {
@@ -1298,6 +1334,12 @@
         "versions": {
           "2025-05-29": "0xc27E938FCA53E3f5fE5deb9141033573048a22B4",
           "2025-07-03": "0x2A02Ae392816441E804aa9eCcf5c0333911Dc989"
+        }
+      },
+      {
+        "name": "FlashloanFuseMorpho",
+        "versions": {
+          "2025-08-26": "0xeA36D6478CAAE9a5CDbEA0814bDe98533320d742"
         }
       },
       {
@@ -1450,6 +1492,12 @@
         "name": "SupplyFuseGearboxV3FarmDToken",
         "versions": {
           "2024-09-03": "0xB0FBF6B7D0586C0a5Bc1C3b8a98773f4eD02c983"
+        }
+      },
+      {
+        "name": "SupplyFuseMorpho",
+        "versions": {
+          "2025-08-26": "0x5Ea9d92fb3975f9f9d1Fa69b98A37BF4dDe61e2a"
         }
       },
       {
