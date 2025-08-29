@@ -94,6 +94,11 @@ interface FuseWhitelist {
         external
         returns (bool);
     function updateFuseState(address fuseAddress_, uint16 fuseState_) external returns (bool);
+    function updateFusesMetadata(
+        address[] memory fuseAddresses_,
+        uint16[] memory metadataIds_,
+        bytes32[][] memory metadatas_
+    ) external returns (bool);
     function upgradeToAndCall(address newImplementation, bytes memory data) external payable;
 }
 
