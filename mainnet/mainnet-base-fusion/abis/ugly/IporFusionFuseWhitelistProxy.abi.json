@@ -723,6 +723,35 @@
   },
   {
     "type": "function",
+    "name": "updateFusesMetadata",
+    "inputs": [
+      {
+        "name": "fuseAddresses_",
+        "type": "address[]",
+        "internalType": "address[]"
+      },
+      {
+        "name": "metadataIds_",
+        "type": "uint16[]",
+        "internalType": "uint16[]"
+      },
+      {
+        "name": "metadatas_",
+        "type": "bytes32[][]",
+        "internalType": "bytes32[][]"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool",
+        "internalType": "bool"
+      }
+    ],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
     "name": "upgradeToAndCall",
     "inputs": [
       {
