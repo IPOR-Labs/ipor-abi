@@ -16,6 +16,12 @@ MAIN_ADDRESSES_FILE = f'{MAINNET_PATH}/{ADDRESSES_FILENAME}'
 
 ZERO_ADDRESS = "0x0000000000000000000000000000000000000000"
 
+# List of field names to ignore when extracting fuse fields
+IGNORED_FIELD_NAMES = [
+  "IporFusionFuseWhitelistImpl",
+  "IporFusionFuseWhitelistProxy"
+]
+
 load_dotenv()
 
 RPC_URLS = {
@@ -132,7 +138,9 @@ def extract_fuse_fields(file_path):
 
         extracted_data = {}
         for field in data:
-            if "fuse" in field.lower() and data[field] != ZERO_ADDRESS:
+            if ("fuse" in field.lower() and 
+                data[field] != ZERO_ADDRESS and 
+                field.lower() not in [name.lower() for name in IGNORED_FIELD_NAMES]):
                 extracted_data[field] = data[field]
 
         return extracted_data if extracted_data else None

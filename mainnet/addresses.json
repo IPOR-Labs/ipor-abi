@@ -227,6 +227,12 @@
         "token": "ipstETHfusion",
         "asset": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
         "PlasmaVault": "0xf4565375eCc96b665Ef28830317C2b47688CFd85"
+      },
+      {
+        "name": "Leveraged syrupUSDC",
+        "token": "msyrupL",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0x5705b2eB944e6043485390c313210e52Bc00E6cB"
       }
     ],
     "fuses": [
@@ -1100,6 +1106,12 @@
         "token": "ipwstETHfusion",
         "asset": "0x5979D7b546E38E414F7E9822514be443A4800529",
         "PlasmaVault": "0x2c6f1e2BBd074822773Fc142922CAbdBF535696C"
+      },
+      {
+        "name": "Llamarisk crvUSD Vault",
+        "token": "LlamaUSD",
+        "asset": "0x498Bf2B1e120FeD3ad3D42EA2165E9b73f99C1e5",
+        "PlasmaVault": "0x4c4f752fa54dafB6d51B4A39018271c90bA1156F"
       }
     ],
     "fuses": [
@@ -1622,6 +1634,10 @@
               "0x498Bf2B1e120FeD3ad3D42EA2165E9b73f99C1e5": {
                 "symbol": "crvUSD",
                 "source": "0x0a32255dd4BB6177C994bAAc73E0606fDD568f66"
+              },
+              "0x5979D7b546E38E414F7E9822514be443A4800529": {
+                "symbol": "wstETH",
+                "source": "0x328bC24EBbCaA109907F4a209265E34c1B113455"
               }
             }
           }
@@ -1881,6 +1897,30 @@
         "token": "TIDETHSS",
         "asset": "0x4200000000000000000000000000000000000006",
         "PlasmaVault": "0x73B471ac0cb6C71bc6d9445A40CA18621b6751Cb"
+      },
+      {
+        "name": "Owner's vault",
+        "token": "OWN",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x1b8ec7F906E6D55546d688E83a6fD7277Ff7bFeE"
+      },
+      {
+        "name": "Tanken WETH Base",
+        "token": "tkWETHb",
+        "asset": "0x4200000000000000000000000000000000000006",
+        "PlasmaVault": "0xEbc6C7883CA32EF9484740BA32A816F5F88B7A41"
+      },
+      {
+        "name": "TEST02092025",
+        "token": "TEST02092025",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0xF93Cf5ff9E924008d615B80db8561FfA97D94c61"
+      },
+      {
+        "name": "yoUSD Looopeer",
+        "token": "CSYOUSDLL",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x1166250D1d6B5a1DBb73526257f6bb2Bbe235295"
       }
     ],
     "fuses": [
