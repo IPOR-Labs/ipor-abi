@@ -778,6 +778,12 @@
         }
       },
       {
+        "name": "SwapFuseUniversalTokenSwapper_PV_USDC_msyrupL",
+        "versions": {
+          "2025-09-10": "0x641B81E993E1C52a74a84cAf17f1aD50A49675B3"
+        }
+      },
+      {
         "name": "UniversalReaderBalanceFuses",
         "versions": {
           "2025-03-25": "0x870E1Fb75BEdbc2eFB92857DC2B2cF171a0AEC1f"
@@ -1112,6 +1118,18 @@
         "token": "LlamaUSD",
         "asset": "0x498Bf2B1e120FeD3ad3D42EA2165E9b73f99C1e5",
         "PlasmaVault": "0x4c4f752fa54dafB6d51B4A39018271c90bA1156F"
+      },
+      {
+        "name": "Autopilot USDC Arbitrum",
+        "token": "aAutopilot_USDC",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x407D3d942d0911a2fEA7E22417f81E27c02D6c6F"
+      },
+      {
+        "name": "\u041a3 USD.ai",
+        "token": "k3USDai",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xDccA02a355b4E4C2063DdC0367Ed49FeCbf79bbd"
       }
     ],
     "fuses": [
@@ -1921,6 +1939,12 @@
         "token": "CSYOUSDLL",
         "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
         "PlasmaVault": "0x1166250D1d6B5a1DBb73526257f6bb2Bbe235295"
+      },
+      {
+        "name": "Autopilot USDC Morpho (Base)",
+        "token": "morphoAutopilotUSDC_base",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0xd6701905c59EE618dc36DC747506BCE0a4AC760A"
       }
     ],
     "fuses": [
