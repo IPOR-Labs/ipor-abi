@@ -1130,6 +1130,12 @@
         "token": "k3USDai",
         "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
         "PlasmaVault": "0xDccA02a355b4E4C2063DdC0367Ed49FeCbf79bbd"
+      },
+      {
+        "name": "AutoFi USDC LP Strategy by LibFi",
+        "token": "autoFi",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x7Aa2656a84B129A1e8AdA9AD89Fb98552649F936"
       }
     ],
     "fuses": [
