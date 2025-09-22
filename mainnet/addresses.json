@@ -233,6 +233,18 @@
         "token": "msyrupL",
         "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "PlasmaVault": "0x5705b2eB944e6043485390c313210e52Bc00E6cB"
+      },
+      {
+        "name": "Gami USDC",
+        "token": "gamiUSDC",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0x06e424fE6018CEccfc6071e656fcCC5E8369245a"
+      },
+      {
+        "name": "Gami USDC",
+        "token": "gamiUSDC",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0x6f274F5098ad4CeBF3B68c81f260dE8eC66737c8"
       }
     ],
     "fuses": [
@@ -1951,6 +1963,24 @@
         "token": "morphoAutopilotUSDC_base",
         "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
         "PlasmaVault": "0xd6701905c59EE618dc36DC747506BCE0a4AC760A"
+      },
+      {
+        "name": "yoETH Loooper",
+        "token": "CSYOETHLL",
+        "asset": "0x4200000000000000000000000000000000000006",
+        "PlasmaVault": "0xfd843a3D9329C91CA22c5daA994BeA762541F954"
+      },
+      {
+        "name": "test LP",
+        "token": "testLP",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0xd9c330cE387E086ED462dc20bF3ec30Ce1133F0a"
+      },
+      {
+        "name": "TEST CLONE WOO",
+        "token": "TCW",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x57fAe9CAF17A2fA90a0fbd6643FEAC21fe35A01c"
       }
     ],
     "fuses": [
