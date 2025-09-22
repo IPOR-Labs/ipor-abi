@@ -21,6 +21,15 @@ library FusionFactoryLib {
 }
 
 library FusionFactoryStorageLib {
+    struct BaseAddresses {
+        address plasmaVaultCoreBase;
+        address accessManagerBase;
+        address priceManagerBase;
+        address withdrawManagerBase;
+        address rewardsManagerBase;
+        address contextManagerBase;
+    }
+
     struct FactoryAddresses {
         address accessManagerFactory;
         address plasmaVaultFactory;
@@ -48,6 +57,15 @@ interface FusionFactory {
     error UUPSUnauthorizedCallContext();
     error UUPSUnsupportedProxiableUUID(bytes32 slot);
 
+    event BaseAddressesUpdated(
+        uint256 version,
+        address newPlasmaVaultCoreBase,
+        address newAccessManagerBase,
+        address newPriceManagerBase,
+        address newWithdrawManagerBase,
+        address newRewardsManagerBase,
+        address newContextManagerBase
+    );
     event BurnRequestFeeBalanceFuseUpdated(address newBurnRequestFeeBalanceFuse);
     event BurnRequestFeeFuseUpdated(address newBurnRequestFeeFuse);
     event DaoFeeUpdated(address newDaoFeeRecipient, uint256 newDaoManagementFee, uint256 newDaoPerformanceFee);
@@ -77,6 +95,20 @@ interface FusionFactory {
     function MAINTENANCE_MANAGER_ROLE() external view returns (bytes32);
     function PAUSE_MANAGER_ROLE() external view returns (bytes32);
     function UPGRADE_INTERFACE_VERSION() external view returns (string memory);
+    function clone(
+        string memory assetName_,
+        string memory assetSymbol_,
+        address underlyingToken_,
+        uint256 redemptionDelayInSeconds_,
+        address owner_
+    ) external returns (FusionFactoryLib.FusionInstance memory);
+    function cloneSupervised(
+        string memory assetName_,
+        string memory assetSymbol_,
+        address underlyingToken_,
+        uint256 redemptionDelayInSeconds_,
+        address owner_
+    ) external returns (FusionFactoryLib.FusionInstance memory);
     function create(
         string memory assetName_,
         string memory assetSymbol_,
@@ -91,6 +123,7 @@ interface FusionFactory {
         uint256 redemptionDelayInSeconds_,
         address owner_
     ) external returns (FusionFactoryLib.FusionInstance memory);
+    function getBaseAddresses() external view returns (FusionFactoryStorageLib.BaseAddresses memory);
     function getBurnRequestFeeBalanceFuseAddress() external view returns (address);
     function getBurnRequestFeeFuseAddress() external view returns (address);
     function getDaoFeeRecipientAddress() external view returns (address);
@@ -122,6 +155,15 @@ interface FusionFactory {
     function renounceRole(bytes32 role, address callerConfirmation) external;
     function revokeRole(bytes32 role, address account) external;
     function supportsInterface(bytes4 interfaceId) external view returns (bool);
+    function updateBaseAddresses(
+        uint256 version_,
+        address newPlasmaVaultCoreBase_,
+        address newAccessManagerBase_,
+        address newPriceManagerBase_,
+        address newWithdrawManagerBase_,
+        address newRewardsManagerBase_,
+        address newContextManagerBase_
+    ) external;
     function updateBurnRequestFeeBalanceFuse(address newBurnRequestFeeBalanceFuse_) external;
     function updateBurnRequestFeeFuse(address newBurnRequestFeeFuse_) external;
     function updateDaoFee(address newDaoFeeRecipient_, uint256 newDaoManagementFee_, uint256 newDaoPerformanceFee_)
