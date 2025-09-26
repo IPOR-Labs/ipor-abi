@@ -4,7 +4,7 @@
 
 `fill-factory-vaults.sh` is running `fill-factory-vaults.py` script.
 
-`fill-factory-vaults.py` is designed to discover and track IPOR Protocol Plasma Vaults deployed through IporFusionFactoryProxy contracts across different blockchain networks (Ethereum, Arbitrum, Base, Unichain, TAC, INK). The script identifies factory proxy addresses from network-specific `addresses.json` files, fetches `FusionInstanceCreated` events from these factory contracts, and consolidates vault information into the main `addresses.json` file. For each vault, it captures essential details like vault addresses, underlying tokens, asset names, and symbols directly from the blockchain.
+`fill-factory-vaults.py` is designed to discover and track IPOR Protocol Plasma Vaults deployed through IporFusionFactoryProxy contracts across different blockchain networks (Ethereum, Arbitrum, Base, Unichain, TAC, INK, Plasma, Avalanche). The script identifies factory proxy addresses from network-specific `addresses.json` files, fetches `FusionInstanceCreated` events from these factory contracts, and consolidates vault information into the main `addresses.json` file. For each vault, it captures essential details like vault addresses, underlying tokens, asset names, and symbols directly from the blockchain.
 
 ## Prerequisites
 

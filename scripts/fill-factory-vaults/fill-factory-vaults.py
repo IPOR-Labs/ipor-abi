@@ -27,7 +27,9 @@ RPC_URLS = {
     "base": os.getenv("BASE_RPC_URL", "https://mainnet.base.org"),
     "unichain": os.getenv("UNICHAIN_RPC_URL", "https://mainnet.unichain.org"),
     "tac": os.getenv("TAC_RPC_URL", "https://rpc.ankr.com/tac"),  
-    "ink": os.getenv("INK_RPC_URL", "https://ink.drpc.org")
+    "ink": os.getenv("INK_RPC_URL", "https://ink.drpc.org"),
+    "plasma": os.getenv("PLASMA_RPC_URL", "https://rpc.plasma.to"),
+    "avalanche": os.getenv("AVALANCHE_RPC_URL", "https://1rpc.io/avax/c")
 }
 
 # Configure chunk sizes per chain
@@ -38,6 +40,8 @@ CHUNK_SIZES = {
     "unichain": 10000,
     "tac": 10000,
     "ink": 10000,
+    "plasma": 10000,
+    "avalanche": 10000,
     "default": 10000    # Default chunk size for any unlisted chains
 }
 
@@ -181,7 +185,9 @@ def get_chain_from_path(path):
         "tac": "tac",
         "ink": "ink",
         "unichain": "unichain",
-        "base": "base"
+        "base": "base",
+        "plasma": "plasma",
+        "avalanche": "avalanche"
     }
     
     for chain in chains:

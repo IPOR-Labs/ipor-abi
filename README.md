@@ -6,7 +6,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Fuses List
 
-*Last updated: 2025-09-22 02:07:57 UTC*
+*Last updated: 2025-09-26 13:37:04 UTC*
 
 ### Ethereum Fuses
 
@@ -375,9 +375,22 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `VelodromeSuperchainSlipstreamModifyPositionFuse` | `0xcA3e5E7ad17fD5eCF5C36B4c4C772A1A46B5e7cb` [View](https://explorer.inkonchain.com/address/0xcA3e5E7ad17fD5eCF5C36B4c4C772A1A46B5e7cb#code) |
 | `VelodromeSuperchainSlipstreamNewPositionFuse` | `0x8B67350b0EDf00481e6EaBc46EfFcDbea75c76da` [View](https://explorer.inkonchain.com/address/0x8B67350b0EDf00481e6EaBc46EfFcDbea75c76da#code) |
 
+### Plasma Fuses
+
+| Fuse Name | Address / View in Explorer |
+|-----------|---------------------------|
+| `BalanceFuseBurnRequestFee` | `0x432318BC7632146717753C8C3349c196831b4903` [View](https://plasmascan.to/0x432318BC7632146717753C8C3349c196831b4903#code) |
+| `BalanceFuseErc20` | `0x1d604b955C783fdB8306989079624063f974c36e` [View](https://plasmascan.to/0x1d604b955C783fdB8306989079624063f974c36e#code) |
+| `BalanceFuseUniversalTokenSwapper` | `0xED6151F3A1435d84FfcC2eafa51E47392cdE7eB9` [View](https://plasmascan.to/0xED6151F3A1435d84FfcC2eafa51E47392cdE7eB9#code) |
+| `BurnRequestFeeFuse` | `0x2C904561C53C1707598A8031D59CfcaAaA831c4E` [View](https://plasmascan.to/0x2C904561C53C1707598A8031D59CfcaAaA831c4E#code) |
+| `SwapFuseUniversalTokenSwapper` | `0xbDA9bF1300e2dB937997810612aaF4bD5628541F` [View](https://plasmascan.to/0xbDA9bF1300e2dB937997810612aaF4bD5628541F#code) |
+| `SwapFuseUniversalTokenSwapperEth` | `0x34ca335f6E64eB56aB0206Ff58B010D8d1870D64` [View](https://plasmascan.to/0x34ca335f6E64eB56aB0206Ff58B010D8d1870D64#code) |
+| `SwapFuseUniversalTokenSwapperWithVerification` | `0x0D8350c362A47f28A649003d26E425f5284A9f51` [View](https://plasmascan.to/0x0D8350c362A47f28A649003d26E425f5284A9f51#code) |
+| `UniversalReaderBalanceFuses` | `0x221Dad9b50596700893753E4331289768CbF9C5F` [View](https://plasmascan.to/0x221Dad9b50596700893753E4331289768CbF9C5F#code) |
+
 ## PreHooks List
 
-*Last updated: 2025-09-22 02:07:58 UTC*
+*Last updated: 2025-09-26 13:37:05 UTC*
 
 ### Ethereum PreHooks
 
@@ -426,9 +439,16 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `PreHookPauseFunction` | `0x7B9Ca73aC9afB4119D4823e9b0E906B1abe5d16C` [View](https://explorer.inkonchain.com/address/0x7B9Ca73aC9afB4119D4823e9b0E906B1abe5d16C#code) |
 | `PreHookUpdateBalancesIgnoreDust` | `0x1d802E8B2AdC589E6d390692B56606a7F09B0Dc1` [View](https://explorer.inkonchain.com/address/0x1d802E8B2AdC589E6d390692B56606a7F09B0Dc1#code) |
 
+### Plasma PreHooks
+
+| PreHook Name | Address / View in Explorer |
+|-----------|---------------------------|
+| `PreHookPauseFunction` | `0x86162A4Ae8d831Cf0296C7d5E67510826da405F6` [View](https://plasmascan.to/0x86162A4Ae8d831Cf0296C7d5E67510826da405F6#code) |
+| `PreHookUpdateBalancesIgnoreDust` | `0x8F3d71872930532dc04bA37244c5EA5222b85Ca0` [View](https://plasmascan.to/0x8F3d71872930532dc04bA37244c5EA5222b85Ca0#code) |
+
 ## Price Oracles List
 
-*Last updated: 2025-09-22 02:08:25 UTC*
+*Last updated: 2025-09-26 14:02:22 UTC*
 
 ### Ethereum Price Oracles
 
@@ -530,6 +550,9 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | **wstETH** `0x5979D7b546E38E414F7E9822514be443A4800529` | `0xDc2AE617d91536005Fb4E303150BA0eb2A045511` [View](https://arbiscan.io/address/0xDc2AE617d91536005Fb4E303150BA0eb2A045511) |
 | **weETH** `0x35751007a407ca6FEFfE80b3cB397736D2cf4dbe` | `0x36A027f551231f6805A7aC4E601ca747a63f3C31` [View](https://arbiscan.io/address/0x36A027f551231f6805A7aC4E601ca747a63f3C31) |
 | **WBTC** `0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f` | `0xd0C7101eACbB49F3deCcCc166d238410D6D46d57` [View](https://arbiscan.io/address/0xd0C7101eACbB49F3deCcCc166d238410D6D46d57) |
+| **sUSDe** `0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2` | `0xd29b4C381f0Ff86F7683904712DF1Dc22a66e757` [View](https://arbiscan.io/address/0xd29b4C381f0Ff86F7683904712DF1Dc22a66e757) |
+| **USDe** `0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34` | `0x1b81760c6Fe66230c3E03968b1fc723475977DA3` [View](https://arbiscan.io/address/0x1b81760c6Fe66230c3E03968b1fc723475977DA3) |
+| **syrupUSDC** `0x41CA7586cC1311807B4605fBB748a3B8862b42b5` | `0x11FceDd695637a8c6F11D2cC6E9438d28880b1E9` [View](https://arbiscan.io/address/0x11FceDd695637a8c6F11D2cC6E9438d28880b1E9) |
 
 #### Price Feeds for `PriceOracleMiddlewareUsdWithRolesProxy`
 
@@ -659,5 +682,18 @@ No price feeds found for this version.
 #### Price Feeds for `PriceOracleMiddlewareUsdWithRolesProxy`
 
 ##### Version 2025-07-15 - `0xC2a698A69904306a7eF90012d7C58fE02E0BC3C5` [View](https://explorer.inkonchain.com/address/0xC2a698A69904306a7eF90012d7C58fE02E0BC3C5#code)
+
+No price feeds found for this version.
+
+
+### Plasma Price Oracles
+
+| Price Oracle Name | Address / View in Explorer |
+|-----------|---------------------------|
+| `PriceOracleMiddlewareUsdWithRolesProxy` | `0x7c51664D41809c28D9aee3c2332b0d3eD16e92d5` [View](https://plasmascan.to/0x7c51664D41809c28D9aee3c2332b0d3eD16e92d5#code) |
+
+#### Price Feeds for `PriceOracleMiddlewareUsdWithRolesProxy`
+
+##### Version 2025-09-26 - `0x7c51664D41809c28D9aee3c2332b0d3eD16e92d5` [View](https://plasmascan.to/0x7c51664D41809c28D9aee3c2332b0d3eD16e92d5#code)
 
 No price feeds found for this version.

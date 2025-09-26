@@ -245,6 +245,12 @@
         "token": "gamiUSDC",
         "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "PlasmaVault": "0x6f274F5098ad4CeBF3B68c81f260dE8eC66737c8"
+      },
+      {
+        "name": "yUSD Loooper",
+        "token": "CSYUSDLL",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0xa435F140114910C96343574DD67883F7538ba736"
       }
     ],
     "fuses": [
@@ -1148,6 +1154,24 @@
         "token": "autoFi",
         "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
         "PlasmaVault": "0x7Aa2656a84B129A1e8AdA9AD89Fb98552649F936"
+      },
+      {
+        "name": "Tsitsi",
+        "token": "TTS",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xfd93765E72D7085E2c721fa299E985Fe2e49db26"
+      },
+      {
+        "name": "ETH Sofia",
+        "token": "BG",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xcd1b7a4bF9DEa06D717053c179E06efb2A94A90A"
+      },
+      {
+        "name": "ETH Bulgaria ",
+        "token": "BG",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x2d3c7Ede4023CFE0710D3f0d1F934bd50f1D96Ba"
       }
     ],
     "fuses": [
@@ -1639,6 +1663,18 @@
               "0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f": {
                 "symbol": "WBTC",
                 "source": "0xd0C7101eACbB49F3deCcCc166d238410D6D46d57"
+              },
+              "0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2": {
+                "symbol": "sUSDe",
+                "source": "0xd29b4C381f0Ff86F7683904712DF1Dc22a66e757"
+              },
+              "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34": {
+                "symbol": "USDe",
+                "source": "0x1b81760c6Fe66230c3E03968b1fc723475977DA3"
+              },
+              "0x41CA7586cC1311807B4605fBB748a3B8862b42b5": {
+                "symbol": "syrupUSDC",
+                "source": "0x11FceDd695637a8c6F11D2cC6E9438d28880b1E9"
               }
             }
           },
@@ -1981,6 +2017,18 @@
         "token": "TCW",
         "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
         "PlasmaVault": "0x57fAe9CAF17A2fA90a0fbd6643FEAC21fe35A01c"
+      },
+      {
+        "name": "Onboarding Contribution",
+        "token": "ONCO",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0xa0EE767e49A6Fd0e6439F5a7d8492911c2A9ddE3"
+      },
+      {
+        "name": "Maciek Pilot Clone Ultra Farmer",
+        "token": "MPCUF",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0xCd5Fa3d49Aecc051feE3BD0709e167fB4D064D09"
       }
     ],
     "fuses": [
@@ -3159,5 +3207,86 @@
       }
     ],
     "pools": []
+  },
+  "plasma": {
+    "fuses": [
+      {
+        "name": "BalanceFuseBurnRequestFee",
+        "versions": {
+          "2025-09-26": "0x432318BC7632146717753C8C3349c196831b4903"
+        }
+      },
+      {
+        "name": "BalanceFuseErc20",
+        "versions": {
+          "2025-09-26": "0x1d604b955C783fdB8306989079624063f974c36e"
+        }
+      },
+      {
+        "name": "BalanceFuseUniversalTokenSwapper",
+        "versions": {
+          "2025-09-26": "0xED6151F3A1435d84FfcC2eafa51E47392cdE7eB9"
+        }
+      },
+      {
+        "name": "BurnRequestFeeFuse",
+        "versions": {
+          "2025-09-26": "0x2C904561C53C1707598A8031D59CfcaAaA831c4E"
+        }
+      },
+      {
+        "name": "SwapFuseUniversalTokenSwapper",
+        "versions": {
+          "2025-09-26": "0xbDA9bF1300e2dB937997810612aaF4bD5628541F"
+        }
+      },
+      {
+        "name": "SwapFuseUniversalTokenSwapperEth",
+        "versions": {
+          "2025-09-26": "0x34ca335f6E64eB56aB0206Ff58B010D8d1870D64"
+        }
+      },
+      {
+        "name": "SwapFuseUniversalTokenSwapperWithVerification",
+        "versions": {
+          "2025-09-26": "0x0D8350c362A47f28A649003d26E425f5284A9f51"
+        }
+      },
+      {
+        "name": "UniversalReaderBalanceFuses",
+        "versions": {
+          "2025-09-26": "0x221Dad9b50596700893753E4331289768CbF9C5F"
+        }
+      }
+    ],
+    "prehooks": [
+      {
+        "name": "PreHookPauseFunction",
+        "versions": {
+          "2025-09-26": "0x86162A4Ae8d831Cf0296C7d5E67510826da405F6"
+        }
+      },
+      {
+        "name": "PreHookUpdateBalancesIgnoreDust",
+        "versions": {
+          "2025-09-26": "0x8F3d71872930532dc04bA37244c5EA5222b85Ca0"
+        }
+      }
+    ],
+    "price_oracles": [
+      {
+        "name": "PriceOracleMiddlewareUsdWithRolesProxy",
+        "versions": {
+          "2025-09-26_001": {
+            "address": "0x7c51664D41809c28D9aee3c2332b0d3eD16e92d5"
+          }
+        }
+      }
+    ]
+  },
+  "avalanche": {
+    "fuses": [],
+    "prehooks": [],
+    "price_oracles": []
   }
 }

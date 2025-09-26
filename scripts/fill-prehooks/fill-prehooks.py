@@ -24,7 +24,9 @@ RPC_URLS = {
     "base": os.getenv("BASE_RPC_URL", "https://mainnet.base.org"),
     "unichain": os.getenv("UNICHAIN_RPC_URL", "https://mainnet.unichain.org"),
     "tac": os.getenv("TAC_RPC_URL", "https://rpc.ankr.com/tac"),
-    "ink": os.getenv("INK_RPC_URL", "https://ink.drpc.org")
+    "ink": os.getenv("INK_RPC_URL", "https://ink.drpc.org"),
+    "plasma": os.getenv("PLASMA_RPC_URL", "https://rpc.plasma.to"),
+    "avalanche": os.getenv("AVALANCHE_RPC_URL", "https://1rpc.io/avax/c")
 }
 
 for chain, url in RPC_URLS.items():
@@ -37,7 +39,9 @@ CHAIN_START_BLOCKS = {
     "base": 21704649,
     "unichain": 17867366,
     "tac": 239,
-    "ink": 19102371
+    "ink": 19102371,
+    "plasma": 1901043,
+    "avalanche": 69330233
 }
 
 EXPLORERS = {
@@ -46,7 +50,9 @@ EXPLORERS = {
     "base": "https://basescan.org/address/",
     "unichain": "https://uniscan.xyz/address/",
     "tac": "https://explorer.tac.build/address/",
-    "ink": "https://explorer.inkonchain.com/address/"
+    "ink": "https://explorer.inkonchain.com/address/",
+    "plasma": "https://plasmascan.to/",
+    "avalanche": "https://snowscan.xyz/"
 }
 
 NAMES = {
@@ -55,7 +61,9 @@ NAMES = {
     "base": "Base",
     "unichain": "Unichain",
     "tac": "TAC",
-    "ink": "Ink"
+    "ink": "Ink",
+    "plasma": "Plasma",
+    "avalanche": "Avalanche"
 }
 
 TOKEN_ABI = [
@@ -164,7 +172,9 @@ def update_addresses_json(prehooks_file, addresses_file):
                 "base": {"prehooks": []},
                 "unichain": {"prehooks": []},
                 "tac": {"prehooks": []},
-                "ink": {"prehooks": []}
+                "ink": {"prehooks": []},
+                "plasma": {"prehooks": []},
+                "avalanche": {"prehooks": []}
             }
 
         blockchain_prehooks = {
@@ -173,7 +183,9 @@ def update_addresses_json(prehooks_file, addresses_file):
             "base": {},
             "unichain": {},
             "tac": {},
-            "ink": {}
+            "ink": {},
+            "plasma": {},
+            "avalanche": {}
         }
 
         web3_connections = {}
@@ -202,6 +214,10 @@ def update_addresses_json(prehooks_file, addresses_file):
                 chain = "tac"
             elif "ink" in file_path:
                 chain = "ink"
+            elif "plasma" in file_path:
+                chain = "plasma"
+            elif "avalanche" in file_path:
+                chain = "avalanche"
 
             if not chain:
                 continue
