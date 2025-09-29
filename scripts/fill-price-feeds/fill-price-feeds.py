@@ -25,12 +25,27 @@ RPC_URLS = {
     "base": os.getenv("BASE_RPC_URL", "https://mainnet.base.org"),
     "unichain": os.getenv("UNICHAIN_RPC_URL", "https://mainnet.unichain.org"),
     "tac": os.getenv("TAC_RPC_URL", "https://rpc.ankr.com/tac"),
-    "ink": os.getenv("INK_RPC_URL", "https://ink.drpc.org")
+    "ink": os.getenv("INK_RPC_URL", "https://ink.drpc.org"),
+    "plasma": os.getenv("PLASMA_RPC_URL", "https://rpc.plasma.to"),
+    "avalanche": os.getenv("AVALANCHE_RPC_URL", "https://1rpc.io/avax/c")
 }
 
 for chain, url in RPC_URLS.items():
     if not url:
         raise ValueError(f"Missing RPC URL for {chain}. Please add {chain.upper()}_RPC_URL to your .env file.")
+
+# Configure chunk sizes per chain
+CHUNK_SIZES = {
+    "ethereum": 500000,
+    "arbitrum": 10000000,
+    "base": 10000000,
+    "unichain": 10000,
+    "tac": 10000,
+    "ink": 10000,
+    "plasma": 10000,
+    "avalanche": 10000,
+    "default": 10000    # Default chunk size for any unlisted chains
+}
 
 CHAIN_START_BLOCKS = {
     "ethereum": 20733870,
@@ -38,7 +53,9 @@ CHAIN_START_BLOCKS = {
     "base": 21704649,
     "unichain": 17867366,
     "tac": 239,
-    "ink": 19102371
+    "ink": 19102371,
+    "plasma": 1901043,
+    "avalanche": 69330233
 }
 
 EXPLORERS = {
@@ -47,7 +64,9 @@ EXPLORERS = {
     "base": "https://basescan.org/address/",
     "unichain": "https://uniscan.xyz/address/",
     "tac": "https://explorer.tac.build/address/",
-    "ink": "https://explorer.inkonchain.com/address/"
+    "ink": "https://explorer.inkonchain.com/address/",
+    "plasma": "https://plasmascan.to/",
+    "avalanche": "https://snowscan.xyz/"
 }
 
 NAMES = {
@@ -56,7 +75,9 @@ NAMES = {
     "base": "Base",
     "unichain": "Unichain",
     "tac": "TAC",
-    "ink": "Ink"
+    "ink": "Ink",
+    "plasma": "Plasma",
+    "avalanche": "Avalanche"
 }
 
 TOKEN_ABI = [
@@ -86,6 +107,43 @@ NOT_PRICE_FEED_NAMES = [
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
+
+
+def get_contract_creation_block(web3, address):
+    """Get the block number where the contract was created."""
+    logger.info(f"Finding creation block for contract: {address}")
+    try:
+        # Binary search for the first transaction to this address
+        left = 0
+        right = web3.eth.block_number
+        creation_block = right
+
+        while left <= right:
+            mid = (left + right) // 2
+            
+            # Check if contract exists at this block
+            try:
+                code = web3.eth.get_code(Web3.to_checksum_address(address), block_identifier=mid)
+                if len(code) > 0:
+                    # Contract exists at this block, try earlier blocks
+                    creation_block = mid
+                    right = mid - 1
+                else:
+                    # Contract doesn't exist yet, try later blocks
+                    left = mid + 1
+            except Exception as e:
+                # If error occurs, assume contract doesn't exist at this block
+                left = mid + 1
+
+        logger.info(f"Found contract creation block: {creation_block}")
+        return creation_block
+
+    except Exception as e:
+        logger.error(f"Error finding contract creation block: {str(e)}")
+        # If we can't find the creation block, start from a recent point
+        recent_block = max(0, web3.eth.block_number - 100000)
+        logger.warning(f"Using fallback block number: {recent_block}")
+        return recent_block
 
 
 def get_contract_deployment_date(web3, address, chain):
@@ -162,47 +220,96 @@ def extract_price_feed_fields(file_path):
 
 
 def get_price_feed_events(web3, address, chain):
+    """Fetch all AssetPriceSourceUpdated events for a price oracle in chunks."""
+    logger.info(f"Fetching AssetPriceSourceUpdated events for price oracle: {address}")
     try:
-        checksum_address = Web3.to_checksum_address(address)
-        logger.info(f"Getting AssetPriceSourceUpdated events for {address} on {chain}")
+        contract = web3.eth.contract(address=Web3.to_checksum_address(address), abi=PRICE_ORACLE_ABI)
         
-        contract = web3.eth.contract(address=checksum_address, abi=PRICE_ORACLE_ABI)
-        start_block = CHAIN_START_BLOCKS.get(chain, 0)
-
-        price_feeds = {}
+        # Get the event signature with 0x prefix
+        event_signature = '0x' + web3.keccak(text="AssetPriceSourceUpdated(address,address)").hex()
+        logger.info(f"Event signature: {event_signature}")
         
+        # Get the latest block number
+        latest_block = web3.eth.block_number
+        logger.info(f"Latest block number: {latest_block}")
+        
+        # Get contract creation block or use chain start block as fallback
         try:
-            event_filter = contract.events.AssetPriceSourceUpdated.create_filter(
-                from_block=start_block,
-                to_block='latest'
-            )
-            events = event_filter.get_all_entries()
-            
-            for event in events:
-                asset = event['args']['asset']
-                source = event['args']['source']
-                
-                try:
-                    token_contract = web3.eth.contract(address=asset, abi=TOKEN_ABI)
-                    symbol = token_contract.functions.symbol().call()
-                    logger.info(f"Found price feed for {symbol} ({asset}) -> {source}")
-                except Exception as e:
-                    logger.warning(f"Could not get symbol for {asset}: {str(e)}")
-                    symbol = f"Unknown-{asset[-6:]}"
-
-                price_feeds[asset] = {
-                    "symbol": symbol,
-                    "source": source
-                }
-            
+            from_block = get_contract_creation_block(web3, address)
         except Exception as e:
-            logger.error(f"Error fetching events from {start_block} to latest: {str(e)}")
+            logger.warning(f"Could not find contract creation block, using chain start block: {str(e)}")
+            from_block = CHAIN_START_BLOCKS.get(chain, 0)
+        
+        logger.info(f"Starting from block: {from_block}")
+        
+        # Collect all events
+        all_events = []
+        chunk_size = CHUNK_SIZES.get(chain, CHUNK_SIZES["default"])
+        logger.info(f"Using chunk size of {chunk_size} for chain {chain}")
+        
+        # Process in chunks
+        current_from_block = from_block
+        while current_from_block <= latest_block:
+            current_to_block = min(current_from_block + chunk_size, latest_block)
+            logger.info(f"Fetching events from block {current_from_block} to {current_to_block}")
+            
+            try:
+                # Get logs for this chunk
+                logs = web3.eth.get_logs({
+                    'address': Web3.to_checksum_address(address),
+                    'topics': [event_signature],
+                    'fromBlock': current_from_block,
+                    'toBlock': current_to_block
+                })
+                
+                logger.info(f"Found {len(logs)} logs in this chunk")
+                
+                # Process each log
+                for log in logs:
+                    try:
+                        # Decode the event data
+                        event_data = contract.events.AssetPriceSourceUpdated().process_log(log)
+                        all_events.append(event_data)
+                    except Exception as decode_error:
+                        logger.error(f"Error decoding log: {str(decode_error)}")
+                        continue
+                
+            except Exception as chunk_error:
+                logger.error(f"Error fetching events for chunk {current_from_block}-{current_to_block}: {str(chunk_error)}")
+                # If chunk size is too large, try with a smaller chunk
+                if chunk_size >= 10000:
+                    logger.info(f"Reducing chunk size and retrying...")
+                    chunk_size = chunk_size // 2
+                    continue
+                
+            current_from_block = current_to_block + 1
+            
+        logger.info(f"Total events found: {len(all_events)}")
+        
+        # Process events to extract price feeds
+        price_feeds = {}
+        for event in all_events:
+            asset = event['args']['asset']
+            source = event['args']['source']
+            
+            try:
+                token_contract = web3.eth.contract(address=asset, abi=TOKEN_ABI)
+                symbol = token_contract.functions.symbol().call()
+                logger.info(f"Found price feed for {symbol} ({asset}) -> {source}")
+            except Exception as e:
+                logger.warning(f"Could not get symbol for {asset}: {str(e)}")
+                symbol = f"Unknown-{asset[-6:]}"
+
+            price_feeds[asset] = {
+                "symbol": symbol,
+                "source": source
+            }
         
         logger.info(f"Found {len(price_feeds)} price feeds from events for {address}")
         return price_feeds
-        
+            
     except Exception as e:
-        logger.error(f"Error getting price feed events for {address}: {str(e)}")
+        logger.error(f"Error setting up contract for price oracle {address}: {str(e)}")
         return {}
 
 
@@ -221,7 +328,9 @@ def update_addresses_json(priceoracles_file, addresses_file):
                 "base": {"price_oracles": []},
                 "unichain": {"price_oracles": []},
                 "tac": {"price_oracles": []},
-                "ink": {"price_oracles": []}
+                "ink": {"price_oracles": []},
+                "plasma": {"price_oracles": []},
+                "avalanche": {"price_oracles": []}
             }
 
         blockchain_priceoracles = {
@@ -230,7 +339,9 @@ def update_addresses_json(priceoracles_file, addresses_file):
             "base": {},
             "unichain": {},
             "tac": {},
-            "ink": {}
+            "ink": {},
+            "plasma": {},
+            "avalanche": {}
         }
 
         web3_connections = {}
@@ -256,7 +367,9 @@ def update_addresses_json(priceoracles_file, addresses_file):
             "base": {},
             "unichain": {},
             "tac": {},
-            "ink": {}
+            "ink": {},
+            "plasma": {},
+            "avalanche": {}
         }
 
         unique_addresses = {
@@ -265,7 +378,9 @@ def update_addresses_json(priceoracles_file, addresses_file):
             "base": {},
             "unichain": {},
             "tac": {},
-            "ink": {}
+            "ink": {},
+            "plasma": {},
+            "avalanche": {}
         }
 
         address_to_date_key = {
@@ -274,7 +389,9 @@ def update_addresses_json(priceoracles_file, addresses_file):
             "base": {},
             "unichain": {},
             "tac": {},
-            "ink": {}
+            "ink": {},
+            "plasma": {},
+            "avalanche": {}
         }
 
         for file_path, priceoracles in priceoracles_data.items():
@@ -291,6 +408,10 @@ def update_addresses_json(priceoracles_file, addresses_file):
                 chain = "tac"
             elif "ink" in file_path:
                 chain = "ink"
+            elif "plasma" in file_path:
+                chain = "plasma"
+            elif "avalanche" in file_path:
+                chain = "avalanche"
 
             if not chain:
                 continue
