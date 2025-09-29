@@ -1,0 +1,100 @@
+[
+  {
+    "type": "function",
+    "name": "clone",
+    "inputs": [
+      {
+        "name": "baseAddress_",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "index_",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "accessManager_",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "priceOracleMiddleware_",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "priceManager",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "create",
+    "inputs": [
+      {
+        "name": "index_",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "accessManager_",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "priceOracleMiddleware_",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "priceManager",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "event",
+    "name": "PriceManagerCreated",
+    "inputs": [
+      {
+        "name": "index",
+        "type": "uint256",
+        "indexed": false,
+        "internalType": "uint256"
+      },
+      {
+        "name": "priceManager",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      },
+      {
+        "name": "priceOracleMiddleware",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "error",
+    "name": "ERC1167FailedCreateClone",
+    "inputs": []
+  },
+  {
+    "type": "error",
+    "name": "InvalidBaseAddress",
+    "inputs": []
+  }
+]
