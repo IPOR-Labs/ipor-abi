@@ -1402,6 +1402,12 @@
         }
       },
       {
+        "name": "ConfigureInstantWithdrawalFuse",
+        "versions": {
+          "2025-09-30": "0x77C66a7A637D90662BDC35E2C8bBc29ef6a3264F"
+        }
+      },
+      {
         "name": "ControllerFuseEulerV2",
         "versions": {
           "2025-05-29": "0xc27E938FCA53E3f5fE5deb9141033573048a22B4",
@@ -1477,7 +1483,8 @@
       {
         "name": "StakeDaoV2SupplyFuse",
         "versions": {
-          "2025-08-19": "0x588a48916262f726eFdB59200658829a4a6AB252"
+          "2025-08-19": "0x588a48916262f726eFdB59200658829a4a6AB252",
+          "2025-09-26": "0x4af60343C2a6a9692559030936fBFf579c05779c"
         }
       },
       {
@@ -2812,6 +2819,12 @@
         }
       },
       {
+        "name": "ConfigureInstantWithdrawalFuse",
+        "versions": {
+          "2025-09-30": "0x31BF6Ce4553986243cdA4ae02F7693EB254B857E"
+        }
+      },
+      {
         "name": "ControllerFuseEulerV2",
         "versions": {
           "2025-07-03": "0xa32E128CA86e8116dF090c5287C21E08b2EaCAf0"
@@ -2981,6 +2994,12 @@
         }
       },
       {
+        "name": "ConfigureInstantWithdrawalFuse",
+        "versions": {
+          "2025-10-01": "0xb107373C8f67C97df1cee20bb3180719D95eA75b"
+        }
+      },
+      {
         "name": "SwapFuseUniversalTokenSwapper",
         "versions": {
           "2025-07-03": "0x81a4f4d9e70e6367a0509FE058efbeA2092e310e"
@@ -3087,6 +3106,12 @@
         "name": "BurnRequestFeeFuse",
         "versions": {
           "2025-07-15": "0x38FfDFc14D17aBC9f996f22cc105F6B48D7Ce2a2"
+        }
+      },
+      {
+        "name": "ConfigureInstantWithdrawalFuse",
+        "versions": {
+          "2025-09-30": "0x7E07BC6598f9cB30F5E932bF46270a21895Cd59a"
         }
       },
       {
@@ -3211,6 +3236,12 @@
   "plasma": {
     "fuses": [
       {
+        "name": "AaveV3WithPriceOracleMiddlewareBalanceFuse",
+        "versions": {
+          "2025-09-30": "0x85af64e5E3B40B4AA0aa876f6E4979C24aA689F2"
+        }
+      },
+      {
         "name": "BalanceFuseBurnRequestFee",
         "versions": {
           "2025-09-26": "0x432318BC7632146717753C8C3349c196831b4903"
@@ -3223,15 +3254,69 @@
         }
       },
       {
+        "name": "BalanceFuseErc4626Market1",
+        "versions": {
+          "2025-09-30": "0x9952B443634080d5B4D14A79CAa6C9CE39fb30fc"
+        }
+      },
+      {
+        "name": "BalanceFuseEulerV2",
+        "versions": {
+          "2025-09-30": "0xA8c95Ebe61Af91cf5254C26AFF668eBCa197e865"
+        }
+      },
+      {
         "name": "BalanceFuseUniversalTokenSwapper",
         "versions": {
           "2025-09-26": "0xED6151F3A1435d84FfcC2eafa51E47392cdE7eB9"
         }
       },
       {
+        "name": "BorrowFuseAaveV3",
+        "versions": {
+          "2025-09-30": "0xA072E8ff01fec4e09808968220bFF4DD2262e320"
+        }
+      },
+      {
+        "name": "BorrowFuseEulerV2",
+        "versions": {
+          "2025-09-30": "0x16a50d2CfBa4683002d933CD27167E009397aA8d"
+        }
+      },
+      {
         "name": "BurnRequestFeeFuse",
         "versions": {
           "2025-09-26": "0x2C904561C53C1707598A8031D59CfcaAaA831c4E"
+        }
+      },
+      {
+        "name": "ConfigureInstantWithdrawalFuse",
+        "versions": {
+          "2025-09-30": "0x876D692c16e9B9c02DDB1349980E159cB4fbAdEc"
+        }
+      },
+      {
+        "name": "ControllerFuseEulerV2",
+        "versions": {
+          "2025-09-30": "0x83BCf7Fb4fA738a9C990c2DABC6ff2B575bdD49a"
+        }
+      },
+      {
+        "name": "SupplyFuseAaveV3",
+        "versions": {
+          "2025-09-30": "0x9B64e01c16CbFfB0D42d89a5Df73B7f8909dff05"
+        }
+      },
+      {
+        "name": "SupplyFuseErc4626Market1",
+        "versions": {
+          "2025-09-30": "0xFb645f6581C57cc139F1af21026Ad0737F7338A2"
+        }
+      },
+      {
+        "name": "SupplyFuseEulerV2",
+        "versions": {
+          "2025-09-30": "0xe0497Ffee6cdf82e87b011BF44090e4ec1269E70"
         }
       },
       {
@@ -3281,6 +3366,14 @@
             "address": "0x7c51664D41809c28D9aee3c2332b0d3eD16e92d5"
           }
         }
+      }
+    ],
+    "vaults": [
+      {
+        "name": "Maciek F1 Ultra USDC Yield machine",
+        "token": "MF2",
+        "asset": "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb",
+        "PlasmaVault": "0x0866b3F9490392c04C59605a05361258405b5b81"
       }
     ]
   },
