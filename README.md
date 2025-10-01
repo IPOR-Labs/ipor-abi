@@ -6,7 +6,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Fuses List
 
-*Last updated: 2025-10-01 09:31:01 UTC*
+*Last updated: 2025-10-01 14:35:00 UTC*
 
 ### Ethereum Fuses
 
@@ -390,28 +390,54 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 | Fuse Name | Address / View in Explorer |
 |-----------|---------------------------|
-| `AaveV3WithPriceOracleMiddlewareBalanceFuse` | `0x85af64e5E3B40B4AA0aa876f6E4979C24aA689F2` [View](https://plasmascan.to/0x85af64e5E3B40B4AA0aa876f6E4979C24aA689F2#code) |
-| `BalanceFuseBurnRequestFee` | `0x432318BC7632146717753C8C3349c196831b4903` [View](https://plasmascan.to/0x432318BC7632146717753C8C3349c196831b4903#code) |
-| `BalanceFuseErc20` | `0x1d604b955C783fdB8306989079624063f974c36e` [View](https://plasmascan.to/0x1d604b955C783fdB8306989079624063f974c36e#code) |
-| `BalanceFuseErc4626Market1` | `0x9952B443634080d5B4D14A79CAa6C9CE39fb30fc` [View](https://plasmascan.to/0x9952B443634080d5B4D14A79CAa6C9CE39fb30fc#code) |
-| `BalanceFuseEulerV2` | `0xA8c95Ebe61Af91cf5254C26AFF668eBCa197e865` [View](https://plasmascan.to/0xA8c95Ebe61Af91cf5254C26AFF668eBCa197e865#code) |
-| `BalanceFuseUniversalTokenSwapper` | `0xED6151F3A1435d84FfcC2eafa51E47392cdE7eB9` [View](https://plasmascan.to/0xED6151F3A1435d84FfcC2eafa51E47392cdE7eB9#code) |
-| `BorrowFuseAaveV3` | `0xA072E8ff01fec4e09808968220bFF4DD2262e320` [View](https://plasmascan.to/0xA072E8ff01fec4e09808968220bFF4DD2262e320#code) |
-| `BorrowFuseEulerV2` | `0x16a50d2CfBa4683002d933CD27167E009397aA8d` [View](https://plasmascan.to/0x16a50d2CfBa4683002d933CD27167E009397aA8d#code) |
-| `BurnRequestFeeFuse` | `0x2C904561C53C1707598A8031D59CfcaAaA831c4E` [View](https://plasmascan.to/0x2C904561C53C1707598A8031D59CfcaAaA831c4E#code) |
-| `ConfigureInstantWithdrawalFuse` | `0x876D692c16e9B9c02DDB1349980E159cB4fbAdEc` [View](https://plasmascan.to/0x876D692c16e9B9c02DDB1349980E159cB4fbAdEc#code) |
-| `ControllerFuseEulerV2` | `0x83BCf7Fb4fA738a9C990c2DABC6ff2B575bdD49a` [View](https://plasmascan.to/0x83BCf7Fb4fA738a9C990c2DABC6ff2B575bdD49a#code) |
-| `SupplyFuseAaveV3` | `0x9B64e01c16CbFfB0D42d89a5Df73B7f8909dff05` [View](https://plasmascan.to/0x9B64e01c16CbFfB0D42d89a5Df73B7f8909dff05#code) |
-| `SupplyFuseErc4626Market1` | `0xFb645f6581C57cc139F1af21026Ad0737F7338A2` [View](https://plasmascan.to/0xFb645f6581C57cc139F1af21026Ad0737F7338A2#code) |
-| `SupplyFuseEulerV2` | `0xe0497Ffee6cdf82e87b011BF44090e4ec1269E70` [View](https://plasmascan.to/0xe0497Ffee6cdf82e87b011BF44090e4ec1269E70#code) |
-| `SwapFuseUniversalTokenSwapper` | `0xbDA9bF1300e2dB937997810612aaF4bD5628541F` [View](https://plasmascan.to/0xbDA9bF1300e2dB937997810612aaF4bD5628541F#code) |
-| `SwapFuseUniversalTokenSwapperEth` | `0x34ca335f6E64eB56aB0206Ff58B010D8d1870D64` [View](https://plasmascan.to/0x34ca335f6E64eB56aB0206Ff58B010D8d1870D64#code) |
-| `SwapFuseUniversalTokenSwapperWithVerification` | `0x0D8350c362A47f28A649003d26E425f5284A9f51` [View](https://plasmascan.to/0x0D8350c362A47f28A649003d26E425f5284A9f51#code) |
-| `UniversalReaderBalanceFuses` | `0x221Dad9b50596700893753E4331289768CbF9C5F` [View](https://plasmascan.to/0x221Dad9b50596700893753E4331289768CbF9C5F#code) |
+| `AaveV3WithPriceOracleMiddlewareBalanceFuse` | `0x85af64e5E3B40B4AA0aa876f6E4979C24aA689F2` [View](https://plasmascan.to/address/0x85af64e5E3B40B4AA0aa876f6E4979C24aA689F2/contract/9745/code) |
+| `BalanceFuseBurnRequestFee` | `0x432318BC7632146717753C8C3349c196831b4903` [View](https://plasmascan.to/address/0x432318BC7632146717753C8C3349c196831b4903/contract/9745/code) |
+| `BalanceFuseErc20` | `0x1d604b955C783fdB8306989079624063f974c36e` [View](https://plasmascan.to/address/0x1d604b955C783fdB8306989079624063f974c36e/contract/9745/code) |
+| `BalanceFuseErc4626Market1` | `0x9952B443634080d5B4D14A79CAa6C9CE39fb30fc` [View](https://plasmascan.to/address/0x9952B443634080d5B4D14A79CAa6C9CE39fb30fc/contract/9745/code) |
+| `BalanceFuseEulerV2` | `0xA8c95Ebe61Af91cf5254C26AFF668eBCa197e865` [View](https://plasmascan.to/address/0xA8c95Ebe61Af91cf5254C26AFF668eBCa197e865/contract/9745/code) |
+| `BalanceFuseUniversalTokenSwapper` | `0xED6151F3A1435d84FfcC2eafa51E47392cdE7eB9` [View](https://plasmascan.to/address/0xED6151F3A1435d84FfcC2eafa51E47392cdE7eB9/contract/9745/code) |
+| `BorrowFuseAaveV3` | `0xA072E8ff01fec4e09808968220bFF4DD2262e320` [View](https://plasmascan.to/address/0xA072E8ff01fec4e09808968220bFF4DD2262e320/contract/9745/code) |
+| `BorrowFuseEulerV2` | `0x16a50d2CfBa4683002d933CD27167E009397aA8d` [View](https://plasmascan.to/address/0x16a50d2CfBa4683002d933CD27167E009397aA8d/contract/9745/code) |
+| `BurnRequestFeeFuse` | `0x2C904561C53C1707598A8031D59CfcaAaA831c4E` [View](https://plasmascan.to/address/0x2C904561C53C1707598A8031D59CfcaAaA831c4E/contract/9745/code) |
+| `ConfigureInstantWithdrawalFuse` | `0x876D692c16e9B9c02DDB1349980E159cB4fbAdEc` [View](https://plasmascan.to/address/0x876D692c16e9B9c02DDB1349980E159cB4fbAdEc/contract/9745/code) |
+| `ControllerFuseEulerV2` | `0x83BCf7Fb4fA738a9C990c2DABC6ff2B575bdD49a` [View](https://plasmascan.to/address/0x83BCf7Fb4fA738a9C990c2DABC6ff2B575bdD49a/contract/9745/code) |
+| `SupplyFuseAaveV3` | `0x9B64e01c16CbFfB0D42d89a5Df73B7f8909dff05` [View](https://plasmascan.to/address/0x9B64e01c16CbFfB0D42d89a5Df73B7f8909dff05/contract/9745/code) |
+| `SupplyFuseErc4626Market1` | `0xFb645f6581C57cc139F1af21026Ad0737F7338A2` [View](https://plasmascan.to/address/0xFb645f6581C57cc139F1af21026Ad0737F7338A2/contract/9745/code) |
+| `SupplyFuseEulerV2` | `0xe0497Ffee6cdf82e87b011BF44090e4ec1269E70` [View](https://plasmascan.to/address/0xe0497Ffee6cdf82e87b011BF44090e4ec1269E70/contract/9745/code) |
+| `SwapFuseUniversalTokenSwapper` | `0xbDA9bF1300e2dB937997810612aaF4bD5628541F` [View](https://plasmascan.to/address/0xbDA9bF1300e2dB937997810612aaF4bD5628541F/contract/9745/code) |
+| `SwapFuseUniversalTokenSwapperEth` | `0x34ca335f6E64eB56aB0206Ff58B010D8d1870D64` [View](https://plasmascan.to/address/0x34ca335f6E64eB56aB0206Ff58B010D8d1870D64/contract/9745/code) |
+| `SwapFuseUniversalTokenSwapperWithVerification` | `0x0D8350c362A47f28A649003d26E425f5284A9f51` [View](https://plasmascan.to/address/0x0D8350c362A47f28A649003d26E425f5284A9f51/contract/9745/code) |
+| `UniversalReaderBalanceFuses` | `0x221Dad9b50596700893753E4331289768CbF9C5F` [View](https://plasmascan.to/address/0x221Dad9b50596700893753E4331289768CbF9C5F/contract/9745/code) |
+
+### Avalanche Fuses
+
+| Fuse Name | Address / View in Explorer |
+|-----------|---------------------------|
+| `AaveV3WithPriceOracleMiddlewareBalanceFuse` | `0x563DFc4b7629364f0a992aaa4c87e87e95ce9fB0` [View](https://snowscan.xyz/address/0x563DFc4b7629364f0a992aaa4c87e87e95ce9fB0#code) |
+| `BalanceFuseBurnRequestFee` | `0x630ca75385d20ac9dBdf9329E1a00504c4d50B02` [View](https://snowscan.xyz/address/0x630ca75385d20ac9dBdf9329E1a00504c4d50B02#code) |
+| `BalanceFuseErc20` | `0x5127C36f68c3fb4Bf3f1c6C0e8d06fa0367148f1` [View](https://snowscan.xyz/address/0x5127C36f68c3fb4Bf3f1c6C0e8d06fa0367148f1#code) |
+| `BalanceFuseEulerV2` | `0x2426946D65939eF2C750425265Ef0ab60c1CcCD6` [View](https://snowscan.xyz/address/0x2426946D65939eF2C750425265Ef0ab60c1CcCD6#code) |
+| `BalanceFuseUniversalTokenSwapper` | `0xd2b20152ca1EAfdE72161891053E17e9f68Ca583` [View](https://snowscan.xyz/address/0xd2b20152ca1EAfdE72161891053E17e9f68Ca583#code) |
+| `BorrowFuseAaveV3` | `0x27049822E8F40D194Ac5A0b0107255Ec12cd4e82` [View](https://snowscan.xyz/address/0x27049822E8F40D194Ac5A0b0107255Ec12cd4e82#code) |
+| `BorrowFuseEulerV2` | `0x9EC82D04221F3e402039f406A47e4BA444e2e9b7` [View](https://snowscan.xyz/address/0x9EC82D04221F3e402039f406A47e4BA444e2e9b7#code) |
+| `BurnRequestFeeFuse` | `0x248df281F63a36683Dbc5EEcD4085c46fce62d99` [View](https://snowscan.xyz/address/0x248df281F63a36683Dbc5EEcD4085c46fce62d99#code) |
+| `CollateralFuseEulerV2` | `0x4a75987699917c5f09152b6A9217f6f6431e6E48` [View](https://snowscan.xyz/address/0x4a75987699917c5f09152b6A9217f6f6431e6E48#code) |
+| `ConfigureInstantWithdrawalFuse` | `0x1F01Ee3c7fC894e6A1A80823Dd21f6Ba3B04db7d` [View](https://snowscan.xyz/address/0x1F01Ee3c7fC894e6A1A80823Dd21f6Ba3B04db7d#code) |
+| `ControllerFuseEulerV2` | `0x8E906e5bB9Ca0CCd4a395AABe09b0F5cfB6A0c9a` [View](https://snowscan.xyz/address/0x8E906e5bB9Ca0CCd4a395AABe09b0F5cfB6A0c9a#code) |
+| `SiloV2BalanceFuse` | `0xc4D09e234E725cCcb594C441b9eE64e3D6204c81` [View](https://snowscan.xyz/address/0xc4D09e234E725cCcb594C441b9eE64e3D6204c81#code) |
+| `SiloV2BorrowFuse` | `0x05f9114c3F1975d62e32043eee01BA57c2Ad3f71` [View](https://snowscan.xyz/address/0x05f9114c3F1975d62e32043eee01BA57c2Ad3f71#code) |
+| `SiloV2SupplyBorrowableCollateralFuse` | `0x86b7433372E9508f5C3906C8655cc2F6f5B5E3e6` [View](https://snowscan.xyz/address/0x86b7433372E9508f5C3906C8655cc2F6f5B5E3e6#code) |
+| `SiloV2SupplyNonBorrowableCollateralFuse` | `0xe606e7307f22F7Dc1d902844d353F51fc57bA955` [View](https://snowscan.xyz/address/0xe606e7307f22F7Dc1d902844d353F51fc57bA955#code) |
+| `SupplyFuseAaveV3` | `0x97e36bA4d86824738c83b91b7b983d36c75a1946` [View](https://snowscan.xyz/address/0x97e36bA4d86824738c83b91b7b983d36c75a1946#code) |
+| `SupplyFuseEulerV2` | `0xdD02ad9A1d40FE1BA14812729db1272EF42A497F` [View](https://snowscan.xyz/address/0xdD02ad9A1d40FE1BA14812729db1272EF42A497F#code) |
+| `SwapFuseUniversalTokenSwapper` | `0xA9daB41f304A64C5b81d504DaE30b4b41b68C80B` [View](https://snowscan.xyz/address/0xA9daB41f304A64C5b81d504DaE30b4b41b68C80B#code) |
+| `SwapFuseUniversalTokenSwapperEth` | `0x4Bfde040f9325E5154c3984547945165544d4023` [View](https://snowscan.xyz/address/0x4Bfde040f9325E5154c3984547945165544d4023#code) |
+| `SwapFuseUniversalTokenSwapperWithVerification` | `0x40527fEb6f2C7a209C35fa18f1e71d311aa5861D` [View](https://snowscan.xyz/address/0x40527fEb6f2C7a209C35fa18f1e71d311aa5861D#code) |
+| `UniversalReaderBalanceFuses` | `0x4F78F29Ac7078A2B6A0D73820DD2E88C90E3683e` [View](https://snowscan.xyz/address/0x4F78F29Ac7078A2B6A0D73820DD2E88C90E3683e#code) |
 
 ## PreHooks List
 
-*Last updated: 2025-10-01 09:31:02 UTC*
+*Last updated: 2025-10-01 14:35:02 UTC*
 
 ### Ethereum PreHooks
 
@@ -464,12 +490,19 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 | PreHook Name | Address / View in Explorer |
 |-----------|---------------------------|
-| `PreHookPauseFunction` | `0x86162A4Ae8d831Cf0296C7d5E67510826da405F6` [View](https://plasmascan.to/0x86162A4Ae8d831Cf0296C7d5E67510826da405F6#code) |
-| `PreHookUpdateBalancesIgnoreDust` | `0x8F3d71872930532dc04bA37244c5EA5222b85Ca0` [View](https://plasmascan.to/0x8F3d71872930532dc04bA37244c5EA5222b85Ca0#code) |
+| `PreHookPauseFunction` | `0x86162A4Ae8d831Cf0296C7d5E67510826da405F6` [View](https://plasmascan.to/address/0x86162A4Ae8d831Cf0296C7d5E67510826da405F6#code) |
+| `PreHookUpdateBalancesIgnoreDust` | `0x8F3d71872930532dc04bA37244c5EA5222b85Ca0` [View](https://plasmascan.to/address/0x8F3d71872930532dc04bA37244c5EA5222b85Ca0#code) |
+
+### Avalanche PreHooks
+
+| PreHook Name | Address / View in Explorer |
+|-----------|---------------------------|
+| `PreHookPauseFunction` | `0x9f07A105cCbc9E65Aa0eA064E8cF765E5967B5dc` [View](https://snowscan.xyz/address/0x9f07A105cCbc9E65Aa0eA064E8cF765E5967B5dc#code) |
+| `PreHookUpdateBalancesIgnoreDust` | `0x8f2E9d878D68b9E174E3EA53E5151602F1e702A4` [View](https://snowscan.xyz/address/0x8f2E9d878D68b9E174E3EA53E5151602F1e702A4#code) |
 
 ## Price Oracles List
 
-*Last updated: 2025-10-01 09:42:54 UTC*
+*Last updated: 2025-10-01 14:35:27 UTC*
 
 ### Ethereum Price Oracles
 
@@ -711,10 +744,23 @@ No price feeds found for this version.
 
 | Price Oracle Name | Address / View in Explorer |
 |-----------|---------------------------|
-| `PriceOracleMiddlewareUsdWithRolesProxy` | `0x7c51664D41809c28D9aee3c2332b0d3eD16e92d5` [View](https://plasmascan.to/0x7c51664D41809c28D9aee3c2332b0d3eD16e92d5#code) |
+| `PriceOracleMiddlewareUsdWithRolesProxy` | `0x7c51664D41809c28D9aee3c2332b0d3eD16e92d5` [View](https://plasmascan.to/address/0x7c51664D41809c28D9aee3c2332b0d3eD16e92d5#code) |
 
 #### Price Feeds for `PriceOracleMiddlewareUsdWithRolesProxy`
 
-##### Version 2025-09-26 - `0x7c51664D41809c28D9aee3c2332b0d3eD16e92d5` [View](https://plasmascan.to/0x7c51664D41809c28D9aee3c2332b0d3eD16e92d5#code)
+##### Version 2025-09-26 - `0x7c51664D41809c28D9aee3c2332b0d3eD16e92d5` [View](https://plasmascan.to/address/0x7c51664D41809c28D9aee3c2332b0d3eD16e92d5#code)
+
+No price feeds found for this version.
+
+
+### Avalanche Price Oracles
+
+| Price Oracle Name | Address / View in Explorer |
+|-----------|---------------------------|
+| `PriceOracleMiddlewareUsdWithRolesProxy` | `0xa2aD49b19e2f85cCA553C86aDB8D3d7cA1Cae3B8` [View](https://snowscan.xyz/address/0xa2aD49b19e2f85cCA553C86aDB8D3d7cA1Cae3B8#code) |
+
+#### Price Feeds for `PriceOracleMiddlewareUsdWithRolesProxy`
+
+##### Version 2025-10-01 - `0xa2aD49b19e2f85cCA553C86aDB8D3d7cA1Cae3B8` [View](https://snowscan.xyz/address/0xa2aD49b19e2f85cCA553C86aDB8D3d7cA1Cae3B8#code)
 
 No price feeds found for this version.

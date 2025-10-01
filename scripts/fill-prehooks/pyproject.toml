@@ -9,6 +9,7 @@ package-mode = false
 python = "^3.12"
 web3 = "^7.8.0"
 python-dotenv = "^1.0.1"
+PyYAML = "^6.0.1"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

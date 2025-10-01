@@ -3414,8 +3414,157 @@
     ]
   },
   "avalanche": {
-    "fuses": [],
-    "prehooks": [],
-    "price_oracles": []
+    "fuses": [
+      {
+        "name": "AaveV3WithPriceOracleMiddlewareBalanceFuse",
+        "versions": {
+          "2025-10-01": "0x563DFc4b7629364f0a992aaa4c87e87e95ce9fB0"
+        }
+      },
+      {
+        "name": "BalanceFuseBurnRequestFee",
+        "versions": {
+          "2025-10-01": "0x630ca75385d20ac9dBdf9329E1a00504c4d50B02"
+        }
+      },
+      {
+        "name": "BalanceFuseErc20",
+        "versions": {
+          "2025-10-01": "0x5127C36f68c3fb4Bf3f1c6C0e8d06fa0367148f1"
+        }
+      },
+      {
+        "name": "BalanceFuseEulerV2",
+        "versions": {
+          "2025-10-01": "0x2426946D65939eF2C750425265Ef0ab60c1CcCD6"
+        }
+      },
+      {
+        "name": "BalanceFuseUniversalTokenSwapper",
+        "versions": {
+          "2025-10-01": "0xd2b20152ca1EAfdE72161891053E17e9f68Ca583"
+        }
+      },
+      {
+        "name": "BorrowFuseAaveV3",
+        "versions": {
+          "2025-10-01": "0x27049822E8F40D194Ac5A0b0107255Ec12cd4e82"
+        }
+      },
+      {
+        "name": "BorrowFuseEulerV2",
+        "versions": {
+          "2025-10-01": "0x9EC82D04221F3e402039f406A47e4BA444e2e9b7"
+        }
+      },
+      {
+        "name": "BurnRequestFeeFuse",
+        "versions": {
+          "2025-10-01": "0x248df281F63a36683Dbc5EEcD4085c46fce62d99"
+        }
+      },
+      {
+        "name": "CollateralFuseEulerV2",
+        "versions": {
+          "2025-10-01": "0x4a75987699917c5f09152b6A9217f6f6431e6E48"
+        }
+      },
+      {
+        "name": "ConfigureInstantWithdrawalFuse",
+        "versions": {
+          "2025-10-01": "0x1F01Ee3c7fC894e6A1A80823Dd21f6Ba3B04db7d"
+        }
+      },
+      {
+        "name": "ControllerFuseEulerV2",
+        "versions": {
+          "2025-10-01": "0x8E906e5bB9Ca0CCd4a395AABe09b0F5cfB6A0c9a"
+        }
+      },
+      {
+        "name": "SiloV2BalanceFuse",
+        "versions": {
+          "2025-10-01": "0xc4D09e234E725cCcb594C441b9eE64e3D6204c81"
+        }
+      },
+      {
+        "name": "SiloV2BorrowFuse",
+        "versions": {
+          "2025-10-01": "0x05f9114c3F1975d62e32043eee01BA57c2Ad3f71"
+        }
+      },
+      {
+        "name": "SiloV2SupplyBorrowableCollateralFuse",
+        "versions": {
+          "2025-10-01": "0x86b7433372E9508f5C3906C8655cc2F6f5B5E3e6"
+        }
+      },
+      {
+        "name": "SiloV2SupplyNonBorrowableCollateralFuse",
+        "versions": {
+          "2025-10-01": "0xe606e7307f22F7Dc1d902844d353F51fc57bA955"
+        }
+      },
+      {
+        "name": "SupplyFuseAaveV3",
+        "versions": {
+          "2025-10-01": "0x97e36bA4d86824738c83b91b7b983d36c75a1946"
+        }
+      },
+      {
+        "name": "SupplyFuseEulerV2",
+        "versions": {
+          "2025-10-01": "0xdD02ad9A1d40FE1BA14812729db1272EF42A497F"
+        }
+      },
+      {
+        "name": "SwapFuseUniversalTokenSwapper",
+        "versions": {
+          "2025-10-01": "0xA9daB41f304A64C5b81d504DaE30b4b41b68C80B"
+        }
+      },
+      {
+        "name": "SwapFuseUniversalTokenSwapperEth",
+        "versions": {
+          "2025-10-01": "0x4Bfde040f9325E5154c3984547945165544d4023"
+        }
+      },
+      {
+        "name": "SwapFuseUniversalTokenSwapperWithVerification",
+        "versions": {
+          "2025-10-01": "0x40527fEb6f2C7a209C35fa18f1e71d311aa5861D"
+        }
+      },
+      {
+        "name": "UniversalReaderBalanceFuses",
+        "versions": {
+          "2025-10-01": "0x4F78F29Ac7078A2B6A0D73820DD2E88C90E3683e"
+        }
+      }
+    ],
+    "prehooks": [
+      {
+        "name": "PreHookPauseFunction",
+        "versions": {
+          "2025-10-01": "0x9f07A105cCbc9E65Aa0eA064E8cF765E5967B5dc"
+        }
+      },
+      {
+        "name": "PreHookUpdateBalancesIgnoreDust",
+        "versions": {
+          "2025-10-01": "0x8f2E9d878D68b9E174E3EA53E5151602F1e702A4"
+        }
+      }
+    ],
+    "price_oracles": [
+      {
+        "name": "PriceOracleMiddlewareUsdWithRolesProxy",
+        "versions": {
+          "2025-10-01_001": {
+            "address": "0xa2aD49b19e2f85cCA553C86aDB8D3d7cA1Cae3B8"
+          }
+        }
+      }
+    ]
   }
 }

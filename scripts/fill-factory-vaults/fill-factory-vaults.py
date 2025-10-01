@@ -1,49 +1,14 @@
 import json
 import os
+import sys
 import logging
-from dotenv import load_dotenv
+sys.path.append('..')
+from shared_utils import *
 
-from web3 import Web3
-from web3.exceptions import ContractLogicError
-
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-logger = logging.getLogger(__name__)
-
-ADDRESSES_FILENAME = 'addresses.json'
-START_PATH = '../../mainnet'
-OUTPUT_DIR = 'output'
-MAIN_ADDRESSES_FILE = f'{START_PATH}/{ADDRESSES_FILENAME}'
-
-ZERO_ADDRESS = "0x0000000000000000000000000000000000000000"
-
-load_dotenv()
+logger = setup_env_and_logging()
 
 # Chains to skip when fetching events
 SKIP_CHAINS = {}
-
-RPC_URLS = {
-    "ethereum": os.getenv("ETHEREUM_RPC_URL", "https://eth.llamarpc.com"),
-    "arbitrum": os.getenv("ARBITRUM_RPC_URL", "https://arb1.arbitrum.io/rpc"),
-    "base": os.getenv("BASE_RPC_URL", "https://mainnet.base.org"),
-    "unichain": os.getenv("UNICHAIN_RPC_URL", "https://mainnet.unichain.org"),
-    "tac": os.getenv("TAC_RPC_URL", "https://rpc.ankr.com/tac"),  
-    "ink": os.getenv("INK_RPC_URL", "https://ink.drpc.org"),
-    "plasma": os.getenv("PLASMA_RPC_URL", "https://rpc.plasma.to"),
-    "avalanche": os.getenv("AVALANCHE_RPC_URL", "https://1rpc.io/avax/c")
-}
-
-# Configure chunk sizes per chain
-CHUNK_SIZES = {
-    "ethereum": 500000,
-    "arbitrum": 10000000,
-    "base": 10000000,
-    "unichain": 10000,
-    "tac": 10000,
-    "ink": 10000,
-    "plasma": 10000,
-    "avalanche": 10000,
-    "default": 10000    # Default chunk size for any unlisted chains
-}
 
 FACTORY_ABI = [
     {
@@ -67,46 +32,16 @@ FACTORY_ABI = [
     }
 ]
 
-def get_contract_creation_block(web3, address):
-    """Get the block number where the contract was created."""
-    logger.info(f"Finding creation block for contract: {address}")
-    try:
-        # Binary search for the first transaction to this address
-        left = 0
-        right = web3.eth.block_number
-        creation_block = right
-
-        while left <= right:
-            mid = (left + right) // 2
-            
-            # Check if contract exists at this block
-            try:
-                code = web3.eth.get_code(Web3.to_checksum_address(address), block_identifier=mid)
-                if len(code) > 0:
-                    # Contract exists at this block, try earlier blocks
-                    creation_block = mid
-                    right = mid - 1
-                else:
-                    # Contract doesn't exist yet, try later blocks
-                    left = mid + 1
-            except Exception as e:
-                # If error occurs, assume contract doesn't exist at this block
-                left = mid + 1
-
-        logger.info(f"Found contract creation block: {creation_block}")
-        return creation_block
-
-    except Exception as e:
-        logger.error(f"Error finding contract creation block: {str(e)}")
-        # If we can't find the creation block, start from a recent point
-        recent_block = max(0, web3.eth.block_number - 100000)
-        logger.warning(f"Using fallback block number: {recent_block}")
-        return recent_block
+# get_contract_creation_block is now imported from shared_utils
 
 def get_fusion_events(web3, factory_address, chain):
-    """Fetch all FusionInstanceCreated events for a factory in chunks."""
+    """Fetch all FusionInstanceCreated events for a factory in chunks, using cache to avoid redundant queries."""
     logger.info(f"Fetching FusionInstanceCreated events for factory: {factory_address}")
+    
     try:
+        # Check cache first
+        cached_events, last_read_block = get_cached_fusion_events(chain, factory_address)
+        
         contract = web3.eth.contract(address=Web3.to_checksum_address(factory_address), abi=FACTORY_ABI)
         
         # Get the event signature with 0x prefix
@@ -117,12 +52,24 @@ def get_fusion_events(web3, factory_address, chain):
         latest_block = web3.eth.block_number
         logger.info(f"Latest block number: {latest_block}")
         
-        # Get contract creation block
-        from_block = get_contract_creation_block(web3, factory_address)
-        logger.info(f"Contract creation block: {from_block}")
+        # Determine starting block for fetching new events
+        if last_read_block is not None:
+            # Start from the block after the last read block
+            from_block = last_read_block + 1
+            logger.info(f"Using cached data, starting from block: {from_block} (last read: {last_read_block})")
+        else:
+            # No cache, start from contract creation block
+            from_block = get_contract_creation_block(web3, factory_address, chain)
+            logger.info(f"No cache found, starting from contract creation block: {from_block}")
         
-        # Collect all events
-        all_events = []
+        # If we're already up to date, return cached events
+        if from_block > latest_block:
+            logger.info(f"Cache is up to date (last read block {last_read_block} >= latest block {latest_block})")
+            # Convert cached events back to event-like objects for compatibility
+            return _convert_cached_events_to_objects(cached_events, contract)
+        
+        # Collect new events
+        new_events = []
         chunk_size = CHUNK_SIZES.get(chain, CHUNK_SIZES["default"])
         logger.info(f"Using chunk size of {chunk_size} for chain {chain}")
         
@@ -148,7 +95,7 @@ def get_fusion_events(web3, factory_address, chain):
                     try:
                         # Decode the event data
                         event_data = contract.events.FusionInstanceCreated().process_log(log)
-                        all_events.append(event_data)
+                        new_events.append(event_data)
                     except Exception as decode_error:
                         logger.error(f"Error decoding log: {str(decode_error)}")
                         continue
@@ -162,38 +109,58 @@ def get_fusion_events(web3, factory_address, chain):
                     continue
                 
             current_from_block = current_to_block + 1
-            
-        logger.info(f"Total events found: {len(all_events)}")
+        
+        logger.info(f"New events found: {len(new_events)}")
+        
+        # Cache the new events
+        if new_events or last_read_block is None:
+            # Update cache with new events and latest block number
+            cache_fusion_events(chain, factory_address, new_events, latest_block)
+        
+        # Combine cached events with new events
+        all_events = _convert_cached_events_to_objects(cached_events, contract) + new_events
+        
+        logger.info(f"Total events (cached + new): {len(all_events)}")
         return all_events
             
     except Exception as e:
         logger.error(f"Error setting up contract for factory {factory_address}: {str(e)}")
         return []
 
-def find_addresses_files(start_path):
-    addresses_files = []
-    for root, dirs, files in os.walk(start_path):
-        if ADDRESSES_FILENAME in files:
-            addresses_files.append(os.path.join(root, ADDRESSES_FILENAME))
-    return addresses_files
-
-def get_chain_from_path(path):
-    """Extract chain name from path based on known chains."""
-    chains = {
-        "ethereum": "ethereum",
-        "arbitrum": "arbitrum",
-        "tac": "tac",
-        "ink": "ink",
-        "unichain": "unichain",
-        "base": "base",
-        "plasma": "plasma",
-        "avalanche": "avalanche"
-    }
+def _convert_cached_events_to_objects(cached_events, contract):
+    """Convert cached event dictionaries back to event-like objects for compatibility."""
+    if not cached_events:
+        return []
     
-    for chain in chains:
-        if chain in path:
-            return chains[chain]
-    return None
+    converted_events = []
+    for cached_event in cached_events:
+        try:
+            # Create a mock event object with the necessary attributes
+            class MockEvent:
+                def __init__(self, args_dict, block_number, transaction_hash):
+                    self.args = type('Args', (), args_dict)()
+                    self.blockNumber = block_number
+                    self.transactionHash = bytes.fromhex(transaction_hash[2:]) if transaction_hash and transaction_hash.startswith('0x') else None
+                    
+                def get(self, key, default=None):
+                    return getattr(self, key, default)
+            
+            # Convert cached args back to proper format
+            args_dict = cached_event.get('args', {})
+            block_number = cached_event.get('block_number')
+            transaction_hash = cached_event.get('transaction_hash')
+            
+            mock_event = MockEvent(args_dict, block_number, transaction_hash)
+            converted_events.append(mock_event)
+            
+        except Exception as e:
+            logger = logging.getLogger(__name__)
+            logger.error(f"Error converting cached event: {str(e)}")
+            continue
+    
+    return converted_events
+
+# find_addresses_files and get_chain_from_path are now imported from shared_utils
 
 def find_fusion_factory_proxies(start_path):
     """Find all IporFusionFactoryProxy addresses and map them to chain names."""
@@ -229,12 +196,14 @@ def process_factory_events(factory_proxies):
         if chain in SKIP_CHAINS:
             logger.info(f"Skipping chain: {chain} (in skip list)")
             continue
+        
+        rpc_url = get_rpc_urls()[chain]
             
         logger.info(f"\nProcessing events for chain: {chain}")
-        logger.info(f"Using RPC URL: {RPC_URLS[chain]}")
+        logger.info(f"Using RPC URL: {rpc_url}")
         
         # Initialize Web3 for the chain
-        web3 = Web3(Web3.HTTPProvider(RPC_URLS[chain]))
+        web3 = Web3(Web3.HTTPProvider(rpc_url))
         if not web3.is_connected():
             logger.error(f"Failed to connect to {chain} RPC")
             continue
@@ -272,7 +241,7 @@ def update_addresses_files(all_vaults):
     
     try:
         # Read existing addresses file
-        with open(MAIN_ADDRESSES_FILE, 'r') as f:
+        with open(get_main_addresses_file(), 'r') as f:
             addresses = json.load(f)
             
         # Add or update vaults for each chain
@@ -311,7 +280,7 @@ def update_addresses_files(all_vaults):
                     logger.info(f"Added new vault {vault['asset_name']} to {chain}")
                 
         # Write updated addresses back to file
-        with open(MAIN_ADDRESSES_FILE, 'w') as f:
+        with open(get_main_addresses_file(), 'w') as f:
             json.dump(addresses, f, indent=2)
             
         logger.info(f"Successfully updated main addresses.json file")
@@ -321,10 +290,10 @@ def update_addresses_files(all_vaults):
 
 def main():
     # Create output directory if it doesn't exist
-    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    ensure_output_dir()
     
     # Find all fusion factory proxies
-    factory_proxies = find_fusion_factory_proxies(START_PATH)
+    factory_proxies = find_fusion_factory_proxies(MAINNET_PATH)
     logger.info(f"Found factory proxies: {json.dumps(factory_proxies, indent=2)}")
     
     # Process events and collect vault addresses
