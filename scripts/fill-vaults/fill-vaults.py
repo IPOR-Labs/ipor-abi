@@ -1,21 +1,12 @@
 import json
 import os
-import logging
-from dotenv import load_dotenv
+import sys
+sys.path.append('..')
+from shared_utils import *
 
-from web3 import Web3
-from web3.exceptions import ContractLogicError
+logger = setup_env_and_logging()
 
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-logger = logging.getLogger(__name__)
-
-ADDRESSES_FILENAME = 'addresses.json'
-START_PATH = '../../mainnet'
-OUTPUT_DIR = 'output'
 OUTPUT_FILE = f'{OUTPUT_DIR}/plasma_vaults.json'
-MAIN_ADDRESSES_FILE = f'{START_PATH}/{ADDRESSES_FILENAME}'
-
-ZERO_ADDRESS = "0x0000000000000000000000000000000000000000"
 PLASMA_FIELDS = [
     'IporPlasmaVaultCbBTC',
     'IporPlasmaVaultDai',
@@ -44,19 +35,6 @@ PLASMA_FIELDS = [
     'PlasmaVault_wETH_K3WETH'
 ]
 
-load_dotenv()
-
-RPC_URLS = {
-    "ethereum": os.getenv("ETHEREUM_RPC_URL", "https://eth.llamarpc.com"),
-    "arbitrum": os.getenv("ARBITRUM_RPC_URL", "https://arb1.arbitrum.io/rpc"),
-    "base": os.getenv("BASE_RPC_URL", "https://mainnet.base.org"),
-    "unichain": os.getenv("UNICHAIN_RPC_URL", "https://mainnet.unichain.org"),
-    "tac": os.getenv("TAC_RPC_URL", "https://rpc.ankr.com/tac"),  
-    "ink": os.getenv("INK_RPC_URL", "https://ink.drpc.org"),
-    "plasma": os.getenv("PLASMA_RPC_URL", "https://rpc.plasma.to"),
-    "avalanche": os.getenv("AVALANCHE_RPC_URL", "https://1rpc.io/avax/c")
-}
-
 VAULT_ABI = [
     {
         "inputs": [],
@@ -73,17 +51,6 @@ VAULT_ABI = [
         "type": "function"
     }
 ]
-
-TOKEN_ABI = [
-    {
-        "inputs": [],
-        "name": "symbol",
-        "outputs": [{"internalType": "string", "name": "", "type": "string"}],
-        "stateMutability": "view",
-        "type": "function"
-    }
-]
-
 
 def get_vault_name(web3, address):
     logger.info(f"Executing web3 call: get_vault_name for address {address}")
@@ -104,23 +71,7 @@ def get_vault_asset(web3, address):
         logger.error(f"Error getting asset for {address}: {str(e)}")
         return "TODO"
 
-
-def get_token_symbol(web3, address):
-    logger.info(f"Executing web3 call: get_token_symbol for address {address}")
-    try:
-        contract = web3.eth.contract(address=Web3.to_checksum_address(address), abi=TOKEN_ABI)
-        return contract.functions.symbol().call()
-    except (ContractLogicError, Exception) as e:
-        logger.error(f"Error getting symbol for {address}: {str(e)}")
-        return None
-
-
-def find_addresses_files(start_path):
-    addresses_files = []
-    for root, dirs, files in os.walk(start_path):
-        if ADDRESSES_FILENAME in files:
-            addresses_files.append(os.path.join(root, ADDRESSES_FILENAME))
-    return addresses_files
+# get_token_symbol and find_addresses_files are now imported from shared_utils
 
 
 def extract_plasma_fields(file_path):
@@ -165,10 +116,7 @@ def update_addresses_json(plasma_vaults_file, addresses_file):
                 "avalanche": {"vaults": []}
             }
 
-        web3_connections = {
-            chain: Web3(Web3.HTTPProvider(url))
-            for chain, url in RPC_URLS.items()
-        }
+        web3_connections = create_web3_connections()
 
         for file_path, vaults in plasma_data.items():
             chain = None
@@ -238,7 +186,7 @@ def update_addresses_json(plasma_vaults_file, addresses_file):
 def main():
     result = {}
 
-    addresses_files = find_addresses_files(START_PATH)
+    addresses_files = find_addresses_files(MAINNET_PATH)
 
     for file_path in addresses_files:
         relative_path = os.path.relpath(file_path, '.')
@@ -252,7 +200,7 @@ def main():
 
     logger.info(f"Processing complete. Results written to {OUTPUT_FILE}")
 
-    update_addresses_json(OUTPUT_FILE, MAIN_ADDRESSES_FILE)
+    update_addresses_json(OUTPUT_FILE, get_main_addresses_file())
 
 
 if __name__ == "__main__":

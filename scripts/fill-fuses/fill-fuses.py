@@ -1,20 +1,10 @@
 import json
 import os
-import datetime
-import logging
-from dotenv import load_dotenv
+import sys
+sys.path.append('..')
+from shared_utils import *
 
-from web3 import Web3
-from web3.exceptions import ContractLogicError
-
-ADDRESSES_FILENAME = 'addresses.json'
-MAINNET_PATH = '../../mainnet'
-TESTNET_PATH = '../../testnet'
-OUTPUT_DIR = 'output'
 OUTPUT_FILE = f'{OUTPUT_DIR}/fuses.json'
-MAIN_ADDRESSES_FILE = f'{MAINNET_PATH}/{ADDRESSES_FILENAME}'
-
-ZERO_ADDRESS = "0x0000000000000000000000000000000000000000"
 
 # List of field names to ignore when extracting fuse fields
 IGNORED_FIELD_NAMES = [
@@ -22,121 +12,10 @@ IGNORED_FIELD_NAMES = [
   "IporFusionFuseWhitelistProxy"
 ]
 
-load_dotenv()
-
-RPC_URLS = {
-    "ethereum": os.getenv("ETHEREUM_RPC_URL", "https://eth.llamarpc.com"),
-    "arbitrum": os.getenv("ARBITRUM_RPC_URL", "https://arb1.arbitrum.io/rpc"),
-    "base": os.getenv("BASE_RPC_URL", "https://mainnet.base.org"),
-    "unichain": os.getenv("UNICHAIN_RPC_URL", "https://mainnet.unichain.org"),
-    "tac": os.getenv("TAC_RPC_URL", "https://rpc.ankr.com/tac"),
-    "ink": os.getenv("INK_RPC_URL", "https://ink.drpc.org"),
-    "plasma": os.getenv("PLASMA_RPC_URL", "https://rpc.plasma.to"),
-    "avalanche": os.getenv("AVALANCHE_RPC_URL", "https://1rpc.io/avax/c")
-}
-
-for chain, url in RPC_URLS.items():
-    if not url:
-        raise ValueError(f"Missing RPC URL for {chain}. Please add {chain.upper()}_RPC_URL to your .env file.")
-
-CHAIN_START_BLOCKS = {
-    "ethereum": 20733870,
-    "arbitrum": 218743859,
-    "base": 21704649,
-    "unichain": 17867366,
-    "tac": 239,
-    "ink": 19102371,
-    "plasma": 1901043,
-    "avalanche": 69330233
-}
-
-EXPLORERS = {
-    "ethereum": "https://etherscan.io/address/",
-    "arbitrum": "https://arbiscan.io/address/",
-    "base": "https://basescan.org/address/",
-    "unichain": "https://uniscan.xyz/address/",
-    "tac": "https://explorer.tac.build/address/",
-    "ink": "https://explorer.inkonchain.com/address/",
-    "plasma": "https://plasmascan.to/",
-    "avalanche": "https://snowscan.xyz/"
-}
-
-NAMES = {
-    "ethereum": "Ethereum",
-    "arbitrum": "Arbitrum",
-    "base": "Base",
-    "unichain": "Unichain",
-    "tac": "TAC",
-    "ink": "Ink",
-    "plasma": "Plasma",
-    "avalanche": "Avalanche"
-}
-
-TOKEN_ABI = [
-    {
-        "inputs": [],
-        "name": "symbol",
-        "outputs": [{"internalType": "string", "name": "", "type": "string"}],
-        "stateMutability": "view",
-        "type": "function"
-    }
-]
-
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-logger = logging.getLogger(__name__)
+logger = setup_env_and_logging()
 
 
-def get_contract_deployment_date(web3, address, chain):
-    try:
-        checksum_address = Web3.to_checksum_address(address)
-        logger.info(f"Calling web3: get_contract_deployment_date for address {address}")
-        
-        left = CHAIN_START_BLOCKS.get(chain, 0)
-        logger.info(f"Calling web3: get_block_number")
-        right = web3.eth.block_number
-        
-        logger.info(f"Calling web3: get_code for address {address}")
-        code = web3.eth.get_code(checksum_address)
-        if code == b'' or code == '0x':
-            logger.info(f"No code found at {address}, using current date")
-            return datetime.datetime.now().strftime('%Y-%m-%d')
-        
-        while left <= right:
-            mid = (left + right) // 2
-            
-            try:
-                logger.info(f"Calling web3: get_code for address {address} at block {mid}")
-                code = web3.eth.get_code(checksum_address, block_identifier=mid)
-                
-                if code == b'' or code == '0x':
-                    left = mid + 1
-                else:
-                    right = mid - 1
-            except Exception as e:
-                right = mid - 1
-        
-        deployment_block = left
-        
-        logger.info(f"Calling web3: get_block for block {deployment_block}")
-        block = web3.eth.get_block(deployment_block)
-        timestamp = block['timestamp']
-        
-        date = datetime.datetime.fromtimestamp(timestamp).strftime('%Y-%m-%d')
-        
-        logger.info(f"Found deployment date for {address}: {date} (block {deployment_block}) on {web3.provider.endpoint_uri}")
-        
-        return date
-    except Exception as e:
-        logger.error(f"Error getting deployment date for {address}: {str(e)}")
-        return datetime.datetime.now().strftime('%Y-%m-%d')
-
-
-def find_addresses_files(start_path):
-    addresses_files = []
-    for root, dirs, files in os.walk(start_path):
-        if ADDRESSES_FILENAME in files:
-            addresses_files.append(os.path.join(root, ADDRESSES_FILENAME))
-    return addresses_files
+# create_explorer_url, get_contract_deployment_date, and find_addresses_files are now imported from shared_utils
 
 
 def extract_fuse_fields(file_path):
@@ -189,9 +68,7 @@ def update_addresses_json(fuses_file, addresses_file):
             "avalanche": {}
         }
 
-        web3_connections = {}
-        for chain, url in RPC_URLS.items():
-            web3_connections[chain] = Web3(Web3.HTTPProvider(url))
+        web3_connections = create_web3_connections()
 
         existing_fuses = {}
         for chain in addresses:
@@ -279,7 +156,9 @@ def update_addresses_json(fuses_file, addresses_file):
         logger.error(f"Error updating addresses.json: {str(e)}")
 
 
-def generate_markdown_list(addresses_file=MAIN_ADDRESSES_FILE, readme_file="../../README.md"):
+def generate_markdown_list(addresses_file=None, readme_file="../../README.md"):
+    if addresses_file is None:
+        addresses_file = get_main_addresses_file()
     try:
         with open(addresses_file, 'r') as f:
             addresses_data = json.load(f)
@@ -291,7 +170,7 @@ def generate_markdown_list(addresses_file=MAIN_ADDRESSES_FILE, readme_file="../.
             readme_content = "# Fuse Protocol\n\n"
 
         fuses_md = "## Fuses List\n\n"
-        fuses_md += f"*Last updated: {datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%d %H:%M:%S')} UTC*\n\n"
+        fuses_md += f"*Last updated: {get_current_utc_timestamp()} UTC*\n\n"
         
         for chain, chain_data in addresses_data.items():
             if "fuses" in chain_data and chain_data["fuses"]:
@@ -310,7 +189,7 @@ def generate_markdown_list(addresses_file=MAIN_ADDRESSES_FILE, readme_file="../.
                     if sorted_versions:
                         newest_date, newest_address = sorted_versions[0]
                         if explorer_base_url:
-                            address_display = f"`{newest_address}` [View]({explorer_base_url}{newest_address}#code)"
+                            address_display = f"`{newest_address}` [View]({create_explorer_url(chain, newest_address)})"
                         else:
                             address_display = f"`{newest_address}`"
                         fuses_md += f"| `{fuse_name}` | {address_display} |\n"
@@ -336,7 +215,7 @@ def generate_markdown_list(addresses_file=MAIN_ADDRESSES_FILE, readme_file="../.
                         if len(sorted_versions) > 1:
                             for date, address in sorted_versions[1:]:
                                 if explorer_base_url:
-                                    address_display = f"`{address}` [View]({explorer_base_url}{address}#code)"
+                                    address_display = f"`{address}` [View]({create_explorer_url(chain, address)})"
                                 else:
                                     address_display = f"`{address}`"
                                 fuses_md += f"| `{fuse_name}` | {address_display} |\n"
@@ -386,14 +265,14 @@ def main():
         if fuse_data:
             result[relative_path] = fuse_data
 
-    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    ensure_output_dir()
     
     with open(OUTPUT_FILE, 'w') as f:
         json.dump(result, f, indent=2)
 
     logger.info(f"Processing complete. Results written to {OUTPUT_FILE}")
 
-    update_addresses_json(OUTPUT_FILE, MAIN_ADDRESSES_FILE)
+    update_addresses_json(OUTPUT_FILE, get_main_addresses_file())
     
     generate_markdown_list()
 
