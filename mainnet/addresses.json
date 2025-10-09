@@ -1202,6 +1202,12 @@
         "token": "BG",
         "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
         "PlasmaVault": "0x2d3c7Ede4023CFE0710D3f0d1F934bd50f1D96Ba"
+      },
+      {
+        "name": "TiD Capital Arbitrum Yield",
+        "token": "TID_ARB_YIELD",
+        "asset": "0x0A1a1A107E45b7Ced86833863f482BC5f4ed82EF",
+        "PlasmaVault": "0xcd5D55320f8469075C084066866a6D399407e05E"
       }
     ],
     "fuses": [
@@ -2082,6 +2088,18 @@
         }
       },
       {
+        "name": "BalanceFuseAerodrome",
+        "versions": {
+          "2025-10-09": "0xDBBE09c09FCE1B841fE46Ac6b06e2a4F8128c838"
+        }
+      },
+      {
+        "name": "BalanceFuseAerodromeSlipstream",
+        "versions": {
+          "2025-10-09": "0xaff9bbbEa884EF4Db30e4db6a3f68D50E44E1188"
+        }
+      },
+      {
         "name": "BalanceFuseBurnRequestFee",
         "versions": {
           "2025-03-14": "0x341D2459606FEB164A986767cB72Ddd8230744Fe"
@@ -2290,6 +2308,18 @@
         }
       },
       {
+        "name": "CLGaugeFuseAerodromeSlipstream",
+        "versions": {
+          "2025-10-09": "0x3d129395a55dfa3Fd03dF41694748Ef7fe6c13E4"
+        }
+      },
+      {
+        "name": "ClaimFeesFuseAerodrome",
+        "versions": {
+          "2025-10-09": "0xF16899fC66c099481d9d140f4EC4bB8619e001dE"
+        }
+      },
+      {
         "name": "ClaimRewardsFuseCompoundV3",
         "versions": {
           "2024-10-29": "0x10de4b8aa7c363999769F8a8295F4F091a77DF4F"
@@ -2320,6 +2350,18 @@
         }
       },
       {
+        "name": "ClaimRewardsGaugeFuseAerodrome",
+        "versions": {
+          "2025-10-09": "0x91ad48aE378D70586703cD2E525e96563039825e"
+        }
+      },
+      {
+        "name": "ClaimRewardsGaugeFuseAerodromeSlipstream",
+        "versions": {
+          "2025-10-09": "0x52f288B352e8dC39777C3F41Dbd0474f4583B237"
+        }
+      },
+      {
         "name": "CollateralFuseEulerV2",
         "versions": {
           "2025-05-29": "0xF569a44710DEb64c8Dc9751D8595bb90962f7a67",
@@ -2330,6 +2372,12 @@
         "name": "CollateralFuseMorpho",
         "versions": {
           "2024-10-29": "0xDE3FD3A25534471e92C5940d418B0582802b17B6"
+        }
+      },
+      {
+        "name": "CollectFuseAerodromeSlipstream",
+        "versions": {
+          "2025-10-09": "0x414E852a854b21F8eF22DB560f2a7d8B50444A2e"
         }
       },
       {
@@ -2388,9 +2436,33 @@
         }
       },
       {
+        "name": "GaugeFuseAerodrome",
+        "versions": {
+          "2025-10-09": "0x4360119C77b464dea3E8f18D8274cadA8D8e04C8"
+        }
+      },
+      {
+        "name": "LiquidityFuseAerodrome",
+        "versions": {
+          "2025-10-09": "0x277fFc9D4905Ee60C447f9E7da944ebbbD36C275"
+        }
+      },
+      {
         "name": "ModifyPositionSwapFuseUniswapV3",
         "versions": {
           "2024-10-29": "0x3978b49f991949cA453601656EE97e8339f56da3"
+        }
+      },
+      {
+        "name": "ModifyPossitionFuseAerodromeSlipstream",
+        "versions": {
+          "2025-10-09": "0x81dd870620839a927d076Cbe40432cCAA3e53740"
+        }
+      },
+      {
+        "name": "NewPositionFuseAerodromeSlipstream",
+        "versions": {
+          "2025-10-09": "0x4426a0A9acE4a784AbB0417B88bc9f3091aC210F"
         }
       },
       {
@@ -3139,15 +3211,75 @@
         }
       },
       {
+        "name": "BalanceFuseVelodromeSuperchain",
+        "versions": {
+          "2025-10-09": "0x9eC558254A50c2658a2Eb5906EB2D384077bbF95"
+        }
+      },
+      {
+        "name": "BalanceFuseVelodromeSuperchainSlipstream",
+        "versions": {
+          "2025-10-09": "0x175D196Efed174AD74b247c2fA2c63AEDc5afE20"
+        }
+      },
+      {
         "name": "BurnRequestFeeFuse",
         "versions": {
           "2025-07-15": "0x38FfDFc14D17aBC9f996f22cc105F6B48D7Ce2a2"
         }
       },
       {
+        "name": "ClaimRewardsGaugeFuseVelodromeSuperchain",
+        "versions": {
+          "2025-10-09": "0xa5EF4Afb79A50b0F0069815729658F395A2C17a6"
+        }
+      },
+      {
+        "name": "ClaimRewardsGaugeFuseVelodromeSuperchainSlipstream",
+        "versions": {
+          "2025-10-09": "0xdE913c2438Aa7Ed5BeDc597bB79969c1e4374D30"
+        }
+      },
+      {
+        "name": "CollectFuseVelodromeSuperchainSlipstream",
+        "versions": {
+          "2025-10-09": "0x86F88E616C43AEC2f9Bb3AfBf09dd4489E6D7c68"
+        }
+      },
+      {
         "name": "ConfigureInstantWithdrawalFuse",
         "versions": {
           "2025-09-30": "0x7E07BC6598f9cB30F5E932bF46270a21895Cd59a"
+        }
+      },
+      {
+        "name": "GaugeFuseVelodromeSuperchain",
+        "versions": {
+          "2025-10-09": "0x7c21eB05e02A908B61eB213eB1B4dbEA354444e5"
+        }
+      },
+      {
+        "name": "LeafCLGaugeFuseVelodromeSuperchainSlipstream",
+        "versions": {
+          "2025-10-09": "0x0d500B505dE7667b9Fd0B0944796A5d1eEBe6C2e"
+        }
+      },
+      {
+        "name": "LiquidityFuseVelodromeSuperchain",
+        "versions": {
+          "2025-10-09": "0x497831DF4a422D1edcf0bb210E237AD41aFAE6E3"
+        }
+      },
+      {
+        "name": "ModifyPossitionFuseVelodromeSuperchainSlipstream",
+        "versions": {
+          "2025-10-09": "0x23B08f0013361A080b7B471D4c6dcC5E9B2E75ad"
+        }
+      },
+      {
+        "name": "NewPositionFuseVelodromeSuperchainSlipstream",
+        "versions": {
+          "2025-10-09": "0xF5e9B006E10815e870f0E96569a332EBE5338d26"
         }
       },
       {
@@ -3308,6 +3440,12 @@
         }
       },
       {
+        "name": "BatchFuseEulerV2",
+        "versions": {
+          "2025-10-09": "0x0F538451c4eCb75B1DD8f3Ba667A271A71900c97"
+        }
+      },
+      {
         "name": "BorrowFuseAaveV3",
         "versions": {
           "2025-09-30": "0xA072E8ff01fec4e09808968220bFF4DD2262e320"
@@ -3323,6 +3461,12 @@
         "name": "BurnRequestFeeFuse",
         "versions": {
           "2025-09-26": "0x2C904561C53C1707598A8031D59CfcaAaA831c4E"
+        }
+      },
+      {
+        "name": "CollateralFuseEulerV2",
+        "versions": {
+          "2025-10-09": "0x839e3935bD1Ed69E90a5C9A6Af5A86Aa6491cC5F"
         }
       },
       {
@@ -3410,6 +3554,18 @@
         "token": "MF2",
         "asset": "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb",
         "PlasmaVault": "0x0866b3F9490392c04C59605a05361258405b5b81"
+      },
+      {
+        "name": "Plasma Test",
+        "token": "PTWOO",
+        "asset": "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb",
+        "PlasmaVault": "0xE2473ceDCaD382bd2A500D2FEf24c4e21046561D"
+      },
+      {
+        "name": "Reservoir Looping Plasma",
+        "token": "ipsrXPL",
+        "asset": "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb",
+        "PlasmaVault": "0x31ce649988168D2A2ce237f6501ec9cF1809E6a9"
       }
     ]
   },
@@ -3443,6 +3599,12 @@
         "name": "BalanceFuseUniversalTokenSwapper",
         "versions": {
           "2025-10-01": "0xd2b20152ca1EAfdE72161891053E17e9f68Ca583"
+        }
+      },
+      {
+        "name": "BatchFuseEulerV2",
+        "versions": {
+          "2025-10-09": "0xC589A38893E7Fced79505055C305402B60d16201"
         }
       },
       {
@@ -3564,6 +3726,14 @@
             "address": "0xa2aD49b19e2f85cCA553C86aDB8D3d7cA1Cae3B8"
           }
         }
+      }
+    ],
+    "vaults": [
+      {
+        "name": "Maciek F1 Ultra USDC Yield machine",
+        "token": "MF2",
+        "asset": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "PlasmaVault": "0xeFf1Df23ecd841f78561e51b38911E7470A3a681"
       }
     ]
   }
