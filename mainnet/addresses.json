@@ -2072,6 +2072,12 @@
         "token": "MPCUF",
         "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
         "PlasmaVault": "0xCd5Fa3d49Aecc051feE3BD0709e167fB4D064D09"
+      },
+      {
+        "name": "Woo TEST Oct2025",
+        "token": "WT102025",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x3b7460A973827781Ac1f8493462847d5CB378942"
       }
     ],
     "fuses": [
@@ -3566,6 +3572,12 @@
         "token": "ipsrXPL",
         "asset": "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb",
         "PlasmaVault": "0x31ce649988168D2A2ce237f6501ec9cF1809E6a9"
+      },
+      {
+        "name": "Maciek Euler Integrations test",
+        "token": "MF2",
+        "asset": "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb",
+        "PlasmaVault": "0xf28B18E5022458E485C7cEB77e138C28b2A3F4b1"
       }
     ]
   },
@@ -3734,6 +3746,18 @@
         "token": "MF2",
         "asset": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
         "PlasmaVault": "0xeFf1Df23ecd841f78561e51b38911E7470A3a681"
+      },
+      {
+        "name": "Maciek Euler intergration test",
+        "token": "MF2",
+        "asset": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "PlasmaVault": "0xD80493e60b0e38A7503C1B5515c842Aa98682f13"
+      },
+      {
+        "name": "WOO AVAX TEST",
+        "token": "",
+        "asset": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "PlasmaVault": "0x673441675D77c6517421aa90BD13B861a36CB21E"
       }
     ]
   }

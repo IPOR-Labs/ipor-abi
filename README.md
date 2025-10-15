@@ -6,7 +6,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Fuses List
 
-*Last updated: 2025-10-09 14:47:10 UTC*
+*Last updated: 2025-10-14 09:45:03 UTC*
 
 ### Ethereum Fuses
 
@@ -461,7 +461,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## PreHooks List
 
-*Last updated: 2025-10-09 14:47:12 UTC*
+*Last updated: 2025-10-14 09:45:04 UTC*
 
 ### Ethereum PreHooks
 
@@ -526,7 +526,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Price Oracles List
 
-*Last updated: 2025-10-09 14:49:00 UTC*
+*Last updated: 2025-10-14 09:47:19 UTC*
 
 ### Ethereum Price Oracles
 
