@@ -6,7 +6,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Fuses List
 
-*Last updated: 2025-10-30 15:42:59 UTC*
+*Last updated: 2025-11-04 15:36:43 UTC*
 
 ### Ethereum Fuses
 
@@ -281,10 +281,12 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `FuseRequestSharesPlasmaVaultMarket1` | `0xEf40141EA3263004D398136FF9EB75E5d6743C09` [View](https://basescan.org/address/0xEf40141EA3263004D398136FF9EB75E5d6743C09#code) |
 | `GaugeFuseAerodrome` | `0x4360119C77b464dea3E8f18D8274cadA8D8e04C8` [View](https://basescan.org/address/0x4360119C77b464dea3E8f18D8274cadA8D8e04C8#code) |
 | `LiquidityFuseAerodrome` | `0x277fFc9D4905Ee60C447f9E7da944ebbbD36C275` [View](https://basescan.org/address/0x277fFc9D4905Ee60C447f9E7da944ebbbD36C275#code) |
+| `MerklClaimFuse` | `0x310e6133a904761D717EE13D76E180E4EECf907A` [View](https://basescan.org/address/0x310e6133a904761D717EE13D76E180E4EECf907A#code) |
 | `ModifyPositionSwapFuseUniswapV3` | `0x3978b49f991949cA453601656EE97e8339f56da3` [View](https://basescan.org/address/0x3978b49f991949cA453601656EE97e8339f56da3#code) |
 | `ModifyPossitionFuseAerodromeSlipstream` | `0x81dd870620839a927d076Cbe40432cCAA3e53740` [View](https://basescan.org/address/0x81dd870620839a927d076Cbe40432cCAA3e53740#code) |
 | `NewPositionFuseAerodromeSlipstream` | `0x4426a0A9acE4a784AbB0417B88bc9f3091aC210F` [View](https://basescan.org/address/0x4426a0A9acE4a784AbB0417B88bc9f3091aC210F#code) |
 | `NewPositionSwapFuseUniswapV3` | `0x08C0F62E19a66800EdD2e8eBfeE02EDc912D510a` [View](https://basescan.org/address/0x08C0F62E19a66800EdD2e8eBfeE02EDc912D510a#code) |
+| `RewardEulerTokenClaimFuse` | `0x2627a9829b00816C5FC54196bFDfD1C8EC999540` [View](https://basescan.org/address/0x2627a9829b00816C5FC54196bFDfD1C8EC999540#code) |
 | `SupplyFuseAaveV3` | `0x26fD6EF391E98C78CfCA27e00c3d15be4D941625` [View](https://basescan.org/address/0x26fD6EF391E98C78CfCA27e00c3d15be4D941625#code) |
 | `SupplyFuseCompoundV3Usdc` | `0x42FBD4D8f578b902Ed9030BF9035A606dDECa26f` [View](https://basescan.org/address/0x42FBD4D8f578b902Ed9030BF9035A606dDECa26f#code) |
 | `SupplyFuseCompoundV3WEth` | `0xD72Dd19C04362488a4143F43e407ec87A849b72b` [View](https://basescan.org/address/0xD72Dd19C04362488a4143F43e407ec87A849b72b#code) |
@@ -471,7 +473,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## PreHooks List
 
-*Last updated: 2025-10-30 15:39:57 UTC*
+*Last updated: 2025-11-04 15:36:44 UTC*
 
 ### Ethereum PreHooks
 
@@ -536,7 +538,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Price Oracles List
 
-*Last updated: 2025-10-30 15:35:08 UTC*
+*Last updated: 2025-11-04 15:41:37 UTC*
 
 ### Ethereum Price Oracles
 
