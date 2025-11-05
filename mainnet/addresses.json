@@ -1577,6 +1577,12 @@
         }
       },
       {
+        "name": "MerklClaimFuse",
+        "versions": {
+          "2025-11-05": "0x7db8a7A58fA64ABEfe85D90317C5F9EeeE8b7591"
+        }
+      },
+      {
         "name": "ModifyPositionSwapFuseRamsesV2",
         "versions": {
           "2024-10-08": "0xD41501B46a68DeA06a460fD79a7bCda9e3b92674"
@@ -1607,9 +1613,21 @@
         }
       },
       {
+        "name": "RewardEulerTokenClaimFuse",
+        "versions": {
+          "2025-11-05": "0x5b74A646Ce1D8AF41dbFd21D4c7C52Cf184DfCd6"
+        }
+      },
+      {
         "name": "StakeDaoV2BalanceFuse",
         "versions": {
           "2025-08-19": "0x868358F70b43E23b650a11779442e048c9ec0Dd4"
+        }
+      },
+      {
+        "name": "StakeDaoV2ClaimFuse",
+        "versions": {
+          "2025-11-05": "0x9BB58bc262a4543De6136ae5FB16A80a2B111875"
         }
       },
       {
@@ -1733,6 +1751,12 @@
         "name": "SwapFuseUniversalTokenSwapperEth",
         "versions": {
           "2025-04-29": "0xd43a359890072D1b3939366e612D7FA0C7DDdB32"
+        }
+      },
+      {
+        "name": "SwapFuseUniversalTokenSwapperEthNoSlippage",
+        "versions": {
+          "2025-11-05": "0x6f6C1bB7526B2aeeefe2f5Afb402CE7fDf5f4d9A"
         }
       },
       {
