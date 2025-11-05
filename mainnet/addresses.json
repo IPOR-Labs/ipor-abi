@@ -1298,6 +1298,12 @@
         "token": "RYO",
         "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
         "PlasmaVault": "0xee29A26179fE20D5D202dAE4a279119E08edc60b"
+      },
+      {
+        "name": "IPOR wstETH Arbitrum",
+        "token": "ipwstETHfusion",
+        "asset": "0x5979D7b546E38E414F7E9822514be443A4800529",
+        "PlasmaVault": "0x7C655d660E2b09126B0AD6851F99d70d3715Fd9b"
       }
     ],
     "fuses": [
@@ -2570,6 +2576,12 @@
         }
       },
       {
+        "name": "MerklClaimFuse",
+        "versions": {
+          "2025-11-04": "0x310e6133a904761D717EE13D76E180E4EECf907A"
+        }
+      },
+      {
         "name": "ModifyPositionSwapFuseUniswapV3",
         "versions": {
           "2024-10-29": "0x3978b49f991949cA453601656EE97e8339f56da3"
@@ -2591,6 +2603,12 @@
         "name": "NewPositionSwapFuseUniswapV3",
         "versions": {
           "2024-10-29": "0x08C0F62E19a66800EdD2e8eBfeE02EDc912D510a"
+        }
+      },
+      {
+        "name": "RewardEulerTokenClaimFuse",
+        "versions": {
+          "2025-11-04": "0x2627a9829b00816C5FC54196bFDfD1C8EC999540"
         }
       },
       {
