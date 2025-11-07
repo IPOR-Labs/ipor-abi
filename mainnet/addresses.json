@@ -480,7 +480,8 @@
       {
         "name": "BalanceFuseLiquity",
         "versions": {
-          "2025-07-15": "0x76E7F7174415E93D770Efe004d4b8C9c76C3C6E2"
+          "2025-07-15": "0x76E7F7174415E93D770Efe004d4b8C9c76C3C6E2",
+          "2025-11-07": "0xF713395A26400c2ECd4af9fAF0f6AD7c569DAa97"
         }
       },
       {
@@ -646,6 +647,12 @@
         "name": "MerklClaimFuse",
         "versions": {
           "2025-10-30": "0x47AcA48086036D213F2A5faa6764a62777B4Bbcc"
+        }
+      },
+      {
+        "name": "RewardEulerTokenClaimFuse",
+        "versions": {
+          "2025-11-07": "0xAA2442F310D8D4a6d42160b1D2a22aCb1dd0866a"
         }
       },
       {
@@ -895,6 +902,12 @@
         "name": "SwapFuseUniversalTokenSwapper_PV_USDC_msyrupL",
         "versions": {
           "2025-09-10": "0x641B81E993E1C52a74a84cAf17f1aD50A49675B3"
+        }
+      },
+      {
+        "name": "SyrupClaimFuse",
+        "versions": {
+          "2025-11-07": "0x5b1a6B2E6Af64E74275015A65687de0ca941f537"
         }
       },
       {
