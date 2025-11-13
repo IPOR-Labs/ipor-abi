@@ -1,0 +1,113 @@
+[
+  {
+    "type": "function",
+    "name": "getCallbackHandler",
+    "inputs": [
+      {
+        "name": "plasmaVault_",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "sender_",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "sig_",
+        "type": "bytes4",
+        "internalType": "bytes4"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "handler",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "getCallbackHandler",
+    "inputs": [
+      {
+        "name": "sender_",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "sig_",
+        "type": "bytes4",
+        "internalType": "bytes4"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "handler",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "getCallbackHandlers",
+    "inputs": [
+      {
+        "name": "senders_",
+        "type": "address[]",
+        "internalType": "address[]"
+      },
+      {
+        "name": "sigs_",
+        "type": "bytes4[]",
+        "internalType": "bytes4[]"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "handlers",
+        "type": "address[]",
+        "internalType": "address[]"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "getCallbackHandlers",
+    "inputs": [
+      {
+        "name": "plasmaVault_",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "senders_",
+        "type": "address[]",
+        "internalType": "address[]"
+      },
+      {
+        "name": "sigs_",
+        "type": "bytes4[]",
+        "internalType": "bytes4[]"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "handlers",
+        "type": "address[]",
+        "internalType": "address[]"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "error",
+    "name": "CallbackHandlerReaderInvalidArrayLength",
+    "inputs": []
+  }
+]
