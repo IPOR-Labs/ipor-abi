@@ -283,10 +283,28 @@
         "PlasmaVault": "0x6C8A9E6E925f9553af591Ef2B5bAeE0c3b693e0A"
       },
       {
+        "name": "Fusion weETH looping Ethereum",
+        "token": "fusnweETH",
+        "asset": "0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee",
+        "PlasmaVault": "0x087b40429637F5366175b1C9379613b01d00a860"
+      },
+      {
         "name": "King Gold Yield (PAXG)",
         "token": "kpGOLD",
         "asset": "0x45804880De22913dAFE09f4980848ECE6EcbAf78",
         "PlasmaVault": "0x467501644687A320a244816a338b5De0fb0b4d90"
+      },
+      {
+        "name": "Fusion weETH looping Ethereum",
+        "token": "fusnweETH",
+        "asset": "0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee",
+        "PlasmaVault": "0x6C8A9E6E925f9553af591Ef2B5bAeE0c3b693e0A"
+      },
+      {
+        "name": "TAU Lending Optimizer",
+        "token": "TAULO",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0x63103375659d0aa94E9f35dF15be01a3dd1ae9c0"
       }
     ],
     "fuses": [
@@ -993,6 +1011,10 @@
               "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2": {
                 "symbol": "WETH",
                 "source": "0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419"
+              },
+              "0xd3fD63209FA2D55B07A0f6db36C2f43900be3094": {
+                "symbol": "wsrUSD",
+                "source": "0xf137329A9851203C9B2e39794172DD5Da4D66d8d"
               }
             }
           },
@@ -1203,6 +1225,12 @@
         "token": "wstETH",
         "asset": "0x5979D7b546E38E414F7E9822514be443A4800529",
         "PlasmaVault": "0x8Ff603adE68859D936a3b8f9A7b2bBA559cCeF7C"
+      },
+      {
+        "name": "IPOR wstETH Arbitrum",
+        "token": "ipwstETHfusion",
+        "asset": "0x5979D7b546E38E414F7E9822514be443A4800529",
+        "PlasmaVault": "0x7C655d660E2b09126B0AD6851F99d70d3715Fd9b"
       },
       {
         "name": "LlamaRisk crvUSD Optimizer PoC",
