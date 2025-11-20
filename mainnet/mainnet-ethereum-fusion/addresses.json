@@ -1,6 +1,7 @@
 {
   "AaveV3CollateralFuse": "0xc06F56B865F45D4A80707e7d1403767177c44B22",
   "AaveV3LidoPoolAddressesProvider": "0xcfBf336fe147D643B9Cb705648500e101504B16d",
+  "AaveV3LidoWithPriceOracleMiddlewareBalanceFuse": "0xc9eeEE3Ae20e9c5dB213a57eF102E4063FA12612",
   "AaveV3PoolAddressesProvider": "0x2f39d218133AFaB8F2B819B1066c7E434Ad94E9e",
   "AaveV3WithPriceOracleMiddlewareBalanceFuse": "0xB12D9640A809543615F221f3609eA34BB1F10b25",
   "AaveV3WithPriceOracleMiddlewareBalanceLidoFuse": "0x1d04A9d1Efa9D0C54e3757503F99d75B8f398BfA",
