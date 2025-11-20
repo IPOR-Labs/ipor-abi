@@ -305,6 +305,12 @@
         "token": "TAULO",
         "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "PlasmaVault": "0x63103375659d0aa94E9f35dF15be01a3dd1ae9c0"
+      },
+      {
+        "name": "AlchemistCS",
+        "token": "ACHMCS",
+        "asset": "0x68749665FF8D2d112Fa859AA293F07A622782F38",
+        "PlasmaVault": "0x87428d886F43068A44d7bDEeF106D3c42E1d6f23"
       }
     ],
     "fuses": [
@@ -327,6 +333,18 @@
         }
       },
       {
+        "name": "AsyncActionBalanceFuse",
+        "versions": {
+          "2025-11-18": "0x37fb994757856Ec994203D01b54Adb7ae092Bf6f"
+        }
+      },
+      {
+        "name": "AsyncActionFuse",
+        "versions": {
+          "2025-11-18": "0x04Bd1E6CaF008Ed831f888ced406cd616C671870"
+        }
+      },
+      {
         "name": "BalanceFuseAaveV3",
         "versions": {
           "2024-09-29": "0x05bCb16a50DaFE0526FB7b3941B81B1B74a7877e"
@@ -335,7 +353,8 @@
       {
         "name": "BalanceFuseAaveV3Lido",
         "versions": {
-          "2025-03-10": "0xE5a3958B24767b30f0f5d3F47A25cFB4c08c1053"
+          "2025-03-10": "0xE5a3958B24767b30f0f5d3F47A25cFB4c08c1053",
+          "2025-11-18": "0x6755249F348611a65FbABc6413FbD19eF3799B57"
         }
       },
       {
@@ -937,6 +956,12 @@
     ],
     "prehooks": [
       {
+        "name": "ExchangeRateValidatorPreHook",
+        "versions": {
+          "2025-11-18": "0xEF23ea0EC8cb31aa78E8D4F59771f24b84706199"
+        }
+      },
+      {
         "name": "PreHookPauseFunction",
         "versions": {
           "2025-03-25": "0x7846BeD0b55048dB0e6A5388B89E92f091984D59"
@@ -1339,12 +1364,6 @@
         "token": "RYO",
         "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
         "PlasmaVault": "0xee29A26179fE20D5D202dAE4a279119E08edc60b"
-      },
-      {
-        "name": "IPOR wstETH Arbitrum",
-        "token": "ipwstETHfusion",
-        "asset": "0x5979D7b546E38E414F7E9822514be443A4800529",
-        "PlasmaVault": "0x7C655d660E2b09126B0AD6851F99d70d3715Fd9b"
       }
     ],
     "fuses": [
