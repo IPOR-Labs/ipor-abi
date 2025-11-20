@@ -321,6 +321,12 @@
         }
       },
       {
+        "name": "AaveV3LidoWithPriceOracleMiddlewareBalanceFuse",
+        "versions": {
+          "2025-11-20": "0xc9eeEE3Ae20e9c5dB213a57eF102E4063FA12612"
+        }
+      },
+      {
         "name": "AaveV3WithPriceOracleMiddlewareBalanceFuse",
         "versions": {
           "2025-08-21": "0xB12D9640A809543615F221f3609eA34BB1F10b25"

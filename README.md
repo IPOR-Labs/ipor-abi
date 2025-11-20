@@ -6,13 +6,14 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Fuses List
 
-*Last updated: 2025-11-18 14:32:03 UTC*
+*Last updated: 2025-11-20 09:46:22 UTC*
 
 ### Ethereum Fuses
 
 | Fuse Name | Address / View in Explorer |
 |-----------|---------------------------|
 | `AaveV3CollateralFuse` | `0xc06F56B865F45D4A80707e7d1403767177c44B22` [View](https://etherscan.io/address/0xc06F56B865F45D4A80707e7d1403767177c44B22#code) |
+| `AaveV3LidoWithPriceOracleMiddlewareBalanceFuse` | `0xc9eeEE3Ae20e9c5dB213a57eF102E4063FA12612` [View](https://etherscan.io/address/0xc9eeEE3Ae20e9c5dB213a57eF102E4063FA12612#code) |
 | `AaveV3WithPriceOracleMiddlewareBalanceFuse` | `0xB12D9640A809543615F221f3609eA34BB1F10b25` [View](https://etherscan.io/address/0xB12D9640A809543615F221f3609eA34BB1F10b25#code) |
 | `AaveV3WithPriceOracleMiddlewareBalanceLidoFuse` | `0x1d04A9d1Efa9D0C54e3757503F99d75B8f398BfA` [View](https://etherscan.io/address/0x1d04A9d1Efa9D0C54e3757503F99d75B8f398BfA#code) |
 | `AsyncActionBalanceFuse` | `0x37fb994757856Ec994203D01b54Adb7ae092Bf6f` [View](https://etherscan.io/address/0x37fb994757856Ec994203D01b54Adb7ae092Bf6f#code) |
