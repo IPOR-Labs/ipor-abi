@@ -6,7 +6,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Fuses List
 
-*Last updated: 2025-11-20 09:46:22 UTC*
+*Last updated: 2025-11-25 02:57:23 UTC*
 
 ### Ethereum Fuses
 
@@ -66,6 +66,10 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `CollateralFuseMorpho` | `0xE1aA89eb42C23f292cDa1544566F6EBeE3a67EED` [View](https://etherscan.io/address/0xE1aA89eb42C23f292cDa1544566F6EBeE3a67EED#code) |
 | `ConfigureInstantWithdrawalFuse` | `0xd58F0EF796618F09f7fc6e63c25fae25CEB33799` [View](https://etherscan.io/address/0xd58F0EF796618F09f7fc6e63c25fae25CEB33799#code) |
 | `ControllerFuseEulerV2` | `0x4bFEa07593844155c0BD5ee656cE54e864cA9B55` [View](https://etherscan.io/address/0x4bFEa07593844155c0BD5ee656cE54e864cA9B55#code) |
+| `EbisuAdjustInterestRateFuse` | `0xf82a5730AdcE3e30c41d057928E1edF4606C67f9` [View](https://etherscan.io/address/0xf82a5730AdcE3e30c41d057928E1edF4606C67f9#code) |
+| `EbisuZapperBalanceFuse` | `0xb3a7F15034d664fA295B472732BFfC6953eEFb33` [View](https://etherscan.io/address/0xb3a7F15034d664fA295B472732BFfC6953eEFb33#code) |
+| `EbisuZapperCreateFuse` | `0x586a819AAd974F6EF49E2bD425a7526F3f2551F4` [View](https://etherscan.io/address/0x586a819AAd974F6EF49E2bD425a7526F3f2551F4#code) |
+| `EbisuZapperLeverModifyFuse` | `0xA3BabE2e9A1fdA1350B76EB77C40Dd394c836102` [View](https://etherscan.io/address/0xA3BabE2e9A1fdA1350B76EB77C40Dd394c836102#code) |
 | `FlashloanFuseMorpho` | `0x9185033e24dB36407b9b1A1886Cb47B9533433DE` [View](https://etherscan.io/address/0x9185033e24dB36407b9b1A1886Cb47B9533433DE#code) |
 | `FuseHarvestDoHardWork` | `0xDA45fe8099358bba400554c9b640170246B43e50` [View](https://etherscan.io/address/0xDA45fe8099358bba400554c9b640170246B43e50#code) |
 | `FusePendleRedeemPtAfterMaturity` | `0x40430a509188b71BdA9a0c06b132e978Ea2015BE` [View](https://etherscan.io/address/0x40430a509188b71BdA9a0c06b132e978Ea2015BE#code) |
@@ -79,7 +83,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `SiloV2BorrowFuse` | `0x1D24B8d16d87a570e8539c2849A23Bbc5F13005B` [View](https://etherscan.io/address/0x1D24B8d16d87a570e8539c2849A23Bbc5F13005B#code) |
 | `SiloV2SupplyBorrowableCollateralFuse` | `0xb3d5c1b8D512bd41d845817f84E4Ea29bF038fb5` [View](https://etherscan.io/address/0xb3d5c1b8D512bd41d845817f84E4Ea29bF038fb5#code) |
 | `SiloV2SupplyNonBorrowableCollateralFuse` | `0x897d96A7C91e2F1B8213f240CaD031f9acdEfA56` [View](https://etherscan.io/address/0x897d96A7C91e2F1B8213f240CaD031f9acdEfA56#code) |
-| `StEthWrapperFuse` | `0xab97e49fcB752f7713090814199b4458b4Ea1bAd` [View](https://etherscan.io/address/0xab97e49fcB752f7713090814199b4458b4Ea1bAd#code) |
+| `StEthWrapperFuse` | `0x176F645b837663F4aF2579f37059bdC22EE69584` [View](https://etherscan.io/address/0x176F645b837663F4aF2579f37059bdC22EE69584#code) |
 | `StabilityPoolFuseLiquity` | `0x5f0E7454F0AF81141806ec3B31D972401Bae3Edb` [View](https://etherscan.io/address/0x5f0E7454F0AF81141806ec3B31D972401Bae3Edb#code) |
 | `StakeDaoV2BalanceFuse` | `0x0c59d9Cd3859673EDC70b0BcF66E2715831C3816` [View](https://etherscan.io/address/0x0c59d9Cd3859673EDC70b0BcF66E2715831C3816#code) |
 | `StakeDaoV2ClaimFuse` | `0x7ec22C4deFE53eC35F03f0B6468ec319c577DEFc` [View](https://etherscan.io/address/0x7ec22C4deFE53eC35F03f0B6468ec319c577DEFc#code) |
@@ -129,6 +133,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `BorrowFuseEulerV2` | `0x20c782C94800d709541660E322035785c89E32C2` [View](https://etherscan.io/address/0x20c782C94800d709541660E322035785c89E32C2#code) |
 | `CollateralFuseEulerV2` | `0xF58d96142A6AbBeE5cB2f2eDe750Aa7429672618` [View](https://etherscan.io/address/0xF58d96142A6AbBeE5cB2f2eDe750Aa7429672618#code) |
 | `ControllerFuseEulerV2` | `0x4DcA6Fd6f153EE18602ac77B4396070476ec6c25` [View](https://etherscan.io/address/0x4DcA6Fd6f153EE18602ac77B4396070476ec6c25#code) |
+| `StEthWrapperFuse` | `0xab97e49fcB752f7713090814199b4458b4Ea1bAd` [View](https://etherscan.io/address/0xab97e49fcB752f7713090814199b4458b4Ea1bAd#code) |
 | `SupplyFuseAaveV3` | `0x465D639EB964158beE11f35E8fc23f704EC936a2` [View](https://etherscan.io/address/0x465D639EB964158beE11f35E8fc23f704EC936a2#code) |
 | `SupplyFuseAaveV3Lido` | `0x09791C53218010eE59464386F6a3B9D656490d60` [View](https://etherscan.io/address/0x09791C53218010eE59464386F6a3B9D656490d60#code) |
 | `SupplyFuseEulerV2` | `0x225D3e01d3Ba0DdF904E1Fbb46256f7D3A7e7bF0` [View](https://etherscan.io/address/0x225D3e01d3Ba0DdF904E1Fbb46256f7D3A7e7bF0#code) |
@@ -484,7 +489,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## PreHooks List
 
-*Last updated: 2025-11-18 14:32:06 UTC*
+*Last updated: 2025-11-25 02:57:27 UTC*
 
 ### Ethereum PreHooks
 
@@ -550,7 +555,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Price Oracles List
 
-*Last updated: 2025-11-18 14:37:42 UTC*
+*Last updated: 2025-11-25 03:03:46 UTC*
 
 ### Ethereum Price Oracles
 
@@ -621,6 +626,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | **sBOLD** `0x50Bd66D59911F5e086Ec87aE43C811e0D059DD11` | `0x3c3F08A0cE5dC1608D7E11167C60244E16922D93` [View](https://etherscan.io/address/0x3c3F08A0cE5dC1608D7E11167C60244E16922D93) |
 | **PT-sBOLD-27NOV2025** `0x66526197a4BAf496D97e1004e43c2C374Fb7d2E7` | `0xa0f108184a8c461640fE8349a2FD36e3c6cd3E77` [View](https://etherscan.io/address/0xa0f108184a8c461640fE8349a2FD36e3c6cd3E77) |
 | **PT-pUSDe-16OCT2025** `0xF3f491e5608f8B8a6Fd9E9d66a4a4036d7FD282C` | `0x9cB88d61976701Ad9cB00722fa1bD8c27eeC8539` [View](https://etherscan.io/address/0x9cB88d61976701Ad9cB00722fa1bD8c27eeC8539) |
+| **wsrUSD** `0xd3fD63209FA2D55B07A0f6db36C2f43900be3094` | `0xf137329A9851203C9B2e39794172DD5Da4D66d8d` [View](https://etherscan.io/address/0xf137329A9851203C9B2e39794172DD5Da4D66d8d) |
 
 
 ### Arbitrum Price Oracles
