@@ -2329,6 +2329,18 @@
         }
       },
       {
+        "name": "AsyncActionBalanceFuse",
+        "versions": {
+          "2025-11-25": "0x89a204AA373a56B02ABAd265BEa12B70C4f2a142"
+        }
+      },
+      {
+        "name": "AsyncActionFuse",
+        "versions": {
+          "2025-11-25": "0xF328E4e84446CF5400F9baf1482E939F88A9E460"
+        }
+      },
+      {
         "name": "BalanceFuseAaveV3",
         "versions": {
           "2024-10-29": "0xf53f3EaFfDf67539256365cA7299540A98b60BA9"
@@ -2903,6 +2915,12 @@
       }
     ],
     "prehooks": [
+      {
+        "name": "ExchangeRateValidatorPreHook",
+        "versions": {
+          "2025-11-25": "0xa959454ed4e72fC23E2c406F17509AEd98ae75Ee"
+        }
+      },
       {
         "name": "PreHookPauseFunction",
         "versions": {

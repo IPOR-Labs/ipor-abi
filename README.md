@@ -6,7 +6,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Fuses List
 
-*Last updated: 2025-11-25 02:57:23 UTC*
+*Last updated: 2025-11-26 08:19:14 UTC*
 
 ### Ethereum Fuses
 
@@ -237,6 +237,8 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | Fuse Name | Address / View in Explorer |
 |-----------|---------------------------|
 | `AaveV3WithPriceOracleMiddlewareBalanceFuse` | `0x952573Ec1B6895a88a95CA523097083d4da4D8e5` [View](https://basescan.org/address/0x952573Ec1B6895a88a95CA523097083d4da4D8e5#code) |
+| `AsyncActionBalanceFuse` | `0x89a204AA373a56B02ABAd265BEa12B70C4f2a142` [View](https://basescan.org/address/0x89a204AA373a56B02ABAd265BEa12B70C4f2a142#code) |
+| `AsyncActionFuse` | `0xF328E4e84446CF5400F9baf1482E939F88A9E460` [View](https://basescan.org/address/0xF328E4e84446CF5400F9baf1482E939F88A9E460#code) |
 | `BalanceFuseAaveV3` | `0xf53f3EaFfDf67539256365cA7299540A98b60BA9` [View](https://basescan.org/address/0xf53f3EaFfDf67539256365cA7299540A98b60BA9#code) |
 | `BalanceFuseAerodrome` | `0xDBBE09c09FCE1B841fE46Ac6b06e2a4F8128c838` [View](https://basescan.org/address/0xDBBE09c09FCE1B841fE46Ac6b06e2a4F8128c838#code) |
 | `BalanceFuseAerodromeSlipstream` | `0xaff9bbbEa884EF4Db30e4db6a3f68D50E44E1188` [View](https://basescan.org/address/0xaff9bbbEa884EF4Db30e4db6a3f68D50E44E1188#code) |
@@ -489,7 +491,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## PreHooks List
 
-*Last updated: 2025-11-25 02:57:27 UTC*
+*Last updated: 2025-11-26 08:19:17 UTC*
 
 ### Ethereum PreHooks
 
@@ -509,6 +511,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 | PreHook Name | Address / View in Explorer |
 |-----------|---------------------------|
+| `ExchangeRateValidatorPreHook` | `0xa959454ed4e72fC23E2c406F17509AEd98ae75Ee` [View](https://basescan.org/address/0xa959454ed4e72fC23E2c406F17509AEd98ae75Ee#code) |
 | `PreHookPauseFunction` | `0x10e64e5F2f2BD098F31849B48d0BA1B92331cE88` [View](https://basescan.org/address/0x10e64e5F2f2BD098F31849B48d0BA1B92331cE88#code) |
 | `PreHookUpdateBalances` | `0x7f9179DC81cd0dBE6488eCD192cf37d2B9530F0C` [View](https://basescan.org/address/0x7f9179DC81cd0dBE6488eCD192cf37d2B9530F0C#code) |
 
@@ -555,7 +558,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Price Oracles List
 
-*Last updated: 2025-11-25 03:03:46 UTC*
+*Last updated: 2025-11-26 08:26:47 UTC*
 
 ### Ethereum Price Oracles
 
