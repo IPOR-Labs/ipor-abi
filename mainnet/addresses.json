@@ -280,7 +280,7 @@
         "name": "Fusion weETH looping Ethereum",
         "token": "fusnweETH",
         "asset": "0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee",
-        "PlasmaVault": "0x6C8A9E6E925f9553af591Ef2B5bAeE0c3b693e0A"
+        "PlasmaVault": "0x087b40429637F5366175b1C9379613b01d00a860"
       },
       {
         "name": "Fusion weETH looping Ethereum",
@@ -645,6 +645,30 @@
         }
       },
       {
+        "name": "EbisuAdjustInterestRateFuse",
+        "versions": {
+          "2025-11-25": "0xf82a5730AdcE3e30c41d057928E1edF4606C67f9"
+        }
+      },
+      {
+        "name": "EbisuZapperBalanceFuse",
+        "versions": {
+          "2025-11-25": "0xb3a7F15034d664fA295B472732BFfC6953eEFb33"
+        }
+      },
+      {
+        "name": "EbisuZapperCreateFuse",
+        "versions": {
+          "2025-11-25": "0x586a819AAd974F6EF49E2bD425a7526F3f2551F4"
+        }
+      },
+      {
+        "name": "EbisuZapperLeverModifyFuse",
+        "versions": {
+          "2025-11-25": "0xA3BabE2e9A1fdA1350B76EB77C40Dd394c836102"
+        }
+      },
+      {
         "name": "FlashloanFuseMorpho",
         "versions": {
           "2025-01-16": "0x9185033e24dB36407b9b1A1886Cb47B9533433DE"
@@ -725,7 +749,8 @@
       {
         "name": "StEthWrapperFuse",
         "versions": {
-          "2025-08-10": "0xab97e49fcB752f7713090814199b4458b4Ea1bAd"
+          "2025-08-10": "0xab97e49fcB752f7713090814199b4458b4Ea1bAd",
+          "2025-11-25": "0x176F645b837663F4aF2579f37059bdC22EE69584"
         }
       },
       {
@@ -1177,6 +1202,10 @@
               "0xF3f491e5608f8B8a6Fd9E9d66a4a4036d7FD282C": {
                 "symbol": "PT-pUSDe-16OCT2025",
                 "source": "0x9cB88d61976701Ad9cB00722fa1bD8c27eeC8539"
+              },
+              "0xd3fD63209FA2D55B07A0f6db36C2f43900be3094": {
+                "symbol": "wsrUSD",
+                "source": "0xf137329A9851203C9B2e39794172DD5Da4D66d8d"
               }
             }
           }
@@ -1253,9 +1282,9 @@
       },
       {
         "name": "IPOR wstETH Arbitrum",
-        "token": "wstETH",
+        "token": "ipwstETHfusion",
         "asset": "0x5979D7b546E38E414F7E9822514be443A4800529",
-        "PlasmaVault": "0x8Ff603adE68859D936a3b8f9A7b2bBA559cCeF7C"
+        "PlasmaVault": "0x7C655d660E2b09126B0AD6851F99d70d3715Fd9b"
       },
       {
         "name": "IPOR wstETH Arbitrum",
