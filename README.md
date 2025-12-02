@@ -6,7 +6,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Fuses List
 
-*Last updated: 2025-11-26 08:19:14 UTC*
+*Last updated: 2025-12-02 14:57:12 UTC*
 
 ### Ethereum Fuses
 
@@ -119,7 +119,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `SwapFuseUniversalTokenSwapperEth` | `0xee9a18F0De64E8Eb399A3BaEF0550aa50A218768` [View](https://etherscan.io/address/0xee9a18F0De64E8Eb399A3BaEF0550aa50A218768#code) |
 | `SwapFuseUniversalTokenSwapperEthNoSlippage` | `0xd932D47FcF53D8dc1eF58455Dd5910E19aF2DbF0` [View](https://etherscan.io/address/0xd932D47FcF53D8dc1eF58455Dd5910E19aF2DbF0#code) |
 | `SwapFuseUniversalTokenSwapperWithVerification` | `0x4E0B22A5052B640967c55b92401b1c067FdA53e0` [View](https://etherscan.io/address/0x4E0B22A5052B640967c55b92401b1c067FdA53e0#code) |
-| `SwapFuseUniversalTokenSwapper_PV_USDC_msyrupL` | `0x641B81E993E1C52a74a84cAf17f1aD50A49675B3` [View](https://etherscan.io/address/0x641B81E993E1C52a74a84cAf17f1aD50A49675B3#code) |
+| `SwapFuseUniversalTokenSwapper_PV_USDC_msyrupL` | `0x54c860323cCD609405a18E46b0F799BEb5DF5D50` [View](https://etherscan.io/address/0x54c860323cCD609405a18E46b0F799BEb5DF5D50#code) |
 | `SyrupClaimFuse` | `0x5b1a6B2E6Af64E74275015A65687de0ca941f537` [View](https://etherscan.io/address/0x5b1a6B2E6Af64E74275015A65687de0ca941f537#code) |
 | `UniversalReaderBalanceFuses` | `0x870E1Fb75BEdbc2eFB92857DC2B2cF171a0AEC1f` [View](https://etherscan.io/address/0x870E1Fb75BEdbc2eFB92857DC2B2cF171a0AEC1f#code) |
 
@@ -137,6 +137,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `SupplyFuseAaveV3` | `0x465D639EB964158beE11f35E8fc23f704EC936a2` [View](https://etherscan.io/address/0x465D639EB964158beE11f35E8fc23f704EC936a2#code) |
 | `SupplyFuseAaveV3Lido` | `0x09791C53218010eE59464386F6a3B9D656490d60` [View](https://etherscan.io/address/0x09791C53218010eE59464386F6a3B9D656490d60#code) |
 | `SupplyFuseEulerV2` | `0x225D3e01d3Ba0DdF904E1Fbb46256f7D3A7e7bF0` [View](https://etherscan.io/address/0x225D3e01d3Ba0DdF904E1Fbb46256f7D3A7e7bF0#code) |
+| `SwapFuseUniversalTokenSwapper_PV_USDC_msyrupL` | `0x641B81E993E1C52a74a84cAf17f1aD50A49675B3` [View](https://etherscan.io/address/0x641B81E993E1C52a74a84cAf17f1aD50A49675B3#code) |
 
 ### Arbitrum Fuses
 
@@ -491,7 +492,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## PreHooks List
 
-*Last updated: 2025-11-26 08:19:17 UTC*
+*Last updated: 2025-12-02 14:57:13 UTC*
 
 ### Ethereum PreHooks
 
@@ -558,7 +559,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Price Oracles List
 
-*Last updated: 2025-11-26 08:26:47 UTC*
+*Last updated: 2025-12-02 15:06:32 UTC*
 
 ### Ethereum Price Oracles
 
