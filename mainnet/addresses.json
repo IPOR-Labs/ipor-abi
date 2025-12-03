@@ -311,6 +311,48 @@
         "token": "ACHMCS",
         "asset": "0x68749665FF8D2d112Fa859AA293F07A622782F38",
         "PlasmaVault": "0x87428d886F43068A44d7bDEeF106D3c42E1d6f23"
+      },
+      {
+        "name": "stcUSD fixed rate looping",
+        "token": "lstcUSD",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0xEf53663BB775a51181f04d590F88FC38d6bd5751"
+      },
+      {
+        "name": "Reservoir High Yield USDC Lending",
+        "token": "ResHY",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0xc197ad72936B7C558C96417f22041fE9e3c7043f"
+      },
+      {
+        "name": "test",
+        "token": "TESTK",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0xD7a32271D7829a6C297a1e443f033B97b6C832A7"
+      },
+      {
+        "name": "Test Vault",
+        "token": "TVL",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0x2353E52162582726106A9DeE12bDFCbB1750Cf24"
+      },
+      {
+        "name": "Leveraged syrupUSDC",
+        "token": "msyrupL",
+        "asset": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "PlasmaVault": "0xE50D58c2533502e95b1BDe14F25f852cC9c8c62C"
+      },
+      {
+        "name": "Llamarisk crvUSD Vault",
+        "token": "LlamaUSD",
+        "asset": "0xf939E0A03FB07F59A73314E73794Be0E57ac1b4E",
+        "PlasmaVault": "0xbfA9d6EC0E04B6691fCAE5F8b48838C3918eC117"
+      },
+      {
+        "name": " Leveraged syrupUSDT",
+        "token": "msyrupL",
+        "asset": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "PlasmaVault": "0x3b3bDAA4462851621818D2CEBC835E077587147A"
       }
     ],
     "fuses": [
@@ -969,7 +1011,8 @@
       {
         "name": "SwapFuseUniversalTokenSwapper_PV_USDC_msyrupL",
         "versions": {
-          "2025-09-10": "0x641B81E993E1C52a74a84cAf17f1aD50A49675B3"
+          "2025-09-10": "0x641B81E993E1C52a74a84cAf17f1aD50A49675B3",
+          "2025-12-02": "0x54c860323cCD609405a18E46b0F799BEb5DF5D50"
         }
       },
       {
