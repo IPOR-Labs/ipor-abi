@@ -3946,6 +3946,18 @@
         }
       },
       {
+        "name": "AsyncActionBalanceFuse",
+        "versions": {
+          "2025-12-03": "0x489EfE72bcd37b9FFc9AF6e5874D5896cDa70b75"
+        }
+      },
+      {
+        "name": "AsyncActionFuse",
+        "versions": {
+          "2025-12-03": "0x9bb49D308edF068C4c667Dd9B4030EdFe298dfEd"
+        }
+      },
+      {
         "name": "BalanceFuseBurnRequestFee",
         "versions": {
           "2025-10-01": "0x630ca75385d20ac9dBdf9329E1a00504c4d50B02"
@@ -3955,6 +3967,36 @@
         "name": "BalanceFuseErc20",
         "versions": {
           "2025-10-01": "0x5127C36f68c3fb4Bf3f1c6C0e8d06fa0367148f1"
+        }
+      },
+      {
+        "name": "BalanceFuseErc4626Market1",
+        "versions": {
+          "2025-12-03": "0xC557cFecd78EaD2bA790ac266e54aC0FB0429Ae5"
+        }
+      },
+      {
+        "name": "BalanceFuseErc4626Market2",
+        "versions": {
+          "2025-12-03": "0x5860F54354c479F536cA0944448fea50caA48388"
+        }
+      },
+      {
+        "name": "BalanceFuseErc4626Market3",
+        "versions": {
+          "2025-12-03": "0x4094282E2A288FbB1161e5247619cfeE19cb098f"
+        }
+      },
+      {
+        "name": "BalanceFuseErc4626Market4",
+        "versions": {
+          "2025-12-03": "0x670Db58B0B0F7D9C2EFf41b27Ab32b635ACF3d1b"
+        }
+      },
+      {
+        "name": "BalanceFuseErc4626Market5",
+        "versions": {
+          "2025-12-03": "0x51530294dB0eCCE8807fdFc2C008d6756f70Cc5E"
         }
       },
       {
@@ -4012,6 +4054,18 @@
         }
       },
       {
+        "name": "MerklClaimFuse",
+        "versions": {
+          "2025-12-03": "0xA0649092B6010384556639b4DDA31C7Fff9Fa10e"
+        }
+      },
+      {
+        "name": "RewardEulerTokenClaimFuse",
+        "versions": {
+          "2025-12-03": "0x1aD73a5959423400216d93c87171DDD8015046E2"
+        }
+      },
+      {
         "name": "SiloV2BalanceFuse",
         "versions": {
           "2025-10-01": "0xc4D09e234E725cCcb594C441b9eE64e3D6204c81"
@@ -4039,6 +4093,36 @@
         "name": "SupplyFuseAaveV3",
         "versions": {
           "2025-10-01": "0x97e36bA4d86824738c83b91b7b983d36c75a1946"
+        }
+      },
+      {
+        "name": "SupplyFuseErc4626Market1",
+        "versions": {
+          "2025-12-04": "0x33DdEA6891550EB68b1FE9A5D76b95f70aF634d2"
+        }
+      },
+      {
+        "name": "SupplyFuseErc4626Market2",
+        "versions": {
+          "2025-12-04": "0xb5F588e982174f3C15B8896bdAd7525794F560e0"
+        }
+      },
+      {
+        "name": "SupplyFuseErc4626Market3",
+        "versions": {
+          "2025-12-04": "0xc83BE23f75452514b3c80DC07315B57231D4ff04"
+        }
+      },
+      {
+        "name": "SupplyFuseErc4626Market4",
+        "versions": {
+          "2025-12-04": "0x3c1983F88b358949a90bA8a51E02A4E3f0E759ad"
+        }
+      },
+      {
+        "name": "SupplyFuseErc4626Market5",
+        "versions": {
+          "2025-12-04": "0x3D5757A8f9908208C2A728032F4085C62B39C6b0"
         }
       },
       {
@@ -4073,6 +4157,12 @@
       }
     ],
     "prehooks": [
+      {
+        "name": "ExchangeRateValidatorPreHook",
+        "versions": {
+          "2025-12-03": "0x21e309535084Effe9C985199660C374c59df2F5b"
+        }
+      },
       {
         "name": "PreHookPauseFunction",
         "versions": {

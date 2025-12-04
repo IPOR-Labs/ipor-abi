@@ -6,7 +6,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Fuses List
 
-*Last updated: 2025-12-02 14:57:12 UTC*
+*Last updated: 2025-12-04 05:43:19 UTC*
 
 ### Ethereum Fuses
 
@@ -468,8 +468,15 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | Fuse Name | Address / View in Explorer |
 |-----------|---------------------------|
 | `AaveV3WithPriceOracleMiddlewareBalanceFuse` | `0x563DFc4b7629364f0a992aaa4c87e87e95ce9fB0` [View](https://snowscan.xyz/address/0x563DFc4b7629364f0a992aaa4c87e87e95ce9fB0#code) |
+| `AsyncActionBalanceFuse` | `0x489EfE72bcd37b9FFc9AF6e5874D5896cDa70b75` [View](https://snowscan.xyz/address/0x489EfE72bcd37b9FFc9AF6e5874D5896cDa70b75#code) |
+| `AsyncActionFuse` | `0x9bb49D308edF068C4c667Dd9B4030EdFe298dfEd` [View](https://snowscan.xyz/address/0x9bb49D308edF068C4c667Dd9B4030EdFe298dfEd#code) |
 | `BalanceFuseBurnRequestFee` | `0x630ca75385d20ac9dBdf9329E1a00504c4d50B02` [View](https://snowscan.xyz/address/0x630ca75385d20ac9dBdf9329E1a00504c4d50B02#code) |
 | `BalanceFuseErc20` | `0x5127C36f68c3fb4Bf3f1c6C0e8d06fa0367148f1` [View](https://snowscan.xyz/address/0x5127C36f68c3fb4Bf3f1c6C0e8d06fa0367148f1#code) |
+| `BalanceFuseErc4626Market1` | `0xC557cFecd78EaD2bA790ac266e54aC0FB0429Ae5` [View](https://snowscan.xyz/address/0xC557cFecd78EaD2bA790ac266e54aC0FB0429Ae5#code) |
+| `BalanceFuseErc4626Market2` | `0x5860F54354c479F536cA0944448fea50caA48388` [View](https://snowscan.xyz/address/0x5860F54354c479F536cA0944448fea50caA48388#code) |
+| `BalanceFuseErc4626Market3` | `0x4094282E2A288FbB1161e5247619cfeE19cb098f` [View](https://snowscan.xyz/address/0x4094282E2A288FbB1161e5247619cfeE19cb098f#code) |
+| `BalanceFuseErc4626Market4` | `0x670Db58B0B0F7D9C2EFf41b27Ab32b635ACF3d1b` [View](https://snowscan.xyz/address/0x670Db58B0B0F7D9C2EFf41b27Ab32b635ACF3d1b#code) |
+| `BalanceFuseErc4626Market5` | `0x51530294dB0eCCE8807fdFc2C008d6756f70Cc5E` [View](https://snowscan.xyz/address/0x51530294dB0eCCE8807fdFc2C008d6756f70Cc5E#code) |
 | `BalanceFuseEulerV2` | `0x2426946D65939eF2C750425265Ef0ab60c1CcCD6` [View](https://snowscan.xyz/address/0x2426946D65939eF2C750425265Ef0ab60c1CcCD6#code) |
 | `BalanceFuseUniversalTokenSwapper` | `0xd2b20152ca1EAfdE72161891053E17e9f68Ca583` [View](https://snowscan.xyz/address/0xd2b20152ca1EAfdE72161891053E17e9f68Ca583#code) |
 | `BatchFuseEulerV2` | `0xC589A38893E7Fced79505055C305402B60d16201` [View](https://snowscan.xyz/address/0xC589A38893E7Fced79505055C305402B60d16201#code) |
@@ -479,11 +486,18 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `CollateralFuseEulerV2` | `0x4a75987699917c5f09152b6A9217f6f6431e6E48` [View](https://snowscan.xyz/address/0x4a75987699917c5f09152b6A9217f6f6431e6E48#code) |
 | `ConfigureInstantWithdrawalFuse` | `0x1F01Ee3c7fC894e6A1A80823Dd21f6Ba3B04db7d` [View](https://snowscan.xyz/address/0x1F01Ee3c7fC894e6A1A80823Dd21f6Ba3B04db7d#code) |
 | `ControllerFuseEulerV2` | `0x8E906e5bB9Ca0CCd4a395AABe09b0F5cfB6A0c9a` [View](https://snowscan.xyz/address/0x8E906e5bB9Ca0CCd4a395AABe09b0F5cfB6A0c9a#code) |
+| `MerklClaimFuse` | `0xA0649092B6010384556639b4DDA31C7Fff9Fa10e` [View](https://snowscan.xyz/address/0xA0649092B6010384556639b4DDA31C7Fff9Fa10e#code) |
+| `RewardEulerTokenClaimFuse` | `0x1aD73a5959423400216d93c87171DDD8015046E2` [View](https://snowscan.xyz/address/0x1aD73a5959423400216d93c87171DDD8015046E2#code) |
 | `SiloV2BalanceFuse` | `0xc4D09e234E725cCcb594C441b9eE64e3D6204c81` [View](https://snowscan.xyz/address/0xc4D09e234E725cCcb594C441b9eE64e3D6204c81#code) |
 | `SiloV2BorrowFuse` | `0x05f9114c3F1975d62e32043eee01BA57c2Ad3f71` [View](https://snowscan.xyz/address/0x05f9114c3F1975d62e32043eee01BA57c2Ad3f71#code) |
 | `SiloV2SupplyBorrowableCollateralFuse` | `0x86b7433372E9508f5C3906C8655cc2F6f5B5E3e6` [View](https://snowscan.xyz/address/0x86b7433372E9508f5C3906C8655cc2F6f5B5E3e6#code) |
 | `SiloV2SupplyNonBorrowableCollateralFuse` | `0xe606e7307f22F7Dc1d902844d353F51fc57bA955` [View](https://snowscan.xyz/address/0xe606e7307f22F7Dc1d902844d353F51fc57bA955#code) |
 | `SupplyFuseAaveV3` | `0x97e36bA4d86824738c83b91b7b983d36c75a1946` [View](https://snowscan.xyz/address/0x97e36bA4d86824738c83b91b7b983d36c75a1946#code) |
+| `SupplyFuseErc4626Market1` | `0x33DdEA6891550EB68b1FE9A5D76b95f70aF634d2` [View](https://snowscan.xyz/address/0x33DdEA6891550EB68b1FE9A5D76b95f70aF634d2#code) |
+| `SupplyFuseErc4626Market2` | `0xb5F588e982174f3C15B8896bdAd7525794F560e0` [View](https://snowscan.xyz/address/0xb5F588e982174f3C15B8896bdAd7525794F560e0#code) |
+| `SupplyFuseErc4626Market3` | `0xc83BE23f75452514b3c80DC07315B57231D4ff04` [View](https://snowscan.xyz/address/0xc83BE23f75452514b3c80DC07315B57231D4ff04#code) |
+| `SupplyFuseErc4626Market4` | `0x3c1983F88b358949a90bA8a51E02A4E3f0E759ad` [View](https://snowscan.xyz/address/0x3c1983F88b358949a90bA8a51E02A4E3f0E759ad#code) |
+| `SupplyFuseErc4626Market5` | `0x3D5757A8f9908208C2A728032F4085C62B39C6b0` [View](https://snowscan.xyz/address/0x3D5757A8f9908208C2A728032F4085C62B39C6b0#code) |
 | `SupplyFuseEulerV2` | `0xdD02ad9A1d40FE1BA14812729db1272EF42A497F` [View](https://snowscan.xyz/address/0xdD02ad9A1d40FE1BA14812729db1272EF42A497F#code) |
 | `SwapFuseUniversalTokenSwapper` | `0xA9daB41f304A64C5b81d504DaE30b4b41b68C80B` [View](https://snowscan.xyz/address/0xA9daB41f304A64C5b81d504DaE30b4b41b68C80B#code) |
 | `SwapFuseUniversalTokenSwapperEth` | `0x4Bfde040f9325E5154c3984547945165544d4023` [View](https://snowscan.xyz/address/0x4Bfde040f9325E5154c3984547945165544d4023#code) |
@@ -492,7 +506,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## PreHooks List
 
-*Last updated: 2025-12-02 14:57:13 UTC*
+*Last updated: 2025-12-04 05:43:22 UTC*
 
 ### Ethereum PreHooks
 
@@ -554,12 +568,13 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 | PreHook Name | Address / View in Explorer |
 |-----------|---------------------------|
+| `ExchangeRateValidatorPreHook` | `0x21e309535084Effe9C985199660C374c59df2F5b` [View](https://snowscan.xyz/address/0x21e309535084Effe9C985199660C374c59df2F5b#code) |
 | `PreHookPauseFunction` | `0x9f07A105cCbc9E65Aa0eA064E8cF765E5967B5dc` [View](https://snowscan.xyz/address/0x9f07A105cCbc9E65Aa0eA064E8cF765E5967B5dc#code) |
 | `PreHookUpdateBalancesIgnoreDust` | `0x8f2E9d878D68b9E174E3EA53E5151602F1e702A4` [View](https://snowscan.xyz/address/0x8f2E9d878D68b9E174E3EA53E5151602F1e702A4#code) |
 
 ## Price Oracles List
 
-*Last updated: 2025-12-02 15:06:32 UTC*
+*Last updated: 2025-12-04 05:54:01 UTC*
 
 ### Ethereum Price Oracles
 
