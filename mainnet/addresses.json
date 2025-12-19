@@ -1442,6 +1442,12 @@
         "token": "RYO",
         "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
         "PlasmaVault": "0xee29A26179fE20D5D202dAE4a279119E08edc60b"
+      },
+      {
+        "name": "AutoFi USDC LP Strategy by Libfi.ai",
+        "token": "autoFi",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x2e27C959F818CC4bBcb78Bb6Ded89b22216b657A"
       }
     ],
     "fuses": [
@@ -2362,6 +2368,30 @@
         "token": "hpUSDC",
         "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
         "PlasmaVault": "0x912d3cD25291FCe8f0A3c0F5b7ed85Ef2d8BefE6"
+      },
+      {
+        "name": "Vauldo",
+        "token": "$Vauldo",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x57960963CA7ab0a02786b9f61C6eEdE0E8788f56"
+      },
+      {
+        "name": "Vauldo_v2",
+        "token": "$Vauldo2",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0xE8502012Da39eE2efd82b50A5e8de1c529c59afC"
+      },
+      {
+        "name": "Vauldo",
+        "token": "",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0xd376A60e3bB4D1990cF961c645023eec15FEEb56"
+      },
+      {
+        "name": "Vauldo",
+        "token": "",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0xB0972cB1524A26F8CDAcd2139C5398E25c2C34F4"
       }
     ],
     "fuses": [
@@ -3934,6 +3964,12 @@
         "token": "testALS",
         "asset": "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb",
         "PlasmaVault": "0x48b3a64af0CA691B4a89d1F3E9355811fC886A28"
+      },
+      {
+        "name": "Yuzu IPOR Vault [Test] ",
+        "token": "testyzUSD",
+        "asset": "0x9895D81bB462A195b4922ED7De0e3ACD007c32CB",
+        "PlasmaVault": "0x922AfBE72E1a193B5991982aa4Eab85E14C8a62b"
       }
     ]
   },
