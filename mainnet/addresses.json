@@ -582,6 +582,12 @@
         }
       },
       {
+        "name": "BalanceFuseMorphoLiquidityInMarkets",
+        "versions": {
+          "2025-12-19": "0x9fb58405D628c702eF23fb1bD9cBB814A4850228"
+        }
+      },
+      {
         "name": "BalanceFusePendle",
         "versions": {
           "2025-04-04": "0x48bD852d83f6e58Af59255aBc708e3ddeCB1d1E6"
@@ -976,6 +982,12 @@
         "name": "SupplyFuseMorpho",
         "versions": {
           "2024-09-29": "0xD08Cb606CEe700628E55b0B0159Ad65421E6c8Df"
+        }
+      },
+      {
+        "name": "SupplyFuseMorphoLiquidityInMarkets",
+        "versions": {
+          "2025-12-19": "0x3a017de24585b2C8cAbfCca6ef8248c394DDb138"
         }
       },
       {
@@ -1458,6 +1470,18 @@
         }
       },
       {
+        "name": "AsyncActionBalanceFuse",
+        "versions": {
+          "2025-12-19": "0xb7FEBd5b21C7a0399Ad930117cC6c5CA05409Eec"
+        }
+      },
+      {
+        "name": "AsyncActionFuse",
+        "versions": {
+          "2025-12-19": "0xf414c7ebC7911eE730F62799BA5D3224b45E0d7F"
+        }
+      },
+      {
         "name": "BalanceFuseAaveV3",
         "versions": {
           "2024-09-03": "0x4CB1c4774BA1B65802c68Adb33DE99ABf8B21228"
@@ -1564,6 +1588,12 @@
         "name": "BalanceFuseMorpho",
         "versions": {
           "2025-08-26": "0x502E904E9dd40B8274dFF84F2dbFcCA48dE8F802"
+        }
+      },
+      {
+        "name": "BalanceFuseMorphoLiquidityInMarkets",
+        "versions": {
+          "2025-12-19": "0x71CcCE8bd93F7CAD49BDe538D31F85427E388863"
         }
       },
       {
@@ -1874,6 +1904,12 @@
         }
       },
       {
+        "name": "SupplyFuseMorphoLiquidityInMarkets",
+        "versions": {
+          "2025-12-19": "0xB9eeAe4234445Cb84e7d9f45686DCB934f21fFC9"
+        }
+      },
+      {
         "name": "SwapFuseUniswapV2",
         "versions": {
           "2024-09-11": "0xAdA9bF3c599DB229601dd1220D0b3CcAb6c7db84"
@@ -1917,6 +1953,12 @@
       }
     ],
     "prehooks": [
+      {
+        "name": "ExchangeRateValidatorPreHook",
+        "versions": {
+          "2025-12-19": "0x923a6A7f0AEBbf2381d88ad5402AD0312b30AaD0"
+        }
+      },
       {
         "name": "PreHookPauseFunction",
         "versions": {
@@ -2392,6 +2434,12 @@
         "token": "",
         "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
         "PlasmaVault": "0xB0972cB1524A26F8CDAcd2139C5398E25c2C34F4"
+      },
+      {
+        "name": "AUTH Test Vault",
+        "token": "ATV",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x8FE334c23d2C08CeF3487e43c2ED14b183A86021"
       }
     ],
     "fuses": [
