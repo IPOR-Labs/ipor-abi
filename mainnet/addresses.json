@@ -707,7 +707,8 @@
       {
         "name": "EbisuZapperCreateFuse",
         "versions": {
-          "2025-11-25": "0x586a819AAd974F6EF49E2bD425a7526F3f2551F4"
+          "2025-11-25": "0x586a819AAd974F6EF49E2bD425a7526F3f2551F4",
+          "2025-12-23": "0x1Aba4764dDE4Ae6D29C97aE3A20A95267a37069e"
         }
       },
       {

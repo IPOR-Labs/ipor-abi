@@ -58,7 +58,7 @@
   "EbisuAdjustInterestRateFuse": "0xf82a5730AdcE3e30c41d057928E1edF4606C67f9",
   "EbisuWethEthAdapterAddressReader": "0xE88ed7dC0a22807a3E5b27aA9C1c81DA60B53451",
   "EbisuZapperBalanceFuse": "0xb3a7F15034d664fA295B472732BFfC6953eEFb33",
-  "EbisuZapperCreateFuse": "0x586a819AAd974F6EF49E2bD425a7526F3f2551F4",
+  "EbisuZapperCreateFuse": "0x1Aba4764dDE4Ae6D29C97aE3A20A95267a37069e",
   "EbisuZapperLeverModifyFuse": "0xA3BabE2e9A1fdA1350B76EB77C40Dd394c836102",
   "EulerV2EVC": "0x0C9a3dd6b8F28529d72d7f9cE918D493519EE383",
   "ExchangeRateValidatorPreHook": "0xEF23ea0EC8cb31aa78E8D4F59771f24b84706199",
