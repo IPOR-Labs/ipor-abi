@@ -1461,6 +1461,12 @@
         "token": "autoFi",
         "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
         "PlasmaVault": "0x2e27C959F818CC4bBcb78Bb6Ded89b22216b657A"
+      },
+      {
+        "name": "IPOR USDC Prime",
+        "token": "ipUSDCfusion",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xD855296f9868fF659F3f359C90B7D005EC049228"
       }
     ],
     "fuses": [
