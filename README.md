@@ -6,7 +6,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Fuses List
 
-*Last updated: 2026-01-12 12:16:07 UTC*
+*Last updated: 2026-01-16 10:00:06 UTC*
 
 ### Ethereum Fuses
 
@@ -68,6 +68,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `ConfigureInstantWithdrawalFuse` | `0xd58F0EF796618F09f7fc6e63c25fae25CEB33799` [View](https://etherscan.io/address/0xd58F0EF796618F09f7fc6e63c25fae25CEB33799#code) |
 | `ControllerFuseEulerV2` | `0x4bFEa07593844155c0BD5ee656cE54e864cA9B55` [View](https://etherscan.io/address/0x4bFEa07593844155c0BD5ee656cE54e864cA9B55#code) |
 | `EbisuAdjustInterestRateFuse` | `0xf82a5730AdcE3e30c41d057928E1edF4606C67f9` [View](https://etherscan.io/address/0xf82a5730AdcE3e30c41d057928E1edF4606C67f9#code) |
+| `EbisuAdjustTroveFuse` | `0xE30B07bb32181d1ffB76E1e1f88B6107A97CC9E8` [View](https://etherscan.io/address/0xE30B07bb32181d1ffB76E1e1f88B6107A97CC9E8#code) |
 | `EbisuZapperBalanceFuse` | `0xb3a7F15034d664fA295B472732BFfC6953eEFb33` [View](https://etherscan.io/address/0xb3a7F15034d664fA295B472732BFfC6953eEFb33#code) |
 | `EbisuZapperCreateFuse` | `0x1Aba4764dDE4Ae6D29C97aE3A20A95267a37069e` [View](https://etherscan.io/address/0x1Aba4764dDE4Ae6D29C97aE3A20A95267a37069e#code) |
 | `EbisuZapperLeverModifyFuse` | `0xA3BabE2e9A1fdA1350B76EB77C40Dd394c836102` [View](https://etherscan.io/address/0xA3BabE2e9A1fdA1350B76EB77C40Dd394c836102#code) |
@@ -108,7 +109,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `SupplyFuseErc4626Market7` | `0x87E3b7C430368eb4684ef622baE0D4c8C0cd590B` [View](https://etherscan.io/address/0x87E3b7C430368eb4684ef622baE0D4c8C0cd590B#code) |
 | `SupplyFuseErc4626Market8` | `0xbD8a194d188Bc27A050f271a923459cAB847CA9F` [View](https://etherscan.io/address/0xbD8a194d188Bc27A050f271a923459cAB847CA9F#code) |
 | `SupplyFuseErc4626Market9` | `0x62679B25956d525703c810a6c13e2324312649e8` [View](https://etherscan.io/address/0x62679B25956d525703c810a6c13e2324312649e8#code) |
-| `SupplyFuseEulerV2` | `0xDd33b4b6b9A7aA6fcC5F1D1c8ebB649A796Fd5B5` [View](https://etherscan.io/address/0xDd33b4b6b9A7aA6fcC5F1D1c8ebB649A796Fd5B5#code) |
+| `SupplyFuseEulerV2` | `0x9425Cc51E61F04942008B7cAFf129C2c6e57F217` [View](https://etherscan.io/address/0x9425Cc51E61F04942008B7cAFf129C2c6e57F217#code) |
 | `SupplyFuseFluidInstadappPoolFToken` | `0xe49207496BB2Cf8C3D4FDadcad8e5f72E780B4Ae` [View](https://etherscan.io/address/0xe49207496BB2Cf8C3D4FDadcad8e5f72E780B4Ae#code) |
 | `SupplyFuseFluidInstadappStakingRewardsFToken` | `0xa613249EF6D0C3dF83d0593abb63e0638d1d590F` [View](https://etherscan.io/address/0xa613249EF6D0C3dF83d0593abb63e0638d1d590F#code) |
 | `SupplyFuseGearboxV3DToken` | `0x95acDF1C8f4447E655a097aEa3F92FB15035485D` [View](https://etherscan.io/address/0x95acDF1C8f4447E655a097aEa3F92FB15035485D#code) |
@@ -139,6 +140,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `StEthWrapperFuse` | `0xab97e49fcB752f7713090814199b4458b4Ea1bAd` [View](https://etherscan.io/address/0xab97e49fcB752f7713090814199b4458b4Ea1bAd#code) |
 | `SupplyFuseAaveV3` | `0x465D639EB964158beE11f35E8fc23f704EC936a2` [View](https://etherscan.io/address/0x465D639EB964158beE11f35E8fc23f704EC936a2#code) |
 | `SupplyFuseAaveV3Lido` | `0x09791C53218010eE59464386F6a3B9D656490d60` [View](https://etherscan.io/address/0x09791C53218010eE59464386F6a3B9D656490d60#code) |
+| `SupplyFuseEulerV2` | `0xDd33b4b6b9A7aA6fcC5F1D1c8ebB649A796Fd5B5` [View](https://etherscan.io/address/0xDd33b4b6b9A7aA6fcC5F1D1c8ebB649A796Fd5B5#code) |
 | `SupplyFuseEulerV2` | `0x225D3e01d3Ba0DdF904E1Fbb46256f7D3A7e7bF0` [View](https://etherscan.io/address/0x225D3e01d3Ba0DdF904E1Fbb46256f7D3A7e7bF0#code) |
 | `SwapFuseUniversalTokenSwapper_PV_USDC_msyrupL` | `0x641B81E993E1C52a74a84cAf17f1aD50A49675B3` [View](https://etherscan.io/address/0x641B81E993E1C52a74a84cAf17f1aD50A49675B3#code) |
 
@@ -514,7 +516,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## PreHooks List
 
-*Last updated: 2026-01-12 12:16:08 UTC*
+*Last updated: 2026-01-16 10:00:08 UTC*
 
 ### Ethereum PreHooks
 

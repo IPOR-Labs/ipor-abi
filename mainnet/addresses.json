@@ -353,6 +353,12 @@
         "token": "msyrupL",
         "asset": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "PlasmaVault": "0x3b3bDAA4462851621818D2CEBC835E077587147A"
+      },
+      {
+        "name": "cbBTC Carry",
+        "token": "$TAUSIUSDcbBTC",
+        "asset": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+        "PlasmaVault": "0x60e36a79C3d21120350e39b5EA59AE26B75Ae74c"
       }
     ],
     "fuses": [
@@ -699,6 +705,12 @@
         }
       },
       {
+        "name": "EbisuAdjustTroveFuse",
+        "versions": {
+          "2026-01-16": "0xE30B07bb32181d1ffB76E1e1f88B6107A97CC9E8"
+        }
+      },
+      {
         "name": "EbisuZapperBalanceFuse",
         "versions": {
           "2025-11-25": "0xb3a7F15034d664fA295B472732BFfC6953eEFb33"
@@ -946,7 +958,8 @@
         "name": "SupplyFuseEulerV2",
         "versions": {
           "2024-11-26": "0x225D3e01d3Ba0DdF904E1Fbb46256f7D3A7e7bF0",
-          "2025-07-01": "0xDd33b4b6b9A7aA6fcC5F1D1c8ebB649A796Fd5B5"
+          "2025-07-01": "0xDd33b4b6b9A7aA6fcC5F1D1c8ebB649A796Fd5B5",
+          "2026-01-16": "0x9425Cc51E61F04942008B7cAFf129C2c6e57F217"
         }
       },
       {
@@ -2448,6 +2461,18 @@
         "token": "ATV",
         "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
         "PlasmaVault": "0x8FE334c23d2C08CeF3487e43c2ED14b183A86021"
+      },
+      {
+        "name": "My Test Vault",
+        "token": "MTV",
+        "asset": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
+        "PlasmaVault": "0x6c14fC985339a3B5B37aA9c4B3D95642dCEc296E"
+      },
+      {
+        "name": "My Vault",
+        "token": "MV",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x2DCe19895e1C2D4c366fa4D07cad706d5A800531"
       }
     ],
     "fuses": [
@@ -3477,6 +3502,12 @@
         "token": "TEST1234",
         "asset": "0x4200000000000000000000000000000000000006",
         "PlasmaVault": "0x6e31FDd21E0c8deF9e97876DC2961171586aF416"
+      },
+      {
+        "name": "Fusion Supreme",
+        "token": "TFS",
+        "asset": "0x078D782b760474a361dDA0AF3839290b0EF57AD6",
+        "PlasmaVault": "0x382B71D34C3350bcfB5A75317B2960D4F9e1F62D"
       }
     ],
     "pools": []
