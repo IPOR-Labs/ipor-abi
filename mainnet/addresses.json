@@ -359,6 +359,24 @@
         "token": "$TAUSIUSDcbBTC",
         "asset": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
         "PlasmaVault": "0x60e36a79C3d21120350e39b5EA59AE26B75Ae74c"
+      },
+      {
+        "name": "Clone test",
+        "token": "ct",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0x8e8239b3EAc550E8C8d464bEc73aB8168A8d66ee"
+      },
+      {
+        "name": "Clone test 2",
+        "token": "ct2",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0x6B2Bb72ebB3CB6cdD0B24fEF6c60CA8278610AC4"
+      },
+      {
+        "name": "TAU InfiniFi Pointsmaxx - Silo",
+        "token": "$TAUSIUSDSILO",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0xd36f53497507e948df9f277cF8c3eCecB09a1c1D"
       }
     ],
     "fuses": [
@@ -2473,6 +2491,30 @@
         "token": "MV",
         "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
         "PlasmaVault": "0x2DCe19895e1C2D4c366fa4D07cad706d5A800531"
+      },
+      {
+        "name": "Clone test",
+        "token": "d",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x6AcD7F0c8D52A7381ca0A1a18F801Ae29aBcD80d"
+      },
+      {
+        "name": "Test Max Vault",
+        "token": "TMV",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0xC00Ff364cE9B6875959d419aCAD843F66C31CD81"
+      },
+      {
+        "name": "Test Vault",
+        "token": "TV",
+        "asset": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
+        "PlasmaVault": "0x03a16445D0230E2dE8Ba0a608391A89Bc27aCeeC"
+      },
+      {
+        "name": "My Wizard Vault",
+        "token": "MWV",
+        "asset": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
+        "PlasmaVault": "0xaBF33921D76C67Fd68eeb02694EeC9FEad9183c2"
       }
     ],
     "fuses": [
@@ -4251,7 +4293,8 @@
       {
         "name": "SupplyFuseEulerV2",
         "versions": {
-          "2025-10-01": "0xdD02ad9A1d40FE1BA14812729db1272EF42A497F"
+          "2025-10-01": "0xdD02ad9A1d40FE1BA14812729db1272EF42A497F",
+          "2026-01-20": "0x13466479fcdB6D49ee73547f8520dE36E2D95fE2"
         }
       },
       {
@@ -4276,6 +4319,12 @@
         "name": "UniversalReaderBalanceFuses",
         "versions": {
           "2025-10-01": "0x4F78F29Ac7078A2B6A0D73820DD2E88C90E3683e"
+        }
+      },
+      {
+        "name": "UpdateMarketsBalancesFuse",
+        "versions": {
+          "2026-01-20": "0x07CD709BA9F70890deE10935738FbE35c2CCbff1"
         }
       }
     ],
