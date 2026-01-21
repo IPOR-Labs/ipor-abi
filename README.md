@@ -6,7 +6,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Fuses List
 
-*Last updated: 2026-01-16 10:00:06 UTC*
+*Last updated: 2026-01-20 09:36:04 UTC*
 
 ### Ethereum Fuses
 
@@ -508,15 +508,22 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `SupplyFuseErc4626Market3` | `0xc83BE23f75452514b3c80DC07315B57231D4ff04` [View](https://snowscan.xyz/address/0xc83BE23f75452514b3c80DC07315B57231D4ff04#code) |
 | `SupplyFuseErc4626Market4` | `0x3c1983F88b358949a90bA8a51E02A4E3f0E759ad` [View](https://snowscan.xyz/address/0x3c1983F88b358949a90bA8a51E02A4E3f0E759ad#code) |
 | `SupplyFuseErc4626Market5` | `0x3D5757A8f9908208C2A728032F4085C62B39C6b0` [View](https://snowscan.xyz/address/0x3D5757A8f9908208C2A728032F4085C62B39C6b0#code) |
-| `SupplyFuseEulerV2` | `0xdD02ad9A1d40FE1BA14812729db1272EF42A497F` [View](https://snowscan.xyz/address/0xdD02ad9A1d40FE1BA14812729db1272EF42A497F#code) |
+| `SupplyFuseEulerV2` | `0x13466479fcdB6D49ee73547f8520dE36E2D95fE2` [View](https://snowscan.xyz/address/0x13466479fcdB6D49ee73547f8520dE36E2D95fE2#code) |
 | `SwapFuseUniversalTokenSwapper` | `0xA9daB41f304A64C5b81d504DaE30b4b41b68C80B` [View](https://snowscan.xyz/address/0xA9daB41f304A64C5b81d504DaE30b4b41b68C80B#code) |
 | `SwapFuseUniversalTokenSwapperEth` | `0x4Bfde040f9325E5154c3984547945165544d4023` [View](https://snowscan.xyz/address/0x4Bfde040f9325E5154c3984547945165544d4023#code) |
 | `SwapFuseUniversalTokenSwapperWithVerification` | `0x40527fEb6f2C7a209C35fa18f1e71d311aa5861D` [View](https://snowscan.xyz/address/0x40527fEb6f2C7a209C35fa18f1e71d311aa5861D#code) |
 | `UniversalReaderBalanceFuses` | `0x4F78F29Ac7078A2B6A0D73820DD2E88C90E3683e` [View](https://snowscan.xyz/address/0x4F78F29Ac7078A2B6A0D73820DD2E88C90E3683e#code) |
+| `UpdateMarketsBalancesFuse` | `0x07CD709BA9F70890deE10935738FbE35c2CCbff1` [View](https://snowscan.xyz/address/0x07CD709BA9F70890deE10935738FbE35c2CCbff1#code) |
+
+#### Avalanche Older Fuses Versions
+
+| Fuse Name | Address / View in Explorer |
+|-----------|---------------------------|
+| `SupplyFuseEulerV2` | `0xdD02ad9A1d40FE1BA14812729db1272EF42A497F` [View](https://snowscan.xyz/address/0xdD02ad9A1d40FE1BA14812729db1272EF42A497F#code) |
 
 ## PreHooks List
 
-*Last updated: 2026-01-16 10:00:08 UTC*
+*Last updated: 2026-01-20 09:36:05 UTC*
 
 ### Ethereum PreHooks
 
