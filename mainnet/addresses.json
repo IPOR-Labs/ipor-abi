@@ -377,6 +377,12 @@
         "token": "$TAUSIUSDSILO",
         "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "PlasmaVault": "0xd36f53497507e948df9f277cF8c3eCecB09a1c1D"
+      },
+      {
+        "name": "pitagoras-eth",
+        "token": "pit-eth",
+        "asset": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "PlasmaVault": "0xA9A972F035EFd5a05D74B8462f81DFFA9f087c9A"
       }
     ],
     "fuses": [
@@ -2515,6 +2521,42 @@
         "token": "MWV",
         "asset": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
         "PlasmaVault": "0xaBF33921D76C67Fd68eeb02694EeC9FEad9183c2"
+      },
+      {
+        "name": "Wizzzard Vault",
+        "token": "WZZV",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x772E06719600660ff5b911f9543bBe903e0589a9"
+      },
+      {
+        "name": "Wizzzard Vault 2",
+        "token": "WZZV2",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x84876067FFd1122aaA00463f7311E6AbEf032022"
+      },
+      {
+        "name": "My Wizzzard Vault 3",
+        "token": "MWZZV3",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x39f960c6687bAF1125715EADF0e94b130B94dc0c"
+      },
+      {
+        "name": "Super Wizard Vault",
+        "token": "SWV",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0xc1E4E9961A5736782ec3accDc74679fC46f17BD1"
+      },
+      {
+        "name": "Demo Wizzzard Vault",
+        "token": "DWV",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x4eBa620d9aDb075B03Dc8e2fd8eB8dD5493d5608"
+      },
+      {
+        "name": "BBB",
+        "token": "BBB",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x83C1fd12211668EFa06f2bACF395d2942007193e"
       }
     ],
     "fuses": [
