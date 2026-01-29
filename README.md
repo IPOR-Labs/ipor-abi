@@ -6,7 +6,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Fuses List
 
-*Last updated: 2026-01-22 12:33:40 UTC*
+*Last updated: 2026-01-29 01:05:34 UTC*
 
 ### Ethereum Fuses
 
@@ -80,6 +80,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `FuseRequestSharesPlasmaVaultMarket1` | `0x7130383298822097531Cf5cc5e3414dda1e09542` [View](https://etherscan.io/address/0x7130383298822097531Cf5cc5e3414dda1e09542#code) |
 | `MaintenanceFuseUpdateWithdrawManager` | `0x74CA34C2C47d0865856A54060246AB736a0Bb0D0` [View](https://etherscan.io/address/0x74CA34C2C47d0865856A54060246AB736a0Bb0D0#code) |
 | `MerklClaimFuse` | `0x47AcA48086036D213F2A5faa6764a62777B4Bbcc` [View](https://etherscan.io/address/0x47AcA48086036D213F2A5faa6764a62777B4Bbcc#code) |
+| `OdosSwapperFuse` | `0xC13F3Fd20556A595990C35612E9e5c1C071Cb691` [View](https://etherscan.io/address/0xC13F3Fd20556A595990C35612E9e5c1C071Cb691#code) |
 | `RewardEulerTokenClaimFuse` | `0xAA2442F310D8D4a6d42160b1D2a22aCb1dd0866a` [View](https://etherscan.io/address/0xAA2442F310D8D4a6d42160b1D2a22aCb1dd0866a#code) |
 | `SiloV2BalanceFuse` | `0x086acA94AA413932C6ac5e09b863AC2Cbe17998f` [View](https://etherscan.io/address/0x086acA94AA413932C6ac5e09b863AC2Cbe17998f#code) |
 | `SiloV2BorrowFuse` | `0x1D24B8d16d87a570e8539c2849A23Bbc5F13005B` [View](https://etherscan.io/address/0x1D24B8d16d87a570e8539c2849A23Bbc5F13005B#code) |
@@ -125,6 +126,9 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `SwapFuseUniversalTokenSwapper_PV_USDC_msyrupL` | `0x54c860323cCD609405a18E46b0F799BEb5DF5D50` [View](https://etherscan.io/address/0x54c860323cCD609405a18E46b0F799BEb5DF5D50#code) |
 | `SyrupClaimFuse` | `0x5b1a6B2E6Af64E74275015A65687de0ca941f537` [View](https://etherscan.io/address/0x5b1a6B2E6Af64E74275015A65687de0ca941f537#code) |
 | `UniversalReaderBalanceFuses` | `0x870E1Fb75BEdbc2eFB92857DC2B2cF171a0AEC1f` [View](https://etherscan.io/address/0x870E1Fb75BEdbc2eFB92857DC2B2cF171a0AEC1f#code) |
+| `UniversalTokenSwapperEthFuse` | `0xa07780FdaF46C0EFd5C4F6349268065E5D1fDBe5` [View](https://etherscan.io/address/0xa07780FdaF46C0EFd5C4F6349268065E5D1fDBe5#code) |
+| `UniversalTokenSwapperFuse` | `0xA301D6f34f2c8399E8564681cF675999cc1f1584` [View](https://etherscan.io/address/0xA301D6f34f2c8399E8564681cF675999cc1f1584#code) |
+| `VeloraSwapperFuse` | `0x8771e28451F0A2b891B3401c94bCfA272215D48b` [View](https://etherscan.io/address/0x8771e28451F0A2b891B3401c94bCfA272215D48b#code) |
 
 #### Ethereum Older Fuses Versions
 
@@ -523,7 +527,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## PreHooks List
 
-*Last updated: 2026-01-22 12:33:41 UTC*
+*Last updated: 2026-01-29 01:05:38 UTC*
 
 ### Ethereum PreHooks
 
