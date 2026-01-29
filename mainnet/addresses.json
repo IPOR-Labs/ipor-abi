@@ -383,6 +383,30 @@
         "token": "pit-eth",
         "asset": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
         "PlasmaVault": "0xA9A972F035EFd5a05D74B8462f81DFFA9f087c9A"
+      },
+      {
+        "name": "KTAB",
+        "token": "KTAB",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0xe792175B86B803d01A4CDCD8ae5c13c60fD2ff65"
+      },
+      {
+        "name": "Eiger West Face",
+        "token": "EIGWF",
+        "asset": "0xB58E61C3098d85632Df34EecfB899A1Ed80921cB",
+        "PlasmaVault": "0x1f647d12A6dD159F802545D4e71d20b348b4Db1d"
+      },
+      {
+        "name": "Hyperithm mHYPER Looping",
+        "token": "ipormHYPER",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0xA4BA016C19694083291cb18D163Ca56212Ce9d96"
+      },
+      {
+        "name": "Ethena Max",
+        "token": "maxUSDe",
+        "asset": "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
+        "PlasmaVault": "0xde5174b9e46a93277Bca6dCB1E7B8A6D76b711d4"
       }
     ],
     "fuses": [
@@ -802,6 +826,12 @@
         }
       },
       {
+        "name": "OdosSwapperFuse",
+        "versions": {
+          "2026-01-29": "0xC13F3Fd20556A595990C35612E9e5c1C071Cb691"
+        }
+      },
+      {
         "name": "RewardEulerTokenClaimFuse",
         "versions": {
           "2025-11-07": "0xAA2442F310D8D4a6d42160b1D2a22aCb1dd0866a"
@@ -1075,6 +1105,24 @@
         "name": "UniversalReaderBalanceFuses",
         "versions": {
           "2025-03-25": "0x870E1Fb75BEdbc2eFB92857DC2B2cF171a0AEC1f"
+        }
+      },
+      {
+        "name": "UniversalTokenSwapperEthFuse",
+        "versions": {
+          "2026-01-29": "0xa07780FdaF46C0EFd5C4F6349268065E5D1fDBe5"
+        }
+      },
+      {
+        "name": "UniversalTokenSwapperFuse",
+        "versions": {
+          "2026-01-29": "0xA301D6f34f2c8399E8564681cF675999cc1f1584"
+        }
+      },
+      {
+        "name": "VeloraSwapperFuse",
+        "versions": {
+          "2026-01-29": "0x8771e28451F0A2b891B3401c94bCfA272215D48b"
         }
       }
     ],
@@ -2557,6 +2605,60 @@
         "token": "BBB",
         "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
         "PlasmaVault": "0x83C1fd12211668EFa06f2bACF395d2942007193e"
+      },
+      {
+        "name": "Vault 456",
+        "token": "V456",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x2b886029Ca0fA31735aa2dE8FeD4a1C6a8ADC9a0"
+      },
+      {
+        "name": "Vault 654",
+        "token": "VAULT",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x05f572F3d1e7C20Eed04f7F81A9C05857464751c"
+      },
+      {
+        "name": "Vault 123",
+        "token": "V123",
+        "asset": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
+        "PlasmaVault": "0x0cbb54B5E47fec087243DCf7366d71a068a0cF58"
+      },
+      {
+        "name": "Vault 123 2",
+        "token": "V123",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0xc2f2BD9953e9f3a01849aa24f33b524e127a3b45"
+      },
+      {
+        "name": "Vault",
+        "token": "VLT",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x717D7644b340467Cb8C58293bda332D406538f68"
+      },
+      {
+        "name": "Test 1 - usdc",
+        "token": "t1-usdc",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x574D9579d1ae3F152927555f4AE580fB15BfB1eF"
+      },
+      {
+        "name": "Test 2 - USDC",
+        "token": "t2-USDC",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x9d1071bB8Df6D4BbB5A8188002831D4F9a9BB3cd"
+      },
+      {
+        "name": "My Vault",
+        "token": "MV",
+        "asset": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
+        "PlasmaVault": "0x3738f45543ed428Eabfd3d8E29560a6Ae4325e7e"
+      },
+      {
+        "name": "My Vault",
+        "token": "MV",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0xD0f7A372Bd8068F0C23bcAbA5017C05beFB96F67"
       }
     ],
     "fuses": [
