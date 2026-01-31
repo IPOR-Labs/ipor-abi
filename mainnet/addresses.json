@@ -407,6 +407,12 @@
         "token": "maxUSDe",
         "asset": "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
         "PlasmaVault": "0xde5174b9e46a93277Bca6dCB1E7B8A6D76b711d4"
+      },
+      {
+        "name": "rETH Liquity LP Carry",
+        "token": "rETHLPC",
+        "asset": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "PlasmaVault": "0xB9E806e8f2d94c015ffefa90cD24Ecce18f1663C"
       }
     ],
     "fuses": [
@@ -1552,6 +1558,12 @@
         "token": "ipUSDCfusion",
         "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
         "PlasmaVault": "0xD855296f9868fF659F3f359C90B7D005EC049228"
+      },
+      {
+        "name": "Morpho lend only test",
+        "token": "MLOT",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x16447e2Cfa08B8d8E6F563F6a1a549572bE99ed8"
       }
     ],
     "fuses": [
