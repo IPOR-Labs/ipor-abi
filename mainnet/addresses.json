@@ -1564,6 +1564,12 @@
         "token": "MLOT",
         "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
         "PlasmaVault": "0x16447e2Cfa08B8d8E6F563F6a1a549572bE99ed8"
+      },
+      {
+        "name": "Yield FTW",
+        "token": "YFTW",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x5411Ef03F2Ee209FD7F8941d0ef68981592a804b"
       }
     ],
     "fuses": [
