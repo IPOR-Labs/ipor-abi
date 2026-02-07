@@ -52,7 +52,8 @@ def update_addresses_json(prehooks_file, addresses_file):
                 "tac": {"prehooks": []},
                 "ink": {"prehooks": []},
                 "plasma": {"prehooks": []},
-                "avalanche": {"prehooks": []}
+                "avalanche": {"prehooks": []},
+                "katana": {"prehooks": []}
             }
 
         blockchain_prehooks = {
@@ -63,7 +64,8 @@ def update_addresses_json(prehooks_file, addresses_file):
             "tac": {},
             "ink": {},
             "plasma": {},
-            "avalanche": {}
+            "avalanche": {},
+            "katana": {}
         }
 
         web3_connections = create_web3_connections()
@@ -94,6 +96,8 @@ def update_addresses_json(prehooks_file, addresses_file):
                 chain = "plasma"
             elif "avalanche" in file_path:
                 chain = "avalanche"
+            elif "katana" in file_path:
+                chain = "katana"
 
             if not chain:
                 continue

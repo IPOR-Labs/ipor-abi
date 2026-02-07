@@ -234,7 +234,8 @@ def update_addresses_json(priceoracles_file, addresses_file):
                 "tac": {"price_oracles": []},
                 "ink": {"price_oracles": []},
                 "plasma": {"price_oracles": []},
-                "avalanche": {"price_oracles": []}
+                "avalanche": {"price_oracles": []},
+                "katana": {"price_oracles": []}
             }
 
         blockchain_priceoracles = {
@@ -245,7 +246,8 @@ def update_addresses_json(priceoracles_file, addresses_file):
             "tac": {},
             "ink": {},
             "plasma": {},
-            "avalanche": {}
+            "avalanche": {},
+            "katana": {}
         }
 
         web3_connections = create_web3_connections()
@@ -271,7 +273,8 @@ def update_addresses_json(priceoracles_file, addresses_file):
             "tac": {},
             "ink": {},
             "plasma": {},
-            "avalanche": {}
+            "avalanche": {},
+            "katana": {}
         }
 
         unique_addresses = {
@@ -282,7 +285,8 @@ def update_addresses_json(priceoracles_file, addresses_file):
             "tac": {},
             "ink": {},
             "plasma": {},
-            "avalanche": {}
+            "avalanche": {},
+            "katana": {}
         }
 
         address_to_date_key = {
@@ -293,7 +297,8 @@ def update_addresses_json(priceoracles_file, addresses_file):
             "tac": {},
             "ink": {},
             "plasma": {},
-            "avalanche": {}
+            "avalanche": {},
+            "katana": {}
         }
 
         for file_path, priceoracles in priceoracles_data.items():
@@ -314,6 +319,8 @@ def update_addresses_json(priceoracles_file, addresses_file):
                 chain = "plasma"
             elif "avalanche" in file_path:
                 chain = "avalanche"
+            elif "katana" in file_path:
+                chain = "katana"
 
             if not chain:
                 continue
