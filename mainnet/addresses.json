@@ -868,6 +868,30 @@
         }
       },
       {
+        "name": "SparkLendBorrowFuse",
+        "versions": {
+          "2026-02-07": "0xE3aBaE104B259c523f022a880AD4a73ea8DE4c5e"
+        }
+      },
+      {
+        "name": "SparkLendCollateralFuse",
+        "versions": {
+          "2026-02-07": "0xACba93fAFc6886694583D20752D20Fb312d1cE46"
+        }
+      },
+      {
+        "name": "SparkLendSupplyFuse",
+        "versions": {
+          "2026-02-07": "0x81DD10690E5690177F052b1b74c3070734831106"
+        }
+      },
+      {
+        "name": "SparkLendWithPriceOracleMiddlewareBalanceFuse",
+        "versions": {
+          "2026-02-07": "0x05397aDb7A0B596DF88BCa2b06c0cbfB28e5222d"
+        }
+      },
+      {
         "name": "StEthWrapperFuse",
         "versions": {
           "2025-08-10": "0xab97e49fcB752f7713090814199b4458b4Ea1bAd",
