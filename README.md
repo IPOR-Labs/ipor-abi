@@ -6,7 +6,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Fuses List
 
-*Last updated: 2026-02-07 08:50:03 UTC*
+*Last updated: 2026-02-07 17:26:36 UTC*
 
 ### Ethereum Fuses
 
@@ -86,6 +86,10 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `SiloV2BorrowFuse` | `0x1D24B8d16d87a570e8539c2849A23Bbc5F13005B` [View](https://etherscan.io/address/0x1D24B8d16d87a570e8539c2849A23Bbc5F13005B#code) |
 | `SiloV2SupplyBorrowableCollateralFuse` | `0xb3d5c1b8D512bd41d845817f84E4Ea29bF038fb5` [View](https://etherscan.io/address/0xb3d5c1b8D512bd41d845817f84E4Ea29bF038fb5#code) |
 | `SiloV2SupplyNonBorrowableCollateralFuse` | `0x897d96A7C91e2F1B8213f240CaD031f9acdEfA56` [View](https://etherscan.io/address/0x897d96A7C91e2F1B8213f240CaD031f9acdEfA56#code) |
+| `SparkLendBorrowFuse` | `0xE3aBaE104B259c523f022a880AD4a73ea8DE4c5e` [View](https://etherscan.io/address/0xE3aBaE104B259c523f022a880AD4a73ea8DE4c5e#code) |
+| `SparkLendCollateralFuse` | `0xACba93fAFc6886694583D20752D20Fb312d1cE46` [View](https://etherscan.io/address/0xACba93fAFc6886694583D20752D20Fb312d1cE46#code) |
+| `SparkLendSupplyFuse` | `0x81DD10690E5690177F052b1b74c3070734831106` [View](https://etherscan.io/address/0x81DD10690E5690177F052b1b74c3070734831106#code) |
+| `SparkLendWithPriceOracleMiddlewareBalanceFuse` | `0x05397aDb7A0B596DF88BCa2b06c0cbfB28e5222d` [View](https://etherscan.io/address/0x05397aDb7A0B596DF88BCa2b06c0cbfB28e5222d#code) |
 | `StEthWrapperFuse` | `0x176F645b837663F4aF2579f37059bdC22EE69584` [View](https://etherscan.io/address/0x176F645b837663F4aF2579f37059bdC22EE69584#code) |
 | `StabilityPoolFuseLiquity` | `0x5f0E7454F0AF81141806ec3B31D972401Bae3Edb` [View](https://etherscan.io/address/0x5f0E7454F0AF81141806ec3B31D972401Bae3Edb#code) |
 | `StakeDaoV2BalanceFuse` | `0x0c59d9Cd3859673EDC70b0BcF66E2715831C3816` [View](https://etherscan.io/address/0x0c59d9Cd3859673EDC70b0BcF66E2715831C3816#code) |
@@ -569,7 +573,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## PreHooks List
 
-*Last updated: 2026-02-07 08:50:08 UTC*
+*Last updated: 2026-02-07 17:26:39 UTC*
 
 ### Ethereum PreHooks
 
