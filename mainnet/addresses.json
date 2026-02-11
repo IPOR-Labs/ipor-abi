@@ -413,6 +413,12 @@
         "token": "rETHLPC",
         "asset": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
         "PlasmaVault": "0xB9E806e8f2d94c015ffefa90cD24Ecce18f1663C"
+      },
+      {
+        "name": "Yield Sleuth",
+        "token": "YS",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0x7D677637218e879e2f38B444C7801FfF21203152"
       }
     ],
     "fuses": [
@@ -648,6 +654,12 @@
         }
       },
       {
+        "name": "BalanceFuseOdosSwapper",
+        "versions": {
+          "2026-02-11": "0x3aaE99DfdF99Bf86C400b618F470f1D2de94Ee51"
+        }
+      },
+      {
         "name": "BalanceFusePendle",
         "versions": {
           "2025-04-04": "0x48bD852d83f6e58Af59255aBc708e3ddeCB1d1E6"
@@ -663,6 +675,12 @@
         "name": "BalanceFuseUniversalTokenSwapper",
         "versions": {
           "2025-01-16": "0xe9562d7bd06b43E6391C5bE4B3c5F5C2BC1E06Bf"
+        }
+      },
+      {
+        "name": "BalanceFuseVeloraSwapper",
+        "versions": {
+          "2026-02-11": "0xB5C14B4c741391d5625A56f70049ab2d720bE9C9"
         }
       },
       {
@@ -1743,6 +1761,12 @@
         }
       },
       {
+        "name": "BalanceFuseOdosSwapper",
+        "versions": {
+          "2026-02-11": "0x8447Eda17965F7E9CEEC0cCfc9BE0B8Cf47665C4"
+        }
+      },
+      {
         "name": "BalanceFusePendle",
         "versions": {
           "2025-04-04": "0xE78D9bE2fAe6C0202Fd10fcDaf2cbc4DbfdDE7C1"
@@ -1776,6 +1800,12 @@
         "name": "BalanceFuseUniversalTokenSwapper",
         "versions": {
           "2024-09-11": "0x7ceAe29f467db23210C6fDB95247355C87026eD0"
+        }
+      },
+      {
+        "name": "BalanceFuseVeloraSwapper",
+        "versions": {
+          "2026-02-11": "0xEb033a5c73f6Ad00b9DEb3091b205b802Ddf5bc7"
         }
       },
       {
@@ -2797,6 +2827,12 @@
         "token": "\ud83d\ude02",
         "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
         "PlasmaVault": "0x85b8149337563cFA8bC9CF39EeF2F53F67F91614"
+      },
+      {
+        "name": "\ud83d\ude80\ud83d\ude80\ud83d\ude80",
+        "token": "\ud83d\ude80",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x2f383a4B0A025ccc477a767Dfb7f71cce1240c26"
       }
     ],
     "fuses": [
@@ -2995,6 +3031,12 @@
         }
       },
       {
+        "name": "BalanceFuseOdosSwapper",
+        "versions": {
+          "2026-02-11": "0x758524777B2a6eC40097eA442ca8e1BBaBc137b6"
+        }
+      },
+      {
         "name": "BalanceFusePendle",
         "versions": {
           "2025-04-04": "0xc8A552BF7279a932b9fCA8F527Ef292083c5B87f"
@@ -3016,6 +3058,12 @@
         "name": "BalanceFuseUniversalTokenSwapper",
         "versions": {
           "2024-10-29": "0x706ca1cA4EcE9CF23301D6AB35ce6fb7Cf25DA15"
+        }
+      },
+      {
+        "name": "BalanceFuseVeloraSwapper",
+        "versions": {
+          "2026-02-11": "0xE4a973828ee730A3fdb3a5D470263E54f97d9aDF"
         }
       },
       {
@@ -3695,9 +3743,21 @@
         }
       },
       {
+        "name": "BalanceFuseOdosSwapper",
+        "versions": {
+          "2026-02-11": "0x19445479eAd1869edF6482a285DF42e5B69Dd618"
+        }
+      },
+      {
         "name": "BalanceFuseUniversalTokenSwapper",
         "versions": {
           "2025-06-18": "0x6Fb90c6Cb82Ae0848f221bc06f022E3FD71226AE"
+        }
+      },
+      {
+        "name": "BalanceFuseVeloraSwapper",
+        "versions": {
+          "2026-02-11": "0x475c1b17a3e7f1f320E1796a7F1f8C8c3e000597"
         }
       },
       {
@@ -4094,6 +4154,12 @@
         }
       },
       {
+        "name": "BalanceFuseVeloraSwapper",
+        "versions": {
+          "2026-02-11": "0x91C37e3867d744997572620c03FC244E22738f11"
+        }
+      },
+      {
         "name": "BurnRequestFeeFuse",
         "versions": {
           "2025-07-15": "0x38FfDFc14D17aBC9f996f22cc105F6B48D7Ce2a2"
@@ -4356,6 +4422,12 @@
         "name": "BalanceFuseUniversalTokenSwapper",
         "versions": {
           "2025-09-26": "0xED6151F3A1435d84FfcC2eafa51E47392cdE7eB9"
+        }
+      },
+      {
+        "name": "BalanceFuseVeloraSwapper",
+        "versions": {
+          "2026-02-11": "0xb1789AC81c0EA9F1793517c730a3BC4D0608C8AF"
         }
       },
       {
@@ -4636,9 +4708,21 @@
         }
       },
       {
+        "name": "BalanceFuseOdosSwapper",
+        "versions": {
+          "2026-02-11": "0x7ee20e2a5b8f11E8E8139f0af5865a86700aC810"
+        }
+      },
+      {
         "name": "BalanceFuseUniversalTokenSwapper",
         "versions": {
           "2025-10-01": "0xd2b20152ca1EAfdE72161891053E17e9f68Ca583"
+        }
+      },
+      {
+        "name": "BalanceFuseVeloraSwapper",
+        "versions": {
+          "2026-02-11": "0x69852A30AAbD24A572DE491292ACe016D6370346"
         }
       },
       {
