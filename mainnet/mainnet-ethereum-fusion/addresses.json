@@ -49,6 +49,8 @@
   "CollateralTokenOnMorphoMarketPriceFeedFactoryProxy": "0x0Ed13EeC003EA0F51214C4a641a3D0a0718Bb5a7",
   "ConfigureInstantWithdrawalFuse": "0xd58F0EF796618F09f7fc6e63c25fae25CEB33799",
   "ControllerFuseEulerV2": "0x4bFEa07593844155c0BD5ee656cE54e864cA9B55",
+  "CurveStableswapNGSingleSideBalanceFuse": "0x2Db6eE136c0532e8E04e60A25e81A680cF184F6b",
+  "CurveStableswapNGSingleSideSupplyFuse": "0xfCB0b631e82f80aF729aADE3ca3A58374A18293A",
   "DAI": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
   "DualCrossReferencePriceFeedFactoryImpl": "0x78F46f2C4AAa83A4C26DC5Ac05d272F8F55A4357",
   "DualCrossReferencePriceFeedFactoryProxy": "0x8b94c156eBc20a3a385E898Bb7A7973d46d0b303",

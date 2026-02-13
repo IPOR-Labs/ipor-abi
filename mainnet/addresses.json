@@ -419,6 +419,18 @@
         "token": "YS",
         "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "PlasmaVault": "0x7D677637218e879e2f38B444C7801FfF21203152"
+      },
+      {
+        "name": "Testing",
+        "token": "test22",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0xE57BAF6Fd6A4F4A3e5039961769d00b71Cac3B4d"
+      },
+      {
+        "name": "Testing",
+        "token": "test22",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0x41DF8B7478102E0F338e393C8AC7A0D7DB2BFa37"
       }
     ],
     "fuses": [
@@ -768,6 +780,18 @@
         "versions": {
           "2024-11-26": "0x4DcA6Fd6f153EE18602ac77B4396070476ec6c25",
           "2025-07-01": "0x4bFEa07593844155c0BD5ee656cE54e864cA9B55"
+        }
+      },
+      {
+        "name": "CurveStableswapNGSingleSideBalanceFuse",
+        "versions": {
+          "2026-02-13": "0x2Db6eE136c0532e8E04e60A25e81A680cF184F6b"
+        }
+      },
+      {
+        "name": "CurveStableswapNGSingleSideSupplyFuse",
+        "versions": {
+          "2026-02-13": "0xfCB0b631e82f80aF729aADE3ca3A58374A18293A"
         }
       },
       {
@@ -3990,6 +4014,12 @@
         "token": "TFS",
         "asset": "0x078D782b760474a361dDA0AF3839290b0EF57AD6",
         "PlasmaVault": "0x382B71D34C3350bcfB5A75317B2960D4F9e1F62D"
+      },
+      {
+        "name": "Updating Timelocks ",
+        "token": "UTL",
+        "asset": "0x078D782b760474a361dDA0AF3839290b0EF57AD6",
+        "PlasmaVault": "0xB7ad54CC5b5E0A7D41884DD650F27DF3aB20d020"
       }
     ],
     "pools": []

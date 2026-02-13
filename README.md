@@ -6,7 +6,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Fuses List
 
-*Last updated: 2026-02-11 10:34:11 UTC*
+*Last updated: 2026-02-13 13:22:36 UTC*
 
 ### Ethereum Fuses
 
@@ -69,6 +69,8 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `CollateralFuseMorpho` | `0xE1aA89eb42C23f292cDa1544566F6EBeE3a67EED` [View](https://etherscan.io/address/0xE1aA89eb42C23f292cDa1544566F6EBeE3a67EED#code) |
 | `ConfigureInstantWithdrawalFuse` | `0xd58F0EF796618F09f7fc6e63c25fae25CEB33799` [View](https://etherscan.io/address/0xd58F0EF796618F09f7fc6e63c25fae25CEB33799#code) |
 | `ControllerFuseEulerV2` | `0x4bFEa07593844155c0BD5ee656cE54e864cA9B55` [View](https://etherscan.io/address/0x4bFEa07593844155c0BD5ee656cE54e864cA9B55#code) |
+| `CurveStableswapNGSingleSideBalanceFuse` | `0x2Db6eE136c0532e8E04e60A25e81A680cF184F6b` [View](https://etherscan.io/address/0x2Db6eE136c0532e8E04e60A25e81A680cF184F6b#code) |
+| `CurveStableswapNGSingleSideSupplyFuse` | `0xfCB0b631e82f80aF729aADE3ca3A58374A18293A` [View](https://etherscan.io/address/0xfCB0b631e82f80aF729aADE3ca3A58374A18293A#code) |
 | `EbisuAdjustInterestRateFuse` | `0xf82a5730AdcE3e30c41d057928E1edF4606C67f9` [View](https://etherscan.io/address/0xf82a5730AdcE3e30c41d057928E1edF4606C67f9#code) |
 | `EbisuAdjustTroveFuse` | `0xE30B07bb32181d1ffB76E1e1f88B6107A97CC9E8` [View](https://etherscan.io/address/0xE30B07bb32181d1ffB76E1e1f88B6107A97CC9E8#code) |
 | `EbisuZapperBalanceFuse` | `0xb3a7F15034d664fA295B472732BFfC6953eEFb33` [View](https://etherscan.io/address/0xb3a7F15034d664fA295B472732BFfC6953eEFb33#code) |
@@ -629,7 +631,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## PreHooks List
 
-*Last updated: 2026-02-11 10:34:12 UTC*
+*Last updated: 2026-02-13 13:22:37 UTC*
 
 ### Ethereum PreHooks
 
