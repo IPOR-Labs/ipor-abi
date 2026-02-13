@@ -278,7 +278,7 @@
       },
       {
         "name": "Fusion weETH looping Ethereum",
-        "token": "weETH",
+        "token": "fusnweETH",
         "asset": "0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee",
         "PlasmaVault": "0x087b40429637F5366175b1C9379613b01d00a860"
       },
@@ -419,6 +419,18 @@
         "token": "YS",
         "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "PlasmaVault": "0x7D677637218e879e2f38B444C7801FfF21203152"
+      },
+      {
+        "name": "Testing",
+        "token": "test22",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0xE57BAF6Fd6A4F4A3e5039961769d00b71Cac3B4d"
+      },
+      {
+        "name": "Testing",
+        "token": "test22",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0x41DF8B7478102E0F338e393C8AC7A0D7DB2BFa37"
       }
     ],
     "fuses": [
@@ -1483,7 +1495,7 @@
       },
       {
         "name": "IPOR wstETH Arbitrum",
-        "token": "wstETH",
+        "token": "ipwstETHfusion",
         "asset": "0x5979D7b546E38E414F7E9822514be443A4800529",
         "PlasmaVault": "0x7C655d660E2b09126B0AD6851F99d70d3715Fd9b"
       },
@@ -4002,6 +4014,12 @@
         "token": "TFS",
         "asset": "0x078D782b760474a361dDA0AF3839290b0EF57AD6",
         "PlasmaVault": "0x382B71D34C3350bcfB5A75317B2960D4F9e1F62D"
+      },
+      {
+        "name": "Updating Timelocks ",
+        "token": "UTL",
+        "asset": "0x078D782b760474a361dDA0AF3839290b0EF57AD6",
+        "PlasmaVault": "0xB7ad54CC5b5E0A7D41884DD650F27DF3aB20d020"
       }
     ],
     "pools": []
