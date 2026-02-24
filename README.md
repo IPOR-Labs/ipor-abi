@@ -6,7 +6,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Fuses List
 
-*Last updated: 2026-02-23 10:47:56 UTC*
+*Last updated: 2026-02-24 12:12:41 UTC*
 
 ### Ethereum Fuses
 
@@ -85,9 +85,9 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `FuseRequestSharesPlasmaVaultMarket1` | `0x7130383298822097531Cf5cc5e3414dda1e09542` [View](https://etherscan.io/address/0x7130383298822097531Cf5cc5e3414dda1e09542#code) |
 | `MaintenanceFuseUpdateWithdrawManager` | `0x74CA34C2C47d0865856A54060246AB736a0Bb0D0` [View](https://etherscan.io/address/0x74CA34C2C47d0865856A54060246AB736a0Bb0D0#code) |
 | `MerklClaimFuse` | `0x47AcA48086036D213F2A5faa6764a62777B4Bbcc` [View](https://etherscan.io/address/0x47AcA48086036D213F2A5faa6764a62777B4Bbcc#code) |
-| `MidasBalanceFuse` | `0x1bFB9E4B7D849c641E7Ff896849a4D446322e050` [View](https://etherscan.io/address/0x1bFB9E4B7D849c641E7Ff896849a4D446322e050#code) |
-| `MidasRequestSupplyFuse` | `0x1B66a7Dd521AE6ee23C280aF3277E54bDd209a3c` [View](https://etherscan.io/address/0x1B66a7Dd521AE6ee23C280aF3277E54bDd209a3c#code) |
-| `MidasSupplyFuse` | `0x99bc0136Ba3cC8D1a920E68eADff4fd899Bec386` [View](https://etherscan.io/address/0x99bc0136Ba3cC8D1a920E68eADff4fd899Bec386#code) |
+| `MidasBalanceFuse` | `0x8193caEA6E5aa7006aeB25D55Afc10615EC96eB2` [View](https://etherscan.io/address/0x8193caEA6E5aa7006aeB25D55Afc10615EC96eB2#code) |
+| `MidasRequestSupplyFuse` | `0x45209c7F307894FD19fb0560827107B7c4bdcab8` [View](https://etherscan.io/address/0x45209c7F307894FD19fb0560827107B7c4bdcab8#code) |
+| `MidasSupplyFuse` | `0x9AA21e5101279229a02326E411dAfcBd48ba6DB1` [View](https://etherscan.io/address/0x9AA21e5101279229a02326E411dAfcBd48ba6DB1#code) |
 | `OdosSwapperFuse` | `0xC13F3Fd20556A595990C35612E9e5c1C071Cb691` [View](https://etherscan.io/address/0xC13F3Fd20556A595990C35612E9e5c1C071Cb691#code) |
 | `RewardEulerTokenClaimFuse` | `0xAA2442F310D8D4a6d42160b1D2a22aCb1dd0866a` [View](https://etherscan.io/address/0xAA2442F310D8D4a6d42160b1D2a22aCb1dd0866a#code) |
 | `SiloV2BalanceFuse` | `0x086acA94AA413932C6ac5e09b863AC2Cbe17998f` [View](https://etherscan.io/address/0x086acA94AA413932C6ac5e09b863AC2Cbe17998f#code) |
@@ -153,6 +153,9 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `CollateralFuseEulerV2` | `0xF58d96142A6AbBeE5cB2f2eDe750Aa7429672618` [View](https://etherscan.io/address/0xF58d96142A6AbBeE5cB2f2eDe750Aa7429672618#code) |
 | `ControllerFuseEulerV2` | `0x4DcA6Fd6f153EE18602ac77B4396070476ec6c25` [View](https://etherscan.io/address/0x4DcA6Fd6f153EE18602ac77B4396070476ec6c25#code) |
 | `EbisuZapperCreateFuse` | `0x586a819AAd974F6EF49E2bD425a7526F3f2551F4` [View](https://etherscan.io/address/0x586a819AAd974F6EF49E2bD425a7526F3f2551F4#code) |
+| `MidasBalanceFuse` | `0x1bFB9E4B7D849c641E7Ff896849a4D446322e050` [View](https://etherscan.io/address/0x1bFB9E4B7D849c641E7Ff896849a4D446322e050#code) |
+| `MidasRequestSupplyFuse` | `0x1B66a7Dd521AE6ee23C280aF3277E54bDd209a3c` [View](https://etherscan.io/address/0x1B66a7Dd521AE6ee23C280aF3277E54bDd209a3c#code) |
+| `MidasSupplyFuse` | `0x99bc0136Ba3cC8D1a920E68eADff4fd899Bec386` [View](https://etherscan.io/address/0x99bc0136Ba3cC8D1a920E68eADff4fd899Bec386#code) |
 | `StEthWrapperFuse` | `0xab97e49fcB752f7713090814199b4458b4Ea1bAd` [View](https://etherscan.io/address/0xab97e49fcB752f7713090814199b4458b4Ea1bAd#code) |
 | `SupplyFuseAaveV3` | `0x465D639EB964158beE11f35E8fc23f704EC936a2` [View](https://etherscan.io/address/0x465D639EB964158beE11f35E8fc23f704EC936a2#code) |
 | `SupplyFuseAaveV3Lido` | `0x09791C53218010eE59464386F6a3B9D656490d60` [View](https://etherscan.io/address/0x09791C53218010eE59464386F6a3B9D656490d60#code) |
@@ -635,7 +638,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## PreHooks List
 
-*Last updated: 2026-02-23 10:47:58 UTC*
+*Last updated: 2026-02-24 12:12:43 UTC*
 
 ### Ethereum PreHooks
 

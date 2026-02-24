@@ -924,19 +924,22 @@
       {
         "name": "MidasBalanceFuse",
         "versions": {
-          "2026-02-23": "0x1bFB9E4B7D849c641E7Ff896849a4D446322e050"
+          "2026-02-23": "0x1bFB9E4B7D849c641E7Ff896849a4D446322e050",
+          "2026-02-24": "0x8193caEA6E5aa7006aeB25D55Afc10615EC96eB2"
         }
       },
       {
         "name": "MidasRequestSupplyFuse",
         "versions": {
-          "2026-02-23": "0x1B66a7Dd521AE6ee23C280aF3277E54bDd209a3c"
+          "2026-02-23": "0x1B66a7Dd521AE6ee23C280aF3277E54bDd209a3c",
+          "2026-02-24": "0x45209c7F307894FD19fb0560827107B7c4bdcab8"
         }
       },
       {
         "name": "MidasSupplyFuse",
         "versions": {
-          "2026-02-23": "0x99bc0136Ba3cC8D1a920E68eADff4fd899Bec386"
+          "2026-02-23": "0x99bc0136Ba3cC8D1a920E68eADff4fd899Bec386",
+          "2026-02-24": "0x9AA21e5101279229a02326E411dAfcBd48ba6DB1"
         }
       },
       {
@@ -3031,6 +3034,12 @@
         "token": "VLT-30",
         "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
         "PlasmaVault": "0x83FccD2EcF7EDB57e78Bb215925B11bEc31E80b5"
+      },
+      {
+        "name": "Test Vault",
+        "token": "TV",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0xe89027081d9fF7bf0265187e8b5e7F2ed560Ff72"
       }
     ],
     "fuses": [
