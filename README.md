@@ -6,7 +6,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Fuses List
 
-*Last updated: 2026-02-02 09:06:58 UTC*
+*Last updated: 2026-02-07 08:50:03 UTC*
 
 ### Ethereum Fuses
 
@@ -525,9 +525,51 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 |-----------|---------------------------|
 | `SupplyFuseEulerV2` | `0xdD02ad9A1d40FE1BA14812729db1272EF42A497F` [View](https://snowscan.xyz/address/0xdD02ad9A1d40FE1BA14812729db1272EF42A497F#code) |
 
+### Katana Fuses
+
+| Fuse Name | Address / View in Explorer |
+|-----------|---------------------------|
+| `AsyncActionBalanceFuse` | `0x09737BFc32E3ab5Bc82494FdE6d7e1A2BFBcA218` [View](https://katanascan.com/address/0x09737BFc32E3ab5Bc82494FdE6d7e1A2BFBcA218#code) |
+| `AsyncActionFuse` | `0x3Bd7f4A088Bb444f20ad599874a7C8Cf81a8f567` [View](https://katanascan.com/address/0x3Bd7f4A088Bb444f20ad599874a7C8Cf81a8f567#code) |
+| `BalanceFuseBurnRequestFee` | `0xE3E28F04499470bAc1dAc842aEe424a185d14D42` [View](https://katanascan.com/address/0xE3E28F04499470bAc1dAc842aEe424a185d14D42#code) |
+| `BalanceFuseErc20` | `0xb81C00eb71a3D629E6f7Ba66a26218c418D438b8` [View](https://katanascan.com/address/0xb81C00eb71a3D629E6f7Ba66a26218c418D438b8#code) |
+| `BalanceFuseErc4626Market1` | `0x5F8696C110Ccb3686c8B209Fc61dcf40daf88167` [View](https://katanascan.com/address/0x5F8696C110Ccb3686c8B209Fc61dcf40daf88167#code) |
+| `BalanceFuseErc4626Market2` | `0xDF45A0fD4200dE190A45FABCd7F7cD6150b4a0a5` [View](https://katanascan.com/address/0xDF45A0fD4200dE190A45FABCd7F7cD6150b4a0a5#code) |
+| `BalanceFuseErc4626Market3` | `0xBf01D7770829ce4834b308633Cc412E0A12434F5` [View](https://katanascan.com/address/0xBf01D7770829ce4834b308633Cc412E0A12434F5#code) |
+| `BalanceFuseErc4626Market4` | `0xf57dbdFa3064b87BC1D099432a2b39272b4d2Db2` [View](https://katanascan.com/address/0xf57dbdFa3064b87BC1D099432a2b39272b4d2Db2#code) |
+| `BalanceFuseErc4626Market5` | `0x1660786a08b9cB0D50Cbb118a5A89A36D2E801d3` [View](https://katanascan.com/address/0x1660786a08b9cB0D50Cbb118a5A89A36D2E801d3#code) |
+| `BalanceFuseFlashLoanMorpho` | `0xAEc739ECA23f98f9Ee561F218D0eCC5cCb4fd43C` [View](https://katanascan.com/address/0xAEc739ECA23f98f9Ee561F218D0eCC5cCb4fd43C#code) |
+| `BalanceFuseMetaMorphoMarket0001` | `0xbE7Ee21e34B7175D797A3E9F33832E1439926f71` [View](https://katanascan.com/address/0xbE7Ee21e34B7175D797A3E9F33832E1439926f71#code) |
+| `BalanceFuseMorpho` | `0x83790D83C23461cd22429276406C4f09DB885A85` [View](https://katanascan.com/address/0x83790D83C23461cd22429276406C4f09DB885A85#code) |
+| `BalanceFuseMorphoLiquidityInMarkets` | `0x70Ed27aEE2dD509bC6BB067d8e2C61A1FE96eCa4` [View](https://katanascan.com/address/0x70Ed27aEE2dD509bC6BB067d8e2C61A1FE96eCa4#code) |
+| `BalanceFuseUniversalTokenSwapper` | `0x96393AcF49769a8C2318635fd27ab69F9c92bD1c` [View](https://katanascan.com/address/0x96393AcF49769a8C2318635fd27ab69F9c92bD1c#code) |
+| `BorrowFuseMorpho` | `0x08095Aef82A5B33b5B478d254052618A5366cd78` [View](https://katanascan.com/address/0x08095Aef82A5B33b5B478d254052618A5366cd78#code) |
+| `BurnRequestFeeFuse` | `0x44D368e85f419C59aC01b7270D234d8BF19Df36e` [View](https://katanascan.com/address/0x44D368e85f419C59aC01b7270D234d8BF19Df36e#code) |
+| `ClaimRewardsFuseMorpho` | `0x368C4D59d7432603A86999e4f77c43E7666813BE` [View](https://katanascan.com/address/0x368C4D59d7432603A86999e4f77c43E7666813BE#code) |
+| `CollateralFuseMorpho` | `0xda9a20690a185DAA3b0fD198C6232234835B6929` [View](https://katanascan.com/address/0xda9a20690a185DAA3b0fD198C6232234835B6929#code) |
+| `ConfigureInstantWithdrawalFuse` | `0x53803356a73a4625724B533d169957a08CFE8ff7` [View](https://katanascan.com/address/0x53803356a73a4625724B533d169957a08CFE8ff7#code) |
+| `FlashloanFuseMorpho` | `0x4D9d1015F7a862D1b7690FFC0B16f3A4518a479e` [View](https://katanascan.com/address/0x4D9d1015F7a862D1b7690FFC0B16f3A4518a479e#code) |
+| `FuseRedeemFromRequestPlasmaVaultMarket1` | `0x818917B635d0ba67bAF64939ed70947306f2f042` [View](https://katanascan.com/address/0x818917B635d0ba67bAF64939ed70947306f2f042#code) |
+| `FuseRequestSharesPlasmaVaultMarket1` | `0x047806ae79e7C89a18e0F4AD98f8EDaCA27cd180` [View](https://katanascan.com/address/0x047806ae79e7C89a18e0F4AD98f8EDaCA27cd180#code) |
+| `MerklClaimFuse` | `0xF4278e62a6B5A45E378e6692C7Aa9C7291E7ce36` [View](https://katanascan.com/address/0xF4278e62a6B5A45E378e6692C7Aa9C7291E7ce36#code) |
+| `PlasmaVaultBalanceAssetsValidationFuse` | `0xA4C9BE8f5DC9024351c0F7F48D27344Cf37bb59f` [View](https://katanascan.com/address/0xA4C9BE8f5DC9024351c0F7F48D27344Cf37bb59f#code) |
+| `SupplyFuseErc4626Market1` | `0x20c21024716F43a0A51d71a2bD7F9f335E36Bd25` [View](https://katanascan.com/address/0x20c21024716F43a0A51d71a2bD7F9f335E36Bd25#code) |
+| `SupplyFuseErc4626Market2` | `0xD05a7431546b1Bc16d9cC0974c382B093B96f5a0` [View](https://katanascan.com/address/0xD05a7431546b1Bc16d9cC0974c382B093B96f5a0#code) |
+| `SupplyFuseErc4626Market3` | `0x31D2e3194f7CE240fD8809f9Ef804c7Ba972Dea6` [View](https://katanascan.com/address/0x31D2e3194f7CE240fD8809f9Ef804c7Ba972Dea6#code) |
+| `SupplyFuseErc4626Market4` | `0x046F996a7015CEfCB19d309Cc1bc41D492CEC38F` [View](https://katanascan.com/address/0x046F996a7015CEfCB19d309Cc1bc41D492CEC38F#code) |
+| `SupplyFuseErc4626Market5` | `0xe758510dc75171aFD74E3381dbC371A5A22702a9` [View](https://katanascan.com/address/0xe758510dc75171aFD74E3381dbC371A5A22702a9#code) |
+| `SupplyFuseMetaMorphoMarket0001` | `0x15ae2B6E0e7591b29Cb701b9cfCd40Dd02b5569A` [View](https://katanascan.com/address/0x15ae2B6E0e7591b29Cb701b9cfCd40Dd02b5569A#code) |
+| `SupplyFuseMorpho` | `0xC66c3F5cC5e1550A0Ff960c06D630A2FBB80E19d` [View](https://katanascan.com/address/0xC66c3F5cC5e1550A0Ff960c06D630A2FBB80E19d#code) |
+| `SupplyFuseMorphoLiquidityInMarkets` | `0x1f657229ec2D261be7dCD63ca82abed334d1f28b` [View](https://katanascan.com/address/0x1f657229ec2D261be7dCD63ca82abed334d1f28b#code) |
+| `SwapFuseUniversalTokenSwapperWithVerification` | `0xCB2a3868aE6271Bef43E785303e1c1A3fe3A6336` [View](https://katanascan.com/address/0xCB2a3868aE6271Bef43E785303e1c1A3fe3A6336#code) |
+| `UniversalReaderBalanceFuses` | `0xaBa54310aF826DFE3153f78dB2eaa27eC2Be6758` [View](https://katanascan.com/address/0xaBa54310aF826DFE3153f78dB2eaa27eC2Be6758#code) |
+| `UniversalTokenSwapperEthFuse` | `0xCC434EDD069E9f638765b21228C65d245B38E30A` [View](https://katanascan.com/address/0xCC434EDD069E9f638765b21228C65d245B38E30A#code) |
+| `UniversalTokenSwapperFuse` | `0x431b0520a01B5ECd516b99F8080aCb79FC7DA143` [View](https://katanascan.com/address/0x431b0520a01B5ECd516b99F8080aCb79FC7DA143#code) |
+| `UpdateMarketsBalancesFuse` | `0x5b97E7937755939Dba2fdc053068178DBF350c7b` [View](https://katanascan.com/address/0x5b97E7937755939Dba2fdc053068178DBF350c7b#code) |
+
 ## PreHooks List
 
-*Last updated: 2026-02-02 09:07:01 UTC*
+*Last updated: 2026-02-07 08:50:08 UTC*
 
 ### Ethereum PreHooks
 
@@ -593,6 +635,14 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `ExchangeRateValidatorPreHook` | `0x21e309535084Effe9C985199660C374c59df2F5b` [View](https://snowscan.xyz/address/0x21e309535084Effe9C985199660C374c59df2F5b#code) |
 | `PreHookPauseFunction` | `0x9f07A105cCbc9E65Aa0eA064E8cF765E5967B5dc` [View](https://snowscan.xyz/address/0x9f07A105cCbc9E65Aa0eA064E8cF765E5967B5dc#code) |
 | `PreHookUpdateBalancesIgnoreDust` | `0x8f2E9d878D68b9E174E3EA53E5151602F1e702A4` [View](https://snowscan.xyz/address/0x8f2E9d878D68b9E174E3EA53E5151602F1e702A4#code) |
+
+### Katana PreHooks
+
+| PreHook Name | Address / View in Explorer |
+|-----------|---------------------------|
+| `ExchangeRateValidatorPreHook` | `0xC8f1D01CfaF2Fb95be8d65Eba40e2F7914AF45bc` [View](https://katanascan.com/address/0xC8f1D01CfaF2Fb95be8d65Eba40e2F7914AF45bc#code) |
+| `PreHookPauseFunction` | `0x4fACfaEdb6632848150f7D057AdAcB63f08de9E6` [View](https://katanascan.com/address/0x4fACfaEdb6632848150f7D057AdAcB63f08de9E6#code) |
+| `PreHookUpdateBalancesIgnoreDust` | `0x647ad8Cc72D3Ad8b0A2AA1D11b64e0B00eA91DCa` [View](https://katanascan.com/address/0x647ad8Cc72D3Ad8b0A2AA1D11b64e0B00eA91DCa#code) |
 
 ## Price Oracles List
 
