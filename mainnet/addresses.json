@@ -431,6 +431,48 @@
         "token": "test22",
         "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "PlasmaVault": "0x41DF8B7478102E0F338e393C8AC7A0D7DB2BFa37"
+      },
+      {
+        "name": "ethwbtc",
+        "token": "testbtc",
+        "asset": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+        "PlasmaVault": "0x43C6DeD9993e0D3f5601C35A31418B3C84daea4f"
+      },
+      {
+        "name": "",
+        "token": "",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0x497097BeB9f4b20E09d0c7F7D6Acfea3BCDa4394"
+      },
+      {
+        "name": "stable genius",
+        "token": "sG",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0x56b1c5aB27905F8eB894F02ee99Aa17AA1300E7C"
+      },
+      {
+        "name": "stable genius",
+        "token": "sG",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0x8f5855D30610b176c972F844B93A28c6D1553416"
+      },
+      {
+        "name": "TestVault42",
+        "token": "stv42",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0xE002Ea659d522F37DeE615466E2869D51883428b"
+      },
+      {
+        "name": "Aave Ethena Loop",
+        "token": "$AAVETHENA",
+        "asset": "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
+        "PlasmaVault": "0x646C19B582A85AdD5Cf334772425292E1D49322A"
+      },
+      {
+        "name": "Bizantine USDC Prime",
+        "token": "BizUSDC",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0xa1c0E2ce1556ad604A7F5E10feAF49c16860d65B"
       }
     ],
     "fuses": [
@@ -826,6 +868,12 @@
         }
       },
       {
+        "name": "EulerV2BatchFuse",
+        "versions": {
+          "2026-02-23": "0x45F3bf4F5318D9683357fA8f9f4442263F7DdA6F"
+        }
+      },
+      {
         "name": "FlashloanFuseMorpho",
         "versions": {
           "2025-01-16": "0x9185033e24dB36407b9b1A1886Cb47B9533433DE"
@@ -871,6 +919,24 @@
         "name": "MerklClaimFuse",
         "versions": {
           "2025-10-30": "0x47AcA48086036D213F2A5faa6764a62777B4Bbcc"
+        }
+      },
+      {
+        "name": "MidasBalanceFuse",
+        "versions": {
+          "2026-02-23": "0x1bFB9E4B7D849c641E7Ff896849a4D446322e050"
+        }
+      },
+      {
+        "name": "MidasRequestSupplyFuse",
+        "versions": {
+          "2026-02-23": "0x1B66a7Dd521AE6ee23C280aF3277E54bDd209a3c"
+        }
+      },
+      {
+        "name": "MidasSupplyFuse",
+        "versions": {
+          "2026-02-23": "0x99bc0136Ba3cC8D1a920E68eADff4fd899Bec386"
         }
       },
       {
@@ -2857,6 +2923,114 @@
         "token": "\ud83d\ude80",
         "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
         "PlasmaVault": "0x2f383a4B0A025ccc477a767Dfb7f71cce1240c26"
+      },
+      {
+        "name": "Yield Max Vault",
+        "token": "YMAX",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x279637D7671678d51772f2db96376EC70F9092D7"
+      },
+      {
+        "name": "Events service test",
+        "token": "est",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x590C44A89A2655E8427fd25b68fC871Ec2d30E5e"
+      },
+      {
+        "name": "Events service test 2",
+        "token": "ATV",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x55d68adA2757522654719fd00cD7716901724162"
+      },
+      {
+        "name": "USDC wizard test 1 ",
+        "token": "wizrd1",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0xAD9F9441F936b6190c7eAECd1034e2f923a9aA5e"
+      },
+      {
+        "name": "Test Vault 1337",
+        "token": "test1337",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x7A7B76E28D3933D30c887ae6823097ac0bfb57Bf"
+      },
+      {
+        "name": "B-Vault",
+        "token": "BVLT",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0xA3B02B006BA38e3B0C8Be2b93e7C7A0214745883"
+      },
+      {
+        "name": "Test Credit Optimizer",
+        "token": "TCO",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x5FBa75b5092C9E5f8B1F26809F53676eA258e93F"
+      },
+      {
+        "name": "Vault",
+        "token": "VLT",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x6BF4cd302F078E374550c1b7eaD40BedDf8278c5"
+      },
+      {
+        "name": "Vault 2",
+        "token": "VLT2",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x4cf996541740B0297554D12a4068f2674Db9f0b9"
+      },
+      {
+        "name": "Test Vault Alpha",
+        "token": "TVA",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x967DBd51C0A28D4F28836988A93778c5f4212Eaa"
+      },
+      {
+        "name": "Test Alpha Vault",
+        "token": "TAV",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x5664889bB19BC94F329274682014370de335E22b"
+      },
+      {
+        "name": "Vault 6",
+        "token": "VLT6",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x9826ebd1b62c58F9d269550776e9F9f400124d41"
+      },
+      {
+        "name": "Yield Vault",
+        "token": "YVLT",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0xB40B299f982f79dE9542c01BE44D468b18519696"
+      },
+      {
+        "name": "Vault Max",
+        "token": "VLTMX",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x0F186E59adAAa0294A083Baf250628397151dd88"
+      },
+      {
+        "name": "E-Vault ",
+        "token": "EVLT",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0xd026a06D63373dEfCCad0FE0F61a72d437473732"
+      },
+      {
+        "name": "Vault 100",
+        "token": "VLT100",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0xA566F889d51754e8Af6a987Fd3047Dd74F20DE2c"
+      },
+      {
+        "name": "Test Vault",
+        "token": "TV",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x15f83Cc93Ab4c89b17311eaFced4cdc96A7a1758"
+      },
+      {
+        "name": "30 Vault",
+        "token": "VLT-30",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x83FccD2EcF7EDB57e78Bb215925B11bEc31E80b5"
       }
     ],
     "fuses": [
@@ -5237,6 +5411,14 @@
         "versions": {
           "2026-02-06": "0x647ad8Cc72D3Ad8b0A2AA1D11b64e0B00eA91DCa"
         }
+      }
+    ],
+    "vaults": [
+      {
+        "name": "Maciek Katana",
+        "token": "MK",
+        "asset": "0x203A662b0BD271A6ed5a60EdFbd04bFce608FD36",
+        "PlasmaVault": "0x4dE1A7B0355434f0F6435F8dc96E8Af0959aBE44"
       }
     ]
   }
