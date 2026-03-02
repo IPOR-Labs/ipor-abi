@@ -473,6 +473,12 @@
         "token": "BizUSDC",
         "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "PlasmaVault": "0xa1c0E2ce1556ad604A7F5E10feAF49c16860d65B"
+      },
+      {
+        "name": "Wizard Test USDC 1",
+        "token": "WTUSDC1",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0x43FbE6aCd18820DE8f109169C409D3fBCE1962a1"
       }
     ],
     "fuses": [
