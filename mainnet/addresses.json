@@ -473,6 +473,48 @@
         "token": "BizUSDC",
         "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "PlasmaVault": "0xa1c0E2ce1556ad604A7F5E10feAF49c16860d65B"
+      },
+      {
+        "name": "Wizard Test USDC 1",
+        "token": "WTUSDC1",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0x43FbE6aCd18820DE8f109169C409D3fBCE1962a1"
+      },
+      {
+        "name": "Hyperithm mHYPER Looping",
+        "token": "ipormHYPER",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0xa226F6a764a80219a8B86A119CCCa2c56ac6Ee5E"
+      },
+      {
+        "name": "Hyperithm mHYPER Looping",
+        "token": "ipormHYPER",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0xF4380baeb22188782eDF27Aa4100314586dee391"
+      },
+      {
+        "name": "Hyperithm mHYPER Looping",
+        "token": "ipormHYPER",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0x0b45A1E71A8A09F5D382feD27202D50ed983AaF3"
+      },
+      {
+        "name": "AavEthena Loop Plasma",
+        "token": "$AAVETHENAP",
+        "asset": "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
+        "PlasmaVault": "0xED4452a2f9013335305462a3a7d1453851aC6Af2"
+      },
+      {
+        "name": "AavEthena Loop Mainnet",
+        "token": "$AAVETHENA",
+        "asset": "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
+        "PlasmaVault": "0x604117F0C94561231060F56cD2dDD16245D434c5"
+      },
+      {
+        "name": "Magnus Lending Plasma",
+        "token": "$MAGLO",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0xAd685FeC2066d7f5436f5804882998ba79725706"
       }
     ],
     "fuses": [
@@ -3040,6 +3082,24 @@
         "token": "TV",
         "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
         "PlasmaVault": "0xe89027081d9fF7bf0265187e8b5e7F2ed560Ff72"
+      },
+      {
+        "name": "pixelmon",
+        "token": "pxl",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x7778b94f55cc332a331d93dC0AeA24cC646cb708"
+      },
+      {
+        "name": "CargoCore",
+        "token": "cargocore",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x918B70752083cCCC778D1C03262758A8b39A1372"
+      },
+      {
+        "name": "Test Vault",
+        "token": "TV",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0xcAe8752364B21dFa63A78dCCB53667835D4712C5"
       }
     ],
     "fuses": [
@@ -5428,6 +5488,12 @@
         "token": "MK",
         "asset": "0x203A662b0BD271A6ed5a60EdFbd04bFce608FD36",
         "PlasmaVault": "0x4dE1A7B0355434f0F6435F8dc96E8Af0959aBE44"
+      },
+      {
+        "name": "TEST KATANA 1",
+        "token": "TK1",
+        "asset": "0x203A662b0BD271A6ed5a60EdFbd04bFce608FD36",
+        "PlasmaVault": "0x3e2e0AE37B2d570b9998D33C3e4f197234656d8f"
       }
     ]
   }

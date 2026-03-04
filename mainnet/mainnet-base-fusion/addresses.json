@@ -128,6 +128,8 @@
   "PriceOracleMiddlewareUsdProxy": "0x41883F367ab187B1C676A4A4767758916A6a01Fa",
   "PriceOracleMiddlewareUsdWithRolesImpl": "0xCf1e01e973A04c37c6dA37aD6d5D824a51f6D878",
   "PriceOracleMiddlewareUsdWithRolesProxy": "0xD9b73Af0b29Cbaf88F01384EA1fB5ADcb608bed0",
+  "PriceOracleMiddlewareWithRolesForIporWstETHImpl": "0x2Bc5bcb96D2D10a5FF1f75fFe44ccBE26d6662d3",
+  "PriceOracleMiddlewareWithRolesForIporWstETHProxy": "0x0B2Eb332c5B38F13f0c2D0b1039E0302F985Be09",
   "PtPriceFeedFactoryImpl": "0x2505763d644c7Fa61275AE64b3c14029B1b0120C",
   "PtPriceFeedFactoryProxy": "0xac0655f0c6b092513bE56a890110Dc19858e4EdC",
   "RebalancingFacadeOwner": "0xBF07d38747047EE7F557135b3cAbB54B1b899dFc",
