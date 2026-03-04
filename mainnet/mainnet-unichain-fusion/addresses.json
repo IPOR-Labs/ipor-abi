@@ -39,6 +39,8 @@
   "IporFusionFactoryImpl": "0xf5Bc40C192D51ED93ADD6557884766772FA72589",
   "IporFusionFactoryProxy": "0xC9b4E839e86284C558791C13Bda97999fc49aF63",
   "IporFusionFeeManagerFactory": "0x2645586DD3bF44115bf367f42F6486F1BC1094da",
+  "IporFusionFuseWhitelistImpl": "0xEFA59010DB5A04BC6C8F63557382bbE0c5284970",
+  "IporFusionFuseWhitelistProxy": "0xc08A253592E950DaB1Cb5992758EcAa8D2322f59",
   "IporFusionPlasmaVaultCoreBase": "0x8a72C24A04849F1Aa70A9C3A0862073d03a2b68b",
   "IporFusionPlasmaVaultFactory": "0x90d5E3d5d40FeA4d6eDd85358e7aaeaBB162500a",
   "IporFusionPriceFeedWeEth": "0x06F05AeaADaB7127f61DC39F53789b80CdEE88c3",
