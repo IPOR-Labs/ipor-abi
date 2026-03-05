@@ -988,6 +988,54 @@
         }
       },
       {
+        "name": "NapierCollectFuse",
+        "versions": {
+          "2026-03-04": "0x957BEAc5216D4556821B2D441C1e70f73B8A8Dba"
+        }
+      },
+      {
+        "name": "NapierCombineFuse",
+        "versions": {
+          "2026-03-04": "0x1e17d11750E11B4a179b56595167a3e7b46C2154"
+        }
+      },
+      {
+        "name": "NapierDepositFuse",
+        "versions": {
+          "2026-03-04": "0x601A3566998dEb19025aC55C440828Dd0064e8dA"
+        }
+      },
+      {
+        "name": "NapierRedeemFuse",
+        "versions": {
+          "2026-03-04": "0xcea2E1e1cf7a1A518c877986bAE93A7E7a7bf94e"
+        }
+      },
+      {
+        "name": "NapierSupplyFuse",
+        "versions": {
+          "2026-03-04": "0x5BebfB72D40df444603c041c0179B6d921882F1A"
+        }
+      },
+      {
+        "name": "NapierSwapPtFuse",
+        "versions": {
+          "2026-03-04": "0xBa6A8B1DB7f1dCb93A101d2CfF78C7a37a9059c6"
+        }
+      },
+      {
+        "name": "NapierSwapYtFuse",
+        "versions": {
+          "2026-03-04": "0x0Cd25aCbCE15bAC7bb2B129B69B452A70692F8C4"
+        }
+      },
+      {
+        "name": "NapierZapDepositFuse",
+        "versions": {
+          "2026-03-04": "0xE067Eb9E64470b5707B305C4925671DFA50e7C67"
+        }
+      },
+      {
         "name": "OdosSwapperFuse",
         "versions": {
           "2026-01-29": "0xC13F3Fd20556A595990C35612E9e5c1C071Cb691"
@@ -2083,6 +2131,54 @@
         }
       },
       {
+        "name": "NapierCollectFuse",
+        "versions": {
+          "2026-03-04": "0x7c5d3B9d2d76e7933aef648542CA1d9F021eE249"
+        }
+      },
+      {
+        "name": "NapierCombineFuse",
+        "versions": {
+          "2026-03-04": "0xFa6E658931353Cb94965b5DbC3919ed9753e4110"
+        }
+      },
+      {
+        "name": "NapierDepositFuse",
+        "versions": {
+          "2026-03-04": "0xCFf0E95d1B71c642739ECAAdaD25Bc428b979bd3"
+        }
+      },
+      {
+        "name": "NapierRedeemFuse",
+        "versions": {
+          "2026-03-04": "0x24d6A0d8D428Bbb71423defD3860E9B65CAE663E"
+        }
+      },
+      {
+        "name": "NapierSupplyFuse",
+        "versions": {
+          "2026-03-04": "0xD562034Efd1e29094cc370DAeaee5e76788Bd16f"
+        }
+      },
+      {
+        "name": "NapierSwapPtFuse",
+        "versions": {
+          "2026-03-04": "0x803c427ecEc9FDd5fe344d8e13fed0e890258172"
+        }
+      },
+      {
+        "name": "NapierSwapYtFuse",
+        "versions": {
+          "2026-03-04": "0x96493C8458552681bDAbe3414199b21Fb3e4E084"
+        }
+      },
+      {
+        "name": "NapierZapDepositFuse",
+        "versions": {
+          "2026-03-04": "0xb3B0E2Bc08e81B1745E2a8b9F529b272C29922Ef"
+        }
+      },
+      {
         "name": "NewPositionSwapFuseRamsesV2",
         "versions": {
           "2024-10-08": "0xb025CC5e73e2966e12e4d859360B51c1D0F45EA3"
@@ -3109,6 +3205,12 @@
         "token": "USDCWIZ",
         "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
         "PlasmaVault": "0x3EDB7aE6599A4490CEA15D38b50d98E479F82dBD"
+      },
+      {
+        "name": "Vualt 456",
+        "token": "VLT",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0xA1572EC30fAe1BADd504Ae44f2E85A09e5BD57A5"
       }
     ],
     "fuses": [

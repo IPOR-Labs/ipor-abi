@@ -6,7 +6,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Fuses List
 
-*Last updated: 2026-03-04 05:33:04 UTC*
+*Last updated: 2026-03-04 12:47:12 UTC*
 
 ### Ethereum Fuses
 
@@ -88,6 +88,14 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `MidasBalanceFuse` | `0x177A82A592Ac7A6E5a68a6e1b9Df42ea52608A5E` [View](https://etherscan.io/address/0x177A82A592Ac7A6E5a68a6e1b9Df42ea52608A5E#code) |
 | `MidasRequestSupplyFuse` | `0x3214edf0E033c134497e83325f3DFa011FbE22A6` [View](https://etherscan.io/address/0x3214edf0E033c134497e83325f3DFa011FbE22A6#code) |
 | `MidasSupplyFuse` | `0x27Cc565483238DA3884D6031374E5feE3D6F571b` [View](https://etherscan.io/address/0x27Cc565483238DA3884D6031374E5feE3D6F571b#code) |
+| `NapierCollectFuse` | `0x957BEAc5216D4556821B2D441C1e70f73B8A8Dba` [View](https://etherscan.io/address/0x957BEAc5216D4556821B2D441C1e70f73B8A8Dba#code) |
+| `NapierCombineFuse` | `0x1e17d11750E11B4a179b56595167a3e7b46C2154` [View](https://etherscan.io/address/0x1e17d11750E11B4a179b56595167a3e7b46C2154#code) |
+| `NapierDepositFuse` | `0x601A3566998dEb19025aC55C440828Dd0064e8dA` [View](https://etherscan.io/address/0x601A3566998dEb19025aC55C440828Dd0064e8dA#code) |
+| `NapierRedeemFuse` | `0xcea2E1e1cf7a1A518c877986bAE93A7E7a7bf94e` [View](https://etherscan.io/address/0xcea2E1e1cf7a1A518c877986bAE93A7E7a7bf94e#code) |
+| `NapierSupplyFuse` | `0x5BebfB72D40df444603c041c0179B6d921882F1A` [View](https://etherscan.io/address/0x5BebfB72D40df444603c041c0179B6d921882F1A#code) |
+| `NapierSwapPtFuse` | `0xBa6A8B1DB7f1dCb93A101d2CfF78C7a37a9059c6` [View](https://etherscan.io/address/0xBa6A8B1DB7f1dCb93A101d2CfF78C7a37a9059c6#code) |
+| `NapierSwapYtFuse` | `0x0Cd25aCbCE15bAC7bb2B129B69B452A70692F8C4` [View](https://etherscan.io/address/0x0Cd25aCbCE15bAC7bb2B129B69B452A70692F8C4#code) |
+| `NapierZapDepositFuse` | `0xE067Eb9E64470b5707B305C4925671DFA50e7C67` [View](https://etherscan.io/address/0xE067Eb9E64470b5707B305C4925671DFA50e7C67#code) |
 | `OdosSwapperFuse` | `0xC13F3Fd20556A595990C35612E9e5c1C071Cb691` [View](https://etherscan.io/address/0xC13F3Fd20556A595990C35612E9e5c1C071Cb691#code) |
 | `RewardEulerTokenClaimFuse` | `0xAA2442F310D8D4a6d42160b1D2a22aCb1dd0866a` [View](https://etherscan.io/address/0xAA2442F310D8D4a6d42160b1D2a22aCb1dd0866a#code) |
 | `SiloV2BalanceFuse` | `0x086acA94AA413932C6ac5e09b863AC2Cbe17998f` [View](https://etherscan.io/address/0x086acA94AA413932C6ac5e09b863AC2Cbe17998f#code) |
@@ -222,6 +230,14 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `MerklClaimFuse` | `0x7db8a7A58fA64ABEfe85D90317C5F9EeeE8b7591` [View](https://arbiscan.io/address/0x7db8a7A58fA64ABEfe85D90317C5F9EeeE8b7591#code) |
 | `ModifyPositionSwapFuseRamsesV2` | `0xD41501B46a68DeA06a460fD79a7bCda9e3b92674` [View](https://arbiscan.io/address/0xD41501B46a68DeA06a460fD79a7bCda9e3b92674#code) |
 | `ModifyPositionSwapFuseUniswapV3` | `0xba503b6f2b95A4A47ee9884bbBcd80cAce2D2EB3` [View](https://arbiscan.io/address/0xba503b6f2b95A4A47ee9884bbBcd80cAce2D2EB3#code) |
+| `NapierCollectFuse` | `0x7c5d3B9d2d76e7933aef648542CA1d9F021eE249` [View](https://arbiscan.io/address/0x7c5d3B9d2d76e7933aef648542CA1d9F021eE249#code) |
+| `NapierCombineFuse` | `0xFa6E658931353Cb94965b5DbC3919ed9753e4110` [View](https://arbiscan.io/address/0xFa6E658931353Cb94965b5DbC3919ed9753e4110#code) |
+| `NapierDepositFuse` | `0xCFf0E95d1B71c642739ECAAdaD25Bc428b979bd3` [View](https://arbiscan.io/address/0xCFf0E95d1B71c642739ECAAdaD25Bc428b979bd3#code) |
+| `NapierRedeemFuse` | `0x24d6A0d8D428Bbb71423defD3860E9B65CAE663E` [View](https://arbiscan.io/address/0x24d6A0d8D428Bbb71423defD3860E9B65CAE663E#code) |
+| `NapierSupplyFuse` | `0xD562034Efd1e29094cc370DAeaee5e76788Bd16f` [View](https://arbiscan.io/address/0xD562034Efd1e29094cc370DAeaee5e76788Bd16f#code) |
+| `NapierSwapPtFuse` | `0x803c427ecEc9FDd5fe344d8e13fed0e890258172` [View](https://arbiscan.io/address/0x803c427ecEc9FDd5fe344d8e13fed0e890258172#code) |
+| `NapierSwapYtFuse` | `0x96493C8458552681bDAbe3414199b21Fb3e4E084` [View](https://arbiscan.io/address/0x96493C8458552681bDAbe3414199b21Fb3e4E084#code) |
+| `NapierZapDepositFuse` | `0xb3B0E2Bc08e81B1745E2a8b9F529b272C29922Ef` [View](https://arbiscan.io/address/0xb3B0E2Bc08e81B1745E2a8b9F529b272C29922Ef#code) |
 | `NewPositionSwapFuseRamsesV2` | `0xb025CC5e73e2966e12e4d859360B51c1D0F45EA3` [View](https://arbiscan.io/address/0xb025CC5e73e2966e12e4d859360B51c1D0F45EA3#code) |
 | `NewPositionSwapFuseUniswapV3` | `0x1DA7F95e63f12169B3495E2B83D01D0D6592DD86` [View](https://arbiscan.io/address/0x1DA7F95e63f12169B3495E2B83D01D0D6592DD86#code) |
 | `OdosSwapperFuse` | `0x19eA0E29EdDe3209c34A86004957510EF3C9912e` [View](https://arbiscan.io/address/0x19eA0E29EdDe3209c34A86004957510EF3C9912e#code) |
@@ -641,7 +657,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## PreHooks List
 
-*Last updated: 2026-03-04 05:33:05 UTC*
+*Last updated: 2026-03-04 12:47:13 UTC*
 
 ### Ethereum PreHooks
 
