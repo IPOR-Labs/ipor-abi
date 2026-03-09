@@ -515,6 +515,12 @@
         "token": "$MAGLO",
         "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "PlasmaVault": "0xAd685FeC2066d7f5436f5804882998ba79725706"
+      },
+      {
+        "name": "Maciek F1 Ultra USDC Yield machine",
+        "token": "MF1",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0xDf0D13ADa59eAaED36C1348247e3D9EcC06A9355"
       }
     ],
     "fuses": [
@@ -1810,6 +1816,12 @@
         "token": "test22",
         "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
         "PlasmaVault": "0xb83F84D2B48C61A0daccF62a2FaeFD5287e1DDC0"
+      },
+      {
+        "name": "JOHN",
+        "token": "john",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x83dBbEAF238a685180b21C3646254ff0e14FaE4D"
       }
     ],
     "fuses": [
@@ -3211,6 +3223,24 @@
         "token": "VLT",
         "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
         "PlasmaVault": "0xA1572EC30fAe1BADd504Ae44f2E85A09e5BD57A5"
+      },
+      {
+        "name": "Autopilot EURC Base",
+        "token": "bAutopilot_EURC",
+        "asset": "0x60a3E35Cc302bFA44Cb288Bc5a4F316Fdb1adb42",
+        "PlasmaVault": "0x180493090667A35D8511Be743835dAD8715d33be"
+      },
+      {
+        "name": "YO Treasury 0xA6A7...2f4D 2026-03-07",
+        "token": "yoTREASURY",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x5D146592A9C01984068EA331ad51d36b83bda3aC"
+      },
+      {
+        "name": "YO Treasury 0x35b4...3841 2026-03-07",
+        "token": "yoTREASURY",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x09d1C2E03F73853916Ee86b4e1A729F9FbAA960D"
       }
     ],
     "fuses": [
