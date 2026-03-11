@@ -6,7 +6,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Fuses List
 
-*Last updated: 2026-03-09 13:04:29 UTC*
+*Last updated: 2026-03-10 18:47:16 UTC*
 
 ### Ethereum Fuses
 
@@ -149,6 +149,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `UniversalTokenSwapperEthFuse` | `0xa07780FdaF46C0EFd5C4F6349268065E5D1fDBe5` [View](https://etherscan.io/address/0xa07780FdaF46C0EFd5C4F6349268065E5D1fDBe5#code) |
 | `UniversalTokenSwapperFuse` | `0xA301D6f34f2c8399E8564681cF675999cc1f1584` [View](https://etherscan.io/address/0xA301D6f34f2c8399E8564681cF675999cc1f1584#code) |
 | `VeloraSwapperFuse` | `0x8771e28451F0A2b891B3401c94bCfA272215D48b` [View](https://etherscan.io/address/0x8771e28451F0A2b891B3401c94bCfA272215D48b#code) |
+| `ZeroBalanceFuseNapier` | `0xCEa56CDcA4d718E2cf5951cD7Db5f0BbAed0A7c4` [View](https://etherscan.io/address/0xCEa56CDcA4d718E2cf5951cD7Db5f0BbAed0A7c4#code) |
 
 #### Ethereum Older Fuses Versions
 
@@ -272,6 +273,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `UniversalTokenSwapperEthFuse` | `0xE53D515D7Dd5e4788a90607400FA8906Be494a28` [View](https://arbiscan.io/address/0xE53D515D7Dd5e4788a90607400FA8906Be494a28#code) |
 | `UniversalTokenSwapperFuse` | `0x9Dab5e11Ece5470F9782C9BC818C519f730eE854` [View](https://arbiscan.io/address/0x9Dab5e11Ece5470F9782C9BC818C519f730eE854#code) |
 | `VeloraSwapperFuse` | `0x922000aF6ac6659B3b6945E933B706B52453A531` [View](https://arbiscan.io/address/0x922000aF6ac6659B3b6945E933B706B52453A531#code) |
+| `ZeroBalanceFuseNapier` | `0x31024FC8C4F4Eb64081DAAD5Ee6e1D1CBaEE051C` [View](https://arbiscan.io/address/0x31024FC8C4F4Eb64081DAAD5Ee6e1D1CBaEE051C#code) |
 
 #### Arbitrum Older Fuses Versions
 
@@ -657,7 +659,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## PreHooks List
 
-*Last updated: 2026-03-09 13:04:30 UTC*
+*Last updated: 2026-03-10 18:47:18 UTC*
 
 ### Ethereum PreHooks
 

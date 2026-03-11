@@ -521,6 +521,12 @@
         "token": "MF1",
         "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "PlasmaVault": "0xDf0D13ADa59eAaED36C1348247e3D9EcC06A9355"
+      },
+      {
+        "name": "tesseract_wbtc_sUSDe",
+        "token": "tess_wbtc_1",
+        "asset": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+        "PlasmaVault": "0x32046450669782f5198979893B90fdE7d45624EE"
       }
     ],
     "fuses": [
@@ -1363,6 +1369,12 @@
         "name": "VeloraSwapperFuse",
         "versions": {
           "2026-01-29": "0x8771e28451F0A2b891B3401c94bCfA272215D48b"
+        }
+      },
+      {
+        "name": "ZeroBalanceFuseNapier",
+        "versions": {
+          "2026-03-10": "0xCEa56CDcA4d718E2cf5951cD7Db5f0BbAed0A7c4"
         }
       }
     ],
@@ -2396,6 +2408,12 @@
         "name": "VeloraSwapperFuse",
         "versions": {
           "2026-02-11": "0x922000aF6ac6659B3b6945E933B706B52453A531"
+        }
+      },
+      {
+        "name": "ZeroBalanceFuseNapier",
+        "versions": {
+          "2026-03-10": "0x31024FC8C4F4Eb64081DAAD5Ee6e1D1CBaEE051C"
         }
       }
     ],
