@@ -3671,6 +3671,24 @@
         }
       },
       {
+        "name": "MidasBalanceFuse",
+        "versions": {
+          "2026-03-11": "0xB1951FaAc31F58830c514561c17b640355529ec0"
+        }
+      },
+      {
+        "name": "MidasRequestSupplyFuse",
+        "versions": {
+          "2026-03-11": "0x5077B42243e06FFD3fa239fD499b620c532F85B2"
+        }
+      },
+      {
+        "name": "MidasSupplyFuse",
+        "versions": {
+          "2026-03-11": "0x1f941BC36399b8E3471568523F22F4f4f918af01"
+        }
+      },
+      {
         "name": "ModifyPositionSwapFuseUniswapV3",
         "versions": {
           "2024-10-29": "0x3978b49f991949cA453601656EE97e8339f56da3"
