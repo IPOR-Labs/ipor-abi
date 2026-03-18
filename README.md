@@ -6,7 +6,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Fuses List
 
-*Last updated: 2026-03-10 18:47:16 UTC*
+*Last updated: 2026-03-18 09:21:51 UTC*
 
 ### Ethereum Fuses
 
@@ -360,6 +360,9 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `GaugeFuseAerodrome` | `0x4360119C77b464dea3E8f18D8274cadA8D8e04C8` [View](https://basescan.org/address/0x4360119C77b464dea3E8f18D8274cadA8D8e04C8#code) |
 | `LiquidityFuseAerodrome` | `0x277fFc9D4905Ee60C447f9E7da944ebbbD36C275` [View](https://basescan.org/address/0x277fFc9D4905Ee60C447f9E7da944ebbbD36C275#code) |
 | `MerklClaimFuse` | `0x310e6133a904761D717EE13D76E180E4EECf907A` [View](https://basescan.org/address/0x310e6133a904761D717EE13D76E180E4EECf907A#code) |
+| `MidasBalanceFuse` | `0xB1951FaAc31F58830c514561c17b640355529ec0` [View](https://basescan.org/address/0xB1951FaAc31F58830c514561c17b640355529ec0#code) |
+| `MidasRequestSupplyFuse` | `0x5077B42243e06FFD3fa239fD499b620c532F85B2` [View](https://basescan.org/address/0x5077B42243e06FFD3fa239fD499b620c532F85B2#code) |
+| `MidasSupplyFuse` | `0x1f941BC36399b8E3471568523F22F4f4f918af01` [View](https://basescan.org/address/0x1f941BC36399b8E3471568523F22F4f4f918af01#code) |
 | `ModifyPositionSwapFuseUniswapV3` | `0x3978b49f991949cA453601656EE97e8339f56da3` [View](https://basescan.org/address/0x3978b49f991949cA453601656EE97e8339f56da3#code) |
 | `ModifyPossitionFuseAerodromeSlipstream` | `0x81dd870620839a927d076Cbe40432cCAA3e53740` [View](https://basescan.org/address/0x81dd870620839a927d076Cbe40432cCAA3e53740#code) |
 | `NewPositionFuseAerodromeSlipstream` | `0x4426a0A9acE4a784AbB0417B88bc9f3091aC210F` [View](https://basescan.org/address/0x4426a0A9acE4a784AbB0417B88bc9f3091aC210F#code) |
@@ -659,7 +662,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## PreHooks List
 
-*Last updated: 2026-03-10 18:47:18 UTC*
+*Last updated: 2026-03-18 09:21:52 UTC*
 
 ### Ethereum PreHooks
 

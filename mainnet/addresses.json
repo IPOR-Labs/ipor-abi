@@ -527,6 +527,12 @@
         "token": "tess_wbtc_1",
         "asset": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
         "PlasmaVault": "0x32046450669782f5198979893B90fdE7d45624EE"
+      },
+      {
+        "name": "Bizantine Fusion USDC Vault",
+        "token": "bzUSDC",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0x5DdD313916c0662fae20b33E54836F03866252Ec"
       }
     ],
     "fuses": [
@@ -3668,6 +3674,24 @@
         "name": "MerklClaimFuse",
         "versions": {
           "2025-11-04": "0x310e6133a904761D717EE13D76E180E4EECf907A"
+        }
+      },
+      {
+        "name": "MidasBalanceFuse",
+        "versions": {
+          "2026-03-11": "0xB1951FaAc31F58830c514561c17b640355529ec0"
+        }
+      },
+      {
+        "name": "MidasRequestSupplyFuse",
+        "versions": {
+          "2026-03-11": "0x5077B42243e06FFD3fa239fD499b620c532F85B2"
+        }
+      },
+      {
+        "name": "MidasSupplyFuse",
+        "versions": {
+          "2026-03-11": "0x1f941BC36399b8E3471568523F22F4f4f918af01"
         }
       },
       {
