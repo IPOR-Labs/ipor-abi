@@ -786,6 +786,24 @@
         }
       },
       {
+        "name": "BalanceFuseSwapPositionsUniswapV3",
+        "versions": {
+          "2026-03-18": "0x76e06A26483A625ed5816D378836644F8C6CDC46"
+        }
+      },
+      {
+        "name": "BalanceFuseSwapUniswapV2",
+        "versions": {
+          "2026-03-18": "0xf8Ba61Bf6352E34819717e2cd56f97Be6b131296"
+        }
+      },
+      {
+        "name": "BalanceFuseSwapUniswapV3",
+        "versions": {
+          "2026-03-18": "0x2D01C704Ad4502176a328094BF973f1868c2f082"
+        }
+      },
+      {
         "name": "BalanceFuseUniversalTokenSwapper",
         "versions": {
           "2025-01-16": "0xe9562d7bd06b43E6391C5bE4B3c5F5C2BC1E06Bf"
@@ -869,6 +887,12 @@
         "name": "CollateralFuseMorpho",
         "versions": {
           "2025-01-16": "0xE1aA89eb42C23f292cDa1544566F6EBeE3a67EED"
+        }
+      },
+      {
+        "name": "CollectSwapFuseUniswapV3",
+        "versions": {
+          "2026-03-18": "0x4DeDFb0F957D844755069cfBA2f6828353662C77"
         }
       },
       {
@@ -1006,6 +1030,12 @@
         }
       },
       {
+        "name": "ModifyPositionSwapFuseUniswapV3",
+        "versions": {
+          "2026-03-18": "0xef0285fAA4BDb749CBFd3b1FcB4f61500307D8d4"
+        }
+      },
+      {
         "name": "NapierCollectFuse",
         "versions": {
           "2026-03-04": "0x957BEAc5216D4556821B2D441C1e70f73B8A8Dba"
@@ -1051,6 +1081,12 @@
         "name": "NapierZapDepositFuse",
         "versions": {
           "2026-03-04": "0xE067Eb9E64470b5707B305C4925671DFA50e7C67"
+        }
+      },
+      {
+        "name": "NewPositionSwapFuseUniswapV3",
+        "versions": {
+          "2026-03-18": "0xe096501052d741DA5483bD2a6cCc93a4CDf879cd"
         }
       },
       {
@@ -1314,6 +1350,18 @@
         "name": "SupplyFuseSpark",
         "versions": {
           "2024-09-29": "0xB48CF802C2D648c46ac7f752C81e29Fa2C955E9B"
+        }
+      },
+      {
+        "name": "SwapFuseUniswapV2",
+        "versions": {
+          "2026-03-18": "0x37a720Cf7F7dA943E4244F97903a85c997cab359"
+        }
+      },
+      {
+        "name": "SwapFuseUniswapV3",
+        "versions": {
+          "2026-03-18": "0xA1D8600f64aA82161ba9265ffeBFDe6a78F1275C"
         }
       },
       {
