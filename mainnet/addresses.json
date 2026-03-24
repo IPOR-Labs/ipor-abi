@@ -533,6 +533,48 @@
         "token": "bzUSDC",
         "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "PlasmaVault": "0x5DdD313916c0662fae20b33E54836F03866252Ec"
+      },
+      {
+        "name": "TessLendingOptimiser",
+        "token": "TessLO",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0x86981a3d0A98510720e650978546f97A55C75823"
+      },
+      {
+        "name": "EIGER West Face",
+        "token": "EIGWF",
+        "asset": "0xB58E61C3098d85632Df34EecfB899A1Ed80921cB",
+        "PlasmaVault": "0x7dC3237f00Ea44c448DaA51c9D540e7d14dc5405"
+      },
+      {
+        "name": "Tesseract AaveEthena Leveraged Carry",
+        "token": "USDCTessAEL",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0x8Cd47F23a616FabF16B7125Cdb9c864739f0E4fc"
+      },
+      {
+        "name": "Fusion stETH Looping",
+        "token": "fusnstETH",
+        "asset": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
+        "PlasmaVault": "0x34e9990034fC3E335F299225Da9Fb49bd65F711D"
+      },
+      {
+        "name": "Fusion stETH Looping",
+        "token": "fusnstETH",
+        "asset": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
+        "PlasmaVault": "0xB16BF1AF465b6C7de2ff4392ed9c48D89df37dAa"
+      },
+      {
+        "name": "Fusion stETH Looping",
+        "token": "fusnstETH",
+        "asset": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
+        "PlasmaVault": "0xFF7eCd3469B171BA9775ADc879eeb70E4e03B361"
+      },
+      {
+        "name": "Fusion stETH Looping",
+        "token": "fusnstETH",
+        "asset": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
+        "PlasmaVault": "0xd25EdFd7517F1628ce899b1EAf95C0C06EF9ac78"
       }
     ],
     "fuses": [
@@ -540,6 +582,12 @@
         "name": "AaveV3CollateralFuse",
         "versions": {
           "2025-10-30": "0xc06F56B865F45D4A80707e7d1403767177c44B22"
+        }
+      },
+      {
+        "name": "AaveV3CollateralFuseLido",
+        "versions": {
+          "2026-03-24": "0x8A898B69E553D452f5653E457725797282017f27"
         }
       },
       {
@@ -557,7 +605,8 @@
       {
         "name": "AaveV3WithPriceOracleMiddlewareBalanceLidoFuse",
         "versions": {
-          "2025-08-21": "0x1d04A9d1Efa9D0C54e3757503F99d75B8f398BfA"
+          "2025-08-21": "0x1d04A9d1Efa9D0C54e3757503F99d75B8f398BfA",
+          "2026-03-24": "0x366aDb1F9a0743830d2C3Dc3fF0905A28Ca6F789"
         }
       },
       {
@@ -1191,7 +1240,8 @@
         "name": "SupplyFuseAaveV3Lido",
         "versions": {
           "2025-03-10": "0x09791C53218010eE59464386F6a3B9D656490d60",
-          "2025-08-10": "0x02956820074400138a4602d35ee1b7f3886EeC1e"
+          "2025-08-10": "0x02956820074400138a4602d35ee1b7f3886EeC1e",
+          "2026-03-24": "0x05c090ffB794abcAc1d0EFa8ebf321E862b75f66"
         }
       },
       {
