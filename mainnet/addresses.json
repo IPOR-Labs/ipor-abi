@@ -278,7 +278,7 @@
       },
       {
         "name": "Fusion weETH looping Ethereum",
-        "token": "fusnweETH",
+        "token": "weETH",
         "asset": "0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee",
         "PlasmaVault": "0x087b40429637F5366175b1C9379613b01d00a860"
       },
@@ -1779,7 +1779,7 @@
       },
       {
         "name": "IPOR wstETH Arbitrum",
-        "token": "ipwstETHfusion",
+        "token": "wstETH",
         "asset": "0x5979D7b546E38E414F7E9822514be443A4800529",
         "PlasmaVault": "0x7C655d660E2b09126B0AD6851F99d70d3715Fd9b"
       },
@@ -3992,6 +3992,12 @@
         "name": "SwapFuseUniversalTokenSwapperEth",
         "versions": {
           "2025-04-29": "0x1DC6eC62bD4225Ec063049238CeF89635cdbff72"
+        }
+      },
+      {
+        "name": "SwapFuseUniversalTokenSwapperEthNoSlippage",
+        "versions": {
+          "2026-03-27": "0xC41ceE8409341187C5D5E9107df630D6CBcB7b8E"
         }
       },
       {
