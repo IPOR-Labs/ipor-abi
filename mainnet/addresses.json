@@ -3995,6 +3995,12 @@
         }
       },
       {
+        "name": "SwapFuseUniversalTokenSwapperEthNoSlippage",
+        "versions": {
+          "2026-03-27": "0xC41ceE8409341187C5D5E9107df630D6CBcB7b8E"
+        }
+      },
+      {
         "name": "SwapFuseUniversalTokenSwapperWithVerification",
         "versions": {
           "2025-07-25": "0x38Bd09C17EA88ceB2F7916BF07AF13C2D9F72370"

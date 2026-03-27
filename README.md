@@ -6,7 +6,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Fuses List
 
-*Last updated: 2026-03-26 15:22:04 UTC*
+*Last updated: 2026-03-27 04:45:03 UTC*
 
 ### Ethereum Fuses
 
@@ -407,6 +407,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `SwapFuseUniswapV3` | `0x6C65F2155bb8730E1768558f2679eBB04d957145` [View](https://basescan.org/address/0x6C65F2155bb8730E1768558f2679eBB04d957145#code) |
 | `SwapFuseUniversalTokenSwapper` | `0xdBc5f9962CE85749F1b3c51BA0473909229E3807` [View](https://basescan.org/address/0xdBc5f9962CE85749F1b3c51BA0473909229E3807#code) |
 | `SwapFuseUniversalTokenSwapperEth` | `0x1DC6eC62bD4225Ec063049238CeF89635cdbff72` [View](https://basescan.org/address/0x1DC6eC62bD4225Ec063049238CeF89635cdbff72#code) |
+| `SwapFuseUniversalTokenSwapperEthNoSlippage` | `0xC41ceE8409341187C5D5E9107df630D6CBcB7b8E` [View](https://basescan.org/address/0xC41ceE8409341187C5D5E9107df630D6CBcB7b8E#code) |
 | `SwapFuseUniversalTokenSwapperWithVerification` | `0x38Bd09C17EA88ceB2F7916BF07AF13C2D9F72370` [View](https://basescan.org/address/0x38Bd09C17EA88ceB2F7916BF07AF13C2D9F72370#code) |
 | `UniversalReaderBalanceFuses` | `0xE33F6a15D382CeabB8f351320BF63EE2860E8203` [View](https://basescan.org/address/0xE33F6a15D382CeabB8f351320BF63EE2860E8203#code) |
 | `UniversalTokenSwapperEthFuse` | `0x332AeB7102aD5F4D4B671067e7f60F5bEcC86eB8` [View](https://basescan.org/address/0x332AeB7102aD5F4D4B671067e7f60F5bEcC86eB8#code) |
@@ -673,7 +674,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## PreHooks List
 
-*Last updated: 2026-03-26 15:22:05 UTC*
+*Last updated: 2026-03-27 04:45:04 UTC*
 
 ### Ethereum PreHooks
 
