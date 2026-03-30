@@ -575,6 +575,54 @@
         "token": "fusnstETH",
         "asset": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
         "PlasmaVault": "0xd25EdFd7517F1628ce899b1EAf95C0C06EF9ac78"
+      },
+      {
+        "name": "TESS WBTC Lending Vault",
+        "token": "tessWBTCLend",
+        "asset": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+        "PlasmaVault": "0x5C51Fa43608A140E4510f676d36188ba1Cd1fcae"
+      },
+      {
+        "name": "crvUSD Vault by Curve Bonds",
+        "token": "acrvUSD",
+        "asset": "0xf939E0A03FB07F59A73314E73794Be0E57ac1b4E",
+        "PlasmaVault": "0xBC1290b5E69Dc0069b1B7DC6ad8475dBd2519408"
+      },
+      {
+        "name": "TESS USDC Lending Optimiser",
+        "token": "TessLendingOptimiser01",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0x2CD8dDfc61F4E1d97E60e8Be55dcB6071913B984"
+      },
+      {
+        "name": "TESS USDC Lending Optimiser",
+        "token": "TessUSDCLO",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0xc825779C89120eeEf746C51130B362478E181d39"
+      },
+      {
+        "name": "TESS WETH Lending Vault",
+        "token": "tessWETHLend",
+        "asset": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "PlasmaVault": "0xC19892E2f9403c2B89C9084eCba0a63Eea1b6771"
+      },
+      {
+        "name": "Tesseract USDC Vault Share",
+        "token": "teUSDC",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0xe1c3A197D16EF96A7C8E7c5f6B83b5E032cD76a9"
+      },
+      {
+        "name": "Bitcoin Dollar USDC",
+        "token": "bdUSD",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0xF8F226dA66244F89e70C5B5D1a5C5b0d505Eb1d8"
+      },
+      {
+        "name": "Tesseract wBTC Vault Share",
+        "token": "teWBTC",
+        "asset": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+        "PlasmaVault": "0xfA77F96348F5eA8025D1a1DaE9d535A4bAC7947d"
       }
     ],
     "fuses": [
@@ -1938,6 +1986,18 @@
         "token": "john",
         "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
         "PlasmaVault": "0x83dBbEAF238a685180b21C3646254ff0e14FaE4D"
+      },
+      {
+        "name": "Degen Vault USDC",
+        "token": "dvUSDC",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x70aadB17B15fecBF60D98624516df09b07dbd1ED"
+      },
+      {
+        "name": "asd",
+        "token": "dddd",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x74E30a2192b485eb58353F02AB5E07C0a31D9099"
       }
     ],
     "fuses": [
@@ -3363,6 +3423,12 @@
         "token": "yoTREASURY",
         "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
         "PlasmaVault": "0x09d1C2E03F73853916Ee86b4e1A729F9FbAA960D"
+      },
+      {
+        "name": "preflight",
+        "token": "flight",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x468680f3A2cA39687f70c5d7119D57cea27c22F4"
       }
     ],
     "fuses": [
