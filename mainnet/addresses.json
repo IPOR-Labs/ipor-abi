@@ -623,6 +623,42 @@
         "token": "teWBTC",
         "asset": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
         "PlasmaVault": "0xfA77F96348F5eA8025D1a1DaE9d535A4bAC7947d"
+      },
+      {
+        "name": "Tesseract USDC Vault Share",
+        "token": "teUSDC",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0x6e2f21de1A2fb626C96Cc7e9D2d3b46f58F8f92A"
+      },
+      {
+        "name": "Tesseract wBTC Vault Share",
+        "token": "teWBTC",
+        "asset": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+        "PlasmaVault": "0xFBd090c42B95b633f4073D2BEb2433Af20B3CF3e"
+      },
+      {
+        "name": "Tesseract wETH Vault Share",
+        "token": "teWETH",
+        "asset": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "PlasmaVault": "0xD9A8d3E4D86e238A847043A8C3BE26F39d08f1F8"
+      },
+      {
+        "name": "Tesseract wETH Vault Share",
+        "token": "teWETH",
+        "asset": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "PlasmaVault": "0xC9e44E93EdC2c28F9AC7E629507aA9A6A0EFb1F9"
+      },
+      {
+        "name": "Tesseract wBTC Vault Share",
+        "token": "teWBTC",
+        "asset": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+        "PlasmaVault": "0xB491C827d913BFD25b0fF81797B7a2b64aa22B6A"
+      },
+      {
+        "name": "Tesseract wETH Vault Share",
+        "token": "teWETH",
+        "asset": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "PlasmaVault": "0x87C32e7d4F9f37175F37A235FCd71caC11a11A9a"
       }
     ],
     "fuses": [
