@@ -3534,6 +3534,18 @@
         "token": "iwo",
         "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
         "PlasmaVault": "0x81e86250DC22F3a2EC429F071B20dD0f8E1B71e3"
+      },
+      {
+        "name": "Maciek F1 IWO2",
+        "token": "IWO2",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x848bbB056a0cC9610be1dBD5094B61afEfD27027"
+      },
+      {
+        "name": "Maciek F1 IWO3",
+        "token": "IWO3",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0xbcF22b66A60283E014F80809a5F032ff1546deEA"
       }
     ],
     "fuses": [
