@@ -677,6 +677,12 @@
         "token": "teUSDC",
         "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "PlasmaVault": "0xf93E64079526B49FB93337789aaF1870f0356FFa"
+      },
+      {
+        "name": "Tesseract USDC Vault Share",
+        "token": "teUSDC",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0x75bAFAB1B0073f942a244DD0F1061E91D7Fd196B"
       }
     ],
     "fuses": [
@@ -3546,6 +3552,12 @@
         "token": "IWO3",
         "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
         "PlasmaVault": "0xbcF22b66A60283E014F80809a5F032ff1546deEA"
+      },
+      {
+        "name": "Test Vualt ",
+        "token": "TSTVLT",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x3B4C06d5f80DFb9D7162D5e94C5026616A5ce8ED"
       }
     ],
     "fuses": [
