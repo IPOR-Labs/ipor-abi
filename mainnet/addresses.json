@@ -683,6 +683,18 @@
         "token": "teUSDC",
         "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "PlasmaVault": "0x75bAFAB1B0073f942a244DD0F1061E91D7Fd196B"
+      },
+      {
+        "name": "darren jm vault",
+        "token": "dcjmUSDC",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0x96E6A44B9A61888DC7527B2eF18ad8525A18a3E6"
+      },
+      {
+        "name": "Tesseract USDC Vault Share",
+        "token": "teUSDC",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0x71863e0B4D307Ab70c9E084C03260aEdfB21D5B6"
       }
     ],
     "fuses": [
@@ -3558,6 +3570,18 @@
         "token": "TSTVLT",
         "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
         "PlasmaVault": "0x3B4C06d5f80DFb9D7162D5e94C5026616A5ce8ED"
+      },
+      {
+        "name": "Test Vault",
+        "token": "TSTVLT",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x1Af8377d4E64DA5c2400D80a81C1ba85a44761D5"
+      },
+      {
+        "name": "Test Vault",
+        "token": "TST",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x65408C2c21738345FE11215c1Da8D5F895672670"
       }
     ],
     "fuses": [
@@ -3824,6 +3848,12 @@
         }
       },
       {
+        "name": "BurnRequestFeeFuseV2",
+        "versions": {
+          "2026-04-08": "0xCaBC40118e83236C751d9a3089e9b5Cf53ee4414"
+        }
+      },
+      {
         "name": "CLGaugeFuseAerodromeSlipstream",
         "versions": {
           "2025-10-09": "0x3d129395a55dfa3Fd03dF41694748Ef7fe6c13E4"
@@ -3952,6 +3982,12 @@
         }
       },
       {
+        "name": "FuseRequestSharesPlasmaVaultV2",
+        "versions": {
+          "2026-04-08": "0xE14a69438DAA58cA2dbf70b74e10626AA39c616b"
+        }
+      },
+      {
         "name": "GaugeFuseAerodrome",
         "versions": {
           "2025-10-09": "0x4360119C77b464dea3E8f18D8274cadA8D8e04C8"
@@ -3972,19 +4008,28 @@
       {
         "name": "MidasBalanceFuse",
         "versions": {
-          "2026-03-11": "0xB1951FaAc31F58830c514561c17b640355529ec0"
+          "2026-03-11": "0xB1951FaAc31F58830c514561c17b640355529ec0",
+          "2026-04-08": "0x62EC84e9bbd97342a8493365Ecf7329f89EF7Ee4"
+        }
+      },
+      {
+        "name": "MidasClaimFromExecutorFuse",
+        "versions": {
+          "2026-04-08": "0xefc57105d0595FC44E241E2aD7D8E9d20d6Fa5d5"
         }
       },
       {
         "name": "MidasRequestSupplyFuse",
         "versions": {
-          "2026-03-11": "0x5077B42243e06FFD3fa239fD499b620c532F85B2"
+          "2026-03-11": "0x5077B42243e06FFD3fa239fD499b620c532F85B2",
+          "2026-04-08": "0xe83697362D91af8f505E3E693F2847A30CD81A8E"
         }
       },
       {
         "name": "MidasSupplyFuse",
         "versions": {
-          "2026-03-11": "0x1f941BC36399b8E3471568523F22F4f4f918af01"
+          "2026-03-11": "0x1f941BC36399b8E3471568523F22F4f4f918af01",
+          "2026-04-08": "0xa0417653A69503D7Abd838cc601172720893f9f1"
         }
       },
       {
