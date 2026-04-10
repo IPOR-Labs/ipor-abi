@@ -695,6 +695,12 @@
         "token": "teUSDC",
         "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "PlasmaVault": "0x71863e0B4D307Ab70c9E084C03260aEdfB21D5B6"
+      },
+      {
+        "name": "TESS USDC Ethena Loop Vault",
+        "token": "tessUSDCEthenaLoop",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0x888e1d3C509C80e24cAb8A4872E164b7e5A6eB10"
       }
     ],
     "fuses": [
@@ -2103,6 +2109,18 @@
         "token": "dddd",
         "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
         "PlasmaVault": "0x74E30a2192b485eb58353F02AB5E07C0a31D9099"
+      },
+      {
+        "name": "Arbitrum Wizard TEST 1",
+        "token": "AWT1",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x57a136303dC7807C3372138179cc0b9Cc84A91d3"
+      },
+      {
+        "name": "Arbitrum Wizard TEST 2",
+        "token": "AWT2",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x33Eba5AE549c859c7226aA8031796b181568204A"
       }
     ],
     "fuses": [
@@ -3582,6 +3600,12 @@
         "token": "TST",
         "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
         "PlasmaVault": "0x65408C2c21738345FE11215c1Da8D5F895672670"
+      },
+      {
+        "name": "Maciek Events tests",
+        "token": "MET",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x431F8aa156D56C8dfB215594C2F823dc6B8fdEA1"
       }
     ],
     "fuses": [
