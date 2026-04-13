@@ -701,6 +701,18 @@
         "token": "tessUSDCEthenaLoop",
         "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "PlasmaVault": "0x888e1d3C509C80e24cAb8A4872E164b7e5A6eB10"
+      },
+      {
+        "name": "TESS sUSDe PYUSD (USDC) Loop Vault",
+        "token": "tessUSDCsUSDePYUSD",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0x32F07401EB177F2c0FC4F95f3928050d88dAe7Ed"
+      },
+      {
+        "name": "Origin Protocol wOUSD Leverage Loop",
+        "token": "iporwOUSD",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0xF373a4D4D200d709Aa73D4e0BE49B822b0CC866D"
       }
     ],
     "fuses": [
