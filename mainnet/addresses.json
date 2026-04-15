@@ -713,6 +713,12 @@
         "token": "iporwOUSD",
         "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "PlasmaVault": "0xF373a4D4D200d709Aa73D4e0BE49B822b0CC866D"
+      },
+      {
+        "name": "Tesseract USDC Vault Share",
+        "token": "teUSDC",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0x4C1b607CB6e1DF0541368FDA667ab673CD0602Fe"
       }
     ],
     "fuses": [
@@ -3618,6 +3624,18 @@
         "token": "MET",
         "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
         "PlasmaVault": "0x431F8aa156D56C8dfB215594C2F823dc6B8fdEA1"
+      },
+      {
+        "name": "Test",
+        "token": "TST",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0xca9b00b4f0745f8987524a12E217b6BFE3ecaD02"
+      },
+      {
+        "name": "BASE Wizard 2",
+        "token": "BW2",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x611dF1c70FAc062549873f9a0acDb5cAfF61cD65"
       }
     ],
     "fuses": [
