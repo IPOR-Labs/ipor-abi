@@ -719,6 +719,18 @@
         "token": "teUSDC",
         "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "PlasmaVault": "0x4C1b607CB6e1DF0541368FDA667ab673CD0602Fe"
+      },
+      {
+        "name": "Tesseract USDC Vault Share",
+        "token": "teUSDC",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0x301035611B11338Fb75260A9957633903F97E7b1"
+      },
+      {
+        "name": "Tesseract USDC Vault Share",
+        "token": "teUSDC",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0x81F775B7634789c428Fa89C635a40cfB0Fe14479"
       }
     ],
     "fuses": [
@@ -3636,6 +3648,54 @@
         "token": "BW2",
         "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
         "PlasmaVault": "0x611dF1c70FAc062549873f9a0acDb5cAfF61cD65"
+      },
+      {
+        "name": "Fusion wstETH Base Looping",
+        "token": "fusnwstETH",
+        "asset": "0xc1CBa3fCea344f92D9239c08C0568f6F2F0ee452",
+        "PlasmaVault": "0x6A5E701331aB7f36654C6EF5AA8256398F404790"
+      },
+      {
+        "name": "Fusion wstETH Base Looping",
+        "token": "fusnwstETH",
+        "asset": "0xc1CBa3fCea344f92D9239c08C0568f6F2F0ee452",
+        "PlasmaVault": "0x2a177bFE7894e85fAff8b234EA9832f46fb5EF83"
+      },
+      {
+        "name": "Fusion wstETH Base Looping",
+        "token": "fusnwstETH",
+        "asset": "0xc1CBa3fCea344f92D9239c08C0568f6F2F0ee452",
+        "PlasmaVault": "0x79E3Eb66a0aDf5bA308275981Ea584dc1ad5d433"
+      },
+      {
+        "name": "Fusion wstETH Base Looping",
+        "token": "fusnwstETH",
+        "asset": "0xc1CBa3fCea344f92D9239c08C0568f6F2F0ee452",
+        "PlasmaVault": "0xd914768B4E85CfDa20e8d59c083F052b8f8ceAf0"
+      },
+      {
+        "name": "Fusion wstETH Base Looping",
+        "token": "fusnwstETH",
+        "asset": "0xc1CBa3fCea344f92D9239c08C0568f6F2F0ee452",
+        "PlasmaVault": "0xD900a210056E5553079543e5BDE0358D7606C123"
+      },
+      {
+        "name": "Fusion wstETH Base Looping",
+        "token": "fusnwstETH",
+        "asset": "0xc1CBa3fCea344f92D9239c08C0568f6F2F0ee452",
+        "PlasmaVault": "0x589332fA0A49c1F2C3d3e39566df7b871EeF16cE"
+      },
+      {
+        "name": "Fusion wstETH Base Looping",
+        "token": "fusnwstETH",
+        "asset": "0xc1CBa3fCea344f92D9239c08C0568f6F2F0ee452",
+        "PlasmaVault": "0xa7dAA66C4c96C82590176792c2620F131896b8B9"
+      },
+      {
+        "name": "Base Wizard 3",
+        "token": "BW2",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x3CFe1157f319Eecf38e17FeE0fbeF7A3A507a50B"
       }
     ],
     "fuses": [
