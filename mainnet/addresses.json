@@ -1328,6 +1328,12 @@
         }
       },
       {
+        "name": "RequestFeeRefundFuse",
+        "versions": {
+          "2026-04-24": "0xE64902cB18bB176E944709886d6eaBCe272372ea"
+        }
+      },
+      {
         "name": "RewardEulerTokenClaimFuse",
         "versions": {
           "2025-11-07": "0xAA2442F310D8D4a6d42160b1D2a22aCb1dd0866a"
@@ -4174,6 +4180,18 @@
         "name": "OdosSwapperFuse",
         "versions": {
           "2026-02-10": "0xC081477E9933Bf44B25607018f2573FdCA496E19"
+        }
+      },
+      {
+        "name": "RepayWithATokensFuseAaveV3",
+        "versions": {
+          "2026-04-24": "0x8330D7e3a2690A3D69E6FD39c70691aBB62D27A4"
+        }
+      },
+      {
+        "name": "RequestFeeRefundFuse",
+        "versions": {
+          "2026-04-24": "0xa47Ba8FE6110AC337C3f71BE4aff802538aF0468"
         }
       },
       {

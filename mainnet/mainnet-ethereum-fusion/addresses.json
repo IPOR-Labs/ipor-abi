@@ -154,6 +154,7 @@
   "PtPriceFeedFactoryImpl": "0x1Cb493392367a0283090Bf965503A9588d26007C",
   "PtPriceFeedFactoryProxy": "0xE2a264e9fb3aC248BF9Ce57F376873DCa752DB9b",
   "ReferralPlasmaVault": "0x399502B8dC8A38E2Cd2D670F4f40cc168C063585",
+  "RequestFeeRefundFuse": "0xE64902cB18bB176E944709886d6eaBCe272372ea",
   "ReservoirPriceOracleMiddlewareWithRolesImpl": "0x1eB0B256D1B214f1232F0604221FDcf575708dDc",
   "ReservoirPriceOracleMiddlewareWithRolesOwner": "0xF6a9bd8F6DC537675D499Ac1CA14f2c55d8b5569",
   "ReservoirPriceOracleMiddlewareWithRolesProxy": "0x5992DC71F8BfE2bA8b682a4AdCcbaf868A5c59EA",

@@ -6,7 +6,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Fuses List
 
-*Last updated: 2026-04-17 14:42:51 UTC*
+*Last updated: 2026-04-24 09:56:46 UTC*
 
 ### Ethereum Fuses
 
@@ -108,6 +108,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `NapierZapDepositFuse` | `0xE067Eb9E64470b5707B305C4925671DFA50e7C67` [View](https://etherscan.io/address/0xE067Eb9E64470b5707B305C4925671DFA50e7C67#code) |
 | `NewPositionSwapFuseUniswapV3` | `0xe096501052d741DA5483bD2a6cCc93a4CDf879cd` [View](https://etherscan.io/address/0xe096501052d741DA5483bD2a6cCc93a4CDf879cd#code) |
 | `OdosSwapperFuse` | `0xC13F3Fd20556A595990C35612E9e5c1C071Cb691` [View](https://etherscan.io/address/0xC13F3Fd20556A595990C35612E9e5c1C071Cb691#code) |
+| `RequestFeeRefundFuse` | `0xE64902cB18bB176E944709886d6eaBCe272372ea` [View](https://etherscan.io/address/0xE64902cB18bB176E944709886d6eaBCe272372ea#code) |
 | `RewardEulerTokenClaimFuse` | `0xAA2442F310D8D4a6d42160b1D2a22aCb1dd0866a` [View](https://etherscan.io/address/0xAA2442F310D8D4a6d42160b1D2a22aCb1dd0866a#code) |
 | `SiloV2BalanceFuse` | `0x086acA94AA413932C6ac5e09b863AC2Cbe17998f` [View](https://etherscan.io/address/0x086acA94AA413932C6ac5e09b863AC2Cbe17998f#code) |
 | `SiloV2BorrowFuse` | `0x1D24B8d16d87a570e8539c2849A23Bbc5F13005B` [View](https://etherscan.io/address/0x1D24B8d16d87a570e8539c2849A23Bbc5F13005B#code) |
@@ -390,6 +391,8 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `NewPositionFuseAerodromeSlipstream` | `0x4426a0A9acE4a784AbB0417B88bc9f3091aC210F` [View](https://basescan.org/address/0x4426a0A9acE4a784AbB0417B88bc9f3091aC210F#code) |
 | `NewPositionSwapFuseUniswapV3` | `0x08C0F62E19a66800EdD2e8eBfeE02EDc912D510a` [View](https://basescan.org/address/0x08C0F62E19a66800EdD2e8eBfeE02EDc912D510a#code) |
 | `OdosSwapperFuse` | `0xC081477E9933Bf44B25607018f2573FdCA496E19` [View](https://basescan.org/address/0xC081477E9933Bf44B25607018f2573FdCA496E19#code) |
+| `RepayWithATokensFuseAaveV3` | `0x8330D7e3a2690A3D69E6FD39c70691aBB62D27A4` [View](https://basescan.org/address/0x8330D7e3a2690A3D69E6FD39c70691aBB62D27A4#code) |
+| `RequestFeeRefundFuse` | `0xa47Ba8FE6110AC337C3f71BE4aff802538aF0468` [View](https://basescan.org/address/0xa47Ba8FE6110AC337C3f71BE4aff802538aF0468#code) |
 | `RewardEulerTokenClaimFuse` | `0x2627a9829b00816C5FC54196bFDfD1C8EC999540` [View](https://basescan.org/address/0x2627a9829b00816C5FC54196bFDfD1C8EC999540#code) |
 | `SupplyFuseAaveV3` | `0x26fD6EF391E98C78CfCA27e00c3d15be4D941625` [View](https://basescan.org/address/0x26fD6EF391E98C78CfCA27e00c3d15be4D941625#code) |
 | `SupplyFuseCompoundV3Usdc` | `0x42FBD4D8f578b902Ed9030BF9035A606dDECa26f` [View](https://basescan.org/address/0x42FBD4D8f578b902Ed9030BF9035A606dDECa26f#code) |
@@ -688,7 +691,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## PreHooks List
 
-*Last updated: 2026-04-17 14:42:52 UTC*
+*Last updated: 2026-04-24 09:56:47 UTC*
 
 ### Ethereum PreHooks
 
