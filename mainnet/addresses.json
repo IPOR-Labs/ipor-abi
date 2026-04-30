@@ -731,6 +731,114 @@
         "token": "teUSDC",
         "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "PlasmaVault": "0x81F775B7634789c428Fa89C635a40cfB0Fe14479"
+      },
+      {
+        "name": "PlasmaVault_wETH_BCV1",
+        "token": null,
+        "asset": "TODO",
+        "PlasmaVault": "0x64d47d8516034857C6fc040ecd405e03643a464F"
+      },
+      {
+        "name": "PlasmaVault_USDC_iUSDC",
+        "token": null,
+        "asset": "TODO",
+        "PlasmaVault": "0xB4790CfDF1DF71c2E4ac2F5c43dBCb975AD447ae"
+      },
+      {
+        "name": "PlasmaVault_sUSDf_iFALC",
+        "token": null,
+        "asset": "TODO",
+        "PlasmaVault": "0xb530a1B5259A71187F1D69aCF0488F102637a3ED"
+      },
+      {
+        "name": "PlasmaVault_wBTC_vBTC",
+        "token": null,
+        "asset": "TODO",
+        "PlasmaVault": "0xfFB090Cb1829C5977fBd070ceBFf7425c76B0472"
+      },
+      {
+        "name": "IporPlasmaVaultUsdc",
+        "token": null,
+        "asset": "TODO",
+        "PlasmaVault": "0x43Ee0243eA8CF02f7087d8B16C8D2007CC9c7cA2"
+      },
+      {
+        "name": "IporPlasmaVaultUsdcTAUSRP",
+        "token": null,
+        "asset": "TODO",
+        "PlasmaVault": "0x6f66b845604dad6E80b2A1472e6cAcbbE66A8C40"
+      },
+      {
+        "name": "PlasmaVaultUsdcTAUBOND",
+        "token": null,
+        "asset": "TODO",
+        "PlasmaVault": "0x43a32D4f6c582f281c52393f8F9E5AcE1D4A1E68"
+      },
+      {
+        "name": "IporPlasmaVaultRUsd",
+        "token": null,
+        "asset": "TODO",
+        "PlasmaVault": "0xe9385eFf3F937FcB0f0085Da9A3F53D6C2B4fB5F"
+      },
+      {
+        "name": "PlasmaVault_USDC_F1_PP_NOTE",
+        "token": null,
+        "asset": "TODO",
+        "PlasmaVault": "0xC1926C01ED88E93F5C266F3B43AF57c1f6E63b5D"
+      },
+      {
+        "name": "IporPlasmaVaultDai",
+        "token": null,
+        "asset": "TODO",
+        "PlasmaVault": "0x20e934c725b6703f0aC696F1689008057dB9Ac44"
+      },
+      {
+        "name": "IporPlasmaVaultUsdt",
+        "token": null,
+        "asset": "TODO",
+        "PlasmaVault": "0xAbAb980f0eCB232D52f422C6B68D25C3d0c18E3e"
+      },
+      {
+        "name": "PlasmaVaultWeETH",
+        "token": null,
+        "asset": "TODO",
+        "PlasmaVault": "0x087b40429637F5366175b1C9379613b01d00a860"
+      },
+      {
+        "name": "PlasmaVault_stETH_ipstETHfusion",
+        "token": null,
+        "asset": "TODO",
+        "PlasmaVault": "0x0552E28123A19FF2853D1ED3BE75Ef1329BB6ca8"
+      },
+      {
+        "name": "PlasmaVault_USDC_Autopilot_USDC",
+        "token": null,
+        "asset": "TODO",
+        "PlasmaVault": "0x3151cEE0cdb517C0E7Db2B55FF5085e7D1809d90"
+      },
+      {
+        "name": "IporPlasmaVaultWBTC",
+        "token": null,
+        "asset": "TODO",
+        "PlasmaVault": "0x1fdf5dc3f915Cb40E0AD5690DE51E3cB464d1BAD"
+      },
+      {
+        "name": "IporPlasmaVaultWEth",
+        "token": null,
+        "asset": "TODO",
+        "PlasmaVault": "0x9824dCdac89F208Bf8b5Cb5C4Dc41F04a0878607"
+      },
+      {
+        "name": "wBTC Debt Vault Loop sUSDe PYUSD",
+        "token": "tessWBTCLoopPYUSD",
+        "asset": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+        "PlasmaVault": "0x61b1EB620613890Daa2763A4F59dF38e46832EF4"
+      },
+      {
+        "name": "TESS wstETH Debt Vault LO",
+        "token": "tesswstETHLO",
+        "asset": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+        "PlasmaVault": "0x378d18EcD80430895Df2c034327edAC16b3f1372"
       }
     ],
     "fuses": [
@@ -1902,6 +2010,32 @@
             }
           }
         }
+      },
+      {
+        "name": "ReservoirPriceOracleMiddlewareWithRolesProxy",
+        "versions": {
+          "2026-04-10_001": {
+            "address": "0x5992DC71F8BfE2bA8b682a4AdCcbaf868A5c59EA",
+            "price_feeds": {
+              "0x09D4214C03D01F49544C0448DBE3A27f768F2b34": {
+                "symbol": "rUSD",
+                "source": "0x8fFfFfd4AfB6115b954Bd326cbe7B4BA576818f6"
+              },
+              "0x738d1115B90efa71AE468F1287fc864775e23a31": {
+                "symbol": "srUSD",
+                "source": "0x810625fCB9b9819a02a135DE1172b468ad673FD8"
+              },
+              "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48": {
+                "symbol": "USDC",
+                "source": "0x8fFfFfd4AfB6115b954Bd326cbe7B4BA576818f6"
+              },
+              "0xd3fD63209FA2D55B07A0f6db36C2f43900be3094": {
+                "symbol": "wsrUSD",
+                "source": "0xf137329A9851203C9B2e39794172DD5Da4D66d8d"
+              }
+            }
+          }
+        }
       }
     ]
   },
@@ -2157,6 +2291,30 @@
         "token": "AWT2",
         "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
         "PlasmaVault": "0x33Eba5AE549c859c7226aA8031796b181568204A"
+      },
+      {
+        "name": "IporPlasmaVaultUsdc",
+        "token": null,
+        "asset": "TODO",
+        "PlasmaVault": "0xC015d83e24FDDe23100AD1E9baD837878fbfaB94"
+      },
+      {
+        "name": "PlasmaVaultWstETH",
+        "token": null,
+        "asset": "TODO",
+        "PlasmaVault": "0x7C655d660E2b09126B0AD6851F99d70d3715Fd9b"
+      },
+      {
+        "name": "IporPlasmaVaultWBTC",
+        "token": null,
+        "asset": "TODO",
+        "PlasmaVault": "0xD66964BD4049f7Fd2e279FE048eAA2c12E802658"
+      },
+      {
+        "name": "IporPlasmaVaultWEth",
+        "token": null,
+        "asset": "TODO",
+        "PlasmaVault": "0x18B9Dc9762Ec6095f34f2d77042Ab8283fA764B4"
       }
     ],
     "fuses": [
@@ -3702,6 +3860,60 @@
         "token": "BW2",
         "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
         "PlasmaVault": "0x3CFe1157f319Eecf38e17FeE0fbeF7A3A507a50B"
+      },
+      {
+        "name": "IporPlasmaVaultCbBTC",
+        "token": null,
+        "asset": "TODO",
+        "PlasmaVault": "0x31A421271414641cb5063B71594b642D2666dB6B"
+      },
+      {
+        "name": "IporPlasmaVaultUsdcLPCO",
+        "token": null,
+        "asset": "TODO",
+        "PlasmaVault": "0x09f77a2552b83E157Cd5d49867b5D580B50588ea"
+      },
+      {
+        "name": "IporPlasmaVaultUsdcCSLL",
+        "token": null,
+        "asset": "TODO",
+        "PlasmaVault": "0xB02D87EB201f56ba6aFa24C0969982bC4c4E8599"
+      },
+      {
+        "name": "IporPlasmaVaultWEth",
+        "token": null,
+        "asset": "TODO",
+        "PlasmaVault": "0x496E39F0Aa349c24032E5636E9180e7265C3FeCD"
+      },
+      {
+        "name": "PlasmaVault_USDC_BASEX",
+        "token": null,
+        "asset": "TODO",
+        "PlasmaVault": "0xa51787E262E53220bbEef297613ee28a9C011937"
+      },
+      {
+        "name": "IporPlasmaVaultUsdc",
+        "token": null,
+        "asset": "TODO",
+        "PlasmaVault": "0x45aa96f0b3188D47a1DaFdbefCE1db6B37f58216"
+      },
+      {
+        "name": "IporPlasmaVaultWstETH",
+        "token": null,
+        "asset": "TODO",
+        "PlasmaVault": "0xC4C00d8b323f37527eEda27c87412378be9F68Ec"
+      },
+      {
+        "name": "Vault",
+        "token": "VLT",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0xd0d5Ed1B4102a7c0B16C178Ab10EC56c14d4f974"
+      },
+      {
+        "name": "TAU cbETH Dynamic Looping",
+        "token": "TAUCBETHB",
+        "asset": "0x2Ae3F1Ec7F1F5012CFEab0185bfc7aa3cf0DEc22",
+        "PlasmaVault": "0x563641EC60A5b598Ff78f51892E90E2Ee9c06A53"
       }
     ],
     "fuses": [
@@ -4608,6 +4820,28 @@
             "address": "0x56FFd1794E20bF04AC4D4B0992B83184cFCa9E9C"
           }
         }
+      },
+      {
+        "name": "PriceOracleMiddlewareWithRolesForIporWstETHProxy",
+        "versions": {
+          "2026-03-02_001": {
+            "address": "0x0B2Eb332c5B38F13f0c2D0b1039E0302F985Be09",
+            "price_feeds": {
+              "0xc1CBa3fCea344f92D9239c08C0568f6F2F0ee452": {
+                "symbol": "wstETH",
+                "source": "0x5a7417E197b61133061fd1aEe5676fE436Cd4b5f"
+              },
+              "0x4200000000000000000000000000000000000006": {
+                "symbol": "WETH",
+                "source": "0x71041dddad3595F9CEd3DcCFBe3D1F4b0a16Bb70"
+              },
+              "0xD4a0e0b9149BCee3C920d2E00b5dE09138fd8bb7": {
+                "symbol": "aBasWETH",
+                "source": "0x71041dddad3595F9CEd3DcCFBe3D1F4b0a16Bb70"
+              }
+            }
+          }
+        }
       }
     ]
   },
@@ -4922,6 +5156,12 @@
         "token": "UTL",
         "asset": "0x078D782b760474a361dDA0AF3839290b0EF57AD6",
         "PlasmaVault": "0xB7ad54CC5b5E0A7D41884DD650F27DF3aB20d020"
+      },
+      {
+        "name": "PlasmaVault_wETH_K3WETH",
+        "token": null,
+        "asset": "TODO",
+        "PlasmaVault": "0x2aF2146E6722B80A0A455F405eDFF3993715E417"
       }
     ],
     "pools": []
@@ -6159,6 +6399,284 @@
         "token": "TK1",
         "asset": "0x203A662b0BD271A6ed5a60EdFbd04bFce608FD36",
         "PlasmaVault": "0x3e2e0AE37B2d570b9998D33C3e4f197234656d8f"
+      }
+    ],
+    "price_oracles": [
+      {
+        "name": "PriceOracleMiddlewareUsdWithRolesProxy",
+        "versions": {
+          "2026-02-06_001": {
+            "address": "0x700BAD7fA21147fC341Ef0706cce53253eD15494"
+          }
+        }
+      }
+    ]
+  },
+  "botanix": {
+    "fuses": [
+      {
+        "name": "AsyncActionBalanceFuse",
+        "versions": {
+          "2026-04-30": "0xAb573134382dB1D2fb35a6b90328bdf10F45eC41"
+        }
+      },
+      {
+        "name": "AsyncActionFuse",
+        "versions": {
+          "2026-04-30": "0xdD1672Aa9C8f493047D6Ef90Dd8BaeD84c9b0F86"
+        }
+      },
+      {
+        "name": "BalanceFuseBurnRequestFee",
+        "versions": {
+          "2026-04-30": "0xbBDD2a10E84972409BF5430dea35571E18A462Ba"
+        }
+      },
+      {
+        "name": "BalanceFuseErc20",
+        "versions": {
+          "2026-04-30": "0x4c8167bca33fA7eF513ABF55Eb30B13F840De064"
+        }
+      },
+      {
+        "name": "BalanceFuseErc4626Market1",
+        "versions": {
+          "2026-04-30": "0x43d30dA1CC25A6DEbBD008EA8b79DD936f859185"
+        }
+      },
+      {
+        "name": "BalanceFuseErc4626Market2",
+        "versions": {
+          "2026-04-30": "0x338e453839247277911ACce77f4200d4c269EA28"
+        }
+      },
+      {
+        "name": "BalanceFuseErc4626Market3",
+        "versions": {
+          "2026-04-30": "0x264e5a5159AE8FAD6bCb6EE832D441b92C2FF908"
+        }
+      },
+      {
+        "name": "BalanceFuseErc4626Market4",
+        "versions": {
+          "2026-04-30": "0xa91272EA260304eBF71eEc5086234Bab667a4e56"
+        }
+      },
+      {
+        "name": "BalanceFuseErc4626Market5",
+        "versions": {
+          "2026-04-30": "0x7E0F00968566589d6DF5ce1b015E2F73302d2140"
+        }
+      },
+      {
+        "name": "BalanceFuseFlashLoanMorpho",
+        "versions": {
+          "2026-04-30": "0xe6ea0436F2e0ea270F8F513828ddd5485908e62D"
+        }
+      },
+      {
+        "name": "BalanceFuseMetaMorphoMarket0001",
+        "versions": {
+          "2026-04-30": "0x9872bF54a1d8E00D5693764E59D5beBC5F84D4CD"
+        }
+      },
+      {
+        "name": "BalanceFuseMorpho",
+        "versions": {
+          "2026-04-30": "0xe64E5B5e3e21336a6BA5Cbb0484ca299ac529Bc3"
+        }
+      },
+      {
+        "name": "BalanceFuseMorphoLiquidityInMarkets",
+        "versions": {
+          "2026-04-30": "0xbb1D27CBB4192A903F07c583AbC04ebFD5f51E71"
+        }
+      },
+      {
+        "name": "BalanceFuseUniversalTokenSwapper",
+        "versions": {
+          "2026-04-30": "0x1Df59000663348Cc2155e665ac78a158F29810A9"
+        }
+      },
+      {
+        "name": "BorrowFuseMorpho",
+        "versions": {
+          "2026-04-30": "0x2C51935f78F46C5aC8E1E6F6EA15fD9f662Fbe7c"
+        }
+      },
+      {
+        "name": "BurnRequestFeeFuse",
+        "versions": {
+          "2026-04-30": "0x878116d5890C74a9AcDca5D4D3AF8f6959003b21"
+        }
+      },
+      {
+        "name": "BurnRequestFeeFuseV2",
+        "versions": {
+          "2026-04-30": "0x8b82de9FfFB6526C2ad0710697324159139949D1"
+        }
+      },
+      {
+        "name": "ClaimRewardsFuseMorpho",
+        "versions": {
+          "2026-04-30": "0xadf30646746b897a0eC7a09064D2F0a10F14923D"
+        }
+      },
+      {
+        "name": "CollateralFuseMorpho",
+        "versions": {
+          "2026-04-30": "0x617e73ae5a042873189c33D8A8456A0121ee8609"
+        }
+      },
+      {
+        "name": "ConfigureInstantWithdrawalFuse",
+        "versions": {
+          "2026-04-30": "0x5eb916290582f7F0520acF09F8302efaD4a9c8c9"
+        }
+      },
+      {
+        "name": "FlashloanFuseMorpho",
+        "versions": {
+          "2026-04-30": "0x7FaF1ca48a501F161BF613b0eb8EFE9052D96195"
+        }
+      },
+      {
+        "name": "FuseRedeemFromRequestPlasmaVaultMarket1",
+        "versions": {
+          "2026-04-30": "0x9289A9e8726f674e6ae7137f6b17Ac6D3E7D1409"
+        }
+      },
+      {
+        "name": "FuseRequestSharesPlasmaVaultMarket1",
+        "versions": {
+          "2026-04-30": "0xbBF6b36262540519Dd58639F08F508906B287C72"
+        }
+      },
+      {
+        "name": "FuseRequestSharesPlasmaVaultV2",
+        "versions": {
+          "2026-04-30": "0x0878d513fC242D24C47b3a7f45e6aABec3ceA727"
+        }
+      },
+      {
+        "name": "PlasmaVaultBalanceAssetsValidationFuse",
+        "versions": {
+          "2026-04-30": "0xca738256E210a0D6A760D448f8Df7de923C688c0"
+        }
+      },
+      {
+        "name": "RequestFeeRefundFuse",
+        "versions": {
+          "2026-04-30": "0x72048498eDE292F041F541f202725afE18bec21A"
+        }
+      },
+      {
+        "name": "SupplyFuseErc4626Market1",
+        "versions": {
+          "2026-04-30": "0x83B631aB4A70F4d5b871FDcF4cd394C840C478e7"
+        }
+      },
+      {
+        "name": "SupplyFuseErc4626Market2",
+        "versions": {
+          "2026-04-30": "0x53b2Bc613ef1fF7E3A787a77A71EAC05BB3F43C4"
+        }
+      },
+      {
+        "name": "SupplyFuseErc4626Market3",
+        "versions": {
+          "2026-04-30": "0xb37af5920B04fd6B94eD76c871061E688326851e"
+        }
+      },
+      {
+        "name": "SupplyFuseErc4626Market4",
+        "versions": {
+          "2026-04-30": "0x13B6058F3f0cf7A8e00a7087EA0638C77AA350B8"
+        }
+      },
+      {
+        "name": "SupplyFuseErc4626Market5",
+        "versions": {
+          "2026-04-30": "0x5fc54B455240318EcaA6Bbb9f9f129073f67789d"
+        }
+      },
+      {
+        "name": "SupplyFuseMetaMorphoMarket0001",
+        "versions": {
+          "2026-04-30": "0xA931bE028Ca0c35f28E744D3644f9376d0e19907"
+        }
+      },
+      {
+        "name": "SupplyFuseMorpho",
+        "versions": {
+          "2026-04-30": "0x09238A7dB62f9ce6AB3FEEfE1Ee9a89B13a45039"
+        }
+      },
+      {
+        "name": "SupplyFuseMorphoLiquidityInMarkets",
+        "versions": {
+          "2026-04-30": "0xEe1407d7c9Ea6f355b0Cf37bCaCAF00AE3748093"
+        }
+      },
+      {
+        "name": "SwapFuseUniversalTokenSwapperWithVerification",
+        "versions": {
+          "2026-04-30": "0x65B98A63e3EDF821562A948367b07464a6527025"
+        }
+      },
+      {
+        "name": "UniversalReaderBalanceFuses",
+        "versions": {
+          "2026-04-30": "0x60770A8CC8E252314f3A88D6F7626Ca194466821"
+        }
+      },
+      {
+        "name": "UniversalTokenSwapperEthFuse",
+        "versions": {
+          "2026-04-30": "0x5a1B280E1bD15D63f639859eC7060e06f4201ecd"
+        }
+      },
+      {
+        "name": "UniversalTokenSwapperFuse",
+        "versions": {
+          "2026-04-30": "0x44971B16b4dDA3fdddaff03eb3D55CfeBEa8593c"
+        }
+      },
+      {
+        "name": "UpdateMarketsBalancesFuse",
+        "versions": {
+          "2026-04-30": "0x82eB4A8fD471Aa402Bac68F7a9a042547FE0a738"
+        }
+      }
+    ],
+    "prehooks": [
+      {
+        "name": "ExchangeRateValidatorPreHook",
+        "versions": {
+          "2026-04-30": "0x2d71762F9ccD9A5b4D41769122C0dD1A8735559c"
+        }
+      },
+      {
+        "name": "PreHookPauseFunction",
+        "versions": {
+          "2026-04-30": "0xa2571d0aD5a50306E29549E347EBE61a88b6B91e"
+        }
+      },
+      {
+        "name": "PreHookUpdateBalancesIgnoreDust",
+        "versions": {
+          "2026-04-30": "0x95814408A3A0522e0de98b90F62F67Dc1d62deE1"
+        }
+      }
+    ],
+    "price_oracles": [
+      {
+        "name": "PriceOracleMiddlewareUsdWithRolesProxy",
+        "versions": {
+          "2026-04-30_001": {
+            "address": "0x79729c68179F1F89F90b6b12c05eF2cB30D33D5b"
+          }
+        }
       }
     ]
   }
