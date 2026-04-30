@@ -114,7 +114,8 @@ def update_addresses_json(plasma_vaults_file, addresses_file):
                 "ink": {"vaults": []},
                 "plasma": {"vaults": []},
                 "avalanche": {"vaults": []},
-                "katana": {"vaults": []}
+                "katana": {"vaults": []},
+                "botanix": {"vaults": []}
             }
 
         web3_connections = create_web3_connections()
@@ -139,6 +140,8 @@ def update_addresses_json(plasma_vaults_file, addresses_file):
                 chain = "avalanche"
             elif "katana" in file_path:
                 chain = "katana"
+            elif "botanix" in file_path:
+                chain = "botanix"
 
             if not chain:
                 continue

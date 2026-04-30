@@ -37,7 +37,8 @@ def get_rpc_urls():
         "ink": os.getenv("INK_RPC_URL"),
         "plasma": os.getenv("PLASMA_RPC_URL"),
         "avalanche": os.getenv("AVALANCHE_RPC_URL"),
-        "katana": os.getenv("KATANA_RPC_URL")
+        "katana": os.getenv("KATANA_RPC_URL"),
+        "botanix": os.getenv("BOTANIX_RPC_URL")
     }
 
 def validate_rpc_urls():
@@ -58,7 +59,8 @@ CHAIN_START_BLOCKS = {
     "ink": 19102371,
     "plasma": 1901043,
     "avalanche": 69330233,
-    "katana": 23646820
+    "katana": 23646820,
+    "botanix": 5327110
 }
 
 # Chunk sizes for event fetching per chain
@@ -72,6 +74,7 @@ CHUNK_SIZES = {
     "plasma": 10000,
     "avalanche": 10000,
     "katana": 10000,
+    "botanix": 100000,
     "default": 10000    # Default chunk size for any unlisted chains
 }
 
@@ -85,7 +88,8 @@ EXPLORERS = {
     "ink": "https://explorer.inkonchain.com/address/",
     "plasma": "https://plasmascan.to/address/",
     "avalanche": "https://snowscan.xyz/address/",
-    "katana": "https://katanascan.com/address/"
+    "katana": "https://katanascan.com/address/",
+    "botanix": "https://botanixscan.io/address/"
 }
 
 # Explorer types for URL generation
@@ -98,7 +102,8 @@ EXPLORER_TYPES = {
     "ink": "blockscout",
     "plasma": "routescan",
     "avalanche": "etherscan",
-    "katana": "etherscan"
+    "katana": "etherscan",
+    "botanix": "routescan"
 }
 
 # Chain IDs
@@ -111,7 +116,8 @@ CHAIN_IDS = {
     "ink": "57073",
     "plasma": "9745",
     "avalanche": "43114",
-    "katana": "747474"
+    "katana": "747474",
+    "botanix": "3637"
 }
 
 # Chain display names
@@ -124,7 +130,8 @@ NAMES = {
     "ink": "Ink",
     "plasma": "Plasma",
     "avalanche": "Avalanche",
-    "katana": "Katana"
+    "katana": "Katana",
+    "botanix": "Botanix"
 }
 
 # Common ABIs
@@ -206,7 +213,8 @@ def get_chain_from_path(path):
         "base": "base",
         "plasma": "plasma",
         "avalanche": "avalanche",
-        "katana": "katana"
+        "katana": "katana",
+        "botanix": "botanix"
     }
     
     for chain in chains:
