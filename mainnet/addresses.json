@@ -839,6 +839,12 @@
         "token": "tesswstETHLO",
         "asset": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
         "PlasmaVault": "0x378d18EcD80430895Df2c034327edAC16b3f1372"
+      },
+      {
+        "name": "TESS USDC SyrupUSDT USDT Loop",
+        "token": "tessUSDCSyrupUSDTLp",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0xeef16982403A89BcbF16dff050A5BA5b86a02C8A"
       }
     ],
     "fuses": [
@@ -3914,6 +3920,12 @@
         "token": "TAUCBETHB",
         "asset": "0x2Ae3F1Ec7F1F5012CFEab0185bfc7aa3cf0DEc22",
         "PlasmaVault": "0x563641EC60A5b598Ff78f51892E90E2Ee9c06A53"
+      },
+      {
+        "name": "Maciek F13",
+        "token": "MF13",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0xBf1DbD00933f4b4C785ABF8E0b5537d62a33F552"
       }
     ],
     "fuses": [
