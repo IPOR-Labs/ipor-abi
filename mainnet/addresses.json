@@ -845,6 +845,18 @@
         "token": "tessUSDCSyrupUSDTLp",
         "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "PlasmaVault": "0xeef16982403A89BcbF16dff050A5BA5b86a02C8A"
+      },
+      {
+        "name": "TAU Boosted pmUSD",
+        "token": "TAUPMUSDB",
+        "asset": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "PlasmaVault": "0x75ccFec6436ADabD654C5f1F73e90721347E9034"
+      },
+      {
+        "name": "TESS USDC wsrUSD Loop",
+        "token": "tessUSDCwsrUSDLp",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0x4c5A611694c426caE9335D53e95b885090cF8C31"
       }
     ],
     "fuses": [
@@ -3926,6 +3938,12 @@
         "token": "MF13",
         "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
         "PlasmaVault": "0xBf1DbD00933f4b4C785ABF8E0b5537d62a33F552"
+      },
+      {
+        "name": "TAU cbETH Dynamic Looping",
+        "token": "TAUCBETH",
+        "asset": "0x2Ae3F1Ec7F1F5012CFEab0185bfc7aa3cf0DEc22",
+        "PlasmaVault": "0xe883426B4fc84A7f5cc86415CAbBef43E73a4CC8"
       }
     ],
     "fuses": [
@@ -3962,7 +3980,8 @@
       {
         "name": "BalanceFuseAerodromeSlipstream",
         "versions": {
-          "2025-10-09": "0xaff9bbbEa884EF4Db30e4db6a3f68D50E44E1188"
+          "2025-10-09": "0xaff9bbbEa884EF4Db30e4db6a3f68D50E44E1188",
+          "2026-05-06": "0x3075a82e51e3Ef3990656e4B3829507FB5275B53"
         }
       },
       {
@@ -4200,7 +4219,8 @@
       {
         "name": "CLGaugeFuseAerodromeSlipstream",
         "versions": {
-          "2025-10-09": "0x3d129395a55dfa3Fd03dF41694748Ef7fe6c13E4"
+          "2025-10-09": "0x3d129395a55dfa3Fd03dF41694748Ef7fe6c13E4",
+          "2026-05-06": "0x399599ac1807eb7F6eE6499a1EBc2BA68e01A21A"
         }
       },
       {
@@ -4248,7 +4268,8 @@
       {
         "name": "ClaimRewardsGaugeFuseAerodromeSlipstream",
         "versions": {
-          "2025-10-09": "0x52f288B352e8dC39777C3F41Dbd0474f4583B237"
+          "2025-10-09": "0x52f288B352e8dC39777C3F41Dbd0474f4583B237",
+          "2026-05-06": "0xD7B15C06CE4Cc807Ea0510B862407BB680C95344"
         }
       },
       {
@@ -4267,7 +4288,8 @@
       {
         "name": "CollectFuseAerodromeSlipstream",
         "versions": {
-          "2025-10-09": "0x414E852a854b21F8eF22DB560f2a7d8B50444A2e"
+          "2025-10-09": "0x414E852a854b21F8eF22DB560f2a7d8B50444A2e",
+          "2026-05-06": "0x67442EDed8f704b4E1330219D96E6B20F4FB280a"
         }
       },
       {
@@ -4385,13 +4407,15 @@
       {
         "name": "ModifyPossitionFuseAerodromeSlipstream",
         "versions": {
-          "2025-10-09": "0x81dd870620839a927d076Cbe40432cCAA3e53740"
+          "2025-10-09": "0x81dd870620839a927d076Cbe40432cCAA3e53740",
+          "2026-05-06": "0xBb60dC9da146617A3E9101D47dc9326D6D3FaF30"
         }
       },
       {
         "name": "NewPositionFuseAerodromeSlipstream",
         "versions": {
-          "2025-10-09": "0x4426a0A9acE4a784AbB0417B88bc9f3091aC210F"
+          "2025-10-09": "0x4426a0A9acE4a784AbB0417B88bc9f3091aC210F",
+          "2026-05-06": "0xB6A36F64aa10FFC8B6220C2f47c06670c18bAc5d"
         }
       },
       {
