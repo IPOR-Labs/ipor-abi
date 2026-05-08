@@ -3944,6 +3944,30 @@
         "token": "TAUCBETH",
         "asset": "0x2Ae3F1Ec7F1F5012CFEab0185bfc7aa3cf0DEc22",
         "PlasmaVault": "0xe883426B4fc84A7f5cc86415CAbBef43E73a4CC8"
+      },
+      {
+        "name": "Base ETH Lending Optimizer",
+        "token": "CSETHLO",
+        "asset": "0x4200000000000000000000000000000000000006",
+        "PlasmaVault": "0x54DE9070FD0b150E9C093BC53b68635f98baE5fC"
+      },
+      {
+        "name": "Base ETH Lending Optimizer",
+        "token": "CSETHLO",
+        "asset": "0x4200000000000000000000000000000000000006",
+        "PlasmaVault": "0x39865B8FaEB81F3ffed988d4A9E815b011389750"
+      },
+      {
+        "name": "Base ETH Lending Optimizer",
+        "token": "CSETHLO",
+        "asset": "0x4200000000000000000000000000000000000006",
+        "PlasmaVault": "0x17d0f109EE895bAD0b68AA104AA72bd0b003AD8E"
+      },
+      {
+        "name": "Base cbETH Loooper",
+        "token": "CSCBETHLL",
+        "asset": "0x4200000000000000000000000000000000000006",
+        "PlasmaVault": "0x5900C3b72458F12967DC1bef35b92d271F5cDBc1"
       }
     ],
     "fuses": [
