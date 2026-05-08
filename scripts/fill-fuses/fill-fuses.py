@@ -55,7 +55,8 @@ def update_addresses_json(fuses_file, addresses_file):
                 "ink": {"fuses": []},
                 "plasma": {"fuses": []},
                 "avalanche": {"fuses": []},
-                "katana": {"fuses": []}
+                "katana": {"fuses": []},
+                "botanix": {"fuses": []}
             }
 
         blockchain_fuses = {
@@ -67,7 +68,8 @@ def update_addresses_json(fuses_file, addresses_file):
             "ink": {},
             "plasma": {},
             "avalanche": {},
-            "katana": {}
+            "katana": {},
+            "botanix": {}
         }
 
         web3_connections = create_web3_connections()
@@ -100,6 +102,8 @@ def update_addresses_json(fuses_file, addresses_file):
                 chain = "avalanche"
             elif "katana" in file_path:
                 chain = "katana"
+            elif "botanix" in file_path:
+                chain = "botanix"
 
             if not chain:
                 continue

@@ -6,7 +6,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Fuses List
 
-*Last updated: 2026-05-06 14:08:08 UTC*
+*Last updated: 2026-05-08 09:06:45 UTC*
 
 ### Ethereum Fuses
 
@@ -695,9 +695,53 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `UniversalTokenSwapperFuse` | `0x431b0520a01B5ECd516b99F8080aCb79FC7DA143` [View](https://katanascan.com/address/0x431b0520a01B5ECd516b99F8080aCb79FC7DA143#code) |
 | `UpdateMarketsBalancesFuse` | `0x5b97E7937755939Dba2fdc053068178DBF350c7b` [View](https://katanascan.com/address/0x5b97E7937755939Dba2fdc053068178DBF350c7b#code) |
 
+### Botanix Fuses
+
+| Fuse Name | Address / View in Explorer |
+|-----------|---------------------------|
+| `AsyncActionBalanceFuse` | `0xAb573134382dB1D2fb35a6b90328bdf10F45eC41` [View](https://botanixscan.io/address/0xAb573134382dB1D2fb35a6b90328bdf10F45eC41/contract/3637/code) |
+| `AsyncActionFuse` | `0xdD1672Aa9C8f493047D6Ef90Dd8BaeD84c9b0F86` [View](https://botanixscan.io/address/0xdD1672Aa9C8f493047D6Ef90Dd8BaeD84c9b0F86/contract/3637/code) |
+| `BalanceFuseBurnRequestFee` | `0xbBDD2a10E84972409BF5430dea35571E18A462Ba` [View](https://botanixscan.io/address/0xbBDD2a10E84972409BF5430dea35571E18A462Ba/contract/3637/code) |
+| `BalanceFuseErc20` | `0x4c8167bca33fA7eF513ABF55Eb30B13F840De064` [View](https://botanixscan.io/address/0x4c8167bca33fA7eF513ABF55Eb30B13F840De064/contract/3637/code) |
+| `BalanceFuseErc4626Market1` | `0x43d30dA1CC25A6DEbBD008EA8b79DD936f859185` [View](https://botanixscan.io/address/0x43d30dA1CC25A6DEbBD008EA8b79DD936f859185/contract/3637/code) |
+| `BalanceFuseErc4626Market2` | `0x338e453839247277911ACce77f4200d4c269EA28` [View](https://botanixscan.io/address/0x338e453839247277911ACce77f4200d4c269EA28/contract/3637/code) |
+| `BalanceFuseErc4626Market3` | `0x264e5a5159AE8FAD6bCb6EE832D441b92C2FF908` [View](https://botanixscan.io/address/0x264e5a5159AE8FAD6bCb6EE832D441b92C2FF908/contract/3637/code) |
+| `BalanceFuseErc4626Market4` | `0xa91272EA260304eBF71eEc5086234Bab667a4e56` [View](https://botanixscan.io/address/0xa91272EA260304eBF71eEc5086234Bab667a4e56/contract/3637/code) |
+| `BalanceFuseErc4626Market5` | `0x7E0F00968566589d6DF5ce1b015E2F73302d2140` [View](https://botanixscan.io/address/0x7E0F00968566589d6DF5ce1b015E2F73302d2140/contract/3637/code) |
+| `BalanceFuseFlashLoanMorpho` | `0xe6ea0436F2e0ea270F8F513828ddd5485908e62D` [View](https://botanixscan.io/address/0xe6ea0436F2e0ea270F8F513828ddd5485908e62D/contract/3637/code) |
+| `BalanceFuseMetaMorphoMarket0001` | `0x9872bF54a1d8E00D5693764E59D5beBC5F84D4CD` [View](https://botanixscan.io/address/0x9872bF54a1d8E00D5693764E59D5beBC5F84D4CD/contract/3637/code) |
+| `BalanceFuseMorpho` | `0xe64E5B5e3e21336a6BA5Cbb0484ca299ac529Bc3` [View](https://botanixscan.io/address/0xe64E5B5e3e21336a6BA5Cbb0484ca299ac529Bc3/contract/3637/code) |
+| `BalanceFuseMorphoLiquidityInMarkets` | `0xbb1D27CBB4192A903F07c583AbC04ebFD5f51E71` [View](https://botanixscan.io/address/0xbb1D27CBB4192A903F07c583AbC04ebFD5f51E71/contract/3637/code) |
+| `BalanceFuseUniversalTokenSwapper` | `0x1Df59000663348Cc2155e665ac78a158F29810A9` [View](https://botanixscan.io/address/0x1Df59000663348Cc2155e665ac78a158F29810A9/contract/3637/code) |
+| `BorrowFuseMorpho` | `0x2C51935f78F46C5aC8E1E6F6EA15fD9f662Fbe7c` [View](https://botanixscan.io/address/0x2C51935f78F46C5aC8E1E6F6EA15fD9f662Fbe7c/contract/3637/code) |
+| `BurnRequestFeeFuse` | `0x878116d5890C74a9AcDca5D4D3AF8f6959003b21` [View](https://botanixscan.io/address/0x878116d5890C74a9AcDca5D4D3AF8f6959003b21/contract/3637/code) |
+| `BurnRequestFeeFuseV2` | `0x8b82de9FfFB6526C2ad0710697324159139949D1` [View](https://botanixscan.io/address/0x8b82de9FfFB6526C2ad0710697324159139949D1/contract/3637/code) |
+| `ClaimRewardsFuseMorpho` | `0xadf30646746b897a0eC7a09064D2F0a10F14923D` [View](https://botanixscan.io/address/0xadf30646746b897a0eC7a09064D2F0a10F14923D/contract/3637/code) |
+| `CollateralFuseMorpho` | `0x617e73ae5a042873189c33D8A8456A0121ee8609` [View](https://botanixscan.io/address/0x617e73ae5a042873189c33D8A8456A0121ee8609/contract/3637/code) |
+| `ConfigureInstantWithdrawalFuse` | `0x5eb916290582f7F0520acF09F8302efaD4a9c8c9` [View](https://botanixscan.io/address/0x5eb916290582f7F0520acF09F8302efaD4a9c8c9/contract/3637/code) |
+| `FlashloanFuseMorpho` | `0x7FaF1ca48a501F161BF613b0eb8EFE9052D96195` [View](https://botanixscan.io/address/0x7FaF1ca48a501F161BF613b0eb8EFE9052D96195/contract/3637/code) |
+| `FuseRedeemFromRequestPlasmaVaultMarket1` | `0x9289A9e8726f674e6ae7137f6b17Ac6D3E7D1409` [View](https://botanixscan.io/address/0x9289A9e8726f674e6ae7137f6b17Ac6D3E7D1409/contract/3637/code) |
+| `FuseRequestSharesPlasmaVaultMarket1` | `0xbBF6b36262540519Dd58639F08F508906B287C72` [View](https://botanixscan.io/address/0xbBF6b36262540519Dd58639F08F508906B287C72/contract/3637/code) |
+| `FuseRequestSharesPlasmaVaultV2` | `0x0878d513fC242D24C47b3a7f45e6aABec3ceA727` [View](https://botanixscan.io/address/0x0878d513fC242D24C47b3a7f45e6aABec3ceA727/contract/3637/code) |
+| `PlasmaVaultBalanceAssetsValidationFuse` | `0xca738256E210a0D6A760D448f8Df7de923C688c0` [View](https://botanixscan.io/address/0xca738256E210a0D6A760D448f8Df7de923C688c0/contract/3637/code) |
+| `RequestFeeRefundFuse` | `0x72048498eDE292F041F541f202725afE18bec21A` [View](https://botanixscan.io/address/0x72048498eDE292F041F541f202725afE18bec21A/contract/3637/code) |
+| `SupplyFuseErc4626Market1` | `0x83B631aB4A70F4d5b871FDcF4cd394C840C478e7` [View](https://botanixscan.io/address/0x83B631aB4A70F4d5b871FDcF4cd394C840C478e7/contract/3637/code) |
+| `SupplyFuseErc4626Market2` | `0x53b2Bc613ef1fF7E3A787a77A71EAC05BB3F43C4` [View](https://botanixscan.io/address/0x53b2Bc613ef1fF7E3A787a77A71EAC05BB3F43C4/contract/3637/code) |
+| `SupplyFuseErc4626Market3` | `0xb37af5920B04fd6B94eD76c871061E688326851e` [View](https://botanixscan.io/address/0xb37af5920B04fd6B94eD76c871061E688326851e/contract/3637/code) |
+| `SupplyFuseErc4626Market4` | `0x13B6058F3f0cf7A8e00a7087EA0638C77AA350B8` [View](https://botanixscan.io/address/0x13B6058F3f0cf7A8e00a7087EA0638C77AA350B8/contract/3637/code) |
+| `SupplyFuseErc4626Market5` | `0x5fc54B455240318EcaA6Bbb9f9f129073f67789d` [View](https://botanixscan.io/address/0x5fc54B455240318EcaA6Bbb9f9f129073f67789d/contract/3637/code) |
+| `SupplyFuseMetaMorphoMarket0001` | `0xA931bE028Ca0c35f28E744D3644f9376d0e19907` [View](https://botanixscan.io/address/0xA931bE028Ca0c35f28E744D3644f9376d0e19907/contract/3637/code) |
+| `SupplyFuseMorpho` | `0x09238A7dB62f9ce6AB3FEEfE1Ee9a89B13a45039` [View](https://botanixscan.io/address/0x09238A7dB62f9ce6AB3FEEfE1Ee9a89B13a45039/contract/3637/code) |
+| `SupplyFuseMorphoLiquidityInMarkets` | `0xEe1407d7c9Ea6f355b0Cf37bCaCAF00AE3748093` [View](https://botanixscan.io/address/0xEe1407d7c9Ea6f355b0Cf37bCaCAF00AE3748093/contract/3637/code) |
+| `SwapFuseUniversalTokenSwapperWithVerification` | `0x65B98A63e3EDF821562A948367b07464a6527025` [View](https://botanixscan.io/address/0x65B98A63e3EDF821562A948367b07464a6527025/contract/3637/code) |
+| `UniversalReaderBalanceFuses` | `0x60770A8CC8E252314f3A88D6F7626Ca194466821` [View](https://botanixscan.io/address/0x60770A8CC8E252314f3A88D6F7626Ca194466821/contract/3637/code) |
+| `UniversalTokenSwapperEthFuse` | `0x5a1B280E1bD15D63f639859eC7060e06f4201ecd` [View](https://botanixscan.io/address/0x5a1B280E1bD15D63f639859eC7060e06f4201ecd/contract/3637/code) |
+| `UniversalTokenSwapperFuse` | `0x44971B16b4dDA3fdddaff03eb3D55CfeBEa8593c` [View](https://botanixscan.io/address/0x44971B16b4dDA3fdddaff03eb3D55CfeBEa8593c/contract/3637/code) |
+| `UpdateMarketsBalancesFuse` | `0x82eB4A8fD471Aa402Bac68F7a9a042547FE0a738` [View](https://botanixscan.io/address/0x82eB4A8fD471Aa402Bac68F7a9a042547FE0a738/contract/3637/code) |
+
 ## PreHooks List
 
-*Last updated: 2026-05-06 14:08:09 UTC*
+*Last updated: 2026-05-08 09:06:46 UTC*
 
 ### Ethereum PreHooks
 
@@ -775,9 +819,17 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `PreHookPauseFunction` | `0x4fACfaEdb6632848150f7D057AdAcB63f08de9E6` [View](https://katanascan.com/address/0x4fACfaEdb6632848150f7D057AdAcB63f08de9E6#code) |
 | `PreHookUpdateBalancesIgnoreDust` | `0x647ad8Cc72D3Ad8b0A2AA1D11b64e0B00eA91DCa` [View](https://katanascan.com/address/0x647ad8Cc72D3Ad8b0A2AA1D11b64e0B00eA91DCa#code) |
 
+### Botanix PreHooks
+
+| PreHook Name | Address / View in Explorer |
+|-----------|---------------------------|
+| `ExchangeRateValidatorPreHook` | `0x2d71762F9ccD9A5b4D41769122C0dD1A8735559c` [View](https://botanixscan.io/address/0x2d71762F9ccD9A5b4D41769122C0dD1A8735559c#code) |
+| `PreHookPauseFunction` | `0xa2571d0aD5a50306E29549E347EBE61a88b6B91e` [View](https://botanixscan.io/address/0xa2571d0aD5a50306E29549E347EBE61a88b6B91e#code) |
+| `PreHookUpdateBalancesIgnoreDust` | `0x95814408A3A0522e0de98b90F62F67Dc1d62deE1` [View](https://botanixscan.io/address/0x95814408A3A0522e0de98b90F62F67Dc1d62deE1#code) |
+
 ## Price Oracles List
 
-*Last updated: 2026-05-06 14:32:06 UTC*
+*Last updated: 2026-05-08 09:32:24 UTC*
 
 ### Ethereum Price Oracles
 
@@ -1077,5 +1129,18 @@ No price feeds found for this version.
 #### Price Feeds for `PriceOracleMiddlewareUsdWithRolesProxy`
 
 ##### Version 2026-02-06 - `0x700BAD7fA21147fC341Ef0706cce53253eD15494` [View](https://katanascan.com/address/0x700BAD7fA21147fC341Ef0706cce53253eD15494#code)
+
+No price feeds found for this version.
+
+
+### Botanix Price Oracles
+
+| Price Oracle Name | Address / View in Explorer |
+|-----------|---------------------------|
+| `PriceOracleMiddlewareUsdWithRolesProxy` | `0x79729c68179F1F89F90b6b12c05eF2cB30D33D5b` [View](https://botanixscan.io/address/0x79729c68179F1F89F90b6b12c05eF2cB30D33D5b#code) |
+
+#### Price Feeds for `PriceOracleMiddlewareUsdWithRolesProxy`
+
+##### Version 2026-04-30 - `0x79729c68179F1F89F90b6b12c05eF2cB30D33D5b` [View](https://botanixscan.io/address/0x79729c68179F1F89F90b6b12c05eF2cB30D33D5b#code)
 
 No price feeds found for this version.
