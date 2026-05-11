@@ -857,6 +857,12 @@
         "token": "tessUSDCwsrUSDLp",
         "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "PlasmaVault": "0x4c5A611694c426caE9335D53e95b885090cF8C31"
+      },
+      {
+        "name": "CurveYield crvUSD",
+        "token": "cy-crvUSD",
+        "asset": "0xf939E0A03FB07F59A73314E73794Be0E57ac1b4E",
+        "PlasmaVault": "0xE31Aa86e21e420d03E52AaA06C349BDC525a664F"
       }
     ],
     "fuses": [
@@ -3968,6 +3974,12 @@
         "token": "CSCBETHLL",
         "asset": "0x4200000000000000000000000000000000000006",
         "PlasmaVault": "0x5900C3b72458F12967DC1bef35b92d271F5cDBc1"
+      },
+      {
+        "name": "CurveYield crvUSD",
+        "token": "cy-crvUSD",
+        "asset": "0x417Ac0e078398C154EdFadD9Ef675d30Be60Af93",
+        "PlasmaVault": "0x574D968Dea29F6D488E03392A28A3E230D0f76d9"
       }
     ],
     "fuses": [
