@@ -911,6 +911,12 @@
         "token": "wbtcAaveEthenaLp",
         "asset": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
         "PlasmaVault": "0xE309690039d139fF75ae1154eaA858537137931D"
+      },
+      {
+        "name": "Tesseract USDC Vault Share",
+        "token": "teUSDC",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0x5c87C0480Df93eFfE05A234bb327Ab50F0A9D5dd"
       }
     ],
     "fuses": [
@@ -4196,6 +4202,12 @@
         "token": "scyCRV",
         "asset": "0xAf16C06AA672D35d94641F966e82d0eb4dBF8F80",
         "PlasmaVault": "0xC329b45591be3e728D64b7C5475de9E698bAeff6"
+      },
+      {
+        "name": "IPOR USDC Vault",
+        "token": "ipUSDC",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x25f5B6bDbF41Fb634e447c1Ba3579091864c33d5"
       }
     ],
     "fuses": [
