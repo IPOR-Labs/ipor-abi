@@ -863,6 +863,54 @@
         "token": "cy-crvUSD",
         "asset": "0xf939E0A03FB07F59A73314E73794Be0E57ac1b4E",
         "PlasmaVault": "0xE31Aa86e21e420d03E52AaA06C349BDC525a664F"
+      },
+      {
+        "name": "PistachioFi Fear and Greed",
+        "token": "pfgETH",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0x23C04A2A2344df5Fb1c8624f4e9E0Dd3945Acc0b"
+      },
+      {
+        "name": "TESS WBTC WSR LOOP",
+        "token": "tessWBTCWSRlop",
+        "asset": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+        "PlasmaVault": "0xA9555B1036a090b69BAD3006Ac44c45147C8ec56"
+      },
+      {
+        "name": "TESS wstETH Debt Vault Ethena USDT Loop",
+        "token": "tesswstETHEthenaUSDTlp",
+        "asset": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+        "PlasmaVault": "0x7B28187556CA7220345b1B772d9c140239c62f06"
+      },
+      {
+        "name": "Tesseract wBTC Vault Share",
+        "token": "teWBTC",
+        "asset": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+        "PlasmaVault": "0x306D2b4424071bF412e354D655dCfaFA795FF7E9"
+      },
+      {
+        "name": "STRC USDC!@#!@",
+        "token": "USDC++++",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0xea0877Fa48D11c3013247d80EB909894619d7fbb"
+      },
+      {
+        "name": "Tesseract USDC Vault Share",
+        "token": "teUSDC",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0xC3ebCA71a156B4eF3EdFdFeB58bD6201f5c7daEb"
+      },
+      {
+        "name": "Tesseract USDC Vault Share",
+        "token": "teUSDC",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0xeE33A05f50D2d27AaAAB7534A91DA24643993Ab4"
+      },
+      {
+        "name": "wBTC Debt Vault AaveEthena USDT Loop",
+        "token": "wbtcAaveEthenaLp",
+        "asset": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+        "PlasmaVault": "0xE309690039d139fF75ae1154eaA858537137931D"
       }
     ],
     "fuses": [
@@ -3980,6 +4028,174 @@
         "token": "cy-crvUSD",
         "asset": "0x417Ac0e078398C154EdFadD9Ef675d30Be60Af93",
         "PlasmaVault": "0x574D968Dea29F6D488E03392A28A3E230D0f76d9"
+      },
+      {
+        "name": "IPOR USDC Prime v2",
+        "token": "ipfUSDCv2",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x0ab15fe99A6cD5130E168fb414e0140F481c4733"
+      },
+      {
+        "name": "IPOR USDC Vault",
+        "token": "ipUSDC",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0xC4F086a9389c647fFa9b8f255150c3D1Fc05D4fd"
+      },
+      {
+        "name": "IPOR USDC Vault",
+        "token": "ipUSDC",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x61e6d790ba5d70C0e1cEc6992e6478Ec00d6ee45"
+      },
+      {
+        "name": "Sentinel Base cbETH Looper",
+        "token": "SCSETHLO",
+        "asset": "0x4200000000000000000000000000000000000006",
+        "PlasmaVault": "0xd84265d4793983f2dD5810c3b25708f12d7627d1"
+      },
+      {
+        "name": "IPOR USDC Vault",
+        "token": "ipUSDC",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0xec437b8E76330515A0816cD7eD76F6DF9741b186"
+      },
+      {
+        "name": "IPOR USDC Vault",
+        "token": "ipUSDC",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x4b2DD5890cc265f2173d2bE4b8e97A31ee503517"
+      },
+      {
+        "name": "IPOR USDC Vault",
+        "token": "ipUSDC",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x029305a44E4CC319C41b016f628648419D9E4570"
+      },
+      {
+        "name": "IPOR USDC Vault",
+        "token": "ipUSDC",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x704691Ec097E180A608237b394dfB74Cf81EaA6b"
+      },
+      {
+        "name": "IPOR USDC Vault",
+        "token": "ipUSDC",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x7137C5B90C42AD669880A929FCc5799430592918"
+      },
+      {
+        "name": "IPOR USDC Vault",
+        "token": "ipUSDC",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x2Dc1c774846f562856023D3De5b176b5c11033E7"
+      },
+      {
+        "name": "UFM",
+        "token": "UFM",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x894Ae614b5AB99F88439699Ed8b18685EDa977DE"
+      },
+      {
+        "name": "IPOR USDC Vault",
+        "token": "ipUSDC",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0xDA78d6FBdFB6131ed56F897309DFd2abF91cFf97"
+      },
+      {
+        "name": "IPOR USDC Vault",
+        "token": "ipUSDC",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0xf01cb9bAD9879E463d316e66D74D33dAf6396Cb1"
+      },
+      {
+        "name": "IPOR USDC Vault",
+        "token": "ipUSDC",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0xdD0F3D8Cb76FD4A6607384e6095d128D8a6182Ca"
+      },
+      {
+        "name": "IPOR USDC Vault",
+        "token": "ipUSDC",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x1B8c3D931775f8bb1dFE3778a8e59AE1EBc94a84"
+      },
+      {
+        "name": "IPOR USDC Vault",
+        "token": "ipUSDC",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x1587Dea282fBa502a23B5AAc3208082D3694242A"
+      },
+      {
+        "name": "IPOR USDC Vault",
+        "token": "ipUSDC",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x52749d00Cad57de495D41967D588D370a4696256"
+      },
+      {
+        "name": "IPOR USDC Vault",
+        "token": "ipUSDC",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x319fa5c676E96F4D842580d8bDD613A9E60496Ea"
+      },
+      {
+        "name": "IPOR USDC Vault",
+        "token": "ipUSDC",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x0622F7582D3179BF40FCfeD28307AAb0b591e44A"
+      },
+      {
+        "name": "IPOR USDC Vault",
+        "token": "ipUSDC",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x04b046D7980F0F35532d3857656af8d11f406534"
+      },
+      {
+        "name": "Yield Vault",
+        "token": "YLD",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x0367fA401aAC9dE1E891206e1A68Eba6f60C6067"
+      },
+      {
+        "name": "My Fusion Vault",
+        "token": "MFV",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x0497d52d2EE3bF2D6F4E332C86296F7c61b3E1F7"
+      },
+      {
+        "name": "IPOR USDC Vault",
+        "token": "ipUSDC",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x401a4ec88e152f13D2EEB3084Bc55dB2b1BC6C3b"
+      },
+      {
+        "name": "IPOR USDC Vault",
+        "token": "ipUSDC",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0xb2ecB2e0EC76A47728840627Cddc889aA11b8568"
+      },
+      {
+        "name": "IPOR USDC Vault",
+        "token": "ipUSDC",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x08490f0939D8bE3695668ED27bFF4C97813d65A0"
+      },
+      {
+        "name": "IPOR USDC Vault",
+        "token": "ipUSDC",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0xABD9E81a0906076Ed107dBdE6e7856c5C6147F57"
+      },
+      {
+        "name": "IPOR USDC Vault",
+        "token": "ipUSDC",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x1ba5AE19Ca7119562F9050175A7Cdada52B2b025"
+      },
+      {
+        "name": "Staked CurveYield CRV",
+        "token": "scyCRV",
+        "asset": "0xAf16C06AA672D35d94641F966e82d0eb4dBF8F80",
+        "PlasmaVault": "0xC329b45591be3e728D64b7C5475de9E698bAeff6"
       }
     ],
     "fuses": [
@@ -4249,7 +4465,8 @@
       {
         "name": "BurnRequestFeeFuseV2",
         "versions": {
-          "2026-04-08": "0xCaBC40118e83236C751d9a3089e9b5Cf53ee4414"
+          "2026-04-08": "0xCaBC40118e83236C751d9a3089e9b5Cf53ee4414",
+          "2026-05-18": "0x7f80241a2b8dA1e11b96B5749991e9A9a40b62a9"
         }
       },
       {
@@ -4475,7 +4692,8 @@
       {
         "name": "RequestFeeRefundFuse",
         "versions": {
-          "2026-04-24": "0xa47Ba8FE6110AC337C3f71BE4aff802538aF0468"
+          "2026-04-24": "0xa47Ba8FE6110AC337C3f71BE4aff802538aF0468",
+          "2026-05-18": "0x87Ebf5F74fAb3fEbdD9Dff97E010974674D2E826"
         }
       },
       {
