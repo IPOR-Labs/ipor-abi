@@ -4693,7 +4693,8 @@
         "name": "RequestFeeRefundFuse",
         "versions": {
           "2026-04-24": "0xa47Ba8FE6110AC337C3f71BE4aff802538aF0468",
-          "2026-05-18": "0x87Ebf5F74fAb3fEbdD9Dff97E010974674D2E826"
+          "2026-05-18": "0x87Ebf5F74fAb3fEbdD9Dff97E010974674D2E826",
+          "2026-05-19": "0x00b6bdCf8fe1D43082Ce09eaEC4695ebf80c831B"
         }
       },
       {
