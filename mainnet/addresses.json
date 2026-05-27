@@ -917,6 +917,42 @@
         "token": "teUSDC",
         "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "PlasmaVault": "0x5c87C0480Df93eFfE05A234bb327Ab50F0A9D5dd"
+      },
+      {
+        "name": "Bitcoin Dollar wBTC",
+        "token": "bdBTC",
+        "asset": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+        "PlasmaVault": "0x9B8707D94800cE0CCf80182fA4F78280362b8eAA"
+      },
+      {
+        "name": "Prime HELOC Loop",
+        "token": "TAUPrimePY",
+        "asset": "0x6c3ea9036406852006290770BEdFcAbA0e23A0e8",
+        "PlasmaVault": "0xDF8A0d3c90462c4c9B5A8697C119fA67cb84a874"
+      },
+      {
+        "name": "Cipher APYX Lending Optimizer",
+        "token": "CALO",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0x30eD62e30DDa77A387cCdC203054c8E9bCA6F06B"
+      },
+      {
+        "name": "apyUSD Leverage Optimizer",
+        "token": "apyYIELD",
+        "asset": "0x38EEb52F0771140d10c4E9A9a72349A329Fe8a6A",
+        "PlasmaVault": "0x3632C7015348F835fB3b2927B1E213d1Be5Ed45D"
+      },
+      {
+        "name": "Yield Bearing XAUt Gold",
+        "token": "sXAUt",
+        "asset": "0x68749665FF8D2d112Fa859AA293F07A622782F38",
+        "PlasmaVault": "0x6e13Bafa0c851283AD81059c7841657fc87d5f0C"
+      },
+      {
+        "name": "Origin Protocol OETH Carry Trade",
+        "token": "iporOETH",
+        "asset": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "PlasmaVault": "0x19551B587715c87b2aEB3530Ac5B87a061F0A2F6"
       }
     ],
     "fuses": [
@@ -4208,6 +4244,84 @@
         "token": "ipUSDC",
         "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
         "PlasmaVault": "0x25f5B6bDbF41Fb634e447c1Ba3579091864c33d5"
+      },
+      {
+        "name": "UF",
+        "token": "UF",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0xA6eC4cf0CEb87c4c0D64eE5D635DD50485579F55"
+      },
+      {
+        "name": "Yield Bearing cbBTC",
+        "token": "scbBTC",
+        "asset": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+        "PlasmaVault": "0x32B877F2Bf3471A2BB247b0f19ce97C3743aC728"
+      },
+      {
+        "name": "IPOR USDC Vault",
+        "token": "ipUSDC",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x045c520DE4088E6a3833E57b585A73510B532546"
+      },
+      {
+        "name": "mbork learning vault",
+        "token": "MB_L_USDC",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x7743931f74157C8aC65697660102555d40D09a77"
+      },
+      {
+        "name": "IPOR USDC Vault",
+        "token": "ipUSDC",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x722e458EE30698ea7De3C1f1715CD2038be7fc16"
+      },
+      {
+        "name": "IPOR USDC Vault",
+        "token": "ipUSDC",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0xb8336012e5C61F96FF62BCedCfE601f20b092047"
+      },
+      {
+        "name": "IPOR USDC Vault",
+        "token": "ipUSDC",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x59CB11Fe4139fE2dA33F65aF4001205fd428cA00"
+      },
+      {
+        "name": "Everblue",
+        "token": "EVRB",
+        "asset": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+        "PlasmaVault": "0x85e1c03B3F87f7ea204B5Fe564695788fb20Ee08"
+      },
+      {
+        "name": "IPOR USDC Vault",
+        "token": "ipUSDC",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x972d28249cc6d273C5C42C2c0E05AB991dE6ab85"
+      },
+      {
+        "name": "Staked polBTC",
+        "token": "sBTC",
+        "asset": "0xc72232b20801bbbc16c967FbD9e05B7e1fFE32cb",
+        "PlasmaVault": "0x16a70bE4b0eb236C849A8B1238f85106027193FE"
+      },
+      {
+        "name": "Vortex",
+        "token": "VRTX",
+        "asset": "0x4200000000000000000000000000000000000006",
+        "PlasmaVault": "0x97a6dC06B39fa47D7c2b866374fA4E7b321b8761"
+      },
+      {
+        "name": "Staked polBTC",
+        "token": "spolBTC",
+        "asset": "0xc72232b20801bbbc16c967FbD9e05B7e1fFE32cb",
+        "PlasmaVault": "0x82eD5e458d7E694e72c0aB5359E1A91Ae5467Ab2"
+      },
+      {
+        "name": "Apex cbBTC",
+        "token": "APEX",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0xBbe04885ECD2E895BfBd91Ae19B56ad5DCdD9B42"
       }
     ],
     "fuses": [
