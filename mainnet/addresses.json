@@ -2429,6 +2429,12 @@
         "token": null,
         "asset": "TODO",
         "PlasmaVault": "0x18B9Dc9762Ec6095f34f2d77042Ab8283fA764B4"
+      },
+      {
+        "name": "Wizard test 2",
+        "token": "WT2",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xb0308dA61d3B55b67D17d0B4968e66DE5c3261F4"
       }
     ],
     "fuses": [
@@ -4322,6 +4328,30 @@
         "token": "APEX",
         "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
         "PlasmaVault": "0xBbe04885ECD2E895BfBd91Ae19B56ad5DCdD9B42"
+      },
+      {
+        "name": "Wizard test 1",
+        "token": "WT1",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x6878E42Bf7058dc379cffaB1Dbc2E0625F69Ed4d"
+      },
+      {
+        "name": "BASE  Wizard 28/5",
+        "token": "BWM",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x95295bc78103893E36D38984861f187270D8eC8E"
+      },
+      {
+        "name": "Wizard test 3",
+        "token": "WT3",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x4Fe083a56aeb8EF36188Fd6eBe24Bac9Ad708266"
+      },
+      {
+        "name": "Base USDC Lending Optimizer",
+        "token": "CSUSDCLO",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0xD46a3C2D958d0a2cB098d48C48dC19FE3A710F37"
       }
     ],
     "fuses": [
@@ -6816,6 +6846,12 @@
         "token": "TK1",
         "asset": "0x203A662b0BD271A6ed5a60EdFbd04bFce608FD36",
         "PlasmaVault": "0x3e2e0AE37B2d570b9998D33C3e4f197234656d8f"
+      },
+      {
+        "name": "polYIELD avKAT",
+        "token": "pol-avKAT",
+        "asset": "0x7231dbaCdFc968E07656D12389AB20De82FbfCeB",
+        "PlasmaVault": "0x91536ACedc9113d60C393DE7EE02eFc992A38081"
       }
     ],
     "price_oracles": [
