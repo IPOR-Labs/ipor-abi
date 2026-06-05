@@ -24,3 +24,12 @@ for DIRECTORY in "${DIRECTORIES[@]}"; do
 done
 
 echo "All processes completed successfully"
+
+echo -e "\n================================================\n"
+echo "Checking vault addresses uniqueness in mainnet/addresses.json..."
+cd "$SCRIPTS_DIR/check-vaults-uniqueness"
+
+if ! ./check-vaults-uniqueness.sh; then
+  echo -e "\033[1;31mVault uniqueness check FAILED: duplicate addresses found (see above).\033[0m"
+  exit 1
+fi
