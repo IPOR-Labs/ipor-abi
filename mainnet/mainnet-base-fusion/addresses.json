@@ -115,6 +115,7 @@
   "IporProtocolDeployer": "0x0078FF435a3d440C1Ceb2e3e0Bf023122f80B0bc",
   "LiquidityFuseAerodrome": "0x277fFc9D4905Ee60C447f9E7da944ebbbD36C275",
   "MerklClaimFuse": "0x310e6133a904761D717EE13D76E180E4EECf907A",
+  "MerklClaimWrapperFuse": "0xb1c12A239a72ee518A065dA79E62dAE97Cb21A5B",
   "MerklDistributor": "0x3Ef3D8bA38EBe18DB133cEc108f4D14CE00Dd9Ae",
   "MidasBalanceFuse": "0x62EC84e9bbd97342a8493365Ecf7329f89EF7Ee4",
   "MidasClaimFromExecutorFuse": "0xefc57105d0595FC44E241E2aD7D8E9d20d6Fa5d5",
