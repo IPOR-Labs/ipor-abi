@@ -283,12 +283,6 @@
         "PlasmaVault": "0x087b40429637F5366175b1C9379613b01d00a860"
       },
       {
-        "name": "Fusion weETH looping Ethereum",
-        "token": "fusnweETH",
-        "asset": "0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee",
-        "PlasmaVault": "0x087b40429637F5366175b1C9379613b01d00a860"
-      },
-      {
         "name": "King Gold Yield (PAXG)",
         "token": "kpGOLD",
         "asset": "0x45804880De22913dAFE09f4980848ECE6EcbAf78",
@@ -731,102 +725,6 @@
         "token": "teUSDC",
         "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "PlasmaVault": "0x81F775B7634789c428Fa89C635a40cfB0Fe14479"
-      },
-      {
-        "name": "PlasmaVault_wETH_BCV1",
-        "token": null,
-        "asset": "TODO",
-        "PlasmaVault": "0x64d47d8516034857C6fc040ecd405e03643a464F"
-      },
-      {
-        "name": "PlasmaVault_USDC_iUSDC",
-        "token": null,
-        "asset": "TODO",
-        "PlasmaVault": "0xB4790CfDF1DF71c2E4ac2F5c43dBCb975AD447ae"
-      },
-      {
-        "name": "PlasmaVault_sUSDf_iFALC",
-        "token": null,
-        "asset": "TODO",
-        "PlasmaVault": "0xb530a1B5259A71187F1D69aCF0488F102637a3ED"
-      },
-      {
-        "name": "PlasmaVault_wBTC_vBTC",
-        "token": null,
-        "asset": "TODO",
-        "PlasmaVault": "0xfFB090Cb1829C5977fBd070ceBFf7425c76B0472"
-      },
-      {
-        "name": "IporPlasmaVaultUsdc",
-        "token": null,
-        "asset": "TODO",
-        "PlasmaVault": "0x43Ee0243eA8CF02f7087d8B16C8D2007CC9c7cA2"
-      },
-      {
-        "name": "IporPlasmaVaultUsdcTAUSRP",
-        "token": null,
-        "asset": "TODO",
-        "PlasmaVault": "0x6f66b845604dad6E80b2A1472e6cAcbbE66A8C40"
-      },
-      {
-        "name": "PlasmaVaultUsdcTAUBOND",
-        "token": null,
-        "asset": "TODO",
-        "PlasmaVault": "0x43a32D4f6c582f281c52393f8F9E5AcE1D4A1E68"
-      },
-      {
-        "name": "IporPlasmaVaultRUsd",
-        "token": null,
-        "asset": "TODO",
-        "PlasmaVault": "0xe9385eFf3F937FcB0f0085Da9A3F53D6C2B4fB5F"
-      },
-      {
-        "name": "PlasmaVault_USDC_F1_PP_NOTE",
-        "token": null,
-        "asset": "TODO",
-        "PlasmaVault": "0xC1926C01ED88E93F5C266F3B43AF57c1f6E63b5D"
-      },
-      {
-        "name": "IporPlasmaVaultDai",
-        "token": null,
-        "asset": "TODO",
-        "PlasmaVault": "0x20e934c725b6703f0aC696F1689008057dB9Ac44"
-      },
-      {
-        "name": "IporPlasmaVaultUsdt",
-        "token": null,
-        "asset": "TODO",
-        "PlasmaVault": "0xAbAb980f0eCB232D52f422C6B68D25C3d0c18E3e"
-      },
-      {
-        "name": "PlasmaVaultWeETH",
-        "token": null,
-        "asset": "TODO",
-        "PlasmaVault": "0x087b40429637F5366175b1C9379613b01d00a860"
-      },
-      {
-        "name": "PlasmaVault_stETH_ipstETHfusion",
-        "token": null,
-        "asset": "TODO",
-        "PlasmaVault": "0x0552E28123A19FF2853D1ED3BE75Ef1329BB6ca8"
-      },
-      {
-        "name": "PlasmaVault_USDC_Autopilot_USDC",
-        "token": null,
-        "asset": "TODO",
-        "PlasmaVault": "0x3151cEE0cdb517C0E7Db2B55FF5085e7D1809d90"
-      },
-      {
-        "name": "IporPlasmaVaultWBTC",
-        "token": null,
-        "asset": "TODO",
-        "PlasmaVault": "0x1fdf5dc3f915Cb40E0AD5690DE51E3cB464d1BAD"
-      },
-      {
-        "name": "IporPlasmaVaultWEth",
-        "token": null,
-        "asset": "TODO",
-        "PlasmaVault": "0x9824dCdac89F208Bf8b5Cb5C4Dc41F04a0878607"
       },
       {
         "name": "wBTC Debt Vault Loop sUSDe PYUSD",
@@ -2227,12 +2125,6 @@
         "PlasmaVault": "0x7C655d660E2b09126B0AD6851F99d70d3715Fd9b"
       },
       {
-        "name": "IPOR wstETH Arbitrum",
-        "token": "ipwstETHfusion",
-        "asset": "0x5979D7b546E38E414F7E9822514be443A4800529",
-        "PlasmaVault": "0x7C655d660E2b09126B0AD6851F99d70d3715Fd9b"
-      },
-      {
         "name": "LlamaRisk crvUSD Optimizer PoC",
         "token": "LLRcrvUSDPoC",
         "asset": "0x498Bf2B1e120FeD3ad3D42EA2165E9b73f99C1e5",
@@ -2281,7 +2173,7 @@
         "PlasmaVault": "0x407D3d942d0911a2fEA7E22417f81E27c02D6c6F"
       },
       {
-        "name": "\u041a3 USD.ai",
+        "name": "К3 USD.ai",
         "token": "k3USDai",
         "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
         "PlasmaVault": "0xDccA02a355b4E4C2063DdC0367Ed49FeCbf79bbd"
@@ -2405,30 +2297,6 @@
         "token": "AWT2",
         "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
         "PlasmaVault": "0x33Eba5AE549c859c7226aA8031796b181568204A"
-      },
-      {
-        "name": "IporPlasmaVaultUsdc",
-        "token": null,
-        "asset": "TODO",
-        "PlasmaVault": "0xC015d83e24FDDe23100AD1E9baD837878fbfaB94"
-      },
-      {
-        "name": "PlasmaVaultWstETH",
-        "token": null,
-        "asset": "TODO",
-        "PlasmaVault": "0x7C655d660E2b09126B0AD6851F99d70d3715Fd9b"
-      },
-      {
-        "name": "IporPlasmaVaultWBTC",
-        "token": null,
-        "asset": "TODO",
-        "PlasmaVault": "0xD66964BD4049f7Fd2e279FE048eAA2c12E802658"
-      },
-      {
-        "name": "IporPlasmaVaultWEth",
-        "token": null,
-        "asset": "TODO",
-        "PlasmaVault": "0x18B9Dc9762Ec6095f34f2d77042Ab8283fA764B4"
       },
       {
         "name": "Wizard test 2",
@@ -3044,7 +2912,7 @@
                 "source": "0x50834F3163758fcC1Df9973b6e91f0F0F0434aD3"
               },
               "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9": {
-                "symbol": "USD\u20ae0",
+                "symbol": "USD₮0",
                 "source": "0x3f3f5dF88dC9F13eac63DF89EC16ef6e7E25DdE7"
               },
               "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8": {
@@ -3101,7 +2969,7 @@
                 "source": "0x50834F3163758fcC1Df9973b6e91f0F0F0434aD3"
               },
               "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9": {
-                "symbol": "USD\u20ae0",
+                "symbol": "USD₮0",
                 "source": "0x3f3f5dF88dC9F13eac63DF89EC16ef6e7E25DdE7"
               }
             }
@@ -3689,13 +3557,13 @@
       },
       {
         "name": "Maciek F1 Ultra USDC Yield machine",
-        "token": "\ud83d\ude02",
+        "token": "😂",
         "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
         "PlasmaVault": "0x85b8149337563cFA8bC9CF39EeF2F53F67F91614"
       },
       {
-        "name": "\ud83d\ude80\ud83d\ude80\ud83d\ude80",
-        "token": "\ud83d\ude80",
+        "name": "🚀🚀🚀",
+        "token": "🚀",
         "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
         "PlasmaVault": "0x2f383a4B0A025ccc477a767Dfb7f71cce1240c26"
       },
@@ -3980,48 +3848,6 @@
         "token": "BW2",
         "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
         "PlasmaVault": "0x3CFe1157f319Eecf38e17FeE0fbeF7A3A507a50B"
-      },
-      {
-        "name": "IporPlasmaVaultCbBTC",
-        "token": null,
-        "asset": "TODO",
-        "PlasmaVault": "0x31A421271414641cb5063B71594b642D2666dB6B"
-      },
-      {
-        "name": "IporPlasmaVaultUsdcLPCO",
-        "token": null,
-        "asset": "TODO",
-        "PlasmaVault": "0x09f77a2552b83E157Cd5d49867b5D580B50588ea"
-      },
-      {
-        "name": "IporPlasmaVaultUsdcCSLL",
-        "token": null,
-        "asset": "TODO",
-        "PlasmaVault": "0xB02D87EB201f56ba6aFa24C0969982bC4c4E8599"
-      },
-      {
-        "name": "IporPlasmaVaultWEth",
-        "token": null,
-        "asset": "TODO",
-        "PlasmaVault": "0x496E39F0Aa349c24032E5636E9180e7265C3FeCD"
-      },
-      {
-        "name": "PlasmaVault_USDC_BASEX",
-        "token": null,
-        "asset": "TODO",
-        "PlasmaVault": "0xa51787E262E53220bbEef297613ee28a9C011937"
-      },
-      {
-        "name": "IporPlasmaVaultUsdc",
-        "token": null,
-        "asset": "TODO",
-        "PlasmaVault": "0x45aa96f0b3188D47a1DaFdbefCE1db6B37f58216"
-      },
-      {
-        "name": "IporPlasmaVaultWstETH",
-        "token": null,
-        "asset": "TODO",
-        "PlasmaVault": "0xC4C00d8b323f37527eEda27c87412378be9F68Ec"
       },
       {
         "name": "Vault",
@@ -5609,12 +5435,6 @@
         "token": "UTL",
         "asset": "0x078D782b760474a361dDA0AF3839290b0EF57AD6",
         "PlasmaVault": "0xB7ad54CC5b5E0A7D41884DD650F27DF3aB20d020"
-      },
-      {
-        "name": "PlasmaVault_wETH_K3WETH",
-        "token": null,
-        "asset": "TODO",
-        "PlasmaVault": "0x2aF2146E6722B80A0A455F405eDFF3993715E417"
       }
     ],
     "pools": []
