@@ -851,6 +851,18 @@
         "token": "iporOETH",
         "asset": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
         "PlasmaVault": "0x19551B587715c87b2aEB3530Ac5B87a061F0A2F6"
+      },
+      {
+        "name": "Tesseract wBTC Vault Share",
+        "token": "teWBTC",
+        "asset": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+        "PlasmaVault": "0x455d6b686DEc112CAa0F7BF1973cC6d84a25442A"
+      },
+      {
+        "name": "Tesseract wETH Vault Share",
+        "token": "teWETH",
+        "asset": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "PlasmaVault": "0x10f2552a4C056Fe318685185B7320a3482defDE5"
       }
     ],
     "fuses": [
@@ -2173,7 +2185,7 @@
         "PlasmaVault": "0x407D3d942d0911a2fEA7E22417f81E27c02D6c6F"
       },
       {
-        "name": "К3 USD.ai",
+        "name": "\u041a3 USD.ai",
         "token": "k3USDai",
         "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
         "PlasmaVault": "0xDccA02a355b4E4C2063DdC0367Ed49FeCbf79bbd"
@@ -2912,7 +2924,7 @@
                 "source": "0x50834F3163758fcC1Df9973b6e91f0F0F0434aD3"
               },
               "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9": {
-                "symbol": "USD₮0",
+                "symbol": "USD\u20ae0",
                 "source": "0x3f3f5dF88dC9F13eac63DF89EC16ef6e7E25DdE7"
               },
               "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8": {
@@ -2969,7 +2981,7 @@
                 "source": "0x50834F3163758fcC1Df9973b6e91f0F0F0434aD3"
               },
               "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9": {
-                "symbol": "USD₮0",
+                "symbol": "USD\u20ae0",
                 "source": "0x3f3f5dF88dC9F13eac63DF89EC16ef6e7E25DdE7"
               }
             }
@@ -3557,13 +3569,13 @@
       },
       {
         "name": "Maciek F1 Ultra USDC Yield machine",
-        "token": "😂",
+        "token": "\ud83d\ude02",
         "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
         "PlasmaVault": "0x85b8149337563cFA8bC9CF39EeF2F53F67F91614"
       },
       {
-        "name": "🚀🚀🚀",
-        "token": "🚀",
+        "name": "\ud83d\ude80\ud83d\ude80\ud83d\ude80",
+        "token": "\ud83d\ude80",
         "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
         "PlasmaVault": "0x2f383a4B0A025ccc477a767Dfb7f71cce1240c26"
       },
@@ -4178,6 +4190,18 @@
         "token": "CSUSDCLO",
         "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
         "PlasmaVault": "0xD46a3C2D958d0a2cB098d48C48dC19FE3A710F37"
+      },
+      {
+        "name": "Safe Vault",
+        "token": "SFVLT",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0xd42b079e55923B33C6C97f360D2C369cc2EA351F"
+      },
+      {
+        "name": "Vault ",
+        "token": "VLT",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0xFC1708Eee7B59c24cb8e5162B9124360F8f0fAE8"
       }
     ],
     "fuses": [
