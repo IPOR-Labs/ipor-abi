@@ -863,6 +863,60 @@
         "token": "teWETH",
         "asset": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
         "PlasmaVault": "0x10f2552a4C056Fe318685185B7320a3482defDE5"
+      },
+      {
+        "name": "Bizantine Forge WETH Optimizer",
+        "token": "fWETHfg",
+        "asset": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "PlasmaVault": "0x8D4b5780335aa91F23994477c8F56Da0153290f8"
+      },
+      {
+        "name": "BL USDC Lending Optimiser",
+        "token": "blLOUSDC",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0xF75552C0E9a1168702C2F7824092aD592c93EC48"
+      },
+      {
+        "name": "BL USDC WSR Loop ",
+        "token": "blUSDCWSRlp",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0x95B2Ed8F821570f85Fd0e3e6E7088c6296587088"
+      },
+      {
+        "name": "BL USDC Advanced Portfolio",
+        "token": "blUSDCAdvanced",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0x4c2a3C1b1c7674EFaf4082786F0770F558544ee9"
+      },
+      {
+        "name": "TESS USDC Pendle PT Vault",
+        "token": "tessUSDCPT",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0xbbEE68d775ba77822f0D7a7E51b0aE829E4266ad"
+      },
+      {
+        "name": "Tesseract USDC Vault Share",
+        "token": "teUSDC",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0x7353531Fb2BF1f1d8a104B6f2c7284a31cabC542"
+      },
+      {
+        "name": "Bizantine USDC Prime",
+        "token": "pBizUSDC",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0x1495D5704aDB2B405880c0b7A7bB23Ce779C6E25"
+      },
+      {
+        "name": "BL WBTC wsrUSD Debt Vault",
+        "token": "blWBTCwsrUSDdv",
+        "asset": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+        "PlasmaVault": "0x68893c239f4FDA0Ddb7E759cCEb6F2b8d1b64db8"
+      },
+      {
+        "name": "Adam WBTC Advanced",
+        "token": "btWBTCAdvanced",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0x7a7e114D019BC778844f18ba50B165Eb30aF62a1"
       }
     ],
     "fuses": [
@@ -1144,6 +1198,12 @@
         "name": "BalanceFuseUniversalTokenSwapper",
         "versions": {
           "2025-01-16": "0xe9562d7bd06b43E6391C5bE4B3c5F5C2BC1E06Bf"
+        }
+      },
+      {
+        "name": "BalanceFuseUniversalTokenSwapperV2",
+        "versions": {
+          "2026-06-23": "0x05968c1Ec31e9eF193da13A0C1131e59eBa0d580"
         }
       },
       {
@@ -1468,7 +1528,8 @@
       {
         "name": "RewardEulerTokenClaimFuse",
         "versions": {
-          "2025-11-07": "0xAA2442F310D8D4a6d42160b1D2a22aCb1dd0866a"
+          "2025-11-07": "0xAA2442F310D8D4a6d42160b1D2a22aCb1dd0866a",
+          "2026-06-23": "0xFfBfB992487290E5DA9dE4C06BFfD2d42eaAe2bA"
         }
       },
       {
@@ -1754,9 +1815,21 @@
         }
       },
       {
+        "name": "SwapFuseUniversalTokenSwapperEthNoSlippageV2",
+        "versions": {
+          "2026-06-23": "0xc4E6624736Ba9A33B2b59Ddc2C14cD16a0EcB564"
+        }
+      },
+      {
         "name": "SwapFuseUniversalTokenSwapperWithVerification",
         "versions": {
           "2025-07-25": "0x4E0B22A5052B640967c55b92401b1c067FdA53e0"
+        }
+      },
+      {
+        "name": "SwapFuseUniversalTokenSwapperWithVerificationV2",
+        "versions": {
+          "2026-06-23": "0x65f24c9E91752BeC40397B232458DfdAC27e69a6"
         }
       },
       {
@@ -1785,9 +1858,21 @@
         }
       },
       {
+        "name": "UniversalTokenSwapperEthFuseV2",
+        "versions": {
+          "2026-06-23": "0xf3777089A4b31EF0f9e8B6f3762C6FBeD4dDA449"
+        }
+      },
+      {
         "name": "UniversalTokenSwapperFuse",
         "versions": {
           "2026-01-29": "0xA301D6f34f2c8399E8564681cF675999cc1f1584"
+        }
+      },
+      {
+        "name": "UniversalTokenSwapperFuseV2",
+        "versions": {
+          "2026-06-23": "0x5A62574a2b28cC73c63116919A9131fb4F51941b"
         }
       },
       {
@@ -4202,6 +4287,36 @@
         "token": "VLT",
         "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
         "PlasmaVault": "0xFC1708Eee7B59c24cb8e5162B9124360F8f0fAE8"
+      },
+      {
+        "name": "cbXRP Evergreen Carry Trade",
+        "token": "taucbxrp",
+        "asset": "0xcb585250f852C6c6bf90434AB21A00f02833a4af",
+        "PlasmaVault": "0x01A6fF6EB333C1393ef424F5894B18367F1499A8"
+      },
+      {
+        "name": "hahohihifrance",
+        "token": "hhfr",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x918cB1c67d1ab6A23c74085E41979d38716C501c"
+      },
+      {
+        "name": "Bizantine Forge WETH",
+        "token": "fWETHfg",
+        "asset": "0x4200000000000000000000000000000000000006",
+        "PlasmaVault": "0xc7B44BB82Fef37fd9e41103888053c34F598eA80"
+      },
+      {
+        "name": "TAU cbETH Dynamic Looping",
+        "token": "TAUCBETH",
+        "asset": "0x2Ae3F1Ec7F1F5012CFEab0185bfc7aa3cf0DEc22",
+        "PlasmaVault": "0x4cFf826ED74ecF74374f691fe454C2C847645F75"
+      },
+      {
+        "name": "Wizard Test USDC 17/6/2026",
+        "token": "17-6-2026",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x8c81cd13dc53e754F0f99cAF18382724a416543f"
       }
     ],
     "fuses": [
@@ -4428,6 +4543,12 @@
         "name": "BalanceFuseUniversalTokenSwapper",
         "versions": {
           "2024-10-29": "0x706ca1cA4EcE9CF23301D6AB35ce6fb7Cf25DA15"
+        }
+      },
+      {
+        "name": "BalanceFuseUniversalTokenSwapperV2",
+        "versions": {
+          "2026-06-23": "0x0A48e903d7502dCe596d3a101F9932Be39C2ccd0"
         }
       },
       {
@@ -4712,7 +4833,8 @@
       {
         "name": "RewardEulerTokenClaimFuse",
         "versions": {
-          "2025-11-04": "0x2627a9829b00816C5FC54196bFDfD1C8EC999540"
+          "2025-11-04": "0x2627a9829b00816C5FC54196bFDfD1C8EC999540",
+          "2026-06-23": "0xf61f502b01Aa184701d593AE3444E00781680789"
         }
       },
       {
@@ -4888,9 +5010,21 @@
         }
       },
       {
+        "name": "SwapFuseUniversalTokenSwapperEthNoSlippageV2",
+        "versions": {
+          "2026-06-23": "0x264Aa7A907c14B4da075af068283A8a7DD6fcDFe"
+        }
+      },
+      {
         "name": "SwapFuseUniversalTokenSwapperWithVerification",
         "versions": {
           "2025-07-25": "0x38Bd09C17EA88ceB2F7916BF07AF13C2D9F72370"
+        }
+      },
+      {
+        "name": "SwapFuseUniversalTokenSwapperWithVerificationV2",
+        "versions": {
+          "2026-06-23": "0x4C3acDFdf187772B1fbbE2de99a0275082b03710"
         }
       },
       {
@@ -4906,9 +5040,21 @@
         }
       },
       {
+        "name": "UniversalTokenSwapperEthFuseV2",
+        "versions": {
+          "2026-06-23": "0xf026f9D4721aDf2aFba593D2528dd4c3083Ae04B"
+        }
+      },
+      {
         "name": "UniversalTokenSwapperFuse",
         "versions": {
           "2026-02-10": "0x98F36e82AaC675d53a780E6CB46406548e7dF5f8"
+        }
+      },
+      {
+        "name": "UniversalTokenSwapperFuseV2",
+        "versions": {
+          "2026-06-23": "0x2902FA1C5cA409579dFeC3B7457f416Eb4De1a43"
         }
       },
       {
