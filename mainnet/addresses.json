@@ -1785,6 +1785,12 @@
         }
       },
       {
+        "name": "SwapDeployFuseEulerV2",
+        "versions": {
+          "2026-06-23": "0x6A1E8Cef962AEb714A3e6FEcdB89ae6183cc0165"
+        }
+      },
+      {
         "name": "SwapFuseUniswapV2",
         "versions": {
           "2026-03-18": "0x37a720Cf7F7dA943E4244F97903a85c997cab359"
@@ -1837,6 +1843,18 @@
         "versions": {
           "2025-09-10": "0x641B81E993E1C52a74a84cAf17f1aD50A49675B3",
           "2025-12-02": "0x54c860323cCD609405a18E46b0F799BEb5DF5D50"
+        }
+      },
+      {
+        "name": "SwapReconfigureFuseEulerV2",
+        "versions": {
+          "2026-06-23": "0xd8c2DE8ddA805a8Bdc731A3f8c6EBAD99850005F"
+        }
+      },
+      {
+        "name": "SwapRegistryFuseEulerV2",
+        "versions": {
+          "2026-06-23": "0xcb7Ac645dA075a2b0391BA7102b8c383D4211fdC"
         }
       },
       {
@@ -4558,6 +4576,12 @@
         }
       },
       {
+        "name": "BatchFuseEulerV2",
+        "versions": {
+          "2026-06-23": "0x60CE35e58f6CEd1538c16A15FF7fF75B0538898F"
+        }
+      },
+      {
         "name": "BorrowFuseAaveV3",
         "versions": {
           "2024-10-29": "0x1Df60F2A046F3Dce8102427e091C1Ea99aE1d774"
@@ -4985,6 +5009,12 @@
         }
       },
       {
+        "name": "SwapDeployFuseEulerV2",
+        "versions": {
+          "2026-06-23": "0x0Db8d3fD81900FF95ca25D7bc30a4DA1b289E670"
+        }
+      },
+      {
         "name": "SwapFuseUniswapV3",
         "versions": {
           "2024-10-29": "0x6C65F2155bb8730E1768558f2679eBB04d957145"
@@ -5025,6 +5055,18 @@
         "name": "SwapFuseUniversalTokenSwapperWithVerificationV2",
         "versions": {
           "2026-06-23": "0x4C3acDFdf187772B1fbbE2de99a0275082b03710"
+        }
+      },
+      {
+        "name": "SwapReconfigureFuseEulerV2",
+        "versions": {
+          "2026-06-23": "0x11187bac7f13475F4ACe42FCeA72A4f3b9FddBF1"
+        }
+      },
+      {
+        "name": "SwapRegistryFuseEulerV2",
+        "versions": {
+          "2026-06-23": "0x49b9a2f243ab72a51cE78C0215F4FF9708abF923"
         }
       },
       {
