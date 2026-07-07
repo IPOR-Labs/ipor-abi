@@ -952,6 +952,36 @@
         }
       },
       {
+        "name": "AguaBalanceFuse",
+        "versions": {
+          "2026-07-07": "0x8Ad87aE66c47932D64066214eE6a84BBB9009cCF"
+        }
+      },
+      {
+        "name": "AguaClaimRedemptionFuse",
+        "versions": {
+          "2026-07-07": "0xaAf109fcc6154014B586069743416c17b21af886"
+        }
+      },
+      {
+        "name": "AguaRedeemEarlyFuse",
+        "versions": {
+          "2026-07-07": "0xb94C1CE771330e962341e60dc06544649F92440e"
+        }
+      },
+      {
+        "name": "AguaRequestRedemptionFuse",
+        "versions": {
+          "2026-07-07": "0xd275CA4D9b2f4dAE6e499421828Ee175c5859262"
+        }
+      },
+      {
+        "name": "AguaSupplyFuse",
+        "versions": {
+          "2026-07-07": "0x12C7FC434aEF4A2360b2Bc1d08CfddeB391A9Ad9"
+        }
+      },
+      {
         "name": "AsyncActionBalanceFuse",
         "versions": {
           "2025-11-18": "0x37fb994757856Ec994203D01b54Adb7ae092Bf6f"
