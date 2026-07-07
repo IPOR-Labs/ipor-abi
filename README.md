@@ -6,7 +6,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Fuses List
 
-*Last updated: 2026-06-23 11:30:39 UTC*
+*Last updated: 2026-07-07 00:43:57 UTC*
 
 ### Ethereum Fuses
 
@@ -17,6 +17,11 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `AaveV3LidoWithPriceOracleMiddlewareBalanceFuse` | `0xc9eeEE3Ae20e9c5dB213a57eF102E4063FA12612` [View](https://etherscan.io/address/0xc9eeEE3Ae20e9c5dB213a57eF102E4063FA12612#code) |
 | `AaveV3WithPriceOracleMiddlewareBalanceFuse` | `0xB12D9640A809543615F221f3609eA34BB1F10b25` [View](https://etherscan.io/address/0xB12D9640A809543615F221f3609eA34BB1F10b25#code) |
 | `AaveV3WithPriceOracleMiddlewareBalanceLidoFuse` | `0x366aDb1F9a0743830d2C3Dc3fF0905A28Ca6F789` [View](https://etherscan.io/address/0x366aDb1F9a0743830d2C3Dc3fF0905A28Ca6F789#code) |
+| `AguaBalanceFuse` | `0x8Ad87aE66c47932D64066214eE6a84BBB9009cCF` [View](https://etherscan.io/address/0x8Ad87aE66c47932D64066214eE6a84BBB9009cCF#code) |
+| `AguaClaimRedemptionFuse` | `0xaAf109fcc6154014B586069743416c17b21af886` [View](https://etherscan.io/address/0xaAf109fcc6154014B586069743416c17b21af886#code) |
+| `AguaRedeemEarlyFuse` | `0xb94C1CE771330e962341e60dc06544649F92440e` [View](https://etherscan.io/address/0xb94C1CE771330e962341e60dc06544649F92440e#code) |
+| `AguaRequestRedemptionFuse` | `0xd275CA4D9b2f4dAE6e499421828Ee175c5859262` [View](https://etherscan.io/address/0xd275CA4D9b2f4dAE6e499421828Ee175c5859262#code) |
+| `AguaSupplyFuse` | `0x12C7FC434aEF4A2360b2Bc1d08CfddeB391A9Ad9` [View](https://etherscan.io/address/0x12C7FC434aEF4A2360b2Bc1d08CfddeB391A9Ad9#code) |
 | `AsyncActionBalanceFuse` | `0x37fb994757856Ec994203D01b54Adb7ae092Bf6f` [View](https://etherscan.io/address/0x37fb994757856Ec994203D01b54Adb7ae092Bf6f#code) |
 | `AsyncActionFuse` | `0x04Bd1E6CaF008Ed831f888ced406cd616C671870` [View](https://etherscan.io/address/0x04Bd1E6CaF008Ed831f888ced406cd616C671870#code) |
 | `BalanceFuseAaveV3` | `0x05bCb16a50DaFE0526FB7b3941B81B1B74a7877e` [View](https://etherscan.io/address/0x05bCb16a50DaFE0526FB7b3941B81B1B74a7877e#code) |
@@ -764,7 +769,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## PreHooks List
 
-*Last updated: 2026-06-23 11:30:41 UTC*
+*Last updated: 2026-07-07 00:43:59 UTC*
 
 ### Ethereum PreHooks
 
@@ -852,7 +857,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Price Oracles List
 
-*Last updated: 2026-06-23 00:25:44 UTC*
+*Last updated: 2026-07-07 01:04:28 UTC*
 
 ### Ethereum Price Oracles
 
