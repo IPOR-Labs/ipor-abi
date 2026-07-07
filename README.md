@@ -857,7 +857,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Price Oracles List
 
-*Last updated: 2026-06-23 00:25:44 UTC*
+*Last updated: 2026-07-07 01:04:28 UTC*
 
 ### Ethereum Price Oracles
 

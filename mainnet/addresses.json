@@ -917,6 +917,18 @@
         "token": "btWBTCAdvanced",
         "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "PlasmaVault": "0x7a7e114D019BC778844f18ba50B165Eb30aF62a1"
+      },
+      {
+        "name": "wBTC Dollar Carry",
+        "token": "BTCdc",
+        "asset": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+        "PlasmaVault": "0x7659fc26bf3A63E8133BbECB7E16ACD48EE8E292"
+      },
+      {
+        "name": "TESS USDT sUSDs Loop Vault",
+        "token": "tessUSDTsUSDslp",
+        "asset": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "PlasmaVault": "0x9FEC8a63a6C6EF9eadDdfBd79DabA5918965794E"
       }
     ],
     "fuses": [
@@ -4365,6 +4377,30 @@
         "token": "17-6-2026",
         "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
         "PlasmaVault": "0x8c81cd13dc53e754F0f99cAF18382724a416543f"
+      },
+      {
+        "name": "TESS cbETH (Base) Loop Vault",
+        "token": "tesscbETHlp",
+        "asset": "0x2Ae3F1Ec7F1F5012CFEab0185bfc7aa3cf0DEc22",
+        "PlasmaVault": "0x459f4A28852c63e521EC7b911f1917e0B62a414c"
+      },
+      {
+        "name": "TESS cbETH (Base) Loop Vault",
+        "token": "tesscbETHlp",
+        "asset": "0x2Ae3F1Ec7F1F5012CFEab0185bfc7aa3cf0DEc22",
+        "PlasmaVault": "0x3e212F136244465d8E524Fb658E6Daa1fb0593bF"
+      },
+      {
+        "name": "TTD USDC Prime Base",
+        "token": "ttdUSDCpb",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0xDf7735FBf90Ba96692d1815383bB3adcc77090e8"
+      },
+      {
+        "name": "TTD USDC Prime Base",
+        "token": "ttdUSDCpb",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x2E50e9D28C86b15d547a8918259Bb36640a9017c"
       }
     ],
     "fuses": [
