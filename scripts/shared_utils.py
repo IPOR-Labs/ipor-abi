@@ -38,7 +38,8 @@ def get_rpc_urls():
         "plasma": os.getenv("PLASMA_RPC_URL"),
         "avalanche": os.getenv("AVALANCHE_RPC_URL"),
         "katana": os.getenv("KATANA_RPC_URL"),
-        "botanix": os.getenv("BOTANIX_RPC_URL")
+        "botanix": os.getenv("BOTANIX_RPC_URL"),
+        "hyperevm": os.getenv("HYPEREVM_RPC_URL")
     }
 
 def validate_rpc_urls():
@@ -60,7 +61,8 @@ CHAIN_START_BLOCKS = {
     "plasma": 1901043,
     "avalanche": 69330233,
     "katana": 23646820,
-    "botanix": 5327110
+    "botanix": 5327110,
+    "hyperevm": 39992900
 }
 
 # Chunk sizes for event fetching per chain
@@ -75,6 +77,7 @@ CHUNK_SIZES = {
     "avalanche": 10000,
     "katana": 10000,
     "botanix": 100000,
+    "hyperevm": 10000,
     "default": 10000    # Default chunk size for any unlisted chains
 }
 
@@ -89,7 +92,8 @@ EXPLORERS = {
     "plasma": "https://plasmascan.to/address/",
     "avalanche": "https://snowscan.xyz/address/",
     "katana": "https://katanascan.com/address/",
-    "botanix": "https://botanixscan.io/address/"
+    "botanix": "https://botanixscan.io/address/",
+    "hyperevm": "https://hyperevmscan.io/address/"
 }
 
 # Explorer types for URL generation
@@ -103,7 +107,8 @@ EXPLORER_TYPES = {
     "plasma": "routescan",
     "avalanche": "etherscan",
     "katana": "etherscan",
-    "botanix": "routescan"
+    "botanix": "routescan",
+    "hyperevm": "etherscan"
 }
 
 # Chain IDs
@@ -117,7 +122,8 @@ CHAIN_IDS = {
     "plasma": "9745",
     "avalanche": "43114",
     "katana": "747474",
-    "botanix": "3637"
+    "botanix": "3637",
+    "hyperevm": "999"
 }
 
 # Chain display names
@@ -131,7 +137,8 @@ NAMES = {
     "plasma": "Plasma",
     "avalanche": "Avalanche",
     "katana": "Katana",
-    "botanix": "Botanix"
+    "botanix": "Botanix",
+    "hyperevm": "HyperEVM"
 }
 
 # Common ABIs
@@ -214,7 +221,8 @@ def get_chain_from_path(path):
         "plasma": "plasma",
         "avalanche": "avalanche",
         "katana": "katana",
-        "botanix": "botanix"
+        "botanix": "botanix",
+        "hyperevm": "hyperevm"
     }
     
     for chain in chains:
