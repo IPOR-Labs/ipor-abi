@@ -56,7 +56,8 @@ def update_addresses_json(fuses_file, addresses_file):
                 "plasma": {"fuses": []},
                 "avalanche": {"fuses": []},
                 "katana": {"fuses": []},
-                "botanix": {"fuses": []}
+                "botanix": {"fuses": []},
+                "hyperevm": {"fuses": []}
             }
 
         blockchain_fuses = {
@@ -69,7 +70,8 @@ def update_addresses_json(fuses_file, addresses_file):
             "plasma": {},
             "avalanche": {},
             "katana": {},
-            "botanix": {}
+            "botanix": {},
+            "hyperevm": {}
         }
 
         web3_connections = create_web3_connections()
@@ -104,6 +106,8 @@ def update_addresses_json(fuses_file, addresses_file):
                 chain = "katana"
             elif "botanix" in file_path:
                 chain = "botanix"
+            elif "hyperevm" in file_path:
+                chain = "hyperevm"
 
             if not chain:
                 continue
