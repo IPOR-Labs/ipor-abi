@@ -6,7 +6,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Fuses List
 
-*Last updated: 2026-07-09 14:40:56 UTC*
+*Last updated: 2026-07-09 17:39:00 UTC*
 
 ### Ethereum Fuses
 
@@ -767,9 +767,57 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `UniversalTokenSwapperFuse` | `0x44971B16b4dDA3fdddaff03eb3D55CfeBEa8593c` [View](https://botanixscan.io/address/0x44971B16b4dDA3fdddaff03eb3D55CfeBEa8593c/contract/3637/code) |
 | `UpdateMarketsBalancesFuse` | `0x82eB4A8fD471Aa402Bac68F7a9a042547FE0a738` [View](https://botanixscan.io/address/0x82eB4A8fD471Aa402Bac68F7a9a042547FE0a738/contract/3637/code) |
 
+### HyperEVM Fuses
+
+| Fuse Name | Address / View in Explorer |
+|-----------|---------------------------|
+| `AsyncActionBalanceFuse` | `0x3f90c3d1b9EF83D65fc852bB0c33C85c6BD9414b` [View](https://hyperevmscan.io/address/0x3f90c3d1b9EF83D65fc852bB0c33C85c6BD9414b#code) |
+| `BalanceFuseBurnRequestFee` | `0xb3F3f951c771Cd6cB1Aee4E4506b86aFB5225e68` [View](https://hyperevmscan.io/address/0xb3F3f951c771Cd6cB1Aee4E4506b86aFB5225e68#code) |
+| `BalanceFuseErc20` | `0x57d317872297deC31B95d52EB1a889f0Bfe85c2F` [View](https://hyperevmscan.io/address/0x57d317872297deC31B95d52EB1a889f0Bfe85c2F#code) |
+| `BalanceFuseErc4626Market1` | `0x0381B54618562B39c59A9cCDA86b24a5027f15E7` [View](https://hyperevmscan.io/address/0x0381B54618562B39c59A9cCDA86b24a5027f15E7#code) |
+| `BalanceFuseErc4626Market2` | `0x20Ae5e2172A26E58A93BB24eAE1e2C35ad88D0cd` [View](https://hyperevmscan.io/address/0x20Ae5e2172A26E58A93BB24eAE1e2C35ad88D0cd#code) |
+| `BalanceFuseErc4626Market3` | `0xEE595036F1C872178f24A25b758D54b9E6037003` [View](https://hyperevmscan.io/address/0xEE595036F1C872178f24A25b758D54b9E6037003#code) |
+| `BalanceFuseErc4626Market4` | `0xf3De2cbD6B2db65E257a780a4935bf56E799204b` [View](https://hyperevmscan.io/address/0xf3De2cbD6B2db65E257a780a4935bf56E799204b#code) |
+| `BalanceFuseErc4626Market5` | `0x297A7ecA79967b1e1f0Ff5c0f59E9149FBaCf0f6` [View](https://hyperevmscan.io/address/0x297A7ecA79967b1e1f0Ff5c0f59E9149FBaCf0f6#code) |
+| `BalanceFuseFlashLoanMorpho` | `0x0c781CF422d9929f3B6dE1CB08e03075Fb698c93` [View](https://hyperevmscan.io/address/0x0c781CF422d9929f3B6dE1CB08e03075Fb698c93#code) |
+| `BalanceFuseMetaMorphoMarket0001` | `0xec4bfC1Fe7BE9D26750f50C977eC7EC8e5Aa5Bb8` [View](https://hyperevmscan.io/address/0xec4bfC1Fe7BE9D26750f50C977eC7EC8e5Aa5Bb8#code) |
+| `BalanceFuseMorpho` | `0x784f0b81AEE9baA7ED7730a7b6F8A92bF4106A7E` [View](https://hyperevmscan.io/address/0x784f0b81AEE9baA7ED7730a7b6F8A92bF4106A7E#code) |
+| `BalanceFuseMorphoLiquidityInMarkets` | `0x45d73E38aBD6768293c7061813a0478e434a1844` [View](https://hyperevmscan.io/address/0x45d73E38aBD6768293c7061813a0478e434a1844#code) |
+| `BalanceFuseUniversalTokenSwapper` | `0xa97D2B4D323C0Cdb5DdD62D04235ff9e0d8F9576` [View](https://hyperevmscan.io/address/0xa97D2B4D323C0Cdb5DdD62D04235ff9e0d8F9576#code) |
+| `BalanceFuseUniversalTokenSwapperV2` | `0x139dc435B3023Afb75FB1ffD1064481e68Ccba19` [View](https://hyperevmscan.io/address/0x139dc435B3023Afb75FB1ffD1064481e68Ccba19#code) |
+| `BorrowFuseMorpho` | `0x6D9dDb1c449E91A3FB83f67D6F56E3e8c0bfc21c` [View](https://hyperevmscan.io/address/0x6D9dDb1c449E91A3FB83f67D6F56E3e8c0bfc21c#code) |
+| `BurnRequestFeeFuse` | `0xAa2D7a24ff3Dc251e044326ab35e976b352ED613` [View](https://hyperevmscan.io/address/0xAa2D7a24ff3Dc251e044326ab35e976b352ED613#code) |
+| `BurnRequestFeeFuseV2` | `0xF86a1B468cd7A6BbAeDf78705DaE40DeDb1d0EAF` [View](https://hyperevmscan.io/address/0xF86a1B468cd7A6BbAeDf78705DaE40DeDb1d0EAF#code) |
+| `ClaimRewardsFuseMorpho` | `0xF9Fe01A9Cbe2D3e89d4DAed065bcc408744986f7` [View](https://hyperevmscan.io/address/0xF9Fe01A9Cbe2D3e89d4DAed065bcc408744986f7#code) |
+| `CollateralFuseMorpho` | `0x4f9930eDB751AA67191b4fdF1B9B1a7a4eEa392a` [View](https://hyperevmscan.io/address/0x4f9930eDB751AA67191b4fdF1B9B1a7a4eEa392a#code) |
+| `ConfigureInstantWithdrawalFuse` | `0x0F2553e4460C2974746908cFDe472a7dC1311dBd` [View](https://hyperevmscan.io/address/0x0F2553e4460C2974746908cFDe472a7dC1311dBd#code) |
+| `FlashloanFuseMorpho` | `0x8a2975D8704Fd9F143bDDD05dc73a4e49EFB47f0` [View](https://hyperevmscan.io/address/0x8a2975D8704Fd9F143bDDD05dc73a4e49EFB47f0#code) |
+| `FuseRedeemFromRequestPlasmaVaultMarket1` | `0x1E22C137997DaBd4452792516AcDFb402432eAa9` [View](https://hyperevmscan.io/address/0x1E22C137997DaBd4452792516AcDFb402432eAa9#code) |
+| `FuseRequestSharesPlasmaVaultMarket1` | `0x0A6aFE06dA41F9D86767C296E5398C65CA3889A4` [View](https://hyperevmscan.io/address/0x0A6aFE06dA41F9D86767C296E5398C65CA3889A4#code) |
+| `FuseRequestSharesPlasmaVaultV2` | `0xEA5CE8B0a7734E37285aB087b1a3c4Fef89C15b2` [View](https://hyperevmscan.io/address/0xEA5CE8B0a7734E37285aB087b1a3c4Fef89C15b2#code) |
+| `PlasmaVaultBalanceAssetsValidationFuse` | `0x467ef84A334398E2EE41B9838582dBf37dd09673` [View](https://hyperevmscan.io/address/0x467ef84A334398E2EE41B9838582dBf37dd09673#code) |
+| `RWABalanceFuse` | `0xbEBc308b954311d8Cb2F95DD8a583Ed7bbB3A9d4` [View](https://hyperevmscan.io/address/0xbEBc308b954311d8Cb2F95DD8a583Ed7bbB3A9d4#code) |
+| `RWAOperationFuse` | `0xfaA377b5099267d8e36E2B1Ea288F82681D9bea4` [View](https://hyperevmscan.io/address/0xfaA377b5099267d8e36E2B1Ea288F82681D9bea4#code) |
+| `RWARescueFuse` | `0x424A7dc1E631A9410AA6Dc35283503A5befCAA08` [View](https://hyperevmscan.io/address/0x424A7dc1E631A9410AA6Dc35283503A5befCAA08#code) |
+| `RWAUnpauseFuse` | `0x534cA9A62C364969398487aF71922E7f51d32443` [View](https://hyperevmscan.io/address/0x534cA9A62C364969398487aF71922E7f51d32443#code) |
+| `RequestFeeRefundFuse` | `0xF781acE9A5bf7883123aA4c11e57a9F68Ec3Df52` [View](https://hyperevmscan.io/address/0xF781acE9A5bf7883123aA4c11e57a9F68Ec3Df52#code) |
+| `SupplyFuseErc4626Market1` | `0xaaE1253b81ffa5dA5e25bc1ade7A009D9488a2B5` [View](https://hyperevmscan.io/address/0xaaE1253b81ffa5dA5e25bc1ade7A009D9488a2B5#code) |
+| `SupplyFuseErc4626Market2` | `0x052A6a2464F8079f778f52b4dCb311EA16B6B439` [View](https://hyperevmscan.io/address/0x052A6a2464F8079f778f52b4dCb311EA16B6B439#code) |
+| `SupplyFuseErc4626Market3` | `0x23e1fd6F58546c69c9DBb4a46cC02504b69daa2E` [View](https://hyperevmscan.io/address/0x23e1fd6F58546c69c9DBb4a46cC02504b69daa2E#code) |
+| `SupplyFuseErc4626Market4` | `0x778a9cFdBA586375912b069ded5d79Aea600B323` [View](https://hyperevmscan.io/address/0x778a9cFdBA586375912b069ded5d79Aea600B323#code) |
+| `SupplyFuseErc4626Market5` | `0xb766Dd4Bb3B3B9219A1a9EaE5e6f32a52Df5141F` [View](https://hyperevmscan.io/address/0xb766Dd4Bb3B3B9219A1a9EaE5e6f32a52Df5141F#code) |
+| `SupplyFuseMetaMorphoMarket0001` | `0xcd2aC71ab37435A070D0950e0aDe9C905b8D98e2` [View](https://hyperevmscan.io/address/0xcd2aC71ab37435A070D0950e0aDe9C905b8D98e2#code) |
+| `SupplyFuseMorpho` | `0x0f04c4AF37dF8E6E0603741718bF55945B206cd8` [View](https://hyperevmscan.io/address/0x0f04c4AF37dF8E6E0603741718bF55945B206cd8#code) |
+| `SupplyFuseMorphoLiquidityInMarkets` | `0xE03D314904296FE7e463AC958E0116819A88d3EE` [View](https://hyperevmscan.io/address/0xE03D314904296FE7e463AC958E0116819A88d3EE#code) |
+| `SupplyFuseMorphoWithCallBackData` | `0xD1623eC815A66C57Bd1f4D78EDae68193F1Aa6E4` [View](https://hyperevmscan.io/address/0xD1623eC815A66C57Bd1f4D78EDae68193F1Aa6E4#code) |
+| `UniversalReaderBalanceFuses` | `0x778f16cDeBf85C45F104486C7e7E239Fc1132A6d` [View](https://hyperevmscan.io/address/0x778f16cDeBf85C45F104486C7e7E239Fc1132A6d#code) |
+| `UniversalTokenSwapperFuse` | `0xeCE04243Cce5f578dbcaA1B7f478701A233CB87d` [View](https://hyperevmscan.io/address/0xeCE04243Cce5f578dbcaA1B7f478701A233CB87d#code) |
+| `UniversalTokenSwapperFuseV2` | `0xf7B343351bDD33E9Ec09f7ad4051887281779c69` [View](https://hyperevmscan.io/address/0xf7B343351bDD33E9Ec09f7ad4051887281779c69#code) |
+| `UpdateMarketsBalancesFuse` | `0x280cC2e768cCEcd4ba11DfCC439c7Fe986d3C39b` [View](https://hyperevmscan.io/address/0x280cC2e768cCEcd4ba11DfCC439c7Fe986d3C39b#code) |
+
 ## PreHooks List
 
-*Last updated: 2026-07-09 14:40:58 UTC*
+*Last updated: 2026-07-09 17:39:02 UTC*
 
 ### Ethereum PreHooks
 
@@ -854,6 +902,15 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `ExchangeRateValidatorPreHook` | `0x2d71762F9ccD9A5b4D41769122C0dD1A8735559c` [View](https://botanixscan.io/address/0x2d71762F9ccD9A5b4D41769122C0dD1A8735559c#code) |
 | `PreHookPauseFunction` | `0xa2571d0aD5a50306E29549E347EBE61a88b6B91e` [View](https://botanixscan.io/address/0xa2571d0aD5a50306E29549E347EBE61a88b6B91e#code) |
 | `PreHookUpdateBalancesIgnoreDust` | `0x95814408A3A0522e0de98b90F62F67Dc1d62deE1` [View](https://botanixscan.io/address/0x95814408A3A0522e0de98b90F62F67Dc1d62deE1#code) |
+
+### HyperEVM PreHooks
+
+| PreHook Name | Address / View in Explorer |
+|-----------|---------------------------|
+| `ExchangeRateValidatorPreHook` | `0xD95d0Da878A3E5F1dFDbe0622A2FF0816286b986` [View](https://hyperevmscan.io/address/0xD95d0Da878A3E5F1dFDbe0622A2FF0816286b986#code) |
+| `PreHookPauseFunction` | `0x9f340D4165231A62081616F5F5Ee25d49eF42C07` [View](https://hyperevmscan.io/address/0x9f340D4165231A62081616F5F5Ee25d49eF42C07#code) |
+| `PreHookUpdateBalancesIgnoreDust` | `0x404513a7D7382bEEF1101d62d6d2484eDe64e6f4` [View](https://hyperevmscan.io/address/0x404513a7D7382bEEF1101d62d6d2484eDe64e6f4#code) |
+| `RWAPausePreHook` | `0x2bd3E192e76cd784252d3505181a79a3aeaa4Ce4` [View](https://hyperevmscan.io/address/0x2bd3E192e76cd784252d3505181a79a3aeaa4Ce4#code) |
 
 ## Price Oracles List
 
