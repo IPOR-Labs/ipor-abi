@@ -4401,6 +4401,12 @@
         "token": "ttdUSDCpb",
         "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
         "PlasmaVault": "0x2E50e9D28C86b15d547a8918259Bb36640a9017c"
+      },
+      {
+        "name": "Bizantine cbBase USDC CORE",
+        "token": "bizcbUSDC",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x060f0177C0bc43c063cBA441fDd01fE3F5F865D9"
       }
     ],
     "fuses": [
