@@ -914,7 +914,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Price Oracles List
 
-*Last updated: 2026-07-09 15:00:04 UTC*
+*Last updated: 2026-07-09 17:58:43 UTC*
 
 ### Ethereum Price Oracles
 
@@ -1227,5 +1227,18 @@ No price feeds found for this version.
 #### Price Feeds for `PriceOracleMiddlewareUsdWithRolesProxy`
 
 ##### Version 2026-04-30 - `0x79729c68179F1F89F90b6b12c05eF2cB30D33D5b` [View](https://botanixscan.io/address/0x79729c68179F1F89F90b6b12c05eF2cB30D33D5b#code)
+
+No price feeds found for this version.
+
+
+### HyperEVM Price Oracles
+
+| Price Oracle Name | Address / View in Explorer |
+|-----------|---------------------------|
+| `PriceOracleMiddlewareUsdWithRolesProxy` | `0x4d4C8363460A67029d76Ea1597202758cf43Ec37` [View](https://hyperevmscan.io/address/0x4d4C8363460A67029d76Ea1597202758cf43Ec37#code) |
+
+#### Price Feeds for `PriceOracleMiddlewareUsdWithRolesProxy`
+
+##### Version 2026-07-09 - `0x4d4C8363460A67029d76Ea1597202758cf43Ec37` [View](https://hyperevmscan.io/address/0x4d4C8363460A67029d76Ea1597202758cf43Ec37#code)
 
 No price feeds found for this version.

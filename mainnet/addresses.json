@@ -7529,6 +7529,16 @@
           "2026-07-09": "0x2bd3E192e76cd784252d3505181a79a3aeaa4Ce4"
         }
       }
+    ],
+    "price_oracles": [
+      {
+        "name": "PriceOracleMiddlewareUsdWithRolesProxy",
+        "versions": {
+          "2026-07-09_001": {
+            "address": "0x4d4C8363460A67029d76Ea1597202758cf43Ec37"
+          }
+        }
+      }
     ]
   }
 }
