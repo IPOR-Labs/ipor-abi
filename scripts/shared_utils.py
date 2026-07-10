@@ -39,7 +39,8 @@ def get_rpc_urls():
         "avalanche": os.getenv("AVALANCHE_RPC_URL"),
         "katana": os.getenv("KATANA_RPC_URL"),
         "botanix": os.getenv("BOTANIX_RPC_URL"),
-        "hyperevm": os.getenv("HYPEREVM_RPC_URL")
+        "hyperevm": os.getenv("HYPEREVM_RPC_URL"),
+        "robinhood": os.getenv("ROBINHOOD_RPC_URL")
     }
 
 def validate_rpc_urls():
@@ -62,7 +63,8 @@ CHAIN_START_BLOCKS = {
     "avalanche": 69330233,
     "katana": 23646820,
     "botanix": 5327110,
-    "hyperevm": 39992900
+    "hyperevm": 39992900,
+    "robinhood": 5310759
 }
 
 # Chunk sizes for event fetching per chain
@@ -78,6 +80,7 @@ CHUNK_SIZES = {
     "katana": 10000,
     "botanix": 100000,
     "hyperevm": 10000,
+    "robinhood": 10000,
     "default": 10000    # Default chunk size for any unlisted chains
 }
 
@@ -93,7 +96,8 @@ EXPLORERS = {
     "avalanche": "https://snowscan.xyz/address/",
     "katana": "https://katanascan.com/address/",
     "botanix": "https://botanixscan.io/address/",
-    "hyperevm": "https://hyperevmscan.io/address/"
+    "hyperevm": "https://hyperevmscan.io/address/",
+    "robinhood": "https://robinhoodchain.blockscout.com/address/"
 }
 
 # Explorer types for URL generation
@@ -108,7 +112,8 @@ EXPLORER_TYPES = {
     "avalanche": "etherscan",
     "katana": "etherscan",
     "botanix": "routescan",
-    "hyperevm": "etherscan"
+    "hyperevm": "etherscan",
+    "robinhood": "blockscout"
 }
 
 # Chain IDs
@@ -123,7 +128,8 @@ CHAIN_IDS = {
     "avalanche": "43114",
     "katana": "747474",
     "botanix": "3637",
-    "hyperevm": "999"
+    "hyperevm": "999",
+    "robinhood": "4663"
 }
 
 # Chain display names
@@ -138,7 +144,8 @@ NAMES = {
     "avalanche": "Avalanche",
     "katana": "Katana",
     "botanix": "Botanix",
-    "hyperevm": "HyperEVM"
+    "hyperevm": "HyperEVM",
+    "robinhood": "Robinhood"
 }
 
 # Common ABIs
@@ -222,7 +229,8 @@ def get_chain_from_path(path):
         "avalanche": "avalanche",
         "katana": "katana",
         "botanix": "botanix",
-        "hyperevm": "hyperevm"
+        "hyperevm": "hyperevm",
+        "robinhood": "robinhood"
     }
     
     for chain in chains:
