@@ -6,7 +6,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Fuses List
 
-*Last updated: 2026-07-10 00:24:52 UTC*
+*Last updated: 2026-07-10 01:31:40 UTC*
 
 ### Ethereum Fuses
 
@@ -815,9 +815,58 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `UniversalTokenSwapperFuseV2` | `0xf7B343351bDD33E9Ec09f7ad4051887281779c69` [View](https://hyperevmscan.io/address/0xf7B343351bDD33E9Ec09f7ad4051887281779c69#code) |
 | `UpdateMarketsBalancesFuse` | `0x280cC2e768cCEcd4ba11DfCC439c7Fe986d3C39b` [View](https://hyperevmscan.io/address/0x280cC2e768cCEcd4ba11DfCC439c7Fe986d3C39b#code) |
 
+### Robinhood Fuses
+
+| Fuse Name | Address / View in Explorer |
+|-----------|---------------------------|
+| `AsyncActionBalanceFuse` | `0x913768BA51012B828b8C32aF824Ae1d556b470f6` [View](https://robinhoodchain.blockscout.com/address/0x913768BA51012B828b8C32aF824Ae1d556b470f6#code) |
+| `AsyncActionFuse` | `0x77346d9e0bb05D9f948f5b4a36Af3f64D22334eC` [View](https://robinhoodchain.blockscout.com/address/0x77346d9e0bb05D9f948f5b4a36Af3f64D22334eC#code) |
+| `BalanceFuseBurnRequestFee` | `0xFf28D69DF24d5957576461104b5521c447D863Ef` [View](https://robinhoodchain.blockscout.com/address/0xFf28D69DF24d5957576461104b5521c447D863Ef#code) |
+| `BalanceFuseErc20` | `0xF043A3D1B4D37Af399dE2967005b2b99E90Be7e6` [View](https://robinhoodchain.blockscout.com/address/0xF043A3D1B4D37Af399dE2967005b2b99E90Be7e6#code) |
+| `BalanceFuseErc4626Market1` | `0x6256A0B3896b68a2bF3eBC2171EB0A078a1074de` [View](https://robinhoodchain.blockscout.com/address/0x6256A0B3896b68a2bF3eBC2171EB0A078a1074de#code) |
+| `BalanceFuseErc4626Market2` | `0x52477eDA037Cd4831370812C110F099a633B5da4` [View](https://robinhoodchain.blockscout.com/address/0x52477eDA037Cd4831370812C110F099a633B5da4#code) |
+| `BalanceFuseErc4626Market3` | `0xCc88Bc6C36b2FF3C4E6aF94C022f4Cae107a029d` [View](https://robinhoodchain.blockscout.com/address/0xCc88Bc6C36b2FF3C4E6aF94C022f4Cae107a029d#code) |
+| `BalanceFuseErc4626Market4` | `0x0D94aae4ce722991E07bC3B2bdE7a77D83bece69` [View](https://robinhoodchain.blockscout.com/address/0x0D94aae4ce722991E07bC3B2bdE7a77D83bece69#code) |
+| `BalanceFuseErc4626Market5` | `0x1bEd1845f828f200B00B48E1Ec2614f50C84Bc8c` [View](https://robinhoodchain.blockscout.com/address/0x1bEd1845f828f200B00B48E1Ec2614f50C84Bc8c#code) |
+| `BalanceFuseFlashLoanMorpho` | `0xFAfDFf147C0f885fD3aECC49dAa86F866ba6fa32` [View](https://robinhoodchain.blockscout.com/address/0xFAfDFf147C0f885fD3aECC49dAa86F866ba6fa32#code) |
+| `BalanceFuseMetaMorphoMarket0001` | `0xD93E718CAEb6e719530Ba87d6d399837a439C7d7` [View](https://robinhoodchain.blockscout.com/address/0xD93E718CAEb6e719530Ba87d6d399837a439C7d7#code) |
+| `BalanceFuseMorpho` | `0x037aE96AE03f275200C34e9790359E4e4846Ff24` [View](https://robinhoodchain.blockscout.com/address/0x037aE96AE03f275200C34e9790359E4e4846Ff24#code) |
+| `BalanceFuseMorphoLiquidityInMarkets` | `0x7F9c39992cB15f994421718631fdd62c648C388B` [View](https://robinhoodchain.blockscout.com/address/0x7F9c39992cB15f994421718631fdd62c648C388B#code) |
+| `BalanceFuseUniversalTokenSwapper` | `0xa094e4b79Bd55D8CcF3c18b9FF98c50d7A3e2D0F` [View](https://robinhoodchain.blockscout.com/address/0xa094e4b79Bd55D8CcF3c18b9FF98c50d7A3e2D0F#code) |
+| `BalanceFuseUniversalTokenSwapperV2` | `0xD6B361578162C259c77281c6CF1500BB378a0857` [View](https://robinhoodchain.blockscout.com/address/0xD6B361578162C259c77281c6CF1500BB378a0857#code) |
+| `BorrowFuseMorpho` | `0x2f54C5e1ce07B2ff11F4D3ff3226f98559541807` [View](https://robinhoodchain.blockscout.com/address/0x2f54C5e1ce07B2ff11F4D3ff3226f98559541807#code) |
+| `BurnRequestFeeFuse` | `0xA4f285473f97f404Cbb4675406bcacc8c59Ae4Eb` [View](https://robinhoodchain.blockscout.com/address/0xA4f285473f97f404Cbb4675406bcacc8c59Ae4Eb#code) |
+| `BurnRequestFeeFuseV2` | `0x4806712017A1Ab1aDa62DfBE49adEF01300298cd` [View](https://robinhoodchain.blockscout.com/address/0x4806712017A1Ab1aDa62DfBE49adEF01300298cd#code) |
+| `ClaimRewardsFuseMorpho` | `0xdcfa32CCEDE9FAec6127508be2F1f8E619F0d089` [View](https://robinhoodchain.blockscout.com/address/0xdcfa32CCEDE9FAec6127508be2F1f8E619F0d089#code) |
+| `CollateralFuseMorpho` | `0x4AB22a4EEB6efc3946AA9bbc5Df0748b1Bf6D24E` [View](https://robinhoodchain.blockscout.com/address/0x4AB22a4EEB6efc3946AA9bbc5Df0748b1Bf6D24E#code) |
+| `ConfigureInstantWithdrawalFuse` | `0x7Cc36332d6B79a9B1576bbc153e19fE0066c9621` [View](https://robinhoodchain.blockscout.com/address/0x7Cc36332d6B79a9B1576bbc153e19fE0066c9621#code) |
+| `FlashloanFuseMorpho` | `0x6B1F2B6B5cD12b0f93955b7D7394194b31024398` [View](https://robinhoodchain.blockscout.com/address/0x6B1F2B6B5cD12b0f93955b7D7394194b31024398#code) |
+| `FuseRedeemFromRequestPlasmaVaultMarket1` | `0x834f9835c6F29EB55C10AEAA8c7AE8FeF069C8A6` [View](https://robinhoodchain.blockscout.com/address/0x834f9835c6F29EB55C10AEAA8c7AE8FeF069C8A6#code) |
+| `FuseRequestSharesPlasmaVaultMarket1` | `0x4F830d35864Fe9e1De679Ee69fb02dba1CC0ed6A` [View](https://robinhoodchain.blockscout.com/address/0x4F830d35864Fe9e1De679Ee69fb02dba1CC0ed6A#code) |
+| `FuseRequestSharesPlasmaVaultV2` | `0x131F37bcBB5B211ecc5327b139e835B72847093C` [View](https://robinhoodchain.blockscout.com/address/0x131F37bcBB5B211ecc5327b139e835B72847093C#code) |
+| `PlasmaVaultBalanceAssetsValidationFuse` | `0xAcd51DA8640C3eEe8b2FB8c00928e8977Cb71Fa8` [View](https://robinhoodchain.blockscout.com/address/0xAcd51DA8640C3eEe8b2FB8c00928e8977Cb71Fa8#code) |
+| `RequestFeeRefundFuse` | `0xB43Dbb95cFE90CE750309348ccb5Ed80fD463701` [View](https://robinhoodchain.blockscout.com/address/0xB43Dbb95cFE90CE750309348ccb5Ed80fD463701#code) |
+| `SupplyFuseErc4626Market1` | `0x8862B33f492b0Eb69C76A4FcEbbBF0590074BF66` [View](https://robinhoodchain.blockscout.com/address/0x8862B33f492b0Eb69C76A4FcEbbBF0590074BF66#code) |
+| `SupplyFuseErc4626Market2` | `0x6CA93Fd89109D56FfAE0417151Bf51093C64448b` [View](https://robinhoodchain.blockscout.com/address/0x6CA93Fd89109D56FfAE0417151Bf51093C64448b#code) |
+| `SupplyFuseErc4626Market3` | `0x529335c8e34313169093a5ecaAa1188d81561660` [View](https://robinhoodchain.blockscout.com/address/0x529335c8e34313169093a5ecaAa1188d81561660#code) |
+| `SupplyFuseErc4626Market4` | `0xFD18a06a0c12d13f01fC2c9200a8113C6f5b8eF2` [View](https://robinhoodchain.blockscout.com/address/0xFD18a06a0c12d13f01fC2c9200a8113C6f5b8eF2#code) |
+| `SupplyFuseErc4626Market5` | `0x5A8154b51422C4c2432E4B23C0FCF5b7Ca3af202` [View](https://robinhoodchain.blockscout.com/address/0x5A8154b51422C4c2432E4B23C0FCF5b7Ca3af202#code) |
+| `SupplyFuseMetaMorphoMarket0001` | `0x80F3E6769Dfac33768B59C60454770Ee7eCde793` [View](https://robinhoodchain.blockscout.com/address/0x80F3E6769Dfac33768B59C60454770Ee7eCde793#code) |
+| `SupplyFuseMorpho` | `0xd644142F2F8be91C9F44E30420c2cF135Be75D96` [View](https://robinhoodchain.blockscout.com/address/0xd644142F2F8be91C9F44E30420c2cF135Be75D96#code) |
+| `SupplyFuseMorphoLiquidityInMarkets` | `0x26D6b52B51458C8f62f88227ad1d05EE9359a680` [View](https://robinhoodchain.blockscout.com/address/0x26D6b52B51458C8f62f88227ad1d05EE9359a680#code) |
+| `SupplyFuseMorphoWithCallBackData` | `0x087B036cCf530eFA01295Af746B6bC2f767dDb9C` [View](https://robinhoodchain.blockscout.com/address/0x087B036cCf530eFA01295Af746B6bC2f767dDb9C#code) |
+| `SwapFuseUniversalTokenSwapperWithVerification` | `0x73c0F7ee56AFC5D3B89B2f38C8244BCaAA40C1d4` [View](https://robinhoodchain.blockscout.com/address/0x73c0F7ee56AFC5D3B89B2f38C8244BCaAA40C1d4#code) |
+| `SwapFuseUniversalTokenSwapperWithVerificationV2` | `0x0C5CC41D4B188e356FcD3743F758487Cd7C6259A` [View](https://robinhoodchain.blockscout.com/address/0x0C5CC41D4B188e356FcD3743F758487Cd7C6259A#code) |
+| `UniversalReaderBalanceFuses` | `0xb9136b4fd17C26677B3A7E7F4A4c1ad47d0F3Cb9` [View](https://robinhoodchain.blockscout.com/address/0xb9136b4fd17C26677B3A7E7F4A4c1ad47d0F3Cb9#code) |
+| `UniversalTokenSwapperEthFuse` | `0xf7037eeBEDaFA5a03e52133b49Ab8d2F87eA0355` [View](https://robinhoodchain.blockscout.com/address/0xf7037eeBEDaFA5a03e52133b49Ab8d2F87eA0355#code) |
+| `UniversalTokenSwapperEthFuseV2` | `0x5C06d98425A7F2b0896Dc301FaB6A07076A6B88b` [View](https://robinhoodchain.blockscout.com/address/0x5C06d98425A7F2b0896Dc301FaB6A07076A6B88b#code) |
+| `UniversalTokenSwapperFuse` | `0x9C04C5352BB17493be52f84c1Ed30E57492f1c5b` [View](https://robinhoodchain.blockscout.com/address/0x9C04C5352BB17493be52f84c1Ed30E57492f1c5b#code) |
+| `UniversalTokenSwapperFuseV2` | `0x7d249a3e409e2cd8e783661dA115aBc0b529Aa64` [View](https://robinhoodchain.blockscout.com/address/0x7d249a3e409e2cd8e783661dA115aBc0b529Aa64#code) |
+| `UpdateMarketsBalancesFuse` | `0x25fBb7124dCf00434510787B332F8634533c94AA` [View](https://robinhoodchain.blockscout.com/address/0x25fBb7124dCf00434510787B332F8634533c94AA#code) |
+
 ## PreHooks List
 
-*Last updated: 2026-07-10 00:24:54 UTC*
+*Last updated: 2026-07-10 01:31:41 UTC*
 
 ### Ethereum PreHooks
 
@@ -912,9 +961,17 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `PreHookUpdateBalancesIgnoreDust` | `0x404513a7D7382bEEF1101d62d6d2484eDe64e6f4` [View](https://hyperevmscan.io/address/0x404513a7D7382bEEF1101d62d6d2484eDe64e6f4#code) |
 | `RWAPausePreHook` | `0x2bd3E192e76cd784252d3505181a79a3aeaa4Ce4` [View](https://hyperevmscan.io/address/0x2bd3E192e76cd784252d3505181a79a3aeaa4Ce4#code) |
 
+### Robinhood PreHooks
+
+| PreHook Name | Address / View in Explorer |
+|-----------|---------------------------|
+| `ExchangeRateValidatorPreHook` | `0xA9D7d453B02eB2DC40E0fE6FE1041aaF2384D1F2` [View](https://robinhoodchain.blockscout.com/address/0xA9D7d453B02eB2DC40E0fE6FE1041aaF2384D1F2#code) |
+| `PreHookPauseFunction` | `0x5F30b26a041e44748078b6A20Bb142696e1236fc` [View](https://robinhoodchain.blockscout.com/address/0x5F30b26a041e44748078b6A20Bb142696e1236fc#code) |
+| `PreHookUpdateBalancesIgnoreDust` | `0x22f2408949180345e6b1A30f77Acf178A72BFB87` [View](https://robinhoodchain.blockscout.com/address/0x22f2408949180345e6b1A30f77Acf178A72BFB87#code) |
+
 ## Price Oracles List
 
-*Last updated: 2026-07-10 00:45:14 UTC*
+*Last updated: 2026-07-10 01:51:50 UTC*
 
 ### Ethereum Price Oracles
 
@@ -1240,5 +1297,18 @@ No price feeds found for this version.
 #### Price Feeds for `PriceOracleMiddlewareUsdWithRolesProxy`
 
 ##### Version 2026-07-09 - `0x4d4C8363460A67029d76Ea1597202758cf43Ec37` [View](https://hyperevmscan.io/address/0x4d4C8363460A67029d76Ea1597202758cf43Ec37#code)
+
+No price feeds found for this version.
+
+
+### Robinhood Price Oracles
+
+| Price Oracle Name | Address / View in Explorer |
+|-----------|---------------------------|
+| `PriceOracleMiddlewareUsdWithRolesProxy` | `0x9DD4F8195b95eb2283c5737bd16b35b4fC3B9554` [View](https://robinhoodchain.blockscout.com/address/0x9DD4F8195b95eb2283c5737bd16b35b4fC3B9554#code) |
+
+#### Price Feeds for `PriceOracleMiddlewareUsdWithRolesProxy`
+
+##### Version 2026-07-09 - `0x9DD4F8195b95eb2283c5737bd16b35b4fC3B9554` [View](https://robinhoodchain.blockscout.com/address/0x9DD4F8195b95eb2283c5737bd16b35b4fC3B9554#code)
 
 No price feeds found for this version.
