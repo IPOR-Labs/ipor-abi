@@ -116,7 +116,8 @@ def update_addresses_json(plasma_vaults_file, addresses_file):
                 "avalanche": {"vaults": []},
                 "katana": {"vaults": []},
                 "botanix": {"vaults": []},
-                "hyperevm": {"vaults": []}
+                "hyperevm": {"vaults": []},
+                "robinhood": {"vaults": []}
             }
 
         web3_connections = create_web3_connections()
@@ -145,6 +146,8 @@ def update_addresses_json(plasma_vaults_file, addresses_file):
                 chain = "botanix"
             elif "hyperevm" in file_path:
                 chain = "hyperevm"
+            elif "robinhood" in file_path:
+                chain = "robinhood"
 
             if not chain:
                 continue
