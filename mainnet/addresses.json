@@ -929,6 +929,48 @@
         "token": "tessUSDTsUSDslp",
         "asset": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "PlasmaVault": "0x9FEC8a63a6C6EF9eadDdfBd79DabA5918965794E"
+      },
+      {
+        "name": "Tesseract USDC Vault Share",
+        "token": "teUSDC",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0x2B8252698D5276477F7Ef374aDA08F817e02cAAd"
+      },
+      {
+        "name": "PV USDT sUSDS Loop Vault",
+        "token": "pvusdtsUSDSlp",
+        "asset": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "PlasmaVault": "0xbeB15968da918bae6Cc0229915B900e1b278B6b2"
+      },
+      {
+        "name": "Crosschain USDC Main Vault",
+        "token": "ccUSDC-ETH",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0x0Aa75BfD30Ae2d4061FF8261453b933Ab5959991"
+      },
+      {
+        "name": "Tesseract wETH Vault Share",
+        "token": "teWETH",
+        "asset": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "PlasmaVault": "0x4Dcd23c87b7edb2e1019f3cC1FD1e4F31c094fF2"
+      },
+      {
+        "name": "Tesseract wBTC Vault Share",
+        "token": "teWBTC",
+        "asset": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+        "PlasmaVault": "0xea717732007ddA547a1f5A2ce25c23CFEbA62ae5"
+      },
+      {
+        "name": "TESS PYUSD PRIME Loop Vault",
+        "token": "tessPYUSDPRIMElp",
+        "asset": "0x6c3ea9036406852006290770BEdFcAbA0e23A0e8",
+        "PlasmaVault": "0x77f9AC74112d44bA69b20E3Bb9DFd1A4972dF8e1"
+      },
+      {
+        "name": "TESS USDC  PRIME Loop Vault",
+        "token": "tessUSDCPRIMElp",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0x29a897202d8391754821A7f04C480898Ccb2DF87"
       }
     ],
     "fuses": [
@@ -2460,6 +2502,12 @@
         "token": "WT2",
         "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
         "PlasmaVault": "0xb0308dA61d3B55b67D17d0B4968e66DE5c3261F4"
+      },
+      {
+        "name": "Crosschain USDC Arbitrum Vault",
+        "token": "ccUSDC-ARB",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x174bfA12935AC416caA7d27397Bd4f3b15175980"
       }
     ],
     "fuses": [
@@ -4407,6 +4455,108 @@
         "token": "bizcbUSDC",
         "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
         "PlasmaVault": "0x060f0177C0bc43c063cBA441fDd01fE3F5F865D9"
+      },
+      {
+        "name": "IPOR_FUSION_VAULT",
+        "token": "IPOR_FU_VA",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0xB5ee93049C402CceaBAB17E3123EC2f99c389449"
+      },
+      {
+        "name": "asdasd",
+        "token": "d",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x691E6A3f3b5eE69470E276E49DE63cc51b99813c"
+      },
+      {
+        "name": "Test Vault 456",
+        "token": "TV456",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0xF3e0Ee14597FBd0a5a4200B018A487b61F9Ce1c8"
+      },
+      {
+        "name": "TESS cbBTC Debt Vault cbETH Loop",
+        "token": "tesscbBTCcbETH",
+        "asset": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+        "PlasmaVault": "0xe3432699550F08aef04bEAB363b740E6F8d946b2"
+      },
+      {
+        "name": "Vault 456",
+        "token": "VLT456",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0xeF5428a766363Db98563CfA923Bb224a7cE21E34"
+      },
+      {
+        "name": "FF Vault",
+        "token": "FFVLT",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x262CfAF5A5CCA84C02Ae3B10dE69305b2e306970"
+      },
+      {
+        "name": "Crosschain USDC Base Vault",
+        "token": "ccUSDC-BASE",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x7411cb6cA68Dfedf5a8d09146Ee277B11ddfb578"
+      },
+      {
+        "name": "GG Vault",
+        "token": "GGVLT",
+        "asset": "0x2Ae3F1Ec7F1F5012CFEab0185bfc7aa3cf0DEc22",
+        "PlasmaVault": "0x8c87111A3842C923a461eBfE5013bd4378e112Ee"
+      },
+      {
+        "name": "JJ Vault",
+        "token": "JJVLT",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0xa4f1Bb04CA9fdA03e80761F0501A1a5966214865"
+      },
+      {
+        "name": "Safe Created Vault",
+        "token": "SCVLT",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0xB177DaD9d14768C13351AA0344aD8753509c8086"
+      },
+      {
+        "name": "Safe UU Vault",
+        "token": "SUUVLT",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x89Edc15Ac3B40D4926FDD7fc2eFF1194382370fd"
+      },
+      {
+        "name": "TGG Vault",
+        "token": "TGGVLT",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0xFF6A65A4045024eE203a26A47BA9109A4649fCA7"
+      },
+      {
+        "name": "YY Vault",
+        "token": "YYVLT",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x95f87a330804c6eEa0DBf6216c50b853adD4375e"
+      },
+      {
+        "name": "fsdfs",
+        "token": "fsdfs",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x32595AeEdC7715738B9Fda8F67f49f68754E6e9c"
+      },
+      {
+        "name": "Proventus cbETH Loop Vault",
+        "token": "pvcbETHLp",
+        "asset": "0x2Ae3F1Ec7F1F5012CFEab0185bfc7aa3cf0DEc22",
+        "PlasmaVault": "0xbc9Af13D6f665F15071441c846B0d763bae4Ba3f"
+      },
+      {
+        "name": "TAU Base USDC LO",
+        "token": "TAUBASEUSD",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x7F1F605e755C06D428A80db3D473fc46a14Ee2cB"
+      },
+      {
+        "name": "Maciek Alpha Managed",
+        "token": "MAM",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x2FF396cB0e2F01d233E2671Fc015a6849DD78A8C"
       }
     ],
     "fuses": [
