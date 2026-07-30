@@ -278,7 +278,7 @@
       },
       {
         "name": "Fusion weETH looping Ethereum",
-        "token": "fusnweETH",
+        "token": "weETH",
         "asset": "0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee",
         "PlasmaVault": "0x087b40429637F5366175b1C9379613b01d00a860"
       },
@@ -971,6 +971,12 @@
         "token": "tessUSDCPRIMElp",
         "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "PlasmaVault": "0x29a897202d8391754821A7f04C480898Ccb2DF87"
+      },
+      {
+        "name": "TESS USDe sUSDe Loop Vault",
+        "token": "tessUSDesUSDelp",
+        "asset": "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
+        "PlasmaVault": "0xEA1776733Cc969df4fF004a9E1A2d87F5b60Add4"
       }
     ],
     "fuses": [
@@ -2319,7 +2325,7 @@
       },
       {
         "name": "IPOR wstETH Arbitrum",
-        "token": "ipwstETHfusion",
+        "token": "wstETH",
         "asset": "0x5979D7b546E38E414F7E9822514be443A4800529",
         "PlasmaVault": "0x7C655d660E2b09126B0AD6851F99d70d3715Fd9b"
       },
@@ -4557,6 +4563,12 @@
         "token": "MAM",
         "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
         "PlasmaVault": "0x2FF396cB0e2F01d233E2671Fc015a6849DD78A8C"
+      },
+      {
+        "name": "TAU Base ETH LO",
+        "token": "TAUBASEETH",
+        "asset": "0x4200000000000000000000000000000000000006",
+        "PlasmaVault": "0x0c755EF12Fa9fA3E857Fa2464cfC52deb4878265"
       }
     ],
     "fuses": [
