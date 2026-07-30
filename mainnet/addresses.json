@@ -278,7 +278,7 @@
       },
       {
         "name": "Fusion weETH looping Ethereum",
-        "token": "weETH",
+        "token": "fusnweETH",
         "asset": "0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee",
         "PlasmaVault": "0x087b40429637F5366175b1C9379613b01d00a860"
       },
@@ -977,6 +977,36 @@
         "token": "tessUSDesUSDelp",
         "asset": "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
         "PlasmaVault": "0xEA1776733Cc969df4fF004a9E1A2d87F5b60Add4"
+      },
+      {
+        "name": "Proventus sUSDe USDe Loop Vault",
+        "token": "pvsUSDeEthenalp",
+        "asset": "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
+        "PlasmaVault": "0x6205942f43976B9eCBAF87942C0f5926196fC6A8"
+      },
+      {
+        "name": "POL Prime",
+        "token": "POLp",
+        "asset": "0x455e53CBB86018Ac2B8092FdCd39d8444aFFC3F6",
+        "PlasmaVault": "0x5F304564Bd957A28C4A4472DeD30C91ffeb05fB4"
+      },
+      {
+        "name": "Tesseract wBTC Vault Share",
+        "token": "teWBTC",
+        "asset": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+        "PlasmaVault": "0xe2e5124A4Ffcf7c478EcF589B331D8cb5b9AF1dA"
+      },
+      {
+        "name": "Tesseract USDC Vault Share",
+        "token": "teUSDC",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0x64Eb14E45922Cc4D91668B5750c9673b8DCe31bc"
+      },
+      {
+        "name": "Tesseract wETH Vault Share",
+        "token": "teWETH",
+        "asset": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "PlasmaVault": "0xF0C615fa0B5D3289Db24B4011d3023f1948f840C"
       }
     ],
     "fuses": [
@@ -2325,7 +2355,7 @@
       },
       {
         "name": "IPOR wstETH Arbitrum",
-        "token": "wstETH",
+        "token": "ipwstETHfusion",
         "asset": "0x5979D7b546E38E414F7E9822514be443A4800529",
         "PlasmaVault": "0x7C655d660E2b09126B0AD6851F99d70d3715Fd9b"
       },
@@ -4569,6 +4599,48 @@
         "token": "TAUBASEETH",
         "asset": "0x4200000000000000000000000000000000000006",
         "PlasmaVault": "0x0c755EF12Fa9fA3E857Fa2464cfC52deb4878265"
+      },
+      {
+        "name": "Alpha test",
+        "token": "AT",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0xdA65002E5d6758236d9915F1721724D98FD357f2"
+      },
+      {
+        "name": "Apple Carry Trade",
+        "token": "AAPLCT",
+        "asset": "0xb200000000000000000000C2e324d24d7eEcd1fb",
+        "PlasmaVault": "0x31744E44d6aF88225C1dBEFbe5Df8308fAeA641B"
+      },
+      {
+        "name": "Microsoft Carry Trade",
+        "token": "MSFTCT",
+        "asset": "0xB200000000000000000000Ab99cFa739E253872B",
+        "PlasmaVault": "0xbE49dd45D9D28F2380CbeE3e57a8243E736E4552"
+      },
+      {
+        "name": "Nvidia Carry Trade",
+        "token": "NVDACT",
+        "asset": "0xb20000000000000000000078ee7ce2fE4908108C",
+        "PlasmaVault": "0xFb132f4C6d9DCF4f80483Ea7D96C5A5dccfcFE83"
+      },
+      {
+        "name": "Coinbase Carry Trade",
+        "token": "COINCT",
+        "asset": "0xb200000000000000000000c85a31389D71F3ecfb",
+        "PlasmaVault": "0x79505EFaD14D289C84A71c28369b944aDa25B131"
+      },
+      {
+        "name": ".",
+        "token": "1",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x58eB1D235B05ee537102A3e443AF665E1E268558"
+      },
+      {
+        "name": "Test Vault Wizard Alpha IPOR",
+        "token": "TSTWIZALF",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0xA138FcF31c03Cf71DC31Cd622110E5Ea6bCf0555"
       }
     ],
     "fuses": [
