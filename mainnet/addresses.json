@@ -1339,6 +1339,12 @@
         }
       },
       {
+        "name": "BalanceFuseUniswapV4",
+        "versions": {
+          "2026-08-03": "0x18192A95578db97539c0181Bb832DA7Bf2dD80B5"
+        }
+      },
+      {
         "name": "BalanceFuseUniversalTokenSwapper",
         "versions": {
           "2025-01-16": "0xe9562d7bd06b43E6391C5bE4B3c5F5C2BC1E06Bf"
@@ -1434,6 +1440,12 @@
         "name": "CollateralFuseMorpho",
         "versions": {
           "2025-01-16": "0xE1aA89eb42C23f292cDa1544566F6EBeE3a67EED"
+        }
+      },
+      {
+        "name": "CollectFuseUniswapV4",
+        "versions": {
+          "2026-08-03": "0xb4A6b14d08bE159A6434c8668cF9044eCeFb64E7"
         }
       },
       {
@@ -1598,6 +1610,12 @@
         }
       },
       {
+        "name": "ModifyPositionFuseUniswapV4",
+        "versions": {
+          "2026-08-03": "0x8Ff33d99A25B448387DCcad4Ed61C61b40C19815"
+        }
+      },
+      {
         "name": "ModifyPositionSwapFuseUniswapV3",
         "versions": {
           "2026-03-18": "0xef0285fAA4BDb749CBFd3b1FcB4f61500307D8d4"
@@ -1649,6 +1667,12 @@
         "name": "NapierZapDepositFuse",
         "versions": {
           "2026-03-04": "0xE067Eb9E64470b5707B305C4925671DFA50e7C67"
+        }
+      },
+      {
+        "name": "NewPositionFuseUniswapV4",
+        "versions": {
+          "2026-08-03": "0x1A2D2F51D1874BDc89F6E78feb99B8B7967d16dA"
         }
       },
       {
@@ -4889,6 +4913,12 @@
         }
       },
       {
+        "name": "BalanceFuseUniswapV4",
+        "versions": {
+          "2026-08-03": "0x95c54602EA008E1f2568E7559C579d868F54a74a"
+        }
+      },
+      {
         "name": "BalanceFuseUniversalTokenSwapper",
         "versions": {
           "2024-10-29": "0x706ca1cA4EcE9CF23301D6AB35ce6fb7Cf25DA15"
@@ -5028,6 +5058,12 @@
         }
       },
       {
+        "name": "CollectFuseUniswapV4",
+        "versions": {
+          "2026-08-03": "0xcd1C07BD9F1a0b746e549ea21B94299F648D8d85"
+        }
+      },
+      {
         "name": "CollectSwapFuseUniswapV3",
         "versions": {
           "2024-10-29": "0xf13D892786aE580D1B300d378a654553c2F226De"
@@ -5140,6 +5176,12 @@
         }
       },
       {
+        "name": "ModifyPositionFuseUniswapV4",
+        "versions": {
+          "2026-08-03": "0x77D7a1896e2Cebe25b2BDe13280A858F1573F111"
+        }
+      },
+      {
         "name": "ModifyPositionSwapFuseUniswapV3",
         "versions": {
           "2024-10-29": "0x3978b49f991949cA453601656EE97e8339f56da3"
@@ -5157,6 +5199,12 @@
         "versions": {
           "2025-10-09": "0x4426a0A9acE4a784AbB0417B88bc9f3091aC210F",
           "2026-05-06": "0xB6A36F64aa10FFC8B6220C2f47c06670c18bAc5d"
+        }
+      },
+      {
+        "name": "NewPositionFuseUniswapV4",
+        "versions": {
+          "2026-08-03": "0x19B207dDeDD987d768AF903dB74ac5C649a3df08"
         }
       },
       {
