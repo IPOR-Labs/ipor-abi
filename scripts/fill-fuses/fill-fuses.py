@@ -12,6 +12,24 @@ IGNORED_FIELD_NAMES = [
   "IporFusionFuseWhitelistProxy"
 ]
 
+# Manual exceptions applied as the last step of preparing the fuses list.
+# Each entry forces "address" to become the current (newest) version of the fuse
+# "name" on "chain"; the previously newest address is kept in "versions" and ends
+# up in the "Older Fuses Versions" section of the README.
+# "date" is used as the version key and must be later than all existing version
+# dates of that fuse (versions are ordered by date), otherwise the exception is
+# skipped with an error in the logs.
+FUSE_EXCEPTIONS = [
+    {
+        # Deployed 2025-12-02 (earlier than the current version), so date-based
+        # ordering alone would not make it the newest version.
+        "chain": "ethereum",
+        "name": "UniversalTokenSwapperFuse",
+        "address": "0x54c860323cCD609405a18E46b0F799BEb5DF5D50",
+        "date": "2026-08-03"
+    }
+]
+
 logger = setup_env_and_logging()
 
 
@@ -172,6 +190,55 @@ def update_addresses_json(fuses_file, addresses_file):
         logger.error(f"Error updating addresses.json: {str(e)}")
 
 
+def apply_fuse_exceptions(addresses_file):
+    try:
+        with open(addresses_file, 'r') as f:
+            addresses = json.load(f)
+
+        changed = False
+        for exception in FUSE_EXCEPTIONS:
+            chain = exception["chain"]
+            name = exception["name"]
+            address = exception["address"]
+            date = exception["date"]
+
+            fuses = addresses.get(chain, {}).get("fuses", [])
+            fuse = next((f for f in fuses if f["name"] == name), None)
+            if fuse is None:
+                logger.warning(f"Fuse exception skipped: {name} not found on {chain}")
+                continue
+
+            current_versions = fuse["versions"]
+            newest_date = max(current_versions) if current_versions else None
+            if newest_date and current_versions[newest_date].lower() == address.lower():
+                logger.info(f"Fuse exception already applied: {name} on {chain} -> {address}")
+                continue
+
+            versions = {d: a for d, a in current_versions.items() if a.lower() != address.lower()}
+            if versions and date <= max(versions):
+                logger.error(
+                    f"Fuse exception skipped: date {date} for {name} on {chain} "
+                    f"is not later than existing version date {max(versions)}"
+                )
+                continue
+
+            versions[date] = address
+            fuse["versions"] = dict(sorted(versions.items()))
+            changed = True
+            logger.info(
+                f"Applied fuse exception on {chain}: {name} current version set to {address} ({date}), "
+                f"previous address {current_versions.get(newest_date)} moved to older versions"
+            )
+
+        if changed:
+            with open(addresses_file, 'w') as f:
+                json.dump(addresses, f, indent=2)
+            logger.info(f"Fuse exceptions applied and saved to {addresses_file}")
+
+    except Exception as e:
+        logger.error(f"Error applying fuse exceptions: {str(e)}")
+
+
 def generate_markdown_list(addresses_file=None, readme_file="../../README.md"):
     if addresses_file is None:
         addresses_file = get_main_addresses_file()
@@ -289,7 +356,9 @@ def main():
     logger.info(f"Processing complete. Results written to {OUTPUT_FILE}")
 
     update_addresses_json(OUTPUT_FILE, get_main_addresses_file())
-    
+
+    apply_fuse_exceptions(get_main_addresses_file())
+
     generate_markdown_list()
 
 
