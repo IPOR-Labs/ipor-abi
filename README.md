@@ -6,7 +6,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Fuses List
 
-*Last updated: 2026-08-03 07:38:04 UTC*
+*Last updated: 2026-08-03 09:16:29 UTC*
 
 ### Ethereum Fuses
 
@@ -173,7 +173,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `UniversalReaderBalanceFuses` | `0x870E1Fb75BEdbc2eFB92857DC2B2cF171a0AEC1f` [View](https://etherscan.io/address/0x870E1Fb75BEdbc2eFB92857DC2B2cF171a0AEC1f#code) |
 | `UniversalTokenSwapperEthFuse` | `0xa07780FdaF46C0EFd5C4F6349268065E5D1fDBe5` [View](https://etherscan.io/address/0xa07780FdaF46C0EFd5C4F6349268065E5D1fDBe5#code) |
 | `UniversalTokenSwapperEthFuseV2` | `0xf3777089A4b31EF0f9e8B6f3762C6FBeD4dDA449` [View](https://etherscan.io/address/0xf3777089A4b31EF0f9e8B6f3762C6FBeD4dDA449#code) |
-| `UniversalTokenSwapperFuse` | `0xA301D6f34f2c8399E8564681cF675999cc1f1584` [View](https://etherscan.io/address/0xA301D6f34f2c8399E8564681cF675999cc1f1584#code) |
+| `UniversalTokenSwapperFuse` | `0x54c860323cCD609405a18E46b0F799BEb5DF5D50` [View](https://etherscan.io/address/0x54c860323cCD609405a18E46b0F799BEb5DF5D50#code) |
 | `UniversalTokenSwapperFuseV2` | `0x5A62574a2b28cC73c63116919A9131fb4F51941b` [View](https://etherscan.io/address/0x5A62574a2b28cC73c63116919A9131fb4F51941b#code) |
 | `VeloraSwapperFuse` | `0x8771e28451F0A2b891B3401c94bCfA272215D48b` [View](https://etherscan.io/address/0x8771e28451F0A2b891B3401c94bCfA272215D48b#code) |
 | `ZeroBalanceFuseLitePSM` | `0x336a13cad401e82fda58bEC8e42AcdB568A998eC` [View](https://etherscan.io/address/0x336a13cad401e82fda58bEC8e42AcdB568A998eC#code) |
@@ -208,6 +208,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `SupplyFuseEulerV2` | `0xDd33b4b6b9A7aA6fcC5F1D1c8ebB649A796Fd5B5` [View](https://etherscan.io/address/0xDd33b4b6b9A7aA6fcC5F1D1c8ebB649A796Fd5B5#code) |
 | `SupplyFuseEulerV2` | `0x225D3e01d3Ba0DdF904E1Fbb46256f7D3A7e7bF0` [View](https://etherscan.io/address/0x225D3e01d3Ba0DdF904E1Fbb46256f7D3A7e7bF0#code) |
 | `SwapFuseUniversalTokenSwapper_PV_USDC_msyrupL` | `0x641B81E993E1C52a74a84cAf17f1aD50A49675B3` [View](https://etherscan.io/address/0x641B81E993E1C52a74a84cAf17f1aD50A49675B3#code) |
+| `UniversalTokenSwapperFuse` | `0xA301D6f34f2c8399E8564681cF675999cc1f1584` [View](https://etherscan.io/address/0xA301D6f34f2c8399E8564681cF675999cc1f1584#code) |
 
 ### Arbitrum Fuses
 

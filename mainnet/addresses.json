@@ -2028,7 +2028,8 @@
       {
         "name": "UniversalTokenSwapperFuse",
         "versions": {
-          "2026-01-29": "0xA301D6f34f2c8399E8564681cF675999cc1f1584"
+          "2026-01-29": "0xA301D6f34f2c8399E8564681cF675999cc1f1584",
+          "2026-08-03": "0x54c860323cCD609405a18E46b0F799BEb5DF5D50"
         }
       },
       {
