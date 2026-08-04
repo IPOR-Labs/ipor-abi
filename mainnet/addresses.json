@@ -1031,6 +1031,12 @@
         "token": "teWBTC",
         "asset": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
         "PlasmaVault": "0xC047f7eFdd0ce4969eA81db020F86D73632071F3"
+      },
+      {
+        "name": "TESS wBTC Debt Vault USDe sUSDe Loop",
+        "token": "tessWBTCUSDedv",
+        "asset": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+        "PlasmaVault": "0x460Efc3B2F08F7aac064a0bD5F59610F4765FCD3"
       }
     ],
     "fuses": [
