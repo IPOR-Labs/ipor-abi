@@ -1037,6 +1037,24 @@
         "token": "tessWBTCUSDedv",
         "asset": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
         "PlasmaVault": "0x460Efc3B2F08F7aac064a0bD5F59610F4765FCD3"
+      },
+      {
+        "name": "Tesseract USDC Vault Share",
+        "token": "teUSDC",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0x9B64CC61Cf4537dF94d181dA7d4f615A0795902d"
+      },
+      {
+        "name": "Ensuro IPOR Vault",
+        "token": "ens+ipUSDC",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0xdCD8Cb1E2Ba62fAEF6c4C258508D7D959E5F3408"
+      },
+      {
+        "name": "Ensuro IPOR Vault",
+        "token": "ens+ipUSDC",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0x567cA59c77013ca4AaBe0952d3184dCaB46f963E"
       }
     ],
     "fuses": [
@@ -4696,6 +4714,12 @@
         "token": "TSTWIZALF",
         "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
         "PlasmaVault": "0xA138FcF31c03Cf71DC31Cd622110E5Ea6bCf0555"
+      },
+      {
+        "name": "AA Vault",
+        "token": "AAVLT",
+        "asset": "0x4200000000000000000000000000000000000006",
+        "PlasmaVault": "0xdf151A55A467415A1E88076573425980d2225B6D"
       }
     ],
     "fuses": [
