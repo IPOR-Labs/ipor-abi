@@ -1055,6 +1055,18 @@
         "token": "ens+ipUSDC",
         "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "PlasmaVault": "0x567cA59c77013ca4AaBe0952d3184dCaB46f963E"
+      },
+      {
+        "name": "Bizantine FXRP Carry Vault",
+        "token": "bzFXRP-ETH",
+        "asset": "0xCE6170EA245dC8D1f275A710a062b70f125F0110",
+        "PlasmaVault": "0x8C0127f303D1173229C4Bf708b8619909B06a83E"
+      },
+      {
+        "name": "Tesseract USDC Vault Share",
+        "token": "teUSDC",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0x7d2CdD577346a1B5AD9D689bF0b2d597735C5272"
       }
     ],
     "fuses": [
@@ -2796,9 +2808,21 @@
         }
       },
       {
+        "name": "BalanceFuseUniversalTokenSwapperV2",
+        "versions": {
+          "2026-08-06": "0x69199E8360b3Baa536Cda2bd71dFFb30F79fBeF7"
+        }
+      },
+      {
         "name": "BalanceFuseVeloraSwapper",
         "versions": {
           "2026-02-11": "0xEb033a5c73f6Ad00b9DEb3091b205b802Ddf5bc7"
+        }
+      },
+      {
+        "name": "BatchFuseEulerV2",
+        "versions": {
+          "2026-08-06": "0x91e5b36CD9070728878e733a872C2BC0AA1Fb3b5"
         }
       },
       {
@@ -2819,6 +2843,12 @@
         "versions": {
           "2025-02-26": "0x292711bC63184318294593C38Ad914AcfCd1797B",
           "2025-03-14": "0xee322e49268760878924d18A645278aB08Ae245c"
+        }
+      },
+      {
+        "name": "BurnRequestFeeFuseV2",
+        "versions": {
+          "2026-08-06": "0x2E8A9f5ee2438f62e77BF6298F4Ac46Ec7861D63"
         }
       },
       {
@@ -2920,6 +2950,12 @@
         }
       },
       {
+        "name": "FuseRequestSharesPlasmaVaultV2",
+        "versions": {
+          "2026-08-06": "0x023f0766Ec493fe5cC6634615df997F1396b6150"
+        }
+      },
+      {
         "name": "MerklClaimFuse",
         "versions": {
           "2025-11-05": "0x7db8a7A58fA64ABEfe85D90317C5F9EeeE8b7591"
@@ -3010,9 +3046,16 @@
         }
       },
       {
+        "name": "RequestFeeRefundFuse",
+        "versions": {
+          "2026-08-06": "0xb5A1bb3445F5D8f9BF6de7cd81cAB1687eF31A0D"
+        }
+      },
+      {
         "name": "RewardEulerTokenClaimFuse",
         "versions": {
-          "2025-11-05": "0x5b74A646Ce1D8AF41dbFd21D4c7C52Cf184DfCd6"
+          "2025-11-05": "0x5b74A646Ce1D8AF41dbFd21D4c7C52Cf184DfCd6",
+          "2026-08-06": "0x9Ea8aFF2317793CB9f00bde40a78a33a78fE636b"
         }
       },
       {
@@ -3134,6 +3177,12 @@
         }
       },
       {
+        "name": "SwapDeployFuseEulerV2",
+        "versions": {
+          "2026-08-06": "0x25bE82F7d186590A7Adb21cb7B179A75E1884D42"
+        }
+      },
+      {
         "name": "SwapFuseUniswapV2",
         "versions": {
           "2024-09-11": "0xAdA9bF3c599DB229601dd1220D0b3CcAb6c7db84"
@@ -3164,9 +3213,33 @@
         }
       },
       {
+        "name": "SwapFuseUniversalTokenSwapperEthNoSlippageV2",
+        "versions": {
+          "2026-08-06": "0xa3743Aa7085F6D4A5e22D7779649bF6b35e47fB6"
+        }
+      },
+      {
         "name": "SwapFuseUniversalTokenSwapperWithVerification",
         "versions": {
           "2025-07-25": "0x64D077CD727937E5A4861A2695C2C9AD65EED700"
+        }
+      },
+      {
+        "name": "SwapFuseUniversalTokenSwapperWithVerificationV2",
+        "versions": {
+          "2026-08-06": "0x717D1B12931F739292bF10ef7b22B732091D1Da6"
+        }
+      },
+      {
+        "name": "SwapReconfigureFuseEulerV2",
+        "versions": {
+          "2026-08-06": "0xC650f5b5f7785C925D70C6544B78f1b437b1C255"
+        }
+      },
+      {
+        "name": "SwapRegistryFuseEulerV2",
+        "versions": {
+          "2026-08-06": "0x833A68A4bB4e0eb93130FcdbCAaac51b65ebeD0C"
         }
       },
       {
@@ -3182,9 +3255,21 @@
         }
       },
       {
+        "name": "UniversalTokenSwapperEthFuseV2",
+        "versions": {
+          "2026-08-06": "0x9D06578238713a08A1ece595AAb6188FAEE32b25"
+        }
+      },
+      {
         "name": "UniversalTokenSwapperFuse",
         "versions": {
           "2026-02-11": "0x9Dab5e11Ece5470F9782C9BC818C519f730eE854"
+        }
+      },
+      {
+        "name": "UniversalTokenSwapperFuseV2",
+        "versions": {
+          "2026-08-06": "0x799b979A2377268ac2D5E43247cbd6F797229Ef3"
         }
       },
       {
