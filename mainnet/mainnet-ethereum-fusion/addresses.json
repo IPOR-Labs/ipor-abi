@@ -54,6 +54,8 @@
   "BurnRequestFeeFuseV2": "0x6DebD98329d826bA79b6Fd9B14cC718D1720D0bE",
   "CallbackHandlerEuler": "0xB13BA9E4e93314025D43072f9ac51474C7Eab293",
   "CallbackHandlerMorpho": "0x4f9Cc0d7432B66EACa58064a2F0EA663A2F0b465",
+  "ChainlinkGuardedPriceFeedFactoryImpl": "0xF2d6334a34c8A647a2cC8e53fd01afDb3433946A",
+  "ChainlinkGuardedPriceFeedFactoryProxy": "0xC400a1dA807cfD66076bC0d67A7cBF1828cDb690",
   "ClaimRewardsFuseFluidProof": "0x30AdE01153CB697BB751cacb6392F49C22558fe0",
   "ClaimRewardsFuseMorpho": "0x6820dF665BA09FBbd3240aA303421928EF4C71a1",
   "CollateralFuseEulerV2": "0x07d80997d57AD9489a4c48f6134dF91822e36514",

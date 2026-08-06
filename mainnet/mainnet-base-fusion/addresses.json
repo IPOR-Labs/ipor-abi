@@ -53,6 +53,8 @@
   "ChainlinkFeedWeEthEth": "0xFC1415403EbB0c693f9a7844b92aD2Ff24775C65",
   "ChainlinkFeedWrsEthEth": "0xe8dD07CCf5BC4922424140E44Eb970F5950725ef",
   "ChainlinkFeedWstEthEth": "0x43a5C292A453A3bF3606fa856197f09D7B74251a",
+  "ChainlinkGuardedPriceFeedFactoryImpl": "0xf20487c2e81b9651032C0D39FEca8B7D0D6915d3",
+  "ChainlinkGuardedPriceFeedFactoryProxy": "0x4CE4B5182317a81F5416C04A7912Ef4d4b9714c9",
   "ClaimFeesFuseAerodrome": "0xF16899fC66c099481d9d140f4EC4bB8619e001dE",
   "ClaimRewardsFuseCompoundV3": "0x10de4b8aa7c363999769F8a8295F4F091a77DF4F",
   "ClaimRewardsFuseFluidInstadapp": "0x4E3139528EBA9B85addf1b7E5c36002b7bE8c9B2",
