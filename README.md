@@ -6,7 +6,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Fuses List
 
-*Last updated: 2026-08-06 12:20:06 UTC*
+*Last updated: 2026-08-10 14:26:59 UTC*
 
 ### Ethereum Fuses
 
@@ -721,16 +721,20 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `BalanceFuseMorpho` | `0x83790D83C23461cd22429276406C4f09DB885A85` [View](https://katanascan.com/address/0x83790D83C23461cd22429276406C4f09DB885A85#code) |
 | `BalanceFuseMorphoLiquidityInMarkets` | `0x70Ed27aEE2dD509bC6BB067d8e2C61A1FE96eCa4` [View](https://katanascan.com/address/0x70Ed27aEE2dD509bC6BB067d8e2C61A1FE96eCa4#code) |
 | `BalanceFuseUniversalTokenSwapper` | `0x96393AcF49769a8C2318635fd27ab69F9c92bD1c` [View](https://katanascan.com/address/0x96393AcF49769a8C2318635fd27ab69F9c92bD1c#code) |
+| `BalanceFuseUniversalTokenSwapperV2` | `0x87dF04464459Bfb377aFB130aD3Fd98A0957C0b1` [View](https://katanascan.com/address/0x87dF04464459Bfb377aFB130aD3Fd98A0957C0b1#code) |
 | `BorrowFuseMorpho` | `0x08095Aef82A5B33b5B478d254052618A5366cd78` [View](https://katanascan.com/address/0x08095Aef82A5B33b5B478d254052618A5366cd78#code) |
 | `BurnRequestFeeFuse` | `0x44D368e85f419C59aC01b7270D234d8BF19Df36e` [View](https://katanascan.com/address/0x44D368e85f419C59aC01b7270D234d8BF19Df36e#code) |
+| `BurnRequestFeeFuseV2` | `0xBd6f1B9408B52e1371594Ef70D58dA49385e130b` [View](https://katanascan.com/address/0xBd6f1B9408B52e1371594Ef70D58dA49385e130b#code) |
 | `ClaimRewardsFuseMorpho` | `0x368C4D59d7432603A86999e4f77c43E7666813BE` [View](https://katanascan.com/address/0x368C4D59d7432603A86999e4f77c43E7666813BE#code) |
 | `CollateralFuseMorpho` | `0xda9a20690a185DAA3b0fD198C6232234835B6929` [View](https://katanascan.com/address/0xda9a20690a185DAA3b0fD198C6232234835B6929#code) |
 | `ConfigureInstantWithdrawalFuse` | `0x53803356a73a4625724B533d169957a08CFE8ff7` [View](https://katanascan.com/address/0x53803356a73a4625724B533d169957a08CFE8ff7#code) |
 | `FlashloanFuseMorpho` | `0x4D9d1015F7a862D1b7690FFC0B16f3A4518a479e` [View](https://katanascan.com/address/0x4D9d1015F7a862D1b7690FFC0B16f3A4518a479e#code) |
 | `FuseRedeemFromRequestPlasmaVaultMarket1` | `0x818917B635d0ba67bAF64939ed70947306f2f042` [View](https://katanascan.com/address/0x818917B635d0ba67bAF64939ed70947306f2f042#code) |
 | `FuseRequestSharesPlasmaVaultMarket1` | `0x047806ae79e7C89a18e0F4AD98f8EDaCA27cd180` [View](https://katanascan.com/address/0x047806ae79e7C89a18e0F4AD98f8EDaCA27cd180#code) |
+| `FuseRequestSharesPlasmaVaultV2` | `0xe0A80508dE0c9CED25E9EB8EFbA2e37C683Ad459` [View](https://katanascan.com/address/0xe0A80508dE0c9CED25E9EB8EFbA2e37C683Ad459#code) |
 | `MerklClaimFuse` | `0xF4278e62a6B5A45E378e6692C7Aa9C7291E7ce36` [View](https://katanascan.com/address/0xF4278e62a6B5A45E378e6692C7Aa9C7291E7ce36#code) |
 | `PlasmaVaultBalanceAssetsValidationFuse` | `0xA4C9BE8f5DC9024351c0F7F48D27344Cf37bb59f` [View](https://katanascan.com/address/0xA4C9BE8f5DC9024351c0F7F48D27344Cf37bb59f#code) |
+| `RequestFeeRefundFuse` | `0x1584f53b30ff843A70A33B09363e26ddd26547A2` [View](https://katanascan.com/address/0x1584f53b30ff843A70A33B09363e26ddd26547A2#code) |
 | `SupplyFuseErc4626Market1` | `0x20c21024716F43a0A51d71a2bD7F9f335E36Bd25` [View](https://katanascan.com/address/0x20c21024716F43a0A51d71a2bD7F9f335E36Bd25#code) |
 | `SupplyFuseErc4626Market2` | `0xD05a7431546b1Bc16d9cC0974c382B093B96f5a0` [View](https://katanascan.com/address/0xD05a7431546b1Bc16d9cC0974c382B093B96f5a0#code) |
 | `SupplyFuseErc4626Market3` | `0x31D2e3194f7CE240fD8809f9Ef804c7Ba972Dea6` [View](https://katanascan.com/address/0x31D2e3194f7CE240fD8809f9Ef804c7Ba972Dea6#code) |
@@ -740,9 +744,12 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `SupplyFuseMorpho` | `0xC66c3F5cC5e1550A0Ff960c06D630A2FBB80E19d` [View](https://katanascan.com/address/0xC66c3F5cC5e1550A0Ff960c06D630A2FBB80E19d#code) |
 | `SupplyFuseMorphoLiquidityInMarkets` | `0x1f657229ec2D261be7dCD63ca82abed334d1f28b` [View](https://katanascan.com/address/0x1f657229ec2D261be7dCD63ca82abed334d1f28b#code) |
 | `SwapFuseUniversalTokenSwapperWithVerification` | `0xCB2a3868aE6271Bef43E785303e1c1A3fe3A6336` [View](https://katanascan.com/address/0xCB2a3868aE6271Bef43E785303e1c1A3fe3A6336#code) |
+| `SwapFuseUniversalTokenSwapperWithVerificationV2` | `0x2DfaB8711c0f5B64Cb484794d6F84e9791F07045` [View](https://katanascan.com/address/0x2DfaB8711c0f5B64Cb484794d6F84e9791F07045#code) |
 | `UniversalReaderBalanceFuses` | `0xaBa54310aF826DFE3153f78dB2eaa27eC2Be6758` [View](https://katanascan.com/address/0xaBa54310aF826DFE3153f78dB2eaa27eC2Be6758#code) |
 | `UniversalTokenSwapperEthFuse` | `0xCC434EDD069E9f638765b21228C65d245B38E30A` [View](https://katanascan.com/address/0xCC434EDD069E9f638765b21228C65d245B38E30A#code) |
+| `UniversalTokenSwapperEthFuseV2` | `0x48D837E769d66b1FeCe76B66A7560a5a749096bf` [View](https://katanascan.com/address/0x48D837E769d66b1FeCe76B66A7560a5a749096bf#code) |
 | `UniversalTokenSwapperFuse` | `0x431b0520a01B5ECd516b99F8080aCb79FC7DA143` [View](https://katanascan.com/address/0x431b0520a01B5ECd516b99F8080aCb79FC7DA143#code) |
+| `UniversalTokenSwapperFuseV2` | `0x2513bA6f5603217636973F130128fc0372084C1E` [View](https://katanascan.com/address/0x2513bA6f5603217636973F130128fc0372084C1E#code) |
 | `UpdateMarketsBalancesFuse` | `0x5b97E7937755939Dba2fdc053068178DBF350c7b` [View](https://katanascan.com/address/0x5b97E7937755939Dba2fdc053068178DBF350c7b#code) |
 
 ### Botanix Fuses
@@ -888,7 +895,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## PreHooks List
 
-*Last updated: 2026-08-06 12:20:07 UTC*
+*Last updated: 2026-08-10 14:27:01 UTC*
 
 ### Ethereum PreHooks
 
@@ -993,7 +1000,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Price Oracles List
 
-*Last updated: 2026-08-06 12:53:28 UTC*
+*Last updated: 2026-08-10 14:55:57 UTC*
 
 ### Ethereum Price Oracles
 

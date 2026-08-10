@@ -4805,6 +4805,42 @@
         "token": "AAVLT",
         "asset": "0x4200000000000000000000000000000000000006",
         "PlasmaVault": "0xdf151A55A467415A1E88076573425980d2225B6D"
+      },
+      {
+        "name": "fdsfsd",
+        "token": "fsdf",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0xb89b34C78D16E4A96B5d4505361E39a601D9eAD8"
+      },
+      {
+        "name": "PP Vault",
+        "token": "PPVLT",
+        "asset": "0x4200000000000000000000000000000000000006",
+        "PlasmaVault": "0x347C6A97507F7C848fbcB475934aa5084535874b"
+      },
+      {
+        "name": "DD Vaultt",
+        "token": "DDVLTT",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x9693836B945918C9CDFD617a9B8967bD9dFF9E41"
+      },
+      {
+        "name": "GG VLT",
+        "token": "GGVLT",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0xf8d71B1b260C6E45803374EB8ad60f41d0B29860"
+      },
+      {
+        "name": "wstETH NN Vault",
+        "token": "wstETHNN",
+        "asset": "0xc1CBa3fCea344f92D9239c08C0568f6F2F0ee452",
+        "PlasmaVault": "0x124e46C4dD5d213f15E8D5EfCbc7968930cACDb5"
+      },
+      {
+        "name": "mikeUSDC",
+        "token": "mikeUSDC",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x7Ae4761852005b21a70764f207e531Fef325d539"
       }
     ],
     "fuses": [
@@ -7208,6 +7244,12 @@
         }
       },
       {
+        "name": "BalanceFuseUniversalTokenSwapperV2",
+        "versions": {
+          "2026-08-10": "0x87dF04464459Bfb377aFB130aD3Fd98A0957C0b1"
+        }
+      },
+      {
         "name": "BorrowFuseMorpho",
         "versions": {
           "2026-02-06": "0x08095Aef82A5B33b5B478d254052618A5366cd78"
@@ -7217,6 +7259,12 @@
         "name": "BurnRequestFeeFuse",
         "versions": {
           "2026-02-06": "0x44D368e85f419C59aC01b7270D234d8BF19Df36e"
+        }
+      },
+      {
+        "name": "BurnRequestFeeFuseV2",
+        "versions": {
+          "2026-08-10": "0xBd6f1B9408B52e1371594Ef70D58dA49385e130b"
         }
       },
       {
@@ -7256,6 +7304,12 @@
         }
       },
       {
+        "name": "FuseRequestSharesPlasmaVaultV2",
+        "versions": {
+          "2026-08-10": "0xe0A80508dE0c9CED25E9EB8EFbA2e37C683Ad459"
+        }
+      },
+      {
         "name": "MerklClaimFuse",
         "versions": {
           "2026-02-06": "0xF4278e62a6B5A45E378e6692C7Aa9C7291E7ce36"
@@ -7265,6 +7319,12 @@
         "name": "PlasmaVaultBalanceAssetsValidationFuse",
         "versions": {
           "2026-02-06": "0xA4C9BE8f5DC9024351c0F7F48D27344Cf37bb59f"
+        }
+      },
+      {
+        "name": "RequestFeeRefundFuse",
+        "versions": {
+          "2026-08-10": "0x1584f53b30ff843A70A33B09363e26ddd26547A2"
         }
       },
       {
@@ -7322,6 +7382,12 @@
         }
       },
       {
+        "name": "SwapFuseUniversalTokenSwapperWithVerificationV2",
+        "versions": {
+          "2026-08-10": "0x2DfaB8711c0f5B64Cb484794d6F84e9791F07045"
+        }
+      },
+      {
         "name": "UniversalReaderBalanceFuses",
         "versions": {
           "2026-02-06": "0xaBa54310aF826DFE3153f78dB2eaa27eC2Be6758"
@@ -7334,9 +7400,21 @@
         }
       },
       {
+        "name": "UniversalTokenSwapperEthFuseV2",
+        "versions": {
+          "2026-08-10": "0x48D837E769d66b1FeCe76B66A7560a5a749096bf"
+        }
+      },
+      {
         "name": "UniversalTokenSwapperFuse",
         "versions": {
           "2026-02-06": "0x431b0520a01B5ECd516b99F8080aCb79FC7DA143"
+        }
+      },
+      {
+        "name": "UniversalTokenSwapperFuseV2",
+        "versions": {
+          "2026-08-10": "0x2513bA6f5603217636973F130128fc0372084C1E"
         }
       },
       {
