@@ -1067,6 +1067,12 @@
         "token": "teUSDC",
         "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "PlasmaVault": "0x7d2CdD577346a1B5AD9D689bF0b2d597735C5272"
+      },
+      {
+        "name": "weETH Earn",
+        "token": "weEARN",
+        "asset": "0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee",
+        "PlasmaVault": "0xe2b8B3A2132e1E0597A3FC76bBd6653eC6eeB225"
       }
     ],
     "fuses": [
@@ -4841,6 +4847,12 @@
         "token": "mikeUSDC",
         "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
         "PlasmaVault": "0x7Ae4761852005b21a70764f207e531Fef325d539"
+      },
+      {
+        "name": "Yield Testor",
+        "token": "xTEST",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0xdE021018C530557a0a47787315cFa20482cE5a86"
       }
     ],
     "fuses": [
