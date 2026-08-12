@@ -6,7 +6,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Fuses List
 
-*Last updated: 2026-08-05 08:27:26 UTC*
+*Last updated: 2026-08-11 12:05:53 UTC*
 
 ### Ethereum Fuses
 
@@ -247,10 +247,13 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `BalanceFuseSwapUniswapV2` | `0x0f0f43B3559bE3319a63082755AD05C158D3b011` [View](https://arbiscan.io/address/0x0f0f43B3559bE3319a63082755AD05C158D3b011#code) |
 | `BalanceFuseSwapUniswapV3` | `0x43F3ca257B7e2d6BbE088B85eF2c2c57e2A3142c` [View](https://arbiscan.io/address/0x43F3ca257B7e2d6BbE088B85eF2c2c57e2A3142c#code) |
 | `BalanceFuseUniversalTokenSwapper` | `0x7ceAe29f467db23210C6fDB95247355C87026eD0` [View](https://arbiscan.io/address/0x7ceAe29f467db23210C6fDB95247355C87026eD0#code) |
+| `BalanceFuseUniversalTokenSwapperV2` | `0x69199E8360b3Baa536Cda2bd71dFFb30F79fBeF7` [View](https://arbiscan.io/address/0x69199E8360b3Baa536Cda2bd71dFFb30F79fBeF7#code) |
 | `BalanceFuseVeloraSwapper` | `0xEb033a5c73f6Ad00b9DEb3091b205b802Ddf5bc7` [View](https://arbiscan.io/address/0xEb033a5c73f6Ad00b9DEb3091b205b802Ddf5bc7#code) |
+| `BatchFuseEulerV2` | `0x91e5b36CD9070728878e733a872C2BC0AA1Fb3b5` [View](https://arbiscan.io/address/0x91e5b36CD9070728878e733a872C2BC0AA1Fb3b5#code) |
 | `BorrowFuseAaveV3` | `0x28264E8b70902f6C55420EAF66AeeE12b602302E` [View](https://arbiscan.io/address/0x28264E8b70902f6C55420EAF66AeeE12b602302E#code) |
 | `BorrowFuseEulerV2` | `0x10eb9B247e7Ce00F3290F66d8B5E83BfD311375F` [View](https://arbiscan.io/address/0x10eb9B247e7Ce00F3290F66d8B5E83BfD311375F#code) |
 | `BurnRequestFeeFuse` | `0xee322e49268760878924d18A645278aB08Ae245c` [View](https://arbiscan.io/address/0xee322e49268760878924d18A645278aB08Ae245c#code) |
+| `BurnRequestFeeFuseV2` | `0x2E8A9f5ee2438f62e77BF6298F4Ac46Ec7861D63` [View](https://arbiscan.io/address/0x2E8A9f5ee2438f62e77BF6298F4Ac46Ec7861D63#code) |
 | `ClaimRewardsFuseCompoundV3` | `0xfa27F28934D3478F65bcfA158E3096045bFdb1Bd` [View](https://arbiscan.io/address/0xfa27F28934D3478F65bcfA158E3096045bFdb1Bd#code) |
 | `ClaimRewardsFuseFluidInstadapp` | `0x5c7E10C4D6F65b89C026fC8df69891e6B90A8434` [View](https://arbiscan.io/address/0x5c7E10C4D6F65b89C026fC8df69891e6B90A8434#code) |
 | `ClaimRewardsFuseGearboxV3FarmDToken` | `0xFa209140BBA92a64b1038649e7385fa860405099` [View](https://arbiscan.io/address/0xFa209140BBA92a64b1038649e7385fa860405099#code) |
@@ -267,6 +270,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `FusePendleSwapPt` | `0x31fA1E9dC753d0f565CfA9337d59A91298146244` [View](https://arbiscan.io/address/0x31fA1E9dC753d0f565CfA9337d59A91298146244#code) |
 | `FuseRedeemFromRequestPlasmaVaultMarket1` | `0x4d3E8763E86Dee40B34bC21e098b26f5B9ba394d` [View](https://arbiscan.io/address/0x4d3E8763E86Dee40B34bC21e098b26f5B9ba394d#code) |
 | `FuseRequestSharesPlasmaVaultMarket1` | `0xD6c4bf7Ac3AEA99Fa01532e4457202AE41A2596B` [View](https://arbiscan.io/address/0xD6c4bf7Ac3AEA99Fa01532e4457202AE41A2596B#code) |
+| `FuseRequestSharesPlasmaVaultV2` | `0x023f0766Ec493fe5cC6634615df997F1396b6150` [View](https://arbiscan.io/address/0x023f0766Ec493fe5cC6634615df997F1396b6150#code) |
 | `MerklClaimFuse` | `0x7db8a7A58fA64ABEfe85D90317C5F9EeeE8b7591` [View](https://arbiscan.io/address/0x7db8a7A58fA64ABEfe85D90317C5F9EeeE8b7591#code) |
 | `ModifyPositionSwapFuseRamsesV2` | `0xD41501B46a68DeA06a460fD79a7bCda9e3b92674` [View](https://arbiscan.io/address/0xD41501B46a68DeA06a460fD79a7bCda9e3b92674#code) |
 | `ModifyPositionSwapFuseUniswapV3` | `0xba503b6f2b95A4A47ee9884bbBcd80cAce2D2EB3` [View](https://arbiscan.io/address/0xba503b6f2b95A4A47ee9884bbBcd80cAce2D2EB3#code) |
@@ -282,7 +286,8 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `NewPositionSwapFuseUniswapV3` | `0x1DA7F95e63f12169B3495E2B83D01D0D6592DD86` [View](https://arbiscan.io/address/0x1DA7F95e63f12169B3495E2B83D01D0D6592DD86#code) |
 | `OdosSwapperFuse` | `0x19eA0E29EdDe3209c34A86004957510EF3C9912e` [View](https://arbiscan.io/address/0x19eA0E29EdDe3209c34A86004957510EF3C9912e#code) |
 | `PlasmaVaultBalanceAssetsValidationFuse` | `0x3232C95AaC56fB1C6d49852B57D79EdB76de8e4B` [View](https://arbiscan.io/address/0x3232C95AaC56fB1C6d49852B57D79EdB76de8e4B#code) |
-| `RewardEulerTokenClaimFuse` | `0x5b74A646Ce1D8AF41dbFd21D4c7C52Cf184DfCd6` [View](https://arbiscan.io/address/0x5b74A646Ce1D8AF41dbFd21D4c7C52Cf184DfCd6#code) |
+| `RequestFeeRefundFuse` | `0xb5A1bb3445F5D8f9BF6de7cd81cAB1687eF31A0D` [View](https://arbiscan.io/address/0xb5A1bb3445F5D8f9BF6de7cd81cAB1687eF31A0D#code) |
+| `RewardEulerTokenClaimFuse` | `0x9Ea8aFF2317793CB9f00bde40a78a33a78fE636b` [View](https://arbiscan.io/address/0x9Ea8aFF2317793CB9f00bde40a78a33a78fE636b#code) |
 | `StakeDaoV2BalanceFuse` | `0x868358F70b43E23b650a11779442e048c9ec0Dd4` [View](https://arbiscan.io/address/0x868358F70b43E23b650a11779442e048c9ec0Dd4#code) |
 | `StakeDaoV2ClaimFuse` | `0x9BB58bc262a4543De6136ae5FB16A80a2B111875` [View](https://arbiscan.io/address/0x9BB58bc262a4543De6136ae5FB16A80a2B111875#code) |
 | `StakeDaoV2SupplyFuse` | `0x4af60343C2a6a9692559030936fBFf579c05779c` [View](https://arbiscan.io/address/0x4af60343C2a6a9692559030936fBFf579c05779c#code) |
@@ -302,15 +307,22 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `SupplyFuseGearboxV3FarmDToken` | `0xB0FBF6B7D0586C0a5Bc1C3b8a98773f4eD02c983` [View](https://arbiscan.io/address/0xB0FBF6B7D0586C0a5Bc1C3b8a98773f4eD02c983#code) |
 | `SupplyFuseMorpho` | `0x5Ea9d92fb3975f9f9d1Fa69b98A37BF4dDe61e2a` [View](https://arbiscan.io/address/0x5Ea9d92fb3975f9f9d1Fa69b98A37BF4dDe61e2a#code) |
 | `SupplyFuseMorphoLiquidityInMarkets` | `0xB9eeAe4234445Cb84e7d9f45686DCB934f21fFC9` [View](https://arbiscan.io/address/0xB9eeAe4234445Cb84e7d9f45686DCB934f21fFC9#code) |
+| `SwapDeployFuseEulerV2` | `0x25bE82F7d186590A7Adb21cb7B179A75E1884D42` [View](https://arbiscan.io/address/0x25bE82F7d186590A7Adb21cb7B179A75E1884D42#code) |
 | `SwapFuseUniswapV2` | `0xAdA9bF3c599DB229601dd1220D0b3CcAb6c7db84` [View](https://arbiscan.io/address/0xAdA9bF3c599DB229601dd1220D0b3CcAb6c7db84#code) |
 | `SwapFuseUniswapV3` | `0x84C5aB008C66d664681698A9E4536D942B916F89` [View](https://arbiscan.io/address/0x84C5aB008C66d664681698A9E4536D942B916F89#code) |
 | `SwapFuseUniversalTokenSwapper` | `0xB052b0D983E493B4D40DeC75A03D21b70b83c2ca` [View](https://arbiscan.io/address/0xB052b0D983E493B4D40DeC75A03D21b70b83c2ca#code) |
 | `SwapFuseUniversalTokenSwapperEth` | `0xd43a359890072D1b3939366e612D7FA0C7DDdB32` [View](https://arbiscan.io/address/0xd43a359890072D1b3939366e612D7FA0C7DDdB32#code) |
 | `SwapFuseUniversalTokenSwapperEthNoSlippage` | `0x6f6C1bB7526B2aeeefe2f5Afb402CE7fDf5f4d9A` [View](https://arbiscan.io/address/0x6f6C1bB7526B2aeeefe2f5Afb402CE7fDf5f4d9A#code) |
+| `SwapFuseUniversalTokenSwapperEthNoSlippageV2` | `0xa3743Aa7085F6D4A5e22D7779649bF6b35e47fB6` [View](https://arbiscan.io/address/0xa3743Aa7085F6D4A5e22D7779649bF6b35e47fB6#code) |
 | `SwapFuseUniversalTokenSwapperWithVerification` | `0x64D077CD727937E5A4861A2695C2C9AD65EED700` [View](https://arbiscan.io/address/0x64D077CD727937E5A4861A2695C2C9AD65EED700#code) |
+| `SwapFuseUniversalTokenSwapperWithVerificationV2` | `0x717D1B12931F739292bF10ef7b22B732091D1Da6` [View](https://arbiscan.io/address/0x717D1B12931F739292bF10ef7b22B732091D1Da6#code) |
+| `SwapReconfigureFuseEulerV2` | `0xC650f5b5f7785C925D70C6544B78f1b437b1C255` [View](https://arbiscan.io/address/0xC650f5b5f7785C925D70C6544B78f1b437b1C255#code) |
+| `SwapRegistryFuseEulerV2` | `0x833A68A4bB4e0eb93130FcdbCAaac51b65ebeD0C` [View](https://arbiscan.io/address/0x833A68A4bB4e0eb93130FcdbCAaac51b65ebeD0C#code) |
 | `UniversalReaderBalanceFuses` | `0xacDB88ea2E2D248369b5b3137Fc3f971543d706c` [View](https://arbiscan.io/address/0xacDB88ea2E2D248369b5b3137Fc3f971543d706c#code) |
 | `UniversalTokenSwapperEthFuse` | `0xE53D515D7Dd5e4788a90607400FA8906Be494a28` [View](https://arbiscan.io/address/0xE53D515D7Dd5e4788a90607400FA8906Be494a28#code) |
+| `UniversalTokenSwapperEthFuseV2` | `0x9D06578238713a08A1ece595AAb6188FAEE32b25` [View](https://arbiscan.io/address/0x9D06578238713a08A1ece595AAb6188FAEE32b25#code) |
 | `UniversalTokenSwapperFuse` | `0x9Dab5e11Ece5470F9782C9BC818C519f730eE854` [View](https://arbiscan.io/address/0x9Dab5e11Ece5470F9782C9BC818C519f730eE854#code) |
+| `UniversalTokenSwapperFuseV2` | `0x799b979A2377268ac2D5E43247cbd6F797229Ef3` [View](https://arbiscan.io/address/0x799b979A2377268ac2D5E43247cbd6F797229Ef3#code) |
 | `VeloraSwapperFuse` | `0x922000aF6ac6659B3b6945E933B706B52453A531` [View](https://arbiscan.io/address/0x922000aF6ac6659B3b6945E933B706B52453A531#code) |
 | `ZeroBalanceFuseNapier` | `0x31024FC8C4F4Eb64081DAAD5Ee6e1D1CBaEE051C` [View](https://arbiscan.io/address/0x31024FC8C4F4Eb64081DAAD5Ee6e1D1CBaEE051C#code) |
 
@@ -323,6 +335,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `BurnRequestFeeFuse` | `0x292711bC63184318294593C38Ad914AcfCd1797B` [View](https://arbiscan.io/address/0x292711bC63184318294593C38Ad914AcfCd1797B#code) |
 | `CollateralFuseEulerV2` | `0x4567EE5D7D531f2e09DA915d95c8c7bb0c2b1459` [View](https://arbiscan.io/address/0x4567EE5D7D531f2e09DA915d95c8c7bb0c2b1459#code) |
 | `ControllerFuseEulerV2` | `0xc27E938FCA53E3f5fE5deb9141033573048a22B4` [View](https://arbiscan.io/address/0xc27E938FCA53E3f5fE5deb9141033573048a22B4#code) |
+| `RewardEulerTokenClaimFuse` | `0x5b74A646Ce1D8AF41dbFd21D4c7C52Cf184DfCd6` [View](https://arbiscan.io/address/0x5b74A646Ce1D8AF41dbFd21D4c7C52Cf184DfCd6#code) |
 | `StakeDaoV2SupplyFuse` | `0x588a48916262f726eFdB59200658829a4a6AB252` [View](https://arbiscan.io/address/0x588a48916262f726eFdB59200658829a4a6AB252#code) |
 | `SupplyFuseAaveV3` | `0x9339acD4e73C8a11109f77bC87221bDfC7b7A4FC` [View](https://arbiscan.io/address/0x9339acD4e73C8a11109f77bC87221bDfC7b7A4FC#code) |
 | `SupplyFuseEulerV2` | `0x96A29E00C13A3e23f91259364F118501e1a46344` [View](https://arbiscan.io/address/0x96A29E00C13A3e23f91259364F118501e1a46344#code) |
@@ -708,16 +721,20 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `BalanceFuseMorpho` | `0x83790D83C23461cd22429276406C4f09DB885A85` [View](https://katanascan.com/address/0x83790D83C23461cd22429276406C4f09DB885A85#code) |
 | `BalanceFuseMorphoLiquidityInMarkets` | `0x70Ed27aEE2dD509bC6BB067d8e2C61A1FE96eCa4` [View](https://katanascan.com/address/0x70Ed27aEE2dD509bC6BB067d8e2C61A1FE96eCa4#code) |
 | `BalanceFuseUniversalTokenSwapper` | `0x96393AcF49769a8C2318635fd27ab69F9c92bD1c` [View](https://katanascan.com/address/0x96393AcF49769a8C2318635fd27ab69F9c92bD1c#code) |
+| `BalanceFuseUniversalTokenSwapperV2` | `0x87dF04464459Bfb377aFB130aD3Fd98A0957C0b1` [View](https://katanascan.com/address/0x87dF04464459Bfb377aFB130aD3Fd98A0957C0b1#code) |
 | `BorrowFuseMorpho` | `0x08095Aef82A5B33b5B478d254052618A5366cd78` [View](https://katanascan.com/address/0x08095Aef82A5B33b5B478d254052618A5366cd78#code) |
 | `BurnRequestFeeFuse` | `0x44D368e85f419C59aC01b7270D234d8BF19Df36e` [View](https://katanascan.com/address/0x44D368e85f419C59aC01b7270D234d8BF19Df36e#code) |
+| `BurnRequestFeeFuseV2` | `0xBd6f1B9408B52e1371594Ef70D58dA49385e130b` [View](https://katanascan.com/address/0xBd6f1B9408B52e1371594Ef70D58dA49385e130b#code) |
 | `ClaimRewardsFuseMorpho` | `0x368C4D59d7432603A86999e4f77c43E7666813BE` [View](https://katanascan.com/address/0x368C4D59d7432603A86999e4f77c43E7666813BE#code) |
 | `CollateralFuseMorpho` | `0xda9a20690a185DAA3b0fD198C6232234835B6929` [View](https://katanascan.com/address/0xda9a20690a185DAA3b0fD198C6232234835B6929#code) |
 | `ConfigureInstantWithdrawalFuse` | `0x53803356a73a4625724B533d169957a08CFE8ff7` [View](https://katanascan.com/address/0x53803356a73a4625724B533d169957a08CFE8ff7#code) |
 | `FlashloanFuseMorpho` | `0x4D9d1015F7a862D1b7690FFC0B16f3A4518a479e` [View](https://katanascan.com/address/0x4D9d1015F7a862D1b7690FFC0B16f3A4518a479e#code) |
 | `FuseRedeemFromRequestPlasmaVaultMarket1` | `0x818917B635d0ba67bAF64939ed70947306f2f042` [View](https://katanascan.com/address/0x818917B635d0ba67bAF64939ed70947306f2f042#code) |
 | `FuseRequestSharesPlasmaVaultMarket1` | `0x047806ae79e7C89a18e0F4AD98f8EDaCA27cd180` [View](https://katanascan.com/address/0x047806ae79e7C89a18e0F4AD98f8EDaCA27cd180#code) |
+| `FuseRequestSharesPlasmaVaultV2` | `0xe0A80508dE0c9CED25E9EB8EFbA2e37C683Ad459` [View](https://katanascan.com/address/0xe0A80508dE0c9CED25E9EB8EFbA2e37C683Ad459#code) |
 | `MerklClaimFuse` | `0xF4278e62a6B5A45E378e6692C7Aa9C7291E7ce36` [View](https://katanascan.com/address/0xF4278e62a6B5A45E378e6692C7Aa9C7291E7ce36#code) |
 | `PlasmaVaultBalanceAssetsValidationFuse` | `0xA4C9BE8f5DC9024351c0F7F48D27344Cf37bb59f` [View](https://katanascan.com/address/0xA4C9BE8f5DC9024351c0F7F48D27344Cf37bb59f#code) |
+| `RequestFeeRefundFuse` | `0x1584f53b30ff843A70A33B09363e26ddd26547A2` [View](https://katanascan.com/address/0x1584f53b30ff843A70A33B09363e26ddd26547A2#code) |
 | `SupplyFuseErc4626Market1` | `0x20c21024716F43a0A51d71a2bD7F9f335E36Bd25` [View](https://katanascan.com/address/0x20c21024716F43a0A51d71a2bD7F9f335E36Bd25#code) |
 | `SupplyFuseErc4626Market2` | `0xD05a7431546b1Bc16d9cC0974c382B093B96f5a0` [View](https://katanascan.com/address/0xD05a7431546b1Bc16d9cC0974c382B093B96f5a0#code) |
 | `SupplyFuseErc4626Market3` | `0x31D2e3194f7CE240fD8809f9Ef804c7Ba972Dea6` [View](https://katanascan.com/address/0x31D2e3194f7CE240fD8809f9Ef804c7Ba972Dea6#code) |
@@ -727,9 +744,12 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `SupplyFuseMorpho` | `0xC66c3F5cC5e1550A0Ff960c06D630A2FBB80E19d` [View](https://katanascan.com/address/0xC66c3F5cC5e1550A0Ff960c06D630A2FBB80E19d#code) |
 | `SupplyFuseMorphoLiquidityInMarkets` | `0x1f657229ec2D261be7dCD63ca82abed334d1f28b` [View](https://katanascan.com/address/0x1f657229ec2D261be7dCD63ca82abed334d1f28b#code) |
 | `SwapFuseUniversalTokenSwapperWithVerification` | `0xCB2a3868aE6271Bef43E785303e1c1A3fe3A6336` [View](https://katanascan.com/address/0xCB2a3868aE6271Bef43E785303e1c1A3fe3A6336#code) |
+| `SwapFuseUniversalTokenSwapperWithVerificationV2` | `0x2DfaB8711c0f5B64Cb484794d6F84e9791F07045` [View](https://katanascan.com/address/0x2DfaB8711c0f5B64Cb484794d6F84e9791F07045#code) |
 | `UniversalReaderBalanceFuses` | `0xaBa54310aF826DFE3153f78dB2eaa27eC2Be6758` [View](https://katanascan.com/address/0xaBa54310aF826DFE3153f78dB2eaa27eC2Be6758#code) |
 | `UniversalTokenSwapperEthFuse` | `0xCC434EDD069E9f638765b21228C65d245B38E30A` [View](https://katanascan.com/address/0xCC434EDD069E9f638765b21228C65d245B38E30A#code) |
+| `UniversalTokenSwapperEthFuseV2` | `0x48D837E769d66b1FeCe76B66A7560a5a749096bf` [View](https://katanascan.com/address/0x48D837E769d66b1FeCe76B66A7560a5a749096bf#code) |
 | `UniversalTokenSwapperFuse` | `0x431b0520a01B5ECd516b99F8080aCb79FC7DA143` [View](https://katanascan.com/address/0x431b0520a01B5ECd516b99F8080aCb79FC7DA143#code) |
+| `UniversalTokenSwapperFuseV2` | `0x2513bA6f5603217636973F130128fc0372084C1E` [View](https://katanascan.com/address/0x2513bA6f5603217636973F130128fc0372084C1E#code) |
 | `UpdateMarketsBalancesFuse` | `0x5b97E7937755939Dba2fdc053068178DBF350c7b` [View](https://katanascan.com/address/0x5b97E7937755939Dba2fdc053068178DBF350c7b#code) |
 
 ### Botanix Fuses
@@ -875,7 +895,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## PreHooks List
 
-*Last updated: 2026-08-05 08:27:27 UTC*
+*Last updated: 2026-08-11 12:05:54 UTC*
 
 ### Ethereum PreHooks
 
@@ -980,7 +1000,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Price Oracles List
 
-*Last updated: 2026-08-05 08:54:06 UTC*
+*Last updated: 2026-08-11 12:33:29 UTC*
 
 ### Ethereum Price Oracles
 
