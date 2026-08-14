@@ -4883,6 +4883,36 @@
         "token": "xTEST",
         "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
         "PlasmaVault": "0xdE021018C530557a0a47787315cFa20482cE5a86"
+      },
+      {
+        "name": "Yield Testor2",
+        "token": "xTEST",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x517CFd488F7093F76dd3a64b1A496f5AA1D39b48"
+      },
+      {
+        "name": "tete",
+        "token": "tete",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x8B32C8a1F7776330c3114dE9842335a923AD7bAa"
+      },
+      {
+        "name": "Alpha nav test",
+        "token": "ant",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0xA392B7De7055688eB6d8171f4b16E3DE584175de"
+      },
+      {
+        "name": "a",
+        "token": "b",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x82c3BB8A16d04E8E98EeC6019F876cBBA0b22079"
+      },
+      {
+        "name": "b",
+        "token": "b",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x8cbBc63AfCC3d395E6A9aE33e26010507AEff777"
       }
     ],
     "fuses": [
