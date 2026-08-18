@@ -6,7 +6,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Fuses List
 
-*Last updated: 2026-08-11 12:05:53 UTC*
+*Last updated: 2026-08-13 17:30:54 UTC*
 
 ### Ethereum Fuses
 
@@ -91,6 +91,10 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `EbisuZapperCreateFuse` | `0x1Aba4764dDE4Ae6D29C97aE3A20A95267a37069e` [View](https://etherscan.io/address/0x1Aba4764dDE4Ae6D29C97aE3A20A95267a37069e#code) |
 | `EbisuZapperLeverModifyFuse` | `0xA3BabE2e9A1fdA1350B76EB77C40Dd394c836102` [View](https://etherscan.io/address/0xA3BabE2e9A1fdA1350B76EB77C40Dd394c836102#code) |
 | `EulerV2BatchFuse` | `0x45F3bf4F5318D9683357fA8f9f4442263F7DdA6F` [View](https://etherscan.io/address/0x45F3bf4F5318D9683357fA8f9f4442263F7DdA6F#code) |
+| `ExternalStateBalanceFuse` | `0x30DE3D8e37C55568653A94102080ea0e822AadD7` [View](https://etherscan.io/address/0x30DE3D8e37C55568653A94102080ea0e822AadD7#code) |
+| `ExternalStateOperationFuse` | `0x18856A47C4D8124Ec42Ad7e1Bd82970d63dfa68c` [View](https://etherscan.io/address/0x18856A47C4D8124Ec42Ad7e1Bd82970d63dfa68c#code) |
+| `ExternalStateRescueFuse` | `0xE07e04F2844125c5a30A7B9FF77cB51bbBD4C6c2` [View](https://etherscan.io/address/0xE07e04F2844125c5a30A7B9FF77cB51bbBD4C6c2#code) |
+| `ExternalStateUnpauseFuse` | `0x6944BF59413F4aE9817cFeC06A0E1377F6801cdD` [View](https://etherscan.io/address/0x6944BF59413F4aE9817cFeC06A0E1377F6801cdD#code) |
 | `FlashloanFuseMorpho` | `0x9185033e24dB36407b9b1A1886Cb47B9533433DE` [View](https://etherscan.io/address/0x9185033e24dB36407b9b1A1886Cb47B9533433DE#code) |
 | `FuseHarvestDoHardWork` | `0xDA45fe8099358bba400554c9b640170246B43e50` [View](https://etherscan.io/address/0xDA45fe8099358bba400554c9b640170246B43e50#code) |
 | `FusePendleRedeemPtAfterMaturity` | `0x40430a509188b71BdA9a0c06b132e978Ea2015BE` [View](https://etherscan.io/address/0x40430a509188b71BdA9a0c06b132e978Ea2015BE#code) |
@@ -409,6 +413,10 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `ConfigureInstantWithdrawalFuse` | `0xE37D4448Cc6BcFC934d80220D076c874ADaB1CCa` [View](https://basescan.org/address/0xE37D4448Cc6BcFC934d80220D076c874ADaB1CCa#code) |
 | `ControllerFuseEulerV2` | `0x108c8cFB9e00681FfA1fa3b654937E8b3BCd2E64` [View](https://basescan.org/address/0x108c8cFB9e00681FfA1fa3b654937E8b3BCd2E64#code) |
 | `EnableMarketFuseMoonwell` | `0xD62542Ef1ABFF0ac71A1b5666CB76801e81104Ef` [View](https://basescan.org/address/0xD62542Ef1ABFF0ac71A1b5666CB76801e81104Ef#code) |
+| `ExternalStateBalanceFuse` | `0xCDEb32ACF766587b5Eac9dbfB875145ec05E3517` [View](https://basescan.org/address/0xCDEb32ACF766587b5Eac9dbfB875145ec05E3517#code) |
+| `ExternalStateOperationFuse` | `0x01f05736B79C7abcFbeeCe76B1C27e54f7A07D03` [View](https://basescan.org/address/0x01f05736B79C7abcFbeeCe76B1C27e54f7A07D03#code) |
+| `ExternalStateRescueFuse` | `0x0Dc6A02aD1f755Ab4543cd0D40B152bf4Cf1ED64` [View](https://basescan.org/address/0x0Dc6A02aD1f755Ab4543cd0D40B152bf4Cf1ED64#code) |
+| `ExternalStateUnpauseFuse` | `0x1EE42996A2D3A076c904f046b3366263D6bDB5eE` [View](https://basescan.org/address/0x1EE42996A2D3A076c904f046b3366263D6bDB5eE#code) |
 | `FlashloanFuseMorpho` | `0x20f305Ce4fC12F9171Fcd7C2fBcD7D11f6119265` [View](https://basescan.org/address/0x20f305Ce4fC12F9171Fcd7C2fBcD7D11f6119265#code) |
 | `FusePendleRedeemPtAfterMaturity` | `0xE59e63565d1fD5186765EBE3302C24b72C6f2EeA` [View](https://basescan.org/address/0xE59e63565d1fD5186765EBE3302C24b72C6f2EeA#code) |
 | `FusePendleSwapPt` | `0x3C715eE10C1cb2c565Fd13E35d81Df1C986eeF76` [View](https://basescan.org/address/0x3C715eE10C1cb2c565Fd13E35d81Df1C986eeF76#code) |
@@ -820,6 +828,10 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `ClaimRewardsFuseMorpho` | `0xF9Fe01A9Cbe2D3e89d4DAed065bcc408744986f7` [View](https://hyperevmscan.io/address/0xF9Fe01A9Cbe2D3e89d4DAed065bcc408744986f7#code) |
 | `CollateralFuseMorpho` | `0x4f9930eDB751AA67191b4fdF1B9B1a7a4eEa392a` [View](https://hyperevmscan.io/address/0x4f9930eDB751AA67191b4fdF1B9B1a7a4eEa392a#code) |
 | `ConfigureInstantWithdrawalFuse` | `0x0F2553e4460C2974746908cFDe472a7dC1311dBd` [View](https://hyperevmscan.io/address/0x0F2553e4460C2974746908cFDe472a7dC1311dBd#code) |
+| `ExternalStateBalanceFuse` | `0x3E08042B8463028aAE02F3e23Ab9b96D3f2a1F91` [View](https://hyperevmscan.io/address/0x3E08042B8463028aAE02F3e23Ab9b96D3f2a1F91#code) |
+| `ExternalStateOperationFuse` | `0x96b2cfE0bdD6d9C6BB6381ae81b92b57AE23E473` [View](https://hyperevmscan.io/address/0x96b2cfE0bdD6d9C6BB6381ae81b92b57AE23E473#code) |
+| `ExternalStateRescueFuse` | `0x730c9fFD02D23bbeeD5F9f6ac695DA78AEDccea8` [View](https://hyperevmscan.io/address/0x730c9fFD02D23bbeeD5F9f6ac695DA78AEDccea8#code) |
+| `ExternalStateUnpauseFuse` | `0xeeAEB82648a1E25d5484fb33ED7De86f209631e5` [View](https://hyperevmscan.io/address/0xeeAEB82648a1E25d5484fb33ED7De86f209631e5#code) |
 | `FlashloanFuseMorpho` | `0x8a2975D8704Fd9F143bDDD05dc73a4e49EFB47f0` [View](https://hyperevmscan.io/address/0x8a2975D8704Fd9F143bDDD05dc73a4e49EFB47f0#code) |
 | `FuseRedeemFromRequestPlasmaVaultMarket1` | `0x1E22C137997DaBd4452792516AcDFb402432eAa9` [View](https://hyperevmscan.io/address/0x1E22C137997DaBd4452792516AcDFb402432eAa9#code) |
 | `FuseRequestSharesPlasmaVaultMarket1` | `0x0A6aFE06dA41F9D86767C296E5398C65CA3889A4` [View](https://hyperevmscan.io/address/0x0A6aFE06dA41F9D86767C296E5398C65CA3889A4#code) |
@@ -895,13 +907,14 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## PreHooks List
 
-*Last updated: 2026-08-11 12:05:54 UTC*
+*Last updated: 2026-08-13 17:30:58 UTC*
 
 ### Ethereum PreHooks
 
 | PreHook Name | Address / View in Explorer |
 |-----------|---------------------------|
 | `ExchangeRateValidatorPreHook` | `0xEF23ea0EC8cb31aa78E8D4F59771f24b84706199` [View](https://etherscan.io/address/0xEF23ea0EC8cb31aa78E8D4F59771f24b84706199#code) |
+| `ExternalStatePausePreHook` | `0xBA4d84ef0A568001ED92C7B5C163b41236281e29` [View](https://etherscan.io/address/0xBA4d84ef0A568001ED92C7B5C163b41236281e29#code) |
 | `PreHookPauseFunction` | `0x7846BeD0b55048dB0e6A5388B89E92f091984D59` [View](https://etherscan.io/address/0x7846BeD0b55048dB0e6A5388B89E92f091984D59#code) |
 | `PreHookUpdateBalancesIgnoreDust` | `0x0CF053385492FeF81e538F849E1e5308bEFC1A5C` [View](https://etherscan.io/address/0x0CF053385492FeF81e538F849E1e5308bEFC1A5C#code) |
 
@@ -917,6 +930,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | PreHook Name | Address / View in Explorer |
 |-----------|---------------------------|
 | `ExchangeRateValidatorPreHook` | `0xa959454ed4e72fC23E2c406F17509AEd98ae75Ee` [View](https://basescan.org/address/0xa959454ed4e72fC23E2c406F17509AEd98ae75Ee#code) |
+| `ExternalStatePausePreHook` | `0x3F0e3133791FD0424B490039Bb7aD7a16C699Ca8` [View](https://basescan.org/address/0x3F0e3133791FD0424B490039Bb7aD7a16C699Ca8#code) |
 | `PreHookPauseFunction` | `0x10e64e5F2f2BD098F31849B48d0BA1B92331cE88` [View](https://basescan.org/address/0x10e64e5F2f2BD098F31849B48d0BA1B92331cE88#code) |
 | `PreHookUpdateBalances` | `0x7f9179DC81cd0dBE6488eCD192cf37d2B9530F0C` [View](https://basescan.org/address/0x7f9179DC81cd0dBE6488eCD192cf37d2B9530F0C#code) |
 
@@ -986,6 +1000,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | PreHook Name | Address / View in Explorer |
 |-----------|---------------------------|
 | `ExchangeRateValidatorPreHook` | `0xD95d0Da878A3E5F1dFDbe0622A2FF0816286b986` [View](https://hyperevmscan.io/address/0xD95d0Da878A3E5F1dFDbe0622A2FF0816286b986#code) |
+| `ExternalStatePausePreHook` | `0xE948331A9A2d26E4092cA30849f983d3Af3abc06` [View](https://hyperevmscan.io/address/0xE948331A9A2d26E4092cA30849f983d3Af3abc06#code) |
 | `PreHookPauseFunction` | `0x9f340D4165231A62081616F5F5Ee25d49eF42C07` [View](https://hyperevmscan.io/address/0x9f340D4165231A62081616F5F5Ee25d49eF42C07#code) |
 | `PreHookUpdateBalancesIgnoreDust` | `0x404513a7D7382bEEF1101d62d6d2484eDe64e6f4` [View](https://hyperevmscan.io/address/0x404513a7D7382bEEF1101d62d6d2484eDe64e6f4#code) |
 | `RWAPausePreHook` | `0x2bd3E192e76cd784252d3505181a79a3aeaa4Ce4` [View](https://hyperevmscan.io/address/0x2bd3E192e76cd784252d3505181a79a3aeaa4Ce4#code) |
@@ -1000,7 +1015,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Price Oracles List
 
-*Last updated: 2026-08-11 12:33:29 UTC*
+*Last updated: 2026-08-13 17:59:23 UTC*
 
 ### Ethereum Price Oracles
 
