@@ -6,7 +6,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Fuses List
 
-*Last updated: 2026-08-13 17:30:54 UTC*
+*Last updated: 2026-08-19 15:04:32 UTC*
 
 ### Ethereum Fuses
 
@@ -905,9 +905,82 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `UniversalTokenSwapperFuseV2` | `0x7d249a3e409e2cd8e783661dA115aBc0b529Aa64` [View](https://robinhoodchain.blockscout.com/address/0x7d249a3e409e2cd8e783661dA115aBc0b529Aa64#code) |
 | `UpdateMarketsBalancesFuse` | `0x25fBb7124dCf00434510787B332F8634533c94AA` [View](https://robinhoodchain.blockscout.com/address/0x25fBb7124dCf00434510787B332F8634533c94AA#code) |
 
+### Monad Fuses
+
+| Fuse Name | Address / View in Explorer |
+|-----------|---------------------------|
+| `AaveV3CollateralFuse` | `0x87Ae650f3823227B10A5273939c8e94362f1Bb49` [View](https://monadscan.com/address/0x87Ae650f3823227B10A5273939c8e94362f1Bb49#code) |
+| `AaveV3WithPriceOracleMiddlewareBalanceFuse` | `0x651371Cd077aFdaFb0F954fa5Db1563Aa2e0e81A` [View](https://monadscan.com/address/0x651371Cd077aFdaFb0F954fa5Db1563Aa2e0e81A#code) |
+| `AsyncActionBalanceFuse` | `0x8fb894eDa39DDf145e80Abcac4c4553273D37383` [View](https://monadscan.com/address/0x8fb894eDa39DDf145e80Abcac4c4553273D37383#code) |
+| `AsyncActionFuse` | `0x261e27ee82e3903FcfDF1058ae66b1f514f43fF5` [View](https://monadscan.com/address/0x261e27ee82e3903FcfDF1058ae66b1f514f43fF5#code) |
+| `BalanceFuseBurnRequestFee` | `0x1F36Ec1fa7c9b15130d7810f8A8977A1920c155b` [View](https://monadscan.com/address/0x1F36Ec1fa7c9b15130d7810f8A8977A1920c155b#code) |
+| `BalanceFuseErc20` | `0xD384dFc6b63Cf4617e5954364aeA67cBADA5d8F7` [View](https://monadscan.com/address/0xD384dFc6b63Cf4617e5954364aeA67cBADA5d8F7#code) |
+| `BalanceFuseErc4626Market1` | `0x43003Bff3242b26FBE880942896f597873F8B71B` [View](https://monadscan.com/address/0x43003Bff3242b26FBE880942896f597873F8B71B#code) |
+| `BalanceFuseErc4626Market2` | `0x62804a5361F1F2E01C019d110AF3F4479B7D82C9` [View](https://monadscan.com/address/0x62804a5361F1F2E01C019d110AF3F4479B7D82C9#code) |
+| `BalanceFuseErc4626Market3` | `0x74B0f0eb4F85E01bB2904dBc53da80639884aCF6` [View](https://monadscan.com/address/0x74B0f0eb4F85E01bB2904dBc53da80639884aCF6#code) |
+| `BalanceFuseErc4626Market4` | `0x6b79d8E22d51646e47674940E25C0a3E7C22666a` [View](https://monadscan.com/address/0x6b79d8E22d51646e47674940E25C0a3E7C22666a#code) |
+| `BalanceFuseErc4626Market5` | `0xdccA01dD7D90F60af0E283562d6c65D58923Fa16` [View](https://monadscan.com/address/0xdccA01dD7D90F60af0E283562d6c65D58923Fa16#code) |
+| `BalanceFuseEulerV2` | `0x78c4E2Dd229E4b1C485A3983e3C46B84C128034c` [View](https://monadscan.com/address/0x78c4E2Dd229E4b1C485A3983e3C46B84C128034c#code) |
+| `BalanceFuseFlashLoanMorpho` | `0x12eB847107d1560578a8B38Bd3D393F9fcb598cF` [View](https://monadscan.com/address/0x12eB847107d1560578a8B38Bd3D393F9fcb598cF#code) |
+| `BalanceFuseMetaMorphoMarket0001` | `0x3B2fcF855444bCA9031298F34acF2321E1807fB2` [View](https://monadscan.com/address/0x3B2fcF855444bCA9031298F34acF2321E1807fB2#code) |
+| `BalanceFuseMorpho` | `0x4217d1A8795E5CF8B716cEe85d775Bfb93A31092` [View](https://monadscan.com/address/0x4217d1A8795E5CF8B716cEe85d775Bfb93A31092#code) |
+| `BalanceFuseMorphoLiquidityInMarkets` | `0xDb88b217dce1c69cfb961c04Cdb1872Eaf1aD7a9` [View](https://monadscan.com/address/0xDb88b217dce1c69cfb961c04Cdb1872Eaf1aD7a9#code) |
+| `BalanceFuseSwapPositionsUniswapV3` | `0x056Ab00643dF4BEB8826112A920088AcA828FAa9` [View](https://monadscan.com/address/0x056Ab00643dF4BEB8826112A920088AcA828FAa9#code) |
+| `BalanceFuseSwapUniswapV2` | `0x110BfC0F62998B948ad8f760227C4DBC8e9EA801` [View](https://monadscan.com/address/0x110BfC0F62998B948ad8f760227C4DBC8e9EA801#code) |
+| `BalanceFuseSwapUniswapV3` | `0x04e54bb6929A05039369A6b232d73B323f87C58a` [View](https://monadscan.com/address/0x04e54bb6929A05039369A6b232d73B323f87C58a#code) |
+| `BalanceFuseUniswapV4` | `0x8a4aF18230FbA41344f317d884E457A25f710cb9` [View](https://monadscan.com/address/0x8a4aF18230FbA41344f317d884E457A25f710cb9#code) |
+| `BalanceFuseUniversalTokenSwapper` | `0xE947DCc1AdE1C2B42Fc873B06183D4964CC99F24` [View](https://monadscan.com/address/0xE947DCc1AdE1C2B42Fc873B06183D4964CC99F24#code) |
+| `BalanceFuseUniversalTokenSwapperV2` | `0x4c79BBaCbeF071675fB223Bfc67AcA14A0109fCA` [View](https://monadscan.com/address/0x4c79BBaCbeF071675fB223Bfc67AcA14A0109fCA#code) |
+| `BorrowFuseAaveV3` | `0xc540Aaa399e7c12B33969596D6deE2B39D11e65C` [View](https://monadscan.com/address/0xc540Aaa399e7c12B33969596D6deE2B39D11e65C#code) |
+| `BorrowFuseEulerV2` | `0x7536b7124fEfF160504b6cBD0E412C51C1B32f31` [View](https://monadscan.com/address/0x7536b7124fEfF160504b6cBD0E412C51C1B32f31#code) |
+| `BorrowFuseMorpho` | `0xb762A44839957096ae83091fcaf38249D9950feB` [View](https://monadscan.com/address/0xb762A44839957096ae83091fcaf38249D9950feB#code) |
+| `BurnRequestFeeFuse` | `0x2f4fEdF9E81336b91f2484729760DeD751ae8986` [View](https://monadscan.com/address/0x2f4fEdF9E81336b91f2484729760DeD751ae8986#code) |
+| `BurnRequestFeeFuseV2` | `0x3c74f4878e4A6a05c6d1c59EE028803e0013F47c` [View](https://monadscan.com/address/0x3c74f4878e4A6a05c6d1c59EE028803e0013F47c#code) |
+| `ClaimRewardsFuseMorpho` | `0x5ce38AaDb48c68f0EbE8aF26F9ba2ef460e2608d` [View](https://monadscan.com/address/0x5ce38AaDb48c68f0EbE8aF26F9ba2ef460e2608d#code) |
+| `CollateralFuseEulerV2` | `0x8025a01df1C32358EEFd5c9D8546679b7000a59A` [View](https://monadscan.com/address/0x8025a01df1C32358EEFd5c9D8546679b7000a59A#code) |
+| `CollateralFuseMorpho` | `0xd4C839FEc976E3894aC74eDf046C59A3974e5b89` [View](https://monadscan.com/address/0xd4C839FEc976E3894aC74eDf046C59A3974e5b89#code) |
+| `CollectFuseUniswapV4` | `0x7dF034513006549C4C02Ea463AEb295736B2E7b1` [View](https://monadscan.com/address/0x7dF034513006549C4C02Ea463AEb295736B2E7b1#code) |
+| `CollectSwapFuseUniswapV3` | `0x6611efab4b190a30e09B2Aa139A709ab915D34ED` [View](https://monadscan.com/address/0x6611efab4b190a30e09B2Aa139A709ab915D34ED#code) |
+| `ConfigureInstantWithdrawalFuse` | `0x481577CA11b4e19840FEBb5BC699C7637BE400A9` [View](https://monadscan.com/address/0x481577CA11b4e19840FEBb5BC699C7637BE400A9#code) |
+| `ControllerFuseEulerV2` | `0x4b2E3cE10A36Dd900Bf78B7FB54D31b7689a0F56` [View](https://monadscan.com/address/0x4b2E3cE10A36Dd900Bf78B7FB54D31b7689a0F56#code) |
+| `EulerV2BatchFuse` | `0xcF6b356A15Ad5004310388dE2b54A4C851880b7d` [View](https://monadscan.com/address/0xcF6b356A15Ad5004310388dE2b54A4C851880b7d#code) |
+| `FlashloanFuseMorpho` | `0x5964Dd57bEc7CaCcfd896E4e0189B26303D7A22c` [View](https://monadscan.com/address/0x5964Dd57bEc7CaCcfd896E4e0189B26303D7A22c#code) |
+| `FuseRedeemFromRequestPlasmaVaultMarket1` | `0x5700Fa07ba21F88d4c7341ED7b04bF59bC038233` [View](https://monadscan.com/address/0x5700Fa07ba21F88d4c7341ED7b04bF59bC038233#code) |
+| `FuseRequestSharesPlasmaVaultMarket1` | `0x3db2A1ba8DFb1fD76733e256Ffa6Fc6721E10916` [View](https://monadscan.com/address/0x3db2A1ba8DFb1fD76733e256Ffa6Fc6721E10916#code) |
+| `FuseRequestSharesPlasmaVaultV2` | `0x502F3BFBF5De0C0F35fEab7E5A75C96D2728dF61` [View](https://monadscan.com/address/0x502F3BFBF5De0C0F35fEab7E5A75C96D2728dF61#code) |
+| `MerklClaimFuse` | `0x0f0f8ec542820f54e117fe1Bf0Fe8e7624833354` [View](https://monadscan.com/address/0x0f0f8ec542820f54e117fe1Bf0Fe8e7624833354#code) |
+| `MerklClaimWrapperFuse` | `0x8023C149d2B9fd750Db1583F69DE87566Ed77C03` [View](https://monadscan.com/address/0x8023C149d2B9fd750Db1583F69DE87566Ed77C03#code) |
+| `ModifyPositionFuseUniswapV4` | `0x3E51Df675BF38D42Bd90F106ea529E9f38613903` [View](https://monadscan.com/address/0x3E51Df675BF38D42Bd90F106ea529E9f38613903#code) |
+| `ModifyPositionSwapFuseUniswapV3` | `0x6504f8518000b60E7F74F34B1943b3E7f66627CD` [View](https://monadscan.com/address/0x6504f8518000b60E7F74F34B1943b3E7f66627CD#code) |
+| `NewPositionFuseUniswapV4` | `0x8B9633534B491C1C1c56Ce43BF76210E5BB7c4A8` [View](https://monadscan.com/address/0x8B9633534B491C1C1c56Ce43BF76210E5BB7c4A8#code) |
+| `NewPositionSwapFuseUniswapV3` | `0x332DBe52130235b8F89c06eE643FfF548C6a2814` [View](https://monadscan.com/address/0x332DBe52130235b8F89c06eE643FfF548C6a2814#code) |
+| `PlasmaVaultBalanceAssetsValidationFuse` | `0x6017FB335BBFC6969b7C09641826D10A924fCb3A` [View](https://monadscan.com/address/0x6017FB335BBFC6969b7C09641826D10A924fCb3A#code) |
+| `RequestFeeRefundFuse` | `0x4319C991F24A3e09a810FAB8f20fB14cBe30eE6e` [View](https://monadscan.com/address/0x4319C991F24A3e09a810FAB8f20fB14cBe30eE6e#code) |
+| `SupplyFuseAaveV3` | `0x028BAF1142727ea0242b3AEd7873026B9E105581` [View](https://monadscan.com/address/0x028BAF1142727ea0242b3AEd7873026B9E105581#code) |
+| `SupplyFuseErc4626Market1` | `0x488c020D13A5c5710042353a0B29eF673809C982` [View](https://monadscan.com/address/0x488c020D13A5c5710042353a0B29eF673809C982#code) |
+| `SupplyFuseErc4626Market2` | `0xB318945117B8146c2BC987B4bB3bf284feE8dC50` [View](https://monadscan.com/address/0xB318945117B8146c2BC987B4bB3bf284feE8dC50#code) |
+| `SupplyFuseErc4626Market3` | `0xcEfa8A3178e991346e33f5EAdbD44bCaC0a3FD8E` [View](https://monadscan.com/address/0xcEfa8A3178e991346e33f5EAdbD44bCaC0a3FD8E#code) |
+| `SupplyFuseErc4626Market4` | `0xD927e8966B8ed2993655dA943D17C033BfE0A259` [View](https://monadscan.com/address/0xD927e8966B8ed2993655dA943D17C033BfE0A259#code) |
+| `SupplyFuseErc4626Market5` | `0xc78D53F07dbAc99B43aD6C672679005bE6d41a37` [View](https://monadscan.com/address/0xc78D53F07dbAc99B43aD6C672679005bE6d41a37#code) |
+| `SupplyFuseEulerV2` | `0x490C268925022f695579f27374A3fb699A60d49F` [View](https://monadscan.com/address/0x490C268925022f695579f27374A3fb699A60d49F#code) |
+| `SupplyFuseMetaMorphoMarket0001` | `0xAcFD752599983C521915cA381dB584005B088841` [View](https://monadscan.com/address/0xAcFD752599983C521915cA381dB584005B088841#code) |
+| `SupplyFuseMorpho` | `0x6005b2591E07485AD8BfCFAf3FFd831894cD96f6` [View](https://monadscan.com/address/0x6005b2591E07485AD8BfCFAf3FFd831894cD96f6#code) |
+| `SupplyFuseMorphoLiquidityInMarkets` | `0x49c76367313EDa3EE49a1Adeb4Ecb06EDF48A100` [View](https://monadscan.com/address/0x49c76367313EDa3EE49a1Adeb4Ecb06EDF48A100#code) |
+| `SupplyFuseMorphoWithCallBackData` | `0x4216702551a068ea4F1BE9C17dc37783648127f8` [View](https://monadscan.com/address/0x4216702551a068ea4F1BE9C17dc37783648127f8#code) |
+| `SwapFuseUniswapV2` | `0x24F12cc9bd955c9EEA9BE19549703b519e56e6A5` [View](https://monadscan.com/address/0x24F12cc9bd955c9EEA9BE19549703b519e56e6A5#code) |
+| `SwapFuseUniswapV3` | `0xF966b486bFd31d3009bCB3D0599BDD418f669411` [View](https://monadscan.com/address/0xF966b486bFd31d3009bCB3D0599BDD418f669411#code) |
+| `SwapFuseUniversalTokenSwapperWithVerification` | `0x9293b5C183800Ed764fe5026933432Ad3E7CC4ca` [View](https://monadscan.com/address/0x9293b5C183800Ed764fe5026933432Ad3E7CC4ca#code) |
+| `SwapFuseUniversalTokenSwapperWithVerificationV2` | `0x71DEfaE422AA32fA65a2026D368B472529Ee888a` [View](https://monadscan.com/address/0x71DEfaE422AA32fA65a2026D368B472529Ee888a#code) |
+| `UniversalReaderBalanceFuses` | `0xf198bA08DA9fec0D73aECBDf93389aC6F98eec8B` [View](https://monadscan.com/address/0xf198bA08DA9fec0D73aECBDf93389aC6F98eec8B#code) |
+| `UniversalTokenSwapperEthFuse` | `0x122f84c2d25CDEEEf5383BdA62F14d22983aD818` [View](https://monadscan.com/address/0x122f84c2d25CDEEEf5383BdA62F14d22983aD818#code) |
+| `UniversalTokenSwapperEthFuseV2` | `0xb22c4a76b03E178CF1981b36cF74599DF983Bde1` [View](https://monadscan.com/address/0xb22c4a76b03E178CF1981b36cF74599DF983Bde1#code) |
+| `UniversalTokenSwapperFuse` | `0xCfc643d02c67649613A743851d72CC5FE7041998` [View](https://monadscan.com/address/0xCfc643d02c67649613A743851d72CC5FE7041998#code) |
+| `UniversalTokenSwapperFuseV2` | `0xB968799bA0DA0CF983241ED010f7d4A754E521F0` [View](https://monadscan.com/address/0xB968799bA0DA0CF983241ED010f7d4A754E521F0#code) |
+| `UpdateMarketsBalancesFuse` | `0x472d3e6CDE215f117FaF5ed1220066E862972FE0` [View](https://monadscan.com/address/0x472d3e6CDE215f117FaF5ed1220066E862972FE0#code) |
+
 ## PreHooks List
 
-*Last updated: 2026-08-13 17:30:58 UTC*
+*Last updated: 2026-08-19 15:04:43 UTC*
 
 ### Ethereum PreHooks
 
@@ -1013,9 +1086,17 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `PreHookPauseFunction` | `0x5F30b26a041e44748078b6A20Bb142696e1236fc` [View](https://robinhoodchain.blockscout.com/address/0x5F30b26a041e44748078b6A20Bb142696e1236fc#code) |
 | `PreHookUpdateBalancesIgnoreDust` | `0x22f2408949180345e6b1A30f77Acf178A72BFB87` [View](https://robinhoodchain.blockscout.com/address/0x22f2408949180345e6b1A30f77Acf178A72BFB87#code) |
 
+### Monad PreHooks
+
+| PreHook Name | Address / View in Explorer |
+|-----------|---------------------------|
+| `ExchangeRateValidatorPreHook` | `0xb7193D84d07ae593268CF93241679bDDEA5f1735` [View](https://monadscan.com/address/0xb7193D84d07ae593268CF93241679bDDEA5f1735#code) |
+| `PreHookPauseFunction` | `0x2d5cFA588F6d14cB6DABAAE72B9AC39977ED8852` [View](https://monadscan.com/address/0x2d5cFA588F6d14cB6DABAAE72B9AC39977ED8852#code) |
+| `PreHookUpdateBalancesIgnoreDust` | `0xb1ed081BC17BB61508fE115ec39827324A1BaA38` [View](https://monadscan.com/address/0xb1ed081BC17BB61508fE115ec39827324A1BaA38#code) |
+
 ## Price Oracles List
 
-*Last updated: 2026-08-13 17:59:23 UTC*
+*Last updated: 2026-08-19 15:38:00 UTC*
 
 ### Ethereum Price Oracles
 
@@ -1354,5 +1435,18 @@ No price feeds found for this version.
 #### Price Feeds for `PriceOracleMiddlewareUsdWithRolesProxy`
 
 ##### Version 2026-07-09 - `0x9DD4F8195b95eb2283c5737bd16b35b4fC3B9554` [View](https://robinhoodchain.blockscout.com/address/0x9DD4F8195b95eb2283c5737bd16b35b4fC3B9554#code)
+
+No price feeds found for this version.
+
+
+### Monad Price Oracles
+
+| Price Oracle Name | Address / View in Explorer |
+|-----------|---------------------------|
+| `PriceOracleMiddlewareUsdWithRolesProxy` | `0x7EC9719c40453a160D6Efa532e383AEBF90eA18B` [View](https://monadscan.com/address/0x7EC9719c40453a160D6Efa532e383AEBF90eA18B#code) |
+
+#### Price Feeds for `PriceOracleMiddlewareUsdWithRolesProxy`
+
+##### Version 2026-08-19 - `0x7EC9719c40453a160D6Efa532e383AEBF90eA18B` [View](https://monadscan.com/address/0x7EC9719c40453a160D6Efa532e383AEBF90eA18B#code)
 
 No price feeds found for this version.

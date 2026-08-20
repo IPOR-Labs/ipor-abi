@@ -76,7 +76,8 @@ def update_addresses_json(fuses_file, addresses_file):
                 "katana": {"fuses": []},
                 "botanix": {"fuses": []},
                 "hyperevm": {"fuses": []},
-                "robinhood": {"fuses": []}
+                "robinhood": {"fuses": []},
+                "monad": {"fuses": []}
             }
 
         blockchain_fuses = {
@@ -91,7 +92,8 @@ def update_addresses_json(fuses_file, addresses_file):
             "katana": {},
             "botanix": {},
             "hyperevm": {},
-            "robinhood": {}
+            "robinhood": {},
+            "monad": {}
         }
 
         web3_connections = create_web3_connections()
@@ -130,6 +132,8 @@ def update_addresses_json(fuses_file, addresses_file):
                 chain = "hyperevm"
             elif "robinhood" in file_path:
                 chain = "robinhood"
+            elif "monad" in file_path:
+                chain = "monad"
 
             if not chain:
                 continue

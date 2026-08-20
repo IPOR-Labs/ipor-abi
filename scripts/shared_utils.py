@@ -40,7 +40,8 @@ def get_rpc_urls():
         "katana": os.getenv("KATANA_RPC_URL"),
         "botanix": os.getenv("BOTANIX_RPC_URL"),
         "hyperevm": os.getenv("HYPEREVM_RPC_URL"),
-        "robinhood": os.getenv("ROBINHOOD_RPC_URL")
+        "robinhood": os.getenv("ROBINHOOD_RPC_URL"),
+        "monad": os.getenv("MONAD_RPC_URL")
     }
 
 def validate_rpc_urls():
@@ -64,7 +65,8 @@ CHAIN_START_BLOCKS = {
     "katana": 23646820,
     "botanix": 5327110,
     "hyperevm": 39992900,
-    "robinhood": 5310759
+    "robinhood": 5310759,
+    "monad": 97099958
 }
 
 # Chunk sizes for event fetching per chain
@@ -81,6 +83,7 @@ CHUNK_SIZES = {
     "botanix": 100000,
     "hyperevm": 10000,
     "robinhood": 10000,
+    "monad": 10000,
     "default": 10000    # Default chunk size for any unlisted chains
 }
 
@@ -97,7 +100,8 @@ EXPLORERS = {
     "katana": "https://katanascan.com/address/",
     "botanix": "https://botanixscan.io/address/",
     "hyperevm": "https://hyperevmscan.io/address/",
-    "robinhood": "https://robinhoodchain.blockscout.com/address/"
+    "robinhood": "https://robinhoodchain.blockscout.com/address/",
+    "monad": "https://monadscan.com/address/"
 }
 
 # Explorer types for URL generation
@@ -113,7 +117,8 @@ EXPLORER_TYPES = {
     "katana": "etherscan",
     "botanix": "routescan",
     "hyperevm": "etherscan",
-    "robinhood": "blockscout"
+    "robinhood": "blockscout",
+    "monad": "etherscan"
 }
 
 # Chain IDs
@@ -129,7 +134,8 @@ CHAIN_IDS = {
     "katana": "747474",
     "botanix": "3637",
     "hyperevm": "999",
-    "robinhood": "4663"
+    "robinhood": "4663",
+    "monad": "143"
 }
 
 # Chain display names
@@ -145,7 +151,8 @@ NAMES = {
     "katana": "Katana",
     "botanix": "Botanix",
     "hyperevm": "HyperEVM",
-    "robinhood": "Robinhood"
+    "robinhood": "Robinhood",
+    "monad": "Monad"
 }
 
 # Common ABIs
@@ -230,7 +237,8 @@ def get_chain_from_path(path):
         "katana": "katana",
         "botanix": "botanix",
         "hyperevm": "hyperevm",
-        "robinhood": "robinhood"
+        "robinhood": "robinhood",
+        "monad": "monad"
     }
     
     for chain in chains:

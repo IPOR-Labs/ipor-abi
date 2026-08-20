@@ -238,7 +238,8 @@ def update_addresses_json(priceoracles_file, addresses_file):
                 "katana": {"price_oracles": []},
                 "botanix": {"price_oracles": []},
                 "hyperevm": {"price_oracles": []},
-                "robinhood": {"price_oracles": []}
+                "robinhood": {"price_oracles": []},
+                "monad": {"price_oracles": []}
             }
 
         blockchain_priceoracles = {
@@ -253,7 +254,8 @@ def update_addresses_json(priceoracles_file, addresses_file):
             "katana": {},
             "botanix": {},
             "hyperevm": {},
-            "robinhood": {}
+            "robinhood": {},
+            "monad": {}
         }
 
         web3_connections = create_web3_connections()
@@ -283,7 +285,8 @@ def update_addresses_json(priceoracles_file, addresses_file):
             "katana": {},
             "botanix": {},
             "hyperevm": {},
-            "robinhood": {}
+            "robinhood": {},
+            "monad": {}
         }
 
         unique_addresses = {
@@ -298,7 +301,8 @@ def update_addresses_json(priceoracles_file, addresses_file):
             "katana": {},
             "botanix": {},
             "hyperevm": {},
-            "robinhood": {}
+            "robinhood": {},
+            "monad": {}
         }
 
         address_to_date_key = {
@@ -313,7 +317,8 @@ def update_addresses_json(priceoracles_file, addresses_file):
             "katana": {},
             "botanix": {},
             "hyperevm": {},
-            "robinhood": {}
+            "robinhood": {},
+            "monad": {}
         }
 
         for file_path, priceoracles in priceoracles_data.items():
@@ -342,6 +347,8 @@ def update_addresses_json(priceoracles_file, addresses_file):
                 chain = "hyperevm"
             elif "robinhood" in file_path:
                 chain = "robinhood"
+            elif "monad" in file_path:
+                chain = "monad"
 
             if not chain:
                 continue
