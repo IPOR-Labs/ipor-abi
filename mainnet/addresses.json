@@ -1073,6 +1073,12 @@
         "token": "weEARN",
         "asset": "0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee",
         "PlasmaVault": "0xe2b8B3A2132e1E0597A3FC76bBd6653eC6eeB225"
+      },
+      {
+        "name": "weETH Enhanced Yield",
+        "token": "weETH-EY",
+        "asset": "0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee",
+        "PlasmaVault": "0x2775e695Be91352af6c066e308d52a84b694f0eD"
       }
     ],
     "fuses": [
@@ -4986,6 +4992,24 @@
         "token": "MMVLT",
         "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
         "PlasmaVault": "0x02A06863394c72341EEa0f4290C4d9C4De5855AF"
+      },
+      {
+        "name": "ETHmaxxxing",
+        "token": "ETHMax",
+        "asset": "0x4200000000000000000000000000000000000006",
+        "PlasmaVault": "0xdF5d2481038FFF8Fa48B4acC8351F6c89Dc56d01"
+      },
+      {
+        "name": "Kymievia",
+        "token": "Kymi",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0xb52CdE1bb6C0fF4749c4BEc78cb4957297706B90"
+      },
+      {
+        "name": "Evia",
+        "token": "Evia",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0xF5000dF73c79180F9FDE55Cc7308fe9Eca3a264a"
       }
     ],
     "fuses": [
@@ -8989,6 +9013,14 @@
             "address": "0x7EC9719c40453a160D6Efa532e383AEBF90eA18B"
           }
         }
+      }
+    ],
+    "vaults": [
+      {
+        "name": "Monad Pilot",
+        "token": "MP",
+        "asset": "0x754704Bc059F8C67012fEd69BC8A327a5aafb603",
+        "PlasmaVault": "0x11F818f8024a6FcDa8b84f4B1831E080f31D2C66"
       }
     ]
   }
