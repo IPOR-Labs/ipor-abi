@@ -1163,6 +1163,12 @@
         }
       },
       {
+        "name": "BalanceFuseAaveV4",
+        "versions": {
+          "2026-08-21": "0x79B23f39dA8fe16b60A306232216845584Bb7f1A"
+        }
+      },
+      {
         "name": "BalanceFuseBurnRequestFee",
         "versions": {
           "2025-03-10": "0xbc2907d76964510a4232878e7aC6E2B18c474EFb"
@@ -1417,6 +1423,12 @@
         }
       },
       {
+        "name": "BorrowFuseAaveV4",
+        "versions": {
+          "2026-08-21": "0xffd8f39350A0ef7a866180657AD13ffE26aB0801"
+        }
+      },
+      {
         "name": "BorrowFuseEulerV2",
         "versions": {
           "2024-11-26": "0x20c782C94800d709541660E322035785c89E32C2",
@@ -1519,6 +1531,12 @@
         "name": "CurveStableswapNGSingleSideSupplyFuse",
         "versions": {
           "2026-02-13": "0xfCB0b631e82f80aF729aADE3ca3A58374A18293A"
+        }
+      },
+      {
+        "name": "EModeFuseAaveV4",
+        "versions": {
+          "2026-08-21": "0x6A41DB0ad9065Fc8808016CEf6Bd748E4818EFFF"
         }
       },
       {
@@ -1756,7 +1774,8 @@
       {
         "name": "RequestFeeRefundFuse",
         "versions": {
-          "2026-04-24": "0xE64902cB18bB176E944709886d6eaBCe272372ea"
+          "2026-04-24": "0xE64902cB18bB176E944709886d6eaBCe272372ea",
+          "2026-08-21": "0xcbB5cA86dB1E237bfA364A817F31F0812D88BF34"
         }
       },
       {
@@ -1858,6 +1877,12 @@
           "2025-03-10": "0x09791C53218010eE59464386F6a3B9D656490d60",
           "2025-08-10": "0x02956820074400138a4602d35ee1b7f3886EeC1e",
           "2026-03-24": "0x05c090ffB794abcAc1d0EFa8ebf321E862b75f66"
+        }
+      },
+      {
+        "name": "SupplyFuseAaveV4",
+        "versions": {
+          "2026-08-21": "0x652813B390359f20789f7B399e692318b1b6F3Fc"
         }
       },
       {
