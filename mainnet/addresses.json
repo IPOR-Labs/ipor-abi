@@ -1073,6 +1073,12 @@
         "token": "weEARN",
         "asset": "0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee",
         "PlasmaVault": "0xe2b8B3A2132e1E0597A3FC76bBd6653eC6eeB225"
+      },
+      {
+        "name": "weETH Enhanced Yield",
+        "token": "weETH-EY",
+        "asset": "0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee",
+        "PlasmaVault": "0x2775e695Be91352af6c066e308d52a84b694f0eD"
       }
     ],
     "fuses": [
@@ -1160,6 +1166,12 @@
         "versions": {
           "2025-03-10": "0xE5a3958B24767b30f0f5d3F47A25cFB4c08c1053",
           "2025-11-18": "0x6755249F348611a65FbABc6413FbD19eF3799B57"
+        }
+      },
+      {
+        "name": "BalanceFuseAaveV4",
+        "versions": {
+          "2026-08-21": "0x79B23f39dA8fe16b60A306232216845584Bb7f1A"
         }
       },
       {
@@ -1417,6 +1429,12 @@
         }
       },
       {
+        "name": "BorrowFuseAaveV4",
+        "versions": {
+          "2026-08-21": "0xffd8f39350A0ef7a866180657AD13ffE26aB0801"
+        }
+      },
+      {
         "name": "BorrowFuseEulerV2",
         "versions": {
           "2024-11-26": "0x20c782C94800d709541660E322035785c89E32C2",
@@ -1519,6 +1537,12 @@
         "name": "CurveStableswapNGSingleSideSupplyFuse",
         "versions": {
           "2026-02-13": "0xfCB0b631e82f80aF729aADE3ca3A58374A18293A"
+        }
+      },
+      {
+        "name": "EModeFuseAaveV4",
+        "versions": {
+          "2026-08-21": "0x6A41DB0ad9065Fc8808016CEf6Bd748E4818EFFF"
         }
       },
       {
@@ -1756,7 +1780,8 @@
       {
         "name": "RequestFeeRefundFuse",
         "versions": {
-          "2026-04-24": "0xE64902cB18bB176E944709886d6eaBCe272372ea"
+          "2026-04-24": "0xE64902cB18bB176E944709886d6eaBCe272372ea",
+          "2026-08-21": "0xcbB5cA86dB1E237bfA364A817F31F0812D88BF34"
         }
       },
       {
@@ -1858,6 +1883,12 @@
           "2025-03-10": "0x09791C53218010eE59464386F6a3B9D656490d60",
           "2025-08-10": "0x02956820074400138a4602d35ee1b7f3886EeC1e",
           "2026-03-24": "0x05c090ffB794abcAc1d0EFa8ebf321E862b75f66"
+        }
+      },
+      {
+        "name": "SupplyFuseAaveV4",
+        "versions": {
+          "2026-08-21": "0x652813B390359f20789f7B399e692318b1b6F3Fc"
         }
       },
       {
@@ -4961,6 +4992,24 @@
         "token": "MMVLT",
         "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
         "PlasmaVault": "0x02A06863394c72341EEa0f4290C4d9C4De5855AF"
+      },
+      {
+        "name": "ETHmaxxxing",
+        "token": "ETHMax",
+        "asset": "0x4200000000000000000000000000000000000006",
+        "PlasmaVault": "0xdF5d2481038FFF8Fa48B4acC8351F6c89Dc56d01"
+      },
+      {
+        "name": "Kymievia",
+        "token": "Kymi",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0xb52CdE1bb6C0fF4749c4BEc78cb4957297706B90"
+      },
+      {
+        "name": "Evia",
+        "token": "Evia",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0xF5000dF73c79180F9FDE55Cc7308fe9Eca3a264a"
       }
     ],
     "fuses": [
@@ -8964,6 +9013,14 @@
             "address": "0x7EC9719c40453a160D6Efa532e383AEBF90eA18B"
           }
         }
+      }
+    ],
+    "vaults": [
+      {
+        "name": "Monad Pilot",
+        "token": "MP",
+        "asset": "0x754704Bc059F8C67012fEd69BC8A327a5aafb603",
+        "PlasmaVault": "0x11F818f8024a6FcDa8b84f4B1831E080f31D2C66"
       }
     ]
   }
