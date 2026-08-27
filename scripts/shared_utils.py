@@ -41,7 +41,8 @@ def get_rpc_urls():
         "botanix": os.getenv("BOTANIX_RPC_URL"),
         "hyperevm": os.getenv("HYPEREVM_RPC_URL"),
         "robinhood": os.getenv("ROBINHOOD_RPC_URL"),
-        "monad": os.getenv("MONAD_RPC_URL")
+        "monad": os.getenv("MONAD_RPC_URL"),
+        "flare": os.getenv("FLARE_RPC_URL")
     }
 
 def validate_rpc_urls():
@@ -66,7 +67,8 @@ CHAIN_START_BLOCKS = {
     "botanix": 5327110,
     "hyperevm": 39992900,
     "robinhood": 5310759,
-    "monad": 97099958
+    "monad": 97099958,
+    "flare": 68370000
 }
 
 # Chunk sizes for event fetching per chain
@@ -84,6 +86,7 @@ CHUNK_SIZES = {
     "hyperevm": 10000,
     "robinhood": 10000,
     "monad": 10000,
+    "flare": 10000,
     "default": 10000    # Default chunk size for any unlisted chains
 }
 
@@ -101,7 +104,8 @@ EXPLORERS = {
     "botanix": "https://botanixscan.io/address/",
     "hyperevm": "https://hyperevmscan.io/address/",
     "robinhood": "https://robinhoodchain.blockscout.com/address/",
-    "monad": "https://monadscan.com/address/"
+    "monad": "https://monadscan.com/address/",
+    "flare": "https://flare-explorer.flare.network/address/"
 }
 
 # Explorer types for URL generation
@@ -118,7 +122,8 @@ EXPLORER_TYPES = {
     "botanix": "routescan",
     "hyperevm": "etherscan",
     "robinhood": "blockscout",
-    "monad": "etherscan"
+    "monad": "etherscan",
+    "flare": "blockscout"
 }
 
 # Chain IDs
@@ -135,7 +140,8 @@ CHAIN_IDS = {
     "botanix": "3637",
     "hyperevm": "999",
     "robinhood": "4663",
-    "monad": "143"
+    "monad": "143",
+    "flare": "14"
 }
 
 # Chain display names
@@ -152,7 +158,8 @@ NAMES = {
     "botanix": "Botanix",
     "hyperevm": "HyperEVM",
     "robinhood": "Robinhood",
-    "monad": "Monad"
+    "monad": "Monad",
+    "flare": "Flare"
 }
 
 # Common ABIs
@@ -238,7 +245,8 @@ def get_chain_from_path(path):
         "botanix": "botanix",
         "hyperevm": "hyperevm",
         "robinhood": "robinhood",
-        "monad": "monad"
+        "monad": "monad",
+        "flare": "flare"
     }
     
     for chain in chains:
