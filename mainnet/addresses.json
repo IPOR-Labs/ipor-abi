@@ -1079,6 +1079,12 @@
         "token": "weETH-EY",
         "asset": "0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee",
         "PlasmaVault": "0x2775e695Be91352af6c066e308d52a84b694f0eD"
+      },
+      {
+        "name": "OpenDelta USDT",
+        "token": "odUSDT",
+        "asset": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "PlasmaVault": "0x11BE890BFfbefB3b4e64B698731696D24E141dF6"
       }
     ],
     "fuses": [
@@ -5049,6 +5055,12 @@
         "token": "ACV-DRHF2",
         "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
         "PlasmaVault": "0x34EFc5865a5AFf07328ef9290e6cf5b1e0be5F12"
+      },
+      {
+        "name": "KK Vault",
+        "token": "KKVLT",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x077D624E135e463806eB2e998959cb8EE1e0b144"
       }
     ],
     "fuses": [
@@ -9060,6 +9072,316 @@
         "token": "MP",
         "asset": "0x754704Bc059F8C67012fEd69BC8A327a5aafb603",
         "PlasmaVault": "0x11F818f8024a6FcDa8b84f4B1831E080f31D2C66"
+      }
+    ]
+  },
+  "flare": {
+    "fuses": [
+      {
+        "name": "AsyncActionBalanceFuse",
+        "versions": {
+          "2026-08-27": "0xc348DdcaE334B2D50337E0A0C95D0040580aD552"
+        }
+      },
+      {
+        "name": "AsyncActionFuse",
+        "versions": {
+          "2026-08-27": "0x37C43Dd9fFC784A4bf8c57A7E5e29E71cd09F8C5"
+        }
+      },
+      {
+        "name": "BalanceFuseBurnRequestFee",
+        "versions": {
+          "2026-08-27": "0x27420Cef63C69DF58252Ca896Bb264BBF4698360"
+        }
+      },
+      {
+        "name": "BalanceFuseErc20",
+        "versions": {
+          "2026-08-27": "0x27C26dbAdDFf5308b4369A9476566c22F7A45994"
+        }
+      },
+      {
+        "name": "BalanceFuseErc4626Market1",
+        "versions": {
+          "2026-08-27": "0x2c5e2189003Ee35F6eB0B8bB4b2C093a835eF647"
+        }
+      },
+      {
+        "name": "BalanceFuseErc4626Market2",
+        "versions": {
+          "2026-08-27": "0x243D740ac38b8a97952A09fC83Ab3d6F5705b713"
+        }
+      },
+      {
+        "name": "BalanceFuseErc4626Market3",
+        "versions": {
+          "2026-08-27": "0x5E8D93dDed136301B05B3390F1ca2C14a952aDC4"
+        }
+      },
+      {
+        "name": "BalanceFuseErc4626Market4",
+        "versions": {
+          "2026-08-27": "0xC0866722bC431Db3586b3F104bC768E4EdE37Ed4"
+        }
+      },
+      {
+        "name": "BalanceFuseErc4626Market5",
+        "versions": {
+          "2026-08-27": "0x2b22017a7480335e1C707b97c4afc953c7a4078D"
+        }
+      },
+      {
+        "name": "BalanceFuseFlashLoanMorpho",
+        "versions": {
+          "2026-08-27": "0x7669F7AA22955BaA9cb66EDbe4EaA0C2cd62714d"
+        }
+      },
+      {
+        "name": "BalanceFuseMetaMorphoMarket0001",
+        "versions": {
+          "2026-08-27": "0x2C5B4B07c2b2aE5A95559EAA69B73083D28375e4"
+        }
+      },
+      {
+        "name": "BalanceFuseMorpho",
+        "versions": {
+          "2026-08-27": "0x980542CB07FD9A804A356351DB4A4925A84cA313"
+        }
+      },
+      {
+        "name": "BalanceFuseMorphoLiquidityInMarkets",
+        "versions": {
+          "2026-08-27": "0x28B23ce402CE6153347bAF9c6AC6b84169E46152"
+        }
+      },
+      {
+        "name": "BalanceFuseUniversalTokenSwapper",
+        "versions": {
+          "2026-08-27": "0xBb4b49EDFF2D3fa312bE38B5271f0eA4425DB357"
+        }
+      },
+      {
+        "name": "BalanceFuseUniversalTokenSwapperV2",
+        "versions": {
+          "2026-08-27": "0xc63B2410F69364aBA608f8318a9afD98A4f8D8bf"
+        }
+      },
+      {
+        "name": "BorrowFuseMorpho",
+        "versions": {
+          "2026-08-27": "0x2d4D1ccF5Fd62DF6E0D1F4db4959858D6202fBbb"
+        }
+      },
+      {
+        "name": "BurnRequestFeeFuse",
+        "versions": {
+          "2026-08-27": "0x88221B8f842D1EA67c4Fbe0802e13E8A2e8245ba"
+        }
+      },
+      {
+        "name": "BurnRequestFeeFuseV2",
+        "versions": {
+          "2026-08-27": "0xFb19b576Abf8E3149D358b88c9faC053Edc9fE87"
+        }
+      },
+      {
+        "name": "ClaimRewardsFuseMorpho",
+        "versions": {
+          "2026-08-27": "0xF8FCe359844F888Bad742fE60723D4CB91bA6108"
+        }
+      },
+      {
+        "name": "CollateralFuseMorpho",
+        "versions": {
+          "2026-08-27": "0xd982725A9FB6a641899c88DAdfC3aA139bA6f936"
+        }
+      },
+      {
+        "name": "ConfigureInstantWithdrawalFuse",
+        "versions": {
+          "2026-08-27": "0xB3e36A4893FdFA400a0Fa3a5EE583Ca9C77fB743"
+        }
+      },
+      {
+        "name": "FlashloanFuseMorpho",
+        "versions": {
+          "2026-08-27": "0xBBe546FBbDA60d5BAa4222f02f8de24633435179"
+        }
+      },
+      {
+        "name": "FuseRedeemFromRequestPlasmaVaultMarket1",
+        "versions": {
+          "2026-08-27": "0x8633b12137DE43CB69a2DB3A926207639DA33245"
+        }
+      },
+      {
+        "name": "FuseRequestSharesPlasmaVaultMarket1",
+        "versions": {
+          "2026-08-27": "0x292f8b2BA264cdEa6E1C5843B1511Ac59767a7be"
+        }
+      },
+      {
+        "name": "FuseRequestSharesPlasmaVaultV2",
+        "versions": {
+          "2026-08-27": "0xaB6d45B6545237E653a0613D447e8a0064C69280"
+        }
+      },
+      {
+        "name": "MerklClaimFuse",
+        "versions": {
+          "2026-08-27": "0xA7C0fCd97a945F37EE379Bb360B2e433Fb31b897"
+        }
+      },
+      {
+        "name": "MerklClaimWrapperFuse",
+        "versions": {
+          "2026-08-27": "0x66152b2b3F2e7e6e7FA7d4EC6eDe51B4723F49D8"
+        }
+      },
+      {
+        "name": "PlasmaVaultBalanceAssetsValidationFuse",
+        "versions": {
+          "2026-08-27": "0x852cd083d0954618ca82f4fBD5e6B22558F3D4B6"
+        }
+      },
+      {
+        "name": "RequestFeeRefundFuse",
+        "versions": {
+          "2026-08-27": "0xEFDC16302E786830049DDbf95F875539e8Dd1a96"
+        }
+      },
+      {
+        "name": "SupplyFuseErc4626Market1",
+        "versions": {
+          "2026-08-27": "0x91b210ca3293358d6341313E78e56CC98E37a507"
+        }
+      },
+      {
+        "name": "SupplyFuseErc4626Market2",
+        "versions": {
+          "2026-08-27": "0xdf006DCA1A93C1783e6F9c4cF2f0420507acF1fD"
+        }
+      },
+      {
+        "name": "SupplyFuseErc4626Market3",
+        "versions": {
+          "2026-08-27": "0x155923E4d97B53DECC92cD8F660143b4B3E664A6"
+        }
+      },
+      {
+        "name": "SupplyFuseErc4626Market4",
+        "versions": {
+          "2026-08-27": "0x0110d00aC63eDAF651413b2879e86f4e7e17d976"
+        }
+      },
+      {
+        "name": "SupplyFuseErc4626Market5",
+        "versions": {
+          "2026-08-27": "0x4335B2fD255a72E13c4f08551132c0482c044272"
+        }
+      },
+      {
+        "name": "SupplyFuseMetaMorphoMarket0001",
+        "versions": {
+          "2026-08-27": "0xb70f54bE36f11ead01094ECbA90F7FF25Ab0cFE9"
+        }
+      },
+      {
+        "name": "SupplyFuseMorpho",
+        "versions": {
+          "2026-08-27": "0x6A389EF816FF6cF2Da4936C7B1C0694a9397eDb9"
+        }
+      },
+      {
+        "name": "SupplyFuseMorphoLiquidityInMarkets",
+        "versions": {
+          "2026-08-27": "0xAe075bEE32Ef8b4De7aC0f06c9F75032B52805E5"
+        }
+      },
+      {
+        "name": "SupplyFuseMorphoWithCallBackData",
+        "versions": {
+          "2026-08-27": "0x261308b4ae1Cd6b4007D95c14f8D43A14B57678e"
+        }
+      },
+      {
+        "name": "SwapFuseUniversalTokenSwapperWithVerification",
+        "versions": {
+          "2026-08-27": "0x32b981612936aF1A1e1D7373fDeD90295D764288"
+        }
+      },
+      {
+        "name": "SwapFuseUniversalTokenSwapperWithVerificationV2",
+        "versions": {
+          "2026-08-27": "0xDE0C33702a634c0ffBBf5e796760EC2508194783"
+        }
+      },
+      {
+        "name": "UniversalReaderBalanceFuses",
+        "versions": {
+          "2026-08-27": "0x3d0DE656703A700FAB2E51135309bb2BfA13b57b"
+        }
+      },
+      {
+        "name": "UniversalTokenSwapperEthFuse",
+        "versions": {
+          "2026-08-27": "0xbf523818d62ABdF607760C8B7FE5bB1307Da99af"
+        }
+      },
+      {
+        "name": "UniversalTokenSwapperEthFuseV2",
+        "versions": {
+          "2026-08-27": "0x49cE74Bb9B7efBc095448E83AD732E7ae11d13e9"
+        }
+      },
+      {
+        "name": "UniversalTokenSwapperFuse",
+        "versions": {
+          "2026-08-27": "0xD70dfe24667Fa0773D8B460cD4Dc452Ff20ab80F"
+        }
+      },
+      {
+        "name": "UniversalTokenSwapperFuseV2",
+        "versions": {
+          "2026-08-27": "0xf3c63eBe9E2080B73f1C1edcf78EFb5278F31F59"
+        }
+      },
+      {
+        "name": "UpdateMarketsBalancesFuse",
+        "versions": {
+          "2026-08-27": "0xB3C476fC7Df5200A346Ca626d0908662C199Ac1E"
+        }
+      }
+    ],
+    "prehooks": [
+      {
+        "name": "ExchangeRateValidatorPreHook",
+        "versions": {
+          "2026-08-27": "0xCa9a01e322ad87d94ffb60e545238D62A72EeA40"
+        }
+      },
+      {
+        "name": "PreHookPauseFunction",
+        "versions": {
+          "2026-08-27": "0x31324f455929CA8B8Fe47a39dA34E530279c5FCe"
+        }
+      },
+      {
+        "name": "PreHookUpdateBalancesIgnoreDust",
+        "versions": {
+          "2026-08-27": "0x1517809E3cAF00bd1DcBA3963f9F4C6F8c1338f6"
+        }
+      }
+    ],
+    "price_oracles": [
+      {
+        "name": "PriceOracleMiddlewareUsdWithRolesProxy",
+        "versions": {
+          "2026-08-27_001": {
+            "address": "0x0C40f544FaD53000D42505c7d4Ed0015Cd1749fA"
+          }
+        }
       }
     ]
   }
