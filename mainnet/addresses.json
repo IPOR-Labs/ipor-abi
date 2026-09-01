@@ -1085,6 +1085,18 @@
         "token": "odUSDT",
         "asset": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "PlasmaVault": "0x11BE890BFfbefB3b4e64B698731696D24E141dF6"
+      },
+      {
+        "name": "Sentinel Ethereum rETH Liquity Uniswap",
+        "token": "sETHRLU",
+        "asset": "0xae78736Cd615f374D3085123A210448E74Fc6393",
+        "PlasmaVault": "0x742ce4BD2170F45D7C54aF46f99C3579b6c8b58C"
+      },
+      {
+        "name": "ETH-weETH Liquidity Optimizer",
+        "token": "ETH-weLO",
+        "asset": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "PlasmaVault": "0x7fd6B3B8d71E9aC959f969843991560c98cab6dD"
       }
     ],
     "fuses": [
@@ -2735,6 +2747,12 @@
         "token": "mb-usdc-qa",
         "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
         "PlasmaVault": "0xD08Ef56fDF3C3e16D3d330646Bc214AB36724933"
+      },
+      {
+        "name": "ArbitrumMax",
+        "token": "MAXUSDC",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xDc604DfB7144Fc0be628a245a9Ab248DfA261518"
       }
     ],
     "fuses": [
@@ -5061,6 +5079,18 @@
         "token": "KKVLT",
         "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
         "PlasmaVault": "0x077D624E135e463806eB2e998959cb8EE1e0b144"
+      },
+      {
+        "name": "IPOR Safe Test USDC",
+        "token": "ipstUSDC",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x75BebEE853B4575f1d2358C21F651e06Efca99Fc"
+      },
+      {
+        "name": "IPOR EOA Test USDC",
+        "token": "ipetUSDC",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0xFF3728753047c709b54a6b1E6c5207EA8e146d04"
       }
     ],
     "fuses": [
@@ -7079,6 +7109,12 @@
         "token": "$AAVETHENAP",
         "asset": "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34",
         "PlasmaVault": "0x0A71624ab3E8101f78D95DFc81E0F1f31128Ed7A"
+      },
+      {
+        "name": "Plasmavaultmax ",
+        "token": "GHOMAX",
+        "asset": "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb",
+        "PlasmaVault": "0x76655103523784F8a9b805b62456928a8Ca9D46F"
       }
     ]
   },
