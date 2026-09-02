@@ -6,7 +6,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Fuses List
 
-*Last updated: 2026-08-26 09:53:46 UTC*
+*Last updated: 2026-09-01 19:02:02 UTC*
 
 ### Ethereum Fuses
 
@@ -987,9 +987,60 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `UniversalTokenSwapperFuseV2` | `0xB968799bA0DA0CF983241ED010f7d4A754E521F0` [View](https://monadscan.com/address/0xB968799bA0DA0CF983241ED010f7d4A754E521F0#code) |
 | `UpdateMarketsBalancesFuse` | `0x472d3e6CDE215f117FaF5ed1220066E862972FE0` [View](https://monadscan.com/address/0x472d3e6CDE215f117FaF5ed1220066E862972FE0#code) |
 
+### Flare Fuses
+
+| Fuse Name | Address / View in Explorer |
+|-----------|---------------------------|
+| `AsyncActionBalanceFuse` | `0xc348DdcaE334B2D50337E0A0C95D0040580aD552` [View](https://flare-explorer.flare.network/address/0xc348DdcaE334B2D50337E0A0C95D0040580aD552#code) |
+| `AsyncActionFuse` | `0x37C43Dd9fFC784A4bf8c57A7E5e29E71cd09F8C5` [View](https://flare-explorer.flare.network/address/0x37C43Dd9fFC784A4bf8c57A7E5e29E71cd09F8C5#code) |
+| `BalanceFuseBurnRequestFee` | `0x27420Cef63C69DF58252Ca896Bb264BBF4698360` [View](https://flare-explorer.flare.network/address/0x27420Cef63C69DF58252Ca896Bb264BBF4698360#code) |
+| `BalanceFuseErc20` | `0x27C26dbAdDFf5308b4369A9476566c22F7A45994` [View](https://flare-explorer.flare.network/address/0x27C26dbAdDFf5308b4369A9476566c22F7A45994#code) |
+| `BalanceFuseErc4626Market1` | `0x2c5e2189003Ee35F6eB0B8bB4b2C093a835eF647` [View](https://flare-explorer.flare.network/address/0x2c5e2189003Ee35F6eB0B8bB4b2C093a835eF647#code) |
+| `BalanceFuseErc4626Market2` | `0x243D740ac38b8a97952A09fC83Ab3d6F5705b713` [View](https://flare-explorer.flare.network/address/0x243D740ac38b8a97952A09fC83Ab3d6F5705b713#code) |
+| `BalanceFuseErc4626Market3` | `0x5E8D93dDed136301B05B3390F1ca2C14a952aDC4` [View](https://flare-explorer.flare.network/address/0x5E8D93dDed136301B05B3390F1ca2C14a952aDC4#code) |
+| `BalanceFuseErc4626Market4` | `0xC0866722bC431Db3586b3F104bC768E4EdE37Ed4` [View](https://flare-explorer.flare.network/address/0xC0866722bC431Db3586b3F104bC768E4EdE37Ed4#code) |
+| `BalanceFuseErc4626Market5` | `0x2b22017a7480335e1C707b97c4afc953c7a4078D` [View](https://flare-explorer.flare.network/address/0x2b22017a7480335e1C707b97c4afc953c7a4078D#code) |
+| `BalanceFuseFlashLoanMorpho` | `0x7669F7AA22955BaA9cb66EDbe4EaA0C2cd62714d` [View](https://flare-explorer.flare.network/address/0x7669F7AA22955BaA9cb66EDbe4EaA0C2cd62714d#code) |
+| `BalanceFuseMetaMorphoMarket0001` | `0x2C5B4B07c2b2aE5A95559EAA69B73083D28375e4` [View](https://flare-explorer.flare.network/address/0x2C5B4B07c2b2aE5A95559EAA69B73083D28375e4#code) |
+| `BalanceFuseMorpho` | `0x980542CB07FD9A804A356351DB4A4925A84cA313` [View](https://flare-explorer.flare.network/address/0x980542CB07FD9A804A356351DB4A4925A84cA313#code) |
+| `BalanceFuseMorphoLiquidityInMarkets` | `0x28B23ce402CE6153347bAF9c6AC6b84169E46152` [View](https://flare-explorer.flare.network/address/0x28B23ce402CE6153347bAF9c6AC6b84169E46152#code) |
+| `BalanceFuseUniversalTokenSwapper` | `0xBb4b49EDFF2D3fa312bE38B5271f0eA4425DB357` [View](https://flare-explorer.flare.network/address/0xBb4b49EDFF2D3fa312bE38B5271f0eA4425DB357#code) |
+| `BalanceFuseUniversalTokenSwapperV2` | `0xc63B2410F69364aBA608f8318a9afD98A4f8D8bf` [View](https://flare-explorer.flare.network/address/0xc63B2410F69364aBA608f8318a9afD98A4f8D8bf#code) |
+| `BorrowFuseMorpho` | `0x2d4D1ccF5Fd62DF6E0D1F4db4959858D6202fBbb` [View](https://flare-explorer.flare.network/address/0x2d4D1ccF5Fd62DF6E0D1F4db4959858D6202fBbb#code) |
+| `BurnRequestFeeFuse` | `0x88221B8f842D1EA67c4Fbe0802e13E8A2e8245ba` [View](https://flare-explorer.flare.network/address/0x88221B8f842D1EA67c4Fbe0802e13E8A2e8245ba#code) |
+| `BurnRequestFeeFuseV2` | `0xFb19b576Abf8E3149D358b88c9faC053Edc9fE87` [View](https://flare-explorer.flare.network/address/0xFb19b576Abf8E3149D358b88c9faC053Edc9fE87#code) |
+| `ClaimRewardsFuseMorpho` | `0xF8FCe359844F888Bad742fE60723D4CB91bA6108` [View](https://flare-explorer.flare.network/address/0xF8FCe359844F888Bad742fE60723D4CB91bA6108#code) |
+| `CollateralFuseMorpho` | `0xd982725A9FB6a641899c88DAdfC3aA139bA6f936` [View](https://flare-explorer.flare.network/address/0xd982725A9FB6a641899c88DAdfC3aA139bA6f936#code) |
+| `ConfigureInstantWithdrawalFuse` | `0xB3e36A4893FdFA400a0Fa3a5EE583Ca9C77fB743` [View](https://flare-explorer.flare.network/address/0xB3e36A4893FdFA400a0Fa3a5EE583Ca9C77fB743#code) |
+| `FlashloanFuseMorpho` | `0xBBe546FBbDA60d5BAa4222f02f8de24633435179` [View](https://flare-explorer.flare.network/address/0xBBe546FBbDA60d5BAa4222f02f8de24633435179#code) |
+| `FuseRedeemFromRequestPlasmaVaultMarket1` | `0x8633b12137DE43CB69a2DB3A926207639DA33245` [View](https://flare-explorer.flare.network/address/0x8633b12137DE43CB69a2DB3A926207639DA33245#code) |
+| `FuseRequestSharesPlasmaVaultMarket1` | `0x292f8b2BA264cdEa6E1C5843B1511Ac59767a7be` [View](https://flare-explorer.flare.network/address/0x292f8b2BA264cdEa6E1C5843B1511Ac59767a7be#code) |
+| `FuseRequestSharesPlasmaVaultV2` | `0xaB6d45B6545237E653a0613D447e8a0064C69280` [View](https://flare-explorer.flare.network/address/0xaB6d45B6545237E653a0613D447e8a0064C69280#code) |
+| `MerklClaimFuse` | `0xA7C0fCd97a945F37EE379Bb360B2e433Fb31b897` [View](https://flare-explorer.flare.network/address/0xA7C0fCd97a945F37EE379Bb360B2e433Fb31b897#code) |
+| `MerklClaimWrapperFuse` | `0x66152b2b3F2e7e6e7FA7d4EC6eDe51B4723F49D8` [View](https://flare-explorer.flare.network/address/0x66152b2b3F2e7e6e7FA7d4EC6eDe51B4723F49D8#code) |
+| `PlasmaVaultBalanceAssetsValidationFuse` | `0x852cd083d0954618ca82f4fBD5e6B22558F3D4B6` [View](https://flare-explorer.flare.network/address/0x852cd083d0954618ca82f4fBD5e6B22558F3D4B6#code) |
+| `RequestFeeRefundFuse` | `0xEFDC16302E786830049DDbf95F875539e8Dd1a96` [View](https://flare-explorer.flare.network/address/0xEFDC16302E786830049DDbf95F875539e8Dd1a96#code) |
+| `SupplyFuseErc4626Market1` | `0x91b210ca3293358d6341313E78e56CC98E37a507` [View](https://flare-explorer.flare.network/address/0x91b210ca3293358d6341313E78e56CC98E37a507#code) |
+| `SupplyFuseErc4626Market2` | `0xdf006DCA1A93C1783e6F9c4cF2f0420507acF1fD` [View](https://flare-explorer.flare.network/address/0xdf006DCA1A93C1783e6F9c4cF2f0420507acF1fD#code) |
+| `SupplyFuseErc4626Market3` | `0x155923E4d97B53DECC92cD8F660143b4B3E664A6` [View](https://flare-explorer.flare.network/address/0x155923E4d97B53DECC92cD8F660143b4B3E664A6#code) |
+| `SupplyFuseErc4626Market4` | `0x0110d00aC63eDAF651413b2879e86f4e7e17d976` [View](https://flare-explorer.flare.network/address/0x0110d00aC63eDAF651413b2879e86f4e7e17d976#code) |
+| `SupplyFuseErc4626Market5` | `0x4335B2fD255a72E13c4f08551132c0482c044272` [View](https://flare-explorer.flare.network/address/0x4335B2fD255a72E13c4f08551132c0482c044272#code) |
+| `SupplyFuseMetaMorphoMarket0001` | `0xb70f54bE36f11ead01094ECbA90F7FF25Ab0cFE9` [View](https://flare-explorer.flare.network/address/0xb70f54bE36f11ead01094ECbA90F7FF25Ab0cFE9#code) |
+| `SupplyFuseMorpho` | `0x6A389EF816FF6cF2Da4936C7B1C0694a9397eDb9` [View](https://flare-explorer.flare.network/address/0x6A389EF816FF6cF2Da4936C7B1C0694a9397eDb9#code) |
+| `SupplyFuseMorphoLiquidityInMarkets` | `0xAe075bEE32Ef8b4De7aC0f06c9F75032B52805E5` [View](https://flare-explorer.flare.network/address/0xAe075bEE32Ef8b4De7aC0f06c9F75032B52805E5#code) |
+| `SupplyFuseMorphoWithCallBackData` | `0x261308b4ae1Cd6b4007D95c14f8D43A14B57678e` [View](https://flare-explorer.flare.network/address/0x261308b4ae1Cd6b4007D95c14f8D43A14B57678e#code) |
+| `SwapFuseUniversalTokenSwapperWithVerification` | `0x32b981612936aF1A1e1D7373fDeD90295D764288` [View](https://flare-explorer.flare.network/address/0x32b981612936aF1A1e1D7373fDeD90295D764288#code) |
+| `SwapFuseUniversalTokenSwapperWithVerificationV2` | `0xDE0C33702a634c0ffBBf5e796760EC2508194783` [View](https://flare-explorer.flare.network/address/0xDE0C33702a634c0ffBBf5e796760EC2508194783#code) |
+| `UniversalReaderBalanceFuses` | `0x3d0DE656703A700FAB2E51135309bb2BfA13b57b` [View](https://flare-explorer.flare.network/address/0x3d0DE656703A700FAB2E51135309bb2BfA13b57b#code) |
+| `UniversalTokenSwapperEthFuse` | `0xbf523818d62ABdF607760C8B7FE5bB1307Da99af` [View](https://flare-explorer.flare.network/address/0xbf523818d62ABdF607760C8B7FE5bB1307Da99af#code) |
+| `UniversalTokenSwapperEthFuseV2` | `0x49cE74Bb9B7efBc095448E83AD732E7ae11d13e9` [View](https://flare-explorer.flare.network/address/0x49cE74Bb9B7efBc095448E83AD732E7ae11d13e9#code) |
+| `UniversalTokenSwapperFuse` | `0xD70dfe24667Fa0773D8B460cD4Dc452Ff20ab80F` [View](https://flare-explorer.flare.network/address/0xD70dfe24667Fa0773D8B460cD4Dc452Ff20ab80F#code) |
+| `UniversalTokenSwapperFuseV2` | `0xf3c63eBe9E2080B73f1C1edcf78EFb5278F31F59` [View](https://flare-explorer.flare.network/address/0xf3c63eBe9E2080B73f1C1edcf78EFb5278F31F59#code) |
+| `UpdateMarketsBalancesFuse` | `0xB3C476fC7Df5200A346Ca626d0908662C199Ac1E` [View](https://flare-explorer.flare.network/address/0xB3C476fC7Df5200A346Ca626d0908662C199Ac1E#code) |
+
 ## PreHooks List
 
-*Last updated: 2026-08-26 09:53:47 UTC*
+*Last updated: 2026-09-01 19:02:03 UTC*
 
 ### Ethereum PreHooks
 
@@ -1103,9 +1154,17 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `PreHookPauseFunction` | `0x2d5cFA588F6d14cB6DABAAE72B9AC39977ED8852` [View](https://monadscan.com/address/0x2d5cFA588F6d14cB6DABAAE72B9AC39977ED8852#code) |
 | `PreHookUpdateBalancesIgnoreDust` | `0xb1ed081BC17BB61508fE115ec39827324A1BaA38` [View](https://monadscan.com/address/0xb1ed081BC17BB61508fE115ec39827324A1BaA38#code) |
 
+### Flare PreHooks
+
+| PreHook Name | Address / View in Explorer |
+|-----------|---------------------------|
+| `ExchangeRateValidatorPreHook` | `0xCa9a01e322ad87d94ffb60e545238D62A72EeA40` [View](https://flare-explorer.flare.network/address/0xCa9a01e322ad87d94ffb60e545238D62A72EeA40#code) |
+| `PreHookPauseFunction` | `0x31324f455929CA8B8Fe47a39dA34E530279c5FCe` [View](https://flare-explorer.flare.network/address/0x31324f455929CA8B8Fe47a39dA34E530279c5FCe#code) |
+| `PreHookUpdateBalancesIgnoreDust` | `0x1517809E3cAF00bd1DcBA3963f9F4C6F8c1338f6` [View](https://flare-explorer.flare.network/address/0x1517809E3cAF00bd1DcBA3963f9F4C6F8c1338f6#code) |
+
 ## Price Oracles List
 
-*Last updated: 2026-08-26 10:29:00 UTC*
+*Last updated: 2026-09-01 20:24:32 UTC*
 
 ### Ethereum Price Oracles
 
@@ -1457,5 +1516,18 @@ No price feeds found for this version.
 #### Price Feeds for `PriceOracleMiddlewareUsdWithRolesProxy`
 
 ##### Version 2026-08-19 - `0x7EC9719c40453a160D6Efa532e383AEBF90eA18B` [View](https://monadscan.com/address/0x7EC9719c40453a160D6Efa532e383AEBF90eA18B#code)
+
+No price feeds found for this version.
+
+
+### Flare Price Oracles
+
+| Price Oracle Name | Address / View in Explorer |
+|-----------|---------------------------|
+| `PriceOracleMiddlewareUsdWithRolesProxy` | `0x0C40f544FaD53000D42505c7d4Ed0015Cd1749fA` [View](https://flare-explorer.flare.network/address/0x0C40f544FaD53000D42505c7d4Ed0015Cd1749fA#code) |
+
+#### Price Feeds for `PriceOracleMiddlewareUsdWithRolesProxy`
+
+##### Version 2026-08-27 - `0x0C40f544FaD53000D42505c7d4Ed0015Cd1749fA` [View](https://flare-explorer.flare.network/address/0x0C40f544FaD53000D42505c7d4Ed0015Cd1749fA#code)
 
 No price feeds found for this version.

@@ -57,7 +57,8 @@ def update_addresses_json(prehooks_file, addresses_file):
                 "botanix": {"prehooks": []},
                 "hyperevm": {"prehooks": []},
                 "robinhood": {"prehooks": []},
-                "monad": {"prehooks": []}
+                "monad": {"prehooks": []},
+                "flare": {"prehooks": []}
             }
 
         blockchain_prehooks = {
@@ -73,7 +74,8 @@ def update_addresses_json(prehooks_file, addresses_file):
             "botanix": {},
             "hyperevm": {},
             "robinhood": {},
-            "monad": {}
+            "monad": {},
+            "flare": {}
         }
 
         web3_connections = create_web3_connections()
@@ -114,6 +116,8 @@ def update_addresses_json(prehooks_file, addresses_file):
                 chain = "robinhood"
             elif "monad" in file_path:
                 chain = "monad"
+            elif "flare" in file_path:
+                chain = "flare"
 
             if not chain:
                 continue
