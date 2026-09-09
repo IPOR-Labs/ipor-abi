@@ -1,0 +1,11 @@
+{
+  "$comment": "Machine-readable annotations for addresses.json in this directory. Consumers: ipor-fusion.py `ipor_fusion.addresses`, MCP `fusion_address_lookup`.",
+  "IporFusionFactoryProxy": {
+    "role": "deploy-entry-point",
+    "note": "send clone() here; the only callable factory address on this chain"
+  },
+  "IporFusionFactoryImpl": {
+    "role": "implementation",
+    "note": "implementation; reverts DaoFeePackagesArrayEmpty when called directly, use IporFusionFactoryProxy"
+  }
+}

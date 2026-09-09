@@ -4,6 +4,34 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 
 
+## Fusion factory: deploy entry point
+
+Every `mainnet-<chain>-fusion/addresses.json` publishes two `IporFusionFactory*` entries. Only one of them is meant to be called:
+
+| Key | Tag | What it is |
+|-----|-----|------------|
+| `IporFusionFactoryProxy` | `deploy-entry-point` | The address `clone(...)` is sent to. Resolve it by this exact key; do not pattern-match the suffix. |
+| `IporFusionFactoryImpl` | `implementation` | The logic contract behind the proxy. Calling `clone()` on it reverts `DaoFeePackagesArrayEmpty()` (`0x8745fbfd`) because the fee configuration lives in the proxy. |
+
+The same tags are machine-readable in `metadata.json` next to each `addresses.json` (`role` and `note` per key). The Python SDK ships this registry as `ipor_fusion.addresses` (`factory_proxy(chain_id)`, `resolve(chain_id, name)`) and the MCP tool `fusion_address_lookup` returns the tags as `role` / `note`.
+
+| Chain id | Chain | `IporFusionFactoryProxy` (deploy-entry-point) | `IporFusionFactoryImpl` (do not call) |
+|----------|-------|-----------------------------------------------|----------------------------------------|
+| 1 | ethereum | `0xcd05909C4A1F8E501e4ED554cEF4Ed5E48D9b852` | `0xf19C1E9f6616F6056AF1e322A86fDaAaAf0263f5` |
+| 14 | flare | `0xE75F3565D67645775351A9886F2b598f07d1860B` | `0x6C1ff6eBf5e92Dbc5591E7cCF455829De9C46579` |
+| 130 | unichain | `0xC9b4E839e86284C558791C13Bda97999fc49aF63` | `0xf5Bc40C192D51ED93ADD6557884766772FA72589` |
+| 143 | monad | `0x62DFfe8bCaaf7960f858a4f7dDC83cc98F04cEDC` | `0x1017f0032460B3c8FBB92Bfd350F708Ff6229137` |
+| 239 | tac | `0x26b5561E2E0e7d7977431E92740903Ef3cB7194b` | `0x7DDd0bBB59eFB4b7791cE5E1Cf1587F083aE4Ef5` |
+| 999 | hyperevm | `0x6bBc827F34b4e862d15215ABd4AC0E3886181665` | `0x97873766649971E4CBd2b5F63Bfdcb3bE3365B51` |
+| 3637 | botanix | `0x7c9857f22D0cc6523C8e88BFDCbf411AB8300fF5` | `0xddb0EFB2a7a5C02e01b5A1f85C0a1110d68EeC26` |
+| 4663 | robinhood | `0xDF7A590b60072476E355A8EfF33e4872440bDc7C` | `0x9d897beA78F8747d8f9C45d5734089ca7225AE90` |
+| 8453 | base | `0x1455717668fA96534f675856347A973fA907e922` | `0x610152A79BE7F2Aa3aA70520c9331c18fe8D33b7` |
+| 9745 | plasma | `0x70d41759FBF90fB63c88197217cB08F93a1c65CB` | `0x3A42bD6fEa94421025Ae2ed01CE6f137ac785abD` |
+| 42161 | arbitrum | `0x134fCAce7a2C7Ef3dF2479B62f03ddabAEa922d5` | `0x87f94ac9aF79261F0BC73582114f805F55Cd0b25` |
+| 43114 | avalanche | `0xa00b6379833D77fA9C9497b32dae00dF39Ac751e` | `0x399596cFccFEbBb60f8652bece8586a6Bb4199ab` |
+| 57073 | ink | `0xEC53f69Bd1D991a2F99e96DE66E81D0E42A61D8D` | `0xe7372BC46b79e0c87AfE5286c41c20687018E425` |
+| 747474 | katana | `0xc29b8D591d6a3f109Ca7ba384F2e00162866D37B` | `0x4a4De6e86AD0d0546F55B595cA75f55803D940bA` |
+
 ## Fuses List
 
 *Last updated: 2026-09-01 19:02:02 UTC*
