@@ -1097,6 +1097,24 @@
         "token": "ETH-weLO",
         "asset": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
         "PlasmaVault": "0x7fd6B3B8d71E9aC959f969843991560c98cab6dD"
+      },
+      {
+        "name": "rusd farmibg",
+        "token": "rfb",
+        "asset": "0x738d1115B90efa71AE468F1287fc864775e23a31",
+        "PlasmaVault": "0xD551F458aC9AA1fbf8976668509896F257aA9780"
+      },
+      {
+        "name": "Tess USDe USDT Loop Strat",
+        "token": "TESSUSDEUSDTLP",
+        "asset": "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
+        "PlasmaVault": "0x5BAAe685CE47976005Da02CaA39B32AdaEb415D1"
+      },
+      {
+        "name": "RD Ethereum Vault",
+        "token": "RDETHVLT",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0xDDf656fEeBf9CB0F30c47fB7c9f5B771B8F4f13B"
       }
     ],
     "fuses": [
@@ -2753,6 +2771,12 @@
         "token": "MAXUSDC",
         "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
         "PlasmaVault": "0xDc604DfB7144Fc0be628a245a9Ab248DfA261518"
+      },
+      {
+        "name": "albiMM",
+        "token": "albiUSDC",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x6123AD06746b046ae75B6C665b4EDc53Ad22cC40"
       }
     ],
     "fuses": [
@@ -5128,6 +5152,30 @@
         "token": "ipetUSDC",
         "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
         "PlasmaVault": "0xFF3728753047c709b54a6b1E6c5207EA8e146d04"
+      },
+      {
+        "name": "Tesseract USDe USDC Loop (BASE)",
+        "token": "TESSUSDEUSDCLP",
+        "asset": "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34",
+        "PlasmaVault": "0xAe21366De4d91B4dffe9935bEA7dd70fa9CA3313"
+      },
+      {
+        "name": "Google Carry Trade Tezos",
+        "token": "GOOGCTTZ",
+        "asset": "0xb2000000000000000000002D0BA3164cc74f58B7",
+        "PlasmaVault": "0x61AEF0Bb9AD09C0d736b047F2b7Bc69E566467eA"
+      },
+      {
+        "name": "USDC Lending Optimizer Tezos",
+        "token": "TAUUSDCTZS",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x585AA9EB2C8D51Ab5f436b27B11bB23350570B3F"
+      },
+      {
+        "name": "cash-plus-auto-test1a",
+        "token": "ACV-CP1A",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x1a85bda1AF09074d6eB5ac84Ca26c5573e969743"
       }
     ],
     "fuses": [
@@ -7791,6 +7839,18 @@
         "token": "ayKAT",
         "asset": "0x7F1f4b4b29f5058fA32CC7a97141b8D7e5ABDC2d",
         "PlasmaVault": "0x59Bf82ec4cF11a6f09657DA38A32126A712ba419"
+      },
+      {
+        "name": "AlphaYields avKAT",
+        "token": "ayKAT",
+        "asset": "0x7231dbaCdFc968E07656D12389AB20De82FbfCeB",
+        "PlasmaVault": "0x94Ff40197900a6Ea5D9D63C691d89e70aC1343d6"
+      },
+      {
+        "name": "CurveYield avKAT",
+        "token": "cyavKAT",
+        "asset": "0x7231dbaCdFc968E07656D12389AB20De82FbfCeB",
+        "PlasmaVault": "0xEd83daf48429cfb2C650Fd721b9241e180fd4548"
       }
     ],
     "price_oracles": [
