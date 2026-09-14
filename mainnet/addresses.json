@@ -3044,6 +3044,30 @@
         }
       },
       {
+        "name": "ExternalStateBalanceFuse",
+        "versions": {
+          "2026-09-14": "0x4B5FB26C43591A13588bFE41678608E8159e20Fb"
+        }
+      },
+      {
+        "name": "ExternalStateOperationFuse",
+        "versions": {
+          "2026-09-14": "0x4c8BA66e930B38c42696ff73cA1deE8e559c2eF2"
+        }
+      },
+      {
+        "name": "ExternalStateRescueFuse",
+        "versions": {
+          "2026-09-14": "0x5E6Cfe68008C1a8089f2c340A9cDF0536D44eB28"
+        }
+      },
+      {
+        "name": "ExternalStateUnpauseFuse",
+        "versions": {
+          "2026-09-14": "0xb869785FD87609769D3E0510C41F03B223B0d31c"
+        }
+      },
+      {
         "name": "FlashloanFuseMorpho",
         "versions": {
           "2025-08-26": "0xeA36D6478CAAE9a5CDbEA0814bDe98533320d742"
@@ -3217,43 +3241,50 @@
       {
         "name": "SupplyFuseErc4626Market1",
         "versions": {
-          "2024-10-15": "0xe7d3a550F0aD32cCBEF570C670b5ac004C276f24"
+          "2024-10-15": "0xe7d3a550F0aD32cCBEF570C670b5ac004C276f24",
+          "2026-09-14": "0xC0C26EeB9c8BE5aa0f4e597E9BB7fDca3498E845"
         }
       },
       {
         "name": "SupplyFuseErc4626Market2",
         "versions": {
-          "2024-10-15": "0xBA4e51A46b562cBaEF372C07bF191c7111a067aA"
+          "2024-10-15": "0xBA4e51A46b562cBaEF372C07bF191c7111a067aA",
+          "2026-09-14": "0xBd0f8b717D75ecD1a304a9797946E32e00976D84"
         }
       },
       {
         "name": "SupplyFuseErc4626Market3",
         "versions": {
-          "2024-10-15": "0xF5c5E375d219e573B10f9c90A1815f93951AD275"
+          "2024-10-15": "0xF5c5E375d219e573B10f9c90A1815f93951AD275",
+          "2026-09-14": "0xB3aB3552c945A282DB2822029830B5097c94d80E"
         }
       },
       {
         "name": "SupplyFuseErc4626Market4",
         "versions": {
-          "2025-02-26": "0x2f34F8566952b055F3Cc32ACB8b9C8203E91132A"
+          "2025-02-26": "0x2f34F8566952b055F3Cc32ACB8b9C8203E91132A",
+          "2026-09-14": "0x2962bc673FF9c275DD59A4feEF3CA68c0e8A4a8f"
         }
       },
       {
         "name": "SupplyFuseErc4626Market5",
         "versions": {
-          "2025-02-26": "0x28eE4cD5E888f6331B6c6c38959bBBE05eF7D73A"
+          "2025-02-26": "0x28eE4cD5E888f6331B6c6c38959bBBE05eF7D73A",
+          "2026-09-14": "0x2c3f01D0dEC6B2BBC375Eb263f08b7815D159cFc"
         }
       },
       {
         "name": "SupplyFuseErc4626Market6",
         "versions": {
-          "2025-02-26": "0x0dE665bb75556ea407C23b513A5d521064245b3e"
+          "2025-02-26": "0x0dE665bb75556ea407C23b513A5d521064245b3e",
+          "2026-09-14": "0xDd0b08F4106989d2bE7b611C0EeeCD970883ed85"
         }
       },
       {
         "name": "SupplyFuseErc4626Market7",
         "versions": {
-          "2025-02-26": "0x624E2AB4E17aA38B078674eec75dbadcc10e295B"
+          "2025-02-26": "0x624E2AB4E17aA38B078674eec75dbadcc10e295B",
+          "2026-09-14": "0x5Da3B426f7BE5E73d8248E4f9fD409CfE03d5b99"
         }
       },
       {
@@ -3414,6 +3445,12 @@
         "name": "ExchangeRateValidatorPreHook",
         "versions": {
           "2025-12-19": "0x923a6A7f0AEBbf2381d88ad5402AD0312b30AaD0"
+        }
+      },
+      {
+        "name": "ExternalStatePausePreHook",
+        "versions": {
+          "2026-09-14": "0x8EDc731d45C7188E612C1ffca11057fcf41C5d55"
         }
       },
       {
