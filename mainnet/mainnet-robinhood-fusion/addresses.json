@@ -18,6 +18,8 @@
   "BurnRequestFeeFuse": "0xA4f285473f97f404Cbb4675406bcacc8c59Ae4Eb",
   "BurnRequestFeeFuseV2": "0x4806712017A1Ab1aDa62DfBE49adEF01300298cd",
   "CallbackHandlerMorpho": "0x579F48FD8b8233eA34E3892dBD2eFE1328750D6e",
+  "ChainlinkGuardedPriceFeedFactoryImpl": "0xCC8d80cc6aa4D804b4F6213B0809B169ef46E791",
+  "ChainlinkGuardedPriceFeedFactoryProxy": "0x03b2b590aDdc4E46CB88ceB7831A53E5c3DD2046",
   "ClaimRewardsFuseMorpho": "0xdcfa32CCEDE9FAec6127508be2F1f8E619F0d089",
   "CollateralFuseMorpho": "0x4AB22a4EEB6efc3946AA9bbc5Df0748b1Bf6D24E",
   "CollateralTokenOnMorphoMarketPriceFeedFactoryImpl": "0xDcbb8e604B7BB4E842173C57Ebba9d328A0b83a5",
