@@ -1115,6 +1115,18 @@
         "token": "RDETHVLT",
         "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "PlasmaVault": "0xDDf656fEeBf9CB0F30c47fB7c9f5B771B8F4f13B"
+      },
+      {
+        "name": "Bizantine FXRP Carry Vault",
+        "token": "iBizFXRP",
+        "asset": "0xCE6170EA245dC8D1f275A710a062b70f125F0110",
+        "PlasmaVault": "0xddF3e40261dF49894737A304D3a634dF036a7C13"
+      },
+      {
+        "name": "Tesseract USDC Vault Share",
+        "token": "teUSDC",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0xABF0322aeFBb698002878a6fE4b7ed048e584160"
       }
     ],
     "fuses": [
@@ -1227,6 +1239,12 @@
         "name": "BalanceFuseCompoundV3Usdt",
         "versions": {
           "2024-09-29": "0x9eF773720BbF05353b1D5e800E529315325A4481"
+        }
+      },
+      {
+        "name": "BalanceFuseCompoundV3WithPriceOracleMiddlewareUsdc",
+        "versions": {
+          "2026-09-17": "0xEdDB6d8CfA366eEFeB587FE493035d0837563914"
         }
       },
       {
@@ -1473,6 +1491,12 @@
         }
       },
       {
+        "name": "BorrowFuseCompoundV3Usdc",
+        "versions": {
+          "2026-09-17": "0xbe3468E35D8EBA45418F9dDAc7145aD500fd0F7F"
+        }
+      },
+      {
         "name": "BorrowFuseEulerV2",
         "versions": {
           "2024-11-26": "0x20c782C94800d709541660E322035785c89E32C2",
@@ -1500,7 +1524,8 @@
       {
         "name": "ClaimRewardsFuseCompoundV3",
         "versions": {
-          "2024-11-26": "0x2B98080341D9469d8beAbf2db037dE8897c232cD"
+          "2024-11-26": "0x2B98080341D9469d8beAbf2db037dE8897c232cD",
+          "2026-09-17": "0xe4374aEc1F73edc2AD5c9c9E7091143B0Af4a378"
         }
       },
       {
@@ -1939,7 +1964,8 @@
       {
         "name": "SupplyFuseCompoundV3Usdc",
         "versions": {
-          "2024-09-29": "0x00A220F09C1CF5f549C98Fa37C837aed54aBA26c"
+          "2024-09-29": "0x00A220F09C1CF5f549C98Fa37C837aed54aBA26c",
+          "2026-09-17": "0x46DfC76C2673462c1ceecFAf3061Ac354e371e98"
         }
       },
       {
@@ -2792,6 +2818,12 @@
         "token": "albiUSDC",
         "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
         "PlasmaVault": "0x6123AD06746b046ae75B6C665b4EDc53Ad22cC40"
+      },
+      {
+        "name": "WBTC Vault",
+        "token": "WBTCVLT",
+        "asset": "0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f",
+        "PlasmaVault": "0x31933D2a0A2Dec3565e732fE669cc991291658dB"
       }
     ],
     "fuses": [
@@ -5191,6 +5223,42 @@
         "token": "ACV-CP1A",
         "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
         "PlasmaVault": "0x1a85bda1AF09074d6eB5ac84Ca26c5573e969743"
+      },
+      {
+        "name": "Maciek 15.09.2026",
+        "token": "M1509",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x362E12a4A34Da7D4633abF0840ed7C461992785E"
+      },
+      {
+        "name": "Tempora Labs Cash Plus USDC (Test 2A)",
+        "token": "tlCashPlusUSDC2A",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x1516D2c082b9cc9af852B1Ebc828f168F27299ef"
+      },
+      {
+        "name": "Nvidia Carry Trade Tezos",
+        "token": "NVDACTTZ",
+        "asset": "0xb20000000000000000000078ee7ce2fE4908108C",
+        "PlasmaVault": "0xDE09e16675B667B6aBB6d7910d6e009f630BcB96"
+      },
+      {
+        "name": "USDC Lending Optimizer Coinspaid",
+        "token": "TAUBUSDCP",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x6F7D9a4Fb8369284A413E063998Bb3678F145992"
+      },
+      {
+        "name": "ETH Lending Optimizer Coinspaid",
+        "token": "TAUBETHCP",
+        "asset": "0x4200000000000000000000000000000000000006",
+        "PlasmaVault": "0xBa08b20eAFA2e250A4F4ec456F6ECDed4361Bbd1"
+      },
+      {
+        "name": "check",
+        "token": "check",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0xc2500311e94Dfa076778dD6A77087B4537e8CA3D"
       }
     ],
     "fuses": [
@@ -7398,6 +7466,12 @@
         "token": "GHOMAX",
         "asset": "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb",
         "PlasmaVault": "0x76655103523784F8a9b805b62456928a8Ca9D46F"
+      },
+      {
+        "name": "Maciek 15.09.2026 Plasma",
+        "token": "M09",
+        "asset": "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34",
+        "PlasmaVault": "0x729E67A2F04e766963894a0ad7B921aD2470c659"
       }
     ]
   },
