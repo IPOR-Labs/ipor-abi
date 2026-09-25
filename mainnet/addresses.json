@@ -1127,6 +1127,12 @@
         "token": "teUSDC",
         "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "PlasmaVault": "0xABF0322aeFBb698002878a6fE4b7ed048e584160"
+      },
+      {
+        "name": "Tesseract wETH Vault Share",
+        "token": "teWETH",
+        "asset": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "PlasmaVault": "0xbEbB846BeF1eECdAA5D69fC580B0e0D5ED6C71FE"
       }
     ],
     "fuses": [
@@ -2824,6 +2830,12 @@
         "token": "WBTCVLT",
         "asset": "0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f",
         "PlasmaVault": "0x31933D2a0A2Dec3565e732fE669cc991291658dB"
+      },
+      {
+        "name": "Test Vault",
+        "token": "t-vault-us",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x7c64aEf3e25a82375D202ecF6C7f263dAe327de1"
       }
     ],
     "fuses": [
@@ -5271,6 +5283,18 @@
         "token": "TAUTSTOCKL",
         "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
         "PlasmaVault": "0xd76577b102744701571A62D20a7BC34C1Ab8B9Fc"
+      },
+      {
+        "name": "deltaneutralHYPE",
+        "token": "dnHYPE",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0xfd713E8B06bA29DfAdcC4185F010C0E2456a3f9C"
+      },
+      {
+        "name": "RWA hub Vault 1",
+        "token": "RHV01",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x50CcB7301c14e484019a0F2de0732Ed5C9557cbf"
       }
     ],
     "fuses": [
