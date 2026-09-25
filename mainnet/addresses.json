@@ -5259,6 +5259,18 @@
         "token": "check",
         "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
         "PlasmaVault": "0xc2500311e94Dfa076778dD6A77087B4537e8CA3D"
+      },
+      {
+        "name": "Private ETH Lending Optimizer",
+        "token": "TAUBETHPR",
+        "asset": "0x4200000000000000000000000000000000000006",
+        "PlasmaVault": "0xD7579D1BB66148cf278B476499E405cc3E013Eb2"
+      },
+      {
+        "name": "Tokenized Equities Lending",
+        "token": "TAUTSTOCKL",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0xd76577b102744701571A62D20a7BC34C1Ab8B9Fc"
       }
     ],
     "fuses": [
@@ -7472,6 +7484,12 @@
         "token": "M09",
         "asset": "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34",
         "PlasmaVault": "0x729E67A2F04e766963894a0ad7B921aD2470c659"
+      },
+      {
+        "name": "Slow and Steady",
+        "token": "SNS",
+        "asset": "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb",
+        "PlasmaVault": "0x38E078a9A72fc5f29259BD03226F8C9C76F4F4D5"
       }
     ]
   },
