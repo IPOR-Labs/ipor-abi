@@ -1133,6 +1133,18 @@
         "token": "teWETH",
         "asset": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
         "PlasmaVault": "0xbEbB846BeF1eECdAA5D69fC580B0e0D5ED6C71FE"
+      },
+      {
+        "name": "DF wstETH leveraged looping",
+        "token": "dfwstETHll",
+        "asset": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+        "PlasmaVault": "0x19E761D02E31707b4a9c042744d17815B1529F54"
+      },
+      {
+        "name": "Tesseract USDC Vault Share",
+        "token": "teUSDC",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0x3FEf8b275443dDb083E4910c53ce992698bc6626"
       }
     ],
     "fuses": [
@@ -5295,6 +5307,18 @@
         "token": "RHV01",
         "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
         "PlasmaVault": "0x50CcB7301c14e484019a0F2de0732Ed5C9557cbf"
+      },
+      {
+        "name": "Optimizer Vault Usdc ",
+        "token": "OPTKYMUSDC",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x54EEF836B61D74bB81AAa43307FF32901d839550"
+      },
+      {
+        "name": "28.09.2026",
+        "token": "28092026",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x4F1AEe8c3bB8A114b5CAbaf8C36a7e972C445272"
       }
     ],
     "fuses": [
@@ -7538,6 +7562,12 @@
         "token": "SNS",
         "asset": "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb",
         "PlasmaVault": "0x38E078a9A72fc5f29259BD03226F8C9C76F4F4D5"
+      },
+      {
+        "name": "PlasmaMaxUsdt",
+        "token": "mouria",
+        "asset": "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb",
+        "PlasmaVault": "0x6174969161dFb921f087E558f6225D7CD6EDfd15"
       }
     ]
   },
