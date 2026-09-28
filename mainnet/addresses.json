@@ -5323,6 +5323,12 @@
         }
       },
       {
+        "name": "BalanceFuseAaveV4",
+        "versions": {
+          "2026-09-28": "0xB327aD8cB8Ff597C707790335638B62773a04c36"
+        }
+      },
+      {
         "name": "BalanceFuseAerodrome",
         "versions": {
           "2025-10-09": "0xDBBE09c09FCE1B841fE46Ac6b06e2a4F8128c838"
@@ -5554,6 +5560,12 @@
         }
       },
       {
+        "name": "BorrowFuseAaveV4",
+        "versions": {
+          "2026-09-28": "0x7F59b45ea6D504024567969446fE0f7713c31331"
+        }
+      },
+      {
         "name": "BorrowFuseEulerV2",
         "versions": {
           "2025-05-29": "0xFd5Ba41a7Ce38BC901308547dFCBAded2B682B11",
@@ -5640,6 +5652,12 @@
         "versions": {
           "2025-10-09": "0x52f288B352e8dC39777C3F41Dbd0474f4583B237",
           "2026-05-06": "0xD7B15C06CE4Cc807Ea0510B862407BB680C95344"
+        }
+      },
+      {
+        "name": "CollateralFuseAaveV4",
+        "versions": {
+          "2026-09-28": "0x30873e897e78947A6834dC784fc7C5a0AbD7b0Fc"
         }
       },
       {
@@ -5874,6 +5892,12 @@
         "versions": {
           "2024-10-29": "0x44dcB8A4c40FA9941d99F409b2948FE91B6C15d5",
           "2025-08-21": "0x26fD6EF391E98C78CfCA27e00c3d15be4D941625"
+        }
+      },
+      {
+        "name": "SupplyFuseAaveV4",
+        "versions": {
+          "2026-09-28": "0xCd416C41a2AC597cB0DB4AA561cEF33553bCA3B0"
         }
       },
       {
