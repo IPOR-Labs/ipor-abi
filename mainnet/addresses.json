@@ -1145,6 +1145,12 @@
         "token": "teUSDC",
         "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "PlasmaVault": "0x3FEf8b275443dDb083E4910c53ce992698bc6626"
+      },
+      {
+        "name": "Tesseract wBTC Vault Share",
+        "token": "teWBTC",
+        "asset": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+        "PlasmaVault": "0xB89396aae20Dc158AE95De2b4FE63ee9F8c706d0"
       }
     ],
     "fuses": [
@@ -2848,6 +2854,174 @@
         "token": "t-vault-us",
         "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
         "PlasmaVault": "0x7c64aEf3e25a82375D202ecF6C7f263dAe327de1"
+      },
+      {
+        "name": "Decentralized eq long - Euler rNVDA",
+        "token": "eqlNVDA",
+        "asset": "0x004B506865409877C9fA29bfb1ebA929984B9bbC",
+        "PlasmaVault": "0x4D94dC9B3591EfeD65B658b1afC0D7798887FC66"
+      },
+      {
+        "name": "Crosschain TESTTR Hub Canary v2",
+        "token": "xcTESTTR-ARB",
+        "asset": "0x83cB78b9009d48C57F29A453dd5bc774b1545682",
+        "PlasmaVault": "0x2dF3bC2D0f2395e70E627f849121697bdb0fC5E8"
+      },
+      {
+        "name": "Crosschain USDC Hub Canary v2",
+        "token": "xcUSDC-ARB",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x9257e35FEcF601fD009d35060C8f555af5A655EA"
+      },
+      {
+        "name": "Crosschain USDC Hub Canary v3",
+        "token": "xcUSDC-ARB",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x8BeED16DB1f354B0BFa31eF7e747102e26eb8FbF"
+      },
+      {
+        "name": "Keyring USDG Lending Demo",
+        "token": "kUSDGdemo",
+        "asset": "0x004B506865409877C9fA29bfb1ebA929984B9bbC",
+        "PlasmaVault": "0x69B682A6923DB6bf1474D7047374b0C20baCc758"
+      },
+      {
+        "name": "Keyring Equity Basis Demo",
+        "token": "kEQBdemo",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x6Fa85F456AA0801748CeEc63e8E65058cF62a622"
+      },
+      {
+        "name": "Dev Keyring SNDK Zero Delay Demo Arbitrum",
+        "token": "dev-kSNDKzArb",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x4CA07239A420A3bf7b3D3d16FCD1005fCC59c426"
+      },
+      {
+        "name": "Dev Keyring MU Zero Delay Demo Arbitrum",
+        "token": "dev-kMUzArb",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x6eE8654db7b21F1C861D4A42A769b61404DfD238"
+      },
+      {
+        "name": "Dev Keyring SPCX Zero Delay Demo Arbitrum",
+        "token": "dev-kSPCXzArb",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x3efBEde4758e9D5C2e6c793bF6C553fd98aE3446"
+      },
+      {
+        "name": "Dev Keyring SKHY Zero Delay Demo Arbitrum",
+        "token": "dev-kSKHYzArb",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x6fe8B2cBAdc69C504D2c7B65BA8EB39EAc31B587"
+      },
+      {
+        "name": "Dev Keyring DRAM Zero Delay Demo Arbitrum",
+        "token": "dev-kDRAMzArb",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x65ddcd9BD676A8eB1A8fE99d6226a400aD99C74e"
+      },
+      {
+        "name": "Dev Keyring NVDA Zero Delay Demo Arbitrum",
+        "token": "dev-kNVDAzArb",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x17400940335E0A3806236f518da7c59F66a0F3bf"
+      },
+      {
+        "name": "Dev Keyring CRCL Zero Delay Demo Arbitrum",
+        "token": "dev-kCRCLzArb",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xAd1350089c5Af458f10B2F8dd812D96a22290c7f"
+      },
+      {
+        "name": "Dev Keyring META Zero Delay Demo Arbitrum",
+        "token": "dev-kMETAzArb",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x2586D071be61eEC81073205a03AC8170BE7ED46b"
+      },
+      {
+        "name": "Dev Keyring INTC Zero Delay Demo Arbitrum",
+        "token": "dev-kINTCzArb",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xB89934a3a50dF9FbE4A9fCed1b98D5B2BB3B647A"
+      },
+      {
+        "name": "Dev Keyring HOOD Zero Delay Demo Arbitrum",
+        "token": "dev-kHOODzArb",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xbafE558b073F1E7105993035CcD0325153Cb957F"
+      },
+      {
+        "name": "Dev Keyring AAPL Zero Delay Demo Arbitrum",
+        "token": "dev-kAAPLzArb",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xf9728E0C54860695513E600239380CDF1B1C31F1"
+      },
+      {
+        "name": "Dev Keyring GOOGL Zero Delay Demo Arbitrum",
+        "token": "dev-kGOOGLzArb",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x0Bbd05bE6F6F77Db7c33bd08C93E88de1486C9B9"
+      },
+      {
+        "name": "Dev Keyring SOXL Zero Delay Demo Arbitrum",
+        "token": "dev-kSOXLzArb",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x88A391A8B09caf6D574B594ba2f1Fc3D048F9406"
+      },
+      {
+        "name": "Dev Keyring NBIS Zero Delay Demo Arbitrum",
+        "token": "dev-kNBISzArb",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xfdE76608AE0eD5e5Ad64Bf77C3D9CcFece3728DD"
+      },
+      {
+        "name": "Dev Keyring TSLA Zero Delay Demo Arbitrum",
+        "token": "dev-kTSLAzArb",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x359dBEa87F07fA9Fe4aFd381aC1F8804232d3230"
+      },
+      {
+        "name": "Dev Keyring AMD Zero Delay Demo Arbitrum",
+        "token": "dev-kAMDzArb",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x83b38F1fFE59BE5D47354ed4756464cb45882567"
+      },
+      {
+        "name": "Dev Keyring EWY Zero Delay Demo Arbitrum",
+        "token": "dev-kEWYzArb",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xAbB14c7f1C4017792b7a6D73D1caF279f88fC9F7"
+      },
+      {
+        "name": "Dev Keyring MSTR Zero Delay Demo Arbitrum",
+        "token": "dev-kMSTRzArb",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x0d98153C20cEFDf97e23442A608cA35A511A0B48"
+      },
+      {
+        "name": "Dev Keyring ORCL Zero Delay Demo Arbitrum",
+        "token": "dev-kORCLzArb",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x2FDE8218f97f9c49312d866aa351809B2cc6Db90"
+      },
+      {
+        "name": "Dev Keyring KORU Zero Delay Demo Arbitrum",
+        "token": "dev-kKORUzArb",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xAb7C4e4422598f118D2BC37A260fAC2E23Ac2496"
+      },
+      {
+        "name": "Decentralised Crypto-Equity Basis Risk Premia Index",
+        "token": "EQ-BS-IDX",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x91f4fC32C2B0121CE20961407Af13237aD504882"
+      },
+      {
+        "name": "Decentralised Crypto-Equity Basis Risk Premia Index",
+        "token": "EQ-BS-IDX",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x38822Ea7bf6CFA43BBAda7aFfe0A9773b689F73f"
       }
     ],
     "fuses": [
@@ -5319,6 +5493,66 @@
         "token": "28092026",
         "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
         "PlasmaVault": "0x4F1AEe8c3bB8A114b5CAbaf8C36a7e972C445272"
+      },
+      {
+        "name": "aave apple testg vault",
+        "token": "appltest",
+        "asset": "0xb200000000000000000000C2e324d24d7eEcd1fb",
+        "PlasmaVault": "0xa9190ea624bff4ff676bd764dfD37a6C3e5F2a3D"
+      },
+      {
+        "name": "Wave 03 QA wizard",
+        "token": "W03QA",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0xE1c0558b56C31A7C3ad5E3A189E932b02aB921AF"
+      },
+      {
+        "name": "Wave 03 QA wizard 2",
+        "token": "W03QA2",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x76869a208Ee8Ca054A1ea116145aE0C08Fa307F1"
+      },
+      {
+        "name": "aero",
+        "token": "aero",
+        "asset": "0x940181a94A35A4569E4529A3CDfB74e38FD98631",
+        "PlasmaVault": "0x9F98F4d280D2866885585D962584E41A374671D4"
+      },
+      {
+        "name": "Wave 03 QA2 wizard",
+        "token": "W3Q2",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x1F7372fa525511a9dF6708E48d06ab43e06550BA"
+      },
+      {
+        "name": "vault test 1",
+        "token": "VLT1",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x7AC4B0781f1802404C22F0364D1C8E00Da999EeE"
+      },
+      {
+        "name": "vault test 2",
+        "token": "vlt2",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x0a917909B520121d68FB5A57Bf820c1D25c9CE7E"
+      },
+      {
+        "name": "The Best",
+        "token": "Thebest",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x434521B51DACf96245beD51B9CFE329846a2C4D7"
+      },
+      {
+        "name": "Tesseract cbETH Vault Share",
+        "token": "tecbETH",
+        "asset": "0x2Ae3F1Ec7F1F5012CFEab0185bfc7aa3cf0DEc22",
+        "PlasmaVault": "0xfeB895C95b21F2f546D8F70e8C79CC3FD14a69eF"
+      },
+      {
+        "name": "cryptonomy",
+        "token": "WETH",
+        "asset": "0x04C0599Ae5A44757c0af6F9eC3b93da8976c150A",
+        "PlasmaVault": "0x52B83278e1197c4372DF0B40ffB348884b377165"
       }
     ],
     "fuses": [
@@ -7958,6 +8192,12 @@
         "token": "TESAVL",
         "asset": "0x152b9d0FdC40C096757F570A51E494bd4b943E50",
         "PlasmaVault": "0xbCbEd2f9A037DC7E0B2Bda17a0cD0E43E563BCE9"
+      },
+      {
+        "name": "8-10-2026",
+        "token": "8-10-2026",
+        "asset": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "PlasmaVault": "0x2d77245461978791e78202EAc6aeC3d8fa8ed041"
       }
     ]
   },
@@ -8289,6 +8529,18 @@
         "token": "cyavKAT",
         "asset": "0x7231dbaCdFc968E07656D12389AB20De82FbfCeB",
         "PlasmaVault": "0xEd83daf48429cfb2C650Fd721b9241e180fd4548"
+      },
+      {
+        "name": "CurveYield USDC",
+        "token": "cyvbUSDC",
+        "asset": "0x203A662b0BD271A6ed5a60EdFbd04bFce608FD36",
+        "PlasmaVault": "0xDf9CbCB8b57A031e91CAe673a6A5786d85Ce2eC5"
+      },
+      {
+        "name": "CurveYield vbWBTC",
+        "token": "cyvbWBTC",
+        "asset": "0x0913DA6Da4b42f538B445599b46Bb4622342Cf52",
+        "PlasmaVault": "0xBfC4f3E84637c67dbA95B856fcB1a4D98dbdcd3e"
       }
     ],
     "price_oracles": [
