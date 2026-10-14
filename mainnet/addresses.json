@@ -5618,6 +5618,12 @@
         }
       },
       {
+        "name": "BalanceFuseCompoundV3WithPriceOracleMiddlewareUsdc",
+        "versions": {
+          "2026-10-14": "0x07D909B0a1424abb2d79d02FBa9bf6968Cc8A0dA"
+        }
+      },
+      {
         "name": "BalanceFuseErc20",
         "versions": {
           "2024-10-29": "0x9ba147FC382DBf4D73512A45370ba0B70c25F6aa"
@@ -5821,6 +5827,12 @@
         "name": "BorrowFuseAaveV4",
         "versions": {
           "2026-09-28": "0x7F59b45ea6D504024567969446fE0f7713c31331"
+        }
+      },
+      {
+        "name": "BorrowFuseCompoundV3Usdc",
+        "versions": {
+          "2026-10-14": "0x9EA2107af18B342995808AD417505B5cd57cc7bC"
         }
       },
       {
@@ -8541,6 +8553,12 @@
         "token": "cyvbWBTC",
         "asset": "0x0913DA6Da4b42f538B445599b46Bb4622342Cf52",
         "PlasmaVault": "0xBfC4f3E84637c67dbA95B856fcB1a4D98dbdcd3e"
+      },
+      {
+        "name": "CurveYield vbETH",
+        "token": "cyvbETH",
+        "asset": "0xEE7D8BCFb72bC1880D0Cf19822eB0A2e6577aB62",
+        "PlasmaVault": "0x2761900B81701533808A666f2B8f98353000589a"
       }
     ],
     "price_oracles": [
