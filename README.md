@@ -6,7 +6,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Fuses List
 
-*Last updated: 2026-10-12 17:00:45 UTC*
+*Last updated: 2026-10-14 06:27:19 UTC*
 
 ### Ethereum Fuses
 
@@ -398,6 +398,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `BalanceFuseBurnRequestFee` | `0x341D2459606FEB164A986767cB72Ddd8230744Fe` [View](https://basescan.org/address/0x341D2459606FEB164A986767cB72Ddd8230744Fe#code) |
 | `BalanceFuseCompoundV3Usdc` | `0x62286efb801ae4eE93733c3bc1bFA0746e5103D8` [View](https://basescan.org/address/0x62286efb801ae4eE93733c3bc1bFA0746e5103D8#code) |
 | `BalanceFuseCompoundV3WEth` | `0x88810B5066A92d628A1Cb59A1902bc607eeb8C1B` [View](https://basescan.org/address/0x88810B5066A92d628A1Cb59A1902bc607eeb8C1B#code) |
+| `BalanceFuseCompoundV3WithPriceOracleMiddlewareUsdc` | `0x07D909B0a1424abb2d79d02FBa9bf6968Cc8A0dA` [View](https://basescan.org/address/0x07D909B0a1424abb2d79d02FBa9bf6968Cc8A0dA#code) |
 | `BalanceFuseErc20` | `0x9ba147FC382DBf4D73512A45370ba0B70c25F6aa` [View](https://basescan.org/address/0x9ba147FC382DBf4D73512A45370ba0B70c25F6aa#code) |
 | `BalanceFuseErc4626Market1` | `0x7F4D9EFdE7EfEBBAFbb506ca3f711764cBc96391` [View](https://basescan.org/address/0x7F4D9EFdE7EfEBBAFbb506ca3f711764cBc96391#code) |
 | `BalanceFuseErc4626Market10` | `0xE1725cC2AF00941Db5847a59B4aA8bF47AD35bDF` [View](https://basescan.org/address/0xE1725cC2AF00941Db5847a59B4aA8bF47AD35bDF#code) |
@@ -432,6 +433,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `BatchFuseEulerV2` | `0x60CE35e58f6CEd1538c16A15FF7fF75B0538898F` [View](https://basescan.org/address/0x60CE35e58f6CEd1538c16A15FF7fF75B0538898F#code) |
 | `BorrowFuseAaveV3` | `0x1Df60F2A046F3Dce8102427e091C1Ea99aE1d774` [View](https://basescan.org/address/0x1Df60F2A046F3Dce8102427e091C1Ea99aE1d774#code) |
 | `BorrowFuseAaveV4` | `0x7F59b45ea6D504024567969446fE0f7713c31331` [View](https://basescan.org/address/0x7F59b45ea6D504024567969446fE0f7713c31331#code) |
+| `BorrowFuseCompoundV3Usdc` | `0x9EA2107af18B342995808AD417505B5cd57cc7bC` [View](https://basescan.org/address/0x9EA2107af18B342995808AD417505B5cd57cc7bC#code) |
 | `BorrowFuseEulerV2` | `0x906496F0D4C733275F892b1a6fC92eD56639B379` [View](https://basescan.org/address/0x906496F0D4C733275F892b1a6fC92eD56639B379#code) |
 | `BorrowFuseMoonwell` | `0x377a5B195E3C074d982BD7bAC66B48D4C3006353` [View](https://basescan.org/address/0x377a5B195E3C074d982BD7bAC66B48D4C3006353#code) |
 | `BorrowFuseMorpho` | `0x35f44aD1D9F2773dA05F4664bf574C760bA47bf6` [View](https://basescan.org/address/0x35f44aD1D9F2773dA05F4664bf574C760bA47bf6#code) |
@@ -1142,7 +1144,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## PreHooks List
 
-*Last updated: 2026-10-12 17:00:46 UTC*
+*Last updated: 2026-10-14 06:27:20 UTC*
 
 ### Ethereum PreHooks
 
