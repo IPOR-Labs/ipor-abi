@@ -8553,6 +8553,12 @@
         "token": "cyvbWBTC",
         "asset": "0x0913DA6Da4b42f538B445599b46Bb4622342Cf52",
         "PlasmaVault": "0xBfC4f3E84637c67dbA95B856fcB1a4D98dbdcd3e"
+      },
+      {
+        "name": "CurveYield vbETH",
+        "token": "cyvbETH",
+        "asset": "0xEE7D8BCFb72bC1880D0Cf19822eB0A2e6577aB62",
+        "PlasmaVault": "0x2761900B81701533808A666f2B8f98353000589a"
       }
     ],
     "price_oracles": [
