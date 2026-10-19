@@ -6,7 +6,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Fuses List
 
-*Last updated: 2026-10-14 06:31:55 UTC*
+*Last updated: 2026-10-19 09:00:03 UTC*
 
 ### Ethereum Fuses
 
@@ -111,6 +111,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `LitePSMSupplyFuse` | `0x771359B201De4Ce50F0F96A13ac72A636dC55508` [View](https://etherscan.io/address/0x771359B201De4Ce50F0F96A13ac72A636dC55508#code) |
 | `MaintenanceFuseUpdateWithdrawManager` | `0x74CA34C2C47d0865856A54060246AB736a0Bb0D0` [View](https://etherscan.io/address/0x74CA34C2C47d0865856A54060246AB736a0Bb0D0#code) |
 | `MerklClaimFuse` | `0x47AcA48086036D213F2A5faa6764a62777B4Bbcc` [View](https://etherscan.io/address/0x47AcA48086036D213F2A5faa6764a62777B4Bbcc#code) |
+| `MerklClaimWrapperFuse` | `0xd8182DD21DC0f5a09721053C5886731d4a5ed844` [View](https://etherscan.io/address/0xd8182DD21DC0f5a09721053C5886731d4a5ed844#code) |
 | `MidasBalanceFuse` | `0x79Be255f9D5B02C15127b97A3F1EEBc49A070500` [View](https://etherscan.io/address/0x79Be255f9D5B02C15127b97A3F1EEBc49A070500#code) |
 | `MidasClaimFromExecutorFuse` | `0xAe2459cB66CA9C404af897C3694d62ba760066Be` [View](https://etherscan.io/address/0xAe2459cB66CA9C404af897C3694d62ba760066Be#code) |
 | `MidasRequestSupplyFuse` | `0x181703Ceda22a1e27679244ac4fb33A51f1A4973` [View](https://etherscan.io/address/0x181703Ceda22a1e27679244ac4fb33A51f1A4973#code) |
@@ -1144,7 +1145,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## PreHooks List
 
-*Last updated: 2026-10-14 06:31:56 UTC*
+*Last updated: 2026-10-19 09:00:04 UTC*
 
 ### Ethereum PreHooks
 

@@ -1760,6 +1760,12 @@
         }
       },
       {
+        "name": "MerklClaimWrapperFuse",
+        "versions": {
+          "2026-10-19": "0xd8182DD21DC0f5a09721053C5886731d4a5ed844"
+        }
+      },
+      {
         "name": "MidasBalanceFuse",
         "versions": {
           "2026-02-23": "0x1bFB9E4B7D849c641E7Ff896849a4D446322e050",
