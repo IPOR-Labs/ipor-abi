@@ -6,7 +6,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Fuses List
 
-*Last updated: 2026-10-22 16:30:35 UTC*
+*Last updated: 2026-10-22 19:17:07 UTC*
 
 ### Ethereum Fuses
 
@@ -925,7 +925,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | Fuse Name | Address / View in Explorer |
 |-----------|---------------------------|
 | `AsyncActionBalanceFuse` | `0x3f90c3d1b9EF83D65fc852bB0c33C85c6BD9414b` [View](https://hyperevmscan.io/address/0x3f90c3d1b9EF83D65fc852bB0c33C85c6BD9414b#code) |
-| `BalanceFuseBurnRequestFee` | `0xb3F3f951c771Cd6cB1Aee4E4506b86aFB5225e68` [View](https://hyperevmscan.io/address/0xb3F3f951c771Cd6cB1Aee4E4506b86aFB5225e68#code) |
+| `BalanceFuseBurnRequestFee` | `0x951Cb36FD76E28F10D825c8CC3beE2118003791F` [View](https://hyperevmscan.io/address/0x951Cb36FD76E28F10D825c8CC3beE2118003791F#code) |
 | `BalanceFuseErc20` | `0x57d317872297deC31B95d52EB1a889f0Bfe85c2F` [View](https://hyperevmscan.io/address/0x57d317872297deC31B95d52EB1a889f0Bfe85c2F#code) |
 | `BalanceFuseErc4626Market1` | `0x0381B54618562B39c59A9cCDA86b24a5027f15E7` [View](https://hyperevmscan.io/address/0x0381B54618562B39c59A9cCDA86b24a5027f15E7#code) |
 | `BalanceFuseErc4626Market2` | `0x20Ae5e2172A26E58A93BB24eAE1e2C35ad88D0cd` [View](https://hyperevmscan.io/address/0x20Ae5e2172A26E58A93BB24eAE1e2C35ad88D0cd#code) |
@@ -940,7 +940,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `BalanceFuseUniversalTokenSwapperV2` | `0x139dc435B3023Afb75FB1ffD1064481e68Ccba19` [View](https://hyperevmscan.io/address/0x139dc435B3023Afb75FB1ffD1064481e68Ccba19#code) |
 | `BorrowFuseMorpho` | `0x6D9dDb1c449E91A3FB83f67D6F56E3e8c0bfc21c` [View](https://hyperevmscan.io/address/0x6D9dDb1c449E91A3FB83f67D6F56E3e8c0bfc21c#code) |
 | `BurnRequestFeeFuse` | `0xAa2D7a24ff3Dc251e044326ab35e976b352ED613` [View](https://hyperevmscan.io/address/0xAa2D7a24ff3Dc251e044326ab35e976b352ED613#code) |
-| `BurnRequestFeeFuseV2` | `0xF86a1B468cd7A6BbAeDf78705DaE40DeDb1d0EAF` [View](https://hyperevmscan.io/address/0xF86a1B468cd7A6BbAeDf78705DaE40DeDb1d0EAF#code) |
+| `BurnRequestFeeFuseV2` | `0xD62f398d36aeDE3992521EA9Fc501dEB418a50b4` [View](https://hyperevmscan.io/address/0xD62f398d36aeDE3992521EA9Fc501dEB418a50b4#code) |
 | `ClaimRewardsFuseMorpho` | `0xF9Fe01A9Cbe2D3e89d4DAed065bcc408744986f7` [View](https://hyperevmscan.io/address/0xF9Fe01A9Cbe2D3e89d4DAed065bcc408744986f7#code) |
 | `CollateralFuseMorpho` | `0x4f9930eDB751AA67191b4fdF1B9B1a7a4eEa392a` [View](https://hyperevmscan.io/address/0x4f9930eDB751AA67191b4fdF1B9B1a7a4eEa392a#code) |
 | `ConfigureInstantWithdrawalFuse` | `0x0F2553e4460C2974746908cFDe472a7dC1311dBd` [View](https://hyperevmscan.io/address/0x0F2553e4460C2974746908cFDe472a7dC1311dBd#code) |
@@ -952,6 +952,13 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `FuseRedeemFromRequestPlasmaVaultMarket1` | `0x1E22C137997DaBd4452792516AcDFb402432eAa9` [View](https://hyperevmscan.io/address/0x1E22C137997DaBd4452792516AcDFb402432eAa9#code) |
 | `FuseRequestSharesPlasmaVaultMarket1` | `0x0A6aFE06dA41F9D86767C296E5398C65CA3889A4` [View](https://hyperevmscan.io/address/0x0A6aFE06dA41F9D86767C296E5398C65CA3889A4#code) |
 | `FuseRequestSharesPlasmaVaultV2` | `0xEA5CE8B0a7734E37285aB087b1a3c4Fef89C15b2` [View](https://hyperevmscan.io/address/0xEA5CE8B0a7734E37285aB087b1a3c4Fef89C15b2#code) |
+| `HyperCoreBalanceFuse` | `0xbEd25202529DCD2a05f7D8944B10779b6dbc6Fa6` [View](https://hyperevmscan.io/address/0xbEd25202529DCD2a05f7D8944B10779b6dbc6Fa6#code) |
+| `HyperCoreBuilderFeeFuse` | `0xf6dF3B5D427E9B46C5D14684512E467C9B71AD6c` [View](https://hyperevmscan.io/address/0xf6dF3B5D427E9B46C5D14684512E467C9B71AD6c#code) |
+| `HyperCoreCancelFuse` | `0xdbf6833211A41B2edD5575e639E2Bb5C6dea6fD8` [View](https://hyperevmscan.io/address/0xdbf6833211A41B2edD5575e639E2Bb5C6dea6fD8#code) |
+| `HyperCoreDepositFuse` | `0x5DBB60251Ff1F4BD57394976F4526987d05d1eB6` [View](https://hyperevmscan.io/address/0x5DBB60251Ff1F4BD57394976F4526987d05d1eB6#code) |
+| `HyperCoreMarginFuse` | `0xE7e8a7D15e4eb558B953d91c602EFfDbE913959e` [View](https://hyperevmscan.io/address/0xE7e8a7D15e4eb558B953d91c602EFfDbE913959e#code) |
+| `HyperCoreOrderFuse` | `0x96f97c088E9610A036a2738B004DF04Ee9Cf17a2` [View](https://hyperevmscan.io/address/0x96f97c088E9610A036a2738B004DF04Ee9Cf17a2#code) |
+| `HyperCoreSendFuse` | `0x0C7b6788716eD1563De79743C2b7690D82f7C999` [View](https://hyperevmscan.io/address/0x0C7b6788716eD1563De79743C2b7690D82f7C999#code) |
 | `PlasmaVaultBalanceAssetsValidationFuse` | `0x467ef84A334398E2EE41B9838582dBf37dd09673` [View](https://hyperevmscan.io/address/0x467ef84A334398E2EE41B9838582dBf37dd09673#code) |
 | `RWABalanceFuse` | `0xbEBc308b954311d8Cb2F95DD8a583Ed7bbB3A9d4` [View](https://hyperevmscan.io/address/0xbEBc308b954311d8Cb2F95DD8a583Ed7bbB3A9d4#code) |
 | `RWAOperationFuse` | `0xfaA377b5099267d8e36E2B1Ea288F82681D9bea4` [View](https://hyperevmscan.io/address/0xfaA377b5099267d8e36E2B1Ea288F82681D9bea4#code) |
@@ -971,6 +978,13 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `UniversalTokenSwapperFuse` | `0xeCE04243Cce5f578dbcaA1B7f478701A233CB87d` [View](https://hyperevmscan.io/address/0xeCE04243Cce5f578dbcaA1B7f478701A233CB87d#code) |
 | `UniversalTokenSwapperFuseV2` | `0xf7B343351bDD33E9Ec09f7ad4051887281779c69` [View](https://hyperevmscan.io/address/0xf7B343351bDD33E9Ec09f7ad4051887281779c69#code) |
 | `UpdateMarketsBalancesFuse` | `0x280cC2e768cCEcd4ba11DfCC439c7Fe986d3C39b` [View](https://hyperevmscan.io/address/0x280cC2e768cCEcd4ba11DfCC439c7Fe986d3C39b#code) |
+
+#### HyperEVM Older Fuses Versions
+
+| Fuse Name | Address / View in Explorer |
+|-----------|---------------------------|
+| `BalanceFuseBurnRequestFee` | `0xb3F3f951c771Cd6cB1Aee4E4506b86aFB5225e68` [View](https://hyperevmscan.io/address/0xb3F3f951c771Cd6cB1Aee4E4506b86aFB5225e68#code) |
+| `BurnRequestFeeFuseV2` | `0xF86a1B468cd7A6BbAeDf78705DaE40DeDb1d0EAF` [View](https://hyperevmscan.io/address/0xF86a1B468cd7A6BbAeDf78705DaE40DeDb1d0EAF#code) |
 
 ### Robinhood Fuses
 
@@ -1147,7 +1161,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## PreHooks List
 
-*Last updated: 2026-10-22 16:30:37 UTC*
+*Last updated: 2026-10-22 19:17:08 UTC*
 
 ### Ethereum PreHooks
 
@@ -1242,6 +1256,8 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 |-----------|---------------------------|
 | `ExchangeRateValidatorPreHook` | `0xD95d0Da878A3E5F1dFDbe0622A2FF0816286b986` [View](https://hyperevmscan.io/address/0xD95d0Da878A3E5F1dFDbe0622A2FF0816286b986#code) |
 | `ExternalStatePausePreHook` | `0xE948331A9A2d26E4092cA30849f983d3Af3abc06` [View](https://hyperevmscan.io/address/0xE948331A9A2d26E4092cA30849f983d3Af3abc06#code) |
+| `HyperCoreCapitalFlowPreHook` | `0xbA999E8b50bDC2672CcE13A1F896aaD7Dc5BE547` [View](https://hyperevmscan.io/address/0xbA999E8b50bDC2672CcE13A1F896aaD7Dc5BE547#code) |
+| `HyperCorePendingActionPreHook` | `0xd240690cf7C41dDD75863c4b4a9358ea62B20c85` [View](https://hyperevmscan.io/address/0xd240690cf7C41dDD75863c4b4a9358ea62B20c85#code) |
 | `PreHookPauseFunction` | `0x9f340D4165231A62081616F5F5Ee25d49eF42C07` [View](https://hyperevmscan.io/address/0x9f340D4165231A62081616F5F5Ee25d49eF42C07#code) |
 | `PreHookUpdateBalancesIgnoreDust` | `0x404513a7D7382bEEF1101d62d6d2484eDe64e6f4` [View](https://hyperevmscan.io/address/0x404513a7D7382bEEF1101d62d6d2484eDe64e6f4#code) |
 | `RWAPausePreHook` | `0x2bd3E192e76cd784252d3505181a79a3aeaa4Ce4` [View](https://hyperevmscan.io/address/0x2bd3E192e76cd784252d3505181a79a3aeaa4Ce4#code) |
