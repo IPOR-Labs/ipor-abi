@@ -1151,6 +1151,12 @@
         "token": "teWBTC",
         "asset": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
         "PlasmaVault": "0xB89396aae20Dc158AE95De2b4FE63ee9F8c706d0"
+      },
+      {
+        "name": "TESS WBTC Debt PT Vault",
+        "token": "tessWBTCPT",
+        "asset": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+        "PlasmaVault": "0x603CcE86027Aea55e53B3fAF1b3eFe61a6871D4f"
       }
     ],
     "fuses": [
@@ -5559,6 +5565,30 @@
         "token": "WETH",
         "asset": "0x04C0599Ae5A44757c0af6F9eC3b93da8976c150A",
         "PlasmaVault": "0x52B83278e1197c4372DF0B40ffB348884b377165"
+      },
+      {
+        "name": "Marco's_Private_Vault",
+        "token": "MPV",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x0e0A94F5649340DCfb970C72E0eB11d029903242"
+      },
+      {
+        "name": "QA Wave14 Create",
+        "token": "qaW14",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x5b22B47e5DaD8Aec641a47B8589eE047950fdbbE"
+      },
+      {
+        "name": "Wave 13 QA wizard",
+        "token": "W13QA",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x92087e74e31edf2Cd9472F501f52C4301f37e7E7"
+      },
+      {
+        "name": "Meta Carry Trade Tezos",
+        "token": "METACTTZ",
+        "asset": "0xb2000000000000000000008bC8786B856E61707C",
+        "PlasmaVault": "0x5130ccfAe447b1Bd512468B5a850B07d63a31163"
       }
     ],
     "fuses": [
