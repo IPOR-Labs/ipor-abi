@@ -3034,6 +3034,30 @@
         "token": "EQ-BS-IDX",
         "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
         "PlasmaVault": "0x38822Ea7bf6CFA43BBAda7aFfe0A9773b689F73f"
+      },
+      {
+        "name": "Bitget USDG Lending Vault",
+        "token": "KR-USDG-LEND",
+        "asset": "0x004B506865409877C9fA29bfb1ebA929984B9bbC",
+        "PlasmaVault": "0x09036bf0AA55D1931B23440768d8B03530718dBC"
+      },
+      {
+        "name": "Bitget USDT0 Lending Vault",
+        "token": "KR-USDT0-LEND",
+        "asset": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "PlasmaVault": "0xCC7Bed890e49c608F1e7ded31A6fCb3c74f8b250"
+      },
+      {
+        "name": "Bitget USDT0 Lending Vault",
+        "token": "KR-USDT0-LEND",
+        "asset": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "PlasmaVault": "0x22c6dc5F1259Ef8cf8Cc881061bB08782e2349E7"
+      },
+      {
+        "name": "Bitget USDG Lending Vault",
+        "token": "KR-USDG-LEND",
+        "asset": "0x004B506865409877C9fA29bfb1ebA929984B9bbC",
+        "PlasmaVault": "0x88b0517a4c81B02671d310F8da6131693c9cA904"
       }
     ],
     "fuses": [
@@ -5591,6 +5615,18 @@
         "token": "METACTTZ",
         "asset": "0xb2000000000000000000008bC8786B856E61707C",
         "PlasmaVault": "0x5130ccfAe447b1Bd512468B5a850B07d63a31163"
+      },
+      {
+        "name": "Meta Carry Trade Tezos",
+        "token": "METACTTZ",
+        "asset": "0xb2000000000000000000008bC8786B856E61707C",
+        "PlasmaVault": "0x5014A72ecfFe45477359eB0afd97FB03ecD6C9E8"
+      },
+      {
+        "name": "Sable Base USDC",
+        "token": "sUSDC",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x507e5499fE56CC64488a3c5b3eCd24231f67CCd9"
       }
     ],
     "fuses": [
@@ -8889,7 +8925,8 @@
       {
         "name": "BalanceFuseBurnRequestFee",
         "versions": {
-          "2026-07-09": "0xb3F3f951c771Cd6cB1Aee4E4506b86aFB5225e68"
+          "2026-07-09": "0xb3F3f951c771Cd6cB1Aee4E4506b86aFB5225e68",
+          "2026-10-22": "0x951Cb36FD76E28F10D825c8CC3beE2118003791F"
         }
       },
       {
@@ -8979,7 +9016,8 @@
       {
         "name": "BurnRequestFeeFuseV2",
         "versions": {
-          "2026-07-09": "0xF86a1B468cd7A6BbAeDf78705DaE40DeDb1d0EAF"
+          "2026-07-09": "0xF86a1B468cd7A6BbAeDf78705DaE40DeDb1d0EAF",
+          "2026-10-22": "0xD62f398d36aeDE3992521EA9Fc501dEB418a50b4"
         }
       },
       {
@@ -9046,6 +9084,48 @@
         "name": "FuseRequestSharesPlasmaVaultV2",
         "versions": {
           "2026-07-09": "0xEA5CE8B0a7734E37285aB087b1a3c4Fef89C15b2"
+        }
+      },
+      {
+        "name": "HyperCoreBalanceFuse",
+        "versions": {
+          "2026-10-22": "0xbEd25202529DCD2a05f7D8944B10779b6dbc6Fa6"
+        }
+      },
+      {
+        "name": "HyperCoreBuilderFeeFuse",
+        "versions": {
+          "2026-10-22": "0xf6dF3B5D427E9B46C5D14684512E467C9B71AD6c"
+        }
+      },
+      {
+        "name": "HyperCoreCancelFuse",
+        "versions": {
+          "2026-10-22": "0xdbf6833211A41B2edD5575e639E2Bb5C6dea6fD8"
+        }
+      },
+      {
+        "name": "HyperCoreDepositFuse",
+        "versions": {
+          "2026-10-22": "0x5DBB60251Ff1F4BD57394976F4526987d05d1eB6"
+        }
+      },
+      {
+        "name": "HyperCoreMarginFuse",
+        "versions": {
+          "2026-10-22": "0xE7e8a7D15e4eb558B953d91c602EFfDbE913959e"
+        }
+      },
+      {
+        "name": "HyperCoreOrderFuse",
+        "versions": {
+          "2026-10-22": "0x96f97c088E9610A036a2738B004DF04Ee9Cf17a2"
+        }
+      },
+      {
+        "name": "HyperCoreSendFuse",
+        "versions": {
+          "2026-10-22": "0x0C7b6788716eD1563De79743C2b7690D82f7C999"
         }
       },
       {
@@ -9174,6 +9254,18 @@
         "name": "ExternalStatePausePreHook",
         "versions": {
           "2026-08-13": "0xE948331A9A2d26E4092cA30849f983d3Af3abc06"
+        }
+      },
+      {
+        "name": "HyperCoreCapitalFlowPreHook",
+        "versions": {
+          "2026-10-22": "0xbA999E8b50bDC2672CcE13A1F896aaD7Dc5BE547"
+        }
+      },
+      {
+        "name": "HyperCorePendingActionPreHook",
+        "versions": {
+          "2026-10-22": "0xd240690cf7C41dDD75863c4b4a9358ea62B20c85"
         }
       },
       {
@@ -9951,6 +10043,12 @@
         "token": "MP",
         "asset": "0x754704Bc059F8C67012fEd69BC8A327a5aafb603",
         "PlasmaVault": "0x11F818f8024a6FcDa8b84f4B1831E080f31D2C66"
+      },
+      {
+        "name": "kris usdc test",
+        "token": "KUSDC",
+        "asset": "0x754704Bc059F8C67012fEd69BC8A327a5aafb603",
+        "PlasmaVault": "0xaA5Bb0efE3B627f53e2eF99EB7f84Ac13dbB1509"
       }
     ]
   },
