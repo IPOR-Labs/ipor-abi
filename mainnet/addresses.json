@@ -3064,7 +3064,8 @@
       {
         "name": "BalanceFuseBurnRequestFee",
         "versions": {
-          "2025-03-14": "0xF8a9E4D0899d6268421FC1af952d91782728b8E5"
+          "2025-03-14": "0xF8a9E4D0899d6268421FC1af952d91782728b8E5",
+          "2026-10-22": "0x096A3eBA8905EF9BA57eD2A9b0C659B5Bf34C3e1"
         }
       },
       {
@@ -3253,7 +3254,8 @@
       {
         "name": "BurnRequestFeeFuseV2",
         "versions": {
-          "2026-08-06": "0x2E8A9f5ee2438f62e77BF6298F4Ac46Ec7861D63"
+          "2026-08-06": "0x2E8A9f5ee2438f62e77BF6298F4Ac46Ec7861D63",
+          "2026-10-22": "0x8b53a5eA14e7AeC8EA29584a705330a086806077"
         }
       },
       {
