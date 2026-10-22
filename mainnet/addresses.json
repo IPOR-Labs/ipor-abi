@@ -3284,6 +3284,18 @@
         }
       },
       {
+        "name": "CcipCrosschainCommandFuse",
+        "versions": {
+          "2026-10-23": "0x997F12b31a6B1011ba844Bd0BC5fbeBCC7604793"
+        }
+      },
+      {
+        "name": "CcipCrosschainSupplyFuse",
+        "versions": {
+          "2026-10-23": "0x00a20FD711083CcE9C9c4292762aFf79f78C48eb"
+        }
+      },
+      {
         "name": "ClaimRewardsFuseCompoundV3",
         "versions": {
           "2024-10-08": "0xfa27F28934D3478F65bcfA158E3096045bFdb1Bd"
@@ -3350,6 +3362,18 @@
         "versions": {
           "2025-05-29": "0xc27E938FCA53E3f5fE5deb9141033573048a22B4",
           "2025-07-03": "0x2A02Ae392816441E804aa9eCcf5c0333911Dc989"
+        }
+      },
+      {
+        "name": "CrosschainBalanceFuse",
+        "versions": {
+          "2026-10-23": "0x5896f376F06faB3964B1e060F8F3A86131D639c2"
+        }
+      },
+      {
+        "name": "CrosschainClaimFuse",
+        "versions": {
+          "2026-10-23": "0x77bE16F7b33332BE2589E8E0582b397c524cF0d9"
         }
       },
       {
@@ -3542,6 +3566,18 @@
           "2025-08-19": "0x588a48916262f726eFdB59200658829a4a6AB252",
           "2025-09-26": "0x4af60343C2a6a9692559030936fBFf579c05779c",
           "2026-10-22": "0x7644d9b8f052969396131Da46Be033364F42cC97"
+        }
+      },
+      {
+        "name": "StargateCrosschainCommandFuse",
+        "versions": {
+          "2026-10-23": "0x1db232F02E2E02Be39c69eac1e464643505f57ea"
+        }
+      },
+      {
+        "name": "StargateCrosschainSupplyFuse",
+        "versions": {
+          "2026-10-23": "0x21f00eD44532168826910C1DBb3557c033012bf2"
         }
       },
       {
@@ -3776,6 +3812,12 @@
       }
     ],
     "prehooks": [
+      {
+        "name": "CrosschainNavValidationPreHook",
+        "versions": {
+          "2026-10-23": "0xA17c7A5Ed994aA5FE99C22B37DeCBCbfb32FaFe3"
+        }
+      },
       {
         "name": "ExchangeRateValidatorPreHook",
         "versions": {
