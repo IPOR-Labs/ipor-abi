@@ -9050,6 +9050,18 @@
         }
       },
       {
+        "name": "CcipCrosschainCommandFuse",
+        "versions": {
+          "2026-10-23": "0x997F12b31a6B1011ba844Bd0BC5fbeBCC7604793"
+        }
+      },
+      {
+        "name": "CcipCrosschainSupplyFuse",
+        "versions": {
+          "2026-10-23": "0x00a20FD711083CcE9C9c4292762aFf79f78C48eb"
+        }
+      },
+      {
         "name": "ClaimRewardsFuseMorpho",
         "versions": {
           "2026-07-09": "0xF9Fe01A9Cbe2D3e89d4DAed065bcc408744986f7"
@@ -9065,6 +9077,18 @@
         "name": "ConfigureInstantWithdrawalFuse",
         "versions": {
           "2026-07-09": "0x0F2553e4460C2974746908cFDe472a7dC1311dBd"
+        }
+      },
+      {
+        "name": "CrosschainBalanceFuse",
+        "versions": {
+          "2026-10-23": "0x5896f376F06faB3964B1e060F8F3A86131D639c2"
+        }
+      },
+      {
+        "name": "CrosschainClaimFuse",
+        "versions": {
+          "2026-10-23": "0x77bE16F7b33332BE2589E8E0582b397c524cF0d9"
         }
       },
       {
@@ -9194,6 +9218,18 @@
         }
       },
       {
+        "name": "StargateCrosschainCommandFuse",
+        "versions": {
+          "2026-10-23": "0x1db232F02E2E02Be39c69eac1e464643505f57ea"
+        }
+      },
+      {
+        "name": "StargateCrosschainSupplyFuse",
+        "versions": {
+          "2026-10-23": "0x21f00eD44532168826910C1DBb3557c033012bf2"
+        }
+      },
+      {
         "name": "SupplyFuseErc4626Market1",
         "versions": {
           "2026-07-09": "0xaaE1253b81ffa5dA5e25bc1ade7A009D9488a2B5"
@@ -9273,6 +9309,12 @@
       }
     ],
     "prehooks": [
+      {
+        "name": "CrosschainNavValidationPreHook",
+        "versions": {
+          "2026-10-23": "0xA17c7A5Ed994aA5FE99C22B37DeCBCbfb32FaFe3"
+        }
+      },
       {
         "name": "ExchangeRateValidatorPreHook",
         "versions": {
