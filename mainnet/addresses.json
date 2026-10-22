@@ -3064,7 +3064,8 @@
       {
         "name": "AaveV3WithPriceOracleMiddlewareBalanceFuse",
         "versions": {
-          "2025-08-21": "0xBb3C4Ba23bFbC2eBD4e11B900e05438EB9549602"
+          "2025-08-21": "0xBb3C4Ba23bFbC2eBD4e11B900e05438EB9549602",
+          "2026-10-22": "0x187ae357138Aa352dc535afE6706583404fEf789"
         }
       },
       {
@@ -3340,7 +3341,8 @@
       {
         "name": "ConfigureInstantWithdrawalFuse",
         "versions": {
-          "2025-09-30": "0x77C66a7A637D90662BDC35E2C8bBc29ef6a3264F"
+          "2025-09-30": "0x77C66a7A637D90662BDC35E2C8bBc29ef6a3264F",
+          "2026-10-22": "0x90AdF1e7BB9CB12301140d18B86AD621049156B1"
         }
       },
       {
@@ -3353,19 +3355,22 @@
       {
         "name": "ExternalStateBalanceFuse",
         "versions": {
-          "2026-09-14": "0x4B5FB26C43591A13588bFE41678608E8159e20Fb"
+          "2026-09-14": "0x4B5FB26C43591A13588bFE41678608E8159e20Fb",
+          "2026-10-22": "0x1E2871a16e650b54dc5FF3d0cd334a89cEE3F0C7"
         }
       },
       {
         "name": "ExternalStateOperationFuse",
         "versions": {
-          "2026-09-14": "0x4c8BA66e930B38c42696ff73cA1deE8e559c2eF2"
+          "2026-09-14": "0x4c8BA66e930B38c42696ff73cA1deE8e559c2eF2",
+          "2026-10-22": "0xE3205F03DA56Ec5d262D5eA5F0c1921BC0502D7F"
         }
       },
       {
         "name": "ExternalStateRescueFuse",
         "versions": {
-          "2026-09-14": "0x5E6Cfe68008C1a8089f2c340A9cDF0536D44eB28"
+          "2026-09-14": "0x5E6Cfe68008C1a8089f2c340A9cDF0536D44eB28",
+          "2026-10-22": "0x1930b47d6698143F34aDE194fE5c4af0432f7bd7"
         }
       },
       {
@@ -3431,13 +3436,15 @@
       {
         "name": "NapierCollectFuse",
         "versions": {
-          "2026-03-04": "0x7c5d3B9d2d76e7933aef648542CA1d9F021eE249"
+          "2026-03-04": "0x7c5d3B9d2d76e7933aef648542CA1d9F021eE249",
+          "2026-10-22": "0xB44bC733b8E2a7e5a1709223d79209c61a5ED28E"
         }
       },
       {
         "name": "NapierCombineFuse",
         "versions": {
-          "2026-03-04": "0xFa6E658931353Cb94965b5DbC3919ed9753e4110"
+          "2026-03-04": "0xFa6E658931353Cb94965b5DbC3919ed9753e4110",
+          "2026-10-22": "0xfD6731F215D5b251ae44Cd1D7866925beC2E7C68"
         }
       },
       {
@@ -3455,7 +3462,8 @@
       {
         "name": "NapierSupplyFuse",
         "versions": {
-          "2026-03-04": "0xD562034Efd1e29094cc370DAeaee5e76788Bd16f"
+          "2026-03-04": "0xD562034Efd1e29094cc370DAeaee5e76788Bd16f",
+          "2026-10-22": "0xf145f513be0e5CA43ee3d6e750EE0e0b7361bD54"
         }
       },
       {
@@ -3473,7 +3481,8 @@
       {
         "name": "NapierZapDepositFuse",
         "versions": {
-          "2026-03-04": "0xb3B0E2Bc08e81B1745E2a8b9F529b272C29922Ef"
+          "2026-03-04": "0xb3B0E2Bc08e81B1745E2a8b9F529b272C29922Ef",
+          "2026-10-22": "0xee0642d4d467b083A744Ed43cE44ec5b618bcb9f"
         }
       },
       {
@@ -3491,7 +3500,8 @@
       {
         "name": "OdosSwapperFuse",
         "versions": {
-          "2026-02-11": "0x19eA0E29EdDe3209c34A86004957510EF3C9912e"
+          "2026-02-11": "0x19eA0E29EdDe3209c34A86004957510EF3C9912e",
+          "2026-10-22": "0x9434B3c65De89647e25c3E847B9CE848193be853"
         }
       },
       {
@@ -3516,7 +3526,8 @@
       {
         "name": "StakeDaoV2BalanceFuse",
         "versions": {
-          "2025-08-19": "0x868358F70b43E23b650a11779442e048c9ec0Dd4"
+          "2025-08-19": "0x868358F70b43E23b650a11779442e048c9ec0Dd4",
+          "2026-10-22": "0x503766cf0f46fFDA4430265CaA1d3D16B1c166D3"
         }
       },
       {
@@ -3529,7 +3540,8 @@
         "name": "StakeDaoV2SupplyFuse",
         "versions": {
           "2025-08-19": "0x588a48916262f726eFdB59200658829a4a6AB252",
-          "2025-09-26": "0x4af60343C2a6a9692559030936fBFf579c05779c"
+          "2025-09-26": "0x4af60343C2a6a9692559030936fBFf579c05779c",
+          "2026-10-22": "0x7644d9b8f052969396131Da46Be033364F42cC97"
         }
       },
       {
@@ -3549,49 +3561,56 @@
         "name": "SupplyFuseErc4626Market1",
         "versions": {
           "2024-10-15": "0xe7d3a550F0aD32cCBEF570C670b5ac004C276f24",
-          "2026-09-14": "0xC0C26EeB9c8BE5aa0f4e597E9BB7fDca3498E845"
+          "2026-09-14": "0xC0C26EeB9c8BE5aa0f4e597E9BB7fDca3498E845",
+          "2026-10-22": "0x600F183A57dACE3eD1113f9B8087cce635219779"
         }
       },
       {
         "name": "SupplyFuseErc4626Market2",
         "versions": {
           "2024-10-15": "0xBA4e51A46b562cBaEF372C07bF191c7111a067aA",
-          "2026-09-14": "0xBd0f8b717D75ecD1a304a9797946E32e00976D84"
+          "2026-09-14": "0xBd0f8b717D75ecD1a304a9797946E32e00976D84",
+          "2026-10-22": "0x2Ff6adC0ea75F649a22e418d908b562001D9f58a"
         }
       },
       {
         "name": "SupplyFuseErc4626Market3",
         "versions": {
           "2024-10-15": "0xF5c5E375d219e573B10f9c90A1815f93951AD275",
-          "2026-09-14": "0xB3aB3552c945A282DB2822029830B5097c94d80E"
+          "2026-09-14": "0xB3aB3552c945A282DB2822029830B5097c94d80E",
+          "2026-10-22": "0x7a5FDb651C21A8bccf4f3f61461aba93fD7e43E1"
         }
       },
       {
         "name": "SupplyFuseErc4626Market4",
         "versions": {
           "2025-02-26": "0x2f34F8566952b055F3Cc32ACB8b9C8203E91132A",
-          "2026-09-14": "0x2962bc673FF9c275DD59A4feEF3CA68c0e8A4a8f"
+          "2026-09-14": "0x2962bc673FF9c275DD59A4feEF3CA68c0e8A4a8f",
+          "2026-10-22": "0x41cCc99BCBFCA3D19cF133b459d00C43D694ACdC"
         }
       },
       {
         "name": "SupplyFuseErc4626Market5",
         "versions": {
           "2025-02-26": "0x28eE4cD5E888f6331B6c6c38959bBBE05eF7D73A",
-          "2026-09-14": "0x2c3f01D0dEC6B2BBC375Eb263f08b7815D159cFc"
+          "2026-09-14": "0x2c3f01D0dEC6B2BBC375Eb263f08b7815D159cFc",
+          "2026-10-22": "0x5F166B3FC03a6f4CC376BE2d815A83D301E39a16"
         }
       },
       {
         "name": "SupplyFuseErc4626Market6",
         "versions": {
           "2025-02-26": "0x0dE665bb75556ea407C23b513A5d521064245b3e",
-          "2026-09-14": "0xDd0b08F4106989d2bE7b611C0EeeCD970883ed85"
+          "2026-09-14": "0xDd0b08F4106989d2bE7b611C0EeeCD970883ed85",
+          "2026-10-22": "0xBeE686F4c22d84a20B673Ee2D75D10b0A7931a48"
         }
       },
       {
         "name": "SupplyFuseErc4626Market7",
         "versions": {
           "2025-02-26": "0x624E2AB4E17aA38B078674eec75dbadcc10e295B",
-          "2026-09-14": "0x5Da3B426f7BE5E73d8248E4f9fD409CfE03d5b99"
+          "2026-09-14": "0x5Da3B426f7BE5E73d8248E4f9fD409CfE03d5b99",
+          "2026-10-22": "0xeBBa242637208C101CeCEf456e970b2F91fd89D4"
         }
       },
       {
@@ -3641,7 +3660,8 @@
       {
         "name": "SwapDeployFuseEulerV2",
         "versions": {
-          "2026-08-06": "0x25bE82F7d186590A7Adb21cb7B179A75E1884D42"
+          "2026-08-06": "0x25bE82F7d186590A7Adb21cb7B179A75E1884D42",
+          "2026-10-22": "0x326aFaDB1969221465C1DF6853c5cA51d03DD880"
         }
       },
       {
@@ -3677,7 +3697,8 @@
       {
         "name": "SwapFuseUniversalTokenSwapperEthNoSlippageV2",
         "versions": {
-          "2026-08-06": "0xa3743Aa7085F6D4A5e22D7779649bF6b35e47fB6"
+          "2026-08-06": "0xa3743Aa7085F6D4A5e22D7779649bF6b35e47fB6",
+          "2026-10-22": "0x4a640A8a7F3ef6DBe407265b7C45e2e01E62A753"
         }
       },
       {
@@ -3689,13 +3710,15 @@
       {
         "name": "SwapFuseUniversalTokenSwapperWithVerificationV2",
         "versions": {
-          "2026-08-06": "0x717D1B12931F739292bF10ef7b22B732091D1Da6"
+          "2026-08-06": "0x717D1B12931F739292bF10ef7b22B732091D1Da6",
+          "2026-10-22": "0x9d8c1b4Fb0f371FF1B0ab6bA053f975d3e24DB86"
         }
       },
       {
         "name": "SwapReconfigureFuseEulerV2",
         "versions": {
-          "2026-08-06": "0xC650f5b5f7785C925D70C6544B78f1b437b1C255"
+          "2026-08-06": "0xC650f5b5f7785C925D70C6544B78f1b437b1C255",
+          "2026-10-22": "0x4570a1cBD76c182246A586D5c11bBE418B008f87"
         }
       },
       {
@@ -3713,31 +3736,36 @@
       {
         "name": "UniversalTokenSwapperEthFuse",
         "versions": {
-          "2026-02-11": "0xE53D515D7Dd5e4788a90607400FA8906Be494a28"
+          "2026-02-11": "0xE53D515D7Dd5e4788a90607400FA8906Be494a28",
+          "2026-10-22": "0x27082eB57518886d7e99a7a8F862BB70326A099C"
         }
       },
       {
         "name": "UniversalTokenSwapperEthFuseV2",
         "versions": {
-          "2026-08-06": "0x9D06578238713a08A1ece595AAb6188FAEE32b25"
+          "2026-08-06": "0x9D06578238713a08A1ece595AAb6188FAEE32b25",
+          "2026-10-22": "0x182063c132EA6852dB66D3E5DE639C6abA10915C"
         }
       },
       {
         "name": "UniversalTokenSwapperFuse",
         "versions": {
-          "2026-02-11": "0x9Dab5e11Ece5470F9782C9BC818C519f730eE854"
+          "2026-02-11": "0x9Dab5e11Ece5470F9782C9BC818C519f730eE854",
+          "2026-10-22": "0xD42940B49Fb5B7C0f3C049DBA9193Fb1b13FFF0d"
         }
       },
       {
         "name": "UniversalTokenSwapperFuseV2",
         "versions": {
-          "2026-08-06": "0x799b979A2377268ac2D5E43247cbd6F797229Ef3"
+          "2026-08-06": "0x799b979A2377268ac2D5E43247cbd6F797229Ef3",
+          "2026-10-22": "0x9d74A79b9aF5A137c31C85Dd364a4a3e980d7c89"
         }
       },
       {
         "name": "VeloraSwapperFuse",
         "versions": {
-          "2026-02-11": "0x922000aF6ac6659B3b6945E933B706B52453A531"
+          "2026-02-11": "0x922000aF6ac6659B3b6945E933B706B52453A531",
+          "2026-10-22": "0x20b1db2D935282A5ce1dc0f1330B43A95F668eC6"
         }
       },
       {
@@ -3751,7 +3779,8 @@
       {
         "name": "ExchangeRateValidatorPreHook",
         "versions": {
-          "2025-12-19": "0x923a6A7f0AEBbf2381d88ad5402AD0312b30AaD0"
+          "2025-12-19": "0x923a6A7f0AEBbf2381d88ad5402AD0312b30AaD0",
+          "2026-10-22": "0x3dAD389Ff9a099806232a8E294d08B2D2f3Eb7F3"
         }
       },
       {
