@@ -6,7 +6,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Fuses List
 
-*Last updated: 2026-10-22 21:30:08 UTC*
+*Last updated: 2026-10-22 23:54:01 UTC*
 
 ### Ethereum Fuses
 
@@ -287,6 +287,8 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `BorrowFuseEulerV2` | `0x10eb9B247e7Ce00F3290F66d8B5E83BfD311375F` [View](https://arbiscan.io/address/0x10eb9B247e7Ce00F3290F66d8B5E83BfD311375F#code) |
 | `BurnRequestFeeFuse` | `0xee322e49268760878924d18A645278aB08Ae245c` [View](https://arbiscan.io/address/0xee322e49268760878924d18A645278aB08Ae245c#code) |
 | `BurnRequestFeeFuseV2` | `0x8b53a5eA14e7AeC8EA29584a705330a086806077` [View](https://arbiscan.io/address/0x8b53a5eA14e7AeC8EA29584a705330a086806077#code) |
+| `CcipCrosschainCommandFuse` | `0x997F12b31a6B1011ba844Bd0BC5fbeBCC7604793` [View](https://arbiscan.io/address/0x997F12b31a6B1011ba844Bd0BC5fbeBCC7604793#code) |
+| `CcipCrosschainSupplyFuse` | `0x00a20FD711083CcE9C9c4292762aFf79f78C48eb` [View](https://arbiscan.io/address/0x00a20FD711083CcE9C9c4292762aFf79f78C48eb#code) |
 | `ClaimRewardsFuseCompoundV3` | `0xfa27F28934D3478F65bcfA158E3096045bFdb1Bd` [View](https://arbiscan.io/address/0xfa27F28934D3478F65bcfA158E3096045bFdb1Bd#code) |
 | `ClaimRewardsFuseFluidInstadapp` | `0x5c7E10C4D6F65b89C026fC8df69891e6B90A8434` [View](https://arbiscan.io/address/0x5c7E10C4D6F65b89C026fC8df69891e6B90A8434#code) |
 | `ClaimRewardsFuseGearboxV3FarmDToken` | `0xFa209140BBA92a64b1038649e7385fa860405099` [View](https://arbiscan.io/address/0xFa209140BBA92a64b1038649e7385fa860405099#code) |
@@ -298,6 +300,8 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `CollectSwapFuseUniswapV3` | `0x75781AB6CdcE9c505DbD0848f4Ad8A97c68F53c1` [View](https://arbiscan.io/address/0x75781AB6CdcE9c505DbD0848f4Ad8A97c68F53c1#code) |
 | `ConfigureInstantWithdrawalFuse` | `0x90AdF1e7BB9CB12301140d18B86AD621049156B1` [View](https://arbiscan.io/address/0x90AdF1e7BB9CB12301140d18B86AD621049156B1#code) |
 | `ControllerFuseEulerV2` | `0x2A02Ae392816441E804aa9eCcf5c0333911Dc989` [View](https://arbiscan.io/address/0x2A02Ae392816441E804aa9eCcf5c0333911Dc989#code) |
+| `CrosschainBalanceFuse` | `0x5896f376F06faB3964B1e060F8F3A86131D639c2` [View](https://arbiscan.io/address/0x5896f376F06faB3964B1e060F8F3A86131D639c2#code) |
+| `CrosschainClaimFuse` | `0x77bE16F7b33332BE2589E8E0582b397c524cF0d9` [View](https://arbiscan.io/address/0x77bE16F7b33332BE2589E8E0582b397c524cF0d9#code) |
 | `ExternalStateBalanceFuse` | `0x1E2871a16e650b54dc5FF3d0cd334a89cEE3F0C7` [View](https://arbiscan.io/address/0x1E2871a16e650b54dc5FF3d0cd334a89cEE3F0C7#code) |
 | `ExternalStateOperationFuse` | `0xE3205F03DA56Ec5d262D5eA5F0c1921BC0502D7F` [View](https://arbiscan.io/address/0xE3205F03DA56Ec5d262D5eA5F0c1921BC0502D7F#code) |
 | `ExternalStateRescueFuse` | `0x1930b47d6698143F34aDE194fE5c4af0432f7bd7` [View](https://arbiscan.io/address/0x1930b47d6698143F34aDE194fE5c4af0432f7bd7#code) |
@@ -328,6 +332,8 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `StakeDaoV2BalanceFuse` | `0x503766cf0f46fFDA4430265CaA1d3D16B1c166D3` [View](https://arbiscan.io/address/0x503766cf0f46fFDA4430265CaA1d3D16B1c166D3#code) |
 | `StakeDaoV2ClaimFuse` | `0x9BB58bc262a4543De6136ae5FB16A80a2B111875` [View](https://arbiscan.io/address/0x9BB58bc262a4543De6136ae5FB16A80a2B111875#code) |
 | `StakeDaoV2SupplyFuse` | `0x7644d9b8f052969396131Da46Be033364F42cC97` [View](https://arbiscan.io/address/0x7644d9b8f052969396131Da46Be033364F42cC97#code) |
+| `StargateCrosschainCommandFuse` | `0x1db232F02E2E02Be39c69eac1e464643505f57ea` [View](https://arbiscan.io/address/0x1db232F02E2E02Be39c69eac1e464643505f57ea#code) |
+| `StargateCrosschainSupplyFuse` | `0x21f00eD44532168826910C1DBb3557c033012bf2` [View](https://arbiscan.io/address/0x21f00eD44532168826910C1DBb3557c033012bf2#code) |
 | `SupplyFuseAaveV3` | `0x304756cD719382281fBD640f5F7932465eD663D6` [View](https://arbiscan.io/address/0x304756cD719382281fBD640f5F7932465eD663D6#code) |
 | `SupplyFuseCompoundV3Usdc` | `0xB0b3dc1B27C6c8007c9B01a768d6717f6813fE94` [View](https://arbiscan.io/address/0xB0b3dc1B27C6c8007c9B01a768d6717f6813fE94#code) |
 | `SupplyFuseErc4626Market1` | `0x600F183A57dACE3eD1113f9B8087cce635219779` [View](https://arbiscan.io/address/0x600F183A57dACE3eD1113f9B8087cce635219779#code) |
@@ -969,9 +975,13 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `BorrowFuseMorpho` | `0x6D9dDb1c449E91A3FB83f67D6F56E3e8c0bfc21c` [View](https://hyperevmscan.io/address/0x6D9dDb1c449E91A3FB83f67D6F56E3e8c0bfc21c#code) |
 | `BurnRequestFeeFuse` | `0xAa2D7a24ff3Dc251e044326ab35e976b352ED613` [View](https://hyperevmscan.io/address/0xAa2D7a24ff3Dc251e044326ab35e976b352ED613#code) |
 | `BurnRequestFeeFuseV2` | `0xD62f398d36aeDE3992521EA9Fc501dEB418a50b4` [View](https://hyperevmscan.io/address/0xD62f398d36aeDE3992521EA9Fc501dEB418a50b4#code) |
+| `CcipCrosschainCommandFuse` | `0x997F12b31a6B1011ba844Bd0BC5fbeBCC7604793` [View](https://hyperevmscan.io/address/0x997F12b31a6B1011ba844Bd0BC5fbeBCC7604793#code) |
+| `CcipCrosschainSupplyFuse` | `0x00a20FD711083CcE9C9c4292762aFf79f78C48eb` [View](https://hyperevmscan.io/address/0x00a20FD711083CcE9C9c4292762aFf79f78C48eb#code) |
 | `ClaimRewardsFuseMorpho` | `0xF9Fe01A9Cbe2D3e89d4DAed065bcc408744986f7` [View](https://hyperevmscan.io/address/0xF9Fe01A9Cbe2D3e89d4DAed065bcc408744986f7#code) |
 | `CollateralFuseMorpho` | `0x4f9930eDB751AA67191b4fdF1B9B1a7a4eEa392a` [View](https://hyperevmscan.io/address/0x4f9930eDB751AA67191b4fdF1B9B1a7a4eEa392a#code) |
 | `ConfigureInstantWithdrawalFuse` | `0x0F2553e4460C2974746908cFDe472a7dC1311dBd` [View](https://hyperevmscan.io/address/0x0F2553e4460C2974746908cFDe472a7dC1311dBd#code) |
+| `CrosschainBalanceFuse` | `0x5896f376F06faB3964B1e060F8F3A86131D639c2` [View](https://hyperevmscan.io/address/0x5896f376F06faB3964B1e060F8F3A86131D639c2#code) |
+| `CrosschainClaimFuse` | `0x77bE16F7b33332BE2589E8E0582b397c524cF0d9` [View](https://hyperevmscan.io/address/0x77bE16F7b33332BE2589E8E0582b397c524cF0d9#code) |
 | `ExternalStateBalanceFuse` | `0x3E08042B8463028aAE02F3e23Ab9b96D3f2a1F91` [View](https://hyperevmscan.io/address/0x3E08042B8463028aAE02F3e23Ab9b96D3f2a1F91#code) |
 | `ExternalStateOperationFuse` | `0x96b2cfE0bdD6d9C6BB6381ae81b92b57AE23E473` [View](https://hyperevmscan.io/address/0x96b2cfE0bdD6d9C6BB6381ae81b92b57AE23E473#code) |
 | `ExternalStateRescueFuse` | `0x730c9fFD02D23bbeeD5F9f6ac695DA78AEDccea8` [View](https://hyperevmscan.io/address/0x730c9fFD02D23bbeeD5F9f6ac695DA78AEDccea8#code) |
@@ -993,6 +1003,8 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `RWARescueFuse` | `0x424A7dc1E631A9410AA6Dc35283503A5befCAA08` [View](https://hyperevmscan.io/address/0x424A7dc1E631A9410AA6Dc35283503A5befCAA08#code) |
 | `RWAUnpauseFuse` | `0x534cA9A62C364969398487aF71922E7f51d32443` [View](https://hyperevmscan.io/address/0x534cA9A62C364969398487aF71922E7f51d32443#code) |
 | `RequestFeeRefundFuse` | `0xF781acE9A5bf7883123aA4c11e57a9F68Ec3Df52` [View](https://hyperevmscan.io/address/0xF781acE9A5bf7883123aA4c11e57a9F68Ec3Df52#code) |
+| `StargateCrosschainCommandFuse` | `0x1db232F02E2E02Be39c69eac1e464643505f57ea` [View](https://hyperevmscan.io/address/0x1db232F02E2E02Be39c69eac1e464643505f57ea#code) |
+| `StargateCrosschainSupplyFuse` | `0x21f00eD44532168826910C1DBb3557c033012bf2` [View](https://hyperevmscan.io/address/0x21f00eD44532168826910C1DBb3557c033012bf2#code) |
 | `SupplyFuseErc4626Market1` | `0xaaE1253b81ffa5dA5e25bc1ade7A009D9488a2B5` [View](https://hyperevmscan.io/address/0xaaE1253b81ffa5dA5e25bc1ade7A009D9488a2B5#code) |
 | `SupplyFuseErc4626Market2` | `0x052A6a2464F8079f778f52b4dCb311EA16B6B439` [View](https://hyperevmscan.io/address/0x052A6a2464F8079f778f52b4dCb311EA16B6B439#code) |
 | `SupplyFuseErc4626Market3` | `0x23e1fd6F58546c69c9DBb4a46cC02504b69daa2E` [View](https://hyperevmscan.io/address/0x23e1fd6F58546c69c9DBb4a46cC02504b69daa2E#code) |
@@ -1189,7 +1201,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## PreHooks List
 
-*Last updated: 2026-10-22 21:30:11 UTC*
+*Last updated: 2026-10-22 23:54:06 UTC*
 
 ### Ethereum PreHooks
 
@@ -1204,6 +1216,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 | PreHook Name | Address / View in Explorer |
 |-----------|---------------------------|
+| `CrosschainNavValidationPreHook` | `0xA17c7A5Ed994aA5FE99C22B37DeCBCbfb32FaFe3` [View](https://arbiscan.io/address/0xA17c7A5Ed994aA5FE99C22B37DeCBCbfb32FaFe3#code) |
 | `ExchangeRateValidatorPreHook` | `0x3dAD389Ff9a099806232a8E294d08B2D2f3Eb7F3` [View](https://arbiscan.io/address/0x3dAD389Ff9a099806232a8E294d08B2D2f3Eb7F3#code) |
 | `ExternalStatePausePreHook` | `0x8EDc731d45C7188E612C1ffca11057fcf41C5d55` [View](https://arbiscan.io/address/0x8EDc731d45C7188E612C1ffca11057fcf41C5d55#code) |
 | `PreHookPauseFunction` | `0x2635f5AB58E64690974533F1903378a9B3cA1C9f` [View](https://arbiscan.io/address/0x2635f5AB58E64690974533F1903378a9B3cA1C9f#code) |
@@ -1288,6 +1301,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 | PreHook Name | Address / View in Explorer |
 |-----------|---------------------------|
+| `CrosschainNavValidationPreHook` | `0xA17c7A5Ed994aA5FE99C22B37DeCBCbfb32FaFe3` [View](https://hyperevmscan.io/address/0xA17c7A5Ed994aA5FE99C22B37DeCBCbfb32FaFe3#code) |
 | `ExchangeRateValidatorPreHook` | `0xD95d0Da878A3E5F1dFDbe0622A2FF0816286b986` [View](https://hyperevmscan.io/address/0xD95d0Da878A3E5F1dFDbe0622A2FF0816286b986#code) |
 | `ExternalStatePausePreHook` | `0xE948331A9A2d26E4092cA30849f983d3Af3abc06` [View](https://hyperevmscan.io/address/0xE948331A9A2d26E4092cA30849f983d3Af3abc06#code) |
 | `HyperCoreCapitalFlowPreHook` | `0xbA999E8b50bDC2672CcE13A1F896aaD7Dc5BE547` [View](https://hyperevmscan.io/address/0xbA999E8b50bDC2672CcE13A1F896aaD7Dc5BE547#code) |
