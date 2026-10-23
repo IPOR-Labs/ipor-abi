@@ -29,6 +29,7 @@
   "CcipExecutorTransferLib": "0x9AD0ED30fdd23c5e46F9043F13C7733eF932Ef2c",
   "CcipRouteLib": "0x2045A36f6f884A7e80B8f27BD9673066C5c34d9A",
   "CcipSendLib": "0xf4CD217F464821822e069c8984168B723439B6Fb",
+  "ChainlinkFeedUsdcUsd": "0xA0Adc43ce7AfE3EE7d7eac3C994E178D0620223B",
   "ChainlinkGuardedPriceFeedFactoryImpl": "0x4609c6Ee9FA78Ec49bF2247563D05Aa3685E7Cc6",
   "ChainlinkGuardedPriceFeedFactoryProxy": "0xb08E30BB4d30F4332a89594a050f2a9691C1af23",
   "ClaimRewardsFuseMorpho": "0xF9Fe01A9Cbe2D3e89d4DAed065bcc408744986f7",
