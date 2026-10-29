@@ -6,7 +6,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Fuses List
 
-*Last updated: 2026-10-22 23:54:01 UTC*
+*Last updated: 2026-10-29 21:23:43 UTC*
 
 ### Ethereum Fuses
 
@@ -1199,9 +1199,84 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `UniversalTokenSwapperFuseV2` | `0xf3c63eBe9E2080B73f1C1edcf78EFb5278F31F59` [View](https://flare-explorer.flare.network/address/0xf3c63eBe9E2080B73f1C1edcf78EFb5278F31F59#code) |
 | `UpdateMarketsBalancesFuse` | `0xB3C476fC7Df5200A346Ca626d0908662C199Ac1E` [View](https://flare-explorer.flare.network/address/0xB3C476fC7Df5200A346Ca626d0908662C199Ac1E#code) |
 
+### Polygon Fuses
+
+| Fuse Name | Address / View in Explorer |
+|-----------|---------------------------|
+| `AaveV3CollateralFuse` | `0x3A42B06dCDFFA31c89e066AfaE41224290323160` [View](https://polygonscan.com/address/0x3A42B06dCDFFA31c89e066AfaE41224290323160#code) |
+| `AaveV3WithPriceOracleMiddlewareBalanceFuse` | `0x2B40EAaa59Ad42C9b9d6c0f21B2FfA42D03d7225` [View](https://polygonscan.com/address/0x2B40EAaa59Ad42C9b9d6c0f21B2FfA42D03d7225#code) |
+| `AsyncActionBalanceFuse` | `0x2fc94f8f668E5d0a757Bf7ADc0fFa17a76a48eDB` [View](https://polygonscan.com/address/0x2fc94f8f668E5d0a757Bf7ADc0fFa17a76a48eDB#code) |
+| `AsyncActionFuse` | `0xB107cb92C03BBb716eC2f4B58b86244B9A325244` [View](https://polygonscan.com/address/0xB107cb92C03BBb716eC2f4B58b86244B9A325244#code) |
+| `BalanceFuseBurnRequestFee` | `0x742B4d238e760afbc25Acc6D448f3Ead19A54C5E` [View](https://polygonscan.com/address/0x742B4d238e760afbc25Acc6D448f3Ead19A54C5E#code) |
+| `BalanceFuseCompoundV3WithPriceOracleMiddlewareUsdc` | `0xFfcf28E01524F95Bf0618B60688AaaD1e2834835` [View](https://polygonscan.com/address/0xFfcf28E01524F95Bf0618B60688AaaD1e2834835#code) |
+| `BalanceFuseCompoundV3WithPriceOracleMiddlewareUsdt` | `0x6d8a5Ad581Df70729851cf86F14FfdE0E8aF8Dd6` [View](https://polygonscan.com/address/0x6d8a5Ad581Df70729851cf86F14FfdE0E8aF8Dd6#code) |
+| `BalanceFuseErc20` | `0xa3C6fd5aaf6C3A5841ED92987a3007b21FC51811` [View](https://polygonscan.com/address/0xa3C6fd5aaf6C3A5841ED92987a3007b21FC51811#code) |
+| `BalanceFuseErc4626Market1` | `0xb34F48cf40b4CFafF4221a11011f25CAe8aD9258` [View](https://polygonscan.com/address/0xb34F48cf40b4CFafF4221a11011f25CAe8aD9258#code) |
+| `BalanceFuseErc4626Market2` | `0x0DeaCaD9d157d050751a5c344Fd8107DB0Ff213D` [View](https://polygonscan.com/address/0x0DeaCaD9d157d050751a5c344Fd8107DB0Ff213D#code) |
+| `BalanceFuseErc4626Market3` | `0xA83F9F6A8Ced26A359bB23ef5a95Daa884AD8eA7` [View](https://polygonscan.com/address/0xA83F9F6A8Ced26A359bB23ef5a95Daa884AD8eA7#code) |
+| `BalanceFuseErc4626Market4` | `0x3359F01f36175C562b5dFA32E5602A0c8c579705` [View](https://polygonscan.com/address/0x3359F01f36175C562b5dFA32E5602A0c8c579705#code) |
+| `BalanceFuseErc4626Market5` | `0x37A21B959F7308A8Ec66213De4C9806848A0e08B` [View](https://polygonscan.com/address/0x37A21B959F7308A8Ec66213De4C9806848A0e08B#code) |
+| `BalanceFuseFlashLoanMorpho` | `0x640cB8100d5e72cC16b67C8242cc0436c75d6eE9` [View](https://polygonscan.com/address/0x640cB8100d5e72cC16b67C8242cc0436c75d6eE9#code) |
+| `BalanceFuseMetaMorphoMarket0001` | `0xAb8A8C26eE0d9067708290911a675a0fbb24C7Cb` [View](https://polygonscan.com/address/0xAb8A8C26eE0d9067708290911a675a0fbb24C7Cb#code) |
+| `BalanceFuseMorpho` | `0x91CD3c1b7168313CeF04dAC2c3E528AB28967397` [View](https://polygonscan.com/address/0x91CD3c1b7168313CeF04dAC2c3E528AB28967397#code) |
+| `BalanceFuseMorphoLiquidityInMarkets` | `0xF3166Ad042c2693F9f3e82eDf53842E8A9620A96` [View](https://polygonscan.com/address/0xF3166Ad042c2693F9f3e82eDf53842E8A9620A96#code) |
+| `BalanceFuseOdosSwapper` | `0xAa679FA8920382992515D259ECD654550617983D` [View](https://polygonscan.com/address/0xAa679FA8920382992515D259ECD654550617983D#code) |
+| `BalanceFuseUniversalTokenSwapper` | `0xaE99585ea967231dA49685a5425C13f51871074E` [View](https://polygonscan.com/address/0xaE99585ea967231dA49685a5425C13f51871074E#code) |
+| `BalanceFuseUniversalTokenSwapperV2` | `0xc66F5dc40bE37792b502a2C36c86d1d84fd556F3` [View](https://polygonscan.com/address/0xc66F5dc40bE37792b502a2C36c86d1d84fd556F3#code) |
+| `BalanceFuseVeloraSwapper` | `0x7E99ba54B76729794570f412DC328982ebF9EB56` [View](https://polygonscan.com/address/0x7E99ba54B76729794570f412DC328982ebF9EB56#code) |
+| `BorrowFuseAaveV3` | `0xbC1b10Bb17b77B543AA8fDf381d4DaBBfc988aFA` [View](https://polygonscan.com/address/0xbC1b10Bb17b77B543AA8fDf381d4DaBBfc988aFA#code) |
+| `BorrowFuseCompoundV3Usdc` | `0x3a7844e9528014b68681a6e73E9ecC7B6057B004` [View](https://polygonscan.com/address/0x3a7844e9528014b68681a6e73E9ecC7B6057B004#code) |
+| `BorrowFuseCompoundV3Usdt` | `0xd8413A851D6AC52614171cfbf4E93a42032bC193` [View](https://polygonscan.com/address/0xd8413A851D6AC52614171cfbf4E93a42032bC193#code) |
+| `BorrowFuseMorpho` | `0xcAEcD66E1a92824Bc4891C90f88133d7c376A4CD` [View](https://polygonscan.com/address/0xcAEcD66E1a92824Bc4891C90f88133d7c376A4CD#code) |
+| `BurnRequestFeeFuse` | `0xD3Ab2454EbBD821afe4f8309D45F5997fd909c29` [View](https://polygonscan.com/address/0xD3Ab2454EbBD821afe4f8309D45F5997fd909c29#code) |
+| `BurnRequestFeeFuseV2` | `0x575DDF310d1A25585653d279638a93Cf71Ee54e5` [View](https://polygonscan.com/address/0x575DDF310d1A25585653d279638a93Cf71Ee54e5#code) |
+| `ClaimRewardsFuseCompoundV3` | `0xa351aAd2d76d79EC31DF52A07dc7a081B7b9AFb7` [View](https://polygonscan.com/address/0xa351aAd2d76d79EC31DF52A07dc7a081B7b9AFb7#code) |
+| `ClaimRewardsFuseFluidProof` | `0xeaC4D9447DE89c327f35D1bCd221D3Bb5E849411` [View](https://polygonscan.com/address/0xeaC4D9447DE89c327f35D1bCd221D3Bb5E849411#code) |
+| `ClaimRewardsFuseMorpho` | `0xFBcaB780f425647C2a9844626329b6D480d86147` [View](https://polygonscan.com/address/0xFBcaB780f425647C2a9844626329b6D480d86147#code) |
+| `CollateralFuseMorpho` | `0xA6cA996D0F5FfD4ee3642D8E2df7A86DDa933040` [View](https://polygonscan.com/address/0xA6cA996D0F5FfD4ee3642D8E2df7A86DDa933040#code) |
+| `ConfigureInstantWithdrawalFuse` | `0xE9A36F6A055f44c177c8F481B37D7d02f23c2Ec7` [View](https://polygonscan.com/address/0xE9A36F6A055f44c177c8F481B37D7d02f23c2Ec7#code) |
+| `ExternalStateBalanceFuse` | `0x3db9239b06525FA1D537a056bb885323555A7381` [View](https://polygonscan.com/address/0x3db9239b06525FA1D537a056bb885323555A7381#code) |
+| `ExternalStateOperationFuse` | `0x159FeaC51e1B6Ba2eC123Ad7B3b5190dFE2bb6Bc` [View](https://polygonscan.com/address/0x159FeaC51e1B6Ba2eC123Ad7B3b5190dFE2bb6Bc#code) |
+| `ExternalStateRescueFuse` | `0x184dc4915f32bFb4862D50846f39e8B79509FB79` [View](https://polygonscan.com/address/0x184dc4915f32bFb4862D50846f39e8B79509FB79#code) |
+| `ExternalStateUnpauseFuse` | `0x36C75C0F8d9875BD60aD057BB63BB3811576CDb2` [View](https://polygonscan.com/address/0x36C75C0F8d9875BD60aD057BB63BB3811576CDb2#code) |
+| `FlashloanFuseMorpho` | `0x59c471A35853367C4Ed31a04E60Cb6B8a759Bf8b` [View](https://polygonscan.com/address/0x59c471A35853367C4Ed31a04E60Cb6B8a759Bf8b#code) |
+| `FuseRedeemFromRequestPlasmaVaultMarket1` | `0x1B3AB90Cd0c27C130B36FB6E98D6C96A3B1a6e10` [View](https://polygonscan.com/address/0x1B3AB90Cd0c27C130B36FB6E98D6C96A3B1a6e10#code) |
+| `FuseRequestSharesPlasmaVaultMarket1` | `0x40335F6565564F1F8Da97fC3ec2e06A945576355` [View](https://polygonscan.com/address/0x40335F6565564F1F8Da97fC3ec2e06A945576355#code) |
+| `FuseRequestSharesPlasmaVaultV2` | `0x9db9d616E95745E7c33464c2e0b951bDBEcDaf60` [View](https://polygonscan.com/address/0x9db9d616E95745E7c33464c2e0b951bDBEcDaf60#code) |
+| `MaintenanceFuseUpdateWithdrawManager` | `0x2E1c19bd338C1B299F1FFdc4e8E6c41E516a2aB2` [View](https://polygonscan.com/address/0x2E1c19bd338C1B299F1FFdc4e8E6c41E516a2aB2#code) |
+| `MerklClaimFuse` | `0x0c6Ce82c70304EaA056A64e2BdcAeD16cF2D2272` [View](https://polygonscan.com/address/0x0c6Ce82c70304EaA056A64e2BdcAeD16cF2D2272#code) |
+| `MerklClaimWrapperFuse` | `0xBebAB84c9F4FA0E3A6d6373d53251f3dCb340575` [View](https://polygonscan.com/address/0xBebAB84c9F4FA0E3A6d6373d53251f3dCb340575#code) |
+| `OdosSwapperFuse` | `0xffaCeb58F71D141e9eeFeD16f7BFa55f4D2405dF` [View](https://polygonscan.com/address/0xffaCeb58F71D141e9eeFeD16f7BFa55f4D2405dF#code) |
+| `PlasmaVaultBalanceAssetsValidationFuse` | `0x47951D4705c6A6b885e4Ec86ff648F035aFAD6fF` [View](https://polygonscan.com/address/0x47951D4705c6A6b885e4Ec86ff648F035aFAD6fF#code) |
+| `RepayWithATokensFuseAaveV3` | `0x65e422E3330e2FE452e6748c2eb33328B8F62057` [View](https://polygonscan.com/address/0x65e422E3330e2FE452e6748c2eb33328B8F62057#code) |
+| `RequestFeeRefundFuse` | `0xab7cf204d79E18042B6093CD8c0e895CFffc4A33` [View](https://polygonscan.com/address/0xab7cf204d79E18042B6093CD8c0e895CFffc4A33#code) |
+| `SupplyFuseAaveV3` | `0x35345227C51514e553b02a35208eDFba7D386452` [View](https://polygonscan.com/address/0x35345227C51514e553b02a35208eDFba7D386452#code) |
+| `SupplyFuseCompoundV3Usdc` | `0x2003e863702935Ab6FDC85c3C3B56D449adB67F8` [View](https://polygonscan.com/address/0x2003e863702935Ab6FDC85c3C3B56D449adB67F8#code) |
+| `SupplyFuseCompoundV3Usdt` | `0xF97B3EF97f1178d064130F4BD92C663489b79313` [View](https://polygonscan.com/address/0xF97B3EF97f1178d064130F4BD92C663489b79313#code) |
+| `SupplyFuseErc4626Market1` | `0x3d62303D6C01CD60301960cEF5767B3812C84bD1` [View](https://polygonscan.com/address/0x3d62303D6C01CD60301960cEF5767B3812C84bD1#code) |
+| `SupplyFuseErc4626Market2` | `0x98CDc637a1D5Eb944E58fF1FeFdCCAD2028b50dD` [View](https://polygonscan.com/address/0x98CDc637a1D5Eb944E58fF1FeFdCCAD2028b50dD#code) |
+| `SupplyFuseErc4626Market3` | `0xc52B4609FA624FCfEE682167dc450F2e9031E25F` [View](https://polygonscan.com/address/0xc52B4609FA624FCfEE682167dc450F2e9031E25F#code) |
+| `SupplyFuseErc4626Market4` | `0x035e6144b4eC125E4DE70DcFc4b587a69Fae9B24` [View](https://polygonscan.com/address/0x035e6144b4eC125E4DE70DcFc4b587a69Fae9B24#code) |
+| `SupplyFuseErc4626Market5` | `0xD4aa65bb4E9014B30de0BFF97567b5E715beC312` [View](https://polygonscan.com/address/0xD4aa65bb4E9014B30de0BFF97567b5E715beC312#code) |
+| `SupplyFuseMetaMorphoMarket0001` | `0x5d02B20CBA4227F736efAbe31AD38Bf1A0aE46Cd` [View](https://polygonscan.com/address/0x5d02B20CBA4227F736efAbe31AD38Bf1A0aE46Cd#code) |
+| `SupplyFuseMorpho` | `0x6A21dB4730b8edF33E21228652aA0042FfC6C7dc` [View](https://polygonscan.com/address/0x6A21dB4730b8edF33E21228652aA0042FfC6C7dc#code) |
+| `SupplyFuseMorphoLiquidityInMarkets` | `0xA27253fF204a86ef62485A14f53856971AD69189` [View](https://polygonscan.com/address/0xA27253fF204a86ef62485A14f53856971AD69189#code) |
+| `SupplyFuseMorphoWithCallBackData` | `0x1F6927F4A1D9607454460F758E7929357ecA7CB7` [View](https://polygonscan.com/address/0x1F6927F4A1D9607454460F758E7929357ecA7CB7#code) |
+| `SwapFuseUniversalTokenSwapperEthNoSlippage` | `0x8Bd252Cf5079f765413ccFEF73DfBBaA89A2C771` [View](https://polygonscan.com/address/0x8Bd252Cf5079f765413ccFEF73DfBBaA89A2C771#code) |
+| `SwapFuseUniversalTokenSwapperEthNoSlippageV2` | `0xA731AA296639745d083175C057C4B415d70BBA2c` [View](https://polygonscan.com/address/0xA731AA296639745d083175C057C4B415d70BBA2c#code) |
+| `SwapFuseUniversalTokenSwapperWithVerification` | `0x9f354FeB8f7772db14BdCC5Ed780fF849dcFeF74` [View](https://polygonscan.com/address/0x9f354FeB8f7772db14BdCC5Ed780fF849dcFeF74#code) |
+| `SwapFuseUniversalTokenSwapperWithVerificationV2` | `0x0197F4576979597eaF6CCf2314911075e0b04cB8` [View](https://polygonscan.com/address/0x0197F4576979597eaF6CCf2314911075e0b04cB8#code) |
+| `UniversalReaderBalanceFuses` | `0x184244e641218C4aDeeb84247C1c50faC444bf60` [View](https://polygonscan.com/address/0x184244e641218C4aDeeb84247C1c50faC444bf60#code) |
+| `UniversalTokenSwapperEthFuse` | `0x3416B3e374F47fDecBc394B78918f0F6FFCA07C3` [View](https://polygonscan.com/address/0x3416B3e374F47fDecBc394B78918f0F6FFCA07C3#code) |
+| `UniversalTokenSwapperEthFuseV2` | `0x4E32111A908cdba1a69092710FD6256968dfE8eE` [View](https://polygonscan.com/address/0x4E32111A908cdba1a69092710FD6256968dfE8eE#code) |
+| `UniversalTokenSwapperFuse` | `0x0Fb01ebce2b4b13910a21A1e05DEad2f3e8Ee950` [View](https://polygonscan.com/address/0x0Fb01ebce2b4b13910a21A1e05DEad2f3e8Ee950#code) |
+| `UniversalTokenSwapperFuseV2` | `0x59c3e8d5724f28cF71aCe12286d767E2B4Fb369A` [View](https://polygonscan.com/address/0x59c3e8d5724f28cF71aCe12286d767E2B4Fb369A#code) |
+| `UpdateMarketsBalancesFuse` | `0x8D3e3a1EC09F9726C3894690eDBD9B233c7A280F` [View](https://polygonscan.com/address/0x8D3e3a1EC09F9726C3894690eDBD9B233c7A280F#code) |
+| `VeloraSwapperFuse` | `0x69388fa69f5E838a977a5973e4FE7742818C3A83` [View](https://polygonscan.com/address/0x69388fa69f5E838a977a5973e4FE7742818C3A83#code) |
+
 ## PreHooks List
 
-*Last updated: 2026-10-22 23:54:06 UTC*
+*Last updated: 2026-10-29 21:23:47 UTC*
 
 ### Ethereum PreHooks
 
@@ -1333,6 +1408,15 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `ExchangeRateValidatorPreHook` | `0xCa9a01e322ad87d94ffb60e545238D62A72EeA40` [View](https://flare-explorer.flare.network/address/0xCa9a01e322ad87d94ffb60e545238D62A72EeA40#code) |
 | `PreHookPauseFunction` | `0x31324f455929CA8B8Fe47a39dA34E530279c5FCe` [View](https://flare-explorer.flare.network/address/0x31324f455929CA8B8Fe47a39dA34E530279c5FCe#code) |
 | `PreHookUpdateBalancesIgnoreDust` | `0x1517809E3cAF00bd1DcBA3963f9F4C6F8c1338f6` [View](https://flare-explorer.flare.network/address/0x1517809E3cAF00bd1DcBA3963f9F4C6F8c1338f6#code) |
+
+### Polygon PreHooks
+
+| PreHook Name | Address / View in Explorer |
+|-----------|---------------------------|
+| `ExchangeRateValidatorPreHook` | `0x6ab1119eB86a17F67dd9a62c942a7d91Ca5Af33A` [View](https://polygonscan.com/address/0x6ab1119eB86a17F67dd9a62c942a7d91Ca5Af33A#code) |
+| `ExternalStatePausePreHook` | `0x5bd9D827B57f5ed45a0F1c97aE58da2302134A9d` [View](https://polygonscan.com/address/0x5bd9D827B57f5ed45a0F1c97aE58da2302134A9d#code) |
+| `PreHookPauseFunction` | `0x342a7651A855F489d1f9c26FD752Ad6F6EF0b8F4` [View](https://polygonscan.com/address/0x342a7651A855F489d1f9c26FD752Ad6F6EF0b8F4#code) |
+| `PreHookUpdateBalancesIgnoreDust` | `0xBf5CCe4f4fB8071850A7551b24Ed4e02cc5DDD21` [View](https://polygonscan.com/address/0xBf5CCe4f4fB8071850A7551b24Ed4e02cc5DDD21#code) |
 
 ## Price Oracles List
 
