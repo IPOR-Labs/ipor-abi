@@ -42,7 +42,8 @@ def get_rpc_urls():
         "hyperevm": os.getenv("HYPEREVM_RPC_URL"),
         "robinhood": os.getenv("ROBINHOOD_RPC_URL"),
         "monad": os.getenv("MONAD_RPC_URL"),
-        "flare": os.getenv("FLARE_RPC_URL")
+        "flare": os.getenv("FLARE_RPC_URL"),
+        "polygon": os.getenv("POLYGON_RPC_URL")
     }
 
 def validate_rpc_urls():
@@ -68,7 +69,8 @@ CHAIN_START_BLOCKS = {
     "hyperevm": 39992900,
     "robinhood": 5310759,
     "monad": 97099958,
-    "flare": 68370000
+    "flare": 68370000,
+    "polygon": 96391511
 }
 
 # Chunk sizes for event fetching per chain
@@ -87,6 +89,7 @@ CHUNK_SIZES = {
     "robinhood": 10000,
     "monad": 10000,
     "flare": 10000,
+    "polygon": 10000,
     "default": 10000    # Default chunk size for any unlisted chains
 }
 
@@ -105,7 +108,8 @@ EXPLORERS = {
     "hyperevm": "https://hyperevmscan.io/address/",
     "robinhood": "https://robinhoodchain.blockscout.com/address/",
     "monad": "https://monadscan.com/address/",
-    "flare": "https://flare-explorer.flare.network/address/"
+    "flare": "https://flare-explorer.flare.network/address/",
+    "polygon": "https://polygonscan.com/address/"
 }
 
 # Explorer types for URL generation
@@ -123,7 +127,8 @@ EXPLORER_TYPES = {
     "hyperevm": "etherscan",
     "robinhood": "blockscout",
     "monad": "etherscan",
-    "flare": "blockscout"
+    "flare": "blockscout",
+    "polygon": "etherscan"
 }
 
 # Chain IDs
@@ -141,7 +146,8 @@ CHAIN_IDS = {
     "hyperevm": "999",
     "robinhood": "4663",
     "monad": "143",
-    "flare": "14"
+    "flare": "14",
+    "polygon": "137"
 }
 
 # Chain display names
@@ -159,7 +165,8 @@ NAMES = {
     "hyperevm": "HyperEVM",
     "robinhood": "Robinhood",
     "monad": "Monad",
-    "flare": "Flare"
+    "flare": "Flare",
+    "polygon": "Polygon"
 }
 
 # Common ABIs
@@ -246,7 +253,8 @@ def get_chain_from_path(path):
         "hyperevm": "hyperevm",
         "robinhood": "robinhood",
         "monad": "monad",
-        "flare": "flare"
+        "flare": "flare",
+        "polygon": "polygon"
     }
     
     for chain in chains:

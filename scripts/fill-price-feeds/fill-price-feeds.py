@@ -240,7 +240,8 @@ def update_addresses_json(priceoracles_file, addresses_file):
                 "hyperevm": {"price_oracles": []},
                 "robinhood": {"price_oracles": []},
                 "monad": {"price_oracles": []},
-                "flare": {"price_oracles": []}
+                "flare": {"price_oracles": []},
+                "polygon": {"price_oracles": []}
             }
 
         blockchain_priceoracles = {
@@ -257,7 +258,8 @@ def update_addresses_json(priceoracles_file, addresses_file):
             "hyperevm": {},
             "robinhood": {},
             "monad": {},
-            "flare": {}
+            "flare": {},
+            "polygon": {}
         }
 
         web3_connections = create_web3_connections()
@@ -289,7 +291,8 @@ def update_addresses_json(priceoracles_file, addresses_file):
             "hyperevm": {},
             "robinhood": {},
             "monad": {},
-            "flare": {}
+            "flare": {},
+            "polygon": {}
         }
 
         unique_addresses = {
@@ -306,7 +309,8 @@ def update_addresses_json(priceoracles_file, addresses_file):
             "hyperevm": {},
             "robinhood": {},
             "monad": {},
-            "flare": {}
+            "flare": {},
+            "polygon": {}
         }
 
         address_to_date_key = {
@@ -323,7 +327,8 @@ def update_addresses_json(priceoracles_file, addresses_file):
             "hyperevm": {},
             "robinhood": {},
             "monad": {},
-            "flare": {}
+            "flare": {},
+            "polygon": {}
         }
 
         for file_path, priceoracles in priceoracles_data.items():
@@ -356,6 +361,8 @@ def update_addresses_json(priceoracles_file, addresses_file):
                 chain = "monad"
             elif "flare" in file_path:
                 chain = "flare"
+            elif "polygon" in file_path:
+                chain = "polygon"
 
             if not chain:
                 continue
