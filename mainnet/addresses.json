@@ -1157,6 +1157,18 @@
         "token": "tessWBTCPT",
         "asset": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
         "PlasmaVault": "0x603CcE86027Aea55e53B3fAF1b3eFe61a6871D4f"
+      },
+      {
+        "name": "AlphaZero sUSDe Loop USDC",
+        "token": "azsUSDe",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0x88435952375d95e49fB784ec52b06bA768CFDA65"
+      },
+      {
+        "name": "HYPE Basis USDC",
+        "token": "hbUSDC",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0x87088FFfF874A4bCC6D13bBC8184E3639947ecDE"
       }
     ],
     "fuses": [
@@ -3058,6 +3070,738 @@
         "token": "KR-USDG-LEND",
         "asset": "0x004B506865409877C9fA29bfb1ebA929984B9bbC",
         "PlasmaVault": "0x88b0517a4c81B02671d310F8da6131693c9cA904"
+      },
+      {
+        "name": "Decentralised Crypto-Equity Basis Risk Premia Index",
+        "token": "EQ-BS-IDX",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xA803fD35e6796Ef5BFFE391b02543a049fB271c3"
+      },
+      {
+        "name": "Decentralised Crypto-Equity Basis Euler-Pair: rSNDK - xyz:SNDK",
+        "token": "SNDK-BS-ERHT",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x73F0f1482933CE574b6bF22de0281832a920f5C1"
+      },
+      {
+        "name": "Decentralised Crypto-Equity Basis Euler-Pair: rAAPL - xyz:AAPL",
+        "token": "AAPL-BS-ERHT",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x9739E51483F94a472F1118bD238cC0ddef9092aE"
+      },
+      {
+        "name": "Decentralised Crypto-Equity Basis Euler-Pair: rAMD - xyz:AMD",
+        "token": "AMD-BS-ERHT",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x268F5c16A35E33b174C1E77B812F60c1d6dBFF27"
+      },
+      {
+        "name": "Decentralised Crypto-Equity Basis Euler-Pair: rCRCL - xyz:CRCL",
+        "token": "CRCL-BS-ERHT",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x0dA016a4E26B58f976ad790d5204F672250e23ec"
+      },
+      {
+        "name": "Decentralised Crypto-Equity Basis Euler-Pair: rDRAM - xyz:DRAM",
+        "token": "DRAM-BS-ERHT",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x67d5F931e8d9AFe852b1C94503AA734b83AE4aaa"
+      },
+      {
+        "name": "Decentralised Crypto-Equity Basis Euler-Pair: rEWY - xyz:EWY",
+        "token": "EWY-BS-ERHT",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x3bC31Ad52e3F608d9c36Dd4480d990b0f672A951"
+      },
+      {
+        "name": "Decentralised Crypto-Equity Basis Euler-Pair: rGOOGL - xyz:GOOGL",
+        "token": "GOOGL-BS-ERHT",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x5C642EB4B51434c15A0FB8683E4C669E141E0984"
+      },
+      {
+        "name": "Decentralised Crypto-Equity Basis Euler-Pair: rHOOD - xyz:HOOD",
+        "token": "HOOD-BS-ERHT",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x706f39765A4346706a813595F0E3f499ACE8aeFa"
+      },
+      {
+        "name": "Decentralised Crypto-Equity Basis Euler-Pair: rINTC - xyz:INTC",
+        "token": "INTC-BS-ERHT",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x607D84E6dAEb4Eaa9a9513fa23dC92D21a0D0877"
+      },
+      {
+        "name": "Decentralised Crypto-Equity Basis Euler-Pair: rKORU - xyz:KORU",
+        "token": "KORU-BS-ERHT",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x5BaBDb59B7DD2F8B45CB781345a994599a32b625"
+      },
+      {
+        "name": "Decentralised Crypto-Equity Basis Euler-Pair: rMETA - xyz:META",
+        "token": "META-BS-ERHT",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xa6A86312Ae134303742CF7b10F510E1EA1e6e0E3"
+      },
+      {
+        "name": "Decentralised Crypto-Equity Basis Euler-Pair: rMSTR - xyz:MSTR",
+        "token": "MSTR-BS-ERHT",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x130e5e2f276caD8fDf6241cf77Bb40b068e011B0"
+      },
+      {
+        "name": "Decentralised Crypto-Equity Basis Euler-Pair: rMU - xyz:MU",
+        "token": "MU-BS-ERHT",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x5EA48ebE41887a099867A5f5CF9aE414e18c7fa9"
+      },
+      {
+        "name": "Decentralised Crypto-Equity Basis Euler-Pair: rNBIS - xyz:NBIS",
+        "token": "NBIS-BS-ERHT",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xca088B8bD0A197539dCD51314aC323Da29b4758e"
+      },
+      {
+        "name": "Decentralised Crypto-Equity Basis Euler-Pair: rNVDA - xyz:NVDA",
+        "token": "NVDA-BS-ERHT",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x5cCB03a1083D7FdF17b5832476a4D6Ab143bd4DA"
+      },
+      {
+        "name": "Decentralised Crypto-Equity Basis Euler-Pair: rORCL - xyz:ORCL",
+        "token": "ORCL-BS-ERHT",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xc1893C28f2BDA7D016ddFB95b6F40A3F1B8D88a9"
+      },
+      {
+        "name": "Decentralised Crypto-Equity Basis Euler-Pair: rSKHY - xyz:SKHY",
+        "token": "SKHY-BS-ERHT",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x246257C78fDFc55Df99E0A2d4f46f54640D1Ccd8"
+      },
+      {
+        "name": "Decentralised Crypto-Equity Basis Euler-Pair: rSOXL - xyz:SOXL",
+        "token": "SOXL-BS-ERHT",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x5AE415848dE147C1D2969C67D504aA5ba686D41c"
+      },
+      {
+        "name": "Decentralised Crypto-Equity Basis Euler-Pair: rSPCX - xyz:SPCX",
+        "token": "SPCX-BS-ERHT",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x4077Da0a473BBf644DCb9BEb8d51deCFc1365836"
+      },
+      {
+        "name": "Decentralised Crypto-Equity Basis Euler-Pair: rTSLA - xyz:TSLA",
+        "token": "TSLA-BS-ERHT",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x4771a5168FbE601fdb0fFc647AdbcE656CE485D8"
+      },
+      {
+        "name": "Decentralised rAAPL 1.7796x Euler Long",
+        "token": "rAAPL-E1.7796XL",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xa42173B8e78282139EBAa303E05d7390AA1780E8"
+      },
+      {
+        "name": "Decentralised rAMD 1.7796x Euler Long",
+        "token": "rAMD-E1.7796XL",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xf93eA2abFc1d98D81CD9656d5Ca7Dfb11fF101ba"
+      },
+      {
+        "name": "Decentralised rCRCL 1.7796x Euler Long",
+        "token": "rCRCL-E1.7796XL",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x1a84f7A14fe90F21667CB51786c35Db35DEF58d2"
+      },
+      {
+        "name": "Decentralised rDRAM 2.1857x Euler Long",
+        "token": "rDRAM-E2.1857XL",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xC761DC7BC4EF913112da37D3C036f9036a92E56e"
+      },
+      {
+        "name": "Decentralised rEWY 2.1857x Euler Long",
+        "token": "rEWY-E2.1857XL",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xc1e1806cE3D20969F7d4A7fc073244fffCDC9629"
+      },
+      {
+        "name": "Decentralised rGOOGL 1.7796x Euler Long",
+        "token": "rGOOGL-E1.7796XL",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x92D637Afedeb709d700bBd9a772bBFd86B2eE1b6"
+      },
+      {
+        "name": "Decentralised rHOOD 1.7796x Euler Long",
+        "token": "rHOOD-E1.7796XL",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x2701C27EF125104F7769Cec5C2beD3e4e7b57596"
+      },
+      {
+        "name": "Decentralised rINTC 1.7796x Euler Long",
+        "token": "rINTC-E1.7796XL",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x2fAE841f8216F3e441022a34D08D68D482eC4c4B"
+      },
+      {
+        "name": "Decentralised rKORU 2.1857x Euler Long",
+        "token": "rKORU-E2.1857XL",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xDeaFA0597aA0FEA5d2F73Ba0EBcd75DD30871Df3"
+      },
+      {
+        "name": "Decentralised rMETA 1.7796x Euler Long",
+        "token": "rMETA-E1.7796XL",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x7608a37da05b7E06693825246EfC5a1BE7C17D44"
+      },
+      {
+        "name": "Decentralised rMSTR 1.7796x Euler Long",
+        "token": "rMSTR-E1.7796XL",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x408fc8c5a3a44961950B1aEEac8ef8A09a306E3B"
+      },
+      {
+        "name": "Decentralised rMU 1.7796x Euler Long",
+        "token": "rMU-E1.7796XL",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x34A903fa5940b20Cd4C4eE2123C795c4451781D6"
+      },
+      {
+        "name": "Decentralised rNBIS 1.7796x Euler Long",
+        "token": "rNBIS-E1.7796XL",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xb52E7BFa257F4dE91b4956Ca2224C19afB71B72B"
+      },
+      {
+        "name": "Decentralised rNVDA 1.7796x Euler Long",
+        "token": "rNVDA-E1.7796XL",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x074C67ABf65A41F7610D6fDBDC7c58a9B7e386DF"
+      },
+      {
+        "name": "Decentralised rORCL 1.7796x Euler Long",
+        "token": "rORCL-E1.7796XL",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x9455a67CaEbf82C239E383d92b9bECaDc4C452D8"
+      },
+      {
+        "name": "Decentralised rSKHY 1.7796x Euler Long",
+        "token": "rSKHY-E1.7796XL",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x9E468Be107D714258305647FF5975E5D13E2993e"
+      },
+      {
+        "name": "Decentralised rSNDK 1.7796x Euler Long",
+        "token": "rSNDK-E1.7796XL",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x54E186C1C5E6eF15FEE4D96E12D926058f16Ffca"
+      },
+      {
+        "name": "Decentralised rSOXL 2.1857x Euler Long",
+        "token": "rSOXL-E2.1857XL",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x3125D5441a6c2042a923714D85752b7A531590BE"
+      },
+      {
+        "name": "Decentralised rSPCX 1.9062x Euler Long",
+        "token": "rSPCX-E1.9062XL",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x0fB395BF4459816450Fbd2A6eF5418e158abf392"
+      },
+      {
+        "name": "Decentralised rTSLA 1.9334x Euler Long",
+        "token": "rTSLA-E1.9334XL",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x82409f601d0C9bA6Fc922f88Cf7Efbab03325a9d"
+      },
+      {
+        "name": "Decentralised Hyperliquid on Arbitrum 20x Short xyz:AAPL",
+        "token": "xyz:AAPL-H20XS",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x466317677Ee2151F1f2787338bA2CCcEf69df139"
+      },
+      {
+        "name": "Decentralised Hyperliquid on Arbitrum 10x Short xyz:AMD",
+        "token": "xyz:AMD-H10XS",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x656C0470b7eBad434C4a224cAFe219C36bC9BF28"
+      },
+      {
+        "name": "Decentralised Hyperliquid on Arbitrum 10x Short xyz:CRCL",
+        "token": "xyz:CRCL-H10XS",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x54fCffa08DB700B48dd35CAa997AB3f5ED990E0D"
+      },
+      {
+        "name": "Decentralised Hyperliquid on Arbitrum 20x Short xyz:DRAM",
+        "token": "xyz:DRAM-H20XS",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x01aF1eb5f6810Eed7985F8E0a443E1e5F4B543E7"
+      },
+      {
+        "name": "Decentralised Hyperliquid on Arbitrum 20x Short xyz:EWY",
+        "token": "xyz:EWY-H20XS",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xEc3fCB7e0994bD0930f79E667cd8fa80283E7e37"
+      },
+      {
+        "name": "Decentralised Hyperliquid on Arbitrum 20x Short xyz:GOOGL",
+        "token": "xyz:GOOGL-H20XS",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x078b739143cD6AC92AAF68d45AC79f9F0f7e24D1"
+      },
+      {
+        "name": "Decentralised Hyperliquid on Arbitrum 10x Short xyz:HOOD",
+        "token": "xyz:HOOD-H10XS",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xa46547bD9E7fc80B3A0591B01ecB619742c4A828"
+      },
+      {
+        "name": "Decentralised Hyperliquid on Arbitrum 10x Short xyz:INTC",
+        "token": "xyz:INTC-H10XS",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xfa0f1a13ce431ADAE13db73334C7cC2a9a91eFE5"
+      },
+      {
+        "name": "Decentralised Hyperliquid on Arbitrum 10x Short xyz:KORU",
+        "token": "xyz:KORU-H10XS",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xee7bC58c2b6aB4E5D2113C19407CeD4Fcf056269"
+      },
+      {
+        "name": "Decentralised Hyperliquid on Arbitrum 20x Short xyz:META",
+        "token": "xyz:META-H20XS",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x81A08C05C5d8b431CD2cF6a4Ed0677f724577D15"
+      },
+      {
+        "name": "Decentralised Hyperliquid on Arbitrum 10x Short xyz:MSTR",
+        "token": "xyz:MSTR-H10XS",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x225BD4e838D6FdBf2d5d7915e99206eD5f639f19"
+      },
+      {
+        "name": "Decentralised Hyperliquid on Arbitrum 10x Short xyz:MU",
+        "token": "xyz:MU-H10XS",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x4b8B61E738b2e9E26e2Cc1c4033EdBEE12a1E32f"
+      },
+      {
+        "name": "Decentralised Hyperliquid on Arbitrum 10x Short xyz:NBIS",
+        "token": "xyz:NBIS-H10XS",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x6ca32dB8809CcF9302baa741a17357375FE040D7"
+      },
+      {
+        "name": "Decentralised Hyperliquid on Arbitrum 20x Short xyz:NVDA",
+        "token": "xyz:NVDA-H20XS",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x2148F77340f846deA4481F2442c1Efa281297BB5"
+      },
+      {
+        "name": "Decentralised Hyperliquid on Arbitrum 10x Short xyz:ORCL",
+        "token": "xyz:ORCL-H10XS",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xa21343c16839B4052F15c9c9D7C31545B1F7a3Ec"
+      },
+      {
+        "name": "Decentralised Hyperliquid on Arbitrum 10x Short xyz:SKHY",
+        "token": "xyz:SKHY-H10XS",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xe73603ec501C1B386213a1A9752Cc62289c5Bd70"
+      },
+      {
+        "name": "Decentralised Hyperliquid on Arbitrum 10x Short xyz:SNDK",
+        "token": "xyz:SNDK-H10XS",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xF052149273340Ad3cD5Fc64668A5299AdA208A77"
+      },
+      {
+        "name": "Decentralised Hyperliquid on Arbitrum 10x Short xyz:SOXL",
+        "token": "xyz:SOXL-H10XS",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xA524F9f8047861202275E5cA6B64d5AE3753d9F2"
+      },
+      {
+        "name": "Decentralised Hyperliquid on Arbitrum 20x Short xyz:SPCX",
+        "token": "xyz:SPCX-H20XS",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x1b753DC654b3D2C709ea42d63801614d47cBCbB1"
+      },
+      {
+        "name": "Decentralised Hyperliquid on Arbitrum 20x Short xyz:TSLA",
+        "token": "xyz:TSLA-H20XS",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x7906ABFff893E00de99B08ADe3E03773E26a7701"
+      },
+      {
+        "name": "Decentralised Crypto-Equity Basis Euler-Pair: rAAPL - xyz:AAPL",
+        "token": "AAPL-BS-ERHT",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x7963Ea3981a2d59BF42eB53D01108F1c374b8c44"
+      },
+      {
+        "name": "Decentralised Crypto-Equity Basis Euler-Pair: rAMD - xyz:AMD",
+        "token": "AMD-BS-ERHT",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x417160365AD110941Ca227E520Ca8a43607fF77b"
+      },
+      {
+        "name": "Decentralised Crypto-Equity Basis Euler-Pair: rCRCL - xyz:CRCL",
+        "token": "CRCL-BS-ERHT",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x09c03ca89890644E0905554Ba4d35782cB9cA94e"
+      },
+      {
+        "name": "Decentralised Crypto-Equity Basis Euler-Pair: rDRAM - xyz:DRAM",
+        "token": "DRAM-BS-ERHT",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x1F202beB0ae0FfD186a7BC8533Ce9E0B04E130c7"
+      },
+      {
+        "name": "Decentralised Crypto-Equity Basis Euler-Pair: rEWY - xyz:EWY",
+        "token": "EWY-BS-ERHT",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x03623188a1258e2376Ac7249e2a0a305a449DC6C"
+      },
+      {
+        "name": "Decentralised Crypto-Equity Basis Euler-Pair: rGOOGL - xyz:GOOGL",
+        "token": "GOOGL-BS-ERHT",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xfd95d4FEc48db5f4feBA483DC8d284c7455D96a5"
+      },
+      {
+        "name": "Decentralised Crypto-Equity Basis Euler-Pair: rHOOD - xyz:HOOD",
+        "token": "HOOD-BS-ERHT",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x4dc28812B5019F9137f89e71937DF9307ab0ae32"
+      },
+      {
+        "name": "Decentralised Crypto-Equity Basis Risk Premia Index",
+        "token": "EQ-BS-IDX",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xaf3fc304666fF988c10165B6b15605776d8e2E2f"
+      },
+      {
+        "name": "Decentralised Crypto-Equity Basis Euler-Pair: rINTC - xyz:INTC",
+        "token": "INTC-BS-ERHT",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xf436053FfFec883b8E34E52AE6b063d7AFF964B5"
+      },
+      {
+        "name": "Decentralised Crypto-Equity Basis Euler-Pair: rKORU - xyz:KORU",
+        "token": "KORU-BS-ERHT",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xE2658Fbcc0c8d24e91e28F93Fe1c98c65D5f7B27"
+      },
+      {
+        "name": "Decentralised Crypto-Equity Basis Euler-Pair: rMETA - xyz:META",
+        "token": "META-BS-ERHT",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x715Cf0D68B6f2088c45EFEAC468bE2b0E387800F"
+      },
+      {
+        "name": "Decentralised Crypto-Equity Basis Euler-Pair: rMSTR - xyz:MSTR",
+        "token": "MSTR-BS-ERHT",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x986600B2FeBF6CB1cD8ec8ACB2Ef44612c616f25"
+      },
+      {
+        "name": "Decentralised Crypto-Equity Basis Euler-Pair: rMU - xyz:MU",
+        "token": "MU-BS-ERHT",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x94B6E25236c4d54F5FbF0011B0cf0631afF7096e"
+      },
+      {
+        "name": "Decentralised Crypto-Equity Basis Euler-Pair: rNBIS - xyz:NBIS",
+        "token": "NBIS-BS-ERHT",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x24214C7Bb6CAcC66E56c3CE179ddB58844641007"
+      },
+      {
+        "name": "Decentralised Crypto-Equity Basis Euler-Pair: rNVDA - xyz:NVDA",
+        "token": "NVDA-BS-ERHT",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x51bCDaC51747DD7fB8e4b2218561465517CF158D"
+      },
+      {
+        "name": "Decentralised Crypto-Equity Basis Euler-Pair: rORCL - xyz:ORCL",
+        "token": "ORCL-BS-ERHT",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xD5789A42c2a2E10EB5143C1F89FeF646408070c3"
+      },
+      {
+        "name": "Decentralised Crypto-Equity Basis Euler-Pair: rSKHY - xyz:SKHY",
+        "token": "SKHY-BS-ERHT",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xef8d28abF3623D2B5FD59738A3118e41e9a0BcC6"
+      },
+      {
+        "name": "Decentralised Crypto-Equity Basis Euler-Pair: rSNDK - xyz:SNDK",
+        "token": "SNDK-BS-ERHT",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x4875CB6bFb07824C77E2F6e7E9a95f17f6869c5f"
+      },
+      {
+        "name": "Decentralised Crypto-Equity Basis Euler-Pair: rSOXL - xyz:SOXL",
+        "token": "SOXL-BS-ERHT",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x5dd5649Ba42B14d6704cEe1E802aA747d1571F06"
+      },
+      {
+        "name": "Decentralised Crypto-Equity Basis Euler-Pair: rSPCX - xyz:SPCX",
+        "token": "SPCX-BS-ERHT",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xC5EEF0Ffa00bFa0b8C2e2a34A3E6ea29521906ed"
+      },
+      {
+        "name": "Decentralised Crypto-Equity Basis Euler-Pair: rTSLA - xyz:TSLA",
+        "token": "TSLA-BS-ERHT",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x80eE48ff29874EdD6eF95682934a3a26c61B8204"
+      },
+      {
+        "name": "Decentralised rAAPL 1.7796x Euler Long",
+        "token": "rAAPL-E1.7796XL",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xb03613856761D0d84899CF77518a019bD7840512"
+      },
+      {
+        "name": "Decentralised rAMD 1.7796x Euler Long",
+        "token": "rAMD-E1.7796XL",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x39DDcc5ebfd4D2792455F1fC6462b997645a6C72"
+      },
+      {
+        "name": "Decentralised rCRCL 1.7796x Euler Long",
+        "token": "rCRCL-E1.7796XL",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xD30E4bb5486a4D3F450D01F0C61F30d2159bA4FB"
+      },
+      {
+        "name": "Decentralised rDRAM 2.1857x Euler Long",
+        "token": "rDRAM-E2.1857XL",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x02C34D4C5E0673214e4962C78FD5FdcfF37168b3"
+      },
+      {
+        "name": "Decentralised rEWY 2.1857x Euler Long",
+        "token": "rEWY-E2.1857XL",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x905aCba2BD5d3Fcced3FC779Aa563f673ADBfAa8"
+      },
+      {
+        "name": "Decentralised rGOOGL 1.7796x Euler Long",
+        "token": "rGOOGL-E1.7796XL",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x159Af8501e40D382BE752A63c38E24Af0f23DC47"
+      },
+      {
+        "name": "Decentralised rHOOD 1.7796x Euler Long",
+        "token": "rHOOD-E1.7796XL",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xfb6E63e79e01c42Eb79d90778C03a4922B00882B"
+      },
+      {
+        "name": "Decentralised rINTC 1.7796x Euler Long",
+        "token": "rINTC-E1.7796XL",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xA48e29D6De844Ec563D4603712bf7dc3681c5DE1"
+      },
+      {
+        "name": "Decentralised rKORU 2.1857x Euler Long",
+        "token": "rKORU-E2.1857XL",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x597f474A56f264FB22Be23c7940b94AD2F1AE30a"
+      },
+      {
+        "name": "Decentralised rMETA 1.7796x Euler Long",
+        "token": "rMETA-E1.7796XL",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x55138998B83a354C51bcdc9283F497F88d3d92C9"
+      },
+      {
+        "name": "Decentralised rMSTR 1.7796x Euler Long",
+        "token": "rMSTR-E1.7796XL",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xF5f2E9153FeB2fcfb4D0d0742471dDD817f1aAC7"
+      },
+      {
+        "name": "Decentralised rMU 1.7796x Euler Long",
+        "token": "rMU-E1.7796XL",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xd588b87142aEA8481c02c144D87E08B3Cf94F8A6"
+      },
+      {
+        "name": "Decentralised rNBIS 1.7796x Euler Long",
+        "token": "rNBIS-E1.7796XL",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xfa0b80F092b44B673150F9ffD5227715616F0F14"
+      },
+      {
+        "name": "Decentralised rNVDA 1.7796x Euler Long",
+        "token": "rNVDA-E1.7796XL",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x32C80d9fc1247c9e5A1E693aD9A5718de9d6B913"
+      },
+      {
+        "name": "Decentralised rORCL 1.7796x Euler Long",
+        "token": "rORCL-E1.7796XL",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xfbE827d9f207707153b923DA62b24706Fe289B19"
+      },
+      {
+        "name": "Decentralised rSKHY 1.7796x Euler Long",
+        "token": "rSKHY-E1.7796XL",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x3b7D88cbF8aB37AEb788809778C23a9581cBb14b"
+      },
+      {
+        "name": "Decentralised rSNDK 1.7796x Euler Long",
+        "token": "rSNDK-E1.7796XL",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x319664a633dC366cCa47442365B24C125Ee4Dc8c"
+      },
+      {
+        "name": "Decentralised rSOXL 2.1857x Euler Long",
+        "token": "rSOXL-E2.1857XL",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x2181E2bc0d7Ef50DB2F87201B6cfD4602E83A25B"
+      },
+      {
+        "name": "Decentralised rSPCX 1.9062x Euler Long",
+        "token": "rSPCX-E1.9062XL",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x2c2DA7852c50D6B8e2E94C4a161e7067eBB92e5A"
+      },
+      {
+        "name": "Decentralised rTSLA 1.9334x Euler Long",
+        "token": "rTSLA-E1.9334XL",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x3c7D40E39760101C0E7a2048a719b2Bb00543Ac4"
+      },
+      {
+        "name": "Decentralised Hyperliquid on Arbitrum 20x Short xyz:AAPL",
+        "token": "xyz:AAPL-H20XS",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x164A859a12B4fFbb5ae848Bf8f9e9397DEd49c90"
+      },
+      {
+        "name": "Decentralised Hyperliquid on Arbitrum 10x Short xyz:AMD",
+        "token": "xyz:AMD-H10XS",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x8b526F52aE1B580720942422A620551Ca3204B92"
+      },
+      {
+        "name": "Decentralised Hyperliquid on Arbitrum 10x Short xyz:CRCL",
+        "token": "xyz:CRCL-H10XS",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x21966e0f54b9CE15DD56030C7B9a0a032Db68d42"
+      },
+      {
+        "name": "Decentralised Hyperliquid on Arbitrum 20x Short xyz:DRAM",
+        "token": "xyz:DRAM-H20XS",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x88B43D8e1d1fD712dC975858798Cc5EbAc9C3c3c"
+      },
+      {
+        "name": "Decentralised Hyperliquid on Arbitrum 20x Short xyz:EWY",
+        "token": "xyz:EWY-H20XS",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xEce38b9efC00F9535197d5153F08A835855a61B7"
+      },
+      {
+        "name": "Decentralised Hyperliquid on Arbitrum 20x Short xyz:GOOGL",
+        "token": "xyz:GOOGL-H20XS",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x6742bb85984DC3Be2E39A5878460a622d762B33d"
+      },
+      {
+        "name": "Decentralised Hyperliquid on Arbitrum 10x Short xyz:HOOD",
+        "token": "xyz:HOOD-H10XS",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x9C26bB243dCDab038B8Dd49F28Aaba2E05Ea9Be2"
+      },
+      {
+        "name": "Decentralised Hyperliquid on Arbitrum 10x Short xyz:INTC",
+        "token": "xyz:INTC-H10XS",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xf35fa0F215BbF96b7F04A27D4EB54349B8A49d26"
+      },
+      {
+        "name": "Decentralised Hyperliquid on Arbitrum 10x Short xyz:KORU",
+        "token": "xyz:KORU-H10XS",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x08E051132081D184aA98F638da8DE503889deeC0"
+      },
+      {
+        "name": "Decentralised Hyperliquid on Arbitrum 20x Short xyz:META",
+        "token": "xyz:META-H20XS",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xCbeC7c1F944a4258B7093a2383B6e9FCFfd1fD65"
+      },
+      {
+        "name": "Decentralised Hyperliquid on Arbitrum 10x Short xyz:MSTR",
+        "token": "xyz:MSTR-H10XS",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xBF6B54afd9F13cbE6DdA9fB322339b47281c787A"
+      },
+      {
+        "name": "Decentralised Hyperliquid on Arbitrum 10x Short xyz:MU",
+        "token": "xyz:MU-H10XS",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x429E3406fc15dc700eFb7b073a7E343039A8eafc"
+      },
+      {
+        "name": "Decentralised Hyperliquid on Arbitrum 10x Short xyz:NBIS",
+        "token": "xyz:NBIS-H10XS",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x34019CE86B5374Fa63EfB0125Ab67f3b65BA047B"
+      },
+      {
+        "name": "Decentralised Hyperliquid on Arbitrum 20x Short xyz:NVDA",
+        "token": "xyz:NVDA-H20XS",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x90ea9BF7Bf52f5181d46AE38Dabb302Cb65BbB8A"
+      },
+      {
+        "name": "Decentralised Hyperliquid on Arbitrum 10x Short xyz:ORCL",
+        "token": "xyz:ORCL-H10XS",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xd6093f9C1F57E8998270cE29816A1eAe7A33b072"
+      },
+      {
+        "name": "Decentralised Hyperliquid on Arbitrum 10x Short xyz:SKHY",
+        "token": "xyz:SKHY-H10XS",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xdE5282c2137780d71dB41C785a95b7acd6b7E9e1"
+      },
+      {
+        "name": "Decentralised Hyperliquid on Arbitrum 10x Short xyz:SNDK",
+        "token": "xyz:SNDK-H10XS",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x2C1fb32A3461424a17CeC1312b28Dfc9eF561a8E"
+      },
+      {
+        "name": "Decentralised Hyperliquid on Arbitrum 10x Short xyz:SOXL",
+        "token": "xyz:SOXL-H10XS",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xccc1d81D19e326F34760c9af9f95A68BEe8F1e38"
+      },
+      {
+        "name": "Decentralised Hyperliquid on Arbitrum 20x Short xyz:SPCX",
+        "token": "xyz:SPCX-H20XS",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xf47489f3D22d9a8aAbe619aD483631D94b1FA46F"
+      },
+      {
+        "name": "Decentralised Hyperliquid on Arbitrum 20x Short xyz:TSLA",
+        "token": "xyz:TSLA-H20XS",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xa82B698E4d816701d2c0DB21060B6Fa2310bD85e"
       }
     ],
     "fuses": [
@@ -5698,6 +6442,36 @@
         "token": "sUSDC",
         "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
         "PlasmaVault": "0x507e5499fE56CC64488a3c5b3eCd24231f67CCd9"
+      },
+      {
+        "name": "lol supply",
+        "token": "lol",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x4A766bd8bE17bbc67CCaeD1d8d81D5003336Fa8C"
+      },
+      {
+        "name": "Base Tokenized Stocks lending",
+        "token": "BTSocks",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x80a8B3ea00E4ACd4Ffd018b1A864e5d67084984d"
+      },
+      {
+        "name": "Stocks-Long-Only",
+        "token": "s-LONG",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x4E9d50740131F8D107ff2B863DC82885fed9586c"
+      },
+      {
+        "name": "Stocks-Long-or-Deposit",
+        "token": "s-LONG-depo",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0xAb0B5642d60788824cA879E916F3cEfa338Af298"
+      },
+      {
+        "name": "Stock-Index",
+        "token": "s-index",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x5c611ecdc4266b33b98E5811C644ff1265962B05"
       }
     ],
     "fuses": [
@@ -10921,6 +11695,16 @@
         "name": "PreHookUpdateBalancesIgnoreDust",
         "versions": {
           "2026-10-29": "0xBf5CCe4f4fB8071850A7551b24Ed4e02cc5DDD21"
+        }
+      }
+    ],
+    "price_oracles": [
+      {
+        "name": "PriceOracleMiddlewareUsdWithRolesProxy",
+        "versions": {
+          "2026-10-29_001": {
+            "address": "0xbcD1cA123217A06a87f412a28AA28D13CC6C3f98"
+          }
         }
       }
     ]

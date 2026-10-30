@@ -6,7 +6,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Fuses List
 
-*Last updated: 2026-10-29 21:23:43 UTC*
+*Last updated: 2026-10-29 21:31:18 UTC*
 
 ### Ethereum Fuses
 
@@ -1276,7 +1276,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## PreHooks List
 
-*Last updated: 2026-10-29 21:23:47 UTC*
+*Last updated: 2026-10-29 21:31:19 UTC*
 
 ### Ethereum PreHooks
 
@@ -1420,7 +1420,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Price Oracles List
 
-*Last updated: 2026-10-22 20:17:58 UTC*
+*Last updated: 2026-10-29 22:21:43 UTC*
 
 ### Ethereum Price Oracles
 
@@ -1785,5 +1785,18 @@ No price feeds found for this version.
 #### Price Feeds for `PriceOracleMiddlewareUsdWithRolesProxy`
 
 ##### Version 2026-08-27 - `0x0C40f544FaD53000D42505c7d4Ed0015Cd1749fA` [View](https://flare-explorer.flare.network/address/0x0C40f544FaD53000D42505c7d4Ed0015Cd1749fA#code)
+
+No price feeds found for this version.
+
+
+### Polygon Price Oracles
+
+| Price Oracle Name | Address / View in Explorer |
+|-----------|---------------------------|
+| `PriceOracleMiddlewareUsdWithRolesProxy` | `0xbcD1cA123217A06a87f412a28AA28D13CC6C3f98` [View](https://polygonscan.com/address/0xbcD1cA123217A06a87f412a28AA28D13CC6C3f98#code) |
+
+#### Price Feeds for `PriceOracleMiddlewareUsdWithRolesProxy`
+
+##### Version 2026-10-29 - `0xbcD1cA123217A06a87f412a28AA28D13CC6C3f98` [View](https://polygonscan.com/address/0xbcD1cA123217A06a87f412a28AA28D13CC6C3f98#code)
 
 No price feeds found for this version.
