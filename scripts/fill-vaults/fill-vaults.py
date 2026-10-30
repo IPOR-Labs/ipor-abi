@@ -119,7 +119,8 @@ def update_addresses_json(plasma_vaults_file, addresses_file):
                 "hyperevm": {"vaults": []},
                 "robinhood": {"vaults": []},
                 "monad": {"vaults": []},
-                "flare": {"vaults": []}
+                "flare": {"vaults": []},
+                "polygon": {"vaults": []}
             }
 
         web3_connections = create_web3_connections()
@@ -154,6 +155,8 @@ def update_addresses_json(plasma_vaults_file, addresses_file):
                 chain = "monad"
             elif "flare" in file_path:
                 chain = "flare"
+            elif "polygon" in file_path:
+                chain = "polygon"
 
             if not chain:
                 continue
