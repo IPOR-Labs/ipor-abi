@@ -1,0 +1,15 @@
+# ipor-abi
+
+> Addresses and ABIs of the contracts IPOR Labs has deployed: IPOR Fusion (ERC-4626 vault factories, fuses, pre-hooks, price feeds, cross-chain contracts) and the older IPOR Protocol. Start with `mainnet/mainnet-<chain>-fusion/addresses.json`, a flat map of contract name to address for one chain. Call `<Name>Proxy`, never `<Name>Impl`. Read AGENTS.md before using the files.
+
+## Start here
+
+- [AGENTS.md](https://raw.githubusercontent.com/IPOR-Labs/ipor-abi/main/AGENTS.md): layout, the proxy rule, chain folders, what is generated
+- [Base Fusion addresses](https://raw.githubusercontent.com/IPOR-Labs/ipor-abi/main/mainnet/mainnet-base-fusion/addresses.json): example per-chain map; other chains use the same path with their name
+- [All chains, aggregated](https://raw.githubusercontent.com/IPOR-Labs/ipor-abi/main/mainnet/addresses.json): per chain name, protocol contracts plus lists of vaults, fuses, pre-hooks and price oracles
+
+## Related
+
+- [IPOR Fusion for agents](https://ipor.io/llms.txt): the main index of IPOR Fusion docs, SDK and MCP
+- [ipor-fusion.py](https://github.com/IPOR-Labs/ipor-fusion.py): Python SDK, CLI and self-hostable MCP server that read these files
+- [ipor-fusion](https://github.com/IPOR-Labs/ipor-fusion): smart contract sources
