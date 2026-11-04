@@ -1315,6 +1315,12 @@
         }
       },
       {
+        "name": "BalanceFuseCompoundV3WithPriceOracleMiddlewareInstitutionalUsdc",
+        "versions": {
+          "2026-11-04": "0x5dF0CB1cE5159De1efb8038B5185E4612fAd9168"
+        }
+      },
+      {
         "name": "BalanceFuseCompoundV3WithPriceOracleMiddlewareUsdc",
         "versions": {
           "2026-09-17": "0xEdDB6d8CfA366eEFeB587FE493035d0837563914"
@@ -2039,6 +2045,12 @@
         "versions": {
           "2026-08-21": "0x652813B390359f20789f7B399e692318b1b6F3Fc",
           "2026-08-26": "0x63F8d451a5FF060fCC0EA0D53B5B2870c0D05790"
+        }
+      },
+      {
+        "name": "SupplyFuseCompoundV3InstitutionalUsdc",
+        "versions": {
+          "2026-11-04": "0xe7CaDa548534973b9d6A4124bBC476b586d1b3e4"
         }
       },
       {
