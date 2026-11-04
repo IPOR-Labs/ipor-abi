@@ -1169,6 +1169,36 @@
         "token": "hbUSDC",
         "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "PlasmaVault": "0x87088FFfF874A4bCC6D13bBC8184E3639947ecDE"
+      },
+      {
+        "name": "ETH Basis USDC",
+        "token": "ebUSDC",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0x4730C88442E2E315B45c50Fd952D527B75686694"
+      },
+      {
+        "name": "Bellaman USDC Core",
+        "token": "bmUSDC",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0xd3C478772157136Cc22DAC59F2b61284d1374cC8"
+      },
+      {
+        "name": "AlphaPing USDC",
+        "token": "apUSDC",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0xbEd276414A089B40FA3840BACC58629aeBE3e04e"
+      },
+      {
+        "name": "AlphaPing WETH",
+        "token": "apWETH",
+        "asset": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "PlasmaVault": "0x93E7530ED68fBb44cE602fB125Df84Db59C11428"
+      },
+      {
+        "name": "AlphaPing WBTC",
+        "token": "apWBTC",
+        "asset": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+        "PlasmaVault": "0x0f123FA8EE886eBdb9DcD28dAA642e77Bd6448c5"
       }
     ],
     "fuses": [
@@ -3804,6 +3834,18 @@
         "token": "xyz:TSLA-H20XS",
         "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
         "PlasmaVault": "0xa82B698E4d816701d2c0DB21060B6Fa2310bD85e"
+      },
+      {
+        "name": "W13 Crosschain QA",
+        "token": "W13QA",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x6Ce38BC68c4e0dF01bF94e03BB04A2f5b8Db5c58"
+      },
+      {
+        "name": "1 Crosschain Maciek",
+        "token": "Ccc",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x6D0d4435B7Bfad6A48fA19cd07287F47E5cFB84B"
       }
     ],
     "fuses": [
@@ -6474,6 +6516,30 @@
         "token": "s-index",
         "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
         "PlasmaVault": "0x5c611ecdc4266b33b98E5811C644ff1265962B05"
+      },
+      {
+        "name": "Test 1 Serenity",
+        "token": "SntyUSDC",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0xE7Dbc31Fff366cB480E44de9Ce8Ce15f549bA8f1"
+      },
+      {
+        "name": "QA Move Deposit Redeem",
+        "token": "qaMDR",
+        "asset": "0x4200000000000000000000000000000000000006",
+        "PlasmaVault": "0x307616F5d39b5F5311f07968D3b0bC26641EBe09"
+      },
+      {
+        "name": "QA Move Deposit Redeem 2",
+        "token": "qaMDR2",
+        "asset": "0x4200000000000000000000000000000000000006",
+        "PlasmaVault": "0xF5997aA8e54D39914c9a3AD5dda390E5D6B1F45C"
+      },
+      {
+        "name": "Eth Reserve",
+        "token": "ERSV",
+        "asset": "0x4200000000000000000000000000000000000006",
+        "PlasmaVault": "0xa11f76E37df22378FF0Bbd493d801C5577238030"
       }
     ],
     "fuses": [
@@ -11708,6 +11774,14 @@
             "address": "0xbcD1cA123217A06a87f412a28AA28D13CC6C3f98"
           }
         }
+      }
+    ],
+    "vaults": [
+      {
+        "name": "IPOR Credit Optimizer",
+        "token": "ipCREDIT",
+        "asset": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "PlasmaVault": "0x8b1816F01986c03CC5f07BFAd20095D39e571E3B"
       }
     ]
   }
