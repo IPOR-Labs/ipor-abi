@@ -784,3 +784,66 @@ def cache_price_feed_events(chain, oracle_address, events, last_read_block):
     
     # Save updated cache
     _save_price_feed_events_cache(cache)
+
+
+# ---- IL-9469: fuse and prehook keys <ContractName>_<MARKET_ID> ----
+import re as _re
+
+# Suffix of a fuse or prehook key: _<MARKET_ID> in decimal, _max for type(uint256).max, _max_sub_<N> for max - N.
+# A key without MARKET_ID is the contract name alone.
+MARKET_KEY_SUFFIX = _re.compile(r"_(\d+|max(_sub_\d+)?)$")
+
+
+def has_market_suffix(key):
+    """Whether a per-chain key ends with a MARKET_ID suffix (_12, _max, _max_sub_2)."""
+    return bool(MARKET_KEY_SUFFIX.search(key))
+
+
+def prefer_fusion_files(data_by_file, addresses=None, section=None):
+    """{file path: {key: address}} without the addresses that a mainnet-<chain>-fusion file of the same chain
+    names: the IPOR deployment file names the contract, a partner or legacy file of the chain does not add a
+    second name for the same address. With the main addresses.json and its section ("fuses", "prehooks"), an
+    address already recorded under a name of the current scheme (a -fusion file key or a key with a MARKET_ID
+    suffix) is left out of the other files too, so an older version keeps its history under the new name."""
+    fusion_addresses = {}
+    fusion_names = {}
+    for file_path, fields in data_by_file.items():
+        if "-fusion" in file_path:
+            chain = get_chain_from_path(file_path)
+            fusion_addresses.setdefault(chain, set()).update(a.lower() for a in fields.values())
+            fusion_names.setdefault(chain, set()).update(fields)
+    for chain, chain_data in (addresses or {}).items():
+        for entry in chain_data.get(section, []) if section else []:
+            if entry["name"] in fusion_names.get(chain, set()) or has_market_suffix(entry["name"]):
+                fusion_addresses.setdefault(chain, set()).update(a.lower() for a in entry["versions"].values())
+    result = {}
+    for file_path, fields in data_by_file.items():
+        if "-fusion" in file_path:
+            result[file_path] = fields
+            continue
+        chain = get_chain_from_path(file_path)
+        kept = {k: a for k, a in fields.items() if a.lower() not in fusion_addresses.get(chain, set())}
+        if kept:
+            result[file_path] = kept
+    return result
+
+
+def move_versions_to_current_names(existing_by_name, data_by_file, chain):
+    """Versions of {name: {date: address}} recorded under a name that the per-chain files no longer use for that
+    address move to the name they use now (a renamed key keeps its deployment history). A date already taken
+    under the current name keeps that address. Names left without versions are dropped."""
+    current = {}
+    for file_path, fields in data_by_file.items():
+        if get_chain_from_path(file_path) != chain:
+            continue
+        for key, address in fields.items():
+            current.setdefault(address.lower(), key)
+    moved = {}
+    # first the versions that stay under their name, then the moved ones, so a taken date keeps its address
+    for staying in (True, False):
+        for name, versions in existing_by_name.items():
+            for date, address in versions.items():
+                target = current.get(address.lower(), name)
+                if (target == name) == staying:
+                    moved.setdefault(target, {}).setdefault(date, address)
+    return {name: versions for name, versions in moved.items() if versions}
