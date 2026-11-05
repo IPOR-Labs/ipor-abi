@@ -82,13 +82,18 @@ def update_addresses_json(prehooks_file, addresses_file):
 
         web3_connections = create_web3_connections()
 
+        prehooks_data = prefer_fusion_files(prehooks_data, addresses, "prehooks")
+
         existing_prehooks = {}
         for chain in addresses:
             existing_prehooks[chain] = {}
             if "prehooks" in addresses[chain]:
                 for prehook in addresses[chain]["prehooks"]:
                     existing_prehooks[chain][prehook["name"]] = prehook["versions"]
-                    blockchain_prehooks[chain][prehook["name"]] = prehook["versions"]
+                # a key renamed in the per-chain files keeps its versions under the new name (IL-9469)
+                existing_prehooks[chain] = move_versions_to_current_names(existing_prehooks[chain], prehooks_data, chain)
+                for name, versions in existing_prehooks[chain].items():
+                    blockchain_prehooks[chain][name] = dict(versions)
 
         for file_path, prehooks in prehooks_data.items():
             chain = None

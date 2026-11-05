@@ -24,7 +24,7 @@ FUSE_EXCEPTIONS = [
         # Deployed 2025-12-02 (earlier than the current version), so date-based
         # ordering alone would not make it the newest version.
         "chain": "ethereum",
-        "name": "UniversalTokenSwapperFuse",
+        "name": "UniversalTokenSwapperFuse_12",
         "address": "0x54c860323cCD609405a18E46b0F799BEb5DF5D50",
         "date": "2026-08-03"
     }
@@ -43,8 +43,11 @@ def extract_fuse_fields(file_path):
 
         extracted_data = {}
         for field in data:
-            if ("fuse" in field.lower() and 
-                data[field] != ZERO_ADDRESS and 
+            # a fuse key names the contract ("...Fuse") or, since IL-9469, ends with its MARKET_ID
+            # (UniswapV3Balance_8); prehook keys (..._PreHook_54) belong to fill-prehooks
+            is_fuse = "fuse" in field.lower() or (has_market_suffix(field) and "prehook" not in field.lower())
+            if (is_fuse and
+                data[field] != ZERO_ADDRESS and
                 field.lower() not in [name.lower() for name in IGNORED_FIELD_NAMES]):
                 extracted_data[field] = data[field]
 
@@ -102,13 +105,18 @@ def update_addresses_json(fuses_file, addresses_file):
 
         web3_connections = create_web3_connections()
 
+        fuses_data = prefer_fusion_files(fuses_data, addresses, "fuses")
+
         existing_fuses = {}
         for chain in addresses:
             existing_fuses[chain] = {}
             if "fuses" in addresses[chain]:
                 for fuse in addresses[chain]["fuses"]:
                     existing_fuses[chain][fuse["name"]] = fuse["versions"]
-                    blockchain_fuses[chain][fuse["name"]] = fuse["versions"]
+                # a key renamed in the per-chain files keeps its versions under the new name (IL-9469)
+                existing_fuses[chain] = move_versions_to_current_names(existing_fuses[chain], fuses_data, chain)
+                for name, versions in existing_fuses[chain].items():
+                    blockchain_fuses[chain][name] = dict(versions)
 
         for file_path, fuses in fuses_data.items():
             chain = None
