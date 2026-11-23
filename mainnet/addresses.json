@@ -1199,6 +1199,36 @@
         "token": "apWBTC",
         "asset": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
         "PlasmaVault": "0x0f123FA8EE886eBdb9DcD28dAA642e77Bd6448c5"
+      },
+      {
+        "name": "TESS USDC NAVI (SUI) Lending Vault",
+        "token": "tessUSDCNAVI",
+        "asset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "PlasmaVault": "0xa5a5A6C279Cc3206762b016b5515B5b02f3eF9da"
+      },
+      {
+        "name": "CurveYield WBTC",
+        "token": "cyWBTC",
+        "asset": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+        "PlasmaVault": "0x45849CE33dd49dB664D37af44D0E0aa3d3Dd61de"
+      },
+      {
+        "name": "CurveYield ETH",
+        "token": "cyETH",
+        "asset": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "PlasmaVault": "0xAC9Ea02e26c3D19F4D4B7ed41e012b0D71C5aEE9"
+      },
+      {
+        "name": "Bitcoin Dollar wBTC",
+        "token": "bdBTC",
+        "asset": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+        "PlasmaVault": "0x7667e481dA5c6b8906E58a2B0114d7506099885C"
+      },
+      {
+        "name": "Prop Capital",
+        "token": "PCAP",
+        "asset": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "PlasmaVault": "0xcE66096C27487Caecf233FfB5c9B2ae26ef463b2"
       }
     ],
     "fuses": [
@@ -3870,6 +3900,372 @@
         "token": "Ccc",
         "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
         "PlasmaVault": "0x6D0d4435B7Bfad6A48fA19cd07287F47E5cFB84B"
+      },
+      {
+        "name": "Dev Decentralised Crypto-Equity Basis Risk Premia Index CCIP",
+        "token": "dev-EQ-BS-IDX-ccip",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x23666CEA8D96313aC825f6262182A8A170363279"
+      },
+      {
+        "name": "Dev Decentralised Crypto-Equity Basis Euler-Pair CCIP: rAAPL - xyz:AAPL",
+        "token": "dev-AAPL-BS-ERHT",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x6910948638A8DDF9e10863a527Cf38694622aba9"
+      },
+      {
+        "name": "Dev Decentralised rAAPL Euler Long CCIP",
+        "token": "dev-rAAPL-long",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x65DDB14C77D866bf223d3357Dcb5cb09820Eb714"
+      },
+      {
+        "name": "Dev AAPL CCIP Short Sender Arbitrum",
+        "token": "dev-AAPL-short",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xEe4418e74D358fD11Ec87Ee3368FefcEcF2ce493"
+      },
+      {
+        "name": "Dev Decentralised Crypto-Equity Basis Euler-Pair CCIP: rNVDA - xyz:NVDA",
+        "token": "dev-NVDA-BS-ERHT",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x461fd8ea30FaBCD505D49bfafF425293969B6813"
+      },
+      {
+        "name": "Dev Decentralised rNVDA Euler Long CCIP",
+        "token": "dev-rNVDA-long",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xcFA86134a457d0E001601B4fca9c65601CeFEe9F"
+      },
+      {
+        "name": "Dev NVDA CCIP Short Sender Arbitrum",
+        "token": "dev-NVDA-short",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xe85a30543B95181a520E2e17DB55EDd74e249D5f"
+      },
+      {
+        "name": "Dev Decentralised Crypto-Equity Basis Euler-Pair CCIP: rTSLA - xyz:TSLA",
+        "token": "dev-TSLA-BS-ERHT",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x3a4E15279F76B512228217756C2D5d0eE283be7B"
+      },
+      {
+        "name": "Dev Decentralised rTSLA Euler Long CCIP",
+        "token": "dev-rTSLA-long",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x35F712E32d14B543CE93c81549edd044D5908307"
+      },
+      {
+        "name": "Dev TSLA CCIP Short Sender Arbitrum",
+        "token": "dev-TSLA-short",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xd79f5EA327330eA4D1bA0f20b1761e05445Df031"
+      },
+      {
+        "name": "Dev Decentralised Crypto-Equity Basis Euler-Pair CCIP: rINTC - xyz:INTC",
+        "token": "dev-INTC-BS-ERHT",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xFa0A1Dfd1A131203544A8E30759b7026CD40C515"
+      },
+      {
+        "name": "Dev Decentralised rINTC Euler Long CCIP",
+        "token": "dev-rINTC-long",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xB4bF627441ff0Ad95a69015d83bE364AC5BcC338"
+      },
+      {
+        "name": "Dev INTC CCIP Short Sender Arbitrum",
+        "token": "dev-INTC-short",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xc24B8E0A52383ebE6D872f82e31814391BfC1b9f"
+      },
+      {
+        "name": "Dev Decentralised Crypto-Equity Basis Euler-Pair CCIP: rMETA - xyz:META",
+        "token": "dev-META-BS-ERHT",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x97585be426fBad84e8fA77C8BEe4e18622006825"
+      },
+      {
+        "name": "Dev Decentralised rMETA Euler Long CCIP",
+        "token": "dev-rMETA-long",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xdFaB73dC2248D9AAaf02454E4a283248b0D745C0"
+      },
+      {
+        "name": "Dev META CCIP Short Sender Arbitrum",
+        "token": "dev-META-short",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x64603F4Fd136dF514d3D71cBb205A12c1B2d4B10"
+      },
+      {
+        "name": "Dev Decentralised Crypto-Equity Basis Euler-Pair CCIP: rSNDK - xyz:SNDK",
+        "token": "dev-SNDK-BS-ERHT",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xF6Bb1d8987EF4355316FaC087e397D85E6efa163"
+      },
+      {
+        "name": "Dev Decentralised rSNDK Euler Long CCIP",
+        "token": "dev-rSNDK-long",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x36fce7894d01b74E139e01E343EC898bf1121709"
+      },
+      {
+        "name": "Dev SNDK CCIP Short Sender Arbitrum",
+        "token": "dev-SNDK-short",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xb3caca37f6e5aEaD5aEA4c9dC4be5F93A58170b9"
+      },
+      {
+        "name": "Dev Decentralised Crypto-Equity Basis Euler-Pair CCIP: rKORU - xyz:KORU",
+        "token": "dev-KORU-BS-ERHT",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xF596A613E1Cc663430dE6AA88D17145efFAB4f13"
+      },
+      {
+        "name": "Dev Decentralised rKORU Euler Long CCIP",
+        "token": "dev-rKORU-long",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x1D7C35B4529E460Cf0ea8DB6B7669dbf8D10B6f9"
+      },
+      {
+        "name": "Dev KORU CCIP Short Sender Arbitrum",
+        "token": "dev-KORU-short",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x0362fE75CD6312385FCA0baB417f974A0dD5F95f"
+      },
+      {
+        "name": "Dev Decentralised Crypto-Equity Basis Euler-Pair CCIP: rMSTR - xyz:MSTR",
+        "token": "dev-MSTR-BS-ERHT",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x2CFC83d0cA9f75a8Ab3cd5202e4DFE9d2F32D0Be"
+      },
+      {
+        "name": "Dev Decentralised rMSTR Euler Long CCIP",
+        "token": "dev-rMSTR-long",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x382b4B1e69f36B2dEc7a117a88D5E489b3CBD7d1"
+      },
+      {
+        "name": "Dev MSTR CCIP Short Sender Arbitrum",
+        "token": "dev-MSTR-short",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xC069A88E06C977e0d8E584Ce39E8B0732D6e0715"
+      },
+      {
+        "name": "Dev Decentralised Crypto-Equity Basis Euler-Pair CCIP: rNBIS - xyz:NBIS",
+        "token": "dev-NBIS-BS-ERHT",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xD3b914Df906cb22B723839c0056985c411CEf379"
+      },
+      {
+        "name": "Dev Decentralised rNBIS Euler Long CCIP",
+        "token": "dev-rNBIS-long",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xdD828384f51256aC9558998622E7634a69737b7b"
+      },
+      {
+        "name": "Dev NBIS CCIP Short Sender Arbitrum",
+        "token": "dev-NBIS-short",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x3b60EEa88A4F665605B74c0Cf28E7b50d7c2A291"
+      },
+      {
+        "name": "Dev Decentralised Crypto-Equity Basis Euler-Pair CCIP: rSOXL - xyz:SOXL",
+        "token": "dev-SOXL-BS-ERHT",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x396edF3e3d3413e7C87bBd7cC6a84402B7aA3a17"
+      },
+      {
+        "name": "Dev Decentralised rSOXL Euler Long CCIP",
+        "token": "dev-rSOXL-long",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x6D5771761e3F00F8484eC4822b16A042B9DfCFE9"
+      },
+      {
+        "name": "Dev SOXL CCIP Short Sender Arbitrum",
+        "token": "dev-SOXL-short",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x8eBCf8Ec94042fF3A178bCFFAA71CA79FaDaaBD5"
+      },
+      {
+        "name": "Dev Decentralised Crypto-Equity Basis Euler-Pair CCIP: rAMD - xyz:AMD",
+        "token": "dev-AMD-BS-ERHT",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x1F3C1308C820D65aa35E673c1E44bd8b39719028"
+      },
+      {
+        "name": "Dev Decentralised rAMD Euler Long CCIP",
+        "token": "dev-rAMD-long",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xB4ab9a919AA7D60690459676a05683138D3019Ec"
+      },
+      {
+        "name": "Dev AMD CCIP Short Sender Arbitrum",
+        "token": "dev-AMD-short",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x9FF97F2bED89Dc8d2D807a1E9c42583A73BEA8b9"
+      },
+      {
+        "name": "Dev Decentralised Crypto-Equity Basis Euler-Pair CCIP: rCRCL - xyz:CRCL",
+        "token": "dev-CRCL-BS-ERHT",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xA9BB9079f7c05c08D0b937585ff916c913eceC63"
+      },
+      {
+        "name": "Dev Decentralised rCRCL Euler Long CCIP",
+        "token": "dev-rCRCL-long",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xD4A705683Ae3dA65df8eF5a8F1139363404C1Bdf"
+      },
+      {
+        "name": "Dev CRCL CCIP Short Sender Arbitrum",
+        "token": "dev-CRCL-short",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xA528F92D81086716a36337A8950CA2e3B431fcB7"
+      },
+      {
+        "name": "Dev Decentralised Crypto-Equity Basis Euler-Pair CCIP: rDRAM - xyz:DRAM",
+        "token": "dev-DRAM-BS-ERHT",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x7133e813be3b97E8208061D786C6A170C066544e"
+      },
+      {
+        "name": "Dev Decentralised rDRAM Euler Long CCIP",
+        "token": "dev-rDRAM-long",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x17ABd0d2a2706f78383e5A74DD84f9C84Cf2c68e"
+      },
+      {
+        "name": "Dev DRAM CCIP Short Sender Arbitrum",
+        "token": "dev-DRAM-short",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xdEeb4F62177dF2d7FDA9B14352f2BE1BC93f8c84"
+      },
+      {
+        "name": "Dev Decentralised Crypto-Equity Basis Euler-Pair CCIP: rEWY - xyz:EWY",
+        "token": "dev-EWY-BS-ERHT",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x73524Da6b8597d003CFa15e3e343B3e44E114f37"
+      },
+      {
+        "name": "Dev Decentralised rEWY Euler Long CCIP",
+        "token": "dev-rEWY-long",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xC729Bb4E7793D5C722FFc98A6335D2D6e871DCb6"
+      },
+      {
+        "name": "Dev EWY CCIP Short Sender Arbitrum",
+        "token": "dev-EWY-short",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x4827eae1459dbF71Cf2c28C08963c4aF1794C857"
+      },
+      {
+        "name": "Dev Decentralised Crypto-Equity Basis Euler-Pair CCIP: rGOOGL - xyz:GOOGL",
+        "token": "dev-GOOGL-BS-ERHT",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x5fbd828990376EF235bCAEEE6000e6984dF585ac"
+      },
+      {
+        "name": "Dev Decentralised rGOOGL Euler Long CCIP",
+        "token": "dev-rGOOGL-long",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xeccB863BCF45D6c210752C83a091c26D0630f6e6"
+      },
+      {
+        "name": "Dev GOOGL CCIP Short Sender Arbitrum",
+        "token": "dev-GOOGL-short",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xb8e851A52c7613876710CD16BC92c10e5cabEC10"
+      },
+      {
+        "name": "Dev Decentralised Crypto-Equity Basis Euler-Pair CCIP: rHOOD - xyz:HOOD",
+        "token": "dev-HOOD-BS-ERHT",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x3e0c23152DEf359fe2EE3025825033ab80780546"
+      },
+      {
+        "name": "Dev Decentralised rHOOD Euler Long CCIP",
+        "token": "dev-rHOOD-long",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x81b4F4d6E45A03D0e84B8d9B2e3b5E93f0F9d166"
+      },
+      {
+        "name": "Dev HOOD CCIP Short Sender Arbitrum",
+        "token": "dev-HOOD-short",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xdB68b988B33e0a57458f5aA9fa8F17CfAd92c1B2"
+      },
+      {
+        "name": "Dev Decentralised Crypto-Equity Basis Euler-Pair CCIP: rMU - xyz:MU",
+        "token": "dev-MU-BS-ERHT",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xa02fc8733e00dC97223013f12e51CFd23Fa74691"
+      },
+      {
+        "name": "Dev Decentralised rMU Euler Long CCIP",
+        "token": "dev-rMU-long",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x475C218BDf225e029DED99ee22C6877A810b5987"
+      },
+      {
+        "name": "Dev MU CCIP Short Sender Arbitrum",
+        "token": "dev-MU-short",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xe6C5D4650e7F6D15B5900be1472CBaD692F36F79"
+      },
+      {
+        "name": "Dev Decentralised Crypto-Equity Basis Euler-Pair CCIP: rORCL - xyz:ORCL",
+        "token": "dev-ORCL-BS-ERHT",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x38b21C7bf362e05e2fF12Db183ED8cF66E22f296"
+      },
+      {
+        "name": "Dev Decentralised rORCL Euler Long CCIP",
+        "token": "dev-rORCL-long",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x0047a8Cf602c30b908Dd720cb165816deEf93b1c"
+      },
+      {
+        "name": "Dev ORCL CCIP Short Sender Arbitrum",
+        "token": "dev-ORCL-short",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x3dbC80c73Fc448CA0B9F9BE75C87dDcc36dE8aC5"
+      },
+      {
+        "name": "Dev Decentralised Crypto-Equity Basis Euler-Pair CCIP: rSKHY - xyz:SKHY",
+        "token": "dev-SKHY-BS-ERHT",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xa998F0E5b1E305d0e5286A3a2Dc30b331898C86A"
+      },
+      {
+        "name": "Dev Decentralised rSKHY Euler Long CCIP",
+        "token": "dev-rSKHY-long",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x81616456e0B056108D26cd2C481195A18d56B6d6"
+      },
+      {
+        "name": "Dev SKHY CCIP Short Sender Arbitrum",
+        "token": "dev-SKHY-short",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x80CE9ac97e354Fc649C7e2Dbf92663a3173C2703"
+      },
+      {
+        "name": "Dev Decentralised Crypto-Equity Basis Euler-Pair CCIP: rSPCX - xyz:SPCX",
+        "token": "dev-SPCX-BS-ERHT",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0xf8b8975cEe54Ef15A2273FD2425D3B32A72b5BC9"
+      },
+      {
+        "name": "Dev Decentralised rSPCX Euler Long CCIP",
+        "token": "dev-rSPCX-long",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x53311085aDeCF2f8A88c69a5Aa843f5921b68cF9"
+      },
+      {
+        "name": "Dev SPCX CCIP Short Sender Arbitrum",
+        "token": "dev-SPCX-short",
+        "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "PlasmaVault": "0x5B385B815Ebae31110055386e191cC204D2Ea2C1"
       }
     ],
     "fuses": [
@@ -3920,50 +4316,58 @@
       {
         "name": "BalanceFuseErc4626Market1",
         "versions": {
-          "2024-10-15": "0xfc938b178e37788CECb6925C9034f589A91783FB"
+          "2024-10-15": "0xfc938b178e37788CECb6925C9034f589A91783FB",
+          "2026-11-19": "0xe81077e11c248b693dd495018b6db5D79399829c"
         }
       },
       {
         "name": "BalanceFuseErc4626Market2",
         "versions": {
-          "2024-10-15": "0xd78C731597247883103682eaF51097FB35d819B4"
+          "2024-10-15": "0xd78C731597247883103682eaF51097FB35d819B4",
+          "2026-11-19": "0xD5c447d4a1ed500799910dfc2aA1E28057aAAE23"
         }
       },
       {
         "name": "BalanceFuseErc4626Market3",
         "versions": {
-          "2024-10-15": "0x5e31e0c31Be569b0E8375B35b6354dE755525ecC"
+          "2024-10-15": "0x5e31e0c31Be569b0E8375B35b6354dE755525ecC",
+          "2026-11-19": "0x2DAF660934993790069393610449498645B7C3C9"
         }
       },
       {
         "name": "BalanceFuseErc4626Market4",
         "versions": {
-          "2025-02-26": "0xa57AE6DD2551eDE6eAd278E47DF9dF3535935418"
+          "2025-02-26": "0xa57AE6DD2551eDE6eAd278E47DF9dF3535935418",
+          "2026-11-19": "0x6480669f51147C1d839250c984A4eb9E0c337373"
         }
       },
       {
         "name": "BalanceFuseErc4626Market5",
         "versions": {
-          "2025-02-26": "0xd3f1F690c9459c1cd7048725f420149668240b7B"
+          "2025-02-26": "0xd3f1F690c9459c1cd7048725f420149668240b7B",
+          "2026-11-19": "0x3439AfCe5D3B6Eec623C741d76158628043C4094"
         }
       },
       {
         "name": "BalanceFuseErc4626Market6",
         "versions": {
-          "2025-02-26": "0x37189A0f865abACc9445F5E44D2d35426d0F2CF7"
+          "2025-02-26": "0x37189A0f865abACc9445F5E44D2d35426d0F2CF7",
+          "2026-11-19": "0x0f096e965fCB00e9a5E08141073615AC4d483A21"
         }
       },
       {
         "name": "BalanceFuseErc4626Market7",
         "versions": {
-          "2025-02-26": "0xA1cD5b1112e6700D98a4A4B39A7946fEC3a4663B"
+          "2025-02-26": "0xA1cD5b1112e6700D98a4A4B39A7946fEC3a4663B",
+          "2026-11-19": "0x9FAF16Fd448bc6c960B505324D72B2D65f3dd060"
         }
       },
       {
         "name": "BalanceFuseEulerV2",
         "versions": {
           "2025-05-29": "0x654Ee0c6d477A4ddFE62f600Ed52134593c1733c",
-          "2025-07-03": "0xF7dF7b8eB5B0c6d02b1b8FEC769dFE65D9a27E3b"
+          "2025-07-03": "0xF7dF7b8eB5B0c6d02b1b8FEC769dFE65D9a27E3b",
+          "2026-11-19": "0x43f88bACDFb698D97d3734bE732881D9872Fe81c"
         }
       },
       {
@@ -3999,7 +4403,8 @@
       {
         "name": "BalanceFuseMorpho",
         "versions": {
-          "2025-08-26": "0x502E904E9dd40B8274dFF84F2dbFcCA48dE8F802"
+          "2025-08-26": "0x502E904E9dd40B8274dFF84F2dbFcCA48dE8F802",
+          "2026-11-19": "0x2Baaf41d038938350e02dC170AB84432f74bF569"
         }
       },
       {
@@ -4065,7 +4470,8 @@
       {
         "name": "BatchFuseEulerV2",
         "versions": {
-          "2026-08-06": "0x91e5b36CD9070728878e733a872C2BC0AA1Fb3b5"
+          "2026-08-06": "0x91e5b36CD9070728878e733a872C2BC0AA1Fb3b5",
+          "2026-11-19": "0xbF18426998e5E58aE2f4789035A3E864E9cf7Cd4"
         }
       },
       {
@@ -4078,7 +4484,8 @@
         "name": "BorrowFuseEulerV2",
         "versions": {
           "2025-05-29": "0xe436decF5a8D7004338833555ee3970B24a9f47F",
-          "2025-07-03": "0x10eb9B247e7Ce00F3290F66d8B5E83BfD311375F"
+          "2025-07-03": "0x10eb9B247e7Ce00F3290F66d8B5E83BfD311375F",
+          "2026-11-19": "0x6BC0C38D730370c168061E0F24E9846cf00A618D"
         }
       },
       {
@@ -4098,13 +4505,15 @@
       {
         "name": "CcipCrosschainCommandFuse",
         "versions": {
-          "2026-10-23": "0x997F12b31a6B1011ba844Bd0BC5fbeBCC7604793"
+          "2026-10-23": "0x997F12b31a6B1011ba844Bd0BC5fbeBCC7604793",
+          "2026-11-19": "0x2E50F57e80a0F63d8FdFFF0D32f9bd034EB8642D"
         }
       },
       {
         "name": "CcipCrosschainSupplyFuse",
         "versions": {
-          "2026-10-23": "0x00a20FD711083CcE9C9c4292762aFf79f78C48eb"
+          "2026-10-23": "0x00a20FD711083CcE9C9c4292762aFf79f78C48eb",
+          "2026-11-19": "0xd5488063db3097A62C5D918a7A75f249BDCc36F9"
         }
       },
       {
@@ -4141,7 +4550,8 @@
         "name": "CollateralFuseEulerV2",
         "versions": {
           "2025-05-29": "0x4567EE5D7D531f2e09DA915d95c8c7bb0c2b1459",
-          "2025-07-03": "0x6D35934cB431B36338fF88641BEBF540e826bd7D"
+          "2025-07-03": "0x6D35934cB431B36338fF88641BEBF540e826bd7D",
+          "2026-11-19": "0xb9A237254ce29A20Eb5944c000af358E0Eba92FA"
         }
       },
       {
@@ -4166,26 +4576,30 @@
         "name": "ConfigureInstantWithdrawalFuse",
         "versions": {
           "2025-09-30": "0x77C66a7A637D90662BDC35E2C8bBc29ef6a3264F",
-          "2026-10-22": "0x90AdF1e7BB9CB12301140d18B86AD621049156B1"
+          "2026-10-22": "0x90AdF1e7BB9CB12301140d18B86AD621049156B1",
+          "2026-11-19": "0x8605Ef3131D2c996F9d2C8E4a90195FBA8A9b31a"
         }
       },
       {
         "name": "ControllerFuseEulerV2",
         "versions": {
           "2025-05-29": "0xc27E938FCA53E3f5fE5deb9141033573048a22B4",
-          "2025-07-03": "0x2A02Ae392816441E804aa9eCcf5c0333911Dc989"
+          "2025-07-03": "0x2A02Ae392816441E804aa9eCcf5c0333911Dc989",
+          "2026-11-19": "0xC37069946E23371DFd4d4F262dFb02E13c57bB9d"
         }
       },
       {
         "name": "CrosschainBalanceFuse",
         "versions": {
-          "2026-10-23": "0x5896f376F06faB3964B1e060F8F3A86131D639c2"
+          "2026-10-23": "0x5896f376F06faB3964B1e060F8F3A86131D639c2",
+          "2026-11-19": "0x091f30114dC270a18013557a41F5F25889369c80"
         }
       },
       {
         "name": "CrosschainClaimFuse",
         "versions": {
-          "2026-10-23": "0x77bE16F7b33332BE2589E8E0582b397c524cF0d9"
+          "2026-10-23": "0x77bE16F7b33332BE2589E8E0582b397c524cF0d9",
+          "2026-11-19": "0xf4Ef4320fABd270Fdf10dC0d115587F66B7F8445"
         }
       },
       {
@@ -4236,19 +4650,22 @@
       {
         "name": "FuseRedeemFromRequestPlasmaVaultMarket1",
         "versions": {
-          "2025-03-25": "0x4d3E8763E86Dee40B34bC21e098b26f5B9ba394d"
+          "2025-03-25": "0x4d3E8763E86Dee40B34bC21e098b26f5B9ba394d",
+          "2026-11-19": "0x4B98044a8CAc198b1D797E6Ed0CEe8c94C78B771"
         }
       },
       {
         "name": "FuseRequestSharesPlasmaVaultMarket1",
         "versions": {
-          "2025-03-25": "0xD6c4bf7Ac3AEA99Fa01532e4457202AE41A2596B"
+          "2025-03-25": "0xD6c4bf7Ac3AEA99Fa01532e4457202AE41A2596B",
+          "2026-11-19": "0x2946b0F7A235b46E5cDE32eb471435AE4e77E557"
         }
       },
       {
         "name": "FuseRequestSharesPlasmaVaultV2",
         "versions": {
-          "2026-08-06": "0x023f0766Ec493fe5cC6634615df997F1396b6150"
+          "2026-08-06": "0x023f0766Ec493fe5cC6634615df997F1396b6150",
+          "2026-11-19": "0xD7683A622060A5B9782755c28C636604ecbc9D65"
         }
       },
       {
@@ -4383,20 +4800,23 @@
       {
         "name": "StargateCrosschainCommandFuse",
         "versions": {
-          "2026-10-23": "0x1db232F02E2E02Be39c69eac1e464643505f57ea"
+          "2026-10-23": "0x1db232F02E2E02Be39c69eac1e464643505f57ea",
+          "2026-11-19": "0xa14ce8Ba6551676096a6fF1132b788F6e3e9CEF5"
         }
       },
       {
         "name": "StargateCrosschainSupplyFuse",
         "versions": {
-          "2026-10-23": "0x21f00eD44532168826910C1DBb3557c033012bf2"
+          "2026-10-23": "0x21f00eD44532168826910C1DBb3557c033012bf2",
+          "2026-11-19": "0x7aB316888D524D84875Bf0773b2f7dd8E95a5755"
         }
       },
       {
         "name": "SupplyFuseAaveV3",
         "versions": {
           "2024-09-03": "0x9339acD4e73C8a11109f77bC87221bDfC7b7A4FC",
-          "2025-08-19": "0x304756cD719382281fBD640f5F7932465eD663D6"
+          "2025-08-19": "0x304756cD719382281fBD640f5F7932465eD663D6",
+          "2026-11-19": "0x1a2999b03E5C52D31C676F208049ef204C8c43bB"
         }
       },
       {
@@ -4410,7 +4830,8 @@
         "versions": {
           "2024-10-15": "0xe7d3a550F0aD32cCBEF570C670b5ac004C276f24",
           "2026-09-14": "0xC0C26EeB9c8BE5aa0f4e597E9BB7fDca3498E845",
-          "2026-10-22": "0x600F183A57dACE3eD1113f9B8087cce635219779"
+          "2026-10-22": "0x600F183A57dACE3eD1113f9B8087cce635219779",
+          "2026-11-19": "0x380D8681Aaa618A87DD6092580a497c5711825D1"
         }
       },
       {
@@ -4418,7 +4839,8 @@
         "versions": {
           "2024-10-15": "0xBA4e51A46b562cBaEF372C07bF191c7111a067aA",
           "2026-09-14": "0xBd0f8b717D75ecD1a304a9797946E32e00976D84",
-          "2026-10-22": "0x2Ff6adC0ea75F649a22e418d908b562001D9f58a"
+          "2026-10-22": "0x2Ff6adC0ea75F649a22e418d908b562001D9f58a",
+          "2026-11-19": "0x84d0c1411ffF2EEBCD57f4A9B3420C8f39118C2a"
         }
       },
       {
@@ -4426,7 +4848,8 @@
         "versions": {
           "2024-10-15": "0xF5c5E375d219e573B10f9c90A1815f93951AD275",
           "2026-09-14": "0xB3aB3552c945A282DB2822029830B5097c94d80E",
-          "2026-10-22": "0x7a5FDb651C21A8bccf4f3f61461aba93fD7e43E1"
+          "2026-10-22": "0x7a5FDb651C21A8bccf4f3f61461aba93fD7e43E1",
+          "2026-11-19": "0x3d0D4D8B6e432C764BAF9F62C7831E939AE294d3"
         }
       },
       {
@@ -4434,7 +4857,8 @@
         "versions": {
           "2025-02-26": "0x2f34F8566952b055F3Cc32ACB8b9C8203E91132A",
           "2026-09-14": "0x2962bc673FF9c275DD59A4feEF3CA68c0e8A4a8f",
-          "2026-10-22": "0x41cCc99BCBFCA3D19cF133b459d00C43D694ACdC"
+          "2026-10-22": "0x41cCc99BCBFCA3D19cF133b459d00C43D694ACdC",
+          "2026-11-19": "0x8a60e9019840C568114e20Fdb48D300ECA85998A"
         }
       },
       {
@@ -4442,7 +4866,8 @@
         "versions": {
           "2025-02-26": "0x28eE4cD5E888f6331B6c6c38959bBBE05eF7D73A",
           "2026-09-14": "0x2c3f01D0dEC6B2BBC375Eb263f08b7815D159cFc",
-          "2026-10-22": "0x5F166B3FC03a6f4CC376BE2d815A83D301E39a16"
+          "2026-10-22": "0x5F166B3FC03a6f4CC376BE2d815A83D301E39a16",
+          "2026-11-19": "0x2F87645162f3CF3Eb0E8c15E147Ddd56AaB727Aa"
         }
       },
       {
@@ -4450,7 +4875,8 @@
         "versions": {
           "2025-02-26": "0x0dE665bb75556ea407C23b513A5d521064245b3e",
           "2026-09-14": "0xDd0b08F4106989d2bE7b611C0EeeCD970883ed85",
-          "2026-10-22": "0xBeE686F4c22d84a20B673Ee2D75D10b0A7931a48"
+          "2026-10-22": "0xBeE686F4c22d84a20B673Ee2D75D10b0A7931a48",
+          "2026-11-19": "0x4633Fed04a66a8b43540F054d70366a3146Cbc97"
         }
       },
       {
@@ -4458,7 +4884,8 @@
         "versions": {
           "2025-02-26": "0x624E2AB4E17aA38B078674eec75dbadcc10e295B",
           "2026-09-14": "0x5Da3B426f7BE5E73d8248E4f9fD409CfE03d5b99",
-          "2026-10-22": "0xeBBa242637208C101CeCEf456e970b2F91fd89D4"
+          "2026-10-22": "0xeBBa242637208C101CeCEf456e970b2F91fd89D4",
+          "2026-11-19": "0xB3c9CbDdC0BbEBC4D13F700F4f8936a13050EDbC"
         }
       },
       {
@@ -4466,7 +4893,8 @@
         "versions": {
           "2025-05-29": "0x371718ca5cf78A2C8fD2f44Ec2CE88363481B2D3",
           "2025-07-03": "0x96A29E00C13A3e23f91259364F118501e1a46344",
-          "2026-01-12": "0x920f6c81666877490A8D6dcFEFd85d151Ef04B7d"
+          "2026-01-12": "0x920f6c81666877490A8D6dcFEFd85d151Ef04B7d",
+          "2026-11-19": "0x8Ff3f4ADeeE3743e791a88E06f6903cFac597cdA"
         }
       },
       {
@@ -4496,20 +4924,23 @@
       {
         "name": "SupplyFuseMorpho",
         "versions": {
-          "2025-08-26": "0x5Ea9d92fb3975f9f9d1Fa69b98A37BF4dDe61e2a"
+          "2025-08-26": "0x5Ea9d92fb3975f9f9d1Fa69b98A37BF4dDe61e2a",
+          "2026-11-19": "0x1830C23ED83e6b859cDC58BDC59d42c123E7E665"
         }
       },
       {
         "name": "SupplyFuseMorphoLiquidityInMarkets",
         "versions": {
-          "2025-12-19": "0xB9eeAe4234445Cb84e7d9f45686DCB934f21fFC9"
+          "2025-12-19": "0xB9eeAe4234445Cb84e7d9f45686DCB934f21fFC9",
+          "2026-11-19": "0xAd0c8349445fb3Fe54166bC6D8b06a6a4C17b40a"
         }
       },
       {
         "name": "SwapDeployFuseEulerV2",
         "versions": {
           "2026-08-06": "0x25bE82F7d186590A7Adb21cb7B179A75E1884D42",
-          "2026-10-22": "0x326aFaDB1969221465C1DF6853c5cA51d03DD880"
+          "2026-10-22": "0x326aFaDB1969221465C1DF6853c5cA51d03DD880",
+          "2026-11-19": "0xD527af047147c359e8e0E2001305cb9CfCbf92dB"
         }
       },
       {
@@ -4566,13 +4997,15 @@
         "name": "SwapReconfigureFuseEulerV2",
         "versions": {
           "2026-08-06": "0xC650f5b5f7785C925D70C6544B78f1b437b1C255",
-          "2026-10-22": "0x4570a1cBD76c182246A586D5c11bBE418B008f87"
+          "2026-10-22": "0x4570a1cBD76c182246A586D5c11bBE418B008f87",
+          "2026-11-19": "0x8088a4A0feF38d1F7240baA37f73B452Ba4dCF70"
         }
       },
       {
         "name": "SwapRegistryFuseEulerV2",
         "versions": {
-          "2026-08-06": "0x833A68A4bB4e0eb93130FcdbCAaac51b65ebeD0C"
+          "2026-08-06": "0x833A68A4bB4e0eb93130FcdbCAaac51b65ebeD0C",
+          "2026-11-19": "0xaCDFb0f794312e1797Cb8BBC41cA874D083B3E7e"
         }
       },
       {
@@ -4627,7 +5060,8 @@
       {
         "name": "CrosschainNavValidationPreHook",
         "versions": {
-          "2026-10-23": "0xA17c7A5Ed994aA5FE99C22B37DeCBCbfb32FaFe3"
+          "2026-10-23": "0xA17c7A5Ed994aA5FE99C22B37DeCBCbfb32FaFe3",
+          "2026-11-19": "0xf814AbAD7664E61c328A50Ed02197A89127d0A57"
         }
       },
       {
@@ -6564,6 +6998,30 @@
         "token": "ERSV",
         "asset": "0x4200000000000000000000000000000000000006",
         "PlasmaVault": "0xa11f76E37df22378FF0Bbd493d801C5577238030"
+      },
+      {
+        "name": "S13 QA Base Vault",
+        "token": "S13QA",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x4BAA43Bc7e3b67644C07f88c56562042DbD2c2A3"
+      },
+      {
+        "name": "Yearn Test Vault",
+        "token": "ytv",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x9EFC7abb1043Ee30bb20262B8c1Ba46c65Fe2827"
+      },
+      {
+        "name": "Community USDC Optimizer",
+        "token": "icmUSDC",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0x0989eFcc40a165f60fA2102B81AE88B938572380"
+      },
+      {
+        "name": "QA Events W01 Base",
+        "token": "QAEV01",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "PlasmaVault": "0xd46a65927f553607f5828a34Cc5e6f399dca303B"
       }
     ],
     "fuses": [
@@ -9875,31 +10333,36 @@
       {
         "name": "BalanceFuseErc4626Market1",
         "versions": {
-          "2026-07-09": "0x0381B54618562B39c59A9cCDA86b24a5027f15E7"
+          "2026-07-09": "0x0381B54618562B39c59A9cCDA86b24a5027f15E7",
+          "2026-11-20": "0x26451D5F068974F76F4CB74a0E15F3B3Fe456789"
         }
       },
       {
         "name": "BalanceFuseErc4626Market2",
         "versions": {
-          "2026-07-09": "0x20Ae5e2172A26E58A93BB24eAE1e2C35ad88D0cd"
+          "2026-07-09": "0x20Ae5e2172A26E58A93BB24eAE1e2C35ad88D0cd",
+          "2026-11-20": "0xA36E019AB48Cd4268fE1932521951D2AB74F3718"
         }
       },
       {
         "name": "BalanceFuseErc4626Market3",
         "versions": {
-          "2026-07-09": "0xEE595036F1C872178f24A25b758D54b9E6037003"
+          "2026-07-09": "0xEE595036F1C872178f24A25b758D54b9E6037003",
+          "2026-11-20": "0x64238737A77FfF06a1B5465c70D317a15125B2e9"
         }
       },
       {
         "name": "BalanceFuseErc4626Market4",
         "versions": {
-          "2026-07-09": "0xf3De2cbD6B2db65E257a780a4935bf56E799204b"
+          "2026-07-09": "0xf3De2cbD6B2db65E257a780a4935bf56E799204b",
+          "2026-11-20": "0xA494616A9ac14E4C65CA6022917680b6311Cd20B"
         }
       },
       {
         "name": "BalanceFuseErc4626Market5",
         "versions": {
-          "2026-07-09": "0x297A7ecA79967b1e1f0Ff5c0f59E9149FBaCf0f6"
+          "2026-07-09": "0x297A7ecA79967b1e1f0Ff5c0f59E9149FBaCf0f6",
+          "2026-11-20": "0x20B0A6817d8D28FB1549Fe56a3570B38754C86fC"
         }
       },
       {
@@ -9960,13 +10423,15 @@
       {
         "name": "CcipCrosschainCommandFuse",
         "versions": {
-          "2026-10-23": "0x997F12b31a6B1011ba844Bd0BC5fbeBCC7604793"
+          "2026-10-23": "0x997F12b31a6B1011ba844Bd0BC5fbeBCC7604793",
+          "2026-11-20": "0x2E50F57e80a0F63d8FdFFF0D32f9bd034EB8642D"
         }
       },
       {
         "name": "CcipCrosschainSupplyFuse",
         "versions": {
-          "2026-10-23": "0x00a20FD711083CcE9C9c4292762aFf79f78C48eb"
+          "2026-10-23": "0x00a20FD711083CcE9C9c4292762aFf79f78C48eb",
+          "2026-11-20": "0xd5488063db3097A62C5D918a7A75f249BDCc36F9"
         }
       },
       {
@@ -9990,13 +10455,15 @@
       {
         "name": "CrosschainBalanceFuse",
         "versions": {
-          "2026-10-23": "0x5896f376F06faB3964B1e060F8F3A86131D639c2"
+          "2026-10-23": "0x5896f376F06faB3964B1e060F8F3A86131D639c2",
+          "2026-11-20": "0x091f30114dC270a18013557a41F5F25889369c80"
         }
       },
       {
         "name": "CrosschainClaimFuse",
         "versions": {
-          "2026-10-23": "0x77bE16F7b33332BE2589E8E0582b397c524cF0d9"
+          "2026-10-23": "0x77bE16F7b33332BE2589E8E0582b397c524cF0d9",
+          "2026-11-20": "0xf4Ef4320fABd270Fdf10dC0d115587F66B7F8445"
         }
       },
       {
@@ -10050,43 +10517,50 @@
       {
         "name": "HyperCoreBalanceFuse",
         "versions": {
-          "2026-10-22": "0xbEd25202529DCD2a05f7D8944B10779b6dbc6Fa6"
+          "2026-10-22": "0xbEd25202529DCD2a05f7D8944B10779b6dbc6Fa6",
+          "2026-11-20": "0xac4e98210027313E25f1a4655096FFAd0d47b7F7"
         }
       },
       {
         "name": "HyperCoreBuilderFeeFuse",
         "versions": {
-          "2026-10-22": "0xf6dF3B5D427E9B46C5D14684512E467C9B71AD6c"
+          "2026-10-22": "0xf6dF3B5D427E9B46C5D14684512E467C9B71AD6c",
+          "2026-11-20": "0xa4476CF46C9CE9bC53704d1df11306a8269aF41b"
         }
       },
       {
         "name": "HyperCoreCancelFuse",
         "versions": {
-          "2026-10-22": "0xdbf6833211A41B2edD5575e639E2Bb5C6dea6fD8"
+          "2026-10-22": "0xdbf6833211A41B2edD5575e639E2Bb5C6dea6fD8",
+          "2026-11-20": "0x78c8Ba7B1899e86A7D865aF9d932C1F52DAB7F5c"
         }
       },
       {
         "name": "HyperCoreDepositFuse",
         "versions": {
-          "2026-10-22": "0x5DBB60251Ff1F4BD57394976F4526987d05d1eB6"
+          "2026-10-22": "0x5DBB60251Ff1F4BD57394976F4526987d05d1eB6",
+          "2026-11-20": "0x56460Eb21aFD387B9A05b9dC73ca4Ad64af4842b"
         }
       },
       {
         "name": "HyperCoreMarginFuse",
         "versions": {
-          "2026-10-22": "0xE7e8a7D15e4eb558B953d91c602EFfDbE913959e"
+          "2026-10-22": "0xE7e8a7D15e4eb558B953d91c602EFfDbE913959e",
+          "2026-11-20": "0x374fc547610098a48E17686F43579b61A3512D66"
         }
       },
       {
         "name": "HyperCoreOrderFuse",
         "versions": {
-          "2026-10-22": "0x96f97c088E9610A036a2738B004DF04Ee9Cf17a2"
+          "2026-10-22": "0x96f97c088E9610A036a2738B004DF04Ee9Cf17a2",
+          "2026-11-20": "0xC51a74b7c7299D90993B5162B0a64f5E3CEb132c"
         }
       },
       {
         "name": "HyperCoreSendFuse",
         "versions": {
-          "2026-10-22": "0x0C7b6788716eD1563De79743C2b7690D82f7C999"
+          "2026-10-22": "0x0C7b6788716eD1563De79743C2b7690D82f7C999",
+          "2026-11-20": "0x01F14e0BD481269b3EaadA57e698fD904d45079b"
         }
       },
       {
@@ -10128,43 +10602,50 @@
       {
         "name": "StargateCrosschainCommandFuse",
         "versions": {
-          "2026-10-23": "0x1db232F02E2E02Be39c69eac1e464643505f57ea"
+          "2026-10-23": "0x1db232F02E2E02Be39c69eac1e464643505f57ea",
+          "2026-11-20": "0xa14ce8Ba6551676096a6fF1132b788F6e3e9CEF5"
         }
       },
       {
         "name": "StargateCrosschainSupplyFuse",
         "versions": {
-          "2026-10-23": "0x21f00eD44532168826910C1DBb3557c033012bf2"
+          "2026-10-23": "0x21f00eD44532168826910C1DBb3557c033012bf2",
+          "2026-11-20": "0x7aB316888D524D84875Bf0773b2f7dd8E95a5755"
         }
       },
       {
         "name": "SupplyFuseErc4626Market1",
         "versions": {
-          "2026-07-09": "0xaaE1253b81ffa5dA5e25bc1ade7A009D9488a2B5"
+          "2026-07-09": "0xaaE1253b81ffa5dA5e25bc1ade7A009D9488a2B5",
+          "2026-11-20": "0xa3Ce85cC85DDb893A595406D7527E19d8310bE1d"
         }
       },
       {
         "name": "SupplyFuseErc4626Market2",
         "versions": {
-          "2026-07-09": "0x052A6a2464F8079f778f52b4dCb311EA16B6B439"
+          "2026-07-09": "0x052A6a2464F8079f778f52b4dCb311EA16B6B439",
+          "2026-11-20": "0x02a5F4bc737532F3603fdF171ffa0571129e4Af6"
         }
       },
       {
         "name": "SupplyFuseErc4626Market3",
         "versions": {
-          "2026-07-09": "0x23e1fd6F58546c69c9DBb4a46cC02504b69daa2E"
+          "2026-07-09": "0x23e1fd6F58546c69c9DBb4a46cC02504b69daa2E",
+          "2026-11-20": "0xcc7AdB918d013B152EB00BE103519B03E1E05B70"
         }
       },
       {
         "name": "SupplyFuseErc4626Market4",
         "versions": {
-          "2026-07-09": "0x778a9cFdBA586375912b069ded5d79Aea600B323"
+          "2026-07-09": "0x778a9cFdBA586375912b069ded5d79Aea600B323",
+          "2026-11-20": "0x1F2ac4422069A71DDC52bF59245841ef023A0DcA"
         }
       },
       {
         "name": "SupplyFuseErc4626Market5",
         "versions": {
-          "2026-07-09": "0xb766Dd4Bb3B3B9219A1a9EaE5e6f32a52Df5141F"
+          "2026-07-09": "0xb766Dd4Bb3B3B9219A1a9EaE5e6f32a52Df5141F",
+          "2026-11-20": "0x83bdEF784C6958861a1DB22897FebE3172558E48"
         }
       },
       {
@@ -10220,7 +10701,8 @@
       {
         "name": "CrosschainNavValidationPreHook",
         "versions": {
-          "2026-10-23": "0xA17c7A5Ed994aA5FE99C22B37DeCBCbfb32FaFe3"
+          "2026-10-23": "0xA17c7A5Ed994aA5FE99C22B37DeCBCbfb32FaFe3",
+          "2026-11-20": "0xf814AbAD7664E61c328A50Ed02197A89127d0A57"
         }
       },
       {
@@ -10238,13 +10720,15 @@
       {
         "name": "HyperCoreCapitalFlowPreHook",
         "versions": {
-          "2026-10-22": "0xbA999E8b50bDC2672CcE13A1F896aaD7Dc5BE547"
+          "2026-10-22": "0xbA999E8b50bDC2672CcE13A1F896aaD7Dc5BE547",
+          "2026-11-20": "0x3ef32a6005AadF9A696347e99c0Fc3C4Dafe344C"
         }
       },
       {
         "name": "HyperCorePendingActionPreHook",
         "versions": {
-          "2026-10-22": "0xd240690cf7C41dDD75863c4b4a9358ea62B20c85"
+          "2026-10-22": "0xd240690cf7C41dDD75863c4b4a9358ea62B20c85",
+          "2026-11-20": "0xB4c7B646Ad0FF89D7fAF9Efc36550b062e72883e"
         }
       },
       {
