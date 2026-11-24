@@ -6,7 +6,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## Fuses List
 
-*Last updated: 2026-11-20 02:45:54 UTC*
+*Last updated: 2026-11-24 01:33:47 UTC*
 
 ### Ethereum Fuses
 
@@ -472,7 +472,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `AsyncActionBalanceFuse` | `0x89a204AA373a56B02ABAd265BEa12B70C4f2a142` [View](https://basescan.org/address/0x89a204AA373a56B02ABAd265BEa12B70C4f2a142#code) |
 | `AsyncActionFuse` | `0xF328E4e84446CF5400F9baf1482E939F88A9E460` [View](https://basescan.org/address/0xF328E4e84446CF5400F9baf1482E939F88A9E460#code) |
 | `BalanceFuseAaveV3` | `0xf53f3EaFfDf67539256365cA7299540A98b60BA9` [View](https://basescan.org/address/0xf53f3EaFfDf67539256365cA7299540A98b60BA9#code) |
-| `BalanceFuseAaveV4` | `0xB327aD8cB8Ff597C707790335638B62773a04c36` [View](https://basescan.org/address/0xB327aD8cB8Ff597C707790335638B62773a04c36#code) |
+| `BalanceFuseAaveV4` | `0xFfB18686FfD6143d727E645232d13742f31543ed` [View](https://basescan.org/address/0xFfB18686FfD6143d727E645232d13742f31543ed#code) |
 | `BalanceFuseAerodrome` | `0xDBBE09c09FCE1B841fE46Ac6b06e2a4F8128c838` [View](https://basescan.org/address/0xDBBE09c09FCE1B841fE46Ac6b06e2a4F8128c838#code) |
 | `BalanceFuseAerodromeSlipstream` | `0x3075a82e51e3Ef3990656e4B3829507FB5275B53` [View](https://basescan.org/address/0x3075a82e51e3Ef3990656e4B3829507FB5275B53#code) |
 | `BalanceFuseBurnRequestFee` | `0x341D2459606FEB164A986767cB72Ddd8230744Fe` [View](https://basescan.org/address/0x341D2459606FEB164A986767cB72Ddd8230744Fe#code) |
@@ -480,6 +480,143 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `BalanceFuseCompoundV3WEth` | `0x88810B5066A92d628A1Cb59A1902bc607eeb8C1B` [View](https://basescan.org/address/0x88810B5066A92d628A1Cb59A1902bc607eeb8C1B#code) |
 | `BalanceFuseCompoundV3WithPriceOracleMiddlewareUsdc` | `0x07D909B0a1424abb2d79d02FBa9bf6968Cc8A0dA` [View](https://basescan.org/address/0x07D909B0a1424abb2d79d02FBa9bf6968Cc8A0dA#code) |
 | `BalanceFuseErc20` | `0x9ba147FC382DBf4D73512A45370ba0B70c25F6aa` [View](https://basescan.org/address/0x9ba147FC382DBf4D73512A45370ba0B70c25F6aa#code) |
+| `BalanceFuseErc4626Market1` | `0x3A3688d6749099E7834459488f043C02F8452aE9` [View](https://basescan.org/address/0x3A3688d6749099E7834459488f043C02F8452aE9#code) |
+| `BalanceFuseErc4626Market10` | `0x4B54bA3dC58f8D3879803f93fcd14a0DE2811aa9` [View](https://basescan.org/address/0x4B54bA3dC58f8D3879803f93fcd14a0DE2811aa9#code) |
+| `BalanceFuseErc4626Market11` | `0xBFA58631B2d1088F6C2F1E7EFE645f49DEE09313` [View](https://basescan.org/address/0xBFA58631B2d1088F6C2F1E7EFE645f49DEE09313#code) |
+| `BalanceFuseErc4626Market12` | `0x443f653f114cfEF83dd15c20a5A5c793Df63C766` [View](https://basescan.org/address/0x443f653f114cfEF83dd15c20a5A5c793Df63C766#code) |
+| `BalanceFuseErc4626Market13` | `0x575339f7778554730653BbE09a6302F12eA01699` [View](https://basescan.org/address/0x575339f7778554730653BbE09a6302F12eA01699#code) |
+| `BalanceFuseErc4626Market14` | `0xEc822664852b79247F8735cC70ca46c8760AD082` [View](https://basescan.org/address/0xEc822664852b79247F8735cC70ca46c8760AD082#code) |
+| `BalanceFuseErc4626Market2` | `0x7C0D23ff8a5297af0426b474090C60d5C9f7a594` [View](https://basescan.org/address/0x7C0D23ff8a5297af0426b474090C60d5C9f7a594#code) |
+| `BalanceFuseErc4626Market3` | `0x5d51fbd37E913C84e73E00943b811e97725ECDa3` [View](https://basescan.org/address/0x5d51fbd37E913C84e73E00943b811e97725ECDa3#code) |
+| `BalanceFuseErc4626Market4` | `0x0D03886A60Da47609C22CbcaC8cbB8E5765b8e52` [View](https://basescan.org/address/0x0D03886A60Da47609C22CbcaC8cbB8E5765b8e52#code) |
+| `BalanceFuseErc4626Market5` | `0x16b72c8A550A6a16bE76E7acd426993F0A26B25B` [View](https://basescan.org/address/0x16b72c8A550A6a16bE76E7acd426993F0A26B25B#code) |
+| `BalanceFuseErc4626Market6` | `0x90dBBCa4b1f21971193fadB084812E2aFfde3FC9` [View](https://basescan.org/address/0x90dBBCa4b1f21971193fadB084812E2aFfde3FC9#code) |
+| `BalanceFuseErc4626Market7` | `0x204cA4C78c44BA8dfF88247d0e74C16dC81f18dc` [View](https://basescan.org/address/0x204cA4C78c44BA8dfF88247d0e74C16dC81f18dc#code) |
+| `BalanceFuseErc4626Market8` | `0x4FEe9784dFA8FdB03015026853492e747a1380E3` [View](https://basescan.org/address/0x4FEe9784dFA8FdB03015026853492e747a1380E3#code) |
+| `BalanceFuseErc4626Market9` | `0xf4D8E64EC444cBC780b752ebF517be67ceD24b31` [View](https://basescan.org/address/0xf4D8E64EC444cBC780b752ebF517be67ceD24b31#code) |
+| `BalanceFuseEulerV2` | `0x06D685CBF2d63926ac198645Dd09da2443Cf86f0` [View](https://basescan.org/address/0x06D685CBF2d63926ac198645Dd09da2443Cf86f0#code) |
+| `BalanceFuseFlashLoanMorpho` | `0x2Ce01779CfE56DC253D0Ac1b47E3bb7E597bCaEA` [View](https://basescan.org/address/0x2Ce01779CfE56DC253D0Ac1b47E3bb7E597bCaEA#code) |
+| `BalanceFuseFluidInstadappPoolFToken` | `0x373419C89568d75b962C895E0c99f26D2f5f355e` [View](https://basescan.org/address/0x373419C89568d75b962C895E0c99f26D2f5f355e#code) |
+| `BalanceFuseFluidInstadappStakingRewardsFToken` | `0x29d294d3d8Bb422ddDc925Cb95a903d34eEB208A` [View](https://basescan.org/address/0x29d294d3d8Bb422ddDc925Cb95a903d34eEB208A#code) |
+| `BalanceFuseMetaMorphoMarket0001` | `0x01992634A3719705170C23f740aED16095F5705f` [View](https://basescan.org/address/0x01992634A3719705170C23f740aED16095F5705f#code) |
+| `BalanceFuseMoonwell` | `0x86417B0B3B03e8BC8b68377994363796b4ccD3Bc` [View](https://basescan.org/address/0x86417B0B3B03e8BC8b68377994363796b4ccD3Bc#code) |
+| `BalanceFuseMorpho` | `0x8ee4f48007183a65f7582f1D7B16b3B40B68DcB2` [View](https://basescan.org/address/0x8ee4f48007183a65f7582f1D7B16b3B40B68DcB2#code) |
+| `BalanceFuseMorphoLiquidityInMarkets` | `0x89d8b9a7E00cCea1C6d8f71D6a80708E1B211d20` [View](https://basescan.org/address/0x89d8b9a7E00cCea1C6d8f71D6a80708E1B211d20#code) |
+| `BalanceFuseOdosSwapper` | `0x758524777B2a6eC40097eA442ca8e1BBaBc137b6` [View](https://basescan.org/address/0x758524777B2a6eC40097eA442ca8e1BBaBc137b6#code) |
+| `BalanceFusePendle` | `0xc8A552BF7279a932b9fCA8F527Ef292083c5B87f` [View](https://basescan.org/address/0xc8A552BF7279a932b9fCA8F527Ef292083c5B87f#code) |
+| `BalanceFuseSwapPositionsUniswapV3` | `0x9c84c1A708eB8FfE699d7c2a81eC00b028ac3aac` [View](https://basescan.org/address/0x9c84c1A708eB8FfE699d7c2a81eC00b028ac3aac#code) |
+| `BalanceFuseSwapUniswapV3` | `0x5F169161227F92D6FBb691Ea1e4e89ea3fed24B3` [View](https://basescan.org/address/0x5F169161227F92D6FBb691Ea1e4e89ea3fed24B3#code) |
+| `BalanceFuseUniswapV4` | `0x95c54602EA008E1f2568E7559C579d868F54a74a` [View](https://basescan.org/address/0x95c54602EA008E1f2568E7559C579d868F54a74a#code) |
+| `BalanceFuseUniversalTokenSwapper` | `0x706ca1cA4EcE9CF23301D6AB35ce6fb7Cf25DA15` [View](https://basescan.org/address/0x706ca1cA4EcE9CF23301D6AB35ce6fb7Cf25DA15#code) |
+| `BalanceFuseUniversalTokenSwapperV2` | `0x0A48e903d7502dCe596d3a101F9932Be39C2ccd0` [View](https://basescan.org/address/0x0A48e903d7502dCe596d3a101F9932Be39C2ccd0#code) |
+| `BalanceFuseVeloraSwapper` | `0xE4a973828ee730A3fdb3a5D470263E54f97d9aDF` [View](https://basescan.org/address/0xE4a973828ee730A3fdb3a5D470263E54f97d9aDF#code) |
+| `BatchFuseEulerV2` | `0x56c4A1d09a33adD28a72724F2511F90C60b17D22` [View](https://basescan.org/address/0x56c4A1d09a33adD28a72724F2511F90C60b17D22#code) |
+| `BorrowFuseAaveV3` | `0x1Df60F2A046F3Dce8102427e091C1Ea99aE1d774` [View](https://basescan.org/address/0x1Df60F2A046F3Dce8102427e091C1Ea99aE1d774#code) |
+| `BorrowFuseAaveV4` | `0x7F59b45ea6D504024567969446fE0f7713c31331` [View](https://basescan.org/address/0x7F59b45ea6D504024567969446fE0f7713c31331#code) |
+| `BorrowFuseCompoundV3Usdc` | `0x9EA2107af18B342995808AD417505B5cd57cc7bC` [View](https://basescan.org/address/0x9EA2107af18B342995808AD417505B5cd57cc7bC#code) |
+| `BorrowFuseEulerV2` | `0x9BD0295C5be9FE3cDc2296be38bfaAca81910290` [View](https://basescan.org/address/0x9BD0295C5be9FE3cDc2296be38bfaAca81910290#code) |
+| `BorrowFuseMoonwell` | `0x377a5B195E3C074d982BD7bAC66B48D4C3006353` [View](https://basescan.org/address/0x377a5B195E3C074d982BD7bAC66B48D4C3006353#code) |
+| `BorrowFuseMorpho` | `0x35f44aD1D9F2773dA05F4664bf574C760bA47bf6` [View](https://basescan.org/address/0x35f44aD1D9F2773dA05F4664bf574C760bA47bf6#code) |
+| `BurnRequestFeeFuse` | `0x8Aad082F04d04d1dB2e92160bAa630e31C22C073` [View](https://basescan.org/address/0x8Aad082F04d04d1dB2e92160bAa630e31C22C073#code) |
+| `BurnRequestFeeFuseV2` | `0x7f80241a2b8dA1e11b96B5749991e9A9a40b62a9` [View](https://basescan.org/address/0x7f80241a2b8dA1e11b96B5749991e9A9a40b62a9#code) |
+| `CLGaugeFuseAerodromeSlipstream` | `0x399599ac1807eb7F6eE6499a1EBc2BA68e01A21A` [View](https://basescan.org/address/0x399599ac1807eb7F6eE6499a1EBc2BA68e01A21A#code) |
+| `CcipCrosschainCommandFuse` | `0x2E50F57e80a0F63d8FdFFF0D32f9bd034EB8642D` [View](https://basescan.org/address/0x2E50F57e80a0F63d8FdFFF0D32f9bd034EB8642D#code) |
+| `CcipCrosschainSupplyFuse` | `0xd5488063db3097A62C5D918a7A75f249BDCc36F9` [View](https://basescan.org/address/0xd5488063db3097A62C5D918a7A75f249BDCc36F9#code) |
+| `ClaimFeesFuseAerodrome` | `0xF16899fC66c099481d9d140f4EC4bB8619e001dE` [View](https://basescan.org/address/0xF16899fC66c099481d9d140f4EC4bB8619e001dE#code) |
+| `ClaimRewardsFuseCompoundV3` | `0x10de4b8aa7c363999769F8a8295F4F091a77DF4F` [View](https://basescan.org/address/0x10de4b8aa7c363999769F8a8295F4F091a77DF4F#code) |
+| `ClaimRewardsFuseFluidInstadapp` | `0x4E3139528EBA9B85addf1b7E5c36002b7bE8c9B2` [View](https://basescan.org/address/0x4E3139528EBA9B85addf1b7E5c36002b7bE8c9B2#code) |
+| `ClaimRewardsFuseFluidProof` | `0xB002337C59a4133e328D91ed82C5012472952c6f` [View](https://basescan.org/address/0xB002337C59a4133e328D91ed82C5012472952c6f#code) |
+| `ClaimRewardsFuseMoonwell` | `0xd253C5C54248433C7879aC14Fb03201e008C5a1e` [View](https://basescan.org/address/0xd253C5C54248433C7879aC14Fb03201e008C5a1e#code) |
+| `ClaimRewardsFuseMorpho` | `0x26C740247FC4E1462D4C36e90057cf0e168B3B2B` [View](https://basescan.org/address/0x26C740247FC4E1462D4C36e90057cf0e168B3B2B#code) |
+| `ClaimRewardsGaugeFuseAerodrome` | `0x91ad48aE378D70586703cD2E525e96563039825e` [View](https://basescan.org/address/0x91ad48aE378D70586703cD2E525e96563039825e#code) |
+| `ClaimRewardsGaugeFuseAerodromeSlipstream` | `0xD7B15C06CE4Cc807Ea0510B862407BB680C95344` [View](https://basescan.org/address/0xD7B15C06CE4Cc807Ea0510B862407BB680C95344#code) |
+| `CollateralFuseAaveV4` | `0x30873e897e78947A6834dC784fc7C5a0AbD7b0Fc` [View](https://basescan.org/address/0x30873e897e78947A6834dC784fc7C5a0AbD7b0Fc#code) |
+| `CollateralFuseEulerV2` | `0x81D4A5960F7424ef71321533d287a6306d7AA10b` [View](https://basescan.org/address/0x81D4A5960F7424ef71321533d287a6306d7AA10b#code) |
+| `CollateralFuseMorpho` | `0xDE3FD3A25534471e92C5940d418B0582802b17B6` [View](https://basescan.org/address/0xDE3FD3A25534471e92C5940d418B0582802b17B6#code) |
+| `CollectFuseAerodromeSlipstream` | `0x67442EDed8f704b4E1330219D96E6B20F4FB280a` [View](https://basescan.org/address/0x67442EDed8f704b4E1330219D96E6B20F4FB280a#code) |
+| `CollectFuseUniswapV4` | `0xcd1C07BD9F1a0b746e549ea21B94299F648D8d85` [View](https://basescan.org/address/0xcd1C07BD9F1a0b746e549ea21B94299F648D8d85#code) |
+| `CollectSwapFuseUniswapV3` | `0xf13D892786aE580D1B300d378a654553c2F226De` [View](https://basescan.org/address/0xf13D892786aE580D1B300d378a654553c2F226De#code) |
+| `ConfigureInstantWithdrawalFuse` | `0x23BA210cCf17158E2Ee7a2CF889D614e53516230` [View](https://basescan.org/address/0x23BA210cCf17158E2Ee7a2CF889D614e53516230#code) |
+| `ControllerFuseEulerV2` | `0xbA79F7574DC799600FFc066e8cCaB43129D343eb` [View](https://basescan.org/address/0xbA79F7574DC799600FFc066e8cCaB43129D343eb#code) |
+| `CrosschainBalanceFuse` | `0x091f30114dC270a18013557a41F5F25889369c80` [View](https://basescan.org/address/0x091f30114dC270a18013557a41F5F25889369c80#code) |
+| `CrosschainClaimFuse` | `0xf4Ef4320fABd270Fdf10dC0d115587F66B7F8445` [View](https://basescan.org/address/0xf4Ef4320fABd270Fdf10dC0d115587F66B7F8445#code) |
+| `EnableMarketFuseMoonwell` | `0xD62542Ef1ABFF0ac71A1b5666CB76801e81104Ef` [View](https://basescan.org/address/0xD62542Ef1ABFF0ac71A1b5666CB76801e81104Ef#code) |
+| `ExternalStateBalanceFuse` | `0xCDEb32ACF766587b5Eac9dbfB875145ec05E3517` [View](https://basescan.org/address/0xCDEb32ACF766587b5Eac9dbfB875145ec05E3517#code) |
+| `ExternalStateOperationFuse` | `0x01f05736B79C7abcFbeeCe76B1C27e54f7A07D03` [View](https://basescan.org/address/0x01f05736B79C7abcFbeeCe76B1C27e54f7A07D03#code) |
+| `ExternalStateRescueFuse` | `0x0Dc6A02aD1f755Ab4543cd0D40B152bf4Cf1ED64` [View](https://basescan.org/address/0x0Dc6A02aD1f755Ab4543cd0D40B152bf4Cf1ED64#code) |
+| `ExternalStateUnpauseFuse` | `0x1EE42996A2D3A076c904f046b3366263D6bDB5eE` [View](https://basescan.org/address/0x1EE42996A2D3A076c904f046b3366263D6bDB5eE#code) |
+| `FlashloanFuseMorpho` | `0x20f305Ce4fC12F9171Fcd7C2fBcD7D11f6119265` [View](https://basescan.org/address/0x20f305Ce4fC12F9171Fcd7C2fBcD7D11f6119265#code) |
+| `FusePendleRedeemPtAfterMaturity` | `0xE59e63565d1fD5186765EBE3302C24b72C6f2EeA` [View](https://basescan.org/address/0xE59e63565d1fD5186765EBE3302C24b72C6f2EeA#code) |
+| `FusePendleSwapPt` | `0x3C715eE10C1cb2c565Fd13E35d81Df1C986eeF76` [View](https://basescan.org/address/0x3C715eE10C1cb2c565Fd13E35d81Df1C986eeF76#code) |
+| `FuseRedeemFromRequestPlasmaVaultMarket1` | `0xDBf5fe247402cA312C17180b461e3951CAd6658F` [View](https://basescan.org/address/0xDBf5fe247402cA312C17180b461e3951CAd6658F#code) |
+| `FuseRequestSharesPlasmaVaultMarket1` | `0x810A2DacC68867a8Bcb045877BE8C154B29e1D24` [View](https://basescan.org/address/0x810A2DacC68867a8Bcb045877BE8C154B29e1D24#code) |
+| `FuseRequestSharesPlasmaVaultV2` | `0x07F8D653d05B0c7109DF30073a33EF3e9592077f` [View](https://basescan.org/address/0x07F8D653d05B0c7109DF30073a33EF3e9592077f#code) |
+| `GaugeFuseAerodrome` | `0x4360119C77b464dea3E8f18D8274cadA8D8e04C8` [View](https://basescan.org/address/0x4360119C77b464dea3E8f18D8274cadA8D8e04C8#code) |
+| `LiquidityFuseAerodrome` | `0x277fFc9D4905Ee60C447f9E7da944ebbbD36C275` [View](https://basescan.org/address/0x277fFc9D4905Ee60C447f9E7da944ebbbD36C275#code) |
+| `MerklClaimFuse` | `0x310e6133a904761D717EE13D76E180E4EECf907A` [View](https://basescan.org/address/0x310e6133a904761D717EE13D76E180E4EECf907A#code) |
+| `MerklClaimWrapperFuse` | `0xb1c12A239a72ee518A065dA79E62dAE97Cb21A5B` [View](https://basescan.org/address/0xb1c12A239a72ee518A065dA79E62dAE97Cb21A5B#code) |
+| `MidasBalanceFuse` | `0x62EC84e9bbd97342a8493365Ecf7329f89EF7Ee4` [View](https://basescan.org/address/0x62EC84e9bbd97342a8493365Ecf7329f89EF7Ee4#code) |
+| `MidasClaimFromExecutorFuse` | `0xefc57105d0595FC44E241E2aD7D8E9d20d6Fa5d5` [View](https://basescan.org/address/0xefc57105d0595FC44E241E2aD7D8E9d20d6Fa5d5#code) |
+| `MidasRequestSupplyFuse` | `0xe83697362D91af8f505E3E693F2847A30CD81A8E` [View](https://basescan.org/address/0xe83697362D91af8f505E3E693F2847A30CD81A8E#code) |
+| `MidasSupplyFuse` | `0x8c014baac0f7E2C048659D3A50A193E1D5bbD7e5` [View](https://basescan.org/address/0x8c014baac0f7E2C048659D3A50A193E1D5bbD7e5#code) |
+| `ModifyPositionFuseUniswapV4` | `0x77D7a1896e2Cebe25b2BDe13280A858F1573F111` [View](https://basescan.org/address/0x77D7a1896e2Cebe25b2BDe13280A858F1573F111#code) |
+| `ModifyPositionSwapFuseUniswapV3` | `0x3978b49f991949cA453601656EE97e8339f56da3` [View](https://basescan.org/address/0x3978b49f991949cA453601656EE97e8339f56da3#code) |
+| `ModifyPossitionFuseAerodromeSlipstream` | `0xBb60dC9da146617A3E9101D47dc9326D6D3FaF30` [View](https://basescan.org/address/0xBb60dC9da146617A3E9101D47dc9326D6D3FaF30#code) |
+| `NewPositionFuseAerodromeSlipstream` | `0xB6A36F64aa10FFC8B6220C2f47c06670c18bAc5d` [View](https://basescan.org/address/0xB6A36F64aa10FFC8B6220C2f47c06670c18bAc5d#code) |
+| `NewPositionFuseUniswapV4` | `0x19B207dDeDD987d768AF903dB74ac5C649a3df08` [View](https://basescan.org/address/0x19B207dDeDD987d768AF903dB74ac5C649a3df08#code) |
+| `NewPositionSwapFuseUniswapV3` | `0x08C0F62E19a66800EdD2e8eBfeE02EDc912D510a` [View](https://basescan.org/address/0x08C0F62E19a66800EdD2e8eBfeE02EDc912D510a#code) |
+| `OdosSwapperFuse` | `0xC081477E9933Bf44B25607018f2573FdCA496E19` [View](https://basescan.org/address/0xC081477E9933Bf44B25607018f2573FdCA496E19#code) |
+| `RepayWithATokensFuseAaveV3` | `0x8330D7e3a2690A3D69E6FD39c70691aBB62D27A4` [View](https://basescan.org/address/0x8330D7e3a2690A3D69E6FD39c70691aBB62D27A4#code) |
+| `RequestFeeRefundFuse` | `0x00b6bdCf8fe1D43082Ce09eaEC4695ebf80c831B` [View](https://basescan.org/address/0x00b6bdCf8fe1D43082Ce09eaEC4695ebf80c831B#code) |
+| `RewardEulerTokenClaimFuse` | `0xf61f502b01Aa184701d593AE3444E00781680789` [View](https://basescan.org/address/0xf61f502b01Aa184701d593AE3444E00781680789#code) |
+| `SupplyFuseAaveV3` | `0x425683fA12d0B062A2b087a1625f7d1602b43804` [View](https://basescan.org/address/0x425683fA12d0B062A2b087a1625f7d1602b43804#code) |
+| `SupplyFuseAaveV4` | `0xaed0130CAd65233aD3c757A950f694e003dD160e` [View](https://basescan.org/address/0xaed0130CAd65233aD3c757A950f694e003dD160e#code) |
+| `SupplyFuseCompoundV3Usdc` | `0x42FBD4D8f578b902Ed9030BF9035A606dDECa26f` [View](https://basescan.org/address/0x42FBD4D8f578b902Ed9030BF9035A606dDECa26f#code) |
+| `SupplyFuseCompoundV3WEth` | `0x6179576C5a6D7dE0C5D7B71DbC88f80C47CB072D` [View](https://basescan.org/address/0x6179576C5a6D7dE0C5D7B71DbC88f80C47CB072D#code) |
+| `SupplyFuseErc4626Market1` | `0xe6000f9de9D81C23688eDfA865c88082d1815D26` [View](https://basescan.org/address/0xe6000f9de9D81C23688eDfA865c88082d1815D26#code) |
+| `SupplyFuseErc4626Market10` | `0x22a807B8988D83079F427B80D01cf0F1ED1c464e` [View](https://basescan.org/address/0x22a807B8988D83079F427B80D01cf0F1ED1c464e#code) |
+| `SupplyFuseErc4626Market11` | `0xe10cBDEDF8a9a1FA25727464Ea4790Fc6D0C80fF` [View](https://basescan.org/address/0xe10cBDEDF8a9a1FA25727464Ea4790Fc6D0C80fF#code) |
+| `SupplyFuseErc4626Market12` | `0xcDBb52EAfD9A8b967c734a252bb8e4256d31cC9c` [View](https://basescan.org/address/0xcDBb52EAfD9A8b967c734a252bb8e4256d31cC9c#code) |
+| `SupplyFuseErc4626Market13` | `0xAbE9F6fB01d9015038F2d1c38F33201461082117` [View](https://basescan.org/address/0xAbE9F6fB01d9015038F2d1c38F33201461082117#code) |
+| `SupplyFuseErc4626Market14` | `0x78EFB45FCC6Eaa7CFBA4BF000e320DcB8Fa8eF0E` [View](https://basescan.org/address/0x78EFB45FCC6Eaa7CFBA4BF000e320DcB8Fa8eF0E#code) |
+| `SupplyFuseErc4626Market2` | `0x1Eb20077Cd30A2265D5De178F9Debe5E86446B1a` [View](https://basescan.org/address/0x1Eb20077Cd30A2265D5De178F9Debe5E86446B1a#code) |
+| `SupplyFuseErc4626Market3` | `0xa9D9F55dFC19C930CD4cd9d0529ff98Cf90623E4` [View](https://basescan.org/address/0xa9D9F55dFC19C930CD4cd9d0529ff98Cf90623E4#code) |
+| `SupplyFuseErc4626Market4` | `0x8FA74652c6164648BC8B1fF7EC1903df47a90660` [View](https://basescan.org/address/0x8FA74652c6164648BC8B1fF7EC1903df47a90660#code) |
+| `SupplyFuseErc4626Market5` | `0x551F1835a9eA8dceaf1fe2a469D6D8dF038b4701` [View](https://basescan.org/address/0x551F1835a9eA8dceaf1fe2a469D6D8dF038b4701#code) |
+| `SupplyFuseErc4626Market6` | `0x7ce9298A2B743DE07C207500D8052e796755779D` [View](https://basescan.org/address/0x7ce9298A2B743DE07C207500D8052e796755779D#code) |
+| `SupplyFuseErc4626Market7` | `0x1829B5FFCf1cB6227Eb2CC47f4d252652Dc45406` [View](https://basescan.org/address/0x1829B5FFCf1cB6227Eb2CC47f4d252652Dc45406#code) |
+| `SupplyFuseErc4626Market8` | `0x5c92a10a074182193029D4Faafa21B3e6af03c4f` [View](https://basescan.org/address/0x5c92a10a074182193029D4Faafa21B3e6af03c4f#code) |
+| `SupplyFuseErc4626Market9` | `0x7f8bdC41e2F0ab0cE457304df6F897a97116D9E9` [View](https://basescan.org/address/0x7f8bdC41e2F0ab0cE457304df6F897a97116D9E9#code) |
+| `SupplyFuseEulerV2` | `0x9E6c399267aDB7cE71B07293815DCF66eb709541` [View](https://basescan.org/address/0x9E6c399267aDB7cE71B07293815DCF66eb709541#code) |
+| `SupplyFuseFluidInstadappPoolFToken` | `0x561E36283a37CAe81de0092912b86b572E9de275` [View](https://basescan.org/address/0x561E36283a37CAe81de0092912b86b572E9de275#code) |
+| `SupplyFuseFluidInstadappStakingRewardsFToken` | `0x977e318676158A7695cCFeB00eC18a68c29BF0EF` [View](https://basescan.org/address/0x977e318676158A7695cCFeB00eC18a68c29BF0EF#code) |
+| `SupplyFuseMetaMorphoMarket0001` | `0x4FbA0586B60933f59004347fbecccac3861e9a0a` [View](https://basescan.org/address/0x4FbA0586B60933f59004347fbecccac3861e9a0a#code) |
+| `SupplyFuseMoonwell` | `0x01caB1cf66b2C33967f2427E690E2423E01f0Ac8` [View](https://basescan.org/address/0x01caB1cf66b2C33967f2427E690E2423E01f0Ac8#code) |
+| `SupplyFuseMorpho` | `0xAeA5B82EfAc9ECda04eCBa160CE5D459325B9bF1` [View](https://basescan.org/address/0xAeA5B82EfAc9ECda04eCBa160CE5D459325B9bF1#code) |
+| `SupplyFuseMorphoLiquidityInMarkets` | `0x051Edd87b17e769a392494f1cAD0323609315644` [View](https://basescan.org/address/0x051Edd87b17e769a392494f1cAD0323609315644#code) |
+| `SwapDeployFuseEulerV2` | `0xe2cC539E2ABe26A6409c8c11CA53a9BC1363812A` [View](https://basescan.org/address/0xe2cC539E2ABe26A6409c8c11CA53a9BC1363812A#code) |
+| `SwapFuseUniswapV3` | `0x6C65F2155bb8730E1768558f2679eBB04d957145` [View](https://basescan.org/address/0x6C65F2155bb8730E1768558f2679eBB04d957145#code) |
+| `SwapFuseUniversalTokenSwapper` | `0xdBc5f9962CE85749F1b3c51BA0473909229E3807` [View](https://basescan.org/address/0xdBc5f9962CE85749F1b3c51BA0473909229E3807#code) |
+| `SwapFuseUniversalTokenSwapperEth` | `0x1DC6eC62bD4225Ec063049238CeF89635cdbff72` [View](https://basescan.org/address/0x1DC6eC62bD4225Ec063049238CeF89635cdbff72#code) |
+| `SwapFuseUniversalTokenSwapperEthNoSlippage` | `0xC41ceE8409341187C5D5E9107df630D6CBcB7b8E` [View](https://basescan.org/address/0xC41ceE8409341187C5D5E9107df630D6CBcB7b8E#code) |
+| `SwapFuseUniversalTokenSwapperEthNoSlippageV2` | `0x264Aa7A907c14B4da075af068283A8a7DD6fcDFe` [View](https://basescan.org/address/0x264Aa7A907c14B4da075af068283A8a7DD6fcDFe#code) |
+| `SwapFuseUniversalTokenSwapperWithVerification` | `0x38Bd09C17EA88ceB2F7916BF07AF13C2D9F72370` [View](https://basescan.org/address/0x38Bd09C17EA88ceB2F7916BF07AF13C2D9F72370#code) |
+| `SwapFuseUniversalTokenSwapperWithVerificationV2` | `0x4C3acDFdf187772B1fbbE2de99a0275082b03710` [View](https://basescan.org/address/0x4C3acDFdf187772B1fbbE2de99a0275082b03710#code) |
+| `SwapReconfigureFuseEulerV2` | `0x7f65C94cbE9509d9fb70967E1C580edD0B6F7AA0` [View](https://basescan.org/address/0x7f65C94cbE9509d9fb70967E1C580edD0B6F7AA0#code) |
+| `SwapRegistryFuseEulerV2` | `0x365699cb6187E9e8f54De0d026e7D61b959865bc` [View](https://basescan.org/address/0x365699cb6187E9e8f54De0d026e7D61b959865bc#code) |
+| `UniversalReaderBalanceFuses` | `0xE33F6a15D382CeabB8f351320BF63EE2860E8203` [View](https://basescan.org/address/0xE33F6a15D382CeabB8f351320BF63EE2860E8203#code) |
+| `UniversalTokenSwapperEthFuse` | `0x332AeB7102aD5F4D4B671067e7f60F5bEcC86eB8` [View](https://basescan.org/address/0x332AeB7102aD5F4D4B671067e7f60F5bEcC86eB8#code) |
+| `UniversalTokenSwapperEthFuseV2` | `0xf026f9D4721aDf2aFba593D2528dd4c3083Ae04B` [View](https://basescan.org/address/0xf026f9D4721aDf2aFba593D2528dd4c3083Ae04B#code) |
+| `UniversalTokenSwapperFuse` | `0x98F36e82AaC675d53a780E6CB46406548e7dF5f8` [View](https://basescan.org/address/0x98F36e82AaC675d53a780E6CB46406548e7dF5f8#code) |
+| `UniversalTokenSwapperFuseV2` | `0x2902FA1C5cA409579dFeC3B7457f416Eb4De1a43` [View](https://basescan.org/address/0x2902FA1C5cA409579dFeC3B7457f416Eb4De1a43#code) |
+| `VeloraSwapperFuse` | `0xc929259a052f091339d4533dB9844B900c56B588` [View](https://basescan.org/address/0xc929259a052f091339d4533dB9844B900c56B588#code) |
+
+#### Base Older Fuses Versions
+
+| Fuse Name | Address / View in Explorer |
+|-----------|---------------------------|
+| `BalanceFuseAaveV4` | `0xB327aD8cB8Ff597C707790335638B62773a04c36` [View](https://basescan.org/address/0xB327aD8cB8Ff597C707790335638B62773a04c36#code) |
+| `BalanceFuseAerodromeSlipstream` | `0xaff9bbbEa884EF4Db30e4db6a3f68D50E44E1188` [View](https://basescan.org/address/0xaff9bbbEa884EF4Db30e4db6a3f68D50E44E1188#code) |
 | `BalanceFuseErc4626Market1` | `0x7F4D9EFdE7EfEBBAFbb506ca3f711764cBc96391` [View](https://basescan.org/address/0x7F4D9EFdE7EfEBBAFbb506ca3f711764cBc96391#code) |
 | `BalanceFuseErc4626Market10` | `0xE1725cC2AF00941Db5847a59B4aA8bF47AD35bDF` [View](https://basescan.org/address/0xE1725cC2AF00941Db5847a59B4aA8bF47AD35bDF#code) |
 | `BalanceFuseErc4626Market11` | `0x9332dafA9376b7E049755FD81B01B23fC772B8A6` [View](https://basescan.org/address/0x9332dafA9376b7E049755FD81B01B23fC772B8A6#code) |
@@ -495,159 +632,80 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 | `BalanceFuseErc4626Market8` | `0x684b5c8866AaDE4E21f8A30697A56A805B108a67` [View](https://basescan.org/address/0x684b5c8866AaDE4E21f8A30697A56A805B108a67#code) |
 | `BalanceFuseErc4626Market9` | `0x32b8389d5Cc5E50221C9a127aE2B47968919FD74` [View](https://basescan.org/address/0x32b8389d5Cc5E50221C9a127aE2B47968919FD74#code) |
 | `BalanceFuseEulerV2` | `0xF8A6AA09bB55f2319113b0DA88883F392e66A5fa` [View](https://basescan.org/address/0xF8A6AA09bB55f2319113b0DA88883F392e66A5fa#code) |
-| `BalanceFuseFlashLoanMorpho` | `0x2Ce01779CfE56DC253D0Ac1b47E3bb7E597bCaEA` [View](https://basescan.org/address/0x2Ce01779CfE56DC253D0Ac1b47E3bb7E597bCaEA#code) |
-| `BalanceFuseFluidInstadappPoolFToken` | `0xC80e5a95540d6ebFE4970A0743E71C639DF8C25e` [View](https://basescan.org/address/0xC80e5a95540d6ebFE4970A0743E71C639DF8C25e#code) |
-| `BalanceFuseFluidInstadappStakingRewardsFToken` | `0x29d294d3d8Bb422ddDc925Cb95a903d34eEB208A` [View](https://basescan.org/address/0x29d294d3d8Bb422ddDc925Cb95a903d34eEB208A#code) |
-| `BalanceFuseMetaMorphoMarket0001` | `0xf760384518C9157B82CDC4ecb0f53799970728d9` [View](https://basescan.org/address/0xf760384518C9157B82CDC4ecb0f53799970728d9#code) |
-| `BalanceFuseMoonwell` | `0x86417B0B3B03e8BC8b68377994363796b4ccD3Bc` [View](https://basescan.org/address/0x86417B0B3B03e8BC8b68377994363796b4ccD3Bc#code) |
-| `BalanceFuseMorpho` | `0x7916856E11E0CA021967D0D4daC49D737b7d73d5` [View](https://basescan.org/address/0x7916856E11E0CA021967D0D4daC49D737b7d73d5#code) |
-| `BalanceFuseMorphoLiquidityInMarkets` | `0x89d8b9a7E00cCea1C6d8f71D6a80708E1B211d20` [View](https://basescan.org/address/0x89d8b9a7E00cCea1C6d8f71D6a80708E1B211d20#code) |
-| `BalanceFuseOdosSwapper` | `0x758524777B2a6eC40097eA442ca8e1BBaBc137b6` [View](https://basescan.org/address/0x758524777B2a6eC40097eA442ca8e1BBaBc137b6#code) |
-| `BalanceFusePendle` | `0xc8A552BF7279a932b9fCA8F527Ef292083c5B87f` [View](https://basescan.org/address/0xc8A552BF7279a932b9fCA8F527Ef292083c5B87f#code) |
-| `BalanceFuseSwapPositionsUniswapV3` | `0x9c84c1A708eB8FfE699d7c2a81eC00b028ac3aac` [View](https://basescan.org/address/0x9c84c1A708eB8FfE699d7c2a81eC00b028ac3aac#code) |
-| `BalanceFuseSwapUniswapV3` | `0x5F169161227F92D6FBb691Ea1e4e89ea3fed24B3` [View](https://basescan.org/address/0x5F169161227F92D6FBb691Ea1e4e89ea3fed24B3#code) |
-| `BalanceFuseUniswapV4` | `0x95c54602EA008E1f2568E7559C579d868F54a74a` [View](https://basescan.org/address/0x95c54602EA008E1f2568E7559C579d868F54a74a#code) |
-| `BalanceFuseUniversalTokenSwapper` | `0x706ca1cA4EcE9CF23301D6AB35ce6fb7Cf25DA15` [View](https://basescan.org/address/0x706ca1cA4EcE9CF23301D6AB35ce6fb7Cf25DA15#code) |
-| `BalanceFuseUniversalTokenSwapperV2` | `0x0A48e903d7502dCe596d3a101F9932Be39C2ccd0` [View](https://basescan.org/address/0x0A48e903d7502dCe596d3a101F9932Be39C2ccd0#code) |
-| `BalanceFuseVeloraSwapper` | `0xE4a973828ee730A3fdb3a5D470263E54f97d9aDF` [View](https://basescan.org/address/0xE4a973828ee730A3fdb3a5D470263E54f97d9aDF#code) |
-| `BatchFuseEulerV2` | `0x60CE35e58f6CEd1538c16A15FF7fF75B0538898F` [View](https://basescan.org/address/0x60CE35e58f6CEd1538c16A15FF7fF75B0538898F#code) |
-| `BorrowFuseAaveV3` | `0x1Df60F2A046F3Dce8102427e091C1Ea99aE1d774` [View](https://basescan.org/address/0x1Df60F2A046F3Dce8102427e091C1Ea99aE1d774#code) |
-| `BorrowFuseAaveV4` | `0x7F59b45ea6D504024567969446fE0f7713c31331` [View](https://basescan.org/address/0x7F59b45ea6D504024567969446fE0f7713c31331#code) |
-| `BorrowFuseCompoundV3Usdc` | `0x9EA2107af18B342995808AD417505B5cd57cc7bC` [View](https://basescan.org/address/0x9EA2107af18B342995808AD417505B5cd57cc7bC#code) |
-| `BorrowFuseEulerV2` | `0x906496F0D4C733275F892b1a6fC92eD56639B379` [View](https://basescan.org/address/0x906496F0D4C733275F892b1a6fC92eD56639B379#code) |
-| `BorrowFuseMoonwell` | `0x377a5B195E3C074d982BD7bAC66B48D4C3006353` [View](https://basescan.org/address/0x377a5B195E3C074d982BD7bAC66B48D4C3006353#code) |
-| `BorrowFuseMorpho` | `0x35f44aD1D9F2773dA05F4664bf574C760bA47bf6` [View](https://basescan.org/address/0x35f44aD1D9F2773dA05F4664bf574C760bA47bf6#code) |
-| `BurnRequestFeeFuse` | `0x8Aad082F04d04d1dB2e92160bAa630e31C22C073` [View](https://basescan.org/address/0x8Aad082F04d04d1dB2e92160bAa630e31C22C073#code) |
-| `BurnRequestFeeFuseV2` | `0x7f80241a2b8dA1e11b96B5749991e9A9a40b62a9` [View](https://basescan.org/address/0x7f80241a2b8dA1e11b96B5749991e9A9a40b62a9#code) |
-| `CLGaugeFuseAerodromeSlipstream` | `0x399599ac1807eb7F6eE6499a1EBc2BA68e01A21A` [View](https://basescan.org/address/0x399599ac1807eb7F6eE6499a1EBc2BA68e01A21A#code) |
-| `ClaimFeesFuseAerodrome` | `0xF16899fC66c099481d9d140f4EC4bB8619e001dE` [View](https://basescan.org/address/0xF16899fC66c099481d9d140f4EC4bB8619e001dE#code) |
-| `ClaimRewardsFuseCompoundV3` | `0x10de4b8aa7c363999769F8a8295F4F091a77DF4F` [View](https://basescan.org/address/0x10de4b8aa7c363999769F8a8295F4F091a77DF4F#code) |
-| `ClaimRewardsFuseFluidInstadapp` | `0x4E3139528EBA9B85addf1b7E5c36002b7bE8c9B2` [View](https://basescan.org/address/0x4E3139528EBA9B85addf1b7E5c36002b7bE8c9B2#code) |
-| `ClaimRewardsFuseFluidProof` | `0xB002337C59a4133e328D91ed82C5012472952c6f` [View](https://basescan.org/address/0xB002337C59a4133e328D91ed82C5012472952c6f#code) |
-| `ClaimRewardsFuseMoonwell` | `0xd253C5C54248433C7879aC14Fb03201e008C5a1e` [View](https://basescan.org/address/0xd253C5C54248433C7879aC14Fb03201e008C5a1e#code) |
-| `ClaimRewardsFuseMorpho` | `0x26C740247FC4E1462D4C36e90057cf0e168B3B2B` [View](https://basescan.org/address/0x26C740247FC4E1462D4C36e90057cf0e168B3B2B#code) |
-| `ClaimRewardsGaugeFuseAerodrome` | `0x91ad48aE378D70586703cD2E525e96563039825e` [View](https://basescan.org/address/0x91ad48aE378D70586703cD2E525e96563039825e#code) |
-| `ClaimRewardsGaugeFuseAerodromeSlipstream` | `0xD7B15C06CE4Cc807Ea0510B862407BB680C95344` [View](https://basescan.org/address/0xD7B15C06CE4Cc807Ea0510B862407BB680C95344#code) |
-| `CollateralFuseAaveV4` | `0x30873e897e78947A6834dC784fc7C5a0AbD7b0Fc` [View](https://basescan.org/address/0x30873e897e78947A6834dC784fc7C5a0AbD7b0Fc#code) |
-| `CollateralFuseEulerV2` | `0x12c479f8aB53D4884fc76F803dD24eb8B6D17a94` [View](https://basescan.org/address/0x12c479f8aB53D4884fc76F803dD24eb8B6D17a94#code) |
-| `CollateralFuseMorpho` | `0xDE3FD3A25534471e92C5940d418B0582802b17B6` [View](https://basescan.org/address/0xDE3FD3A25534471e92C5940d418B0582802b17B6#code) |
-| `CollectFuseAerodromeSlipstream` | `0x67442EDed8f704b4E1330219D96E6B20F4FB280a` [View](https://basescan.org/address/0x67442EDed8f704b4E1330219D96E6B20F4FB280a#code) |
-| `CollectFuseUniswapV4` | `0xcd1C07BD9F1a0b746e549ea21B94299F648D8d85` [View](https://basescan.org/address/0xcd1C07BD9F1a0b746e549ea21B94299F648D8d85#code) |
-| `CollectSwapFuseUniswapV3` | `0xf13D892786aE580D1B300d378a654553c2F226De` [View](https://basescan.org/address/0xf13D892786aE580D1B300d378a654553c2F226De#code) |
-| `ConfigureInstantWithdrawalFuse` | `0xE37D4448Cc6BcFC934d80220D076c874ADaB1CCa` [View](https://basescan.org/address/0xE37D4448Cc6BcFC934d80220D076c874ADaB1CCa#code) |
-| `ControllerFuseEulerV2` | `0x108c8cFB9e00681FfA1fa3b654937E8b3BCd2E64` [View](https://basescan.org/address/0x108c8cFB9e00681FfA1fa3b654937E8b3BCd2E64#code) |
-| `EnableMarketFuseMoonwell` | `0xD62542Ef1ABFF0ac71A1b5666CB76801e81104Ef` [View](https://basescan.org/address/0xD62542Ef1ABFF0ac71A1b5666CB76801e81104Ef#code) |
-| `ExternalStateBalanceFuse` | `0xCDEb32ACF766587b5Eac9dbfB875145ec05E3517` [View](https://basescan.org/address/0xCDEb32ACF766587b5Eac9dbfB875145ec05E3517#code) |
-| `ExternalStateOperationFuse` | `0x01f05736B79C7abcFbeeCe76B1C27e54f7A07D03` [View](https://basescan.org/address/0x01f05736B79C7abcFbeeCe76B1C27e54f7A07D03#code) |
-| `ExternalStateRescueFuse` | `0x0Dc6A02aD1f755Ab4543cd0D40B152bf4Cf1ED64` [View](https://basescan.org/address/0x0Dc6A02aD1f755Ab4543cd0D40B152bf4Cf1ED64#code) |
-| `ExternalStateUnpauseFuse` | `0x1EE42996A2D3A076c904f046b3366263D6bDB5eE` [View](https://basescan.org/address/0x1EE42996A2D3A076c904f046b3366263D6bDB5eE#code) |
-| `FlashloanFuseMorpho` | `0x20f305Ce4fC12F9171Fcd7C2fBcD7D11f6119265` [View](https://basescan.org/address/0x20f305Ce4fC12F9171Fcd7C2fBcD7D11f6119265#code) |
-| `FusePendleRedeemPtAfterMaturity` | `0xE59e63565d1fD5186765EBE3302C24b72C6f2EeA` [View](https://basescan.org/address/0xE59e63565d1fD5186765EBE3302C24b72C6f2EeA#code) |
-| `FusePendleSwapPt` | `0x3C715eE10C1cb2c565Fd13E35d81Df1C986eeF76` [View](https://basescan.org/address/0x3C715eE10C1cb2c565Fd13E35d81Df1C986eeF76#code) |
-| `FuseRedeemFromRequestPlasmaVaultMarket1` | `0x07c547bcc5f7e66333C259B3f8938a4049aa44DF` [View](https://basescan.org/address/0x07c547bcc5f7e66333C259B3f8938a4049aa44DF#code) |
-| `FuseRequestSharesPlasmaVaultMarket1` | `0xEf40141EA3263004D398136FF9EB75E5d6743C09` [View](https://basescan.org/address/0xEf40141EA3263004D398136FF9EB75E5d6743C09#code) |
-| `FuseRequestSharesPlasmaVaultV2` | `0xE14a69438DAA58cA2dbf70b74e10626AA39c616b` [View](https://basescan.org/address/0xE14a69438DAA58cA2dbf70b74e10626AA39c616b#code) |
-| `GaugeFuseAerodrome` | `0x4360119C77b464dea3E8f18D8274cadA8D8e04C8` [View](https://basescan.org/address/0x4360119C77b464dea3E8f18D8274cadA8D8e04C8#code) |
-| `LiquidityFuseAerodrome` | `0x277fFc9D4905Ee60C447f9E7da944ebbbD36C275` [View](https://basescan.org/address/0x277fFc9D4905Ee60C447f9E7da944ebbbD36C275#code) |
-| `MerklClaimFuse` | `0x310e6133a904761D717EE13D76E180E4EECf907A` [View](https://basescan.org/address/0x310e6133a904761D717EE13D76E180E4EECf907A#code) |
-| `MerklClaimWrapperFuse` | `0xb1c12A239a72ee518A065dA79E62dAE97Cb21A5B` [View](https://basescan.org/address/0xb1c12A239a72ee518A065dA79E62dAE97Cb21A5B#code) |
-| `MidasBalanceFuse` | `0x62EC84e9bbd97342a8493365Ecf7329f89EF7Ee4` [View](https://basescan.org/address/0x62EC84e9bbd97342a8493365Ecf7329f89EF7Ee4#code) |
-| `MidasClaimFromExecutorFuse` | `0xefc57105d0595FC44E241E2aD7D8E9d20d6Fa5d5` [View](https://basescan.org/address/0xefc57105d0595FC44E241E2aD7D8E9d20d6Fa5d5#code) |
-| `MidasRequestSupplyFuse` | `0xe83697362D91af8f505E3E693F2847A30CD81A8E` [View](https://basescan.org/address/0xe83697362D91af8f505E3E693F2847A30CD81A8E#code) |
-| `MidasSupplyFuse` | `0xa0417653A69503D7Abd838cc601172720893f9f1` [View](https://basescan.org/address/0xa0417653A69503D7Abd838cc601172720893f9f1#code) |
-| `ModifyPositionFuseUniswapV4` | `0x77D7a1896e2Cebe25b2BDe13280A858F1573F111` [View](https://basescan.org/address/0x77D7a1896e2Cebe25b2BDe13280A858F1573F111#code) |
-| `ModifyPositionSwapFuseUniswapV3` | `0x3978b49f991949cA453601656EE97e8339f56da3` [View](https://basescan.org/address/0x3978b49f991949cA453601656EE97e8339f56da3#code) |
-| `ModifyPossitionFuseAerodromeSlipstream` | `0xBb60dC9da146617A3E9101D47dc9326D6D3FaF30` [View](https://basescan.org/address/0xBb60dC9da146617A3E9101D47dc9326D6D3FaF30#code) |
-| `NewPositionFuseAerodromeSlipstream` | `0xB6A36F64aa10FFC8B6220C2f47c06670c18bAc5d` [View](https://basescan.org/address/0xB6A36F64aa10FFC8B6220C2f47c06670c18bAc5d#code) |
-| `NewPositionFuseUniswapV4` | `0x19B207dDeDD987d768AF903dB74ac5C649a3df08` [View](https://basescan.org/address/0x19B207dDeDD987d768AF903dB74ac5C649a3df08#code) |
-| `NewPositionSwapFuseUniswapV3` | `0x08C0F62E19a66800EdD2e8eBfeE02EDc912D510a` [View](https://basescan.org/address/0x08C0F62E19a66800EdD2e8eBfeE02EDc912D510a#code) |
-| `OdosSwapperFuse` | `0xC081477E9933Bf44B25607018f2573FdCA496E19` [View](https://basescan.org/address/0xC081477E9933Bf44B25607018f2573FdCA496E19#code) |
-| `RepayWithATokensFuseAaveV3` | `0x8330D7e3a2690A3D69E6FD39c70691aBB62D27A4` [View](https://basescan.org/address/0x8330D7e3a2690A3D69E6FD39c70691aBB62D27A4#code) |
-| `RequestFeeRefundFuse` | `0x00b6bdCf8fe1D43082Ce09eaEC4695ebf80c831B` [View](https://basescan.org/address/0x00b6bdCf8fe1D43082Ce09eaEC4695ebf80c831B#code) |
-| `RewardEulerTokenClaimFuse` | `0xf61f502b01Aa184701d593AE3444E00781680789` [View](https://basescan.org/address/0xf61f502b01Aa184701d593AE3444E00781680789#code) |
-| `SupplyFuseAaveV3` | `0x26fD6EF391E98C78CfCA27e00c3d15be4D941625` [View](https://basescan.org/address/0x26fD6EF391E98C78CfCA27e00c3d15be4D941625#code) |
-| `SupplyFuseAaveV4` | `0xCd416C41a2AC597cB0DB4AA561cEF33553bCA3B0` [View](https://basescan.org/address/0xCd416C41a2AC597cB0DB4AA561cEF33553bCA3B0#code) |
-| `SupplyFuseCompoundV3Usdc` | `0x42FBD4D8f578b902Ed9030BF9035A606dDECa26f` [View](https://basescan.org/address/0x42FBD4D8f578b902Ed9030BF9035A606dDECa26f#code) |
-| `SupplyFuseCompoundV3WEth` | `0xD72Dd19C04362488a4143F43e407ec87A849b72b` [View](https://basescan.org/address/0xD72Dd19C04362488a4143F43e407ec87A849b72b#code) |
-| `SupplyFuseErc4626Market1` | `0xc45d1676514fcB39BC3B9F74a08985242545FAAd` [View](https://basescan.org/address/0xc45d1676514fcB39BC3B9F74a08985242545FAAd#code) |
-| `SupplyFuseErc4626Market10` | `0xf8Bc79A9B0B3cbc2C34822e6BE33c6aB0b398bb0` [View](https://basescan.org/address/0xf8Bc79A9B0B3cbc2C34822e6BE33c6aB0b398bb0#code) |
-| `SupplyFuseErc4626Market11` | `0x60a657a9E14aFFd550fD52A0Dd064a1Bfe7a6B69` [View](https://basescan.org/address/0x60a657a9E14aFFd550fD52A0Dd064a1Bfe7a6B69#code) |
-| `SupplyFuseErc4626Market12` | `0xf4826d42bA4b5a51F9eF224694a0456071BD5AFF` [View](https://basescan.org/address/0xf4826d42bA4b5a51F9eF224694a0456071BD5AFF#code) |
-| `SupplyFuseErc4626Market13` | `0x65aC03D3c899B00E815d26d43746E55671Ff4D21` [View](https://basescan.org/address/0x65aC03D3c899B00E815d26d43746E55671Ff4D21#code) |
-| `SupplyFuseErc4626Market14` | `0xbf3B3182ad09c79fF63c2623A3811F3B9652Be04` [View](https://basescan.org/address/0xbf3B3182ad09c79fF63c2623A3811F3B9652Be04#code) |
-| `SupplyFuseErc4626Market2` | `0x872e1eF7aEf0f93a7b1268504AcdD8690321d4D4` [View](https://basescan.org/address/0x872e1eF7aEf0f93a7b1268504AcdD8690321d4D4#code) |
-| `SupplyFuseErc4626Market3` | `0x3E7b814Ab88774b8c7070Bd86BD34d979a8C0dDE` [View](https://basescan.org/address/0x3E7b814Ab88774b8c7070Bd86BD34d979a8C0dDE#code) |
-| `SupplyFuseErc4626Market4` | `0x0108FDaC9360F531fC208d56A02F88352FCFc434` [View](https://basescan.org/address/0x0108FDaC9360F531fC208d56A02F88352FCFc434#code) |
-| `SupplyFuseErc4626Market5` | `0xCa79f613F189dF56bEe39f7993E16527CaDeff7f` [View](https://basescan.org/address/0xCa79f613F189dF56bEe39f7993E16527CaDeff7f#code) |
-| `SupplyFuseErc4626Market6` | `0x2952D8badce956d384562bC894dA2F0DbC013505` [View](https://basescan.org/address/0x2952D8badce956d384562bC894dA2F0DbC013505#code) |
-| `SupplyFuseErc4626Market7` | `0x18824Ccb0C3BD299c053Ce7b20232A54897eBa7f` [View](https://basescan.org/address/0x18824Ccb0C3BD299c053Ce7b20232A54897eBa7f#code) |
-| `SupplyFuseErc4626Market8` | `0xb9fBD5230C8b7fb13C403aba9515EC853FdEE7F0` [View](https://basescan.org/address/0xb9fBD5230C8b7fb13C403aba9515EC853FdEE7F0#code) |
-| `SupplyFuseErc4626Market9` | `0xdD6D29D3CE44d3F7Aa8836914eB7DB7F38C3EeB1` [View](https://basescan.org/address/0xdD6D29D3CE44d3F7Aa8836914eB7DB7F38C3EeB1#code) |
-| `SupplyFuseEulerV2` | `0x598326fcEDE2C1B8E9023a20C18FFf6Dea5306A4` [View](https://basescan.org/address/0x598326fcEDE2C1B8E9023a20C18FFf6Dea5306A4#code) |
-| `SupplyFuseFluidInstadappPoolFToken` | `0x15A1e2950dA9Ec0DA69a704b8940F01BdDdE86Ab` [View](https://basescan.org/address/0x15A1e2950dA9Ec0DA69a704b8940F01BdDdE86Ab#code) |
-| `SupplyFuseFluidInstadappStakingRewardsFToken` | `0x977e318676158A7695cCFeB00eC18a68c29BF0EF` [View](https://basescan.org/address/0x977e318676158A7695cCFeB00eC18a68c29BF0EF#code) |
-| `SupplyFuseMetaMorphoMarket0001` | `0x33Ed640Fc033A9BBE96c8469D1f32b106a4Ae8C9` [View](https://basescan.org/address/0x33Ed640Fc033A9BBE96c8469D1f32b106a4Ae8C9#code) |
-| `SupplyFuseMoonwell` | `0xC4a62Bd86dB7dd61a875611b2220f9ab6e14FFbf` [View](https://basescan.org/address/0xC4a62Bd86dB7dd61a875611b2220f9ab6e14FFbf#code) |
-| `SupplyFuseMorpho` | `0xae93EF3cf337b9599F0dfC12520c3C281637410F` [View](https://basescan.org/address/0xae93EF3cf337b9599F0dfC12520c3C281637410F#code) |
-| `SupplyFuseMorphoLiquidityInMarkets` | `0xd4254b16d21205572e060A20CccDCFC616d5ab79` [View](https://basescan.org/address/0xd4254b16d21205572e060A20CccDCFC616d5ab79#code) |
-| `SwapDeployFuseEulerV2` | `0x0Db8d3fD81900FF95ca25D7bc30a4DA1b289E670` [View](https://basescan.org/address/0x0Db8d3fD81900FF95ca25D7bc30a4DA1b289E670#code) |
-| `SwapFuseUniswapV3` | `0x6C65F2155bb8730E1768558f2679eBB04d957145` [View](https://basescan.org/address/0x6C65F2155bb8730E1768558f2679eBB04d957145#code) |
-| `SwapFuseUniversalTokenSwapper` | `0xdBc5f9962CE85749F1b3c51BA0473909229E3807` [View](https://basescan.org/address/0xdBc5f9962CE85749F1b3c51BA0473909229E3807#code) |
-| `SwapFuseUniversalTokenSwapperEth` | `0x1DC6eC62bD4225Ec063049238CeF89635cdbff72` [View](https://basescan.org/address/0x1DC6eC62bD4225Ec063049238CeF89635cdbff72#code) |
-| `SwapFuseUniversalTokenSwapperEthNoSlippage` | `0xC41ceE8409341187C5D5E9107df630D6CBcB7b8E` [View](https://basescan.org/address/0xC41ceE8409341187C5D5E9107df630D6CBcB7b8E#code) |
-| `SwapFuseUniversalTokenSwapperEthNoSlippageV2` | `0x264Aa7A907c14B4da075af068283A8a7DD6fcDFe` [View](https://basescan.org/address/0x264Aa7A907c14B4da075af068283A8a7DD6fcDFe#code) |
-| `SwapFuseUniversalTokenSwapperWithVerification` | `0x38Bd09C17EA88ceB2F7916BF07AF13C2D9F72370` [View](https://basescan.org/address/0x38Bd09C17EA88ceB2F7916BF07AF13C2D9F72370#code) |
-| `SwapFuseUniversalTokenSwapperWithVerificationV2` | `0x4C3acDFdf187772B1fbbE2de99a0275082b03710` [View](https://basescan.org/address/0x4C3acDFdf187772B1fbbE2de99a0275082b03710#code) |
-| `SwapReconfigureFuseEulerV2` | `0x11187bac7f13475F4ACe42FCeA72A4f3b9FddBF1` [View](https://basescan.org/address/0x11187bac7f13475F4ACe42FCeA72A4f3b9FddBF1#code) |
-| `SwapRegistryFuseEulerV2` | `0x49b9a2f243ab72a51cE78C0215F4FF9708abF923` [View](https://basescan.org/address/0x49b9a2f243ab72a51cE78C0215F4FF9708abF923#code) |
-| `UniversalReaderBalanceFuses` | `0xE33F6a15D382CeabB8f351320BF63EE2860E8203` [View](https://basescan.org/address/0xE33F6a15D382CeabB8f351320BF63EE2860E8203#code) |
-| `UniversalTokenSwapperEthFuse` | `0x332AeB7102aD5F4D4B671067e7f60F5bEcC86eB8` [View](https://basescan.org/address/0x332AeB7102aD5F4D4B671067e7f60F5bEcC86eB8#code) |
-| `UniversalTokenSwapperEthFuseV2` | `0xf026f9D4721aDf2aFba593D2528dd4c3083Ae04B` [View](https://basescan.org/address/0xf026f9D4721aDf2aFba593D2528dd4c3083Ae04B#code) |
-| `UniversalTokenSwapperFuse` | `0x98F36e82AaC675d53a780E6CB46406548e7dF5f8` [View](https://basescan.org/address/0x98F36e82AaC675d53a780E6CB46406548e7dF5f8#code) |
-| `UniversalTokenSwapperFuseV2` | `0x2902FA1C5cA409579dFeC3B7457f416Eb4De1a43` [View](https://basescan.org/address/0x2902FA1C5cA409579dFeC3B7457f416Eb4De1a43#code) |
-| `VeloraSwapperFuse` | `0xc929259a052f091339d4533dB9844B900c56B588` [View](https://basescan.org/address/0xc929259a052f091339d4533dB9844B900c56B588#code) |
-
-#### Base Older Fuses Versions
-
-| Fuse Name | Address / View in Explorer |
-|-----------|---------------------------|
-| `BalanceFuseAerodromeSlipstream` | `0xaff9bbbEa884EF4Db30e4db6a3f68D50E44E1188` [View](https://basescan.org/address/0xaff9bbbEa884EF4Db30e4db6a3f68D50E44E1188#code) |
 | `BalanceFuseEulerV2` | `0xf8bB9A9051F6E94d097686544021e6dF17EA6CaF` [View](https://basescan.org/address/0xf8bB9A9051F6E94d097686544021e6dF17EA6CaF#code) |
 | `BalanceFuseFlashLoanMorpho` | `0x1704D12204052d2a1F241d5D73f4bF0926800a5B` [View](https://basescan.org/address/0x1704D12204052d2a1F241d5D73f4bF0926800a5B#code) |
+| `BalanceFuseFluidInstadappPoolFToken` | `0xC80e5a95540d6ebFE4970A0743E71C639DF8C25e` [View](https://basescan.org/address/0xC80e5a95540d6ebFE4970A0743E71C639DF8C25e#code) |
+| `BalanceFuseMetaMorphoMarket0001` | `0xf760384518C9157B82CDC4ecb0f53799970728d9` [View](https://basescan.org/address/0xf760384518C9157B82CDC4ecb0f53799970728d9#code) |
+| `BalanceFuseMorpho` | `0x7916856E11E0CA021967D0D4daC49D737b7d73d5` [View](https://basescan.org/address/0x7916856E11E0CA021967D0D4daC49D737b7d73d5#code) |
+| `BatchFuseEulerV2` | `0x60CE35e58f6CEd1538c16A15FF7fF75B0538898F` [View](https://basescan.org/address/0x60CE35e58f6CEd1538c16A15FF7fF75B0538898F#code) |
+| `BorrowFuseEulerV2` | `0x906496F0D4C733275F892b1a6fC92eD56639B379` [View](https://basescan.org/address/0x906496F0D4C733275F892b1a6fC92eD56639B379#code) |
 | `BorrowFuseEulerV2` | `0xFd5Ba41a7Ce38BC901308547dFCBAded2B682B11` [View](https://basescan.org/address/0xFd5Ba41a7Ce38BC901308547dFCBAded2B682B11#code) |
 | `BorrowFuseMoonwell` | `0x8f6951795193C5AE825397ba35e940C5586e7b7D` [View](https://basescan.org/address/0x8f6951795193C5AE825397ba35e940C5586e7b7D#code) |
 | `BurnRequestFeeFuseV2` | `0xCaBC40118e83236C751d9a3089e9b5Cf53ee4414` [View](https://basescan.org/address/0xCaBC40118e83236C751d9a3089e9b5Cf53ee4414#code) |
 | `CLGaugeFuseAerodromeSlipstream` | `0x3d129395a55dfa3Fd03dF41694748Ef7fe6c13E4` [View](https://basescan.org/address/0x3d129395a55dfa3Fd03dF41694748Ef7fe6c13E4#code) |
 | `ClaimRewardsGaugeFuseAerodromeSlipstream` | `0x52f288B352e8dC39777C3F41Dbd0474f4583B237` [View](https://basescan.org/address/0x52f288B352e8dC39777C3F41Dbd0474f4583B237#code) |
+| `CollateralFuseEulerV2` | `0x12c479f8aB53D4884fc76F803dD24eb8B6D17a94` [View](https://basescan.org/address/0x12c479f8aB53D4884fc76F803dD24eb8B6D17a94#code) |
 | `CollateralFuseEulerV2` | `0xF569a44710DEb64c8Dc9751D8595bb90962f7a67` [View](https://basescan.org/address/0xF569a44710DEb64c8Dc9751D8595bb90962f7a67#code) |
 | `CollectFuseAerodromeSlipstream` | `0x414E852a854b21F8eF22DB560f2a7d8B50444A2e` [View](https://basescan.org/address/0x414E852a854b21F8eF22DB560f2a7d8B50444A2e#code) |
+| `ConfigureInstantWithdrawalFuse` | `0xE37D4448Cc6BcFC934d80220D076c874ADaB1CCa` [View](https://basescan.org/address/0xE37D4448Cc6BcFC934d80220D076c874ADaB1CCa#code) |
+| `ControllerFuseEulerV2` | `0x108c8cFB9e00681FfA1fa3b654937E8b3BCd2E64` [View](https://basescan.org/address/0x108c8cFB9e00681FfA1fa3b654937E8b3BCd2E64#code) |
 | `ControllerFuseEulerV2` | `0x0F86A5ECa11A0a2539Cc24eC27826C65Cc0094eD` [View](https://basescan.org/address/0x0F86A5ECa11A0a2539Cc24eC27826C65Cc0094eD#code) |
+| `FuseRedeemFromRequestPlasmaVaultMarket1` | `0x07c547bcc5f7e66333C259B3f8938a4049aa44DF` [View](https://basescan.org/address/0x07c547bcc5f7e66333C259B3f8938a4049aa44DF#code) |
+| `FuseRequestSharesPlasmaVaultMarket1` | `0xEf40141EA3263004D398136FF9EB75E5d6743C09` [View](https://basescan.org/address/0xEf40141EA3263004D398136FF9EB75E5d6743C09#code) |
+| `FuseRequestSharesPlasmaVaultV2` | `0xE14a69438DAA58cA2dbf70b74e10626AA39c616b` [View](https://basescan.org/address/0xE14a69438DAA58cA2dbf70b74e10626AA39c616b#code) |
 | `MidasBalanceFuse` | `0xB1951FaAc31F58830c514561c17b640355529ec0` [View](https://basescan.org/address/0xB1951FaAc31F58830c514561c17b640355529ec0#code) |
 | `MidasRequestSupplyFuse` | `0x5077B42243e06FFD3fa239fD499b620c532F85B2` [View](https://basescan.org/address/0x5077B42243e06FFD3fa239fD499b620c532F85B2#code) |
+| `MidasSupplyFuse` | `0xa0417653A69503D7Abd838cc601172720893f9f1` [View](https://basescan.org/address/0xa0417653A69503D7Abd838cc601172720893f9f1#code) |
 | `MidasSupplyFuse` | `0x1f941BC36399b8E3471568523F22F4f4f918af01` [View](https://basescan.org/address/0x1f941BC36399b8E3471568523F22F4f4f918af01#code) |
 | `ModifyPossitionFuseAerodromeSlipstream` | `0x81dd870620839a927d076Cbe40432cCAA3e53740` [View](https://basescan.org/address/0x81dd870620839a927d076Cbe40432cCAA3e53740#code) |
 | `NewPositionFuseAerodromeSlipstream` | `0x4426a0A9acE4a784AbB0417B88bc9f3091aC210F` [View](https://basescan.org/address/0x4426a0A9acE4a784AbB0417B88bc9f3091aC210F#code) |
 | `RequestFeeRefundFuse` | `0x87Ebf5F74fAb3fEbdD9Dff97E010974674D2E826` [View](https://basescan.org/address/0x87Ebf5F74fAb3fEbdD9Dff97E010974674D2E826#code) |
 | `RequestFeeRefundFuse` | `0xa47Ba8FE6110AC337C3f71BE4aff802538aF0468` [View](https://basescan.org/address/0xa47Ba8FE6110AC337C3f71BE4aff802538aF0468#code) |
 | `RewardEulerTokenClaimFuse` | `0x2627a9829b00816C5FC54196bFDfD1C8EC999540` [View](https://basescan.org/address/0x2627a9829b00816C5FC54196bFDfD1C8EC999540#code) |
+| `SupplyFuseAaveV3` | `0x26fD6EF391E98C78CfCA27e00c3d15be4D941625` [View](https://basescan.org/address/0x26fD6EF391E98C78CfCA27e00c3d15be4D941625#code) |
 | `SupplyFuseAaveV3` | `0x44dcB8A4c40FA9941d99F409b2948FE91B6C15d5` [View](https://basescan.org/address/0x44dcB8A4c40FA9941d99F409b2948FE91B6C15d5#code) |
+| `SupplyFuseAaveV4` | `0xCd416C41a2AC597cB0DB4AA561cEF33553bCA3B0` [View](https://basescan.org/address/0xCd416C41a2AC597cB0DB4AA561cEF33553bCA3B0#code) |
+| `SupplyFuseCompoundV3WEth` | `0xD72Dd19C04362488a4143F43e407ec87A849b72b` [View](https://basescan.org/address/0xD72Dd19C04362488a4143F43e407ec87A849b72b#code) |
+| `SupplyFuseErc4626Market1` | `0xc45d1676514fcB39BC3B9F74a08985242545FAAd` [View](https://basescan.org/address/0xc45d1676514fcB39BC3B9F74a08985242545FAAd#code) |
 | `SupplyFuseErc4626Market1` | `0xbe8ab5217F4f251E4A667650fc34a63035C231a8` [View](https://basescan.org/address/0xbe8ab5217F4f251E4A667650fc34a63035C231a8#code) |
+| `SupplyFuseErc4626Market10` | `0xf8Bc79A9B0B3cbc2C34822e6BE33c6aB0b398bb0` [View](https://basescan.org/address/0xf8Bc79A9B0B3cbc2C34822e6BE33c6aB0b398bb0#code) |
 | `SupplyFuseErc4626Market10` | `0xF4FB53B8831DD70b628F225Ab8BbAadC0A93E2dC` [View](https://basescan.org/address/0xF4FB53B8831DD70b628F225Ab8BbAadC0A93E2dC#code) |
+| `SupplyFuseErc4626Market11` | `0x60a657a9E14aFFd550fD52A0Dd064a1Bfe7a6B69` [View](https://basescan.org/address/0x60a657a9E14aFFd550fD52A0Dd064a1Bfe7a6B69#code) |
 | `SupplyFuseErc4626Market11` | `0x25c275CbFFb6539D81e00AFcdbFDbd962f5d3202` [View](https://basescan.org/address/0x25c275CbFFb6539D81e00AFcdbFDbd962f5d3202#code) |
+| `SupplyFuseErc4626Market12` | `0xf4826d42bA4b5a51F9eF224694a0456071BD5AFF` [View](https://basescan.org/address/0xf4826d42bA4b5a51F9eF224694a0456071BD5AFF#code) |
 | `SupplyFuseErc4626Market12` | `0x32df46Cff7e6Cab610ed6113D7A57F242d061D68` [View](https://basescan.org/address/0x32df46Cff7e6Cab610ed6113D7A57F242d061D68#code) |
+| `SupplyFuseErc4626Market13` | `0x65aC03D3c899B00E815d26d43746E55671Ff4D21` [View](https://basescan.org/address/0x65aC03D3c899B00E815d26d43746E55671Ff4D21#code) |
 | `SupplyFuseErc4626Market13` | `0x8598432cda45fd6dC836728d6B12f325f78b62b6` [View](https://basescan.org/address/0x8598432cda45fd6dC836728d6B12f325f78b62b6#code) |
+| `SupplyFuseErc4626Market14` | `0xbf3B3182ad09c79fF63c2623A3811F3B9652Be04` [View](https://basescan.org/address/0xbf3B3182ad09c79fF63c2623A3811F3B9652Be04#code) |
 | `SupplyFuseErc4626Market14` | `0xe1Cce1485F5A22D64b89D8E0ba2190Ca4e8f1eA2` [View](https://basescan.org/address/0xe1Cce1485F5A22D64b89D8E0ba2190Ca4e8f1eA2#code) |
+| `SupplyFuseErc4626Market2` | `0x872e1eF7aEf0f93a7b1268504AcdD8690321d4D4` [View](https://basescan.org/address/0x872e1eF7aEf0f93a7b1268504AcdD8690321d4D4#code) |
 | `SupplyFuseErc4626Market2` | `0xed5Ec535e6e6a3051105A8Ea2E8Bd178951A9EAc` [View](https://basescan.org/address/0xed5Ec535e6e6a3051105A8Ea2E8Bd178951A9EAc#code) |
+| `SupplyFuseErc4626Market3` | `0x3E7b814Ab88774b8c7070Bd86BD34d979a8C0dDE` [View](https://basescan.org/address/0x3E7b814Ab88774b8c7070Bd86BD34d979a8C0dDE#code) |
 | `SupplyFuseErc4626Market3` | `0xdA0711a0b1B1dD289c4D7C08704Dd1e4cceA80C1` [View](https://basescan.org/address/0xdA0711a0b1B1dD289c4D7C08704Dd1e4cceA80C1#code) |
+| `SupplyFuseErc4626Market4` | `0x0108FDaC9360F531fC208d56A02F88352FCFc434` [View](https://basescan.org/address/0x0108FDaC9360F531fC208d56A02F88352FCFc434#code) |
 | `SupplyFuseErc4626Market4` | `0xb187050408857FC2a57be0a5618e39b331425E77` [View](https://basescan.org/address/0xb187050408857FC2a57be0a5618e39b331425E77#code) |
+| `SupplyFuseErc4626Market5` | `0xCa79f613F189dF56bEe39f7993E16527CaDeff7f` [View](https://basescan.org/address/0xCa79f613F189dF56bEe39f7993E16527CaDeff7f#code) |
 | `SupplyFuseErc4626Market5` | `0x633d78849fb91a336077ff25aFC3c72c8f6a7045` [View](https://basescan.org/address/0x633d78849fb91a336077ff25aFC3c72c8f6a7045#code) |
+| `SupplyFuseErc4626Market6` | `0x2952D8badce956d384562bC894dA2F0DbC013505` [View](https://basescan.org/address/0x2952D8badce956d384562bC894dA2F0DbC013505#code) |
 | `SupplyFuseErc4626Market6` | `0xF3ce837D8eBA7332Ce16b698d8262247d6CB277D` [View](https://basescan.org/address/0xF3ce837D8eBA7332Ce16b698d8262247d6CB277D#code) |
+| `SupplyFuseErc4626Market7` | `0x18824Ccb0C3BD299c053Ce7b20232A54897eBa7f` [View](https://basescan.org/address/0x18824Ccb0C3BD299c053Ce7b20232A54897eBa7f#code) |
 | `SupplyFuseErc4626Market7` | `0x928c217E669d9F0F3fc08fB8AC322133a12E1F43` [View](https://basescan.org/address/0x928c217E669d9F0F3fc08fB8AC322133a12E1F43#code) |
+| `SupplyFuseErc4626Market8` | `0xb9fBD5230C8b7fb13C403aba9515EC853FdEE7F0` [View](https://basescan.org/address/0xb9fBD5230C8b7fb13C403aba9515EC853FdEE7F0#code) |
 | `SupplyFuseErc4626Market8` | `0x5b36e95AbfF98a476FBAeB3E2434deE3EB463F48` [View](https://basescan.org/address/0x5b36e95AbfF98a476FBAeB3E2434deE3EB463F48#code) |
+| `SupplyFuseErc4626Market9` | `0xdD6D29D3CE44d3F7Aa8836914eB7DB7F38C3EeB1` [View](https://basescan.org/address/0xdD6D29D3CE44d3F7Aa8836914eB7DB7F38C3EeB1#code) |
 | `SupplyFuseErc4626Market9` | `0xc3B44addfAe29fD170196C324bA0C233C870c77a` [View](https://basescan.org/address/0xc3B44addfAe29fD170196C324bA0C233C870c77a#code) |
+| `SupplyFuseEulerV2` | `0x598326fcEDE2C1B8E9023a20C18FFf6Dea5306A4` [View](https://basescan.org/address/0x598326fcEDE2C1B8E9023a20C18FFf6Dea5306A4#code) |
 | `SupplyFuseEulerV2` | `0x96901b9A10f2A7f856a97ff148c4Cf3A0077d1ab` [View](https://basescan.org/address/0x96901b9A10f2A7f856a97ff148c4Cf3A0077d1ab#code) |
 | `SupplyFuseEulerV2` | `0xFa00806c871558ceF982DFc02D7a87e4Ad0ec0Fa` [View](https://basescan.org/address/0xFa00806c871558ceF982DFc02D7a87e4Ad0ec0Fa#code) |
+| `SupplyFuseFluidInstadappPoolFToken` | `0x15A1e2950dA9Ec0DA69a704b8940F01BdDdE86Ab` [View](https://basescan.org/address/0x15A1e2950dA9Ec0DA69a704b8940F01BdDdE86Ab#code) |
+| `SupplyFuseMetaMorphoMarket0001` | `0x33Ed640Fc033A9BBE96c8469D1f32b106a4Ae8C9` [View](https://basescan.org/address/0x33Ed640Fc033A9BBE96c8469D1f32b106a4Ae8C9#code) |
+| `SupplyFuseMoonwell` | `0xC4a62Bd86dB7dd61a875611b2220f9ab6e14FFbf` [View](https://basescan.org/address/0xC4a62Bd86dB7dd61a875611b2220f9ab6e14FFbf#code) |
+| `SupplyFuseMorpho` | `0xae93EF3cf337b9599F0dfC12520c3C281637410F` [View](https://basescan.org/address/0xae93EF3cf337b9599F0dfC12520c3C281637410F#code) |
+| `SupplyFuseMorphoLiquidityInMarkets` | `0xd4254b16d21205572e060A20CccDCFC616d5ab79` [View](https://basescan.org/address/0xd4254b16d21205572e060A20CccDCFC616d5ab79#code) |
+| `SwapDeployFuseEulerV2` | `0x0Db8d3fD81900FF95ca25D7bc30a4DA1b289E670` [View](https://basescan.org/address/0x0Db8d3fD81900FF95ca25D7bc30a4DA1b289E670#code) |
 | `SwapFuseUniversalTokenSwapper` | `0x4d9cbA074b00249D0a7d390Ff8f038dE3Ae23317` [View](https://basescan.org/address/0x4d9cbA074b00249D0a7d390Ff8f038dE3Ae23317#code) |
+| `SwapReconfigureFuseEulerV2` | `0x11187bac7f13475F4ACe42FCeA72A4f3b9FddBF1` [View](https://basescan.org/address/0x11187bac7f13475F4ACe42FCeA72A4f3b9FddBF1#code) |
+| `SwapRegistryFuseEulerV2` | `0x49b9a2f243ab72a51cE78C0215F4FF9708abF923` [View](https://basescan.org/address/0x49b9a2f243ab72a51cE78C0215F4FF9708abF923#code) |
 
 ### Unichain Fuses
 
@@ -1342,7 +1400,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 ## PreHooks List
 
-*Last updated: 2026-11-20 02:45:55 UTC*
+*Last updated: 2026-11-24 01:33:49 UTC*
 
 ### Ethereum PreHooks
 
@@ -1373,6 +1431,7 @@ In this repository you can find all ABIs of deployed smart contracts and all add
 
 | PreHook Name | Address / View in Explorer |
 |-----------|---------------------------|
+| `CrosschainNavValidationPreHook` | `0xf814AbAD7664E61c328A50Ed02197A89127d0A57` [View](https://basescan.org/address/0xf814AbAD7664E61c328A50Ed02197A89127d0A57#code) |
 | `ExchangeRateValidatorPreHook` | `0xa959454ed4e72fC23E2c406F17509AEd98ae75Ee` [View](https://basescan.org/address/0xa959454ed4e72fC23E2c406F17509AEd98ae75Ee#code) |
 | `ExternalStatePausePreHook` | `0x3F0e3133791FD0424B490039Bb7aD7a16C699Ca8` [View](https://basescan.org/address/0x3F0e3133791FD0424B490039Bb7aD7a16C699Ca8#code) |
 | `PreHookPauseFunction` | `0x10e64e5F2f2BD098F31849B48d0BA1B92331cE88` [View](https://basescan.org/address/0x10e64e5F2f2BD098F31849B48d0BA1B92331cE88#code) |
